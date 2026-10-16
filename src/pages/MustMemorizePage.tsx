@@ -337,7 +337,7 @@ export default function MustMemorizePage() {
 
       <div className="mm-head">
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-          <h1 className="page-title" style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, margin: 0 }}>
+          <h1 className="page-title" style={{ margin: 0 }}>
             📖 必背
           </h1>
         </div>

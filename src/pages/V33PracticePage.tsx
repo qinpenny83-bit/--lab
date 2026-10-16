@@ -370,7 +370,7 @@ export default function V33PracticePage() {
         })()}
       </div>
 
-      <h1 className="page-title" style={{ fontSize: 20, margin: '6px 0 2px' }}>{node.topic}</h1>
+      <h1 className="page-title" style={{ fontSize: 21, margin: '6px 0 2px' }}>{node.topic}</h1>
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center', margin: '6px 0 12px' }}>
         <span className={'tag ' + statusMeta.cls}>{statusMeta.label}</span>
         <span className="tag">难度 {node.difficulty} · {LEVEL_LABEL[node.difficulty] ?? node.difficulty}</span>

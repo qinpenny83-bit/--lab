@@ -27,8 +27,8 @@
   --line: rgba(96, 76, 44, 0.14);
   --radius: 16px;
   --radius-sm: 10px;
-  --shadow: 0 2px 12px rgba(70, 56, 30, 0.06);
-  --shadow-lg: 0 12px 36px rgba(70, 56, 30, 0.1);
+  --shadow: 0 1px 2px rgba(70, 56, 30, 0.04), 0 4px 16px rgba(70, 56, 30, 0.06);
+  --shadow-lg: 0 6px 18px rgba(70, 56, 30, 0.08), 0 18px 44px rgba(70, 56, 30, 0.1);
   --font-serif: 'Noto Serif SC', 'Songti SC', 'STSong', 'SimSun', serif;
   --font-sans: 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
 }
@@ -95,7 +95,13 @@ h1, h2, h3 {
   background: rgba(246, 241, 230, 0.9);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
-  padding: 10px 24px;
+  padding: 10px 18px;
+}
+
+.topbar-inner {
+  width: 100%;
+  max-width: 1060px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -130,6 +136,7 @@ h1, h2, h3 {
 .topnav {
   display: none;
   gap: 2px;
+  margin-left: auto;
   overflow-x: auto;
 }
 
@@ -163,7 +170,7 @@ h1, h2, h3 {
 .main {
   max-width: 1060px;
   margin: 0 auto;
-  padding: 28px 18px 104px;
+  padding: 26px 18px 104px;
 }
 
 .main-practice {
@@ -212,7 +219,7 @@ h1, h2, h3 {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
 }
 
 .page-narrow {
@@ -231,16 +238,27 @@ h1, h2, h3 {
   font-size: 26px;
   color: var(--ink);
   letter-spacing: 1px;
+  line-height: 1.4;
 }
 
 .pagehead p {
-  margin-top: 4px;
+  margin-top: 6px;
   color: var(--ink-2);
   font-size: 15.5px;
 }
 
 .pagehead-right {
   flex-shrink: 0;
+}
+
+/* 页面主标题（Journey / 必背 / 修炼页共用，统一字阶） */
+.page-title {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.4;
+  letter-spacing: 0.5px;
 }
 
 .card {
@@ -2649,7 +2667,36 @@ h1, h2, h3 {
   }
 
   .page {
-    gap: 20px;
+    gap: 22px;
+  }
+
+  .home-v35 {
+    max-width: 760px;
+    gap: 22px;
+  }
+
+  .home-sub {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    align-items: stretch;
+  }
+
+  .status-card {
+    height: 100%;
+  }
+
+  .explore-card {
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--card);
+    box-shadow: var(--shadow);
+    padding: 16px 18px;
+    justify-content: center;
+  }
+
+  .explore-chip {
+    font-size: 14px;
+    padding: 6px 12px;
   }
 }
 
@@ -2677,6 +2724,19 @@ h1, h2, h3 {
 
   .mastery-row {
     grid-template-columns: 96px 1fr 40px;
+  }
+
+  .main {
+    padding: 20px 14px 100px;
+  }
+
+  .page {
+    gap: 16px;
+  }
+
+  .card {
+    padding: 16px;
+    border-radius: 14px;
   }
 }
 
@@ -3146,7 +3206,7 @@ h1, h2, h3 {
 .node-state.ms-mastered { color: var(--green-deep); background: var(--green-soft); }
 
 /* ---- 学习单元播放器 ---- */
-.unit-player { display: flex; flex-direction: column; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 20px; }
+.unit-player { display: flex; flex-direction: column; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; }
 .unit-title { font-family: var(--font-serif); font-size: 19px; color: var(--ink); font-weight: 700; line-height: 1.5; }
 .unit-objective { font-size: 14.5px; color: var(--blue); background: var(--blue-soft); border-radius: 10px; padding: 9px 12px; line-height: 1.65; }
 .unit-content { font-size: 15px; color: var(--ink); line-height: 1.9; }
@@ -3175,7 +3235,7 @@ h1, h2, h3 {
 .funfact-box b { color: #3a5bbf; }
 
 /* ---- 杏林推理八步 ---- */
-.reasoning-player { display: flex; flex-direction: column; gap: 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px 20px; }
+.reasoning-player { display: flex; flex-direction: column; gap: 16px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px; }
 .reasoning-head { display: flex; flex-direction: column; gap: 4px; }
 .reasoning-sub { font-size: 15.5px; color: var(--ink-3); }
 .reasoning-scenario { font-size: 16px; color: var(--ink-2); background: var(--bg-soft); border-radius: 10px; padding: 12px 14px; line-height: 1.8; }
@@ -3248,12 +3308,19 @@ h1, h2, h3 {
    东方 · 克制 · 大留白 · 细边框 · 低饱和
    ============================================================ */
 .home-v35 {
-  max-width: 680px;
+  max-width: 720px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 20px;
   padding: 4px 0 8px;
+}
+
+/* ---- 首页次栏：状态 + 探索（≥900px 双栏，移动端单列） ---- */
+.home-sub {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* ---- 首屏：今日修炼（唯一视觉焦点） ---- */
@@ -3268,7 +3335,7 @@ h1, h2, h3 {
   border: 1px solid rgba(176, 138, 63, 0.28);
   border-radius: 22px;
   box-shadow: var(--shadow-lg);
-  padding: 28px 24px 26px;
+  padding: 26px 24px;
   overflow: hidden;
 }
 
@@ -3316,6 +3383,10 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   gap: 3px;
+  background: rgba(62, 109, 85, 0.05);
+  border-radius: 10px;
+  padding: 10px 14px;
+  border: 1px solid rgba(62, 109, 85, 0.1);
 }
 
 .focus-whyn-text {
@@ -3347,12 +3418,13 @@ h1, h2, h3 {
   border-radius: var(--radius-sm);
   padding: 9px 12px;
   line-height: 1.4;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .focus-step:hover {
   border-color: rgba(176, 138, 63, 0.45);
   transform: translateY(-1px);
+  box-shadow: var(--shadow);
 }
 
 .focus-step em {
@@ -3401,6 +3473,11 @@ h1, h2, h3 {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.5px;
+  border-radius: 14px;
+}
+
+.btn-cta:hover:not(:disabled) {
+  transform: translateY(-1px);
 }
 
 /* ---- 修炼状态（克制提示位置与去向） ---- */
@@ -3443,6 +3520,19 @@ h1, h2, h3 {
 }
 
 /* ---- 探索入口（低调） ---- */
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.explore-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-3);
+  letter-spacing: 1px;
+}
+
 .explore-row {
   display: flex;
   flex-wrap: wrap;
@@ -3555,9 +3645,12 @@ h1, h2, h3 {
 
 /* ---- 移动端微调 ---- */
 @media (max-width: 479px) {
-  .focus-hero { padding: 22px 18px; }
+  .home-v35 { gap: 16px; }
+  .home-sub { gap: 16px; }
+  .focus-hero { padding: 20px 16px; }
   .focus-title { font-size: 24px; }
   .focus-steps { grid-template-columns: 1fr; }
+  .focus-whyn { padding: 9px 12px; }
   .status-card { flex-direction: column; align-items: flex-start; }
   .status-more { align-self: flex-end; }
 }

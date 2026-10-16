@@ -24,23 +24,25 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="app">
       <header className="topbar">
-        <Link to="/" className="brand">
-          <span className="brand-emoji">🌿</span>
-          <span className="brand-name">中医修炼馆</span>
-          <span className="brand-sub">不是教你背中医，而是教你学会中医的思维方式</span>
-        </Link>
-        <nav className="topnav">
-          {DESKTOP_NAV.map((n) => (
-            <NavLink
-              key={n.to}
-              to={n.to}
-              className={({ isActive }) => 'topnav-link' + (isActive ? ' active' : '')}
-            >
-              <span className="topnav-icon">{n.icon}</span>
-              {n.label}
-            </NavLink>
-          ))}
-        </nav>
+        <div className="topbar-inner">
+          <Link to="/" className="brand">
+            <span className="brand-emoji">🌿</span>
+            <span className="brand-name">中医修炼馆</span>
+            <span className="brand-sub">不是教你背中医，而是教你学会中医的思维方式</span>
+          </Link>
+          <nav className="topnav">
+            {DESKTOP_NAV.map((n) => (
+              <NavLink
+                key={n.to}
+                to={n.to}
+                className={({ isActive }) => 'topnav-link' + (isActive ? ' active' : '')}
+              >
+                <span className="topnav-icon">{n.icon}</span>
+                {n.label}
+              </NavLink>
+            ))}
+          </nav>
+        </div>
       </header>
 
       <main className={'main' + (isPractice ? ' main-practice' : '')}>{children}</main>

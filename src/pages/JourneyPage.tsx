@@ -124,11 +124,11 @@ export default function JourneyPage() {
   };
 
   return (
-    <div className="page-page" style={{ maxWidth: 760, margin: '0 auto', padding: '16px 14px 80px' }}>
+    <div className="page-page" style={{ maxWidth: 760, margin: '0 auto', padding: '4px 0 0' }}>
       {/* 头部 */}
       <div style={{ marginBottom: 24 }}>
         <button className="back-link" onClick={() => navigate('/')}>← 返回首页</button>
-        <h1 className="page-title" style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, marginTop: 8, display: 'flex', alignItems: 'center', gap: 8 }}>
+        <h1 className="page-title" style={{ marginTop: 8, display: 'flex', alignItems: 'center', gap: 8 }}>
           🛤️ 我的修炼之路
         </h1>
         <p style={{ color: 'var(--ink-2)', fontSize: 14.5, marginTop: 4 }}>

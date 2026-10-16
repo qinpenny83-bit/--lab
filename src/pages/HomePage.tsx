@@ -250,36 +250,40 @@ export default function HomePage() {
         </button>
       </section>
 
-      {/* ===== 你的修炼状态（克制地提示位置与去向） ===== */}
-      <section className="card status-card rise d2">
-        <div className="status-left">
-          <span className="status-realm-icon">{realm.icon}</span>
-          <div className="status-realm">
-            <div className="status-realm-name">
-              {realm.title} · <span className="status-stage">{stage.title}</span>
+      {/* ===== 次栏：修炼状态 + 探索入口（桌面双栏，移动单列） ===== */}
+      <div className="home-sub">
+        <section className="card status-card rise d2">
+          <div className="status-left">
+            <span className="status-realm-icon">{realm.icon}</span>
+            <div className="status-realm">
+              <div className="status-realm-name">
+                {realm.title} · <span className="status-stage">{stage.title}</span>
+              </div>
+              <div className="node-bar status-bar">
+                <div className="node-bar-fill" style={{ width: `${stagePct}%` }} />
+              </div>
+              {recentMastering.length ? (
+                <div className="status-recent">最近正在掌握：{recentMastering.join(' / ')}</div>
+              ) : null}
             </div>
-            <div className="node-bar status-bar">
-              <div className="node-bar-fill" style={{ width: `${stagePct}%` }} />
-            </div>
-            {recentMastering.length ? (
-              <div className="status-recent">最近正在掌握：{recentMastering.join(' / ')}</div>
-            ) : null}
           </div>
-        </div>
-        <Link to="/journey" className="status-more">
-          查看我的修炼之路 →
-        </Link>
-      </section>
-
-      {/* ===== 探索型入口（低调，不抢主路径） ===== */}
-      <section className="explore-row rise d3">
-        {EXPLORE.map((e) => (
-          <Link key={e.to} to={e.to} className="explore-chip">
-            <span className="explore-icon">{e.icon}</span>
-            {e.name}
+          <Link to="/journey" className="status-more">
+            查看我的修炼之路 →
           </Link>
-        ))}
-      </section>
+        </section>
+
+        <section className="explore-card rise d3">
+          <div className="explore-title">继续探索</div>
+          <div className="explore-row">
+            {EXPLORE.map((e) => (
+              <Link key={e.to} to={e.to} className="explore-chip">
+                <span className="explore-icon">{e.icon}</span>
+                {e.name}
+              </Link>
+            ))}
+          </div>
+        </section>
+      </div>
 
       <SafetyNote />
     </div>
