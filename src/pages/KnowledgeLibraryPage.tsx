@@ -151,7 +151,7 @@ export default function KnowledgeLibraryPage() {
           <div className="sub">隔离即安全，不自动放行</div>
         </div>
         <div className="lib-stat">
-          <div className="num">{producedCount}<span style={{ fontSize: 14, color: 'var(--ink-3)' }}> / 33</span></div>
+          <div className="num">{producedCount}<span style={{ fontSize: 15.5, color: 'var(--ink-3)' }}> / 33</span></div>
           <div className="lbl">已生产学科</div>
           <div className="sub">A/B/C/D/G/L/N/Q 等</div>
         </div>
@@ -283,11 +283,11 @@ export default function KnowledgeLibraryPage() {
           ))
         )}
         <div style={{ marginTop: 12 }}>
-          <h3 style={{ fontSize: 14, marginBottom: 6 }}>审计结论</h3>
+          <h3 style={{ fontSize: 15.5, marginBottom: 6 }}>审计结论</h3>
           {audit ? (
             <div style={{ display: 'grid', gap: 4 }}>
               {Object.entries(audit).map(([k, v]) => (
-                <div key={k} style={{ fontSize: 12.5 }}>
+                <div key={k} style={{ fontSize: 15.5 }}>
                   <span className={
                     v.status === 'PASS' ? 'lib-audit-ok' : v.status === 'INFO' ? 'lib-audit-warn' : 'lib-audit-alert'
                   }>[{v.status}]</span>{' '}
@@ -299,9 +299,9 @@ export default function KnowledgeLibraryPage() {
         </div>
         {batches.length > 0 && (
           <div className="lib-batch">
-            <h3 style={{ fontSize: 14, marginBottom: 6 }}>批次明细（leak-through / 未知来源 / 高危隔离）</h3>
+            <h3 style={{ fontSize: 15.5, marginBottom: 6 }}>批次明细（leak-through / 未知来源 / 高危隔离）</h3>
             {batches.map((b) => (
-              <div key={String(b.batch)} style={{ fontSize: 12.5, marginBottom: 4 }}>
+              <div key={String(b.batch)} style={{ fontSize: 15.5, marginBottom: 4 }}>
                 <b>{String(b.batch)}</b>：
                 leak-through {JSON.stringify(b.leakThrough)} · 未知来源 {String((b.unknownSourceRatio as Record<string, unknown>)?.pct ?? '?')}% · 高危隔离 {String((b.highRiskIsolationRate as Record<string, unknown>)?.pct ?? '?')}%
               </div>
@@ -326,7 +326,7 @@ function NodeRow({
     <div className="lib-node-row" onClick={onToggle}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10, padding: '8px 4px', borderBottom: '1px solid var(--line-soft, rgba(0,0,0,0.05))', flexWrap: 'wrap' }}>
         <div style={{ minWidth: 0 }}>
-          <b style={{ fontSize: 13.5 }}>{node.topic}</b>
+          <b style={{ fontSize: 15 }}>{node.topic}</b>
           <span className="t-sm" style={{ marginLeft: 8 }}>{node.nodeId}</span>
           {node.subjectName ? <span className="t-sm" style={{ marginLeft: 8 }}>{node.subjectName}</span> : null}
         </div>

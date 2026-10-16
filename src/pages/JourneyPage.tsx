@@ -131,7 +131,7 @@ export default function JourneyPage() {
         <h1 className="page-title" style={{ fontFamily: 'var(--font-serif)', fontSize: 22, fontWeight: 700, marginTop: 8, display: 'flex', alignItems: 'center', gap: 8 }}>
           🛤️ 我的修炼之路
         </h1>
-        <p style={{ color: 'var(--ink-2)', fontSize: 13, marginTop: 4 }}>
+        <p style={{ color: 'var(--ink-2)', fontSize: 14.5, marginTop: 4 }}>
           八境循序渐进，完整覆盖蓝图全部 33 学科、{allNodes.length} 个知识节点，分属四大板块。
         </p>
         {/* 四大板块图例 */}
@@ -139,7 +139,7 @@ export default function JourneyPage() {
           {PLATES.map((pl) => {
             const cnt = v33Subjects.filter((s) => pl.codes.includes(s.code)).length;
             return (
-              <span key={pl.key} style={{ fontSize: 12, fontWeight: 600, background: pl.bg, color: pl.fg, borderRadius: 999, padding: '4px 12px' }}>
+              <span key={pl.key} style={{ fontSize: 13.5, fontWeight: 600, background: pl.bg, color: pl.fg, borderRadius: 999, padding: '4px 12px' }}>
                 {pl.icon} {pl.tag} · {cnt}科
               </span>
             );
@@ -153,8 +153,8 @@ export default function JourneyPage() {
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
             <span style={{ fontSize: 30 }}>🧭</span>
             <div style={{ flex: 1, minWidth: 200 }}>
-              <div style={{ fontWeight: 700, fontSize: 14 }}>新手这样走更顺</div>
-              <div style={{ fontSize: 12.5, color: 'var(--ink-2)', marginTop: 2, lineHeight: 1.6 }}>
+              <div style={{ fontWeight: 700, fontSize: 15.5 }}>新手这样走更顺</div>
+              <div style={{ fontSize: 15.5, color: 'var(--ink-2)', marginTop: 2, lineHeight: 1.6 }}>
                 八境全部开放，想逛哪境都行；建议从第一境「入门·基础认知」开始打地基，一路循序渐进。
               </div>
             </div>
@@ -180,13 +180,13 @@ export default function JourneyPage() {
             <div style={{ fontWeight: 700, fontSize: 20, fontFamily: 'var(--font-serif)' }}>
               {currentRealm.name}
             </div>
-            <div style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 2 }}>
+            <div style={{ fontSize: 14.5, color: 'var(--ink-2)', marginTop: 2 }}>
               {currentRealm.desc} · 已完成 {completedCount}/8 境
             </div>
             <div className="node-bar" style={{ marginTop: 8 }}>
               <div className="node-bar-fill" style={{ width: `${overallProgress}%` }} />
             </div>
-            <div style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 4 }}>
+            <div style={{ fontSize: 13.5, color: 'var(--ink-3)', marginTop: 4 }}>
               整体进度：{masteredTotal}/{allNodes.length} 知识点掌握 · {overallProgress}%
             </div>
           </div>
@@ -215,41 +215,41 @@ export default function JourneyPage() {
               <div style={{ padding: '18px 20px' }}>
                 <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
                   <div style={{ flex: 1 }}>
-                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 11, fontWeight: 600, background: 'rgba(255,255,255,0.18)', borderRadius: 999, padding: '3px 10px' }}>
+                    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 6, fontSize: 12.5, fontWeight: 600, background: 'rgba(255,255,255,0.18)', borderRadius: 999, padding: '3px 10px' }}>
                       🏮 第一境 · 核心学科
                     </div>
                     <div style={{ fontSize: 22, fontWeight: 800, fontFamily: 'var(--font-serif)', marginTop: 8 }}>
                       🍀 中医基础理论
                     </div>
-                    <div style={{ fontSize: 12.5, opacity: 0.88, marginTop: 4, lineHeight: 1.6 }}>
+                    <div style={{ fontSize: 15.5, opacity: 0.88, marginTop: 4, lineHeight: 1.6 }}>
                       整体观念 · 阴阳五行 · 藏象 · 气血津液 —— 中医思维的根，全部 33 学科的地基。
                     </div>
                   </div>
                   <div style={{ textAlign: 'right', whiteSpace: 'nowrap' }}>
                     <div style={{ fontSize: 26, fontWeight: 800 }}>
                       {mastered}
-                      <span style={{ fontSize: 13, fontWeight: 600, opacity: 0.75 }}>/{snodes.length}</span>
+                      <span style={{ fontSize: 14.5, fontWeight: 600, opacity: 0.75 }}>/{snodes.length}</span>
                     </div>
-                    <div style={{ fontSize: 11.5, opacity: 0.8 }}>知识点已掌握</div>
+                    <div style={{ fontSize: 14.5, opacity: 0.8 }}>知识点已掌握</div>
                   </div>
                 </div>
                 <div className="node-bar" style={{ marginTop: 12, background: 'rgba(255,255,255,0.25)' }}>
                   <div className="node-bar-fill" style={{ width: `${pct}%`, background: '#fff' }} />
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 14, gap: 10, flexWrap: 'wrap' }}>
-                  <span style={{ fontSize: 12.5, opacity: 0.92 }}>
+                  <span style={{ fontSize: 15.5, opacity: 0.92 }}>
                     {allDone ? '🌟 已全掌握——中医思维的根已扎稳！' : `进度 ${pct}% · 还有 ${snodes.length - mastered} 个待掌握`}
                   </span>
                   {pending ? (
                     <button
                       className="btn"
-                      style={{ background: '#fff', color: '#1d5c41', fontWeight: 700, borderRadius: 999, padding: '9px 20px', border: 'none', cursor: 'pointer', fontSize: 14 }}
+                      style={{ background: '#fff', color: '#1d5c41', fontWeight: 700, borderRadius: 999, padding: '9px 20px', border: 'none', cursor: 'pointer', fontSize: 15.5 }}
                       onClick={() => navigate(`/practice/${pending.nodeId}`)}
                     >
                       继续修炼 →
                     </button>
                   ) : (
-                    <span style={{ fontSize: 12.5, fontWeight: 600 }}>🎉 全部拿下</span>
+                    <span style={{ fontSize: 15.5, fontWeight: 600 }}>🎉 全部拿下</span>
                   )}
                 </div>
               </div>
@@ -270,7 +270,7 @@ export default function JourneyPage() {
                 style={{
                   padding: '4px 10px',
                   borderRadius: 999,
-                  fontSize: 12,
+                  fontSize: 13.5,
                   fontWeight: 600,
                   cursor: 'pointer',
                   background: isDone ? 'var(--green-soft)' : isActive ? 'var(--gold-soft)' : 'var(--bg-soft)',
@@ -323,7 +323,7 @@ export default function JourneyPage() {
                       {stateLabel(sp.state)}
                     </span>
                     {isCurrent ? (
-                      <span style={{ fontSize: 10, color: '#8a651c', background: 'var(--gold-soft)', borderRadius: 999, padding: '1px 7px' }}>
+                      <span style={{ fontSize: 11, color: '#8a651c', background: 'var(--gold-soft)', borderRadius: 999, padding: '1px 7px' }}>
                         当前
                       </span>
                     ) : null}
@@ -332,7 +332,7 @@ export default function JourneyPage() {
                   <div className="node-bar">
                     <div className="node-bar-fill" style={{ width: `${progressPct}%` }} />
                   </div>
-                  <span style={{ fontSize: 11, color: 'var(--ink-3)', marginTop: 2 }}>
+                  <span style={{ fontSize: 12.5, color: 'var(--ink-3)', marginTop: 2 }}>
                     {mastered}/{total} 知识点 · {subs.length} 个学科
                     {isLocked ? ` · 🗝️ 需要完成前置境界` : ''}
                   </span>
@@ -347,7 +347,7 @@ export default function JourneyPage() {
               {/* 展开详情：学科 → 节点 */}
               {expandedStage === stageId && !isLocked ? (
                 <div style={{ padding: '0 12px 12px 12px', animation: 'rise 0.25s ease' }}>
-                  <p style={{ fontSize: 13, color: 'var(--ink-2)', margin: '8px 0 14px', lineHeight: 1.6 }}>
+                  <p style={{ fontSize: 14.5, color: 'var(--ink-2)', margin: '8px 0 14px', lineHeight: 1.6 }}>
                     {meta.desc}
                   </p>
 
@@ -378,24 +378,24 @@ export default function JourneyPage() {
                           }}
                         >
                           <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-                            <span style={{ fontSize: 11, fontWeight: 600, background: pl.bg, color: pl.fg, borderRadius: 999, padding: '2px 8px' }}>
+                            <span style={{ fontSize: 12.5, fontWeight: 600, background: pl.bg, color: pl.fg, borderRadius: 999, padding: '2px 8px' }}>
                               {pl.icon} {pl.tag}
                             </span>
-                            <span style={{ fontWeight: 700, fontSize: 13 }}>{s.code} · {s.name}</span>
-                            <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+                            <span style={{ fontWeight: 700, fontSize: 14.5 }}>{s.code} · {s.name}</span>
+                            <span style={{ fontSize: 12.5, color: 'var(--ink-3)' }}>
                               {TYPE_LABEL[s.type] ?? s.type}{s.status === 'ext' ? ' · 扩展' : ''}
                             </span>
-                            <span style={{ fontSize: 11, color: 'var(--ink-3)' }}>
+                            <span style={{ fontSize: 12.5, color: 'var(--ink-3)' }}>
                               目标 {s.target[0]}–{s.target[1]}
                             </span>
                           </div>
-                          <span style={{ fontSize: 12, color: 'var(--ink-3)' }}>
+                          <span style={{ fontSize: 13.5, color: 'var(--ink-3)' }}>
                             {sMastered}/{sNodes.length}{expanded ? ' −' : ' +'}
                           </span>
                         </div>
                         {expanded ? (
                           <div style={{ padding: '8px 14px' }}>
-                            <p style={{ fontSize: 12, color: 'var(--ink-2)', marginBottom: 8 }}>
+                            <p style={{ fontSize: 13.5, color: 'var(--ink-2)', marginBottom: 8 }}>
                               {s.current >= s.target[0] ? '✓ 已达下限目标' : `缺口 ${s.target[0] - s.current}–${s.target[1] - s.current}`}
                               {s.honestyGap ? ` · 诚实缺口：${s.honestyGap}` : ''}
                             </p>
@@ -413,18 +413,18 @@ export default function JourneyPage() {
                                     padding: '6px 8px',
                                     borderRadius: 6,
                                     cursor: isQ ? 'not-allowed' : 'pointer',
-                                    fontSize: 12.5,
+                                    fontSize: 15.5,
                                     opacity: isQ ? 0.6 : 1,
                                     transition: 'background 0.12s',
                                   }}
                                   onMouseEnter={(e) => !isQ && (e.currentTarget.style.background = 'var(--bg-soft)')}
                                   onMouseLeave={(e) => (e.currentTarget.style.background = 'transparent')}
                                 >
-                                  <span className={'node-state' + (ns.cls ? ' ' + ns.cls : '')} style={{ fontSize: 10, padding: '1px 6px' }}>
+                                  <span className={'node-state' + (ns.cls ? ' ' + ns.cls : '')} style={{ fontSize: 11, padding: '1px 6px' }}>
                                     {isQ ? '🔒' : ns.label}
                                   </span>
                                   <span style={{ flex: 1, color: 'var(--ink)' }}>{n.topic}</span>
-                                  <span style={{ color: 'var(--ink-3)', fontSize: 11 }}>
+                                  <span style={{ color: 'var(--ink-3)', fontSize: 12.5 }}>
                                     {n.difficulty}级 · {DIFF_LABEL[n.difficulty] ?? n.difficulty}
                                   </span>
                                 </div>
@@ -439,14 +439,14 @@ export default function JourneyPage() {
                   {/* 第一境：☯️ 阴阳黄金关卡入口 */}
                   {stageId === 'stage1' ? (
                     <div className="card" style={{ padding: '12px 14px', marginBottom: 12, background: 'var(--gold-soft)' }}>
-                      <p style={{ fontSize: 13, fontWeight: 700, marginBottom: 4 }}>☯️ 阴阳探索 · 黄金关卡</p>
-                      <p style={{ fontSize: 12, color: 'var(--ink-2)', marginBottom: 8 }}>
+                      <p style={{ fontSize: 14.5, fontWeight: 700, marginBottom: 4 }}>☯️ 阴阳探索 · 黄金关卡</p>
+                      <p style={{ fontSize: 13.5, color: 'var(--ink-2)', marginBottom: 8 }}>
                         从一场生活观察开始，亲手发现「阴阳是在比较关系」，再走完案例侦探与迁移。
                       </p>
                       <button
                         onClick={() => navigate('/golden/yinyang')}
                         className="btn btn-primary"
-                        style={{ width: '100%', padding: '9px 0', fontSize: 13 }}
+                        style={{ width: '100%', padding: '9px 0', fontSize: 14.5 }}
                       >
                         进入阴阳探索 →
                       </button>
@@ -456,8 +456,8 @@ export default function JourneyPage() {
                   {/* 第五境：课程播放器入口 */}
                   {stageId === 'stage5' ? (
                     <div className="card" style={{ padding: '12px 14px', marginBottom: 12, background: 'var(--gold-soft)' }}>
-                      <p style={{ fontSize: 13, fontWeight: 700, marginBottom: 4 }}>🎓 一键进入课程（不是知识列表，是一堂真正的课）</p>
-                      <p style={{ fontSize: 12, color: 'var(--ink-2)', marginBottom: 8 }}>
+                      <p style={{ fontSize: 14.5, fontWeight: 700, marginBottom: 4 }}>🎓 一键进入课程（不是知识列表，是一堂真正的课）</p>
+                      <p style={{ fontSize: 13.5, color: 'var(--ink-2)', marginBottom: 8 }}>
                         从教材到八步推理，再到迁移与掌握验证，亲自走完一条完整学习链。
                       </p>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
@@ -472,11 +472,11 @@ export default function JourneyPage() {
                               border: '1px solid var(--line)',
                               background: 'var(--card)',
                               cursor: 'pointer',
-                              fontSize: 12.5,
+                              fontSize: 15.5,
                             }}
                           >
                             <span style={{ fontWeight: 600 }}>{ch.order}. {ch.title}</span>
-                            <span style={{ display: 'block', color: 'var(--ink-3)', fontSize: 11, marginTop: 2 }}>
+                            <span style={{ display: 'block', color: 'var(--ink-3)', fontSize: 12.5, marginTop: 2 }}>
                               {ch.description.slice(0, 46)}{ch.description.length > 46 ? '…' : ''} · 约 {ch.estimatedMinutes} 分钟
                             </span>
                           </button>
@@ -495,14 +495,14 @@ export default function JourneyPage() {
                           if (first) navigate(`/practice/${first}`);
                           else navigate('/journey');
                         }}
-                        style={{ padding: '10px 32px', fontSize: 14 }}
+                        style={{ padding: '10px 32px', fontSize: 15.5 }}
                       >
                         {isCurrent ? '继续修炼' : '开始修炼'} {'→'}
                       </button>
                     </div>
                   ) : null}
                   {isCompleted ? (
-                    <div style={{ marginTop: 12, textAlign: 'center', color: 'var(--green-deep)', fontWeight: 600, fontSize: 14 }}>
+                    <div style={{ marginTop: 12, textAlign: 'center', color: 'var(--green-deep)', fontWeight: 600, fontSize: 15.5 }}>
                       🌟 此境已通关！{STAGE_ORDER.indexOf(stageId) < 7 ? '继续挑战下一境界' : '你已走完全部八境！'}
                     </div>
                   ) : null}

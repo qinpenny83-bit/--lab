@@ -379,7 +379,7 @@ export default function V33PracticePage() {
 
       {isConditional || isQuarantine ? (
         <div className="card" style={{ padding: '10px 14px', marginBottom: 12, background: isQuarantine ? '#fde8e8' : '#fdf1dc', border: '1px solid ' + (isQuarantine ? '#eec' : '#eed' ) }}>
-          <span style={{ fontSize: 12.5, color: isQuarantine ? '#b3382c' : '#a06b10' }}>⚠️ {statusMeta.tip}</span>
+          <span style={{ fontSize: 15.5, color: isQuarantine ? '#b3382c' : '#a06b10' }}>⚠️ {statusMeta.tip}</span>
         </div>
       ) : null}
 
@@ -493,7 +493,7 @@ export default function V33PracticePage() {
       <div className="card learn-card" style={{ marginBottom: 14 }}>
         <div className="sec-title">🧐 二、辨析<span className="sec-tag fam">客观判断</span></div>
         {isQuarantine ? (
-          <p style={{ fontSize: 13, color: 'var(--ink-3)' }}>该节点处于隔离状态，跳过辨析。</p>
+          <p style={{ fontSize: 14.5, color: 'var(--ink-3)' }}>该节点处于隔离状态，跳过辨析。</p>
         ) : (
           <>
             {scene ? (
@@ -503,12 +503,12 @@ export default function V33PracticePage() {
                   <p className="drama-setup">「{scene.speaker}」认真地对你说——</p>
                 ) : null}
                 <div className="trap-statement">「{build.quiz.statement}」</div>
-                <p style={{ fontSize: 13, color: 'var(--ink-2)', marginTop: 4, marginBottom: 8 }}>
+                <p style={{ fontSize: 14.5, color: 'var(--ink-2)', marginTop: 4, marginBottom: 8 }}>
                   上面这句台词，是「正确理解」还是「常见误区」？请判断：
                 </p>
               </div>
             ) : (
-              <p style={{ fontSize: 13, color: 'var(--ink-2)', marginBottom: 8 }}>
+              <p style={{ fontSize: 14.5, color: 'var(--ink-2)', marginBottom: 8 }}>
                 下面这种说法，是「正确理解」还是「常见误区」？请判断：
               </p>
             )}
@@ -528,7 +528,7 @@ export default function V33PracticePage() {
                 <div className="fb-head">{quizResult.correct ? praise : `${soothe} · 这是常见误区`}</div>
                 <p>{build.quiz.explanation}</p>
                 {!quizResult.correct ? (
-                  <p style={{ marginTop: 6, fontSize: 12.5, color: 'var(--ink-2)' }}>
+                  <p style={{ marginTop: 6, fontSize: 15.5, color: 'var(--ink-2)' }}>
                     🔁 回到上面的「先记住这一句」，看一遍再来——错一次，印象更深。
                   </p>
                 ) : null}
@@ -542,7 +542,7 @@ export default function V33PracticePage() {
       <div className="card learn-card" style={{ marginBottom: 14 }}>
         <div className="sec-title">🧠 三、推理<span className="sec-tag var">先说后对</span></div>
         {isQuarantine ? (
-          <p style={{ fontSize: 13, color: 'var(--ink-3)' }}>该节点处于隔离状态，跳过推理。</p>
+          <p style={{ fontSize: 14.5, color: 'var(--ink-3)' }}>该节点处于隔离状态，跳过推理。</p>
         ) : build.reasoning ? (
           <>
             {persona ? (
@@ -591,7 +591,7 @@ export default function V33PracticePage() {
                   📤 交卷，跟师父对招 →
                 </button>
                 {!reasonInput.trim() ? (
-                  <p style={{ marginTop: 6, fontSize: 12, color: 'var(--ink-3)' }}>
+                  <p style={{ marginTop: 6, fontSize: 13.5, color: 'var(--ink-3)' }}>
                     ✍️ 先在框里写下判断（哪怕一句话），交卷按钮才会亮起。
                   </p>
                 ) : null}
@@ -629,7 +629,7 @@ export default function V33PracticePage() {
       <div className="card learn-card" style={{ marginBottom: 14 }}>
         <div className="sec-title">🧭 四、迁移<span className="sec-tag tra">换场实战</span></div>
         {isQuarantine ? (
-          <p style={{ fontSize: 13, color: 'var(--ink-3)' }}>该节点处于隔离状态，跳过迁移。</p>
+          <p style={{ fontSize: 14.5, color: 'var(--ink-3)' }}>该节点处于隔离状态，跳过迁移。</p>
         ) : build.transfer ? (
           <>
             <div className="world-banner">
@@ -662,13 +662,13 @@ export default function V33PracticePage() {
                 {build.coreDefinition ? (
                   <p style={{ marginTop: 6, color: 'var(--ink-2)' }}>{build.coreDefinition}</p>
                 ) : null}
-                <p style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 6 }}>现在换到这个新场景，你能独立分析吗？</p>
+                <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginTop: 6 }}>现在换到这个新场景，你能独立分析吗？</p>
               </div>
             ) : null}
             {transferAction === 'direct' && transferGrade === null ? (
               <div className="recap-box" style={{ background: '#fdf1dc', borderColor: '#eed' }}>
                 <b>🧭 换场提示：</b> 换场景最容易丢的是边界条件——如果答不上来，先回看一眼「先记住这一句」。
-                <p style={{ fontSize: 12, color: 'var(--ink-3)', marginTop: 6 }}>诚实自评：你独立分析出来了吗？</p>
+                <p style={{ fontSize: 13.5, color: 'var(--ink-3)', marginTop: 6 }}>诚实自评：你独立分析出来了吗？</p>
               </div>
             ) : null}
             {transferAction !== null && transferGrade === null ? (
@@ -711,10 +711,10 @@ export default function V33PracticePage() {
               const cur = n.nodeId === node.nodeId;
               return (
                 <Link key={n.nodeId} to={`/practice/${n.nodeId}`} className={cur ? 'cur' : ''} onClick={() => goto(n.nodeId)}>
-                  <span style={{ color: 'var(--ink-3)', fontSize: 11, width: 34 }}>{i + 1}</span>
+                  <span style={{ color: 'var(--ink-3)', fontSize: 12.5, width: 34 }}>{i + 1}</span>
                   <span style={{ flex: 1 }}>{n.topic}</span>
-                  {n.status === 'quarantine' ? <span style={{ fontSize: 11, color: '#b3382c' }}>🔒隔离</span> : null}
-                  {st.state === 'mastered' ? <span style={{ fontSize: 11, color: 'var(--green-deep)' }}>✓</span> : null}
+                  {n.status === 'quarantine' ? <span style={{ fontSize: 12.5, color: '#b3382c' }}>🔒隔离</span> : null}
+                  {st.state === 'mastered' ? <span style={{ fontSize: 12.5, color: 'var(--green-deep)' }}>✓</span> : null}
                 </Link>
               );
             })}
