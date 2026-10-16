@@ -1,0 +1,280 @@
+{
+  "seed": "phase-5/batch-16",
+  "genLabel": "Phase 5 · Batch-16 · 30 nodes（P 各家学说 0→30）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 30
+  },
+  "samples": [
+    {
+      "id": "pb16-p-001",
+      "title": "各家学说·医经学派",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-002",
+      "title": "各家学说·经方学派",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-003",
+      "title": "各家学说·伤寒学派",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-004",
+      "title": "各家学说·河间学派",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-005",
+      "title": "各家学说·易水学派",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-006",
+      "title": "各家学说·攻邪学派",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-007",
+      "title": "各家学说·丹溪学派",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-008",
+      "title": "各家学说·温补学派",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-009",
+      "title": "各家学说·温病学派",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-010",
+      "title": "各家学说·中西汇通学派",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-011",
+      "title": "张仲景·辨证论治体系",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-012",
+      "title": "王叔和·脉学整理",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-013",
+      "title": "皇甫谧·针灸甲乙经",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-014",
+      "title": "孙思邈·大医精诚与千金方",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-015",
+      "title": "钱乙·儿科大家",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-016",
+      "title": "刘完素·火热论",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-017",
+      "title": "张从正·攻邪论",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-018",
+      "title": "李杲·脾胃内伤论",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-019",
+      "title": "朱震亨·阳常有余阴常不足",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-020",
+      "title": "张景岳·温补命门",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-021",
+      "title": "李时珍·本草纲目学术贡献",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-022",
+      "title": "吴又可·戾气学说",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-023",
+      "title": "叶天士·卫气营血与温热论",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-024",
+      "title": "吴鞠通·三焦辨证",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-025",
+      "title": "王清任·瘀血学说与医林改错",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-026",
+      "title": "张锡纯·衷中参西",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-027",
+      "title": "金元四大家·学术总览",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-028",
+      "title": "温病学派·学术源流",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-029",
+      "title": "各家学说·命门学说演变",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb16-p-030",
+      "title": "各家学说·经学与医学关系",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

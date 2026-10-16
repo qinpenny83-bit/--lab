@@ -1,0 +1,523 @@
+{
+  "seed": "phase-4/batch-4",
+  "genLabel": "Phase 4 · Batch-4 · 139 nodes（105 计划 + 34 legacy 补足，完成 305 覆盖）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核（含 C4 语义门通过但无 humanReviewRequired 标记者）。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 55
+  },
+  "samples": [
+    {
+      "id": "pb4-th-01-01",
+      "title": "中医学的基本特点",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "基础",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「上工治未病」来源纠偏：出处→「《难经·七十七难》」（「上工治未病」首见《难经》，非《素问》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-01-03",
+      "title": "辨证论治",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "基础",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-01-04",
+      "title": "证、症、病的区别",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "基础",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-01-07",
+      "title": "中医理论体系框架",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-02-02",
+      "title": "阴阳属性",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-02-04",
+      "title": "阴阳互根互用",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-02-05",
+      "title": "阴阳消长平衡",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-th-02-12",
+      "title": "阴阳与治疗原则",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「谨察阴阳所在而调之」来源纠偏：出处→「《素问·阴阳应象大论》」（「阴阳者，天地之道也」确为《素问·阴阳应象大论》原文，补入白名单）"
+        }
+      ],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-th-02-13",
+      "title": "阴阳与八纲",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「阴阳者，数之可十」来源纠偏：出处→「《素问·阴阳应象大论》」（「阴阳者，天地之道也」确为《素问·阴阳应象大论》原文，补入白名单）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-05-04",
+      "title": "气的功能",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-05-06",
+      "title": "气机",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-05-10",
+      "title": "神的基本概念",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-05-11",
+      "title": "气与血的关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-05-12",
+      "title": "气与津液的关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-07-13",
+      "title": "痰饮",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-cl-08-05",
+      "title": "津液代谢失常",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-08-12",
+      "title": "疾病传变规律",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-dg-09-13",
+      "title": "问寒热",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-dg-09-16",
+      "title": "问饮食口味",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-dg-09-18",
+      "title": "问睡眠",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-dg-09-24",
+      "title": "常见脉象扩展",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-02",
+      "title": "表证与里证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-03",
+      "title": "表里同病",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-05",
+      "title": "寒证与热证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-07",
+      "title": "寒热转化",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-10",
+      "title": "虚实夹杂",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-12",
+      "title": "阴阳为总纲",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-10-13",
+      "title": "八纲之间组合",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-01-09",
+      "title": "中医与其他医学体系的区别",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-02-16",
+      "title": "阴阳与五行的关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-05-19",
+      "title": "精室与生殖",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-07-16",
+      "title": "药邪与医过",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-12-31",
+      "title": "脏腑辨证现代应用",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-ca-20-03",
+      "title": "经方医案",
+      "category": "case",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-22-01",
+      "title": "八纲 vs 气血津液辨证",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-22-02",
+      "title": "八纲 vs 脏腑辨证",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-22-04",
+      "title": "卫气营血 vs 三焦",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-22-05",
+      "title": "六经 vs 卫气营血 vs 三焦",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-23-03",
+      "title": "辨证思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-23-05",
+      "title": "关系思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-11-02",
+      "title": "气虚证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-11-03",
+      "title": "气陷证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-11-04",
+      "title": "气滞证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-11-05",
+      "title": "气逆证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-11-07",
+      "title": "血瘀证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-13-02",
+      "title": "太阳病辨证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-13-03",
+      "title": "阳明病辨证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-15-01",
+      "title": "三焦辨证总论",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-16-02",
+      "title": "扶正与祛邪",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-th-16-03",
+      "title": "标本缓急",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-16-09",
+      "title": "八法",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-cl-19-11",
+      "title": "经典研读方法论",
+      "category": "classic",
+      "difficulty": 5,
+      "difficultyLabel": "综合",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb4-cl-21-02",
+      "title": "信息整理框架",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-23-06",
+      "title": "证据意识",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb4-th-23-07",
+      "title": "反证意识",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

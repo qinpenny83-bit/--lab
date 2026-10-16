@@ -1,0 +1,232 @@
+{
+  "seed": "phase-5/batch-3",
+  "genLabel": "Phase 5 · Batch-3 · 30 nodes（D 腧穴学补足 30→60，达 33 学科蓝图目标下限）",
+  "total": 30,
+  "counts": {
+    "candidate": 30,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "verdictBreakdown": {
+    "candidate": 30,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "engineering": {
+    "gateFailByLetter": {},
+    "correctionByKind": {
+      "K": {
+        "count": 4,
+        "samples": [
+          {
+            "id": "pb5-ac-31",
+            "title": "手阳明大肠经要穴：合谷",
+            "layer": "来源解析",
+            "reason": "经典「面口合谷收」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句，最早见明·徐凤《针灸大全》，合谷治面口病歌诀）"
+          },
+          {
+            "id": "pb5-ac-33",
+            "title": "足阳明胃经要穴：足三里",
+            "layer": "来源解析",
+            "reason": "经典「肚腹三里留」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句（肚腹三里留，腰背委中求，头项寻列缺，面口合谷收），最早见明·徐凤《针灸大全》）"
+          },
+          {
+            "id": "pb5-ac-40",
+            "title": "足太阳膀胱经要穴：委中承山昆仑",
+            "layer": "来源解析",
+            "reason": "经典「腰背委中求」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句，最早见明·徐凤《针灸大全》，委中治腰背痛歌诀）"
+          },
+          {
+            "id": "pb5-ac-60",
+            "title": "腧穴综合案例：腰痛辨证选穴",
+            "layer": "来源解析",
+            "reason": "经典「腰背委中求」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句，最早见明·徐凤《针灸大全》，委中治腰背痛歌诀）"
+          }
+        ]
+      },
+      "B": {
+        "count": 9,
+        "samples": [
+          {
+            "id": "pb5-ac-34",
+            "title": "足阳明胃经要穴：上巨虚下巨虚丰隆",
+            "layer": "来源解析",
+            "reason": "经典「合治内腑」来源纠偏：出处→「《灵枢·邪气脏腑病形》」（「荥输治外经，合治内腑」原文，下合穴理论依据）"
+          },
+          {
+            "id": "pb5-ac-45",
+            "title": "足少阳胆经要穴：阳陵泉悬钟丘墟",
+            "layer": "来源解析",
+            "reason": "经典「八会」来源纠偏：出处→「《难经》」（八会穴出处（脏会章门、腑会中脘、气会膻中、血会膈俞、筋会阳陵泉、骨会大杼、髓会绝骨、脉会太渊））"
+          },
+          {
+            "id": "pb5-ac-52",
+            "title": "特定穴临床应用：俞募配穴法",
+            "layer": "来源解析",
+            "reason": "经典「五脏募皆在阴」来源纠偏：出处→「《难经》」（「五脏募皆在阴，而俞在阳」原文，俞募穴理论依据）"
+          },
+          {
+            "id": "pb5-ac-53",
+            "title": "特定穴临床应用：原络配穴法",
+            "layer": "来源解析",
+            "reason": "经典「十二原」来源纠偏：出处→「《灵枢·九针十二原》」（「十二原者，五脏之所以禀三百六十五节气味也」原文，原穴理论依据）"
+          },
+          {
+            "id": "pb5-ac-54",
+            "title": "特定穴临床应用：郄穴急救与八会穴应用",
+            "layer": "来源解析",
+            "reason": "经典「八会」来源纠偏：出处→「《难经》」（八会穴出处（脏会章门、腑会中脘、气会膻中、血会膈俞、筋会阳陵泉、骨会大杼、髓会绝骨、脉会太渊））"
+          },
+          {
+            "id": "pb5-ac-55",
+            "title": "五输穴临床应用：井荥输经合主病",
+            "layer": "来源解析",
+            "reason": "经典「所出为井」来源纠偏：出处→「《灵枢·九针十二原》」（「所出为井，所溜为荥，所注为输，所行为经，所入为合」原文，五输穴理论依据）"
+          },
+          {
+            "id": "pb5-ac-56",
+            "title": "下合穴临床应用：合治内腑",
+            "layer": "来源解析",
+            "reason": "经典「合治内腑」来源纠偏：出处→「《灵枢·邪气脏腑病形》」（「荥输治外经，合治内腑」原文，下合穴理论依据）"
+          },
+          {
+            "id": "pb5-ac-57",
+            "title": "针刺得气与腧穴感应",
+            "layer": "来源解析",
+            "reason": "经典「气至而有效」来源纠偏：出处→「《灵枢·九针十二原》」（「刺之要，气至而有效，效之信，若风之吹云」原文，针刺得气理论依据）"
+          },
+          {
+            "id": "pb5-ac-58",
+            "title": "针刺补泻手法与刺激量",
+            "layer": "来源解析",
+            "reason": "经典「盛则泻之」来源纠偏：出处→「《灵枢·经脉》」（「盛则泻之，虚则补之，热则疾之，寒则留之，陷下则灸之，不盛不虚，以经取之」原文，针刺补泻原则依据）"
+          }
+        ]
+      }
+    },
+    "correctionByLayer": {
+      "来源解析": {
+        "count": 13
+      }
+    },
+    "leakThrough": {
+      "A": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "B": {
+        "sourceFixed": 9,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "C": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "D": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "H": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "J": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "K": {
+        "sourceFixed": 4,
+        "gateBlocked": 0,
+        "leak": 0
+      }
+    },
+    "unknownSourceRatio": {
+      "unknown": 0,
+      "total": 90,
+      "pct": 0
+    },
+    "highRiskIsolationRate": {
+      "covered": 0,
+      "nodes": 0,
+      "pct": 100
+    }
+  },
+  "content": {
+    "difficultyDistribution": {
+      "basic": {
+        "count": 8,
+        "pct": 27
+      },
+      "mid": {
+        "count": 15,
+        "pct": 50
+      },
+      "hard": {
+        "count": 5,
+        "pct": 17
+      },
+      "mixed": {
+        "count": 2,
+        "pct": 7
+      }
+    },
+    "perCategory": {
+      "acupoint": [
+        2,
+        3,
+        2,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2,
+        4,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        4,
+        4,
+        4,
+        2,
+        3,
+        5,
+        5
+      ]
+    },
+    "perCategoryDistinct": {
+      "acupoint": 4
+    },
+    "machineLikeRepetition": [],
+    "contentPreliminary": {
+      "contentCandidate": 29,
+      "contentReview": 1
+    },
+    "c3c4": {
+      "cLevels": {
+        "C1": 1,
+        "C2": 1,
+        "C3": 0,
+        "C4": 0
+      },
+      "humanReviewRequired": [],
+      "evidenceInsufficient": []
+    }
+  }
+}

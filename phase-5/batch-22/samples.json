@@ -1,0 +1,1189 @@
+{
+  "seed": "phase-5/batch-22",
+  "genLabel": "Phase 5 · Batch-22 · 15 nodes（W 中医眼科学 0→15 下限）",
+  "total": 15,
+  "note": "W 中医眼科学补足至下限 15；整书级经典补丁 4 条",
+  "samples": [
+    {
+      "id": "pb22-w-001",
+      "title": "眼科·五轮学说与目系脏腑",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "五轮学说",
+        "目系",
+        "肝开窍于目",
+        "眼科辨证"
+      ],
+      "intent": "掌握五轮与五脏的对应关系及目系脏腑络属，为眼科从脏论治奠基。",
+      "learning": {
+        "knowledge": "肉轮（胞睑）属脾，血轮（两眦）属心，气轮（白睛）属肺，风轮（黑睛）属肝，水轮（瞳神）属肾；目系与脑相连，肝开窍于目。辨证以轮定位、脏证定性，如白睛红赤责之于肺、瞳神疾病多责于肾，风轮翳障多从肝论。",
+        "misjudgment": "把水轮误作整个眼球。错：水轮专指瞳神及其内之晶珠、神膏、视衣等内眼组织，主肾；眼睑红赤属肉轮应责脾，两轮混一则辨证失据。",
+        "reasoning": "同为目赤，为何白睛红赤多从肺论、两眦红赤多从心论？",
+        "feedback": "五轮分应五脏，白睛为气轮属肺，两眦为血轮属心，轮病各从其脏，此即轮脏相应的辨证前提。",
+        "transfer": "瞳神紧小反复发作，试按水轮属肾、风轮属肝的思路综合辨治。"
+      },
+      "stdJudgment": "五轮学说以肉、血、气、风、水五轮分应脾、心、肺、肝、肾，轮为标、脏为本；目系上属于脑，五脏六腑之精气皆上注于目。眼科辨证当以轮病定位、以脏证定性，白睛属气轮多责肺，瞳神属水轮多责肾，风轮黑睛之疾多从肝求之。",
+      "coreDefinition": "五轮学说按眼之分部对应五脏，轮为标、脏为本，指导眼科从脏论治。",
+      "facts": [
+        {
+          "field": "clinical.五轮归属",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.脏腑络属",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.目系",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法指导",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "大惑论第八十",
+          "originalText": "五脏六腑之精气，皆上注于目而为之精。精之窠为眼，骨之精为瞳子，筋之精为黑眼，血之精为络，其窠气之精为白眼，肌肉之精为约束，裹撷筋骨血气之精而与脉并为系，上属于脑，后出于项中。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "金匮真言论篇第四",
+          "originalText": "东方青色，入通于肝，开窍于目，藏精于肝。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本节点为五轮辨证基础理论，不涉具体内服剂量；临证按轮病定位之后仍须脏腑辨证选方，如风轮之病多从肝论治、水轮之病多从肾论治。",
+        "caution": "轮为标、脏为本，不可见轮治轮，须参合整体脉证；急重眼病须结合裂隙灯、眼底等现代检查，勿恃轮辨而延误。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；理论定位不替代现代眼科检查",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb22-w-002",
+      "title": "眼科·白睛红赤风热犯目证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "白睛红赤",
+        "风热犯目",
+        "疏风清热",
+        "银翘散",
+        "点眼"
+      ],
+      "intent": "掌握白睛红赤风热犯目证的主症舌脉、病机与疏风清热治法，熟悉银翘散加减与点眼外治。",
+      "learning": {
+        "knowledge": "主症白睛红赤灼热、眵多黏稠、羞明流泪，可兼恶风发热、头痛鼻塞；舌红苔薄黄，脉浮数。病机风热外袭、客于气轮。治以疏风清热，主方银翘散加减（金银花、连翘、薄荷、荆芥穗、桔梗、牛蒡子、竹叶、芦根、甘草），痒甚加蝉蜕、蒺藜，泪多加蔓荆子；外治频点黄连眼药水，忌包扎。",
+        "misjudgment": "白睛红赤即投苦寒泻火重剂。错：风热在表宜辛凉轻透，重用苦寒则冰伏邪气、热不得外达，赤肿反难消退。",
+        "reasoning": "同为白睛红赤，风热犯目与疫毒犯目在传变与治法上有何差别？",
+        "feedback": "风热犯目系一般外感之邪，病情轻、传染性弱，辛凉解表为主；疫毒犯目为疠气传染，红赤灼痛剧烈，须清热解毒并重隔离。",
+        "transfer": "游泳后双眼红赤灼热、眵多如脓者，试按风热犯目立法并考虑交叉传染之防。"
+      },
+      "stdJudgment": "白睛红赤起病较急，眼内灼热、眵多黏稠、羞明流泪，兼恶风发热、头痛鼻塞，舌红苔薄黄、脉浮数，属风热犯目之实证；法取疏风清热，银翘散加减主之。白睛为气轮、内应于肺，风热客表则肺气不宣，赤肿随之而生。",
+      "coreDefinition": "白睛红赤风热犯目证以目赤灼热、眵多黏稠、脉浮数为特征，治以疏风清热。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "银翘散加减（金银花、连翘各12~15g，薄荷、荆芥穗后下各6g，桔梗、牛蒡子、竹叶、芦根各9g，生甘草6g）水煎，日1剂分2次服；点眼用黄连眼药水或鱼腥草滴眼液，每次1~2滴，日3~6次，滴前洗手、瓶口勿触眼睑。",
+        "caution": "辛凉解表方武火急煎、不宜久煮；风寒目赤及脾虚便溏者忌用；点眼药液一人一瓶，患眼忌包扎，防交叉感染。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；点眼药液须一人一瓶，滴前洗手",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-003",
+      "title": "眼科·天行赤眼疫毒犯目证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "天行赤眼",
+        "疫毒犯目",
+        "泻火解毒",
+        "普济消毒饮",
+        "传染性"
+      ],
+      "intent": "掌握天行赤眼疫毒犯目证的主症舌脉、病机与泻火解毒凉血退赤治法，理解其强传染性与隔离要点。",
+      "learning": {
+        "knowledge": "主症白睛红赤如火、灼痛，胞睑红肿、眵泪俱多，或白睛溢血，耳前可扪及肿核；舌红苔黄，脉数。病机疫疠毒气犯目、热毒炽盛。治以泻火解毒、凉血退赤，主方普济消毒饮加减（黄芩、黄连、连翘、板蓝根、玄参、马勃、牛蒡子、僵蚕、升麻、柴胡、桔梗、甘草、薄荷），白睛溢血加牡丹皮、赤芍；外治频点眼药水并严格隔离。",
+        "misjudgment": "把天行赤眼当普通风热目赤处理而不加隔离。错：疫疠之气具强烈传染性，一家一村相传，不隔离则蔓延不止；且须防毒邪侵及风轮生翳。",
+        "reasoning": "天行赤眼后期白睛溢血，为何宜加凉血活血之品而不骤投收涩？",
+        "feedback": "溢血为热毒伤络、血不循经，治当凉血散血使瘀热得化；骤用收涩则瘀热内闭，血不归经，反碍消退。",
+        "transfer": "幼儿园多人相继红眼病，试从疫毒犯目角度说明预防隔离与外治频点的意义。"
+      },
+      "stdJudgment": "天行赤眼以白睛红赤灼痛、胞睑红肿、眵泪俱多、可伴耳前肿核为特征，一家之内往往相传，舌红苔黄、脉数；病由疫疠毒气犯目，热毒炽盛、气血壅滞，治宜泻火解毒、凉血退赤，普济消毒饮加减，重在截断传变、防其侵及风轮。",
+      "coreDefinition": "天行赤眼疫毒犯目证以白睛红赤灼痛、眵泪俱多、传染性强为特征，治以泻火解毒凉血退赤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "普济消毒饮加减（黄芩、黄连各9g，连翘、板蓝根、玄参、马勃、牛蒡子各9~12g，僵蚕、升麻、柴胡、桔梗、生甘草各6g，薄荷6g后下）水煎，日1剂分2次服；点眼药水急性期每1~2小时滴1次，每次1~2滴，一人一瓶，用后洗手。",
+        "caution": "疫毒目赤传染性强，毛巾、脸盆、枕巾须隔离消毒，禁止包扎患眼，防止交叉感染；孕妇及素体虚寒者慎用苦寒重剂；若黑睛生翳须即转专科。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；点眼药液一人一瓶，器具隔离消毒",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-004",
+      "title": "眼科·针眼热毒壅盛证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "针眼",
+        "热毒壅盛",
+        "清热解毒",
+        "仙方活命饮",
+        "切忌挤压"
+      ],
+      "intent": "掌握针眼热毒壅盛证的主症舌脉、病机与清热解毒消肿溃坚治法，牢记切忌挤压的安全红线。",
+      "learning": {
+        "knowledge": "主症胞睑红肿高突、硬结灼痛、脓成未溃或溃后脓出不畅，可伴口渴、便秘；舌红苔黄，脉数。病机热毒蕴结、肉腐成脓。治以清热解毒、消肿溃坚，主方仙方活命饮加减（金银花、白芷、贝母、防风、赤芍、当归尾、皂角刺、乳香、没药、陈皮、甘草），外治未成脓外敷如意金黄散、脓成切开排脓，切忌挤压。",
+        "misjudgment": "针眼红肿即用力挤压或以热水久敷。错：挤压可使脓毒沿无瓣膜静脉逆流入颅致海绵窦血栓，热水久敷亦助火势；未脓宜消肿、脓成宜切开。",
+        "reasoning": "同是睑部肿物，针眼与胞生痰核在红肿疼痛与治法上如何鉴别？",
+        "feedback": "针眼属急性化脓性感染，红肿热痛明显，治以清热解毒；痰核为慢性痰湿凝滞，不红不痛，治以化痰散结，两者迥异。",
+        "transfer": "反复发作的针眼伴口渴便秘者，试从脾胃伏热角度思考预防与清解之策。"
+      },
+      "stdJudgment": "针眼热毒壅盛见胞睑红肿硬结、灼热疼痛、脓成难溃或溃后脓出不畅，伴口渴便秘，舌红苔黄、脉数；热毒蕴结、肉腐为脓，治宜清热解毒、消肿溃坚，仙方活命饮加减；脓成即当切开，切忌挤压，防脓毒内陷生变。",
+      "coreDefinition": "针眼热毒壅盛证以胞睑红肿硬结、灼痛化脓为特征，治以清热解毒消肿溃坚。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "仙方活命饮加减（金银花15~20g，白芷、贝母、防风、赤芍、当归尾、皂角刺、陈皮、乳香、没药、生甘草各6~9g；穿山甲今以皂角刺、路路通代之）水煎，日1剂分2次服；未成脓以如意金黄散水调外敷或蒲公英煎水湿热敷，日2~3次，脓成即切开排脓，脓出痛减。",
+        "caution": "切忌挤压排脓，睑部血管无瓣膜，挤压可致脓毒走散入颅（海绵窦）而危及生命；孕妇慎用乳香、没药、皂角刺等活血溃坚之品；反复发作者当查血糖。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；针眼切忌挤压，脓成由医师切开排脓",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-005",
+      "title": "眼科·胞睑水肿脾虚湿停证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "胞睑水肿",
+        "脾虚湿停",
+        "健脾渗湿",
+        "参苓白术散"
+      ],
+      "intent": "掌握胞睑水肿脾虚湿停证的主症舌脉、病机与健脾渗湿治法，辨别与风水相搏之异。",
+      "learning": {
+        "knowledge": "主症胞睑浮肿、皮色光亮、按之凹陷、晨起较重，伴面色萎黄、倦怠乏力、食少腹胀、便溏；舌淡胖有齿痕，苔白腻，脉濡缓。病机脾虚失运、水湿停聚上泛。治以健脾渗湿，主方参苓白术散加减（党参、白术、茯苓、山药、扁豆、莲子肉、薏苡仁、砂仁、桔梗、甘草），湿重加泽泻、猪苓；外治以温敷助运化，不需点眼。",
+        "misjudgment": "睑肿即用五苓散峻利。错：脾虚为本者单纯渗利则脾阳愈伤、肿复更甚；须以健脾为主、渗湿为辅，脾运则水自归经。",
+        "reasoning": "同见眼睑浮肿，脾虚湿停与风水相搏之肿在起病、兼证上如何分辨？",
+        "feedback": "风水证起病急、肿势速、兼恶风发热脉浮，治当疏风利水；脾虚湿停起病缓、肿势轻、兼倦怠便溏，治当健脾渗湿。",
+        "transfer": "晨起眼睑浮肿、纳呆便溏的上班族，试从脾虚湿停分析其调治方向。"
+      },
+      "stdJudgment": "胞睑浮肿皮色光亮、按之凹陷、晨起为甚，伴面色萎黄、倦怠食少、便溏，舌淡胖苔白腻、脉濡缓；脾虚失运、水湿上泛胞睑，法取健脾渗湿，参苓白术散加减；睑肿为标、脾虚为本，化湿须固脾，脾运则湿去肿消。",
+      "coreDefinition": "胞睑水肿脾虚湿停证以胞睑浮肿、按之凹陷、面色萎黄、苔白腻为特征，治以健脾渗湿。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "至真要大论篇第七十四",
+          "originalText": "诸湿肿满，皆属于脾。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "参苓白术散加减（党参、白术、茯苓、山药、白扁豆、莲子肉、薏苡仁各9~12g，砂仁3~6g后下，桔梗、炙甘草各6g）水煎，日1剂分2次服；局部无需点眼，可配合温敷，每日2次、每次10~15分钟。",
+        "caution": "补脾渗湿宜缓图，忌峻下逐水重伤脾阳；睑肿须查尿常规、肾功能与心功能，勿见睑肿即套本方，肾性、心性水肿当各从其治。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；睑肿须与肾性、心性水肿鉴别",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-006",
+      "title": "眼科·流泪症肝肾不足证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "流泪症",
+        "肝肾不足",
+        "补益肝肾",
+        "左归饮",
+        "冷泪"
+      ],
+      "intent": "掌握流泪症肝肾不足证的主症舌脉、病机与补益肝肾固摄止泪治法，辨别冷泪与热泪。",
+      "learning": {
+        "knowledge": "主症眼泪常流、迎风更甚、泪水清冷，视物昏花，伴头晕耳鸣、腰膝酸软、夜尿频；舌淡红苔薄白，脉细弱。病机肝肾不足、泪窍收摄无权。治以补益肝肾、固摄止泪，主方左归饮加减（熟地、山药、枸杞子、山茱萸、茯苓、炙甘草），泪多者加五味子、乌贼骨；外治按压泪囊区并保持泪道通畅。",
+        "misjudgment": "见流泪即按肝经风热投清热祛风。错：冷泪清稀多属虚，热泪黏稠带眵多属实；虚者误清则肝肾更亏，泪出愈多。",
+        "reasoning": "同为流泪，冷泪与热泪在泪液性状、兼证与治法上如何鉴别？",
+        "feedback": "冷泪清稀无眵、迎风加重、多属肝肾亏虚，宜温补固摄；热泪黏稠、目赤羞明、多属风热，宜疏风清热。",
+        "transfer": "老年女性遇风流泪、泪清不热者，试按肝肾不足拟定补益与固涩并用之方。"
+      },
+      "stdJudgment": "流泪症肝肾不足见眼泪常流、迎风尤甚、泪水清冷、视物昏花，伴头晕耳鸣、腰膝酸软，舌淡红苔薄白、脉细弱；肝肾亏虚、收摄无权，泪窍失约，治宜补益肝肾、固摄止泪，左归饮加减；冷泪属虚、热泪属实，须辨清方可论补。",
+      "coreDefinition": "流泪症肝肾不足证以冷泪常流、迎风更甚、头晕腰酸为特征，治以补益肝肾固摄止泪。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "口问第二十八",
+          "originalText": "目者，宗脉之所聚也，上液之道也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "左归饮加减（熟地12~15g，山药、枸杞子、山茱萸各9~12g，茯苓9g，炙甘草6g）水煎，日1剂分2次服；外治每日按压泪囊区10~15次，配合滴用润滑明目类眼药水，泪道不通者行泪道冲洗或探通。",
+        "caution": "滋补肝肾之剂滋腻碍脾，脾虚便溏者佐砂仁、陈皮、白术；若泪下而目赤眵多属热泪，忌投温补；泪道阻塞久治不效者转专科处理。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；冷泪热泪须辨，泪道不通者转专科",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-007",
+      "title": "眼科·胬肉攀睛心肺风热证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "胬肉攀睛",
+        "心肺风热",
+        "祛风清热",
+        "退翳消胬",
+        "栀子胜奇散"
+      ],
+      "intent": "掌握胬肉攀睛心肺风热证的主症舌脉、病机与祛风清热退翳消胬治法，把握手术指征。",
+      "learning": {
+        "knowledge": "主症眦角赤脉如缕、渐生胬肉、头尖体厚、色红赤、痒涩灼痛、眵多泪黏；舌红苔薄黄，脉数。病机心肺风热上壅、气血郁滞眦部。治以祛风清热、退翳消胬，主方栀子胜奇散加减（栀子、黄芩、菊花、密蒙花、谷精草、木贼、蒺藜、防风、荆芥、蔓荆子、川芎、羌活、蝉蜕、甘草），外治点退翳明目眼药水，胬肉侵及黑睛瞳仁者手术。",
+        "misjudgment": "胬肉头尖色红即按肝火投龙胆泻肝汤。错：胬肉多责心肺风热郁滞与脾胃湿热，位在气轮血轮之交，直折肝火则药过病所，风热未除而胬肉难平。",
+        "reasoning": "同见胬肉，色红头尖与色白体薄者在病性与治法上有何差异？",
+        "feedback": "红赤头尖为风热实证，宜祛风清热；白薄无赤多属虚寒或气血不荣，宜补益或观察，手术与否以是否侵及黑睛为准。",
+        "transfer": "户外风沙工作者的眦角胬肉反复红赤，试按心肺风热立法并给出护目之策。"
+      },
+      "stdJudgment": "胬肉攀睛心肺风热见眦角赤脉如缕、胬肉头尖色红、体厚而痒涩多眵，舌红苔薄黄、脉数；心肺风热上壅、气血郁滞于眦部，治宜祛风清热、退翳消胬，栀子胜奇散加减；胬肉平薄色白者多属虚寒，当审体之虚实，侵及黑睛者转手术治疗。",
+      "coreDefinition": "胬肉攀睛心肺风热证以眦角赤脉生胬、头尖色红、痒涩多眵为特征，治以祛风清热退翳消胬。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "栀子胜奇散加减（栀子、黄芩、菊花、密蒙花、谷精草、木贼、蒺藜、防风、荆芥、蔓荆子、川芎、羌活、蝉蜕、甘草各6~9g）水煎，日1剂分2次服；点眼用黄连眼药水或退翳明目类滴眼液，日3~4次，每次1~2滴；胬肉头厚、侵及黑睛瞳仁者宜手术切除。",
+        "caution": "本证偏于风热，忌过用辛温升散；胬肉术后易复发，须避风沙烟尘刺激、注意眼部防晒，忌烟酒辛辣。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；胬肉侵及黑睛须转手术治疗",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-008",
+      "title": "眼科·圆翳内障肝肾亏虚证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "圆翳内障",
+        "肝肾亏虚",
+        "补益肝肾",
+        "杞菊地黄丸"
+      ],
+      "intent": "掌握圆翳内障肝肾亏虚证的主症舌脉、病机与补益肝肾益精明目治法，把握手术时机。",
+      "learning": {
+        "knowledge": "主症视物渐昏、如隔纱幕、眼前黑花飘动或视一为二，晶珠混浊，伴头晕耳鸣、腰膝酸软；舌淡红苔薄白，脉细弱。病机肝肾亏虚、精血不足，晶珠失养渐混。治以补益肝肾、益精明目，主方杞菊地黄丸加减（熟地、山茱萸、山药、泽泻、茯苓、牡丹皮、枸杞子、菊花），气虚加黄芪、党参，血虚加当归、白芍；外治点退翳明目滴眼液，成熟期宜手术。",
+        "misjudgment": "视物渐昏一律按白内障服药求复明。错：晶珠混浊为形态学改变，药物难逆转，初中期可延缓，成熟期须手术；且须排除青光眼、眼底病所致昏蒙。",
+        "reasoning": "同为高年视昏，圆翳内障碍与绿风内障碍在眼压、瞳神与痛感上有何鉴别要点？",
+        "feedback": "圆翳眼压正常、不红不痛、瞳神如常；绿风眼硬胀痛、瞳神散大、眼压升高，一缓一急，治法迥异。",
+        "transfer": "老年患者晶珠初混、腰酸耳鸣者，试从补益肝肾角度拟定延缓进展之调养思路。"
+      },
+      "stdJudgment": "圆翳内障肝肾亏虚见晶珠混浊、视物渐昏、眼前黑花或如隔轻烟，伴头晕耳鸣、腰膝酸软，舌淡红苔薄白、脉细弱；肝肾精血亏虚、目窍失养，晶珠渐失濡润而混，治宜补益肝肾、益精明目，杞菊地黄丸加减；初起可服药缓图，晶珠全混则手术为要。",
+      "coreDefinition": "圆翳内障肝肾亏虚证以晶珠混浊、视物渐昏、头晕腰酸为特征，治以补益肝肾益精明目。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "上古天真论篇第一",
+          "originalText": "肾者主水，受五脏六腑之精而藏之。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "杞菊地黄丸加减（熟地12~15g，山茱萸、山药各9~12g，泽泻、茯苓、牡丹皮各6~9g，枸杞子、菊花各9g）水煎，日1剂分2次服，或服杞菊地黄丸每服6~9g、日2次；点眼用退翳明目类滴眼液，日3次、每次1~2滴；晶珠混浊成熟、影响生活者，宜行白内障手术。",
+        "caution": "补益之剂宜缓图，脾虚湿盛者先调脾胃；糖尿病、青光眼等须控制原发病；滴眼液不能使已混浊之晶珠复明，成熟期以手术为准。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；白内障成熟期以手术治疗为主",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb22-w-009",
+      "title": "眼科·绿风内障肝火上扰证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "绿风内障",
+        "肝火上扰",
+        "清热泻火",
+        "平肝息风",
+        "龙胆泻肝汤",
+        "急症"
+      ],
+      "intent": "掌握绿风内障碍肝火上扰证的主症舌脉、病机与清热泻火平肝息风治法，牢记急症就医红线。",
+      "learning": {
+        "knowledge": "主症眼珠胀痛欲脱、头痛如劈、视力骤降、抱轮红赤、瞳神散大呈淡绿色、眼硬如石，伴恶心呕吐、口苦便秘；舌红苔黄，脉弦数。病机肝火上扰、玄府闭塞、神水瘀滞。治以清热泻火、平肝息风，主方龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、木通、车前子、当归、生地、柴胡、甘草，加石决明、钩藤），外治以速降眼压为先，缩瞳点眼由医师执行。",
+        "misjudgment": "把绿风内障碍之头痛呕吐当胃肠病处理而贻误抢救。错：眼胀痛、视矇、瞳散、眼硬为辨病眼目，查眼压即明；误治可致数日内失明。",
+        "reasoning": "同为肝火目疾，绿风内障碍与瞳神紧小在瞳神大小与眼压上有何本质区别？",
+        "feedback": "绿风瞳神散大、眼压升高、眼硬如石；瞳神紧小瞳神缩小、展缩失灵、眼压多不高或偏低。散与紧、硬与软，一测便明。",
+        "transfer": "情绪激动后眼胀头痛、视物发雾者，试按肝火上扰警惕绿风内障碍并说明就医时机。"
+      },
+      "stdJudgment": "绿风内障碍肝火上扰见眼珠胀痛欲脱、头痛如劈、视力骤降、抱轮红赤、瞳神散大色呈淡绿、眼硬如石，伴恶心呕吐、口苦，舌红苔黄、脉弦数；肝火循经上攻、玄府闭塞、神水瘀滞，治宜清热泻火、平肝息风，龙胆泻肝汤加减；此为急证，须先降眼压而后议药。",
+      "coreDefinition": "绿风内障碍肝火上扰证以眼胀头痛、瞳神散大淡绿、眼硬如石为特征，治以清热泻火平肝息风。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "至真要大论篇第七十四",
+          "originalText": "诸风掉眩，皆属于肝。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减（龙胆草6g，黄芩、栀子、泽泻、车前子、生地、当归各9g，柴胡、木通、生甘草各6g，加石决明20g先煎、钩藤9g后下）水煎，日1剂分2次服；外治：急性发作须即速降眼压，缩瞳剂点眼及脱水等急救措施由医师执行，本节点仅作知识学习。",
+        "caution": "绿风内障碍为眼科急症，眼胀痛伴恶心呕吐、视力骤降者须立即就医，延误可致失明；方中木通须用木通科木通，禁用含马兜铃酸之关木通；龙胆草苦寒伤胃，中病即止。"
+      },
+      "safety": {
+        "note": "绿风内障碍为眼科急症，须立即就医，本节点仅知识学习；降眼压措施由医师执行",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "马兜铃含马兜铃酸有肾毒性3-9g不可过量久服；肾功能不全禁用（龙胆泻肝汤须用木通科木通，禁关木通）"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-010",
+      "title": "眼科·青风内障气滞血瘀证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "青风内障",
+        "气滞血瘀",
+        "疏肝理气",
+        "活血化瘀",
+        "血府逐瘀汤"
+      ],
+      "intent": "掌握青风内障碍气滞血瘀证的主症舌脉、病机与疏肝理气活血化瘀治法，辨识与绿风之异。",
+      "learning": {
+        "knowledge": "主症视物渐昏、视野收窄如管窥、眼胀时作时止、头目胀痛，情志不舒、胸闷叹息、面色晦滞；舌紫暗或有瘀斑，脉弦涩。病机气滞血瘀、玄府闭塞、神水瘀滞。治以疏肝理气、活血化瘀，主方血府逐瘀汤加减（桃仁、红花、当归、生地、牛膝、川芎、赤芍、柴胡、桔梗、枳壳、甘草），眼胀甚加夏枯草、菊花；外治定期测眼压、查视野。",
+        "misjudgment": "把青风内障碍误为圆翳内障碍而仅服补益药。错：青风以眼压升高、视野缺损为主，补益不能开玄府祛瘀滞；不测眼压则视神经萎缩不可逆。",
+        "reasoning": "青风与绿风同属青光眼，为何一者急骤一者隐袭，治法孰先孰后？",
+        "feedback": "绿风急发、胀痛剧烈、瞳散眼硬，当急降眼压；青风缓进、症状隐晦、多在体检发现，须长期降压与活血通络并行。",
+        "transfer": "长期伏案、情志不畅者视物昏蒙、目胀时作，试从气滞血瘀角度建议其眼科检查方向。"
+      },
+      "stdJudgment": "青风内障碍气滞血瘀见视物渐昏、视野日窄、眼胀时作，伴情志不舒、胸胁胀满、头痛目涩，舌紫暗有瘀点、脉弦涩；情志抑郁、气滞血瘀，玄府闭塞、神水滞留，治宜疏肝理气、活血化瘀，血府逐瘀汤加减；与绿风之骤发胀痛相比，青风起病隐袭，最易漏诊。",
+      "coreDefinition": "青风内障碍气滞血瘀证以视昏视野窄、眼胀时作、舌紫暗为特征，治以疏肝理气活血化瘀。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "血府逐瘀汤加减（桃仁、红花、当归、生地、牛膝各9~12g，川芎、赤芍、柴胡、桔梗、枳壳各6~9g，甘草3g）水煎，日1剂分2次服；外治定期监测眼压与视野，保持情志调畅，避免久视与情绪激动，忌熬夜。",
+        "caution": "桃仁、红花活血祛瘀，孕妇禁用或慎用；青光眼须长期随访，视神经损伤不可逆，切勿自行停用降眼压治疗；气虚明显者酌加黄芪、党参以益气行血。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；青光眼视神经损害不可逆，须规范随访",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "桃仁红花活血祛瘀，孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-011",
+      "title": "眼科·暴盲气滞血瘀证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "暴盲",
+        "气滞血瘀",
+        "行气活血",
+        "化瘀通络",
+        "血府逐瘀汤",
+        "急症"
+      ],
+      "intent": "掌握暴盲气滞血瘀证的主症舌脉、病机与行气活血化瘀通络治法，强调急症抢救时间窗。",
+      "learning": {
+        "knowledge": "主症单眼或双眼视力骤然丧失、眼无红肿或胀痛、头目刺痛，多因情志郁怒或外伤诱发，伴胸胁胀满、善太息；舌紫暗有瘀斑，脉弦涩。病机气滞血瘀、脉道闭塞、目系失养。治以行气活血、化瘀通络，主方血府逐瘀汤加减（桃仁、红花、当归、生地、牛膝、川芎、赤芍、柴胡、桔梗、枳壳、甘草），外治关键在于抢时间救治原发病，眼底血管阻塞须立即就医。",
+        "misjudgment": "暴盲者情绪激动时嘱其静待观察。错：动脉阻塞视网膜缺血以小时计，越早开通血管越可能挽救视力，任何延误都可能致永久失明。",
+        "reasoning": "同为暴盲，气滞血瘀与肝阳化风、痰热上壅在诱发因素与眼底表现上如何区分以定先后治法？",
+        "feedback": "气滞血瘀多因郁怒，眼底可见血管阻塞之象，治以活血通络；肝阳化风多兼眩晕肢麻，痰热者多肥甘之体，各按病机立法，但急救为先。",
+        "transfer": "高血压老人大怒后单眼骤然失明，试从气滞血瘀与肝阳化风两端分析其病机与就诊紧迫性。"
+      },
+      "stdJudgment": "暴盲气滞血瘀见情志不遂或外伤后猝然失明、眼胀头刺痛、胸胁满闷，舌紫暗有瘀斑、脉弦涩；气滞血瘀、脉络瘀阻，目系暴失濡养，治宜行气活血、化瘀通络，血府逐瘀汤加减；暴盲多属急危，气滞血瘀、痰热上壅、肝阳化风数端虽各有其治，救治时机却关乎存明。",
+      "coreDefinition": "暴盲气滞血瘀证以视力骤然丧失、眼胀刺痛、舌紫暗为特征，治以行气活血化瘀通络。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "血府逐瘀汤加减（桃仁12g，红花9g，当归、生地、牛膝各12g，川芎、赤芍、柴胡、桔梗、枳壳各6~9g，甘草3g）水煎，日1剂分2次服；急期给药途径与抢救方案由医师执行。外治：视网膜动脉阻塞、静脉阻塞等急症须争分夺秒送医，本节点仅作知识学习，勿以服药延误急救窗口。",
+        "caution": "暴盲可由视网膜动脉阻塞、静脉阻塞、视神经病变等所致，抢救有严格时间窗（动脉阻塞以小时计），切勿延误；孕妇禁用桃仁、红花；须尽快完善眼底与影像检查明确病因。"
+      },
+      "safety": {
+        "note": "急症须立即就医，本节点仅知识学习；视网膜动脉阻塞抢救以小时计",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "桃仁红花活血祛瘀，孕妇禁用",
+          "急症须立即就医，本节点仅知识学习"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-012",
+      "title": "眼科·视瞻昏渺肝肾阴虚证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "视瞻昏渺",
+        "肝肾阴虚",
+        "滋补肝肾",
+        "杞菊地黄丸"
+      ],
+      "intent": "掌握视瞻昏渺肝肾阴虚证的主症舌脉、病机与滋补肝肾益精明目治法，强调眼底检查。",
+      "learning": {
+        "knowledge": "主症视物昏渺、如遮轻纱、眼前黑花或视物变形、久视易疲，伴头晕耳鸣、腰膝酸软、五心烦热、夜寐欠安；舌红少苔，脉细数。病机肝肾阴虚、精血不足、目失濡养。治以滋补肝肾、益精明目，主方杞菊地黄丸加减（熟地、山茱萸、山药、泽泻、茯苓、牡丹皮、枸杞子、菊花），虚火甚加知母、黄柏，瘀滞加丹参、茺蔚子；外治定期眼底检查。",
+        "misjudgment": "视物变形仅当老花处理而忽视眼底检查。错：视瞻昏渺之变形多为黄斑病变信号，须OCT等检查明确；拖延可致中心视力永久损害。",
+        "reasoning": "同见视物昏渺，肝肾阴虚与痰湿内聚在舌脉与治法上如何鉴别？",
+        "feedback": "阴虚者舌红少苔、脉细数，治宜滋养；痰湿者舌胖苔腻、脉濡滑，治宜化痰利湿，误补则湿愈壅。",
+        "transfer": "中老年视物变小变形、腰酸耳鸣者，试从肝肾阴虚角度拟定辨证与检查建议。"
+      },
+      "stdJudgment": "视瞻昏渺肝肾阴虚见视物昏渺、眼前黑花、视物变形、久视易疲，伴头晕耳鸣、腰膝酸软、五心烦热，舌红少苔、脉细数；肝肾阴虚、精血亏少，目失濡养、神光失序，治宜滋补肝肾、益精明目，杞菊地黄丸加减；病涉瞳神水轮，眼底黄斑之变当细察，勿以目昏视之。",
+      "coreDefinition": "视瞻昏渺肝肾阴虚证以视物昏渺变形、头晕耳鸣、舌红少苔为特征，治以滋补肝肾益精明目。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "五脏生成篇第十",
+          "originalText": "肝受血而能视，足受血而能步，掌受血而能握，指受血而能摄。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "杞菊地黄丸加减（熟地12~15g，山茱萸、山药各9~12g，泽泻、茯苓、牡丹皮各6~9g，枸杞子、菊花各9g）水煎，日1剂分2次服，或丸剂每服6~9g、日2次；外治定期行眼底检查（OCT、荧光造影等），忌用眼过度，戒辛辣燥热之品。",
+        "caution": "阴虚夹湿热或脾虚便溏者，滋阴须佐化湿健脾，酌加茯苓、薏苡仁；视物变形反复者须排查黄斑新生血管，必要时行抗VEGF等西医治疗，勿单恃滋补。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；视物变形须及时眼底检查",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb22-w-013",
+      "title": "眼科·目痒风热夹湿证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "目痒",
+        "风热夹湿",
+        "祛风清热",
+        "除湿止痒",
+        "消风散"
+      ],
+      "intent": "掌握目痒风热夹湿证的主症舌脉、病机与祛风清热除湿止痒治法，区分风邪外袭之轻痒。",
+      "learning": {
+        "knowledge": "主症双眼奇痒难忍、如虫爬行、春夏易发，白睛微红、睑内颗粒或乳头成片，眵泪胶黏、畏光；舌红，苔薄黄腻，脉濡数。病机风热夹湿上犯、壅滞睑眦。治以祛风清热、除湿止痒，主方消风散加减（荆芥、防风、牛蒡子、蝉蜕、苍术、苦参、知母、石膏、当归、生地、胡麻仁、木通、甘草），外治冷敷止痒、点止痒滴眼液，忌揉搓。",
+        "misjudgment": "目痒即投辛温驱风之品而忽略除湿。错：痒因风动，然眵胶黏、苔腻为湿滞之征，单驱风则湿不去，痒难根治；须风、湿、热三者兼顾。",
+        "reasoning": "目痒之病，风邪外袭与风热夹湿在痒之轻重、眵之性状上如何区分而立法？",
+        "feedback": "单纯风邪痒势较轻、无黏眵苔腻，宜驱风止痒；风热夹湿痒势剧烈、眵胶黏、苔黄腻，须疏风清热除湿并行。",
+        "transfer": "花粉季双眼奇痒、眵黏不爽者，试按风热夹湿立论并说明护目调护。"
+      },
+      "stdJudgment": "目痒风热夹湿见眼痒如虫行、痒极难忍、白睛微红、睑内颗粒或乳头增生、眵泪胶黏，伴身痒，舌红苔薄黄腻、脉濡数；风热夹湿上犯睑眦，气血壅滞作痒，治宜祛风清热、除湿止痒，消风散加减；痒势骤发属风、痒而黏眵属湿，风与湿孰重须细分。",
+      "coreDefinition": "目痒风热夹湿证以眼痒难忍、白睛微红、眵泪胶黏、苔黄腻为特征，治以祛风清热除湿止痒。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "消风散加减（荆芥、防风、牛蒡子、蝉蜕、苍术、苦参、知母、当归、生地、胡麻仁各6~9g，石膏15~20g先煎，木通、甘草各3~6g）水煎，日1剂分2次服；外治冷敷止痒，日2~3次、每次10分钟，点用清热解毒止痒类滴眼液，每次1~2滴、日3~4次，切忌揉搓与热水烫洗。",
+        "caution": "本方含石膏、苦参等寒凉之品，脾胃虚寒者慎用；木通须用木通科木通，禁用含马兜铃酸之关木通；目痒反复者当查过敏原，注意环境卫生与用眼清洁。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；忌揉眼与热水烫洗",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "马兜铃含马兜铃酸有肾毒性3-9g不可过量久服；肾功能不全禁用（木通须用木通科木通，禁关木通）"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-014",
+      "title": "眼科·瞳神紧小肝胆火炽证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "瞳神紧小",
+        "肝胆火炽",
+        "清泻肝胆",
+        "龙胆泻肝汤",
+        "散瞳"
+      ],
+      "intent": "掌握瞳神紧小肝胆火炽证的主症舌脉、病机与清泻肝胆实火治法，牢记散瞳为先的外治要点。",
+      "learning": {
+        "knowledge": "主症眼珠坠痛拒按、畏光流泪、视物模糊，抱轮红赤（睫状充血）、瞳神紧小、展缩失灵、神水混浊，伴口苦咽干、烦躁易怒；舌红苔黄，脉弦数。病机肝胆火炽、上攻灼目。治以清泻肝胆实火，主方龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、木通、车前子、当归、生地、柴胡、甘草），外治首重散瞳防干缺，配合热敷。",
+        "misjudgment": "瞳神紧小误当急性结膜炎只用滴眼药水。错：抱轮红赤与白睛红赤病位深浅不同，瞳神紧小不散瞳则瞳神干缺、视功能受损，须尽早专科处理。",
+        "reasoning": "同见目赤，抱轮红赤与白睛红赤提示的病位与紧急性有何不同？",
+        "feedback": "抱轮红赤深在风轮周围、环绕黑睛，多属瞳神病变，急重；白睛红赤浅在气轮、赤脉满布，多属结膜之疾，较轻。望赤须辨深浅。",
+        "transfer": "虹膜睫状体炎反复、瞳神渐小者，试从肝胆火炽与阴虚火旺两端思考发作期与缓解期治法的衔接。"
+      },
+      "stdJudgment": "瞳神紧小肝胆火炽见眼珠坠痛、畏光流泪、视物模糊、抱轮红赤、瞳神紧小展缩失灵、神水混浊，伴口苦咽干、烦躁易怒，舌红苔黄、脉弦数；肝胆火炽上攻、灼伤瞳神，治宜清泻肝胆实火，龙胆泻肝汤加减；外治散瞳为要，瞳神开大则难成干缺，此治眼病之关键一着。",
+      "coreDefinition": "瞳神紧小肝胆火炽证以瞳神缩小、抱轮红赤、眼珠坠痛为特征，治以清泻肝胆实火。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "大惑论第八十",
+          "originalText": "目者，五脏六腑之精也，营卫魂魄之所常营也，神气之所生也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减（龙胆草6g，黄芩、栀子、泽泻、车前子、生地、当归各9g，柴胡、木通、生甘草各6g）水煎，日1剂分2次服；外治首重散瞳，1%阿托品眼液点眼由医师执行，每日1~2次，防瞳神干缺与后粘连，配合眼部热敷。",
+        "caution": "散瞳为瞳神紧小第一要务，延误可致瞳神干缺、继发青光眼；青光眼患者散瞳须由医师审慎把握；方中木通须用木通科木通，禁关木通；苦寒之剂中病即止。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；散瞳措施由医师执行，青光眼者审慎",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "马兜铃含马兜铃酸有肾毒性3-9g不可过量久服；肾功能不全禁用（木通须用木通科木通，禁关木通）"
+        ]
+      }
+    },
+    {
+      "id": "pb22-w-015",
+      "title": "眼科·近视眼心阳不足证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "近视",
+        "心阳不足",
+        "补心益气",
+        "安神定志",
+        "定志丸"
+      ],
+      "intent": "掌握近视眼心阳不足证的主症舌脉、病机与补心益气安神定志治法，明确光学矫正为主。",
+      "learning": {
+        "knowledge": "主症视近清楚、视远模糊，目无红肿，伴心悸怔忡、神疲乏力、气短、健忘；舌淡苔白，脉弱。病机心阳不足、神光失于发越，目络气血不充。治以补心益气、安神定志，主方定志丸加减（人参、远志、石菖蒲、茯神，酌加黄芪、炙甘草），外治验光配镜、按摩眼周穴位、控制用眼时长。",
+        "misjudgment": "近视者一见眼疲劳即频点眼药水。错：近视之本是屈光状态与用眼习惯，眼药水不能改变屈光；须验光配镜，并纠正不良用眼。",
+        "reasoning": "同为近视，心阳不足与肝肾两虚在兼证与补益侧重上如何区别？",
+        "feedback": "心阳不足者心悸、舌淡脉弱，重在补心气；肝肾两虚者头晕腰酸、脉细，重在养肝肾，定志丸与驻景丸各有所主。",
+        "transfer": "初中生视远模糊、上课心悸易疲者，试从心阳不足角度给出矫正与调护并行的建议。"
+      },
+      "stdJudgment": "近视心阳不足见视近清晰、视远模糊、目无赤痛，伴心悸怔忡、神疲乏力、健忘失眠，舌淡苔白、脉弱；心阳不足、神光不能发越于远，治宜补心益气、安神定志，定志丸加减；近视之治，光学矫正与用眼卫生居首，补益之剂辅之，勿颠倒主次。",
+      "coreDefinition": "近视眼心阳不足证以视近清视远模糊、心悸神疲为特征，治以补心益气安神定志。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医眼科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "定志丸加减（党参或人参9g，远志、石菖蒲、茯神各6~9g）研末蜜丸，每服6~9g、日2~3次，或水煎日1剂分2次服，酌加黄芪、炙甘草益气；外治验光配镜矫正视力，按摩睛明、攒竹、四白等穴，每日2次、每次3~5分钟，注意用眼卫生、避免久视。",
+        "caution": "心阳不足者忌过用苦寒清泻；儿童青少年近视以行为干预与光学矫正为主，药物为辅，须定期复查视力与屈光，切勿迷信所谓根治之药。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；近视以光学矫正与行为干预为主",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1687 @@
+{
+  "seed": "phase-5/batch-37",
+  "genLabel": "Phase 5 · Batch-37 · 40 nodes（G 中药学 250→290 上限补足）",
+  "total": 40,
+  "samples": [
+    {
+      "nodeId": "pb37-g-001",
+      "title": "白鲜皮与苦参",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-002",
+      "title": "秦皮与椿皮",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-003",
+      "title": "鱼腥草与败酱草",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-004",
+      "title": "射干与山豆根",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-005",
+      "title": "马勃",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-006",
+      "title": "白花蛇舌草与半边莲",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-007",
+      "title": "重楼与山慈菇",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-008",
+      "title": "土茯苓与萆薢",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-009",
+      "title": "鸦胆子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-010",
+      "title": "川乌与草乌",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-011",
+      "title": "蕲蛇",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-012",
+      "title": "海风藤与青风藤",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-013",
+      "title": "桑枝与路路通",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-014",
+      "title": "冬瓜皮与玉米须",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-015",
+      "title": "甘松与柿蒂",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-016",
+      "title": "榧子与鹤草芽",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-017",
+      "title": "艾叶与灶心土",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（1 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-018",
+      "title": "血余炭",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-019",
+      "title": "王不留行与穿山甲",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-020",
+      "title": "茯神",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-021",
+      "title": "辛夷与苍耳子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-022",
+      "title": "决明子与谷精草",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-023",
+      "title": "郁李仁与火麻仁",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-024",
+      "title": "水蛭与虻虫",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-025",
+      "title": "蕲蛇与乌梢蛇",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-026",
+      "title": "灯心草与通草",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-027",
+      "title": "草豆蔻与白豆蔻",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-028",
+      "title": "九香虫",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-029",
+      "title": "鸡矢藤",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-030",
+      "title": "贯众与南瓜子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-031",
+      "title": "白茅根",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-032",
+      "title": "泽兰",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-033",
+      "title": "月季花与凌霄花",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-034",
+      "title": "礞石",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-035",
+      "title": "高良姜",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-036",
+      "title": "珍珠",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-037",
+      "title": "仙茅",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-038",
+      "title": "石榴皮与椿皮",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-039",
+      "title": "雄黄与硫黄",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb37-g-040",
+      "title": "竹叶与淡竹叶",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    }
+  ]
+}

@@ -1,0 +1,637 @@
+{
+  "seed": "phase-5/batch-22",
+  "genLabel": "Phase 5 · Batch-22 · 15 nodes（W 中医眼科学 0→15 下限）",
+  "total": 15,
+  "samples": [
+    {
+      "nodeId": "pb22-w-001",
+      "title": "眼科·五轮学说与目系脏腑",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-002",
+      "title": "眼科·白睛红赤风热犯目证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-003",
+      "title": "眼科·天行赤眼疫毒犯目证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-004",
+      "title": "眼科·针眼热毒壅盛证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-005",
+      "title": "眼科·胞睑水肿脾虚湿停证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-006",
+      "title": "眼科·流泪症肝肾不足证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-007",
+      "title": "眼科·胬肉攀睛心肺风热证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-008",
+      "title": "眼科·圆翳内障肝肾亏虚证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-009",
+      "title": "眼科·绿风内障肝火上扰证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-010",
+      "title": "眼科·青风内障气滞血瘀证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-011",
+      "title": "眼科·暴盲气滞血瘀证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-012",
+      "title": "眼科·视瞻昏渺肝肾阴虚证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-013",
+      "title": "眼科·目痒风热夹湿证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-014",
+      "title": "眼科·瞳神紧小肝胆火炽证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb22-w-015",
+      "title": "眼科·近视眼心阳不足证治",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 6/6 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    }
+  ]
+}

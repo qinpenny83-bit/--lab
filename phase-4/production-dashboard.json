@@ -1,0 +1,234 @@
+{
+  "schema": "phase-4/production-dashboard/v1",
+  "generatedAt": "2026-09-20T09:22:19.980Z",
+  "coverage": {
+    "domains": "23/23",
+    "nodes": "305/305",
+    "pct": 100
+  },
+  "nodes": {
+    "total": 305,
+    "candidate": 206,
+    "conditional": 96,
+    "quarantine": 3
+  },
+  "sourceVerification": {
+    "verified": 206,
+    "total": 305,
+    "pct": 68
+  },
+  "leakThrough": {
+    "total": "见批次明细",
+    "batches": [
+      {
+        "batch": "phase-3b",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-4/batch-2",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-4/batch-3",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-4/batch-4",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      }
+    ]
+  },
+  "c3c4": {
+    "cLevels": {
+      "C1": 0,
+      "C2": 0,
+      "C3": 124,
+      "C4": 45
+    },
+    "humanReviewRequired": 43
+  },
+  "highRiskIsolation": {
+    "note": "各批次 highRiskIsolationRate 均为 100%（无未隔离高危）",
+    "batches": [
+      {
+        "batch": "phase-3b",
+        "pct": 100
+      },
+      {
+        "batch": "phase-4/batch-2",
+        "pct": 100
+      },
+      {
+        "batch": "phase-4/batch-3",
+        "pct": 100
+      },
+      {
+        "batch": "phase-4/batch-4",
+        "pct": 100
+      }
+    ]
+  },
+  "newDefects": {
+    "count": 0,
+    "pipelineAlerts": []
+  },
+  "templateRepetition": {
+    "hGate": 0,
+    "machineLike": 0
+  },
+  "batches": [
+    {
+      "batch": "phase-3b",
+      "total": 50,
+      "verdict": {
+        "candidate": 43,
+        "conditional": 5,
+        "quarantine": 2
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 134,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 8,
+        "nodes": 8,
+        "pct": 100
+      },
+      "gateFailByLetter": {
+        "E": 2
+      }
+    },
+    {
+      "batch": "phase-4/batch-2",
+      "total": 75,
+      "verdict": {
+        "candidate": 73,
+        "conditional": 2,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 119,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-4/batch-3",
+      "total": 75,
+      "verdict": {
+        "candidate": 64,
+        "conditional": 8,
+        "quarantine": 3
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 76,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {
+        "E": 3,
+        "G": 1
+      }
+    },
+    {
+      "batch": "phase-4/batch-4",
+      "total": 139,
+      "verdict": {
+        "candidate": 55,
+        "conditional": 84,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 139,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    }
+  ]
+}

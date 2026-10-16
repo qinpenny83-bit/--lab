@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-20",
+  "genLabel": "Phase 5 · Batch-20 · 25 nodes（U 中医儿科学 0→25 下限）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

@@ -1,0 +1,655 @@
+/* ============================================================
+   🌿 中医修炼馆 · 黄金关卡「☯️ 阴阳探索」专属样式
+   保持「温润东方 / 留白 / 纸张质感 / 克制」的既有视觉语言，
+   只增加一点「数字古籍 / 修炼地图」的轻量质感。
+   不引入大面积纹样、廉价金色或过度水墨。
+   ============================================================ */
+
+.gl-page {
+  max-width: 680px;
+  margin: 0 auto;
+  padding-bottom: 96px;
+}
+
+/* ---------- 顶部内容条 ---------- */
+.gl-content-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.gl-content-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--ink);
+  font-family: var(--font-serif);
+}
+.gl-content-count {
+  font-weight: 500;
+  font-size: 11px;
+  color: var(--ink-3);
+  font-family: var(--font-ui, inherit);
+}
+.gl-map-toggle {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--ink-2);
+  background: transparent;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+
+/* ---------- 首屏：四个问题 ---------- */
+.gl-breadcrumb {
+  font-size: 12px;
+  color: var(--ink-3);
+  letter-spacing: 0.3px;
+  margin-bottom: 4px;
+}
+.gl-intro-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 2px 0 18px;
+  font-family: var(--font-serif);
+  color: var(--ink);
+}
+.gl-intro-block {
+  margin-bottom: 16px;
+}
+.gl-intro-q {
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.gl-intro-abilities {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gl-intro-abilities li {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+  font-size: 13.5px;
+  color: var(--ink);
+  line-height: 1.5;
+}
+.gl-hook {
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--gold-soft);
+  margin-bottom: 20px;
+}
+.gl-hook-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8a651c;
+  margin-bottom: 6px;
+}
+.gl-hook-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+  font-weight: 600;
+}
+.gl-start-btn {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 15px;
+}
+
+/* ---------- 地图 ---------- */
+.gl-map-hero {
+  margin-bottom: 20px;
+}
+.gl-map-collapsed {
+  margin-bottom: 18px;
+}
+.gl-map-collapsed-title {
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-bottom: 8px;
+}
+.gl-levelmap {
+  display: flex;
+  flex-direction: column;
+}
+.gl-node-wrap {
+  position: relative;
+}
+.gl-node {
+  display: flex;
+  gap: 12px;
+  padding: 4px 0;
+}
+.gl-node.is-clickable {
+  cursor: pointer;
+}
+.gl-node-rail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34px;
+  flex-shrink: 0;
+}
+.gl-node-dot {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  transition: all 0.2s ease;
+}
+.gl-node-dot-done {
+  background: var(--green-soft);
+  border-color: transparent;
+}
+.gl-node-dot-current {
+  background: var(--gold-soft);
+  border-color: #d9b45b;
+  box-shadow: 0 0 0 3px rgba(217, 180, 91, 0.18);
+}
+.gl-node-line {
+  flex: 1;
+  width: 1px;
+  min-height: 14px;
+  background: var(--line);
+  margin: 2px 0;
+}
+.gl-node-body {
+  flex: 1;
+  padding: 4px 0 12px;
+  border-bottom: 1px dashed var(--line);
+}
+.gl-node-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.gl-node-num {
+  font-size: 11px;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.gl-node-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--ink);
+  font-family: var(--font-serif);
+}
+.gl-node-state {
+  font-size: 10px;
+  padding: 1px 8px;
+  border-radius: 999px;
+}
+.gl-node-state-done {
+  color: var(--green-deep);
+  background: var(--green-soft);
+}
+.gl-node-state-current {
+  color: #8a651c;
+  background: var(--gold-soft);
+}
+.gl-node-state-locked {
+  color: var(--ink-3);
+  background: var(--bg-soft);
+}
+.gl-node-oneline {
+  font-size: 12.5px;
+  color: var(--ink-2);
+  margin: 3px 0 6px;
+  line-height: 1.5;
+}
+.gl-node-meta {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 11px;
+}
+.gl-node-minute {
+  color: var(--ink-3);
+}
+.gl-node-ability {
+  color: var(--ink-2);
+}
+.gl-node-locked .gl-node-oneline,
+.gl-node-locked .gl-node-meta,
+.gl-node-locked .gl-node-title {
+  opacity: 0.55;
+}
+
+/* ---------- 内容通用 ---------- */
+.gl-muted {
+  font-size: 12px;
+  color: var(--ink-3);
+  margin-top: 4px;
+}
+.gl-scenario {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  white-space: pre-line;
+  margin-bottom: 10px;
+}
+.gl-follow {
+  font-size: 13px;
+  color: var(--ink-2);
+  margin: 6px 0;
+}
+.gl-prompt {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 12px 0 8px;
+  line-height: 1.5;
+}
+.gl-headline {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 8px 0 14px;
+  font-family: var(--font-serif);
+}
+.gl-body-text {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 10px 0 16px;
+}
+.gl-note {
+  font-size: 12.5px;
+  color: var(--ink-2);
+  margin: 10px 0;
+  line-height: 1.6;
+}
+.gl-settle {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink);
+  margin-bottom: 16px;
+  padding: 12px 14px;
+  border-left: 3px solid var(--green-soft);
+  background: var(--bg-soft);
+  border-radius: 6px;
+}
+.gl-example-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 4px 0 10px;
+}
+.gl-example-chip {
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--ink);
+  font-family: var(--font-serif);
+}
+.gl-read,
+.gl-case,
+.gl-choice,
+.gl-paradox,
+.gl-discovery {
+  padding: 4px 0;
+}
+.gl-tag {
+  display: inline-block;
+}
+
+/* ---------- 选项 ---------- */
+.gl-option-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0 14px;
+}
+.gl-option {
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--ink);
+  transition: all 0.15s ease;
+}
+.gl-option:hover {
+  border-color: var(--ink-3);
+}
+.gl-option.on {
+  border-color: #6b8f3c;
+  background: var(--green-soft);
+}
+.gl-option:disabled {
+  cursor: default;
+  opacity: 0.85;
+}
+
+/* ---------- 揭示 / 参考判断 ---------- */
+.gl-reveal {
+  margin: 8px 0 14px;
+}
+.gl-reveal-title {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--ink);
+  margin-bottom: 8px;
+  font-family: var(--font-serif);
+}
+.gl-reveal-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.gl-reference {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  background: var(--card);
+  margin: 10px 0;
+}
+.gl-ref-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.gl-ref-user {
+  background: var(--bg-soft);
+}
+.gl-ref-answer {
+  background: var(--green-soft);
+}
+.gl-ref-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--ink-3);
+}
+.gl-ref-text {
+  font-size: 13.5px;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.gl-ref-section {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-2);
+  margin: 10px 0 4px;
+}
+.gl-ref-basis ul {
+  margin: 0;
+  padding-left: 18px;
+}
+.gl-ref-basis li {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin-bottom: 5px;
+}
+.gl-ref-key {
+  padding: 10px 12px;
+  border-radius: 6px;
+  background: var(--gold-soft);
+  margin-top: 8px;
+}
+.gl-ref-key-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8a651c;
+  margin: 2px 0 0;
+}
+.gl-ref-deviation p {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-2);
+  margin: 0;
+}
+
+/* ---------- 五段式复盘 ---------- */
+.gl-five-step {
+  margin-top: 12px;
+}
+.gl-step {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.gl-step-num {
+  font-weight: 700;
+  color: #8a651c;
+  font-size: 14px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.gl-step-t {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 3px;
+}
+.gl-step-c {
+  font-size: 12.5px;
+  color: var(--ink-2);
+  line-height: 1.55;
+  margin: 0;
+}
+.gl-retry-btn {
+  margin-top: 4px;
+  font-size: 12.5px;
+  padding: 6px 14px;
+}
+
+/* ---------- 一句话带走 ---------- */
+.gl-takeaway {
+  margin: 14px 0;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--gold-soft);
+}
+.gl-takeaway-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8a651c;
+  margin: 0 0 5px;
+}
+.gl-takeaway p {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0;
+  font-weight: 600;
+}
+.gl-safety {
+  font-size: 11.5px;
+  color: var(--ink-3);
+  line-height: 1.5;
+  margin: 8px 0 4px;
+}
+
+/* ---------- 案例侦探线索 ---------- */
+.gl-clue-list {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.gl-clue-list li {
+  font-size: 13.5px;
+  color: var(--ink);
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: var(--bg-soft);
+}
+
+/* ---------- 迁移 intro ---------- */
+.gl-transfer-intro {
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.65;
+  margin: 6px 0 2px;
+}
+
+/* ---------- 完成页 ---------- */
+.gl-summary-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-serif);
+  color: var(--ink);
+  margin: 6px 0 14px;
+}
+.gl-summary-abilities {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gl-summary-abilities li {
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--green-soft);
+  color: var(--green-deep);
+  font-size: 13.5px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.gl-classic {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  background: var(--card);
+  margin-bottom: 18px;
+}
+.gl-classic-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.gl-classic-source {
+  font-size: 12px;
+  color: var(--ink-3);
+}
+.gl-classic-original {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: var(--ink);
+  font-family: var(--font-serif);
+  margin: 0 0 6px;
+}
+.gl-classic-arrow {
+  text-align: center;
+  color: var(--ink-3);
+  font-size: 14px;
+  margin: 4px 0;
+}
+.gl-classic-plain {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-2);
+  margin: 0 0 12px;
+}
+.gl-classic-today-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #8a651c;
+  margin: 0 0 4px;
+}
+.gl-classic-today {
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: 0;
+}
+
+.gl-unlocks {
+  margin-bottom: 20px;
+}
+.gl-unlocks-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--ink-2);
+  margin-bottom: 8px;
+}
+.gl-unlock-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.gl-unlock {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-soft);
+}
+.gl-unlock-icon {
+  font-size: 20px;
+}
+.gl-unlock-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0;
+}
+.gl-unlock-desc {
+  font-size: 12px;
+  color: var(--ink-3);
+  margin: 2px 0 0;
+}
+.gl-done-btn {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 15px;
+}
+
+/* ---------- 390px 移动端适配 ---------- */
+@media (max-width: 430px) {
+  .gl-page {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .gl-intro-title {
+    font-size: 23px;
+  }
+  .gl-node-title {
+    font-size: 13.5px;
+  }
+  .gl-node-body {
+    padding-right: 2px;
+  }
+  .gl-example-chip {
+    font-size: 13px;
+  }
+}

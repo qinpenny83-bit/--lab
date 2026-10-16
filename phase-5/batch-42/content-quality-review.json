@@ -1,0 +1,973 @@
+{
+  "seed": "phase-5/batch-42",
+  "genLabel": "Phase 5 · Batch-42 · 23 nodes（收官：AD 医德法规 12→20 / AE 医患沟通心理 12→20 / AF 循证科研 18→25 全部达上限，全库 2185 节点）",
+  "total": 23,
+  "samples": [
+    {
+      "nodeId": "pb42-ad-001",
+      "title": "伦理·中医药文化自信与医德传承",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb42-ad-002",
+      "title": "伦理·针灸推拿操作伦理规范",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ad-003",
+      "title": "伦理·互联网诊疗伦理边界",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ad-004",
+      "title": "法规·传染病防治法要点",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb42-ad-005",
+      "title": "法规·药品管理法要点",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ad-006",
+      "title": "法规·医疗纠纷预防与处理",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ad-007",
+      "title": "法规·中药饮片与处方调剂法规",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ad-008",
+      "title": "法规·执业药师与药品流通管理",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-001",
+      "title": "沟通·倾听与共情技巧",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-002",
+      "title": "沟通·儿童患者沟通技巧",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-003",
+      "title": "沟通·老年患者沟通技巧",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-004",
+      "title": "心理·慢性病心理调适",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-005",
+      "title": "心理·患者家属心理支持",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-006",
+      "title": "心理·医护人员职业倦怠与自我调适",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-007",
+      "title": "心理·睡眠障碍心理干预",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-ae-008",
+      "title": "心理·疼痛的心理因素与管理",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-001",
+      "title": "循证·临床实践指南制定与评价",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-002",
+      "title": "循证·GRADE证据分级与推荐强度",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-003",
+      "title": "循证·系统评价与Meta分析解读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-004",
+      "title": "循证·异质性与发表偏倚",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-005",
+      "title": "科研·非劣效与等效设计",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-006",
+      "title": "科研·真实世界研究",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb42-af-007",
+      "title": "循证·中医药循证评价特殊性",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    }
+  ]
+}

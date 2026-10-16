@@ -1,0 +1,235 @@
+{
+  "seed": "phase-5/batch-24",
+  "genLabel": "Phase 5 · Batch-24 · 25 nodes（Y 推拿·养生康复 0→25 下限）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 25
+  },
+  "samples": [
+    {
+      "id": "pb24-y-001",
+      "title": "推拿·滚法操作要领",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-002",
+      "title": "推拿·一指禅推法操作要领",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-003",
+      "title": "推拿·按揉法与拿法操作要领",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-004",
+      "title": "推拿·㨰法擦法搓法操作要领",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-005",
+      "title": "推拿·小儿捏脊手法",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-006",
+      "title": "推拿·颈椎病松解整复手法",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-007",
+      "title": "推拿·肩周炎松解手法",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-008",
+      "title": "推拿·腰肌劳损放松手法",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-009",
+      "title": "推拿·膝关节骨关节炎手法",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-010",
+      "title": "推拿·头痛穴位推拿",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-011",
+      "title": "推拿·失眠安神推拿",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-012",
+      "title": "推拿·胃脘痛调理推拿",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-013",
+      "title": "推拿·便秘通腑推拿",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-014",
+      "title": "推拿·月经不调调理推拿",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-015",
+      "title": "推拿·急性腰扭伤手法",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-016",
+      "title": "推拿·颈椎眩晕手法",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-017",
+      "title": "推拿·退行性腰椎病手法",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-018",
+      "title": "推拿·中风后遗症肢体康复手法",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-019",
+      "title": "推拿·软组织损伤理筋手法",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-020",
+      "title": "养生·四时调神起居",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-021",
+      "title": "养生·情志调摄与脏腑",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-022",
+      "title": "养生·饮食有节五味调和",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-023",
+      "title": "养生·动静结合导引吐纳",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-024",
+      "title": "养生·子午流注与作息",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb24-y-025",
+      "title": "养生·治未病三级预防",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

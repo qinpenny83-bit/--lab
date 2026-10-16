@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-19",
+  "genLabel": "Phase 5 · Batch-19 · 30 nodes（T 中医妇科学 0→30 下限）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

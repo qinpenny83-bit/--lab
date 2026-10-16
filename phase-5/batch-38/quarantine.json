@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-38",
+  "genLabel": "Phase 5 · Batch-38 · 40 nodes（L 方剂学 230→270 上限补足）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

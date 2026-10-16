@@ -1,0 +1,190 @@
+{
+  "seed": "phase-5/batch-25",
+  "genLabel": "Phase 5 · Batch-25 · 20 nodes（Z 中医急诊 0→20 下限）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 20
+  },
+  "samples": [
+    {
+      "id": "pb25-z-001",
+      "title": "急诊·高热急症辨证救治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-002",
+      "title": "急诊·神昏急症辨证救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-003",
+      "title": "急诊·厥脱阳脱证救治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-004",
+      "title": "急诊·中风急症闭证救治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-005",
+      "title": "急诊·胸痹真心痛救治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-006",
+      "title": "急诊·喘脱证救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-007",
+      "title": "急诊·血证大出血救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-008",
+      "title": "急诊·剧烈腹痛急腹症鉴别",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-009",
+      "title": "急诊·急性吐泻津脱救治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-010",
+      "title": "急诊·惊厥抽搐救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-011",
+      "title": "急诊·中暑阳暑阴暑辨治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-012",
+      "title": "急诊·溺水急救复苏",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-013",
+      "title": "急诊·电击伤急救",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-014",
+      "title": "急诊·急性中毒洗胃导泻",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-015",
+      "title": "急诊·毒蛇咬伤急救",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-016",
+      "title": "急诊·烧烫伤早期处理",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-017",
+      "title": "急诊·犬咬伤处置与狂犬病预防",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-018",
+      "title": "急诊·急性喉梗阻救治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-019",
+      "title": "急诊·多脏器功能衰竭中医参与",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb25-z-020",
+      "title": "急诊·急危重症监护与转诊指征",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

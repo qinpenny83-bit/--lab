@@ -1,0 +1,1372 @@
+{
+  "seed": "phase-5/batch-1",
+  "genLabel": "Phase 5 · Batch-1 · 150 nodes（A28 + B40 + G42 + L40，33 学科蓝图首批基础四科）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核（含 C4 语义门通过但无 humanReviewRequired 标记者）。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 150
+  },
+  "samples": [
+    {
+      "id": "pb5-a-01",
+      "title": "邪正盛衰与虚实变化",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-02",
+      "title": "阴阳失调的四种基本形式",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-03",
+      "title": "气血失常",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-04",
+      "title": "津液代谢失常",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-05",
+      "title": "内生五邪",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-06",
+      "title": "六淫致病共性",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-07",
+      "title": "风邪与寒邪特性辨析",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-08",
+      "title": "暑邪与湿邪特性辨析",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-09",
+      "title": "燥邪与火邪特性辨析",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-10",
+      "title": "疠气的致病特点",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-11",
+      "title": "七情内伤的致病特点",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-12",
+      "title": "饮食失宜与劳逸失度",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-13",
+      "title": "痰饮的形成与致病特点",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-14",
+      "title": "瘀血的形成与致病特点",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-15",
+      "title": "正治与反治",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-16",
+      "title": "治标与治本",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-17",
+      "title": "扶正与祛邪的运用",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-18",
+      "title": "调整阴阳的治疗原则",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-a-19",
+      "title": "三因制宜的临床落实",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-20",
+      "title": "取象比类思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-21",
+      "title": "司外揣内思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-22",
+      "title": "整体思维与变易思维",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-23",
+      "title": "辨证与辨病相结合",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-24",
+      "title": "形神合一观",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-25",
+      "title": "体质学说概述",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-26",
+      "title": "体质与发病、治疗的关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-27",
+      "title": "治未病的三个层次深化",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-a-28",
+      "title": "中医理论体系框架总览",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-01",
+      "title": "望神",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-02",
+      "title": "望面色",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-03",
+      "title": "望形体与姿态",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-04",
+      "title": "舌诊概述：舌质与舌苔的关系",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-05",
+      "title": "望舌质：舌色舌形舌态",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-06",
+      "title": "望舌苔：苔色与苔质",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-07",
+      "title": "听声音",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-b-08",
+      "title": "嗅气味",
+      "category": "diagnostic",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-b-09",
+      "title": "问寒热",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-10",
+      "title": "问汗",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-11",
+      "title": "问疼痛",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-12",
+      "title": "问饮食口味",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-13",
+      "title": "问二便",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-14",
+      "title": "问睡眠与经带",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-15",
+      "title": "脉诊概述：寸口脉法",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-16",
+      "title": "正常脉象与脉象要素",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「胃神根」来源纠偏：sourceType→traditional_commentary、status→teaching_inference（「胃神根」为后世教学概括；「脉弱以滑，是有胃气」原文见《素问·玉机真脏论》）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-17",
+      "title": "浮脉与沉脉",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-18",
+      "title": "迟脉与数脉",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-19",
+      "title": "虚脉与实脉",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-20",
+      "title": "滑脉与涩脉",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-21",
+      "title": "弦脉与紧脉",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-22",
+      "title": "细脉与弱脉",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-23",
+      "title": "洪脉与濡脉",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-24",
+      "title": "结脉、代脉、促脉",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-25",
+      "title": "脉证合参：舍脉从证与舍证从脉",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-26",
+      "title": "按诊概述",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-27",
+      "title": "按脘腹与积聚",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-b-28",
+      "title": "问头身胸腹",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-29",
+      "title": "问耳目",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-30",
+      "title": "闻咳嗽喘息与呃逆嗳气",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-31",
+      "title": "望皮肤：斑疹疮疡",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-32",
+      "title": "胃病辨证：胃阴虚与胃火",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-33",
+      "title": "大肠小肠辨证：湿热与津亏",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-34",
+      "title": "膀胱湿热与淋证",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-35",
+      "title": "痰证辨证：痰蒙心神与痰热扰心",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-36",
+      "title": "水肿辨证：阳水与阴水",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-37",
+      "title": "脏腑兼证（一）：心肝血虚与心肺气虚",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-b-38",
+      "title": "脏腑兼证（二）：肝火犯肺与肺脾气虚",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-b-39",
+      "title": "气血同病辨证：气血两虚与气不摄血",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-b-40",
+      "title": "阴阳虚损与寒热真假",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-01",
+      "title": "中药性能：四气",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-02",
+      "title": "中药性能：五味",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-g-03",
+      "title": "中药性能：归经与升降浮沉",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-04",
+      "title": "中药配伍与用药禁忌",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-05",
+      "title": "解表药概述与麻黄",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-06",
+      "title": "桂枝",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-07",
+      "title": "薄荷",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-08",
+      "title": "菊花",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-09",
+      "title": "清热药概述与石膏",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-10",
+      "title": "知母",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-11",
+      "title": "黄连",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-12",
+      "title": "金银花",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-13",
+      "title": "生地黄",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-14",
+      "title": "泻下药概述与大黄",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-15",
+      "title": "芒硝",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-16",
+      "title": "祛风湿药概述与独活",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-17",
+      "title": "化湿药概述与藿香",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-18",
+      "title": "利水渗湿药概述与茯苓",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-19",
+      "title": "泽泻",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-20",
+      "title": "温里药概述与附子",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "高危",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-21",
+      "title": "干姜",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-22",
+      "title": "理气药概述与陈皮",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-23",
+      "title": "枳实",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-24",
+      "title": "消食药概述与山楂",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-25",
+      "title": "止血药概述与三七",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-26",
+      "title": "白及",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-27",
+      "title": "艾叶",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-28",
+      "title": "活血化瘀药概述与川芎",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-29",
+      "title": "丹参",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-30",
+      "title": "桃仁与红花",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-31",
+      "title": "化痰止咳平喘药概述与半夏",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "高危",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-32",
+      "title": "桔梗",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-33",
+      "title": "川贝母",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-34",
+      "title": "苦杏仁",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-35",
+      "title": "安神药概述与酸枣仁",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-36",
+      "title": "平肝息风药概述与天麻",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-37",
+      "title": "补虚药概述与分类",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-38",
+      "title": "人参",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-39",
+      "title": "黄芪",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-40",
+      "title": "当归",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-41",
+      "title": "麦冬",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-g-42",
+      "title": "收涩药概述与五味子",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-01",
+      "title": "方剂与治法：八法",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-l-02",
+      "title": "麻黄汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-03",
+      "title": "桂枝汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-04",
+      "title": "银翘散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-05",
+      "title": "小青龙汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-06",
+      "title": "桑菊饮",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-07",
+      "title": "大承气汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「痞满燥实」来源纠偏：sourceType→teaching_design、出处→「《伤寒论》阳明病篇（后世归纳）」、status→teaching_inference（「痞满燥实」为大承气汤适应证四字概括，后世/教材归纳，非原句；原文依据见阳明腑实诸条）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-08",
+      "title": "麻子仁丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-09",
+      "title": "小柴胡汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-10",
+      "title": "逍遥散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-11",
+      "title": "半夏泻心汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-12",
+      "title": "白虎汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-13",
+      "title": "黄连解毒汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-14",
+      "title": "清营汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-15",
+      "title": "龙胆泻肝汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-16",
+      "title": "四逆汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "高危",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-17",
+      "title": "理中丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-18",
+      "title": "四君子汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-19",
+      "title": "补中益气汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-20",
+      "title": "生脉散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-21",
+      "title": "四物汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-22",
+      "title": "归脾汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-23",
+      "title": "六味地黄丸",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-24",
+      "title": "肾气丸",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-25",
+      "title": "玉屏风散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-26",
+      "title": "四神丸",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-27",
+      "title": "酸枣仁汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-28",
+      "title": "越鞠丸",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-29",
+      "title": "半夏厚朴汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-30",
+      "title": "血府逐瘀汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-31",
+      "title": "补阳还五汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-32",
+      "title": "川芎茶调散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-33",
+      "title": "镇肝熄风汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-34",
+      "title": "平胃散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-35",
+      "title": "藿香正气散",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-36",
+      "title": "五苓散",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-37",
+      "title": "茵陈蒿汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-38",
+      "title": "二陈汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-39",
+      "title": "温胆汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-l-40",
+      "title": "保和丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema": "phase-5/final-audit/v33",
+  "generatedAt": "2026-10-08T08:22:27.589Z",
+  "phase": "Phase 5 phase-5/batch-42 完成（33 学科蓝图：全量 2215 节点编排）",
+  "verdict": "STOP：未自动正式发布；未修改 Phase 2.5 封板 Schema；未自动进入下一批次（等待人工指令）",
+  "audit": {
+    "coverage": {
+      "status": "PASS",
+      "detail": "A 中医基础理论 185/185（下限 160）、AC 现代医学基础 55/55（下限 40）、B 中医诊断学 165/165（下限 140）、G 中药学 290/290（下限 250）、C 经络学 45/45（下限 35）、D 腧穴学 75/75（下限 60）、F 刺法灸法学 35/35（下限 25）、Q 中医临床基础 45/45（下限 35）、E 针灸治疗学 40/40（下限 30）、H 中药鉴定学 70/70（下限 50）、I 药用植物·本草学 45/45（下限 30）、J 中药炮制学 60/60（下限 40）、Y 推拿·养生康复 35/35（下限 25）、K 中药药剂学 35/35（下限 25）、L 方剂学 270/270（下限 230）、M 方剂剂量（维度） 30/30（下限 20）、N 中医经典 145/145（下限 120）、AA 传染病·预防 30/30（下限 20）、AB 全科医学 25/25（下限 15）、AD 伦理·法律 20/20（下限 12）、AE 沟通·心理 20/20（下限 12）、AF 科研·证据 25/25（下限 18）、AG 综合医案·试炼 30/30（下限 20）、O 医古文 55/55（下限 40）、P 各家学说 45/45（下限 30）、R 中医内科学 115/115（下限 95）、S 中医外科学 40/40（下限 30）、T 中医妇科学 40/40（下限 30）、U 中医儿科学 35/35（下限 25）、V 中医骨伤科学 30/30（下限 20）、W 中医眼科学 25/25（下限 15）、X 中医耳鼻咽喉科 25/25（下限 15）、Z 中医急诊 30/30（下限 20）；33 学科蓝图注册完整"
+    },
+    "batches": {
+      "status": "PASS",
+      "detail": "phase-3b 节点 50：candidate 43 / conditional 5 / quarantine 2；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-4/batch-2 节点 75：candidate 73 / conditional 2 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-4/batch-3 节点 75：candidate 64 / conditional 8 / quarantine 3；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-4/batch-4 节点 139：candidate 55 / conditional 84 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-5/batch-1 节点 150：candidate 150 / conditional 0 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-5/batch-2 节点 55：candidate 55 / conditional 0 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-5/batch-3 节点 30：candidate 30 / conditional 0 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-5/batch-4 节点 50：candidate 50 / conditional 0 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}；phase-5/batch-5 节点 50：candidate 50 / conditional 0 / quarantine 0；leak {\"A\":0,\"B\":0,\"C\":0,\"D\":0,\"H\":0,\"J\":0,\"K\":0}"
+    },
+    "leakThrough": {
+      "status": "PASS",
+      "detail": "A/B/C/D/H/J/K 各批次 Leak-through 均为 0"
+    },
+    "unknownSource": {
+      "status": "PASS",
+      "detail": "未知来源 0%（0/1192）"
+    },
+    "highRiskIsolation": {
+      "status": "PASS",
+      "detail": "高危内容 100% 隔离"
+    },
+    "schemaIntegrity": {
+      "status": "PASS",
+      "detail": "Phase 2.5 Schema 未修改；phase-3a.1/source-catalog.mjs 未修改（Phase 5 出处经 phase-5/classic-patch.mjs 运行时注入，现共 177 条）"
+    },
+    "gates": {
+      "status": "PASS",
+      "detail": "A-K Gate + E/F/G 语义门运行稳定；Gate 拦截均为门禁预期隔离，不构成新型系统性缺陷"
+    },
+    "contentQuality": {
+      "status": "PASS",
+      "detail": "Q1-Q8 已接入；机器味 0；模板重复（H）0；content-review 0（待人工审核）"
+    },
+    "c1c4": {
+      "status": "INFO",
+      "detail": "C3×124 C4×45；C4 humanReviewRequired=43 进入人工复核清单，不阻塞生产"
+    },
+    "pipelineAlerts": {
+      "status": "PASS",
+      "detail": "无泄漏（Leak-through）缺陷；Gate 拦截均为门禁预期隔离，不构成新型系统性缺陷"
+    }
+  },
+  "humanReviewQueues": {
+    "conditional": 53,
+    "quarantine": 3,
+    "c4HumanReviewRequired": 43,
+    "phase5ContentReview": 0
+  },
+  "finalState": "2215 节点全部可进入学习地图（33 学科）；candidate/conditional 待人工抽审后转正式知识"
+}

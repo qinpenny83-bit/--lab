@@ -1,0 +1,1431 @@
+{
+  "seed": "phase-5/batch-32",
+  "total": 20,
+  "trace": [
+    {
+      "nodeId": "pb32-ag-001",
+      "title": "试炼·医案·感冒表寒里热辨治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《伤寒论》规划教材",
+        "《中医内科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-001",
+        "title": "试炼·医案·感冒表寒里热辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-002",
+      "title": "试炼·医案·咳嗽外寒内饮辨治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《伤寒论》规划教材",
+        "《中医内科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-002",
+        "title": "试炼·医案·咳嗽外寒内饮辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-003",
+      "title": "试炼·医案·喘证肾虚不纳辨治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《金匮要略》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-003",
+        "title": "试炼·医案·喘证肾虚不纳辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-004",
+      "title": "试炼·医案·心悸心血不足辨治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-004",
+        "title": "试炼·医案·心悸心血不足辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-005",
+      "title": "试炼·医案·胸痹痰浊闭阻辨治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《金匮要略》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-005",
+        "title": "试炼·医案·胸痹痰浊闭阻辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-006",
+      "title": "试炼·医案·不寐心肾不交辨治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《伤寒论》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-006",
+        "title": "试炼·医案·不寐心肾不交辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-007",
+      "title": "试炼·医案·胃痛肝气犯胃辨治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-007",
+        "title": "试炼·医案·胃痛肝气犯胃辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-008",
+      "title": "试炼·医案·呕吐痰饮内停辨治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《金匮要略》规划教材",
+        "《中医内科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-008",
+        "title": "试炼·医案·呕吐痰饮内停辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-009",
+      "title": "试炼·医案·泄泻肝气乘脾辨治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-009",
+        "title": "试炼·医案·泄泻肝气乘脾辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-010",
+      "title": "试炼·医案·便秘阳虚冷秘辨治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-010",
+        "title": "试炼·医案·便秘阳虚冷秘辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-011",
+      "title": "试炼·医案·胁痛肝气郁结辨治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-011",
+        "title": "试炼·医案·胁痛肝气郁结辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-012",
+      "title": "试炼·医案·黄疸阳黄热重于湿辨治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《金匮要略》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-012",
+        "title": "试炼·医案·黄疸阳黄热重于湿辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-013",
+      "title": "试炼·医案·水肿风水相搏辨治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《金匮要略》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-013",
+        "title": "试炼·医案·水肿风水相搏辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-014",
+      "title": "试炼·医案·淋证热淋辨治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-014",
+        "title": "试炼·医案·淋证热淋辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-015",
+      "title": "试炼·医案·眩晕肝阳上亢辨治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-015",
+        "title": "试炼·医案·眩晕肝阳上亢辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-016",
+      "title": "试炼·医案·头痛瘀血阻络辨治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-016",
+        "title": "试炼·医案·头痛瘀血阻络辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-017",
+      "title": "试炼·医案·中风中经络风痰阻络辨治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医内科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-017",
+        "title": "试炼·医案·中风中经络风痰阻络辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-018",
+      "title": "试炼·医案·消渴上消肺热津伤辨治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-018",
+        "title": "试炼·医案·消渴上消肺热津伤辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-019",
+      "title": "试炼·医案·痹证行痹风寒湿痹辨治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-019",
+        "title": "试炼·医案·痹证行痹风寒湿痹辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb32-ag-020",
+      "title": "试炼·医案·虚劳气血两虚辨治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《中医内科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医内科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb32-ag-020",
+        "title": "试炼·医案·虚劳气血两虚辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    }
+  ]
+}

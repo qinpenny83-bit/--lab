@@ -1,0 +1,265 @@
+{
+  "seed": "phase-4/batch-3",
+  "genLabel": "Phase 4 · Batch-3 · 75 nodes（L1-L6 + A-K + Q1-Q8）",
+  "total": 75,
+  "counts": {
+    "candidate": 64,
+    "conditional": 8,
+    "quarantine": 3
+  },
+  "verdictBreakdown": {
+    "candidate": 64,
+    "conditional": 8,
+    "quarantine": 3
+  },
+  "engineering": {
+    "gateFailByLetter": {
+      "E": {
+        "count": 3,
+        "samples": [
+          {
+            "id": "pb3-th-03-13",
+            "title": "五行综合案例",
+            "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+          },
+          {
+            "id": "pb3-th-04-19",
+            "title": "藏象综合案例",
+            "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+          },
+          {
+            "id": "pb3-fm-17-07",
+            "title": "方剂的剂型",
+            "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+          }
+        ]
+      },
+      "G": {
+        "count": 1,
+        "samples": [
+          {
+            "id": "pb3-th-03-13",
+            "title": "五行综合案例",
+            "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+          }
+        ]
+      }
+    },
+    "correctionByKind": {
+      "K": {
+        "count": 2,
+        "samples": [
+          {
+            "id": "pb3-dg-09-05",
+            "title": "望头面五官",
+            "layer": "来源解析",
+            "reason": "经典「五脏六腑之精气皆上注于目」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+          },
+          {
+            "id": "pb3-cl-12-10",
+            "title": "肝风内动",
+            "layer": "来源解析",
+            "reason": "经典「诸风掉眩皆属于肝」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+          }
+        ]
+      }
+    },
+    "correctionByLayer": {
+      "来源解析": {
+        "count": 2
+      }
+    },
+    "leakThrough": {
+      "A": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "B": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "C": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "D": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "H": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "J": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "K": {
+        "sourceFixed": 2,
+        "gateBlocked": 0,
+        "leak": 0
+      }
+    },
+    "unknownSourceRatio": {
+      "unknown": 0,
+      "total": 76,
+      "pct": 0
+    },
+    "highRiskIsolationRate": {
+      "covered": 0,
+      "nodes": 0,
+      "pct": 100
+    }
+  },
+  "content": {
+    "difficultyDistribution": {
+      "basic": {
+        "count": 13,
+        "pct": 17
+      },
+      "mid": {
+        "count": 26,
+        "pct": 35
+      },
+      "hard": {
+        "count": 29,
+        "pct": 39
+      },
+      "mixed": {
+        "count": 7,
+        "pct": 9
+      }
+    },
+    "perCategory": {
+      "theory": [
+        2,
+        2,
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        4,
+        5,
+        2,
+        3,
+        3,
+        3,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        5,
+        2,
+        4
+      ],
+      "meridian": [
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "clinical": [
+        5,
+        4,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        3,
+        3,
+        4,
+        4,
+        3,
+        4,
+        4,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        3,
+        5,
+        3,
+        4,
+        4,
+        3,
+        4
+      ],
+      "diagnostic": [
+        2,
+        3,
+        3,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "formula": [
+        2,
+        2,
+        4
+      ],
+      "case": [
+        2
+      ]
+    },
+    "perCategoryDistinct": {
+      "theory": 4,
+      "meridian": 2,
+      "clinical": 3,
+      "diagnostic": 2,
+      "formula": 2,
+      "case": 1
+    },
+    "machineLikeRepetition": [],
+    "contentPreliminary": {
+      "contentCandidate": 49,
+      "contentReview": 26
+    },
+    "c3c4": {
+      "cLevels": {
+        "C1": 0,
+        "C2": 0,
+        "C3": 41,
+        "C4": 9
+      },
+      "humanReviewRequired": [
+        "pb3-th-04-19",
+        "pb3-th-05-17",
+        "pb3-th-07-15",
+        "pb3-cl-08-11",
+        "pb3-cl-12-09",
+        "pb3-cl-12-10",
+        "pb3-cl-12-30",
+        "pb3-cl-13-11"
+      ],
+      "evidenceInsufficient": [
+        "pb3-th-03-13",
+        "pb3-th-04-19",
+        "pb3-fm-17-07"
+      ]
+    }
+  }
+}

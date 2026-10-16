@@ -1,0 +1,1958 @@
+{
+  "seed": "phase-5/batch-43",
+  "genLabel": "Phase 5 · Batch-43 · 人体认知入门 30 nodes（A 中医基础理论 155→185）",
+  "total": 30,
+  "note": "新增 00 章人体认知入门：身体地图→器官功能→器官联系→中医视角，解决小白无人体基础问题",
+  "samples": [
+    {
+      "id": "pb43-body-001",
+      "title": "人体·全身地图总览",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "人体结构",
+        "九大系统",
+        "解剖分区",
+        "体腔",
+        "入门地图"
+      ],
+      "intent": "建立身体的整体地图：从外到内、从头到脚，认识身体的层次结构与九大系统分工。",
+      "learning": {
+        "knowledge": "先记三句话：人体分头颈躯干四肢四大部分；躯干内胸腔装心与肺，腹腔装胃、肠、肝、胆、胰、脾、肾；九大系统里循环系统管运输、呼吸系统管换气、消化系统管加工、泌尿系统管排水、神经系统管指挥。把这些当成「城市地图」记，后面每个器官都是地图上的一个站点。",
+        "misjudgment": "以为内脏是胡乱塞在肚子里的一团。错：胸腔腹腔分得清清楚楚，每个器官都有固定位置和邻居关系，比如肝在右上腹、胃在左上腹，位置记忆是理解功能的第一步。",
+        "reasoning": "为什么心脏明明在左边胸腔，却要说它是全身运输的总站？",
+        "feedback": "因为心脏通过血管把血送到全身每个角落，位置在左只是它的「车位」，工作范围才是它的「职责」。",
+        "transfer": "给一位完全不懂医学的朋友介绍肝脏位置，你会用哪句生活化的话？"
+      },
+      "stdJudgment": "人体像一栋三层小楼：外层是皮肤这层「外墙」，中层是肌肉与骨骼的「承重结构」，内层是心肝肺肾等「机房设备」。从上到下分头、颈、躯干、四肢，躯干里胸腔装心肺、腹腔装胃肠肝胆胰脾肾。身体的运作由九大系统分工完成：运动、循环、呼吸、消化、泌尿、神经、内分泌、生殖、免疫。",
+      "coreDefinition": "人体地图：由皮肤、肌肉骨骼包裹，胸腔腹腔容纳内脏，九大系统各司其职又协同运作的整体结构。",
+      "facts": [
+        {
+          "field": "theory.人体层次结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.九大系统构成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.体腔分区",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.解剖方位术语",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.系统协同工作",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-002",
+      "title": "人体·骨骼与肌肉的支架",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "骨骼系统",
+        "肌肉系统",
+        "支撑运动",
+        "保护内脏",
+        "关节"
+      ],
+      "intent": "认识骨骼与肌肉系统：管支撑、保护与运动，是身体的框架和动力源。",
+      "learning": {
+        "knowledge": "记住三件事：成人有 206 块骨，颅骨、肋骨、脊柱负责「护」——护脑、护心、护肺；四肢骨负责「动」——大腿小腿上臂前臂像杠杆；肌肉分骨骼肌（受大脑指挥）、平滑肌（胃壁肠壁自动工作）、心肌（心脏专属）。骨髓是造血工厂，所以骨头断了不只是「支架断了」。",
+        "misjudgment": "以为肌肉只管运动、骨头只管支撑。错：骨髓是造血工厂，每天生成大量血细胞；肌肉还分自动工作的平滑肌——胃肠蠕动根本不听你指挥。",
+        "reasoning": "同样是一根柱子，为什么脊柱能弯腰转头而大腿骨不能？",
+        "feedback": "因为脊柱由一节节椎骨加椎间盘串成，像一串珠子一样灵活；大腿骨是单根硬骨，只负责承担和传导。",
+        "transfer": "老人摔倒后「骨头变脆」，通常指骨骼的哪项功能衰退了？"
+      },
+      "stdJudgment": "骨骼是房子的钢筋骨架，肌肉是拉动骨架的绳索，关节是骨架之间的铰链。颅骨像头盔保护大脑，肋骨像笼子护住心肺，脊柱像立柱撑起全身。骨骼不只是「架子」，骨髓还是造血的工厂；肌肉靠收缩拉动骨骼完成举手投足，也包裹内脏起到保护作用。",
+      "coreDefinition": "骨骼与肌肉：骨骼支撑保护并参与造血，肌肉收缩带动关节产生运动，二者共同构成身体的支架与动力系统。",
+      "facts": [
+        {
+          "field": "theory.骨骼系统功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肌肉系统功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.关节与运动",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.骨骼保护内脏",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.骨骼造血功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-003",
+      "title": "人体·循环系统的运输网",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "循环系统",
+        "血液",
+        "血管",
+        "运输营养",
+        "心脏泵"
+      ],
+      "intent": "认识循环系统：血液、血管与心脏组成的全身运输网，负责运营养、送氧气、收废料。",
+      "learning": {
+        "knowledge": "循环系统三件套：泵（心脏，一生跳约 30 亿次）、管道（血管，全身连起来约 10 万公里）、货（血液）。血液里红细胞装氧气、白细胞是保安、血小板是补胎工、血浆是运输溶剂。记住方向：动脉出心、静脉回心，毛细血管才是真正「交货」的地方。",
+        "misjudgment": "以为动脉里流的是鲜红的「好血」、静脉里是暗红的「脏血」。错：血管按方向分动静脉，按含氧分的是肺循环与体循环——肺动脉里流的反而是含氧少的血。",
+        "reasoning": "快递车进了城却送不进每家每户，是哪一种血管在负责「最后一公里」？",
+        "feedback": "毛细血管。它细到只容一个红细胞通过，壁薄到氧气营养能直接透出去，是真正的交货点。",
+        "transfer": "手被划破流了点血，血液里是哪种成分在第一时间来「堵漏」？"
+      },
+      "stdJudgment": "循环系统是身体的物流公司：心脏是总泵站，动脉是出城的高速路，静脉是回城的干道，毛细血管是送到每家门口的小巷。血液这个「快递车」拉着氧气和营养走遍全身，再把二氧化碳和废料带回处理厂。血液里红细胞运氧、白细胞打仗、血小板堵漏。",
+      "coreDefinition": "循环系统：由心脏、血管与血液构成，负责把氧气和营养送到全身、把废物运走，维持每个细胞的新陈代谢。",
+      "facts": [
+        {
+          "field": "theory.循环系统组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.血液组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.动脉静脉区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心脏泵血功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.毛细血管交换",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-004",
+      "title": "人体·呼吸系统的换气窗",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "呼吸系统",
+        "肺",
+        "气体交换",
+        "氧气",
+        "二氧化碳"
+      ],
+      "intent": "认识呼吸系统：鼻子到肺的通路与气体交换，理解氧气进来、二氧化碳出去的完整过程。",
+      "learning": {
+        "knowledge": "记住「一呼一吸走全程」：空气经鼻毛加温过滤→咽喉→气管→支气管→肺泡。肺泡是关键：壁薄如纸，周围缠着毛细血管，氧气和二氧化碳在这里「换班」。膈肌是呼吸的主力肌肉，它一上一下，胸腔就一缩一扩。成人安静时每分钟约 12–20 次呼吸。",
+        "misjudgment": "以为吸气是肺自己在「吸」。错：肺没有肌肉不会主动吸气，是膈肌和肋间肌收缩把胸腔撑大，肺被动跟着扩张，空气才被「压」进来。",
+        "reasoning": "肺泡为什么要把壁做得那么薄？薄有什么好处？",
+        "feedback": "壁薄气体才透得过，氧气几微米的距离就能钻进毛细血管，厚了就像隔着厚墙递东西，效率太低。",
+        "transfer": "跑步后喘不过气，其实最急缺的不是气本身，而是气里的哪种成分？"
+      },
+      "stdJudgment": "呼吸系统是一扇会自己开合的换气窗：鼻咽是进风口，气管是通风管道，肺是两个大气囊。吸气时膈肌下沉、胸腔扩大，空气被吸进肺；呼气时膈肌上顶、把废气推出去。肺里有上亿个肺泡，像密密麻麻的气球，氧气从肺泡钻进血液，血液里的二氧化碳卸进肺泡——这就是气体交换。",
+      "coreDefinition": "呼吸系统：鼻咽喉气管支气管与肺组成的气体通道，在肺泡处完成氧气进入血液、二氧化碳排出的交换。",
+      "facts": [
+        {
+          "field": "theory.呼吸系统组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺通气过程",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺泡气体交换",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.膈肌与呼吸",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.呼吸道防御",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-005",
+      "title": "人体·消化系统的加工厂",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "消化系统",
+        "胃肠道",
+        "营养吸收",
+        "食物加工",
+        "消化酶"
+      ],
+      "intent": "认识消化系统：食物从口到肛门的完整加工流水线，理解咀嚼、消化、吸收、排泄的分工。",
+      "learning": {
+        "knowledge": "记流水线五站：口（粉碎）→胃（搅拌分解）→小肠（吸收主战场，营养大多在这里进血）→大肠（回收水分）→肛门（排出）。三个帮手：肝脏分泌胆汁帮消化脂肪、胰腺分泌胰液分解三大营养素、唾液腺先做软化。食物在体内全程约 24–72 小时。",
+        "misjudgment": "以为胃是消化吸收的主力。错：胃主要负责粉碎搅拌和初步分解，真正把营养吸进血液的主战场是小肠——小肠内壁的绒毛把吸收面积摊开有半个篮球场大。",
+        "reasoning": "小肠要把自己「摊开」来吸收营养，这提示它的内壁应该长成什么样？",
+        "feedback": "长满绒毛皱襞，像地毯一样把面积铺大，接触面越大吸收越快，这是身体「把空间藏进体积」的经典设计。",
+        "transfer": "吃得太快容易胀气，最该放慢速度的是流水线上的哪一站？"
+      },
+      "stdJudgment": "消化系统是一条九米长的加工流水线：口腔是粉碎车间（牙齿切磨+唾液软化），食管是传送带，胃是搅拌罐（胃酸杀菌+初步分解），小肠是精加工车间（营养被分解成小分子吸收进血），大肠是废料回收站（水分回收后形成粪便排出）。肝胆胰是流水线旁的「调料车间」，提供胆汁和消化酶。",
+      "coreDefinition": "消化系统：口腔、食管、胃、小肠、大肠构成的食物加工流水线，配合肝胆胰分泌的消化液，把食物分解吸收、把残渣排出。",
+      "facts": [
+        {
+          "field": "theory.消化系统组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.消化过程阶段",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.小肠吸收功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.消化腺分泌",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.排泄与排便",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-006",
+      "title": "脏腑·心是全身的动力泵",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "心脏",
+        "泵血",
+        "循环动力",
+        "心功能",
+        "心血管"
+      ],
+      "intent": "认识心脏：拳头大小、终生不停的总泵站，负责把血泵向全身并回收。",
+      "learning": {
+        "knowledge": "记心脏四件事：位置（胸腔偏左，拳头大）、腔室（左心房右心房左心室右心室，心室是主力泵）、方向（右心收全身回来的血送肺换气，左心收肺回来的血泵向全身）、瓣膜（四个单向阀，防止血液倒流）。静息心率约 60–100 次/分，运动时加快以满足供氧。",
+        "misjudgment": "以为心脏越大越有力、跳得越快越健康。错：心脏肥大往往是长期超负荷的病态表现，心率过快过慢都提示异常，健康关键是泵血效率而非蛮力。",
+        "reasoning": "右心室把血泵向肺、左心室把血泵向全身，哪一侧的「墙」应该更厚更结实？",
+        "feedback": "左心室。它要把血送到全身那么远，压力更大，所以心肌更厚；右心室只送到隔壁的肺，省力得多。",
+        "transfer": "摸到脉搏「咚咚」跳，其实感受到的是哪条血管传来的哪股力量？"
+      },
+      "stdJudgment": "心脏是拳头大的「终身泵」，位于胸腔偏左，分左右两半、上下四个腔。它每跳一次，就把血挤进动脉送往全身，再通过静脉把血收回。心肌是全身最勤奋的肌肉，从出生到老死不休息，一天泵血约七吨。瓣膜是泵里的单向阀，保证血液只朝一个方向走。",
+      "coreDefinition": "心脏：由四个腔室与瓣膜构成的动力泵，持续把血液泵向全身并回收，是循环系统的核心引擎。",
+      "facts": [
+        {
+          "field": "theory.心脏结构与腔室",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心脏泵血机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心率与心输出量",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心与循环的关系",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心脏瓣膜功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-007",
+      "title": "脏腑·肺是气体交换站",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "肺",
+        "气体交换",
+        "肺泡",
+        "呼吸动力",
+        "肺功能"
+      ],
+      "intent": "认识肺：左右两叶的换气站，肺泡完成氧气与二氧化碳的交换，是呼吸的核心器官。",
+      "learning": {
+        "knowledge": "记肺三件事：位置（胸腔，心两侧）、结构（右三叶左两叶，里面是密密麻麻的肺泡）、工作（氧气进血、二氧化碳出，全靠肺泡与毛细血管的「贴脸交换」）。肺本身不呼吸，膈肌和肋间肌是它的「呼吸机」。成年人肺活量约 3–5 升。",
+        "misjudgment": "以为肺是两个中空的「气球」。错：肺是海绵，里面塞满亿万个微型气囊（肺泡），正是这巨大的内表面积才够全身氧气交换用。",
+        "reasoning": "肺泡的总面积为什么要铺到半个羽毛球场那么大？小一点不行吗？",
+        "feedback": "不行。全身细胞都要靠这口气供氧，交换面积越大、一次呼吸能换的气越多，小面积根本供不上身体的消耗。",
+        "transfer": "溺水的人最危险的几分钟里，肺和血液之间哪种交换被迫中断了？"
+      },
+      "stdJudgment": "肺是位于胸腔、海绵样的换气站，右三叶左两叶。里面装着约三亿个肺泡，摊开的面积有半个羽毛球场大。肺泡壁薄如蝉翼，外面贴着毛细血管，氧气从这里钻进血液，二氧化碳从血液卸进肺泡再呼出。肺没有肌肉，靠膈肌运动带动呼吸，它只管换气，不管「吸气」本身。",
+      "coreDefinition": "肺：位于胸腔的海绵样器官，以亿万肺泡为交换面，完成氧气进入血液、二氧化碳排出体外的核心换气功能。",
+      "facts": [
+        {
+          "field": "theory.肺的形态与分叶",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺泡结构与数量",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气体交换原理",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺与循环协作",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺的防御机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-008",
+      "title": "脏腑·肝是化工厂与仓库",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "肝脏",
+        "解毒",
+        "代谢",
+        "胆汁",
+        "肝功能"
+      ],
+      "intent": "认识肝：右上腹的化工厂，负责解毒、代谢、制造胆汁、储存营养，是身体最重要的加工中心。",
+      "learning": {
+        "knowledge": "记肝五件事：位置（右上腹，肋弓下藏身）、解毒（分解酒精药物毒物）、代谢（糖原合成储存、脂肪蛋白代谢）、分泌（每天约 0.5–1 升胆汁帮消化脂肪）、再生（切 2/3 还能长回）。注意：肝没有痛觉神经，受损早期不喊疼，所以「感觉良好」不代表肝没事。",
+        "misjudgment": "以为肝只是「解毒的」，解毒就是它的全部。错：肝还管血糖调节、脂肪代谢、胆汁分泌和营养储存，是一座全能化工厂，解毒只是其中一条产线。",
+        "reasoning": "为什么喝酒伤肝，而不是伤胃伤肠伤得最重？",
+        "feedback": "因为酒精吸收进血后，第一站就被送到肝脏处理，肝是「解毒第一关」，大量酒精等于把化工厂产能塞满甚至击穿。",
+        "transfer": "油腻大餐后觉得「腻」，最该感谢肝脏分泌的哪种液体帮忙？"
+      },
+      "stdJudgment": "肝是人体最大的内脏器官，躺在右上腹，像一座化工厂：血液里的毒物、药物、酒精都在这里被分解转化；糖、脂肪、蛋白质的代谢在这里调度；它还分泌胆汁帮消化脂肪，并把多余的营养存进仓库备用。肝脏再生能力强，切掉一部分能长回来，但它对损伤「闷不吭声」，早期受损常常没感觉。",
+      "coreDefinition": "肝：人体最大的内脏，集解毒、代谢、分泌胆汁、储存营养于一体，是身体的综合加工中心。",
+      "facts": [
+        {
+          "field": "theory.肝脏位置与血供",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝脏解毒功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝脏代谢功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胆汁分泌",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝脏再生能力",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-009",
+      "title": "脏腑·脾是免疫与血库",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "脾脏",
+        "免疫",
+        "血细胞",
+        "过滤血液",
+        "淋巴"
+      ],
+      "intent": "认识脾：左上腹的免疫器官与血库，过滤衰老血细胞、培养免疫细胞、储存备用血液。",
+      "learning": {
+        "knowledge": "记脾三件事：过滤（把衰老红细胞、血小板挑出来回收）、免疫（淋巴细胞在这里集合布防，是身体的「保安培训中心」）、储血（存备用血，紧急时放出应急）。脾质地脆，被撞易破裂大出血，所以左肋部受撞击剧痛要警惕。成人摘除脾后靠肝、淋巴结代偿，仍能生活。",
+        "misjudgment": "以为脾是可有可无的器官，切了就切了。错：脾有过滤、免疫、储血三重功能，虽然切除后能代偿，但免疫力与血液净化能力确实下降，外伤后才万不得已切除。",
+        "reasoning": "脾要「检查」流过的血液，那它的位置应该选在血液通道的什么位置？",
+        "feedback": "选在血液流经的「关卡」上，就像安检门设在必经之路——脾就在血液循环的通道里当哨兵。",
+        "transfer": "感冒时脖子上的淋巴结肿大，和脾的工作性质有什么相似之处？"
+      },
+      "stdJudgment": "脾是左上腹一个拳头大的「血检站」：血液流过它时，衰老的红细胞、血小板在这里被识别回收；它还是免疫细胞的训练营，淋巴细胞在这里集合，随时响应感染；同时它像个备用血库，储存一部分血液应急。胎儿时期脾还参与造血，出生后这项工作交给骨髓。",
+      "coreDefinition": "脾：位于左上腹的淋巴器官，负责过滤血液、清除衰老血细胞、培育免疫细胞并储存备用血。",
+      "facts": [
+        {
+          "field": "theory.脾的位置与大小",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾的过滤功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾的免疫功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾的储血功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胎儿期造血",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-010",
+      "title": "脏腑·肾是净水厂与天平",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "肾脏",
+        "泌尿",
+        "过滤",
+        "电解质",
+        "血压"
+      ],
+      "intent": "认识肾：腰部两侧的净水厂，过滤血液生成尿液，调节水盐平衡，还参与血压与造血调控。",
+      "learning": {
+        "knowledge": "记肾四件事：位置（腰部两侧，脊柱旁，各一个）、过滤（肾小球筛出原尿，每天约 180 升）、回收（肾小管把 99% 的水和糖分收回来，最后只剩约 1.5 升尿）、调控（管血压的肾素—血管紧张素系统，管造血的促红细胞生成素）。肾对血液「过筛」能力极强，是全身最挑剔的质检员。",
+        "misjudgment": "以为尿就是「身体排出来的水」，跟血液没关系。错：尿的前身就是血液——肾每天把 180 升血液滤过一遍再收回 178 升，尿液只是过滤后的「浓缩废液」。",
+        "reasoning": "肾既要排出废物，又要把糖分全部收回，说明它对不同成分的态度是什么？",
+        "feedback": "区别对待：对废物一律放行，对有用物质一粒不撒。身体里没有「一刀切」，只有精准的取舍。",
+        "transfer": "喝水少了尿就黄，说明肾在做什么样的「节约」？"
+      },
+      "stdJudgment": "肾是腰部两侧各一个的蚕豆形「净水厂」：血液流经肾，肾单位里的肾小球像筛子一样把水分和废物滤出来形成原尿，肾小管再像精明的管家，把有用的糖分、水分、电解质重新收回血液，剩下的浓缩成尿液排走。肾还管血压调节和造血指挥——分泌的促红细胞生成素是造血的「开工信号」。",
+      "coreDefinition": "肾：腰部两侧的泌尿器官，过滤血液、重吸收有用物质、排出废物，并参与血压与造血调控。",
+      "facts": [
+        {
+          "field": "theory.肾的位置与形态",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾单位与过滤",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾的调节功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾与血压",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾与促红细胞生成素",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-011",
+      "title": "脏腑·胃是粉碎与初加工",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "胃",
+        "胃酸",
+        "消化",
+        "蠕动",
+        "胃功能"
+      ],
+      "intent": "认识胃：左上腹的搅拌罐，分泌胃酸杀菌、蠕动粉碎食物，完成消化的初步加工。",
+      "learning": {
+        "knowledge": "记胃四件事：位置（左上腹，膈肌下）、产能（胃酸 pH 低到 1–2，能杀菌分解；胃蛋白酶分解蛋白质）、动作（蠕动揉碎，每分钟约 3 次）、去向（2–4 小时后变成食糜排入小肠）。自我保护：黏膜黏液层是「防酸铠甲」，破损就会胃痛——就是常说的胃溃疡。",
+        "misjudgment": "以为胃酸越多消化越好。错：胃酸太少消化差，胃酸太多或黏液层破损，反而烧伤自己的胃壁，造成胃炎溃疡——关键是平衡，不是越多越好。",
+        "reasoning": "胃酸强到能杀菌，为什么没把胃自己「烧穿」？",
+        "feedback": "胃黏膜表面有一层厚厚的黏液防护膜，把胃酸和胃壁隔开，这层「铠甲」一旦破损，胃酸就开始伤自己。",
+        "transfer": "长期空腹喝烈酒容易伤胃，最可能伤到的是胃的哪一道防线？"
+      },
+      "stdJudgment": "胃是左上腹一个 J 形的「搅拌罐」，能装约 1–2 升食物。胃壁肌肉反复蠕动，把食物揉碎；胃酸强到能杀菌、把食物进一步软化，胃蛋白酶开始分解蛋白质。食物在胃里停留约 2–4 小时后变成糊状「食糜」，再被送往小肠。胃自己不会被胃酸烧穿，全靠黏膜分泌的黏液保护层。",
+      "coreDefinition": "胃：左上腹的消化器官，以胃酸杀菌分解、蠕动揉碎食物，把食物加工成食糜后送往小肠。",
+      "facts": [
+        {
+          "field": "theory.胃的位置与形态",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胃酸与消化酶",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胃蠕动功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胃的排空",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胃黏膜保护",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-012",
+      "title": "脏腑·小肠是吸收主战场",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "小肠",
+        "吸收",
+        "绒毛",
+        "消化分解",
+        "营养"
+      ],
+      "intent": "认识小肠：五米长的吸收主战场，靠绒毛铺开巨大吸收面，把营养送进血液。",
+      "learning": {
+        "knowledge": "记小肠三件事：长度（5–7 米，盘在肚脐周围）、结构（内壁皱襞+绒毛+微绒毛，吸收面 200 平米级）、分工（糖→葡萄糖、蛋白→氨基酸、脂肪→脂肪酸甘油，全在这分解吸收）。帮手：胆汁来自肝、胰液来自胰腺，都往小肠开口。吸收后的营养走血液先进肝「过安检」。",
+        "misjudgment": "以为营养是胃吸收的。错：胃只做初加工，真正把营养吸进血液的是小肠，胃吸收的只有少量水和酒精。",
+        "reasoning": "小肠要把自己摊开 200 平米来吸收，为什么不用一个「大口袋」直接装食物？",
+        "feedback": "大口袋接触面小，吸收慢；绒毛皱襞像把一张纸揉皱塞进小盒，面积翻了无数倍——身体用「折叠」换面积。",
+        "transfer": "得了「吸收不良」的病，最先该怀疑流水线上的哪个环节出了问题？"
+      },
+      "stdJudgment": "小肠是约 5–7 米长的吸收主战场，盘在腹腔中央。它的内壁布满皱襞和绒毛，吸收面积摊开有半个篮球场大。在这里，淀粉变成葡萄糖、蛋白质变成氨基酸、脂肪变成脂肪酸，全被绒毛吸收进血液；小肠的消化离不开肝胆胰送来的胆汁和胰液。营养从这里入血，肝是下一站。",
+      "coreDefinition": "小肠：盘踞腹腔的细长管道，以绒毛铺开巨大吸收面，完成三大营养素的分解与吸收，是消化系统的核心吸收站。",
+      "facts": [
+        {
+          "field": "theory.小肠结构与长度",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.小肠绒毛与吸收面",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.三大营养分解",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.小肠与肝胆胰协作",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.营养入血途径",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-013",
+      "title": "脏腑·大肠与膀胱的废料处理",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "大肠",
+        "膀胱",
+        "排泄",
+        "水分回收",
+        "废物处理"
+      ],
+      "intent": "认识大肠与膀胱：大肠回收水分、成形粪便，膀胱储存尿液，完成身体的废料排出。",
+      "learning": {
+        "knowledge": "记两件事：大肠（约 1.5 米，盲肠—结肠—直肠，回收水分、细菌发酵残渣、合成维生素 K 与 B 族，粪便成形经肛门排出）；膀胱（储尿 300–500 毫升产生尿意，尿道排出）。大肠里有大量有益菌群，滥用抗生素拉肚子，就是误伤了这支「菌群军团」。",
+        "misjudgment": "以为排尿就是「肾排毒」，尿多=肾好。错：尿是肾过滤后剩的废液，尿多可能提示血糖高或肾浓缩功能下降；排便也不只是「排毒」，大便里主要是水和未吸收纤维。",
+        "reasoning": "大肠要把水分收回来，如果腹泻把水分全排掉，身体会先缺什么？",
+        "feedback": "缺水。所以严重腹泻的人最先要补水和电解质，水分被大肠「浪费」掉等于把身体的水库放干了。",
+        "transfer": "吃了不洁食物上吐下泻，身体想通过这条流水线「扔掉」什么？"
+      },
+      "stdJudgment": "大肠是「废料回收站」：小肠送来的残渣在大肠里慢慢走，水分和部分电解质被回收，剩下的形成粪便；肠道里数不清的细菌帮忙发酵残渣、合成维生素。膀胱则是「临时储水池」，肾产出的尿液经输尿管流进膀胱，存到约 300–500 毫升才有明显尿意，再经尿道排出。",
+      "coreDefinition": "大肠与膀胱：大肠回收水分、成形粪便并排出；膀胱储存尿液、定时排尿，共同完成身体的废料排出。",
+      "facts": [
+        {
+          "field": "theory.大肠结构与功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.大肠菌群作用",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.水分回收",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.膀胱储尿功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.排便排尿反射",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-014",
+      "title": "脏腑·脑与神经的总指挥部",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "脑",
+        "神经系统",
+        "中枢",
+        "反射",
+        "指挥"
+      ],
+      "intent": "认识脑与神经系统：总指挥部与通信网络，接收信息、下达指令，指挥全身的协调运作。",
+      "learning": {
+        "knowledge": "记四件事：大脑（分左右半球，管感觉运动思维，表面积折叠成沟回）、小脑（管平衡协调，喝醉走路晃就是它被酒精影响）、脑干（管呼吸心跳，损伤危及生命）、神经（中枢神经=脑+脊髓，周围神经像电线分布全身）。反射弧五环节：感受器→传入→中枢→传出→效应器。",
+        "misjudgment": "以为所有动作都是「想好再动」。错：膝跳反射、烫手缩回都是脊髓直接处理的反射，比大脑反应快得多，等「想」就晚了。",
+        "reasoning": "大脑管思维但不管呼吸，为什么脑干损伤比大脑损伤更危险？",
+        "feedback": "因为呼吸心跳这些「保命开关」设在脑干，脑干一坏，呼吸心跳可能直接停，连抢救的时间都少。",
+        "transfer": "手被针扎会先缩手再感到疼，这个「先后顺序」说明了什么？"
+      },
+      "stdJudgment": "脑是身体的中央指挥部：大脑管思维、记忆与感觉运动，小脑管平衡协调，脑干管呼吸心跳这些生命开关。指令靠神经传递——神经像电话线，信号在神经纤维里以电化学方式飞奔。脊髓是连接脑与全身的「主干电缆」。手碰到烫锅立刻缩回，靠的是反射弧，根本来不及「想」。",
+      "coreDefinition": "脑与神经：脑是中枢指挥部，神经与脊髓是通信网络，通过反射与调节维持全身的感知与协调。",
+      "facts": [
+        {
+          "field": "theory.脑的组成与分工",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脊髓与神经传导",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.神经反射弧",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.自主神经调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.感觉与运动中枢",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-015",
+      "title": "脏腑·胆胰与甲状腺的幕后助手",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "胆",
+        "胰腺",
+        "甲状腺",
+        "内分泌",
+        "消化辅助"
+      ],
+      "intent": "认识胆、胰腺、甲状腺等幕后器官：胆汁储存、胰液分泌、激素调控，各司其职的辅助角色。",
+      "learning": {
+        "knowledge": "记三件事：胆囊（储存浓缩胆汁，油腻餐后收缩挤胆汁；胆结石堵住出口就会剧痛）、胰腺（胰液帮消化+胰岛素降血糖，胰岛素出问题就是糖尿病）、甲状腺（甲状腺激素管全身代谢「转速」，多了甲亢、少了甲减）。三者都小，却都牵一发动全身。",
+        "misjudgment": "以为胆囊是「造胆汁的」。错：胆汁是肝造的，胆囊只是「仓库」负责储存浓缩，胆囊切除后胆汁照常分泌，只是没有库房囤积。",
+        "reasoning": "胰腺既帮消化又管血糖，同一个小器官身兼两职，如果它发炎了，影响会是单方面的吗？",
+        "feedback": "不是，急性胰腺炎既伤消化又可能扰乱血糖，两种功能一起受牵连，所以它很「娇贵」。",
+        "transfer": "一个人突然吃很多却越来越瘦、心慌手抖，最该先查哪个「油门旋钮」器官？"
+      },
+      "stdJudgment": "这些器官是身体的「幕后团队」：胆囊像胆汁仓库，肝分泌的胆汁先存进来，吃油时再挤出去；胰腺身兼两职，外分泌部分分泌胰液帮消化，内分泌部分分泌胰岛素管血糖；甲状腺像身体的「油门旋钮」，分泌的甲状腺激素调节代谢快慢，激素多了人消瘦心慌，少了人浮肿怕冷。",
+      "coreDefinition": "胆、胰、甲状腺：胆囊储存胆汁助消化，胰腺分泌胰液与胰岛素，甲状腺调节代谢速度，共同维持消化与代谢的稳定。",
+      "facts": [
+        {
+          "field": "theory.胆囊储存胆汁",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胰腺内外分泌",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.甲状腺激素",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胰岛素与血糖",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.辅助器官协同",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-016",
+      "title": "联系·血液大循环的环形路",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "血液循环",
+        "体循环",
+        "肺循环",
+        "心-肺-全身",
+        "环形通路"
+      ],
+      "intent": "理解血液循环的双环路：体循环送血到全身、肺循环送血到肺换气，心是唯一的枢纽。",
+      "learning": {
+        "knowledge": "记一条「8 字路线」：右心→肺动脉→肺（卸 CO₂ 装 O₂）→肺静脉→左心→主动脉→全身（卸 O₂ 装 CO₂）→腔静脉→右心。左边心是「给全身发货」，右边心是「收废料去肺处理」。营养走另一条支线：肠→门静脉→肝→体循环。血液在哪都是「顺路送货」。",
+        "misjudgment": "以为血液只在「心→全身→心」一条线上走。错：有两条环，血从右心出发先去肺换气再回左心，肺是血液的「加油站」，不去加油没法再跑长途。",
+        "reasoning": "血刚从肺里出来是「满油」的，它要先回心脏再出发去全身，中间为什么非要绕回心脏这一站？",
+        "feedback": "因为心脏是唯一的泵站，肺循环和体循环都要靠它加压驱动；不经过泵，血没有动力跑完全身。",
+        "transfer": "嘴唇发紫常提示缺氧，按这条循环路，最可能卡在哪个环节？"
+      },
+      "stdJudgment": "血液循环像一条「8 字环形路」：右心把血送到肺换氧（肺循环，也叫小循环），换好氧的血回左心；左心再把血泵向全身供氧（体循环，也叫大循环），用过的血再回右心。两条环路在心这个枢纽交汇。血液还从胃肠带着营养经门静脉先进肝「过安检」，再进体循环。",
+      "coreDefinition": "血液循环：体循环与肺循环两条环形通路以心脏为枢纽衔接，完成供氧、供营养与回收废物的全身循环。",
+      "facts": [
+        {
+          "field": "theory.体循环路径",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺循环路径",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.血氧变化",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.血液循环意义",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.门静脉与肝",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-017",
+      "title": "联系·食物变血液的流水线",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "营养吸收",
+        "门静脉",
+        "肝脏加工",
+        "血糖",
+        "代谢"
+      ],
+      "intent": "理解营养之旅：食物经消化分解成小分子，被小肠吸收入门静脉，由肝加工调配后进入全身循环。",
+      "learning": {
+        "knowledge": "记营养三步走：第一步消化（食物→葡萄糖氨基酸脂肪酸，在小肠完成）、第二步进肝（门静脉专线，营养先过肝这道「安检+调度」）、第三步供能（肝按需放糖，胰岛素负责把糖「放进」细胞）。血糖为什么稳？全靠肝存糖放糖与胰岛素配合，一进一出像水塔水位调节。",
+        "misjudgment": "以为吃进去的饭直接变成血液。错：食物要先分解成小分子，吸收进血后还要先进肝加工，肝是「加工厂」不是「过路站」，营养全都要它调配。",
+        "reasoning": "吃完大餐血糖升高，是谁在「把多余糖收进仓库」，又是谁在几小时后「开仓放糖」？",
+        "feedback": "胰岛素把糖送进细胞和肝存起来；两餐之间肝糖原分解放糖维持血糖，一存一放血糖才平稳。",
+        "transfer": "饿久了头晕心慌，最可能是身体仓库里的哪种储备在告急？"
+      },
+      "stdJudgment": "食物进肚不是直接「变成力气」，要走一条加工线：口腔胃把小份食物变成小分子，小肠绒毛把它们吸进血液，这些血不走大路，先汇入门静脉送进肝。肝像总调度：葡萄糖多就存成糖原，缺了再放出来；脂肪蛋白也在这里调配包装。经肝加工后的营养才进体循环，送到全身细胞。",
+      "coreDefinition": "营养之旅：食物经消化为小分子，经小肠吸收入门静脉，肝加工储存后释放入全身循环，供细胞利用。",
+      "facts": [
+        {
+          "field": "theory.营养吸收途径",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.门静脉循环",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝脏对营养加工",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.血糖调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脂肪运输",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-018",
+      "title": "联系·氧气送到全身的接力",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "氧运输",
+        "红细胞",
+        "血红蛋白",
+        "组织供氧",
+        "二氧化碳回收"
+      ],
+      "intent": "理解氧气的接力运输：肺吸入氧气、红细胞装载、血液循环输送、组织细胞卸货，二氧化碳原路返回。",
+      "learning": {
+        "knowledge": "记氧气四站接力：肺（装车：肺泡氧进血）、红细胞（载体：血红蛋白，每个能装 4 个氧）、血管（运输：动脉送氧）、组织（卸货：毛细血管处氧进细胞，细胞用氧产能并产 CO₂）。回来：CO₂ 大部分溶在血浆或变碳酸氢盐，到肺呼出。缺氧症状：口唇发紫、头晕、活动后气短。",
+        "misjudgment": "以为氧气是溶在水里「飘」过去的。错：血浆溶氧极少，绝大多数氧靠红细胞里的血红蛋白「背着」走，血红蛋白少（贫血）装车就少，血氧就低。",
+        "reasoning": "爬楼喘和贫血的喘，都是「缺氧气」，它们的缺法一样吗？",
+        "feedback": "不一样：爬楼喘是运输需求短时增大，贫血喘是装载工具（血红蛋白）长期不足，一个是临时加急，一个是运力不足。",
+        "transfer": "高原反应头晕气短，最直接的原因是空气中哪种成分的「到货量」变少了？"
+      },
+      "stdJudgment": "氧气从鼻孔到细胞是一场接力：肺把氧「装车」——红细胞里的血红蛋白接住氧气，血液沿动脉送往全身，到了毛细血管，氧卸给组织细胞；细胞用氧「烧」营养产生能量，同时生成二氧化碳，二氧化碳再由血液带回肺呼出。贫血的人血红蛋白少，装氧的车少，所以面色苍白、一活动就喘。",
+      "coreDefinition": "氧的接力：肺吸入氧气由血红蛋白装载运输，组织细胞卸氧产能，二氧化碳经血液返回肺排出，维持全身供能。",
+      "facts": [
+        {
+          "field": "theory.氧气进入血液",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.血红蛋白运氧",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.组织换气",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.二氧化碳运输",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.缺氧表现",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-019",
+      "title": "联系·肾与血压的水管联动",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "肾与血压",
+        "水盐平衡",
+        "肾素",
+        "血压调节",
+        "体液"
+      ],
+      "intent": "理解肾与血压的联动：肾管水盐平衡，血压低了它分泌肾素启动升压，血压高了它多排水降压。",
+      "learning": {
+        "knowledge": "记「水多水少」逻辑：水多→多排尿→血压降；水少→少排尿+血管收缩→血压升。两个关键激素：抗利尿激素（让肾少排水）、肾素—血管紧张素（收缩血管）。吃盐多=钠多=水被锁住=血压升，所以高血压要限盐。肾不好常伴高血压，高血压久了也伤肾，互相「连坐」。",
+        "misjudgment": "以为血压高就是「心脏太用力」。错：血压主要看「血管里的水量+血管的松紧」，肾管水量、激素管松紧，心只是泵，血压问题常是水管系统的管理问题。",
+        "reasoning": "血管里的水多了血压高，为什么利尿药能降血压？",
+        "feedback": "利尿药让肾多排水，血管里水量少了、压力就小，血压跟着降——治标先「放水」。",
+        "transfer": "医生让高血压病人少吃盐，道理和哪条水管原理一样？"
+      },
+      "stdJudgment": "肾是血压的「水管总闸」：血管里的水量多，血压就高，肾就把多余的水排出降压；水量少血压低，肾就启动肾素—血管紧张素系统，让血管收缩、留水升压。吃盐多之所以升血压，就是盐把水「锁」在血管里。肾还分泌促红细胞生成素，血压与肾脏健康互相牵连。",
+      "coreDefinition": "肾与血压：肾通过排尿调节血容量，通过肾素—血管紧张素系统调节血管收缩，是血压与水盐平衡的关键调节器。",
+      "facts": [
+        {
+          "field": "theory.肾调节血容量",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾素血管紧张素系统",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.钠水潴留与血压",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.抗利尿激素",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾性高血压",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-020",
+      "title": "联系·大脑的调兵遣将",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "神经调节",
+        "反射",
+        "中枢协调",
+        "神经-器官",
+        "信息传导"
+      ],
+      "intent": "理解神经系统的指挥方式：大脑与脊髓通过神经收发信息，用反射和调节指挥全身器官协调行动。",
+      "learning": {
+        "knowledge": "记神经指挥三步：传入（感觉神经把信息送中枢）→决策（脑和脊髓分析）→传出（运动神经让肌肉反应）。反射弧五环节：感受器→传入神经→中枢→传出神经→效应器。自主神经两支队：交感神经（应激：心跳快、血压升、消化停）和副交感神经（休息：心跳慢、消化旺、瞳孔收）。",
+        "misjudgment": "以为紧张时心跳快是心脏「自己乱跳」。错：是交感神经收到「警报」后命令心脏加速，心跳加快是大脑指挥下的合理应激，不是心脏自作主张。",
+        "reasoning": "吃饭时适合「打仗状态」还是「休养状态」？交感神经在餐后该不该兴奋？",
+        "feedback": "餐后该让副交感神经当家，血液多去胃肠道；刚吃完饭剧烈运动等于让交感抢了消化系统的「后勤」，容易胃不舒服。",
+        "transfer": "考前紧张得手心出汗、心跳加速，是哪一支自主神经在「拉警报」？"
+      },
+      "stdJudgment": "神经系统是身体的「指挥系统」：感觉神经把眼睛看到的、皮肤摸到的信息传回大脑，大脑分析后由运动神经发出指令指挥肌肉。管内脏的自主神经分交感与副交感两支，一个管「打仗应急」（心跳加速、血压升高），一个管「休养生息」（消化加快、心跳放慢），一攻一守配合默契。",
+      "coreDefinition": "神经指挥：感觉传入、中枢决策、运动传出的反射回路，配合交感与副交感两支自主神经，协调全身器官应对内外变化。",
+      "facts": [
+        {
+          "field": "theory.神经信号传导",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.反射弧结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.运动与感觉传导",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.自主神经分工",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.神经与内脏联络",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-021",
+      "title": "联系·激素的广播通知",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "内分泌",
+        "激素",
+        "靶器官",
+        "反馈调节",
+        "化学信使"
+      ],
+      "intent": "理解内分泌系统的联络方式：激素像广播通知，随血液送到全身，只对特定靶器官起作用并受反馈调节。",
+      "learning": {
+        "knowledge": "记激素三特点：广播式（随血液到全身）、专线式（只对靶器官起效，别的器官装没听见）、可调节（负反馈：激素多了抑制上级分泌，少了解除抑制）。管内分泌的上级是下丘脑—垂体轴。实例：胰岛素降血糖、甲状腺素调代谢、肾上腺素应急。",
+        "misjudgment": "以为激素越多越好。错：激素讲究「刚好」，多了少了都病——甲状腺素多了甲亢消瘦，少了甲减浮肿，负反馈就是防止「广播音量过大」。",
+        "reasoning": "空调温度到了会自动停机，人体哪个「温度计—空调」式的调节和它最像？",
+        "feedback": "甲状腺轴：甲状腺激素少时垂体多「催促」，多了就少催促，像空调温控一样自动回稳。",
+        "transfer": "一紧张血糖就升，是哪种激素在「广播」里喊话让肝放糖？"
+      },
+      "stdJudgment": "神经用「打电话」联络，激素用「广播」联络：内分泌腺把激素放进血液，随血走遍全身，但每个激素只对特定的靶器官「有反应」，像广播里只叫某个名字的人会答应。系统还有负反馈：甲状腺激素多了，上级（下丘脑—垂体）就减少催促，像空调到温自动停机，保持激素水平稳定。",
+      "coreDefinition": "激素联络：内分泌腺分泌激素随血液广播全身，靶器官特异性接收，负反馈机制维持激素水平动态平衡。",
+      "facts": [
+        {
+          "field": "theory.内分泌腺构成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.激素作用特点",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.靶器官特异性",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.负反馈调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.下丘脑垂体轴",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-022",
+      "title": "联系·免疫防线的保安队",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "免疫系统",
+        "白细胞",
+        "屏障",
+        "防御",
+        "淋巴"
+      ],
+      "intent": "理解免疫系统：三道防线组成的保安体系，识别并清除病原，与全身器官协作保护身体。",
+      "learning": {
+        "knowledge": "记三道防线：第一道（皮肤黏膜，物理隔离）、第二道（吞噬细胞、杀菌物质，非特异性）、第三道（B 细胞产抗体、T 细胞直接杀伤，特异性+记忆）。免疫记忆是疫苗的原理：先让身体「认识」敌人，真来了直接开打。淋巴结、脾、扁桃体都是免疫器官，白细胞是作战主力。",
+        "misjudgment": "以为发烧就是「病严重」。错：发烧常是免疫系统主动拉高体温来限制病原繁殖、加速战斗，是「打仗动员令」，不是敌人多强的证明。",
+        "reasoning": "疫苗打进去的是「弱敌」或「敌情通报」，它靠哪一道防线来形成长期记忆？",
+        "feedback": "第三道特异性免疫。淋巴细胞的记忆让身体下次遇到真敌人时能快速精准反击，比第一次快得多。",
+        "transfer": "伤口化脓的白脓是什么在战斗后的「战场残留」？"
+      },
+      "stdJudgment": "免疫系统是身体的保安队，设三道防线：皮肤黏膜是第一道「围墙」，天生拦细菌病毒；白细胞和体液里的杀菌物质是第二道「巡逻队」，见敌就杀；淋巴细胞是第三道「特种部队」，认得准、记得牢，二次感染反应更快。淋巴结像沿途检查站，感冒时脖子淋巴结肿，就是保安队集结打仗。",
+      "coreDefinition": "免疫防线：皮肤黏膜屏障、白细胞非特异性防御、淋巴细胞特异性免疫三道防线，识别清除病原并形成免疫记忆。",
+      "facts": [
+        {
+          "field": "theory.免疫三道防线",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.白细胞分类功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.淋巴结与脾",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.免疫记忆",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.免疫与全身协作",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-023",
+      "title": "中医·从器官功能到脏腑概念",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中医脏腑观",
+        "藏象",
+        "功能系统",
+        "符号化思维",
+        "与现代医学区别"
+      ],
+      "intent": "理解中医脏腑概念的形成：中医说的心肝脾肺肾不只是解剖器官，更是一套功能系统的代号。",
+      "learning": {
+        "knowledge": "核心概念：藏象——「藏」指藏于体内的内脏，「象」指表现在外的征象。中医从「象」推「藏」：看到面色、舌象、脉象、情志等外在信息，推断五脏功能状态。关键区别：中医的肝包括疏泄情志、藏血、主筋、开窍于目的功能群，现代医学的肝是解剖器官。二者名字相同，含义不同。",
+        "misjudgment": "以为中医的「心主神明」是说心脏在思考。错：中医把精神意识活动归属「心」这个功能系统名下，是符号化归类，古人同样知道思考靠脑，只是用「心」概括神志功能。",
+        "reasoning": "同一张解剖图，中医和西医能画出两套不同的「地图」，为什么？",
+        "feedback": "因为西医画的是「零件图」（器官结构），中医画的是「功能关系图」（谁管什么、和谁联动），观察角度不同，地图自然不同。",
+        "transfer": "中医说「肝开窍于目」，如果有人眼睛干涩，中医会先往哪个功能系统想？"
+      },
+      "stdJudgment": "中医的「心肝脾肺肾」和现代解剖的心脏肝脏不是一回事：中医站在两千年前没有显微镜的观察视角，把人体当作一个「黑箱」，靠体表的表现反推体内的状态，把相似的功能归拢成一个「脏」的名下。所以中医的「心」是主管精神意识、血脉流通的功能系统代号，而不是单指那个拳头大的泵。",
+      "coreDefinition": "中医脏腑观：五脏是功能系统的代号而非单纯解剖器官，中医通过外在表现推知内在功能状态的符号化思维体系。",
+      "facts": [
+        {
+          "field": "theory.藏象学说内涵",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五脏与功能系统",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.藏象与现代解剖区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.整体功能观察",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脏腑-形体官窍联络",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-024",
+      "title": "中医·心主血脉与君主之官",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "心主血脉",
+        "心主神明",
+        "君主之官",
+        "面色脉象",
+        "心血"
+      ],
+      "intent": "理解中医心的功能：主血脉推动血液运行，主神明统管精神意识，是身体的「君主」。",
+      "learning": {
+        "knowledge": "记中医心两主一窍：主血脉（血行脉中靠心气推动）、主神明（神志归心）、开窍于舌（舌为心之苗，舌尖红提示心火）。「其华在面」——面色是心的「显示屏」。联系现代：心主血脉对应循环泵功能，心主神明对应脑的精神活动在中医的归属。学习中医从这里开始体会「功能系统」思维。",
+        "misjudgment": "以为「心主神明」与西医矛盾——明明思考靠大脑。错：中医把精神活动划归「心系」是功能归类，不是解剖主张；两套语言描述同一现象，不必互相否定。",
+        "reasoning": "为什么中医看一个人的面色就能推断他心的状态？面色和心之间隔了什么？",
+        "feedback": "隔的是血液循环——心推动血行，血把红润带到面部，心气足则面有华色，中医正是通过这条「外在可观察的线」来推断内在。",
+        "transfer": "一个人长期失眠多梦、心神不宁，中医最容易想到哪个脏腑的哪个功能出了问题？"
+      },
+      "stdJudgment": "中医把心比作「君主之官」，功能有二：一是主血脉——推动血液在脉管中运行，营养全身；二是主神明——统管精神意识思维活动。心的状态写在脸上（其华在面）：心血充足则面色红润有光泽；心开窍于舌，舌色舌体反映心之盛衰。这些都能和现代的心血管功能、神志状态对上号。",
+      "coreDefinition": "中医心：主血脉推动血行、主神明统管神志，其华在面、开窍于舌，为全身之君主。",
+      "facts": [
+        {
+          "field": "theory.心主血脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心主神明",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心在体合脉其华在面",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心开窍于舌",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心与汗液情志",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-025",
+      "title": "中医·肝主疏泄与将军之官",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "肝主疏泄",
+        "肝藏血",
+        "情志调节",
+        "开窍于目",
+        "将军之官"
+      ],
+      "intent": "理解中医肝的功能：主疏泄调畅气机与情志，藏血濡养筋目，是「将军之官」。",
+      "learning": {
+        "knowledge": "记中医肝两主一窍：主疏泄（气机畅、情志舒、消化顺）、主藏血（调节血量，人卧血归肝）、开窍于目（肝血养目，「肝主目」）。联系现代：肝的疏泄对应情绪压力调节与消化辅助功能，藏血对应肝脏储血与血库功能。情志对应：怒伤肝——易怒的人中医常从肝论治。",
+        "misjudgment": "以为「肝主目」是说肝和眼睛有管道直接相连。错：肝血养目是通过血液濡养这条通路——肝藏血充足，血上养目，目得血而能视，是功能联系不是物理连接。",
+        "reasoning": "一个人总爱叹气、两胁胀满，中医为什么怀疑是肝气郁结而不是心脏问题？",
+        "feedback": "因为疏泄功能属肝——气机不畅、情志不舒归「肝系」管，叹气是身体在自我「舒气」，胁肋又是肝经所过之处，线索都指向肝。",
+        "transfer": "长期熬夜眼睛干涩，中医会联系到肝的哪个功能来解释？"
+      },
+      "stdJudgment": "中医把肝比作「将军之官」，主疏泄、主藏血。疏泄是「疏通发泄」：让全身气机畅行、情志舒展、消化顺畅——心情郁闷、胸口堵、两胁胀，中医就说是肝气郁结；藏血是「存血调血」：人静时血回肝，动时肝放血供四肢。肝开窍于目，眼睛的润泽有赖肝血滋养，这就是「肝主目」的由来。",
+      "coreDefinition": "中医肝：主疏泄调畅气机与情志、主藏血调节血量，开窍于目、在体合筋，为将军之官。",
+      "facts": [
+        {
+          "field": "theory.肝主疏泄",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝主藏血",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝在体合筋其华在爪",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝开窍于目",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝与情志怒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-026",
+      "title": "中医·脾主运化与后天之本",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "脾主运化",
+        "后天之本",
+        "气血生化",
+        "升清",
+        "湿"
+      ],
+      "intent": "理解中医脾的功能：主运化水谷与水湿，化生气血、升清降浊，是「后天之本」。",
+      "learning": {
+        "knowledge": "记中医脾三件事：主运化（水谷→精微→气血，水湿→代谢排出）、主升清（精微上输心肺头目）、统血（统摄血液在脉内不乱跑）。「后天之本」——出生后一切营养靠它，健脾就是养消化吸收+代谢。湿气重的表现：身体困重、大便黏腻、舌苔厚腻。联系现代：脾的功能对应消化吸收、能量代谢与免疫调节。",
+        "misjudgment": "以为中医的「脾」就是现代那个免疫器官脾脏。错：中医脾主的是消化吸收和代谢这条「后天生产线」，对应现代胃肠消化、能量代谢等功能群，只是借用了「脾」这个名字。",
+        "reasoning": "脾虚的人为什么容易「没力气」？脾和力气之间隔了哪几步？",
+        "feedback": "脾运化水谷→生成气血→气血养肌肉四肢，脾虚则气血不足，肌肉失养，自然乏力，中医说「脾主肌肉四肢」。",
+        "transfer": "吃了油腻生冷就拉肚子、舌苔厚腻，最可能是脾的哪个功能罢工了？"
+      },
+      "stdJudgment": "中医把脾比作「后天之本」，主运化：一是运化水谷——把食物消化成精微并输送到全身，气血由此而生；二是运化水湿——把体内多余的水分代谢走。脾还主升清，把营养向上送。所以「脾虚」的人常食欲差、乏力、大便稀、身上沉重——吃进去的没变成力气，湿气又排不掉。",
+      "coreDefinition": "中医脾：主运化水谷与水湿、化生气血、升清统血，为后天之本、气血生化之源。",
+      "facts": [
+        {
+          "field": "theory.脾主运化",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾主升清",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾统血",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾与肌肉四肢",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾喜燥恶湿",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-027",
+      "title": "中医·肺主气与相傅之官",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "肺主气",
+        "主宣发肃降",
+        "通调水道",
+        "卫外",
+        "相傅之官"
+      ],
+      "intent": "理解中医肺的功能：主气司呼吸、主宣发肃降、通调水道、朝百脉，是「相傅之官」。",
+      "learning": {
+        "knowledge": "记中医肺四件事：主气（吸入清气+谷气→宗气，司呼吸）、宣发（向外散卫气、呼气、把津液布到皮毛）、肃降（向下输布津液、通调水道）、朝百脉（助心行血，肺气推动血液运行）。联系现代：肺的呼吸换气、体表防御（卫外=免疫力第一道防线）、水液调节都有对应。皮毛与肺：「肺主皮毛」，外邪常从皮毛入肺。",
+        "misjudgment": "以为「肺朝百脉」是说肺里有血管枢纽。错：肺朝百脉指肺气助心推动血液行于百脉——血行既靠心主血脉，也靠肺气推动，两脏协作，「气为血之帅」。",
+        "reasoning": "感冒刚开始是怕冷、打喷嚏、鼻塞，中医为什么说病在「肺卫」？",
+        "feedback": "肺主皮毛、卫气守表——外邪从皮毛口鼻进来，先撞上肺系统的边防（卫气），所以初感外邪从肺卫论治。",
+        "transfer": "水肿病人中医有时从肺治，靠的是肺的哪个「调度」功能？"
+      },
+      "stdJudgment": "中医把肺比作「相傅之官」，主气、司呼吸：肺吸入清气，与脾胃的谷气合成「宗气」，推动呼吸与全身气血；肺主宣发（向上向外散发），把卫气送到体表当「边防军」，也把浊气呼出；肺主肃降（向下通降），把清气和津液向下布散。肺还通调水道——水液代谢的「水上调度员」。",
+      "coreDefinition": "中医肺：主气司呼吸、主宣发肃降、通调水道、朝百脉，外合皮毛，为相傅之官。",
+      "facts": [
+        {
+          "field": "theory.肺主气司呼吸",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺主宣发肃降",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺通调水道",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺朝百脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺主皮毛卫外",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-028",
+      "title": "中医·肾主水藏精与先天之本",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "肾主水",
+        "肾藏精",
+        "先天之本",
+        "主纳气",
+        "主骨生髓"
+      ],
+      "intent": "理解中医肾的功能：藏精主生长发育、主水液代谢、主纳气、主骨生髓，是「先天之本」。",
+      "learning": {
+        "knowledge": "记中医肾四件事：藏精（先天之精+后天之精，管生长壮老已）、主水（气化水液，尿的生成排泄）、纳气（助肺吸气，肾不纳气则呼多吸少）、主骨生髓（肾精养骨髓脑髓，齿为骨之余）。联系现代：肾的功能对应泌尿、内分泌（激素）、生殖、骨骼造血等。「腰为肾之府」——腰膝酸软常责之肾。",
+        "misjudgment": "以为「肾虚」就是肾脏器官有病。错：中医肾虚是功能系统的整体状态（如精力、生殖、水液、骨骼的衰退），西医查肾「指标正常」不代表没有中医肾虚，两套语言不能直接换算。",
+        "reasoning": "老人牙齿松动、头发早白，中医为什么总爱从肾论治？",
+        "feedback": "肾主骨生髓、其华在发——齿为骨之余，发为肾之华，肾精渐衰则骨松齿摇、发白脱落，所以从肾找原因。",
+        "transfer": "有人稍一活动就喘、呼多吸少，中医怀疑是肺的问题还是肾的问题？"
+      },
+      "stdJudgment": "中医把肾比作「先天之本」：肾藏精——精是生命的本钱，管生长、发育、生殖、衰老；肾主水——管全身水液代谢的「总闸」，尿液的生成排泄、水液的分布都靠肾的气化；肾主纳气——帮肺把气「接住」，深长呼吸靠肾；肾主骨生髓——骨骼牙齿的强健、脑髓的充盈，都以肾精为底子。",
+      "coreDefinition": "中医肾：藏精主生长发育生殖、主水液代谢、主纳气、主骨生髓，为先天之本。",
+      "facts": [
+        {
+          "field": "theory.肾藏精主生长发育",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾主水液代谢",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾主纳气",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾主骨生髓",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾与生长发育衰老",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-029",
+      "title": "中医·脏与腑的表里配对",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "表里关系",
+        "脏腑配对",
+        "经络络属",
+        "脏病及腑",
+        "腑病及脏"
+      ],
+      "intent": "理解中医脏腑的表里配对：五脏与六腑一一配对，通过经络相连，在功能上互相配合、病变互相影响。",
+      "learning": {
+        "knowledge": "记五对表里：心—小肠、肺—大肠、脾—胃、肝—胆、肾—膀胱（外加心包—三焦）。规律：脏属里、腑属表，脏藏精主内、腑传化主外。记忆钩子：胃受纳脾运化（吃喝一条线）、肝疏泄胆贮存（胆汁搭档）、心火从小便出（心移热小肠）、肺与大肠相表里（便秘肺气不降）。病变影响：一方生病常牵连对方。",
+        "misjudgment": "以为表里配对只是「配对记忆」，没有实际意义。错：表里关系能指导辨证——心火下移小肠见小便赤痛、肺气不降便秘用降肺通腑法，都是表里理论的实际运用。",
+        "reasoning": "便秘的人中医有时从肺治，靠的是哪一对表里关系的「遥控」？",
+        "feedback": "肺与大肠相表里——肺气肃降则大肠传导有力，肺气不降则大便不畅，所以开肺气能通大便。",
+        "transfer": "小便赤涩灼痛，中医按表里关系会联想到哪个「上级」脏腑的问题？"
+      },
+      "stdJudgment": "中医把五脏六腑配成四对「搭档」加一对特殊组合：心配小肠、肺配大肠、脾配胃、肝配胆、肾配膀胱，外加心包配三焦。配对靠经络连接（表里经），功能上也互相配合：胃主受纳、脾主运化，一前一后把食物变成气血；肝胆同主疏泄，胆附于肝。病也会「串门」：心有火常从小便看出（心移热于小肠）。",
+      "coreDefinition": "脏腑表里：五脏与六腑经经络络属一一配对，功能配合、病变相互影响，是理解脏腑关系的框架。",
+      "facts": [
+        {
+          "field": "theory.脏腑表里配对",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心与小肠相表里",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肝与胆相表里",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾与胃相表里",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.表里病变传变",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    },
+    {
+      "id": "pb43-body-030",
+      "title": "中医·一张图看懂全身协作",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "整体观念",
+        "五脏协作",
+        "气血津液",
+        "综合运用",
+        "入门总复习"
+      ],
+      "intent": "综合回顾：把人体认知与中医脏腑观连成整体，用一张协作图理解五脏各司其职又互相配合。",
+      "learning": {
+        "knowledge": "背一张「五脏名片」：心=君主（主血脉神明）、肺=相傅（主气宣降通调水道）、肝=将军（主疏泄藏血）、脾=后勤（主运化生气血）、肾=先天（藏精主水纳气）。串联逻辑：吃饭→脾运化→气血生成→心泵血→肺布气→肝调血→肾存本。掌握这张图，后面学阴阳五行、藏象辨证都有了「地图坐标」。",
+        "misjudgment": "以为五脏是五个独立的「零件」，各修各的。错：五脏是互相连动的系统——脾虚气血不足，心血跟着亏；肝郁气滞，脾胃也受牵连（肝木乘脾土），牵一脏而动全身。",
+        "reasoning": "一个人长期焦虑，中医为什么可能同时看到肝、脾、心三个系统的变化？",
+        "feedback": "焦虑伤肝（疏泄失常）、肝郁乘脾（运化受累）、思虑伤心（神志受损），一因三果，正是整体观念下「看局部必联全身」的体现。",
+        "transfer": "学完这一章，你能用一句话向朋友解释「中医为什么总把人当整体看」吗？"
+      },
+      "stdJudgment": "把前面所有内容串成一张图：心是君主主血脉，肺是相傅主气行水，肝是将军主疏泄藏血，脾是后勤主运化生气血，肾是先天藏精主水。五脏各司其职，又通过气血津液与经络连成整体——心推动血、肺推动气、脾制造气血、肝调度血量、肾存本钱。任何一个环节出问题，都会牵动全身，这就是中医「整体观念」的入门钥匙。",
+      "coreDefinition": "全身协作：心主血、肺主气、脾生气血、肝调血、肾藏精，五脏以气血津液为纽带构成动态协作的整体。",
+      "facts": [
+        {
+          "field": "theory.五脏功能分工",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五脏协作关系",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气血津液与脏腑",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.整体观念运用",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.以五脏为中心的系统",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医基础理论》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；如有身体不适请及时就医",
+        "prohibitions": [
+          "不得依据本节点内容自行诊断疾病"
+        ]
+      }
+    }
+  ]
+}

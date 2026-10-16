@@ -1,0 +1,71 @@
+{
+  "seed": "phase-4/batch-3",
+  "genLabel": "Phase 4 · Batch-3 · 75 nodes（L1-L6 + A-K + Q1-Q8）",
+  "counts": {
+    "quarantine": 3
+  },
+  "note": "隔离 = Gate 最终不变式拦截（证据不足 / 反证无效 / 套话修正 / 模板化 / 非法来源枚举）。隔离即安全：不得自动放行。",
+  "samples": [
+    {
+      "id": "pb3-th-03-13",
+      "title": "五行综合案例",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "综合案例",
+        "生克推演"
+      ],
+      "intent": "融合五行生克乘侮与治则的综合性推理案例",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        },
+        {
+          "gate": "G",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        }
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pb3-th-04-19",
+      "title": "藏象综合案例",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "多脏同病",
+        "脏腑推演"
+      ],
+      "intent": "多脏腑联合推理：心肾、肝脾、肺脾等多维关系的综合案例",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        }
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pb3-fm-17-07",
+      "title": "方剂的剂型",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "汤丸散膏丹",
+        "剂型特点"
+      ],
+      "intent": "方剂的主要剂型（汤、丸、散、膏、丹）及其特点与选用",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+        }
+      ],
+      "corrections": []
+    }
+  ]
+}

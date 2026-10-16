@@ -1,0 +1,858 @@
+{
+  "seed": "phase-5/batch-29",
+  "total": 12,
+  "trace": [
+    {
+      "nodeId": "pb29-ad-001",
+      "title": "伦理·医德基本原则",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-001",
+        "title": "伦理·医德基本原则",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-002",
+      "title": "伦理·知情同意与患者自主权",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-002",
+        "title": "伦理·知情同意与患者自主权",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-003",
+      "title": "伦理·隐私保护与保密义务",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-003",
+        "title": "伦理·隐私保护与保密义务",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-004",
+      "title": "伦理·生命伦理与临终决策",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-004",
+        "title": "伦理·生命伦理与临终决策",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-005",
+      "title": "伦理·人体试验伦理审查",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-005",
+        "title": "伦理·人体试验伦理审查",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-006",
+      "title": "伦理·医疗资源分配公平",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材",
+        "《医学伦理学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-006",
+        "title": "伦理·医疗资源分配公平",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-007",
+      "title": "伦理·中医行医执业规范",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-007",
+        "title": "伦理·中医行医执业规范",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-008",
+      "title": "法规·执业医师法要点",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-008",
+        "title": "法规·执业医师法要点",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-009",
+      "title": "法规·中医药法要点",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-009",
+        "title": "法规·中医药法要点",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-010",
+      "title": "法规·医疗事故处理条例",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-010",
+        "title": "法规·医疗事故处理条例",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-011",
+      "title": "法规·病历书写规范",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-011",
+        "title": "法规·病历书写规范",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb29-ad-012",
+      "title": "法规·医保与处方管理要点",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材",
+        "《卫生法规》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb29-ad-012",
+        "title": "法规·医保与处方管理要点",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    }
+  ]
+}

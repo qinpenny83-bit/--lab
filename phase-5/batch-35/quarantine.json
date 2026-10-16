@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-35",
+  "genLabel": "Phase 5 · Batch-35 · J 中药炮制学 40 nodes",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

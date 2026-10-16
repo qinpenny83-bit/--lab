@@ -1,0 +1,502 @@
+{
+  "seed": 20260920,
+  "genLabel": "phase-3b-batch1",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核（含 C4 语义门通过但无 humanReviewRequired 标记者）。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 43
+  },
+  "samples": [
+    {
+      "id": "pb1-herb-01",
+      "title": "麻黄",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-02",
+      "title": "桂枝",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-03",
+      "title": "细辛",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「细辛不过钱」来源纠偏：sourceType→traditional_commentary、出处→「宋《本草别说》（陈承）古训」、status→teaching_inference（古训，非现行药典强制条文，亦不得折算为克数）"
+        },
+        {
+          "layer": "剂量分层",
+          "kind": "C",
+          "reason": "原典「各等分/两」被折算为克数，剥离克数、仅保留原表述"
+        },
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "高风险药材「细辛」注入红线：【高风险】细辛煎剂 1–3g、散剂 0.5–1g；「细辛不过钱」为古训（指单用末），不得折算为常规用量依据；过量可致中毒"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-04",
+      "title": "附子",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "高风险药材「附子」注入红线：【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-05",
+      "title": "柴胡",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「柴胡劫肝阴」来源纠偏：sourceType→traditional_commentary、出处→「（后世医家说）」、status→teaching_inference（后世医家之说，非《本经》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-06",
+      "title": "甘草",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "高风险药材「甘草」注入红线：【高风险】反海藻、大戟、甘遂、芫花；大剂量久服致水肿、血压升高，不得与禁忌药同用"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-07",
+      "title": "半夏",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-08",
+      "title": "人参",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-09",
+      "title": "石膏",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-herb-10",
+      "title": "黄连",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-01",
+      "title": "麻黄汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-02",
+      "title": "桂枝汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「调和营卫」来源纠偏：sourceType→teaching_design、出处→「（后世教学术语）」、status→teaching_inference（后世教学术语，非《伤寒论》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-03",
+      "title": "小柴胡汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「但见一证便是」来源纠偏：出处→「《伤寒论》」（须带「有柴胡证」前提，不得断章取义）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-04",
+      "title": "四逆汤",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-05",
+      "title": "六味地黄丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「三补三泻」来源纠偏：sourceType→teaching_design、出处→「（教材归纳）」、status→teaching_inference（教材归纳，非《小儿药证直诀》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-07",
+      "title": "银翘散",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-08",
+      "title": "十枣汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-formula-09",
+      "title": "逍遥散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-01",
+      "title": "合谷",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「明·徐凤《针灸大全》」、status→teaching_inference（四总穴歌最早记载于明·徐凤《针灸大全》，非《针灸大成》原句）"
+        },
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "禁针穴「合谷」注入：孕妇禁针，有堕胎风险"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-02",
+      "title": "足三里",
+      "category": "acupoint",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-03",
+      "title": "内关",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-04",
+      "title": "三阴交",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "禁针穴「三阴交」注入：孕妇禁针，有堕胎风险"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-05",
+      "title": "哑门",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "禁针穴「哑门」注入：深部近延髓，禁深刺，禁向上方深刺"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-06",
+      "title": "风池",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-07",
+      "title": "太冲",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「四关」来源纠偏：sourceType→teaching_design、出处→「（临床总结）」、status→teaching_inference（临床总结，非经典原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-08",
+      "title": "委中",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-09",
+      "title": "膻中",
+      "category": "acupoint",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-acu-10",
+      "title": "列缺",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-01",
+      "title": "阴阳学说",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-02",
+      "title": "五行生克",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「见肝之病知肝传脾」来源纠偏：出处→「《金匮要略》」（非《内经》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-03",
+      "title": "藏象·心",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-04",
+      "title": "气一元论与气血",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「气为血之帅」来源纠偏：sourceType→teaching_design、出处→「（教学口诀）」、status→teaching_inference（教学口诀，非《内经》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-05",
+      "title": "六淫病因",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-06",
+      "title": "正邪病机",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-07",
+      "title": "四诊合参",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-08",
+      "title": "八纲辨证",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「八纲辨证」来源纠偏：sourceType→traditional_commentary、出处→「清·程钟龄《医学心悟》」、status→teaching_inference（八纲作为系统辨证纲领正式确立于清·程钟龄《医学心悟》，非《黄帝内经》原词）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-09",
+      "title": "治未病",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「上工治未病」来源纠偏：出处→「《难经·七十七难》」（「上工治未病」首见《难经》，非《素问》原句）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-theory-10",
+      "title": "卫气营血辨证",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-case-01",
+      "title": "表实表虚辨汗",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-case-02",
+      "title": "脾胃气虚案",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-case-03",
+      "title": "肝郁化火案",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-case-07",
+      "title": "脾虚湿盛与湿热中阻案",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb1-case-08",
+      "title": "感冒入里化热案",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

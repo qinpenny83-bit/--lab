@@ -1,0 +1,3865 @@
+{
+  "seed": "phase-5/batch-8",
+  "genLabel": "Phase 5 · Batch-8 · 55 nodes（L 方剂学 90→145）",
+  "total": 55,
+  "note": "Batch-8：L 方剂学解表/泻下/和解/清热/温里/补益/固涩/安神/理气/理血/祛湿 55 节点",
+  "samples": [
+    {
+      "id": "pb8-l-001",
+      "title": "大青龙汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "解表剂",
+        "大青龙汤",
+        "麻黄·高风险"
+      ],
+      "intent": "大青龙汤的组成、方义与主治（外感风寒、里有郁热证）及峻汗之禁",
+      "learning": {
+        "knowledge": "大青龙汤（《伤寒论》）：麻黄、桂枝、炙甘草、杏仁、生姜、大枣、石膏。功效发汗解表、清热除烦。主治外感风寒、里有郁热证：恶寒发热、头身疼痛、无汗而烦躁、舌苔薄白或黄、脉浮紧。麻黄配石膏一宣一清，表寒得散、里热得清，为外寒里热之峻剂。",
+        "misjudgment": "见「无汗烦躁」便误认纯里热证而投白虎汤。错：此烦躁因寒闭于表、热郁于里所致，须麻黄开腠解表为主，单纯清里则表闭不除。",
+        "reasoning": "同为麻黄剂，大青龙汤与小青龙汤主治一热一饮，辨证眼目各是什么？",
+        "feedback": "大青龙汤证「不汗出而烦躁」为外寒里热，小青龙汤证「咳喘痰稀白」为外寒里饮，有无烦躁是两方分途之关键。",
+        "transfer": "若患者平素汗多体虚却见类似证候，为何不可投大青龙汤？"
+      },
+      "stdJudgment": "发汗解表、清热除烦，为外寒里热（不汗出而烦躁）之峻汗剂，一服得汗即止",
+      "coreDefinition": "麻黄（君）发汗解表、宣肺平喘；桂枝（臣）助麻黄发汗散寒；石膏（佐）清里热除烦躁；杏仁（佐）宣降肺气；生姜大枣（佐）和中；炙甘草（使）调和诸药",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "太阳中风，脉浮紧，发热恶寒，身疼痛，不汗出而烦躁者，大青龙汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "麻黄 12g（先煎去上沫）、桂枝 6g、炙甘草 6g、杏仁 6g、生姜 9g、大枣 10 枚、石膏 18g（先煎）；水煎温服，取微汗",
+        "caution": "一服得汗即停后服，不可过剂；脉微弱、汗出恶风者不可服；含麻黄，高血压、心脏病、失眠者慎用，运动员禁用"
+      },
+      "safety": {
+        "note": "本方发汗峻猛，中病即止，不可过剂；含麻黄，虚人及心血管疾患者慎用",
+        "prohibitions": [
+          "【高风险】发汗力强，虚人慎用；高血压/心脏病/失眠者慎用；运动员禁用；不宜过量或久服",
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-002",
+      "title": "升麻葛根汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "解表剂",
+        "升麻葛根汤"
+      ],
+      "intent": "升麻葛根汤的组成与主治（麻疹初起未发或发而不透）及透疹配伍",
+      "learning": {
+        "knowledge": "升麻葛根汤（《太平惠民和剂局方》）：升麻、葛根、芍药、甘草。功效解肌透疹。主治麻疹初起未发或发而不透：身热头痛、咳嗽、目赤流泪、口渴、舌红苔薄白、脉浮数。升麻透疹解毒、葛根解肌生津，二药相须为透疹要药；芍药和营泄热，甘草调和诸药。",
+        "misjudgment": "把本方当清热泻火方用于麻疹已透之后。错：本方功在透发，麻疹已透或疹色紫暗、热毒炽盛者再用升散，反助火势伤津。",
+        "reasoning": "麻疹欲出未出之际，为何用升散之品而不用苦寒清解？",
+        "feedback": "疹以透发为顺，升麻葛根助疹外达，邪有出路；过早苦寒清解则冰伏其邪，疹反内陷难出。",
+        "transfer": "若患儿疹出不畅兼高热烦渴，升麻葛根汤当如何加减化裁？"
+      },
+      "stdJudgment": "解肌透疹，为麻疹初起未发或发而不透之基础方，升麻葛根相须为用",
+      "coreDefinition": "升麻（君）发表透疹、清热解毒；葛根（臣）解肌透疹、生津止渴；芍药（佐）和营泄热；甘草（使）调和诸药",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "升麻、葛根、芍药、甘草各 9g；水煎温服",
+        "caution": "麻疹已透或疹色紫暗、热毒内陷者不宜；本方重在透发，表虚多汗者慎用"
+      },
+      "safety": {
+        "note": "辛凉解肌透疹之剂，麻疹已透或热毒内陷者不宜再用升散",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-003",
+      "title": "柴葛解肌汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "解表剂",
+        "柴葛解肌汤"
+      ],
+      "intent": "柴葛解肌汤的组成、方义与主治（外感风寒、郁而化热证）及三阳同治之理",
+      "learning": {
+        "knowledge": "柴葛解肌汤（《伤寒六书》）：柴胡、葛根、甘草、黄芩、芍药、羌活、白芷、桔梗、石膏、生姜、大枣。功效解肌清热。主治外感风寒、郁而化热证：恶寒渐轻、身热增盛、无汗头痛、目疼鼻干、心烦不眠、眼眶痛、舌苔薄黄、脉浮微洪。羌活白芷散太阳之寒，葛根清阳明之热，柴胡黄芩和少阳之邪，三阳同治。",
+        "misjudgment": "把柴葛解肌汤当作单纯辛温解表方，忽略其清里之职。错：本方证寒邪已化热，方中石膏黄芩清泄里热，畏寒药而减之，则表解而里热不除。",
+        "reasoning": "恶寒未罢而身热已盛，柴葛解肌汤如何在「散寒」与「清热」之间取舍？",
+        "feedback": "羌活白芷治太阳表寒，葛根石膏黄芩治阳明少阳里热，表里寒热并调，使邪从三阳分消。",
+        "transfer": "若患者身热已重、口渴引饮而恶寒全无，本方还适用吗？"
+      },
+      "stdJudgment": "三阳同治之解肌清热方，太阳阳明合病而热势渐盛者宜之",
+      "coreDefinition": "葛根柴胡（君）解肌清热；羌活白芷（臣）解表散寒止痛；黄芩石膏（臣）清泄里热；白芍桔梗（佐）和营利咽；生姜大枣甘草（佐使）和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "柴胡 9g、葛根 12g、黄芩 9g、白芍 9g、羌活 6g、白芷 6g、桔梗 6g、石膏 15g（先煎）、甘草 3g、生姜 3 片、大枣 2 枚；水煎温服",
+        "caution": "里热不显或纯表寒者不宜过用石膏黄芩；脾胃虚寒者石膏黄芩减量慎用"
+      },
+      "safety": {
+        "note": "表里寒热并调之剂，里热不显或纯表寒者不宜过用寒凉",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-004",
+      "title": "小承气汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "泻下剂",
+        "小承气汤"
+      ],
+      "intent": "小承气汤的组成与主治（阳明腑实轻证）及与大承气汤的用量差异",
+      "learning": {
+        "knowledge": "小承气汤（《伤寒论》）：大黄、厚朴、枳实。功效轻下热结。主治阳明腑实轻证：谵语潮热、大便秘结、胸腹痞满、舌苔老黄、脉滑而疾；或痢疾初起腹中胀痛、里急后重。大黄泻热通便为君，厚朴枳实行气消痞除满为臣。三味同煎、不用芒硝、枳朴量轻，故泻下之力缓于大承气汤。",
+        "misjudgment": "把痞满燥实俱全的阳明腑实重证用小承气汤，药力不足。错：小承气汤主治痞满为主而燥实不甚者，燥屎坚结、潮热谵语重者须大承气汤峻下。",
+        "reasoning": "大承气汤与小承气汤用药仅差芒硝一味，主治有何不同？",
+        "feedback": "大承气汤硝黄并用、枳朴俱重，治痞满燥实俱备之重证；小承气汤无芒硝、枳朴量轻，治痞满实而燥结轻者。",
+        "transfer": "若患者大便硬结而腹满不甚，三承气汤中应选何方？"
+      },
+      "stdJudgment": "轻下热结，三承气中泻下力最缓者，大黄不后下、不用芒硝是其眼目",
+      "coreDefinition": "大黄（君）泻热通便；厚朴（臣）行气除满；枳实（臣）下气消痞。三药同煎、枳朴量轻，泻下之力缓于大承气汤",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨阳明病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "阳明病，其人多汗，以津液外出，胃中燥，大便必硬，硬则谵语，小承气汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "大黄 12g（酒洗）、厚朴 6g、枳实 9g；三味同煎，分温二服",
+        "caution": "痞满燥实俱全者须用大承气汤；孕妇慎用；得下即止，不可过剂"
+      },
+      "safety": {
+        "note": "轻下之剂，得下即止；重证用之则力所不及"
+      }
+    },
+    {
+      "id": "pb8-l-005",
+      "title": "调胃承气汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "泻下剂",
+        "调胃承气汤"
+      ],
+      "intent": "调胃承气汤的组成与主治（阳明腑实轻证之燥实不痞满）及甘草缓硝黄之理",
+      "learning": {
+        "knowledge": "调胃承气汤（《伤寒论》）：大黄、芒硝、甘草。功效缓下热结。主治阳明腑实轻证：大便不通、蒸蒸发热、口渴心烦、腹满拒按、舌苔黄、脉滑数；亦治胃肠燥热之发斑吐衄、口齿咽喉肿痛。大黄泻热通便、芒硝软坚润燥为君臣，甘草缓硝黄之急、护胃和中为使，全方泻下而不伤胃。",
+        "misjudgment": "把三承气汤混为一谈。错：调胃承气汤主治燥实而痞满不显（蒸蒸发热、便秘），以甘草缓硝黄峻性，重在泄热和胃，与大小承气之治痞满有别。",
+        "reasoning": "同为阳明腑实，为何调胃承气汤重用甘草而小承气汤不用甘草？",
+        "feedback": "调胃承气汤证燥实而痞满轻，用甘草缓硝黄之峻、护胃和中，使热泄而不伤正；小承气汤证以痞满为主，故重在枳朴行气。",
+        "transfer": "患者便秘、蒸蒸发热而腹不胀满，为何选调胃承气汤而非大承气汤？"
+      },
+      "stdJudgment": "缓下热结，硝黄与甘草同煎以缓其峻，重在和胃泄热而非攻积",
+      "coreDefinition": "大黄（君）泻热通便；芒硝（臣）软坚润燥；炙甘草（使）调和缓急、护胃和中，使硝黄缓行",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "太阳病三日，发汗不解，蒸蒸发热者，属胃也，调胃承气汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "大黄 12g、炙甘草 6g、芒硝 12g（溶服）；水煎温服",
+        "caution": "燥实内结而痞满显著者非其所宜；孕妇慎用；中病即止"
+      },
+      "safety": {
+        "note": "和胃缓下之剂，主治燥实而无痞满者",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-006",
+      "title": "大黄附子汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "泻下剂",
+        "大黄附子汤",
+        "附子·高风险",
+        "细辛·高风险"
+      ],
+      "intent": "大黄附子汤的组成、方义与主治（寒积里实证）及温下法「去性取用」配伍",
+      "learning": {
+        "knowledge": "大黄附子汤（《金匮要略》）：大黄、附子、细辛。功效温里散寒、通便止痛。主治寒积里实证：腹痛便秘、胁下偏痛、发热、手足不温、舌苔白腻、脉弦紧。附子温阳散寒止痛为君，细辛宣通散寒为臣，大黄泻下通便为佐——大黄与附子细辛同用，寒性被制而泻下之功独存，即「去性取用」。",
+        "misjudgment": "见便秘便用承气类苦寒攻下。错：本方证属寒积，苔白腻、脉弦紧、手足不温，须温散寒凝兼以通下，误用苦寒则寒凝愈甚。",
+        "reasoning": "大黄性寒，为何能用于寒积便秘？附子与大黄同方起什么作用？",
+        "feedback": "大黄得附子细辛之温，寒性被制而通下之性犹存，温阳散寒与泻下通便并行，寒积得温而化、得下而除。",
+        "transfer": "若患者胁腹冷痛、便秘而脉沉弦，大黄附子汤与温脾汤如何鉴别选方？"
+      },
+      "stdJudgment": "温下法之祖方，附子细辛配大黄，「去性取用」而成温散寒凝之剂",
+      "coreDefinition": "附子（君）温阳散寒止痛；细辛（臣）辛温宣通、助附子散寒；大黄（佐）泻下通便，与附辛同用寒性被制而通下之功存",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "腹满寒疝宿食病脉证治",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "胁下偏痛，发热，其脉紧弦，此寒也，以温药下之，宜大黄附子汤"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "大黄 9g、制附子 12g（先煎久煎）、细辛 3g；水煎温服",
+        "caution": "附子须炮制先煎久煎至口尝无麻辣感，孕妇禁用；实热便秘及阴虚津亏者忌用；得下即止"
+      },
+      "safety": {
+        "note": "方含附子、细辛，炮制与剂量须严守红线；温下之剂，寒实证方可投",
+        "prohibitions": [
+          "【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量",
+          "【高风险】细辛煎剂 1–3g、散剂 0.5–1g；「细辛不过钱」为古训（指单用末），不得折算为常规用量依据；过量可致中毒"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-007",
+      "title": "三物备急丸",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "泻下剂",
+        "三物备急丸",
+        "巴豆·高风险"
+      ],
+      "intent": "三物备急丸的组成与主治（寒实冷积急症）及巴豆制霜入丸散之用药红线",
+      "learning": {
+        "knowledge": "三物备急丸（《金匮要略》）：巴豆、干姜、大黄。功效攻逐寒积。主治寒实冷积、卒然发病：心腹胀痛、痛如锥刺、气急口噤、二便不通、甚则暴厥。巴豆峻下冷积、开通闭塞为君，干姜温中散寒为臣，大黄荡涤肠胃为佐。巴豆须制霜入丸散，每次服少量，得快利即止，为急救冷积之峻剂。",
+        "misjudgment": "把巴豆当普通泻药入煎剂。错：巴豆有大毒且有效成分不溶于水，只宜制霜入丸散（0.1-0.3g），入煎剂既不效又难控毒。",
+        "reasoning": "三物备急丸以巴豆为君，为何还要配大黄、干姜？",
+        "feedback": "巴豆峻下冷积、开通闭塞，干姜助其温散寒凝，大黄荡涤肠胃且可监制巴豆辛热之毒，三药相合攻逐之力峻而猛。",
+        "transfer": "若患者心腹胀痛剧烈而脉实有力、全无寒象，还能用三物备急丸吗？"
+      },
+      "stdJudgment": "攻逐寒积之峻剂，巴豆霜为君，中病即止，用于卒然心腹胀痛之寒实急症",
+      "coreDefinition": "巴豆（君）峻下冷积、开通闭塞；干姜（臣）温中散寒；大黄（佐）荡涤肠胃、推陈致新，并监制巴豆辛热之毒",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhiji",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "杂疗方",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "主心腹诸卒暴百病。若中恶客忤，心腹胀满，卒痛如锥刺，气急口噤，停尸卒死者"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "巴豆霜 0.3g、干姜 0.9g、大黄 1.2g 研末制丸（蜜丸或糊丸），温开水送服，每次约 0.5–1g",
+        "caution": "巴豆有大毒，制霜 0.1–0.3g 只入丸散；孕妇禁用；不宜与牵牛子同用；得吐下即止，不可过服"
+      },
+      "safety": {
+        "note": "峻猛攻逐之剂，非寒实急症不可轻投，得吐利即止；巴豆畏牵牛，勿同用",
+        "prohibitions": [
+          "【高风险】巴豆有大毒，制霜用 0.1–0.3g，只入丸散；孕妇禁用；不宜与牵牛子同用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-008",
+      "title": "黄龙汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "泻下剂",
+        "黄龙汤"
+      ],
+      "intent": "黄龙汤的组成与主治（阳明腑实、气血不足证）及攻补兼施之法",
+      "learning": {
+        "knowledge": "黄龙汤（《伤寒六书》）：大黄、芒硝、枳实、厚朴、甘草、人参、当归，加桔梗、生姜、大枣。功效攻下热结、益气养血。主治阳明腑实、气血不足证：自利清水、色纯青、心下必痛、口干燥，或大便秘结、腹胀满硬痛、神昏谵语、神倦少气、舌苔焦黄、脉虚。大承气汤攻下热结，人参当归补益气血，攻补兼施，为邪实正虚之泻下方。",
+        "misjudgment": "见腑实便一味峻下，忽略正虚背景。错：黄龙汤证有神倦少气、脉虚等气血不足之象，纯用承气则正随下脱，须攻补兼施。",
+        "reasoning": "腑实当下，为何黄龙汤还要用人参当归？",
+        "feedback": "邪实正虚，下之则正脱、补之则助邪，故以承气攻邪、参归扶正，攻补并行，使下而不伤正。",
+        "transfer": "若患者热结旁流、自利清水而神昏，黄龙汤与单纯大承气汤如何鉴别？"
+      },
+      "stdJudgment": "攻补兼施之泻下剂，大承气汤合人参当归，攻邪而不忘扶正",
+      "coreDefinition": "大黄芒硝枳实厚朴（君）攻下热结；人参当归（臣）益气养血扶正；桔梗（佐）开宣肺气以助通降；生姜大枣甘草（佐使）和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "大黄 12g（后下）、芒硝 9g（溶服）、枳实 9g、厚朴 6g、人参 6g、当归 9g、甘草 3g、桔梗 3g、生姜 3 片、大枣 2 枚；水煎温服",
+        "caution": "纯实无虚者不必用本方；津枯热结者慎用；中病即止"
+      },
+      "safety": {
+        "note": "攻补兼施，专为腑实而气血两虚者设；纯实之证反嫌其补",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-009",
+      "title": "葛根芩连汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "表里双解剂",
+        "葛根芩连汤"
+      ],
+      "intent": "葛根芩连汤的组成、方义与主治（协热下利）及升清止利配伍",
+      "learning": {
+        "knowledge": "葛根芩连汤（《伤寒论》）：葛根、黄芩、黄连、甘草。功效解表清里。主治协热下利：身热下利、胸脘烦热、口干作渴、喘而汗出、舌红苔黄、脉数或促。葛根解肌发表、升发清阳而止利为君；黄芩黄连苦寒清热燥湿、坚阴止利为臣；甘草调和为使。后世不限于表证，湿热泻痢、肠炎下利皆常用之。",
+        "misjudgment": "把本方当单纯止泻方，忽略葛根解表与升清之功。错：葛根升清阳而止利，是「利遂不止」的关键，若去葛根则清阳不升，下利难止。",
+        "reasoning": "同是下利，葛根芩连汤与理中丸（虚寒下利）的辨证眼目各是什么？",
+        "feedback": "葛根芩连汤证下利伴身热、苔黄、脉数，属湿热协热；理中丸证下利清谷、舌淡脉迟，属中焦虚寒，一清一温，天壤之别。",
+        "transfer": "若急性肠炎患者发热口渴、泻下臭秽，可否用葛根芩连汤化裁？"
+      },
+      "stdJudgment": "解表清里、表里双解，葛根升清止利与芩连苦寒燥湿相合，为热利之要方",
+      "coreDefinition": "葛根（君）解肌发表、升清止利；黄芩黄连（臣）清热燥湿、坚阴止利；炙甘草（使）调和诸药",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "太阳病，桂枝证，医反下之，利遂不止，脉促者，表未解也；喘而汗出者，葛根黄芩黄连汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "葛根 15g、黄芩 9g、黄连 9g、炙甘草 6g；先煎葛根，后纳诸药",
+        "caution": "虚寒下利（舌淡脉迟）禁用；湿热泻痢而无表证者亦可用之清里"
+      },
+      "safety": {
+        "note": "表里双解之剂，以里热下利为主，虚寒下利忌用",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-010",
+      "title": "柴胡桂枝干姜汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "和解剂",
+        "柴胡桂枝干姜汤"
+      ],
+      "intent": "柴胡桂枝干姜汤的组成与主治（少阳兼水饮内结）及胆热脾寒同治之法",
+      "learning": {
+        "knowledge": "柴胡桂枝干姜汤（《伤寒论》）：柴胡、桂枝、干姜、天花粉、黄芩、牡蛎、甘草。功效和解散寒、生津敛阴。主治少阳兼水饮内结证：胸胁满微结、小便不利、渴而不呕、但头汗出、往来寒热、心烦。柴胡黄芩和解少阳，桂枝干姜温化水饮，天花粉清热生津，牡蛎软坚散结。后世多用于胆热脾寒之寒热错杂证。",
+        "misjudgment": "见方名有干姜桂枝便断为纯寒证而忽略柴胡黄芩。错：本方为寒热并用之剂，少阳郁热与太阴寒饮并存，单从温散或单从清热皆失偏颇。",
+        "reasoning": "柴胡桂枝干姜汤与小柴胡汤皆治少阳病，组方差异的关键点在哪里？",
+        "feedback": "本方证少阳兼太阴寒饮，故小柴胡汤去人参半夏生姜大枣，加桂枝干姜天花粉牡蛎，和解之中寓温化生津。",
+        "transfer": "若患者口苦便溏、胁满心烦并见，柴胡桂枝干姜汤为何比小柴胡汤更合适？"
+      },
+      "stdJudgment": "和解少阳兼温化水饮，寒热并用、虚实兼顾，为少阳太阴同治之方",
+      "coreDefinition": "柴胡黄芩（君）和解少阳；桂枝干姜（臣）温化寒饮、温散太阴之寒；天花粉（佐）清热生津；牡蛎（佐）软坚散结；炙甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "伤寒五六日，已发汗而复下之，胸胁满微结，小便不利，渴而不呕，但头汗出，往来寒热，心烦者，此为未解也，柴胡桂枝干姜汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "柴胡 12g、桂枝 9g、干姜 6g、天花粉 12g、黄芩 9g、牡蛎 12g（先煎）、炙甘草 6g；水煎温服",
+        "caution": "纯少阳证无寒饮者不宜；阴虚火旺者干姜桂枝慎用"
+      },
+      "safety": {
+        "note": "寒热并调之剂，辨证须抓住「胆热脾寒」之机",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-011",
+      "title": "竹叶石膏汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "清热剂",
+        "竹叶石膏汤",
+        "半夏·高风险"
+      ],
+      "intent": "竹叶石膏汤的组成、方义与主治（余热未清、气津两伤证）及清补兼施",
+      "learning": {
+        "knowledge": "竹叶石膏汤（《伤寒论》）：竹叶、石膏、半夏、麦冬、人参、甘草、粳米。功效清热生津、益气和胃。主治伤寒温病暑病余热未清、气津两伤证：身热多汗、心胸烦闷、气逆欲呕、口干喜饮、虚羸少气、舌红苔少、脉虚数。石膏竹叶清热，麦冬养阴，人参粳米益气，半夏降逆止呕，清补兼施。",
+        "misjudgment": "把本方当白虎汤用于大热大汗之实热证。错：本方证余热已微而气津已伤（虚羸少气、舌红少苔），重在清补兼施；大热未解者用之则力不能及。",
+        "reasoning": "同为石膏剂，竹叶石膏汤与白虎汤的适应证有何根本不同？",
+        "feedback": "白虎汤治阳明气分大热（壮热大汗、脉洪大），竹叶石膏汤治余热未清而气津两伤（虚羸少气、舌红少苔），一清一补。",
+        "transfer": "若热病后期患儿低热不退、干呕少食，竹叶石膏汤为何恰合病机？"
+      },
+      "stdJudgment": "清热生津、益气和胃，为白虎汤去知母加竹叶麦冬半夏人参之变法",
+      "coreDefinition": "石膏（君）清热除烦；竹叶麦冬（臣）清热生津；人参粳米（臣）益气养胃；半夏（佐）降逆止呕、防滋阴药滋腻；炙甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨阴阳易差后劳复病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "伤寒解后，虚羸少气，气逆欲吐者，竹叶石膏汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "竹叶 6g、石膏 30g（先煎）、麦冬 20g、半夏 9g（制）、人参 6g、炙甘草 6g、粳米 15g；水煎温服",
+        "caution": "方含半夏，须用炮制品；正盛邪实、大热未解者不宜；中虚便溏者麦冬减量"
+      },
+      "safety": {
+        "note": "余热未清、气津两伤者宜，实热炽盛者非其所宜",
+        "prohibitions": [
+          "【高风险】生半夏有毒，不得生品内服，须炮制；反乌头类（含附子）；孕妇慎用",
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-012",
+      "title": "栀子豉汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "清热剂",
+        "栀子豉汤"
+      ],
+      "intent": "栀子豉汤的组成与主治（热郁胸膈之虚烦懊憹）及「虚烦」辨证",
+      "learning": {
+        "knowledge": "栀子豉汤（《伤寒论》）：栀子、淡豆豉。功效清热除烦。主治热郁胸膈证：虚烦不得眠、心中懊憹、反复颠倒、胸中窒闷、或心下痞塞。栀子苦寒清透郁热、导热下行为君，豆豉辛甘宣透郁热、和胃除烦为臣。所谓「虚烦」，是无形邪热扰于胸膈，非气血虚之虚，故以清宣郁热为治。",
+        "misjudgment": "见「虚烦不得眠」即用养心安神补益之品。错：此「虚」指无有形实邪，为无形热扰胸膈，须清宣郁热；误补则热愈壅。",
+        "reasoning": "栀子豉汤证之「虚烦」，虚在何处？为何不能补益安神？",
+        "feedback": "虚烦之虚，言其无形无实，非正气虚；栀子豆豉清宣胸膈郁热，热去则烦眠自安。",
+        "transfer": "若患者心烦懊憹兼呕恶，栀子豉汤当加何药化裁？"
+      },
+      "stdJudgment": "清热除烦，主治热扰胸膈之虚烦懊憹，栀子宣透与豆豉升散相配",
+      "coreDefinition": "栀子（君）苦寒清透郁热、导热下行；淡豆豉（臣）辛甘宣透郁热、和胃除烦，二药一宣一降",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "发汗吐下后，虚烦不得眠，若剧者，必反复颠倒，心中懊憹，栀子豉汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "栀子 9g（擘）、淡豆豉 9g；先煎栀子，后纳豆豉",
+        "caution": "脾胃虚寒、便溏者不宜；淡豆豉宜轻煎，久煎易致呕"
+      },
+      "safety": {
+        "note": "「虚烦」指无形热扰胸膈，非正气虚；素体便溏者慎用栀子"
+      }
+    },
+    {
+      "id": "pb8-l-013",
+      "title": "清瘟败毒饮",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "清热剂",
+        "清瘟败毒饮"
+      ],
+      "intent": "清瘟败毒饮的组成与主治（瘟疫热毒、气血两燔证）及三方合用之组方逻辑",
+      "learning": {
+        "knowledge": "清瘟败毒饮（《疫疹一得》）：石膏、生地、水牛角、黄连、栀子、桔梗、黄芩、知母、赤芍、玄参、连翘、甘草、丹皮、竹叶。功效清热解毒、凉血泻火。主治瘟疫热毒、气血两燔证：大热渴饮、头痛如劈、干呕狂躁、谵语神糊、发斑吐血、四肢抽搐、舌绛唇焦、脉沉细而数。方合白虎、黄连解毒、犀角地黄三方，气分血分热毒并清。",
+        "misjudgment": "把清瘟败毒饮与犀角地黄汤混用。错：清瘟败毒饮治气血两燔（气分大热与血分热毒并见），犀角地黄汤专清血分；单见血分证用清瘟败毒饮则药重病轻。",
+        "reasoning": "瘟疫高热发斑，为何须「气血两清」而不能只清血分？",
+        "feedback": "热毒既燔气分又入血分，气分不清则热势燎原，血分不凉则斑吐不止，故须白虎清气、犀角地黄凉血，两清并行。",
+        "transfer": "若患者仅见舌绛无苔、斑色紫黑而无气分大热，应选何方？"
+      },
+      "stdJudgment": "气血两清之代表方，合白虎、黄连解毒、犀角地黄三方于一炉",
+      "coreDefinition": "石膏知母（君）清气分大热；水牛角生地赤芍丹皮玄参（臣）凉血解毒、养阴散瘀；黄连黄芩栀子连翘（佐）泻三焦火毒；竹叶桔梗（佐）清热透邪；甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "生石膏 30g（先煎，大剂可用 60–120g）、生地黄 15g、水牛角 30g（先煎，代犀角）、黄连 6g、栀子 9g、桔梗 6g、黄芩 9g、知母 9g、赤芍 9g、玄参 12g、连翘 12g、甘草 6g、牡丹皮 9g、淡竹叶 6g；水煎频服",
+        "caution": "气血两燔之重症方可投；石膏量大，脾胃虚寒者忌用；中病即减量"
+      },
+      "safety": {
+        "note": "清热解毒之重剂，须认准气血两燔之证，中病即减量",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-014",
+      "title": "犀角地黄汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "清热剂",
+        "犀角地黄汤"
+      ],
+      "intent": "犀角地黄汤的组成与主治（热入血分证）及凉血散瘀并用之理",
+      "learning": {
+        "knowledge": "犀角地黄汤（《备急千金要方》）：水牛角（代犀角）、生地黄、芍药、牡丹皮。功效清热解毒、凉血散瘀。主治热入血分证：身热谵语、斑色紫黑、吐血衄血便血尿血、舌深绛起刺、脉细数；或蓄血发狂、漱水不欲咽。水牛角清心凉血解毒为君，生地凉血养阴为臣，赤芍丹皮凉血散瘀为佐，「凉血与散瘀并用」，血止而不留瘀。",
+        "misjudgment": "把犀角地黄汤与清营汤混为一谈。错：清营汤治热入营分（斑疹隐隐、舌绛），重在透热转气；犀角地黄汤治热入血分（斑色紫黑、出血），重在凉血散瘀，层次不同。",
+        "reasoning": "血热妄行之出血，为何凉血之外还要用丹皮赤芍散瘀？",
+        "feedback": "热与血搏则成瘀，纯用凉血止血反致瘀血留滞，故凉血与散瘀并用，血宁瘀化则出血自止。",
+        "transfer": "若患者高热发斑兼气分大热、大汗口渴，犀角地黄汤当配伍何方同用？"
+      },
+      "stdJudgment": "清热解毒、凉血散瘀，凉血与散瘀并用，为热入血分之主方",
+      "coreDefinition": "水牛角（君，代犀角）清心凉血解毒；生地黄（臣）凉血养阴生津；赤芍丹皮（佐）凉血散瘀、泄热，使血止而不留瘀",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "水牛角 30g（先煎，代犀角）、生地黄 24g、芍药 12g、牡丹皮 9g；水煎温服",
+        "caution": "热在气分而未入血分者不宜早用；阳虚失血、脾胃虚寒者忌用"
+      },
+      "safety": {
+        "note": "专治热入血分，气分热盛者须配清气药；血分虚寒者禁用"
+      }
+    },
+    {
+      "id": "pb8-l-015",
+      "title": "五味消毒饮",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "清热剂",
+        "五味消毒饮"
+      ],
+      "intent": "五味消毒饮的组成与主治（火毒结聚之痈疮疔毒）及专方特点",
+      "learning": {
+        "knowledge": "五味消毒饮（《医宗金鉴》）：金银花、野菊花、蒲公英、紫花地丁、紫背天葵子。功效清热解毒、消散疔疮。主治火毒结聚之痈疮疔毒：局部红肿热痛、或疮形如粟、坚硬根深、状如铁钉、恶寒发热、舌红苔黄、脉数。金银花为君清热解毒，余四药皆清热解毒、凉血消肿散结之品，五味相合，为治疔毒之要方。",
+        "misjudgment": "见一切疮疡便用本方。错：本方主治阳证热毒之疔疮痈肿（红肿热痛），阴证疮疡漫肿无头、不红不热者用之则寒凝更甚。",
+        "reasoning": "同为痈疡，五味消毒饮与仙方活命饮的适应证有何侧重？",
+        "feedback": "五味消毒饮清热解毒力专，治火毒疔疮；仙方活命饮兼活血溃坚，治痈肿初起欲成脓者，一重解毒、一重消肿溃坚。",
+        "transfer": "若疔疮走黄、高热神昏，单用五味消毒饮够吗？应如何配伍？"
+      },
+      "stdJudgment": "清热解毒、消散疔疮，五药皆清热解毒之品，为治疔毒之专方",
+      "coreDefinition": "金银花（君）清热解毒、消散痈肿；紫花地丁蒲公英野菊花（臣）清热解毒、凉血消肿；紫背天葵子（佐）清热解毒散结",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "金银花 15g、野菊花 12g、蒲公英 15g、紫花地丁 15g、紫背天葵子 9g；水煎加酒少许温服",
+        "caution": "阴证疮疡（漫肿无头、不红不热）禁用；脾胃虚寒者不宜久服"
+      },
+      "safety": {
+        "note": "专治阳证火毒疔疮，阴证疮疡忌用"
+      }
+    },
+    {
+      "id": "pb8-l-016",
+      "title": "仙方活命饮",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "清热剂",
+        "仙方活命饮"
+      ],
+      "intent": "仙方活命饮的组成、方义与主治（阳证痈疡肿毒初起）及消溃并用之配伍",
+      "learning": {
+        "knowledge": "仙方活命饮（《校注妇人良方》）：金银花、当归尾、赤芍、乳香、没药、陈皮、防风、白芷、贝母、天花粉、穿山甲、皂角刺、甘草。功效清热解毒、消肿溃坚、活血止痛。主治阳证痈疡肿毒初起：红肿焮痛、或身热凛寒、苔薄白或黄、脉数有力。金银花清热解毒为君，活血散瘀、溃坚消肿诸药为佐使，为外科消肿溃坚之代表方。",
+        "misjudgment": "把本方用于疮疡已溃之后。错：本方以消散为功，痈疡脓已成而未溃者方宜；已溃脓清者再投消散，徒伤正气。",
+        "reasoning": "仙方活命饮中穿山甲、皂角刺的作用是什么？脓成与否如何影响用药？",
+        "feedback": "穿山甲皂角刺通行经络、溃坚排脓，使脓毒外泄；脓未成可消、脓已成可溃，脓清已溃则不再用消散。",
+        "transfer": "若患者痈肿初起而体虚脉弱，仙方活命饮当如何调整配伍？"
+      },
+      "stdJudgment": "「疮疡之圣药、外科之首方」，清热解毒与活血溃坚并施，阳证痈疡初起宜之",
+      "coreDefinition": "金银花（君）清热解毒；归尾赤芍乳香没药（臣）活血散瘀止痛；白芷防风（佐）透达营卫散结；贝母天花粉（佐）清热化痰散结；山甲皂刺（佐）溃坚排脓；陈皮甘草（佐使）理气和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.fangyi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "金银花 15g、当归尾 9g、赤芍 9g、乳香 6g、没药 6g、陈皮 9g、防风 6g、白芷 6g、贝母 9g、天花粉 9g、皂角刺 6g、穿山甲 3g（遵法炮制，现多以皂角刺替代）、甘草节 6g；水煎或加酒煎服",
+        "caution": "阴证疮疡、疮疡已溃脓清者禁用；脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "阳证痈疡未溃者宜，已溃脓清及阴证忌用",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-017",
+      "title": "清骨散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "清热剂",
+        "清骨散"
+      ],
+      "intent": "清骨散的组成与主治（虚劳骨蒸潮热）及清退虚热配伍特点",
+      "learning": {
+        "knowledge": "清骨散（《证治准绳》）：银柴胡、胡黄连、秦艽、鳖甲、地骨皮、青蒿、知母、甘草。功效清虚热、退骨蒸。主治虚劳骨蒸潮热：骨蒸潮热、低热日久不退、形体消瘦、唇红颧赤、困倦盗汗、口渴心烦、舌红少苔、脉细数。银柴胡清虚热退骨蒸为君，知母胡黄连地骨皮青蒿秦艽皆清退虚热之品，鳖甲滋阴潜阳、引药入阴，清中寓补。",
+        "misjudgment": "把骨蒸潮热当外感发热用解表清热之剂。错：骨蒸潮热源于阴虚内热，日晡定时发热、盗汗消瘦，须清虚热退骨蒸，辛散苦寒之品反伤阴。",
+        "reasoning": "同为发热，清骨散证与白虎汤证的鉴别要点是什么？",
+        "feedback": "清骨散证骨蒸潮热、舌红少苔、脉细数，属阴虚内热；白虎汤证壮热大汗、脉洪大，属阳明实热，一虚一实，截然不同。",
+        "transfer": "若患者低热盗汗兼自汗乏力，清骨散当与何方配伍同用？"
+      },
+      "stdJudgment": "清虚热、退骨蒸，银柴胡与胡黄连鳖甲配伍，专治阴虚骨蒸潮热",
+      "coreDefinition": "银柴胡（君）清虚热、退骨蒸；知母胡黄连（臣）助清虚热；地骨皮青蒿秦艽（佐）透热退蒸；鳖甲（佐）滋阴潜阳、引药入阴；甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "银柴胡 9g、胡黄连 6g、秦艽 6g、鳖甲 15g（先煎）、地骨皮 9g、青蒿 6g、知母 6g、甘草 3g；水煎温服",
+        "caution": "阴虚火旺之骨蒸方宜，外感发热忌用；脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "纯虚无邪之骨蒸方宜，外感表证忌用",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-018",
+      "title": "当归六黄汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "清热剂",
+        "当归六黄汤"
+      ],
+      "intent": "当归六黄汤的组成与主治（阴虚火旺盗汗）及滋阴泻火固表并用",
+      "learning": {
+        "knowledge": "当归六黄汤（《兰室秘藏》）：当归、生地黄、熟地黄、黄连、黄芩、黄柏、黄芪。功效滋阴泻火、固表止汗。主治阴虚火旺盗汗：发热盗汗、面赤心烦、口干唇燥、大便干结、小便黄赤、舌红苔黄、脉数。当归二地滋阴养血、育阴制火，三黄清热泻火坚阴，黄芪益气固表止汗，「泻火即所以坚阴，补阴即所以止汗」。",
+        "misjudgment": "见盗汗便用补气固表药。错：阴虚火旺之盗汗，火旺逼津外泄，须滋阴泻火为主，单用黄芪固表则火不清、汗不止。",
+        "reasoning": "盗汗一症，当归六黄汤证与玉屏风散证如何区分？",
+        "feedback": "当归六黄汤证盗汗伴五心烦热、舌红苔黄，属阴虚火旺；玉屏风散证自汗恶风、易感冒，属表虚不固，一清一补。",
+        "transfer": "若患者盗汗而大便溏薄、舌淡脉弱，当归六黄汤还适用吗？"
+      },
+      "stdJudgment": "滋阴泻火、固表止汗，三黄泻火、二地滋肾、黄芪固表，为阴虚火旺盗汗之方",
+      "coreDefinition": "当归生地黄熟地黄（君）滋阴养血、育阴制火；黄连黄芩黄柏（臣）清热泻火坚阴；黄芪（佐使）益气固表止汗",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "当归 9g、生地黄 12g、熟地黄 12g、黄连 6g、黄芩 9g、黄柏 9g、黄芪 15g；水煎温服",
+        "caution": "脾胃虚寒便溏者不宜；纯阳虚自汗者忌用"
+      },
+      "safety": {
+        "note": "阴虚火旺之盗汗方宜，阳虚自汗者禁用"
+      }
+    },
+    {
+      "id": "pb8-l-019",
+      "title": "参附汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "温里剂",
+        "参附汤",
+        "附子·高风险"
+      ],
+      "intent": "参附汤的组成与主治（阳气暴脱证）及人参附子相须之理",
+      "learning": {
+        "knowledge": "参附汤（《正体类要》）：人参、附子。功效益气回阳固脱。主治阳气暴脱证：四肢厥逆、呼吸微弱、头晕气短、汗出脉微。人参大补元气、固脱生津，附子温壮元阳、回阳救逆，二药相须为用，上助心阳、下补命火、中温脾土，为急救回阳固脱之要方，现代常用于休克、心力衰竭之急救。",
+        "misjudgment": "把参附汤当温补常方长期服用。错：参附汤为阳气暴脱之急救方，阳回脉复即当停用，久服辛热助火伤阴，反生变证。",
+        "reasoning": "阳气暴脱之际，为何人参附子同用比单用其一更佳？",
+        "feedback": "气为阳之帅，阳为气之根，人参补气固脱、附子回阳救逆，两药相须则气阳双固，效专力宏。",
+        "transfer": "若患者冷汗不止、脉微欲绝兼阴液欲竭，参附汤当与何方合用？"
+      },
+      "stdJudgment": "益气回阳固脱之急救方，人参附子相须，汗出肢冷脉微者赖以挽回",
+      "coreDefinition": "人参（君）大补元气、固脱生津；附子（臣）温壮元阳、回阳救逆，二药相须，上助心阳、下补命火、中温脾土",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "人参 15g、制附子 9g（先煎久煎）；急煎频服或鼻饲",
+        "caution": "附子须炮制先煎久煎至口尝无麻辣感，孕妇禁用；阳回脉复即止，不可久服；实热厥证忌用"
+      },
+      "safety": {
+        "note": "急救回阳之剂，阳回即止；附子炮制与先煎久煎为要",
+        "prohibitions": [
+          "【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-020",
+      "title": "真武汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "温里剂",
+        "真武汤",
+        "附子·高风险"
+      ],
+      "intent": "真武汤的组成、方义与主治（阳虚水泛证）及温阳利水配伍",
+      "learning": {
+        "knowledge": "真武汤（《伤寒论》）：茯苓、白芍、白术、生姜、附子。功效温阳利水。主治阳虚水泛证：小便不利、四肢沉重疼痛、腹痛下利、肢体浮肿、苔白不渴、脉沉；或太阳病发汗太过，心下悸、头眩、身瞤动、振振欲擗地。附子温肾助阳、化气行水为君，白术茯苓健脾利湿，生姜散水，白芍利水缓急、敛阴制附子之燥。",
+        "misjudgment": "见水肿便用利水渗湿药，忽略温阳。错：真武汤证是肾阳衰微、水气泛滥，无附子温阳则水湿虽暂去而旋即复聚。",
+        "reasoning": "真武汤中白芍性偏阴柔，为何用于温阳利水之方？",
+        "feedback": "白芍利小便、缓急止痛，且敛阴和营、制约附子刚燥之性，使温阳利水而不伤阴，为「阴中求阳」之佐药。",
+        "transfer": "若患者水肿兼口苦口黏、苔黄腻，真武汤还能用吗？为什么？"
+      },
+      "stdJudgment": "温阳利水之代表方，附子温肾、术苓健脾、生姜散水、芍药护阴",
+      "coreDefinition": "附子（君）温肾助阳、化气行水；白术茯苓（臣）健脾利湿；生姜（佐）温散水气；白芍（佐）利水缓急、敛阴和营、制附子刚燥",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨少阴病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "少阴病，二三日不已，至四五日，腹痛，小便不利，四肢沉重疼痛，自下利者，此为有水气……真武汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "茯苓 9g、白芍 9g、白术 6g、生姜 9g、制附子 9g（先煎久煎）；水煎温服",
+        "caution": "附子须炮制先煎久煎至口尝无麻辣感，孕妇禁用；湿热水肿、阴虚水泛者忌用"
+      },
+      "safety": {
+        "note": "阳虚水泛者宜；附子炮制与先煎久煎为要",
+        "prohibitions": [
+          "【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-021",
+      "title": "回阳救急汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "温里剂",
+        "回阳救急汤",
+        "附子·高风险",
+        "半夏·高风险"
+      ],
+      "intent": "回阳救急汤的组成与主治（寒邪直中三阴、真阳衰微证）及回阳固脱之法",
+      "learning": {
+        "knowledge": "回阳救急汤（《伤寒六书》）：熟附子、干姜、肉桂、人参、白术、茯苓、陈皮、甘草、五味子、半夏、麝香。功效回阳固脱、益气生脉。主治寒邪直中三阴、真阳衰微证：四肢厥冷、神衰欲寐、恶寒蜷卧、吐泻腹痛、口不渴、甚则身寒战栗、指甲口唇青紫、脉沉微或无脉。四逆汤回阳，六君子汤益气和中，肉桂温补命火，五味子敛气防脱，麝香开窍通经。",
+        "misjudgment": "见四肢厥冷便投四逆汤，忽略本方「益气生脉」之旨。错：回阳救急汤证吐泻交作、正气耗散，须四逆回阳合六君益气、五味敛脱，单用四逆则气脱难复。",
+        "reasoning": "回阳救急汤中麝香辛散走窜，与回阳固脱之旨是否矛盾？",
+        "feedback": "麝香用量极小，意在开窍醒神、通行经脉，使阳气布达四末；与参附姜桂同用，散中有收、开中有固，并无碍固脱。",
+        "transfer": "若患者厥逆而兼大汗不止，回阳救急汤为何去麝香加龙骨牡蛎？"
+      },
+      "stdJudgment": "回阳固脱、益气生脉，四逆合六君加肉桂五味麝香，救寒邪直中之真阳衰微",
+      "coreDefinition": "附子干姜肉桂（君）回阳救逆、温补命火；人参白术茯苓炙甘草（臣）益气健脾；陈皮半夏（佐）和胃降逆；五味子（佐）敛气防脱；麝香（佐）开窍醒神、通行十二经",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yongfa",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "熟附子 9g（先煎久煎）、干姜 6g、肉桂 3g（后下）、人参 6g、白术 9g、茯苓 9g、陈皮 6g、炙甘草 6g、五味子 3g、制半夏 9g、麝香 0.1g（冲服）；水煎温服",
+        "caution": "附子须炮制先煎久煎；麝香不入煎剂宜冲服，孕妇禁用；本方附子半夏同用属十八反特殊配伍，须严守炮制与剂量"
+      },
+      "safety": {
+        "note": "真阳衰微之急症方宜；附子半夏同方属十八反特殊配伍，须严守炮制剂量；麝香孕妇禁用",
+        "prohibitions": [
+          "【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量",
+          "【高风险】生半夏有毒，不得生品内服，须炮制；反乌头类（含附子）；孕妇慎用",
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-022",
+      "title": "吴茱萸汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "温里剂",
+        "吴茱萸汤"
+      ],
+      "intent": "吴茱萸汤的组成与主治（肝胃虚寒、浊阴上逆证）及温中降逆配伍",
+      "learning": {
+        "knowledge": "吴茱萸汤（《伤寒论》）：吴茱萸、人参、生姜、大枣。功效温中补虚、降逆止呕。主治肝胃虚寒、浊阴上逆证：食谷欲呕、或呕吐涎沫、巅顶头痛、手足逆冷、烦躁欲死、舌淡苔白滑、脉沉迟或弦细。吴茱萸温胃暖肝、降逆止呕为君，生姜温胃散寒、降逆止呕为臣，人参补虚、大枣和中为佐使，为肝胃虚寒之代表方。",
+        "misjudgment": "把呕吐一概当胃热或食积治疗。错：本方证呕吐清水涎沫、舌淡苔白滑、脉沉迟，属肝胃虚寒、浊阴上逆，清热消导则寒愈甚。",
+        "reasoning": "吴茱萸汤证之「巅顶头痛」与呕吐有何病机联系？",
+        "feedback": "肝胃虚寒，浊阴之邪循肝经上逆巅顶则头痛，横逆犯胃则呕吐涎沫，温中降逆则浊阴得降，头痛呕吐并解。",
+        "transfer": "若患者食后即吐、苔白滑而四肢不温，吴茱萸汤与小半夏汤如何鉴别？"
+      },
+      "stdJudgment": "温中补虚、降逆止呕，吴茱萸生姜配伍，为肝胃虚寒浊阴上逆之方",
+      "coreDefinition": "吴茱萸（君）温胃暖肝、降逆止呕；生姜（臣）温胃散寒、降逆止呕（呕家圣药）；人参（佐）益气补虚；大枣（使）甘缓和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨厥阴病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "干呕，吐涎沫，头痛者，吴茱萸汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "吴茱萸 6g（洗）、人参 9g、生姜 18g、大枣 4 枚；水煎温服",
+        "caution": "吴茱萸有小毒，用量遵《中国药典》2–5g，不可过量久服；热性呕吐、阴虚有热者忌用"
+      },
+      "safety": {
+        "note": "吴茱萸有小毒，内服须控制剂量，过量久服伤肝",
+        "prohibitions": [
+          "吴茱萸有小毒，用量宜控（《中国药典》2–5g），过量久服可致肝损伤；热呕及阴虚内热者忌用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-023",
+      "title": "小建中汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "温里剂",
+        "小建中汤"
+      ],
+      "intent": "小建中汤的组成与主治（中焦虚寒、肝脾不和证）及甘温建中之法",
+      "learning": {
+        "knowledge": "小建中汤（《伤寒论》）：桂枝、炙甘草、大枣、芍药、生姜、饴糖。功效温中补虚、和里缓急。主治中焦虚寒、肝脾不和证：腹中时痛、喜温喜按、心中悸动、虚烦不宁、面色无华、或手足烦热、咽干口燥、舌淡苔白、脉细弦。本方系桂枝汤倍芍药加饴糖而成，饴糖温中补虚、缓急止痛为君，桂枝温阳、芍药养阴缓急，为「甘温建中」之代表方。",
+        "misjudgment": "把小建中汤证之「悸烦」与小柴胡汤证之「心烦」混同。错：小建中汤证之悸烦由中焦虚寒、气血不足所致，须甘温建中；误用和解或清热则中阳更伤。",
+        "reasoning": "桂枝汤本是解表方，小建中汤如何变为温补之剂？",
+        "feedback": "倍芍药以缓急养阴，加饴糖以甘温补中，变解表为建中，重在温养中焦、调和阴阳，故名「建中」。",
+        "transfer": "若患者腹中冷痛而大便溏泄、苔白腻，小建中汤还适用吗？"
+      },
+      "stdJudgment": "温中补虚、和里缓急，桂枝汤倍芍药加饴糖而成，变解表之方为建中之剂",
+      "coreDefinition": "饴糖（君）温中补虚、缓急止痛；桂枝（臣）温阳散寒；芍药（臣）养阴缓急、与桂枝一温一柔；生姜大枣炙甘草（佐使）温中补虚、调和诸药",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "伤寒二三日，心中悸而烦者，小建中汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "桂枝 9g、炙甘草 6g、大枣 6 枚、芍药 18g、生姜 9g、饴糖 30g（烊化）；水煎取汁，纳饴糖更上微火消解",
+        "caution": "饴糖甘温，湿热内蕴、中满吐逆者忌用"
+      },
+      "safety": {
+        "note": "甘温建中之剂，湿热中满者忌用",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-024",
+      "title": "大建中汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "温里剂",
+        "大建中汤"
+      ],
+      "intent": "大建中汤的组成与主治（中阳衰弱、阴寒内盛之脘腹剧痛）及温补降逆配伍",
+      "learning": {
+        "knowledge": "大建中汤（《金匮要略》）：蜀椒、干姜、人参，纳饴糖烊化。功效温中补虚、降逆止痛。主治中阳衰弱、阴寒内盛之脘腹剧痛：心胸中大寒痛、呕不能饮食、腹中寒、上冲皮起、出见有头足、上下痛而不可触近、舌苔白滑、脉沉伏。蜀椒温中散寒止痛为君，干姜温中散寒和胃为臣，人参补虚、饴糖缓急，为治中焦虚寒重症之方。",
+        "misjudgment": "把小建中汤与大建中汤混用。错：小建中汤治中虚腹痛之缓者（喜温喜按），大建中汤治中阳衰微之剧痛（痛不可触近、上下攻冲），一缓一峻，用量悬殊。",
+        "reasoning": "同为建中，大建中汤证为何「痛而不可触近」？与小建中汤之「喜按」有何不同？",
+        "feedback": "大建中汤证阴寒极盛、中阳欲绝，寒凝气聚攻冲故拒按剧痛；小建中汤证中虚不运、营卫不和故喜温喜按，虚实轻重迥异。",
+        "transfer": "若患者脘腹剧痛而舌红苔黄燥，大建中汤为何是禁忌？"
+      },
+      "stdJudgment": "温中补虚、降逆止痛，蜀椒干姜人参并用，治中阳衰微之脘腹大寒痛",
+      "coreDefinition": "蜀椒（君）温中散寒止痛、下气；干姜（臣）温中散寒、和胃止呕；人参（佐）益气补中；饴糖（使）温中补虚、缓急止痛",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "腹满寒疝宿食病脉证治",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "心胸中大寒痛，呕不能饮食，腹中寒，上冲皮起，出见有头足，上下痛而不可触近，大建中汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "蜀椒 6g（炒去汗）、干姜 12g、人参 6g；水煎去滓，纳饴糖 30g 烊化温服",
+        "caution": "蜀椒有小毒，用量不宜过大；实热腹痛、阴虚火旺者忌用；得吐利后中病即止"
+      },
+      "safety": {
+        "note": "蜀椒有小毒，须炒用控量；中阳衰微之寒痛方宜，实热忌用"
+      }
+    },
+    {
+      "id": "pb8-l-025",
+      "title": "参苓白术散",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "补益剂",
+        "参苓白术散"
+      ],
+      "intent": "参苓白术散的组成与主治（脾虚湿盛证）及健脾渗湿止泻配伍",
+      "learning": {
+        "knowledge": "参苓白术散（《太平惠民和剂局方》）：人参、白术、茯苓、甘草、山药、白扁豆、莲子肉、薏苡仁、缩砂仁、桔梗。功效益气健脾、渗湿止泻。主治脾虚湿盛证：饮食不化、胸脘痞闷、肠鸣泄泻、四肢乏力、形体消瘦、面色萎黄、舌淡苔白腻、脉虚缓。四君子益气健脾，山药莲子补脾止泻，扁豆薏苡仁渗湿，砂仁行气醒脾，桔梗载药上行，培土生金。",
+        "misjudgment": "见泄泻便用分利止泻药。错：本方证泄泻因脾虚运化失职、湿邪内生，须健脾与渗湿并行；单纯分利则脾气愈虚。",
+        "reasoning": "参苓白术散用桔梗「载药上行」，与止泻之旨是否矛盾？",
+        "feedback": "桔梗宣利肺气、借肺之治节以布津，且载诸药上行入肺，寓「培土生金」之意，与健脾止泻并不相悖。",
+        "transfer": "若患儿脾虚泄泻兼咳嗽痰多，参苓白术散如何化裁？"
+      },
+      "stdJudgment": "益气健脾、渗湿止泻，四君子加山药扁豆薏苡仁等，脾虚湿盛泄泻之要方",
+      "coreDefinition": "人参白术茯苓甘草（君）益气健脾；山药莲子肉（臣）补脾固涩；白扁豆薏苡仁（臣）健脾渗湿；砂仁（佐）醒脾和胃行气；桔梗（佐）载药上行、宣肺利气",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "人参、白术、茯苓、甘草、山药、莲子肉、白扁豆、薏苡仁、缩砂仁、桔梗各等分；为细末，每服 6–9g，枣汤调下，亦可作汤剂",
+        "caution": "阴虚火旺、湿热泄泻者不宜；本方药力平和，重症泄泻须另择方"
+      },
+      "safety": {
+        "note": "平补脾胃之剂，湿热泻痢及阴虚者忌用",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-026",
+      "title": "八珍汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "补益剂",
+        "八珍汤"
+      ],
+      "intent": "八珍汤的组成与主治（气血两虚证）及四君四物合用之理",
+      "learning": {
+        "knowledge": "八珍汤（《瑞竹堂经验方》）：人参、白术、茯苓、甘草、当归、川芎、白芍、熟地黄，加生姜、大枣。功效益气补血。主治气血两虚证：面色苍白或萎黄、头晕目眩、四肢倦怠、气短懒言、心悸怔忡、食欲不振、舌淡苔薄白、脉细弱或虚大无力。四君子汤补气、四物汤补血，两方合用则气血双补，为治疗气血两虚之基础方，后世十全大补汤即本方加黄芪肉桂。",
+        "misjudgment": "把八珍汤当万能补药。错：本方主治气血两虚，实证、湿热、食积者用之则闭门留寇；且须辨气虚血虚孰轻孰重以定药物侧重。",
+        "reasoning": "气血两虚之证，为何补气与补血必须同用？",
+        "feedback": "气能生血、血能载气，气血互根，单补其一则两难速复，四君四物合用，补气以生血、补血以养气。",
+        "transfer": "若患者气血两虚而恶寒肢冷，八珍汤当加何药变为何方？"
+      },
+      "stdJudgment": "益气补血，四君子与四物汤合用，为气血双补之基础方",
+      "coreDefinition": "四君子汤（人参白术茯苓甘草）补气；四物汤（当归川芎白芍熟地）补血；生姜大枣调和脾胃，气血双补",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "人参 9g、白术 9g、茯苓 9g、当归 9g、川芎 6g、白芍 9g、熟地黄 12g、炙甘草 5g，加生姜 3 片、大枣 2 枚；水煎温服",
+        "caution": "湿热内盛、食积腹胀者不宜；本方偏温补，阴虚火旺者慎用"
+      },
+      "safety": {
+        "note": "平补气血之方，邪实未去者不宜峻补",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-027",
+      "title": "炙甘草汤",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "补益剂",
+        "炙甘草汤"
+      ],
+      "intent": "炙甘草汤的组成、方义与主治（脉结代、心动悸）及阴阳并补通阳复脉之法",
+      "learning": {
+        "knowledge": "炙甘草汤（《伤寒论》）：炙甘草、生姜、人参、生地黄、桂枝、阿胶、麦冬、麻仁、大枣。功效益气滋阴、通阳复脉。主治阴血阳气虚弱、心脉失养证：脉结代、心动悸、虚羸少气、舌光少苔；亦治虚劳肺痿之干咳无痰、形瘦短气。炙甘草益气通脉为君，生地麦冬阿胶麻仁滋阴养血，人参大枣补气，桂枝生姜通阳，为气血阴阳并补之复脉名方。",
+        "misjudgment": "把心动悸皆当心血不足而纯用滋阴养血。错：本方证脉结代因阴血虚而心阳亦不振，须滋阴养血与通阳并施，纯阴无阳则脉仍难复。",
+        "reasoning": "本方既用大量滋阴药，为何又配桂枝生姜辛温通阳？",
+        "feedback": "阴血得充而脉体可养，阳气得通而脉道可行，阴阳并补、通补兼施，故脉结代可复，心动悸可宁。",
+        "transfer": "若患者心悸而舌红少苔、脉细数（阴虚明显），炙甘草汤应如何调整用药？"
+      },
+      "stdJudgment": "益气滋阴、通阳复脉，生地为君之滋阴量大与桂枝通阳相配，治脉结代心动悸",
+      "coreDefinition": "炙甘草（君）益气补心、通利血脉；生地黄麦冬麻仁阿胶（臣）滋阴养血充脉；人参大枣（佐）补气滋液；桂枝生姜（佐）通阳复脉，使滋阴而不滞",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "伤寒脉结代，心动悸，炙甘草汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "炙甘草 12g、生姜 9g、人参 6g、生地黄 30g、桂枝 9g、阿胶 6g（烊化）、麦冬 10g、麻仁 10g、大枣 10 枚；以清酒与水同煎",
+        "caution": "阴虚内热较甚者慎用桂枝；滋阴药量大，脾虚便溏者慎用；火麻仁用量宜控"
+      },
+      "safety": {
+        "note": "气血阴阳并补之方，重在复脉；滋腻之品较多，湿盛中满者慎用",
+        "prohibitions": [
+          "【高风险】反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-028",
+      "title": "一贯煎",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "补益剂",
+        "一贯煎"
+      ],
+      "intent": "一贯煎的组成与主治（肝肾阴虚、肝气郁滞证）及滋阴疏肝配伍",
+      "learning": {
+        "knowledge": "一贯煎（《续名医类案》）：北沙参、麦冬、当归身、生地黄、枸杞子、川楝子。功效滋阴疏肝。主治肝肾阴虚、肝气郁滞证：胸脘胁痛、吞酸吐苦、咽干口燥、舌红少津、脉细弱或虚弦，亦治疝气瘕聚。生地黄滋阴养血、补益肝肾为君，枸杞当归补血养肝，沙参麦冬养阴生津，川楝子疏肝泄热、理气止痛，「于滋阴药中疏肝」，为阴虚胁痛之要方。",
+        "misjudgment": "见胁痛便用柴胡疏肝散类辛香理气药。错：本方证胁痛源于肝肾阴虚、肝失柔养，辛香疏肝反耗阴劫液，须滋水涵木、柔肝止痛。",
+        "reasoning": "同为治胁痛，一贯煎与柴胡疏肝散的病机与用药有何根本不同？",
+        "feedback": "一贯煎证阴虚为本、气滞为标，生地枸杞沙参麦冬柔肝养阴，少佐川楝子疏泄；柴胡疏肝散证气滞为本，辛散为主，二者虚实迥异。",
+        "transfer": "若患者胁痛隐隐、咽干口燥而苔腻纳呆，一贯煎为何不宜？"
+      },
+      "stdJudgment": "滋阴疏肝，于大队滋阴养血药中少佐川楝子疏泄，为肝肾阴虚肝郁之方",
+      "coreDefinition": "生地黄（君）滋阴养血、补益肝肾；枸杞子当归（臣）补血养肝；北沙参麦冬（佐）养阴生津；川楝子（使）疏肝泄热、理气止痛，用量宜小",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "北沙参 9g、麦冬 9g、当归身 9g、生地黄 18g、枸杞子 9g、川楝子 4.5g；水煎温服",
+        "caution": "川楝子苦寒，用量宜小；本方滋润，湿浊中阻、苔腻者忌用；肝郁气滞偏实者不宜"
+      },
+      "safety": {
+        "note": "滋阴疏肝之剂，苔腻湿盛者忌用；川楝子有小毒，用量宜控"
+      }
+    },
+    {
+      "id": "pb8-l-029",
+      "title": "左归丸",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "补益剂",
+        "左归丸"
+      ],
+      "intent": "左归丸的组成、功效与主治（真阴不足证）及「纯甘壮水」「阳中求阴」的组方特点",
+      "learning": {
+        "knowledge": "左归丸（《景岳全书》）：熟地黄、山药、枸杞子、山茱萸、川牛膝、菟丝子、鹿角胶、龟板胶。功效滋阴补肾、填精益髓。主治真阴不足证：头晕目眩、腰酸腿软、遗精滑泄、自汗盗汗、口燥舌干、舌红少苔、脉细。鹿角胶温补与龟板胶滋阴并用，寓「阳中求阴」。",
+        "misjudgment": "把左归丸当六味地黄丸的加减方。错：六味地黄丸三补三泻寓泻于补，左归丸纯补无泻、填精益髓之力更峻，肾虚夹湿浊或脾虚便溏者用之则滋腻助湿。",
+        "reasoning": "同为补肾阴之方，左归丸为何删去六味地黄丸中的泽泻、茯苓、丹皮？",
+        "feedback": "六味三泻为防滋补碍湿、以泻助补；左归丸治真阴不足之纯虚证，无湿浊可泻，故纯补精血、峻补其下。",
+        "transfer": "若患者肾阴虚兼见脾虚便溏，左归丸与六味地黄丸何者更宜？"
+      },
+      "stdJudgment": "纯甘壮水之剂，滋阴补肾、填精益髓，主治真阴不足之头晕耳鸣、腰酸腿软",
+      "coreDefinition": "熟地黄（君）滋阴补肾、填精益髓；山药山茱萸枸杞子菟丝子（臣）补肝肾益精血；鹿角胶龟板胶（佐）温补与峻补精髓并行；川牛膝（佐）补肝肾强腰膝",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《景岳全书》",
+          "canon": "新方八略引",
+          "chapter": "",
+          "sourceTitle": "《景岳全书》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "善补阴者，必于阳中求阴，则阴得阳升而泉源不竭"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "熟地黄 24g、山药 12g、枸杞子 12g、山茱萸 12g、川牛膝 9g、菟丝子 12g、鹿角胶 12g（烊化）、龟板胶 12g（烊化）；蜜丸或水煎温服",
+        "caution": "胶类滋腻碍脾，脾虚便溏、纳呆者慎用；阴盛阳衰者不宜"
+      },
+      "safety": {
+        "note": "胶类滋腻，脾虚便溏者慎用；与六味地黄丸之别在于纯补无泻"
+      }
+    },
+    {
+      "id": "pb8-l-030",
+      "title": "右归丸",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "补益剂",
+        "右归丸",
+        "附子·高风险"
+      ],
+      "intent": "右归丸的组成、功效与主治（肾阳不足证）及「阴中求阳」配伍与附子用药红线",
+      "learning": {
+        "knowledge": "右归丸（《景岳全书》）：熟地黄、山药、山茱萸、枸杞子、菟丝子、鹿角胶、杜仲、肉桂、当归、制附子。功效温补肾阳、填精益髓。主治肾阳不足、命门火衰证：畏寒肢冷、腰膝软弱、阳痿遗精、大便不实、小便自遗、舌淡苔白、脉沉迟。",
+        "misjudgment": "把右归丸与金匮肾气丸混为一谈。错：肾气丸「少火生气」、寓泻于补，右归丸纯补无泻、温阳填精力峻；肾阴不足或阴虚火旺者误用右归丸则火上添油。",
+        "reasoning": "右归丸重用熟地黄等阴药，为何能治阳虚？",
+        "feedback": "「善补阳者必于阴中求阳」，熟地山萸枸杞填精以化气，附子肉桂温阳以生气，阴充则阳生。",
+        "transfer": "右归丸与左归丸同用熟地鹿角胶等滋补之品，一温一补如何鉴别选用？"
+      },
+      "stdJudgment": "温补肾阳、填精益髓，主治肾阳不足之畏寒肢冷、腰膝软弱，为「阴中求阳」之温补峻剂",
+      "coreDefinition": "熟地黄（君）滋阴填精以化气；肉桂附子（臣）温补肾阳、引火归元；鹿角胶枸杞子菟丝子杜仲（佐）温养肝肾；当归山药山茱萸（佐）养血补脾涩精",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "熟地黄 24g、山药 12g、山茱萸 9g、枸杞子 12g、菟丝子 12g、鹿角胶 12g（烊化）、杜仲 12g、肉桂 6g、当归 9g、制附子 6g；蜜丸或水煎温服",
+        "caution": "附子须炮制、先煎久煎至无麻辣感；阴虚火旺、阳亢者忌用；孕妇禁用"
+      },
+      "safety": {
+        "note": "方含附子须炮制久煎；纯补肾阳之峻剂，阴虚火旺者忌用",
+        "prohibitions": [
+          "【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-031",
+      "title": "大补阴丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "补益剂",
+        "大补阴丸"
+      ],
+      "intent": "大补阴丸的组成、功效与主治（阴虚火旺证）及「培本清源」的滋阴降火治法",
+      "learning": {
+        "knowledge": "大补阴丸（《丹溪心法》）：熟地黄、龟板、黄柏、知母、猪脊髓。功效滋阴降火。主治阴虚火旺证：骨蒸潮热、盗汗遗精、咳嗽咯血、心烦易怒、足膝疼热、舌红少苔、尺脉数而有力。丹溪立「阳常有余、阴常不足」之论，故以培本清源为法。",
+        "misjudgment": "把骨蒸潮热一律当阴虚用六味地黄丸。错：大补阴丸治阴虚火旺、相火亢盛（尺脉数而有力、骨蒸盗汗、咯血），须滋阴与降火并重；六味滋阴力缓，火旺者用之杯水车薪。",
+        "reasoning": "大补阴丸中黄柏知母苦寒，为何不惧「苦燥伤阴」？",
+        "feedback": "黄柏知母与熟地龟板同用，清泄相火与滋填真阴并行，培本清源、标本兼顾，苦以坚阴而不伤正。",
+        "transfer": "患者骨蒸盗汗兼食少便溏，大补阴丸还能照用吗？怎么调整？"
+      },
+      "stdJudgment": "滋阴降火之要方，大补真阴、兼清相火，主治阴虚火旺之骨蒸潮热、盗汗遗精",
+      "coreDefinition": "熟地黄龟板（君）滋阴填精、潜阳制火；黄柏知母（臣）苦寒坚阴、清泄相火；猪脊髓蜂蜜（佐使）补髓养阴、调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "熟地黄 18g、龟板 18g（先煎）、黄柏 12g、知母 12g、猪脊髓适量；炼蜜为丸",
+        "caution": "苦寒与滋补并用，脾胃虚寒、食少便溏者慎用；纯实火之证不宜"
+      },
+      "safety": {
+        "note": "培本清源并施，纯实火证（口渴引饮、苔黄燥）不宜；脾胃虚寒者慎用"
+      }
+    },
+    {
+      "id": "pb8-l-032",
+      "title": "泰山磐石散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "补益剂",
+        "泰山磐石散"
+      ],
+      "intent": "泰山磐石散的组成、功效与主治（气血虚弱、胎元不固）及益气养血安胎要义",
+      "learning": {
+        "knowledge": "泰山磐石散（《古今医统大全》）：人参、黄芪、当归、续断、黄芩、熟地黄、川芎、白芍、白术、炙甘草、砂仁、糯米。功效益气健脾、养血安胎。主治气血两虚、胎元失固之堕胎滑胎：胎动不安、或屡有堕胎宿疾、面色淡白、倦怠乏力、舌淡苔薄白、脉沉弱。",
+        "misjudgment": "把胎动不安一律当肾虚而补肾安胎。错：泰山磐石散治气血两虚之胎动不安（面色淡白、倦怠乏力），重在益气养血安胎；血热胎漏（下血色红、口干心烦）或肾虚腰酸者用之不对证。",
+        "reasoning": "安胎方中为何同用黄芩与砂仁？",
+        "feedback": "黄芩清热安胎、兼制参芪归芎之温，砂仁理气安胎、防补药滋腻碍胃，一清一理，为安胎常用对药。",
+        "transfer": "若孕妇胎动不安而见口干咽燥、血色鲜红，应改从何方安胎？"
+      },
+      "stdJudgment": "益气健脾、养血安胎，主治堕胎滑胎之气血两虚，屡孕屡堕者尤宜",
+      "coreDefinition": "人参黄芪白术甘草（君）益气健脾以固胎元；当归熟地白芍川芎（臣）养血和血；续断（佐）补肾安胎；黄芩（佐）清热安胎兼制温燥；砂仁糯米（佐使）理气安胎养胃",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "人参 3g、黄芪 6g、当归 6g、续断 3g、黄芩 3g、熟地黄 8g、川芎 2g、白芍 3g、白术 6g、炙甘草 2g、砂仁 1.5g、糯米 5g；水煎，食远温服",
+        "caution": "阴虚血热之胎动不安忌用；血热胎漏者须另择清热安胎之方"
+      },
+      "safety": {
+        "note": "安胎之剂，阴虚血热之胎动不安不宜；砂仁辛温，气阴两虚者不可过用"
+      }
+    },
+    {
+      "id": "pb8-l-033",
+      "title": "真人养脏汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "固涩剂",
+        "真人养脏汤",
+        "罂粟壳·高风险"
+      ],
+      "intent": "真人养脏汤的组成、功效与主治（脾肾虚寒之久泻久痢）及涩肠固脱法，罂粟壳成瘾性红线",
+      "learning": {
+        "knowledge": "真人养脏汤（《太平惠民和剂局方》）：人参、当归、白术、肉豆蔻、肉桂、炙甘草、白芍、木香、诃子、罂粟壳。功效涩肠固脱、温补脾肾。主治久泻久痢、脾肾虚寒证：泻痢无度、滑脱不禁、甚则脱肛坠下、脐腹疼痛、喜温喜按、不思饮食、舌淡苔白、脉迟细。",
+        "misjudgment": "把久泻久痢一律当虚寒而固涩。错：本方涩肠力峻，专治脾肾虚寒之滑脱不禁；若湿热未清、积滞未尽而早用罂粟壳诃子，则闭门留寇、痢转缠绵。",
+        "reasoning": "久泻滑脱之方为何仍配木香、当归等行气和血之品？",
+        "feedback": "涩中寓通：木香行气导滞、当归养血和营，既防固涩留邪，又使气血调和，涩而不滞。",
+        "transfer": "痢疾初起腹痛里急后重者，用真人养脏汤会有什么后果？"
+      },
+      "stdJudgment": "涩肠固脱、温补脾肾，主治久泻久痢之脾肾虚寒、滑脱不禁，罂粟壳收敛须中病即止",
+      "coreDefinition": "罂粟壳（君）涩肠止泻；诃子肉豆蔻（臣）涩肠固脱；人参白术（臣）益气健脾；肉桂（佐）温肾暖脾；当归白芍（佐）养血和营；木香（佐）行气导滞防留寇；甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "人参 9g、当归 9g、白术 12g、肉豆蔻 6g、肉桂 3g、炙甘草 6g、白芍 15g、木香 6g、诃子 12g、罂粟壳 6g（蜜炙）；水煎温服，中病即止",
+        "caution": "罂粟壳有成瘾性，3-6g 中病即止，孕妇及儿童禁用；湿热痢疾、积滞未清者忌用（闭门留寇）"
+      },
+      "safety": {
+        "note": "含罂粟壳，蜜炙用、3-6g、中病即止，有成瘾性；痢疾初起积滞未尽者忌用，孕妇儿童禁用",
+        "prohibitions": [
+          "【高风险】罂粟壳有毒、有成瘾性，3–6g 中病即止，不得久服；孕妇及儿童禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-034",
+      "title": "金锁固精丸",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "固涩剂",
+        "金锁固精丸"
+      ],
+      "intent": "金锁固精丸的组成、功效与主治（肾虚不固之遗精滑泄）及补肾涩精法",
+      "learning": {
+        "knowledge": "金锁固精丸（《医方集解》）：沙苑蒺藜、芡实、莲须、煅龙骨、煅牡蛎、莲子粉。功效补肾涩精。主治肾虚不固证：遗精滑泄、神疲乏力、四肢酸软、腰痛耳鸣、舌淡苔白、脉细弱。以「金锁」喻固涩之力，莲子粉糊丸、淡盐汤送下取其咸以入肾。",
+        "misjudgment": "把遗精一律当肾虚而固涩。错：金锁固精丸治肾虚不固之滑泄（无梦而遗、腰酸脉细弱）；相火妄动之梦遗（多梦口干、脉数）或湿热下注者忌用，误用收敛则邪火愈炽。",
+        "reasoning": "遗精有「有梦」「无梦」之分，为何金锁固精丸更宜于无梦滑泄？",
+        "feedback": "无梦滑泄多属肾虚精关不固，宜固涩；有梦遗精多属相火或湿热，宜清泻，方向相反。",
+        "transfer": "若患者梦遗频作、口苦尿赤、苔黄腻，金锁固精丸适用吗？"
+      },
+      "stdJudgment": "补肾涩精之专方，主治肾虚不固之遗精滑泄、腰酸耳鸣，盐汤送服引药入肾",
+      "coreDefinition": "沙苑蒺藜（君）补肾固精；芡实莲须（臣）固肾涩精、清心涩遗；煅龙骨煅牡蛎（佐）固涩止遗、潜镇安神；莲子（佐使）补脾涩精",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "沙苑蒺藜、芡实、莲须各 12g，煅龙骨、煅牡蛎各 10g；莲子粉糊丸，淡盐汤送下",
+        "caution": "湿热下注之遗精（苔黄腻、尿赤）禁用；相火妄动者不宜"
+      },
+      "safety": {
+        "note": "收敛固涩之剂，湿热遗精、相火亢盛者忌用；煅用者收敛力强"
+      }
+    },
+    {
+      "id": "pb8-l-035",
+      "title": "桑螵蛸散",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "固涩剂",
+        "桑螵蛸散"
+      ],
+      "intent": "桑螵蛸散的组成、功效与主治（心肾两虚之遗尿尿频）及调补心肾、涩精止遗法",
+      "learning": {
+        "knowledge": "桑螵蛸散（《本草衍义》）：桑螵蛸、远志、菖蒲、龙骨、人参、茯神、当归、龟甲。功效调补心肾、涩精止遗。主治心肾两虚证：小便频数或遗尿遗精、心神恍惚、健忘、舌淡苔白、脉细弱。桑螵蛸补肾固精为君，合茯神远志菖蒲宁心开窍，交通心肾。",
+        "misjudgment": "把尿频遗尿当肾虚一律用缩泉丸。错：缩泉丸（益智仁、乌药、山药）专主下元虚冷；桑螵蛸散治心肾两虚兼心神恍惚健忘者，须补心与固肾并调。",
+        "reasoning": "桑螵蛸散为何既补肾又宁心？",
+        "feedback": "肾司二便、心主神明，心肾不交则神失所主、肾失所固，故以龟甲龙骨潜镇、茯神远志宁心、桑螵蛸固肾，心肾同治。",
+        "transfer": "桑螵蛸散与缩泉丸同为止遗方，从「心神恍惚」与「下元虚冷」如何选方？"
+      },
+      "stdJudgment": "调补心肾、涩精止遗，主治心肾两虚之小便频数、遗尿遗精，与缩泉丸同属止遗而侧重不同",
+      "coreDefinition": "桑螵蛸（君）补肾固精止遗；龙骨（臣）涩精安神；龟甲（臣）滋阴潜阳；人参当归（佐）益气养血；茯神远志菖蒲（佐）宁心安神、交通心肾",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "桑螵蛸、远志、菖蒲、龙骨、人参、茯神、当归、龟甲各 9g；研末，夜卧人参汤调下",
+        "caution": "下焦湿热或相火妄动之尿频遗尿忌用；本方以补涩为法，膀胱湿热者误用则闭邪"
+      },
+      "safety": {
+        "note": "补涩之剂，膀胱湿热之尿频涩痛忌用"
+      }
+    },
+    {
+      "id": "pb8-l-036",
+      "title": "牡蛎散",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "固涩剂",
+        "牡蛎散"
+      ],
+      "intent": "牡蛎散的组成、功效与主治（体虚自汗盗汗）及固表敛汗法，麻黄根与麻黄之别",
+      "learning": {
+        "knowledge": "牡蛎散（《太平惠民和剂局方》）：黄芪、麻黄根、煅牡蛎、浮小麦。功效敛阴止汗、益气固表。主治体虚之自汗盗汗：常自汗出、夜卧尤甚、心悸惊惕、短气烦倦、舌淡红、脉细弱。煅牡蛎敛阴潜阳，黄芪益气固表，麻黄根浮小麦专于敛汗。",
+        "misjudgment": "把自汗盗汗当阴虚或气虚一端论治。错：牡蛎散所治之汗为气阴两虚、卫外不固（自汗盗汗并见、心悸短气），须益气固表与敛阴止汗同用；单补气或单滋阴皆不全面。",
+        "reasoning": "麻黄根与麻黄一字之差，功用为何截然相反？",
+        "feedback": "麻黄发汗解表、宣肺平喘，麻黄根专于收敛止汗，根与茎功用相反；牡蛎散取麻黄根敛汗，不可误用麻黄。",
+        "transfer": "牡蛎散与玉屏风散都治自汗，从「动则汗出」与「夜卧汗出」如何鉴别？"
+      },
+      "stdJudgment": "敛阴止汗、益气固表，主治体虚之自汗盗汗，与玉屏风散同治表虚汗出而立法有别",
+      "coreDefinition": "煅牡蛎（君）敛阴潜阳、固涩止汗；黄芪（臣）益气固表；麻黄根（佐）专于止汗；浮小麦（佐）敛心液、益心气而止汗",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "黄芪 15g、麻黄根 6g、煅牡蛎 15g（先煎）、浮小麦 30g；水煎温服",
+        "caution": "阴虚火旺之盗汗（骨蒸、五心烦热）须配滋阴降火药；湿热汗出者忌用"
+      },
+      "safety": {
+        "note": "方中麻黄根为敛汗药，与发汗之麻黄功用相反，不可混淆；表实无汗者忌用"
+      }
+    },
+    {
+      "id": "pb8-l-037",
+      "title": "固冲汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "固涩剂",
+        "固冲汤"
+      ],
+      "intent": "固冲汤的组成、功效与主治（脾气虚弱、冲脉不固之崩漏）及益气固冲摄血法",
+      "learning": {
+        "knowledge": "固冲汤（《医学衷中参西录》）：白术、生黄芪、煅龙骨、煅牡蛎、山萸肉、生杭芍、海螵蛸、茜草、棕边炭、五倍子。功效益气健脾、固冲摄血。主治脾气虚弱、冲脉不固证：血崩或月经过多、色淡质稀、心悸气短、腰膝酸软、舌淡、脉微弱。",
+        "misjudgment": "把崩漏当血热而用凉血止血。错：固冲汤治气虚冲任不固之崩漏（色淡质稀、心悸气短、脉弱）；血热妄行（色深红质稠、口渴心烦）用温补固涩则助火动血。",
+        "reasoning": "止血方中为何配茜草、海螵蛸这些「化瘀」之品？",
+        "feedback": "「止血不留瘀」：茜草海螵蛸既能固涩止血又能化瘀通经，防单纯固涩致瘀血内停，与大量收涩药相配则止而不滞。",
+        "transfer": "崩漏色淡质稀与色深质稠，分别提示什么病机、各宜何方？"
+      },
+      "stdJudgment": "益气固冲、摄血止崩，主治脾气虚弱、冲脉不固之血崩或月经过多，张锡纯治崩漏之代表方",
+      "coreDefinition": "白术黄芪（君）益气健脾、固冲摄血；煅龙骨煅牡蛎山萸肉（臣）收敛固涩、补益肝肾；海螵蛸茜草（佐）固涩止血兼化瘀；棕边炭五倍子（佐）收涩止血；白芍（佐）敛阴和营",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "白术 30g、生黄芪 18g、煅龙骨 24g、煅牡蛎 24g、山萸肉 24g、生杭芍 12g、海螵蛸 12g、茜草 9g、棕边炭 6g、五倍子 1.5g（轧细药汁送服）；水煎温服",
+        "caution": "血热妄行之崩漏（血色深红、口渴心烦）忌用；瘀血内阻之漏下不止者不宜"
+      },
+      "safety": {
+        "note": "收敛止血之峻剂，血热、瘀血之崩漏忌用；五倍子酸涩，中病即止"
+      }
+    },
+    {
+      "id": "pb8-l-038",
+      "title": "天王补心丹",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "安神剂",
+        "天王补心丹",
+        "朱砂·高风险"
+      ],
+      "intent": "天王补心丹的组成、功效与主治（阴虚血少、心神不安）及滋阴养血安神法，朱砂忌火煅红线",
+      "learning": {
+        "knowledge": "天王补心丹（《摄生秘剖》）：生地黄、人参、玄参、丹参、茯苓、远志、桔梗、五味子、当归、天冬、麦冬、柏子仁、酸枣仁、朱砂。功效滋阴养血、补心安神。主治阴虚血少、神志不安证：心悸怔忡、虚烦失眠、神疲健忘、手足心热、口舌生疮、舌红少苔、脉细数。",
+        "misjudgment": "把失眠一律用重镇安神药。错：天王补心丹治阴虚血少之虚烦不寐（手足心热、舌红少苔、脉细数），以滋阴养血为主、安神为辅；若纯用朱砂磁石重镇，则阴血不充、失眠难愈。",
+        "reasoning": "同为安神，天王补心丹以滋阴养血为主，与朱砂安神丸以清热泻火为主有何不同？",
+        "feedback": "补心丹证是阴血亏虚、心失所养，宜滋；安神丸证是心火亢盛、扰乱心神，宜清；一补一清，选方全在舌脉虚实。",
+        "transfer": "患者虚烦失眠兼手足心热、舌红少苔，选天王补心丹还是朱砂安神丸？"
+      },
+      "stdJudgment": "滋阴养血、补心安神，主治阴虚血少之神志不安，朱砂为衣取其镇心安神而量极微",
+      "coreDefinition": "生地黄（君）滋阴养血、壮水制火；天冬麦冬玄参（臣）滋阴清热；酸枣仁柏子仁当归丹参（臣佐）养血安神；人参茯苓远志五味子（佐）益气宁心、交通心肾；桔梗（使）载药上行；朱砂为衣镇心安神",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "生地黄 12g、人参 5g、玄参 5g、丹参 5g、茯苓 5g、远志 5g、桔梗 5g、五味子 10g、当归 10g、天冬 10g、麦冬 10g、柏子仁 10g、酸枣仁 10g、朱砂 0.3g（为衣）；炼蜜为丸",
+        "caution": "朱砂含硫化汞，忌火煅、只入丸散、0.1-0.5g、不可久服，孕妇禁用；脾胃虚寒、便溏者慎用"
+      },
+      "safety": {
+        "note": "含朱砂，忌火煅、只入丸散、不可久服，孕妇禁用；脾胃虚寒便溏者慎用",
+        "prohibitions": [
+          "【高风险】朱砂含硫化汞，忌火煅；0.1–0.5g 只入丸散；不可久服；孕妇禁用；朱砂只作丸衣或研末冲服，不入煎剂"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-039",
+      "title": "朱砂安神丸",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "安神剂",
+        "朱砂安神丸",
+        "朱砂·高风险"
+      ],
+      "intent": "朱砂安神丸的组成、功效与主治（心火亢盛、阴血不足）及镇心安神泻火法，与天王补心丹鉴别，朱砂红线",
+      "learning": {
+        "knowledge": "朱砂安神丸（《内外伤辨惑论》）：朱砂、黄连、炙甘草、生地黄、当归。功效镇心安神、清热养血。主治心火亢盛、阴血不足证：失眠多梦、惊悸怔忡、心烦神乱、舌红、脉细数。朱砂重镇安心神为君，黄连清心泻火除烦为臣，生地当归滋阴养血为佐。",
+        "misjudgment": "把朱砂安神丸与天王补心丹互用。错：朱砂安神丸以朱砂黄连为主，治心火亢盛之实中夹虚（心烦舌红脉数），重在清镇；天王补心丹以生地麦冬枣仁为主，治阴血虚之虚烦（手足心热、舌红少苔），重在滋补。",
+        "reasoning": "朱砂安神丸重镇之品与清热养血之品同用，如何理解其「标本兼治」？",
+        "feedback": "朱砂黄连治标（镇心泻火），生地当归治本（养血滋阴），火去神安、血充心宁，虚实并调。",
+        "transfer": "两方同含朱砂，为何天王补心丹证不宜用朱砂安神丸？"
+      },
+      "stdJudgment": "镇心安神、清热养血，主治心火亢盛之失眠多梦，重镇与清泻并用而与补心丹相对",
+      "coreDefinition": "朱砂（君）镇心安神、清泻心火；黄连（臣）清心泻火除烦；生地黄当归（佐）滋阴养血；炙甘草（使）护胃和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "朱砂 0.5g（水飞）、黄连 6g、炙甘草 5g、生地黄 5g、当归 5g；研末蜜丸",
+        "caution": "朱砂忌火煅、只入丸散、0.1-0.5g、不可久服，孕妇禁用；黄连苦寒，脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "含朱砂，忌火煅、只入丸散、不可久服，孕妇禁用；黄连苦寒，脾胃虚寒者慎用",
+        "prohibitions": [
+          "【高风险】朱砂含硫化汞，忌火煅；0.1–0.5g 只入丸散；不可久服；孕妇禁用；朱砂须水飞，只作丸剂或研末冲服，不入煎剂"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-040",
+      "title": "甘麦大枣汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "安神剂",
+        "甘麦大枣汤"
+      ],
+      "intent": "甘麦大枣汤的组成、功效与主治（妇人脏躁）及甘润缓急、养心安神法",
+      "learning": {
+        "knowledge": "甘麦大枣汤（《金匮要略》）：甘草、小麦、大枣。功效养心安神、和中缓急。主治妇人脏躁：精神恍惚、常悲伤欲哭、不能自主、心中烦乱、睡眠不安、甚则言行失常、呵欠频作、舌淡红苔少、脉细数。小麦养心安神为君，甘草大枣甘润缓急、补益心脾。",
+        "misjudgment": "把脏躁之悲伤欲哭当肝气郁结而用疏肝理气药。错：脏躁是心阴不足、神失所养，宜甘润缓急；疏肝理气之品辛燥，愈疏则阴愈伤、躁愈甚。",
+        "reasoning": "三味平淡之品为何能治「悲伤欲哭」之脏躁？",
+        "feedback": "病机是心脾两虚、脏阴不足，甘味能缓急、能补中、能养心，小麦甘草大枣甘润之品恰合「甘以缓之」之旨。",
+        "transfer": "若脏躁兼见舌红少苔、阴虚明显，可加何药以增强养阴之力？"
+      },
+      "stdJudgment": "养心安神、和中缓急，主治妇人脏躁之喜悲伤欲哭，药仅三味而甘缓立法",
+      "coreDefinition": "小麦（君）养心阴、益心气、除烦安神；甘草（臣）甘缓和中、缓急迫；大枣（佐）补脾益气、养血安神",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "妇人杂病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "妇人脏躁，喜悲伤欲哭，象如神灵所作，数欠伸，甘麦大枣汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "甘草 9g、小麦 15-30g、大枣 5-10 枚；水煎温服",
+        "caution": "痰热扰心或肝火亢盛之烦躁失眠不宜；甘草量大久服可致浮肿"
+      },
+      "safety": {
+        "note": "甘润平缓之剂，痰热、肝火之烦躁者不宜；甘草不宜大量久服"
+      }
+    },
+    {
+      "id": "pb8-l-041",
+      "title": "柴胡疏肝散",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "理气剂",
+        "柴胡疏肝散"
+      ],
+      "intent": "柴胡疏肝散的组成、功效与主治（肝气郁滞证）及疏肝解郁、行气止痛法",
+      "learning": {
+        "knowledge": "柴胡疏肝散（《景岳全书》）：柴胡、陈皮、川芎、香附、枳壳、芍药、炙甘草。功效疏肝解郁、行气止痛。主治肝气郁滞证：胁肋疼痛、胸闷善太息、情志抑郁易怒、或嗳气、脘腹胀满、脉弦。柴胡疏肝解郁为君，香附川芎行气活血止痛为臣，白芍柔肝敛阴制辛散。",
+        "misjudgment": "把胁痛一律用活血化瘀药。错：柴胡疏肝散治气滞之胁痛（胀痛走窜、善太息、脉弦）；瘀血胁痛（刺痛固定、入夜尤甚）须用血府逐瘀汤类，气药与血药有别。",
+        "reasoning": "柴胡疏肝散中白芍与柴胡相配，「一散一收」用意何在？",
+        "feedback": "柴胡疏肝散气、白芍养血敛阴，散中有收、疏不伤正，既防辛散耗气伤阴，又柔肝体以助肝用。",
+        "transfer": "若胁痛兼口苦目赤、心烦易怒，柴胡疏肝散需如何化裁？"
+      },
+      "stdJudgment": "疏肝解郁、行气止痛，主治肝气郁滞之胁肋疼痛，为疏肝理气之常用基础方",
+      "coreDefinition": "柴胡（君）疏肝解郁；香附川芎（臣）行气活血止痛；陈皮枳壳（佐）理气行滞；白芍（佐）养血柔肝、敛阴制辛散；甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "柴胡 6g、陈皮 6g、川芎 4.5g、香附 4.5g、枳壳 4.5g、芍药 4.5g、炙甘草 1.5g；水煎温服",
+        "caution": "肝阴不足、血虚者不宜久用辛散；气郁化火者须加清泻之品"
+      },
+      "safety": {
+        "note": "辛香理气之剂，久用耗气伤阴，肝阴不足者慎用"
+      }
+    },
+    {
+      "id": "pb8-l-042",
+      "title": "瓜蒌薤白白酒汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "理气剂",
+        "瓜蒌薤白白酒汤"
+      ],
+      "intent": "瓜蒌薤白白酒汤的组成、功效与主治（胸阳不振、痰气痹阻之胸痹）及通阳散结法",
+      "learning": {
+        "knowledge": "瓜蒌薤白白酒汤（《金匮要略》）：瓜蒌实、薤白、白酒。功效通阳散结、行气祛痰。主治胸阳不振、痰气互结之胸痹：胸背疼痛、喘息咳唾、短气、舌苔白腻、寸口脉沉迟、关上小紧数。瓜蒌涤痰散结为君，薤白通阳散结行气为臣，白酒助药上行、通阳宣痹为佐使。",
+        "misjudgment": "把胸痹当瘀血一律用活血化瘀。错：瓜蒌薤白白酒汤治痰浊痹阻胸阳之胸痹（胸痛彻背、喘息短气、苔白腻）；瘀血胸痹（刺痛固定、舌紫暗）须活血化瘀，痰瘀须辨。",
+        "reasoning": "治胸痹为何要用「白酒」这味药引？",
+        "feedback": "白酒辛温，能行气活血、助药力上达胸膈，与薤白同用则通阳宣痹之力更著，为方中点睛之品。",
+        "transfer": "若胸痹兼见舌紫暗有瘀点，瓜蒌薤白白酒汤应加何类药？"
+      },
+      "stdJudgment": "通阳散结、行气祛痰，主治胸阳不振之胸痹，瓜蒌薤白为治胸痹之祖方",
+      "coreDefinition": "瓜蒌（君）涤痰散结、开胸宽中；薤白（臣）通阳散结、行气止痛；白酒（佐使）行气活血、助药上行、通阳宣痹",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "胸痹心痛短气病脉证治",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "胸痹之病，喘息咳唾，胸背痛，短气，寸口脉沉而迟，关上小紧数，栝蒌薤白白酒汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "瓜蒌实 12g（捣）、薤白 12g、白酒适量（约 50-100ml 同煎）；水煎温服",
+        "caution": "白酒辛热上行，阴虚火旺、肺胃有热者不宜；瓜蒌反乌头类，不得与附子川乌同用"
+      },
+      "safety": {
+        "note": "瓜蒌反乌头类（附子、川乌、草乌），配伍禁忌须严守；白酒助阳，阴虚火旺者不宜"
+      }
+    },
+    {
+      "id": "pb8-l-043",
+      "title": "苏子降气汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "理气剂",
+        "苏子降气汤",
+        "半夏·高风险"
+      ],
+      "intent": "苏子降气汤的组成、功效与主治（上实下虚之喘咳）及降气平喘、温肾纳气法，半夏红线",
+      "learning": {
+        "knowledge": "苏子降气汤（《太平惠民和剂局方》）：紫苏子、半夏、厚朴、前胡、当归、肉桂、甘草、生姜、大枣、苏叶。功效降气平喘、祛痰止咳。主治上实下虚之喘咳：痰涎壅盛、喘咳短气、呼多吸少、或腰疼脚弱、苔白滑、脉弦滑，上实指痰壅于肺、下虚指肾不纳气。",
+        "misjudgment": "把喘咳一律当肺热用清肺平喘。错：苏子降气汤治痰涎壅肺兼肾阳不足之上实下虚喘咳（呼多吸少、腰疼脚弱、苔白滑）；肺热壅盛（痰黄稠、苔黄）用之则温燥助火。",
+        "reasoning": "降气平喘之方为何用肉桂、当归？",
+        "feedback": "肉桂温肾纳气以治下虚，当归治咳逆上气兼养血润燥，与苏子半夏降气化痰相配，上实下虚并治。",
+        "transfer": "患者喘咳痰多而见舌红少苔、脉细数，苏子降气汤适用吗？"
+      },
+      "stdJudgment": "降气平喘、祛痰止咳，主治上实下虚之喘咳痰多，温肾纳气与降气化痰并行",
+      "coreDefinition": "紫苏子（君）降气平喘、化痰止咳；半夏厚朴前胡（臣）降气祛痰、宽胸利肺；肉桂（佐）温肾纳气；当归（佐）治咳逆上气、养血润燥；生姜苏叶（佐使）宣肺散寒；甘草大枣（使）和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "紫苏子 9g、半夏 9g（姜制）、厚朴 6g、前胡 6g、当归 6g、肉桂 3g、甘草 4g、生姜 2 片、大枣 1 枚、苏叶 5 片；水煎温服",
+        "caution": "半夏须炮制，生品禁内服、反乌头类；肺肾阴虚之喘咳、单纯肺实热喘不宜"
+      },
+      "safety": {
+        "note": "方含半夏须用炮制品；喘咳属肺肾阴虚者忌用",
+        "prohibitions": [
+          "【高风险】生半夏有毒，不得生品内服，须炮制（姜制）；反乌头类（含附子）；孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-044",
+      "title": "定喘汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "理气剂",
+        "定喘汤",
+        "麻黄·高风险",
+        "白果·高风险"
+      ],
+      "intent": "定喘汤的组成、功效与主治（痰热内蕴、风寒外束之哮喘）及宣降肺气、清热化痰法，麻黄白果双红线",
+      "learning": {
+        "knowledge": "定喘汤（《摄生众妙方》）：白果、麻黄、款冬花、半夏、桑白皮、苏子、杏仁、黄芩、甘草。功效宣降肺气、清热化痰。主治痰热内蕴、风寒外束之哮喘：咳喘痰多气急、痰稠色黄、或微恶风寒、苔黄腻、脉滑数。麻黄宣肺解表，白果敛肺定喘。",
+        "misjudgment": "把哮喘一律用麻黄平喘。错：定喘汤证是内有痰热、外有风寒（痰黄稠、苔黄腻），须麻黄配白果黄芩桑皮一宣一清一敛；单纯寒哮无热象者用黄芩桑白皮则寒遏其邪。",
+        "reasoning": "麻黄宣散、白果收敛，一宣一敛同用是否矛盾？",
+        "feedback": "宣与敛相互制约又相互为用：麻黄宣肺恐耗散肺气，白果敛肺恐闭郁邪气，两药相配则宣而不耗、敛而不闭，正合哮喘肺气壅逆之治。",
+        "transfer": "若患者哮喘痰清稀色白、无热象，定喘汤中的哪些药需要调整？"
+      },
+      "stdJudgment": "宣降肺气、清热化痰，主治痰热内蕴之哮喘，麻黄白果一宣一敛为组方之眼",
+      "coreDefinition": "麻黄（君）宣肺平喘、解表散邪；白果（臣）敛肺定喘、化痰（与麻黄一宣一敛）；款冬花半夏苏子（臣佐）降气化痰止咳；桑白皮黄芩（佐）清泄肺热；杏仁（佐）降利肺气；甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "白果 9g（炒去壳）、麻黄 9g、款冬花 9g、半夏 9g（姜制）、桑白皮 9g、苏子 6g、杏仁 4.5g、黄芩 4.5g、甘草 3g；水煎温服",
+        "caution": "麻黄发汗力强，虚人、高血压心脏病失眠者慎用、运动员禁用；白果不可生食、不可过量；哮喘缓解期或纯虚喘不宜"
+      },
+      "safety": {
+        "note": "含麻黄、白果双高危药；哮喘发作缓解即止，不可久服",
+        "prohibitions": [
+          "【高风险】麻黄发汗力强，虚人慎用；高血压、心脏病、失眠者慎用；运动员禁用",
+          "【高风险】白果不可生食、不可过量；小儿尤须慎防；炒用减毒"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-045",
+      "title": "旋覆代赭汤",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "理气剂",
+        "旋覆代赭汤",
+        "半夏·高风险"
+      ],
+      "intent": "旋覆代赭汤的组成、功效与主治（胃虚痰阻气逆之噫气不除）及降逆化痰、益气和胃法",
+      "learning": {
+        "knowledge": "旋覆代赭汤（《伤寒论》）：旋覆花、代赭石、人参、生姜、半夏、甘草、大枣。功效降逆化痰、益气和胃。主治胃虚痰阻、气逆不降证：心下痞硬、噫气不除、或反胃呕逆、吐涎沫、舌淡苔白滑、脉弦虚。旋覆花下气消痰为君，代赭石重镇降逆为臣。",
+        "misjudgment": "把噫气当食积用消食导滞药。错：旋覆代赭汤之噫气是胃气虚弱、痰浊内阻、气机上逆（痞硬、苔白滑、脉弦虚），须降逆化痰兼补胃气；消导之品徒伤中气。",
+        "reasoning": "代赭石重镇降逆，为何用量反而小于旋覆花？",
+        "feedback": "代赭石苦寒质重，量大则寒伤胃气、直走下焦，反失降逆之功；小量取其镇逆之性而护胃气。",
+        "transfer": "若患者噫气而舌红少苔、胃阴不足，旋覆代赭汤应如何化裁？"
+      },
+      "stdJudgment": "降逆化痰、益气和胃，主治胃虚痰阻之痞硬噫气，重镇与补益并行而其量有度",
+      "coreDefinition": "旋覆花（君）下气消痰、降逆止噫；代赭石（臣）重镇降逆（量小制其寒）；半夏生姜（佐）化痰降逆止呕；人参甘草大枣（佐使）益气和胃、补中虚",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "伤寒发汗，若吐若下，解后，心下痞硬，噫气不除者，旋覆代赭汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "旋覆花 9g（包煎）、代赭石 9g（先煎）、人参 6g、生姜 15g、半夏 9g（姜制）、甘草 6g、大枣 4 枚；水煎温服",
+        "caution": "代赭石用量宜小于旋覆花，量大苦寒重镇恐伤胃气；方含半夏须炮制；胃虚有热之噫气者不宜"
+      },
+      "safety": {
+        "note": "方含半夏须用炮制品；代赭石苦寒重镇，用量宜轻、中病即止",
+        "prohibitions": [
+          "【高风险】生半夏有毒，不得生品内服，须炮制；反乌头类（含附子）；孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-046",
+      "title": "天台乌药散",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "理气剂",
+        "天台乌药散",
+        "巴豆·炮制注意"
+      ],
+      "intent": "天台乌药散的组成、功效与主治（寒凝气滞之小肠疝气）及行气疏肝散寒法，巴豆炮制红线",
+      "learning": {
+        "knowledge": "天台乌药散（《医学发明》）：天台乌药、木香、小茴香、青皮、高良姜、槟榔、川楝子（与巴豆同炒去巴豆用）、巴豆（炮制辅料）。功效行气疏肝、散寒止痛。主治寒凝气滞之小肠疝气：少腹引控睾丸而痛、偏坠肿胀、舌淡苔白、脉沉弦。",
+        "misjudgment": "把疝气当湿热或气虚处理。错：天台乌药散治寒凝气滞之疝气（少腹睾丸掣痛、遇寒加重、苔白脉弦）；湿热下注之阴囊红肿热痛、中气下陷之疝坠绵软皆非本方所宜。",
+        "reasoning": "川楝子苦寒，为何用于寒疝之方？与巴豆同炒又有何用意？",
+        "feedback": "川楝子理气止痛为治疝要药，与巴豆同炒后巴豆之热性制其苦寒，且借巴豆峻烈之气助行气破滞，去巴豆而存其用。",
+        "transfer": "若疝气坠胀而见阴囊红肿灼痛，天台乌药散适用吗？"
+      },
+      "stdJudgment": "行气疏肝、散寒止痛，主治寒凝气滞之小肠疝气，巴豆同炒川楝子为独特炮制",
+      "coreDefinition": "乌药木香小茴香青皮高良姜（君臣）行气疏肝、散寒止痛；槟榔（佐）下气破滞；川楝子（佐）理气止痛（与巴豆同炒减其苦寒）",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "天台乌药、木香、小茴香、青皮、高良姜、槟榔、川楝子各 9g（川楝子与巴豆同炒后去巴豆用）；巴豆为炮制辅料不入药；研末温酒送下",
+        "caution": "巴豆有大毒，仅作川楝子炮制辅料、同炒后弃之，绝不入口；疝气属湿热下注者不宜"
+      },
+      "safety": {
+        "note": "巴豆仅作炮制辅料与川楝子同炒后弃去，不得内服；川楝子经巴豆同炒减寒存用",
+        "prohibitions": [
+          "【高风险】巴豆有大毒，须制霜 0.1–0.3g 只入丸散；本方以巴豆同炒川楝子后去巴豆不用，巴豆不入口；孕妇禁用；不宜与牵牛子同用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-047",
+      "title": "桃核承气汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "理血剂",
+        "桃核承气汤"
+      ],
+      "intent": "桃核承气汤的组成、功效与主治（下焦蓄血证）及逐瘀泻热法",
+      "learning": {
+        "knowledge": "桃核承气汤（《伤寒论》）：桃仁、大黄、桂枝、甘草、芒硝。功效逐瘀泻热。主治下焦蓄血证：少腹急结、小便自利、甚则谵语烦躁、其人如狂、至夜发热、脉沉实或涩。桃仁逐瘀、大黄下瘀泻热为君臣，桂枝通经活血、助桃仁行瘀为佐，芒硝软坚散结为佐。",
+        "misjudgment": "把少腹硬满当阳明腑实攻下。错：桃核承气汤证是瘀热互结于下焦（少腹急结、小便自利、如狂），大承气汤证是燥屎结于肠腑（绕脐痛、痞满燥实）；「小便自利」是蓄血辨证之眼目。",
+        "reasoning": "逐瘀方中为何用辛温的桂枝？",
+        "feedback": "桂枝温通经脉、助血行瘀，又制约大黄芒硝寒凉凝滞之性，使瘀血得行、热邪得泄。",
+        "transfer": "「小便自利」与「小便不利」如何帮助鉴别蓄血证与蓄水证？"
+      },
+      "stdJudgment": "逐瘀泻热，主治下焦蓄血之少腹急结、其人如狂，乃泻热与逐瘀并用之方",
+      "coreDefinition": "桃仁（君）活血逐瘀；大黄（臣）下瘀泻热、荡涤瘀热；桂枝（佐）通经活血、助桃仁行瘀（制大黄寒凝）；芒硝（佐）软坚散结、助大黄泻热；甘草（使）调和",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨太阳病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "太阳病不解，热结膀胱，其人如狂，血自下，下者愈。其外不解者，尚未可攻，当先解其外；外解已，但少腹急结者，乃可攻之，宜桃核承气汤"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "桃仁 12g、大黄 12g（后下）、桂枝 6g、甘草 6g、芒硝 6g（溶服）；水煎温服",
+        "caution": "表证未解者先解表后攻里；孕妇禁用；体虚、无瘀热者不宜"
+      },
+      "safety": {
+        "note": "攻逐之剂，中病即止；表证未解者不可攻；孕妇禁用"
+      }
+    },
+    {
+      "id": "pb8-l-048",
+      "title": "温经汤",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "理血剂",
+        "温经汤",
+        "半夏·高风险"
+      ],
+      "intent": "温经汤的组成、功效与主治（冲任虚寒、瘀血阻滞之月经不调）及温经散寒、养血祛瘀法",
+      "learning": {
+        "knowledge": "温经汤（《金匮要略》）：吴茱萸、当归、芍药、川芎、人参、桂枝、阿胶、牡丹皮、生姜、甘草、半夏、麦冬。功效温经散寒、养血祛瘀。主治冲任虚寒、瘀血阻滞证：月经不调、暮即发热、手足心热、唇口干燥、小腹冷痛、舌暗、脉细涩。",
+        "misjudgment": "把月经不调当血虚或血瘀单方面调理。错：温经汤证是寒、瘀、虚三因并存（小腹冷痛、经色暗、手足烦热、脉细涩），须温经、养血、祛瘀、退虚热并施；单补血则瘀不去，单逐瘀则血愈虚。",
+        "reasoning": "温经汤主治寒证，为何方中又有丹皮麦冬等清润之品？",
+        "feedback": "冲任虚寒可因瘀久化热而见暮热、手掌烦热，丹皮祛瘀退热、麦冬阿胶润燥养阴，温清并用，「温而不燥、润而不腻」。",
+        "transfer": "温经汤与生化汤都治产后瘀血腹痛，从「寒」与「虚」的侧重如何鉴别？"
+      },
+      "stdJudgment": "温经散寒、养血祛瘀，主治冲任虚寒兼瘀血之月经不调，温补清润并用而各有其度",
+      "coreDefinition": "吴茱萸桂枝（君）温经散寒、通利血脉；当归川芎芍药（臣）养血活血调经；阿胶麦冬牡丹皮（臣佐）养血润燥、退虚热、祛瘀；人参甘草生姜半夏（佐使）益气和胃降逆",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "妇人杂病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "妇人年五十所，病下利数十日不止，暮即发热，少腹里急，腹满，手掌烦热，唇口干燥"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "吴茱萸 9g、当归 6g、芍药 6g、川芎 6g、人参 6g、桂枝 6g、阿胶 6g（烊化）、牡丹皮 6g、生姜 6g、甘草 6g、半夏 6g（姜制）、麦冬 9g；水煎温服",
+        "caution": "方含半夏须炮制；瘀热内结、血热妄行者禁用；阴虚火旺者慎用"
+      },
+      "safety": {
+        "note": "方含半夏须用炮制品；本方温补兼祛瘀，血热者禁用",
+        "prohibitions": [
+          "【高风险】生半夏有毒，不得生品内服，须炮制；反乌头类（含附子）；孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-049",
+      "title": "生化汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "理血剂",
+        "生化汤"
+      ],
+      "intent": "生化汤的组成、功效与主治（产后恶露不行、小腹冷痛）及养血祛瘀、温经止痛法",
+      "learning": {
+        "knowledge": "生化汤（《傅青主女科》）：当归、川芎、桃仁、炮姜、炙甘草。功效养血祛瘀、温经止痛。主治产后瘀血腹痛：产后恶露不行、小腹冷痛、舌淡苔白、脉细涩。重用当归补血活血为君，川芎桃仁活血祛瘀为臣，炮姜温经散寒为佐，体现「祛瘀生新」之旨。",
+        "misjudgment": "把产后腹痛一律用生化汤。错：生化汤治寒凝瘀阻之恶露不行腹痛（冷痛、舌淡、脉细涩）；若血热瘀滞（腹痛拒按、恶露色紫稠臭）或气虚不摄之出血，用之则助热或加重出血。",
+        "reasoning": "产后多虚，生化汤为何仍用桃仁川芎等祛瘀药？",
+        "feedback": "产后「多虚多瘀」，恶露不行则瘀血内停，祛瘀方能生新；重用当归养血扶正，祛瘀而不伤正，是为「生化」之义。",
+        "transfer": "若产妇恶露量多、色淡质稀、小腹空坠，生化汤还适用吗？"
+      },
+      "stdJudgment": "养血祛瘀、温经止痛，主治产后恶露不行之小腹冷痛，为产后要方而不可滥用",
+      "coreDefinition": "重用当归（君）补血活血、祛瘀生新；川芎桃仁（臣）活血行气、祛瘀止痛；炮姜（佐）温经散寒止痛；炙甘草（使）调和；黄酒童便（佐使）温通血脉、引药入血",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "当归 24g、川芎 9g、桃仁 6g、炮姜 2g、炙甘草 2g；黄酒、童便各半煎服",
+        "caution": "血热有瘀、产后出血量多色鲜红者禁用；本方为产后恶露不行而设，非产后一切腹痛通用"
+      },
+      "safety": {
+        "note": "祛瘀生新之剂，产后出血不止者禁用；血热者不宜"
+      }
+    },
+    {
+      "id": "pb8-l-050",
+      "title": "失笑散",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "理血剂",
+        "失笑散"
+      ],
+      "intent": "失笑散的组成、功效与主治（瘀血停滞之胸腹刺痛）及活血祛瘀、散结止痛法",
+      "learning": {
+        "knowledge": "失笑散（《太平惠民和剂局方》）：五灵脂、蒲黄。功效活血祛瘀、散结止痛。主治瘀血停滞证：心腹刺痛、或产后恶露不行、或月经不调、少腹急痛、舌紫暗、脉涩。五灵脂通利血脉、散瘀止痛为君，蒲黄活血行瘀为臣，醋调以活血化瘀止痛。",
+        "misjudgment": "把心腹痛一律当气滞行气。错：失笑散证是瘀血停滞之刺痛（部位固定、拒按、舌紫暗脉涩）；气滞之胀痛走窜宜理气，刺痛固定宜化瘀，痛之性质是选方关键。",
+        "reasoning": "本方名为「失笑」，其义何在？",
+        "feedback": "瘀血所致之痛常痛不可忍，服药后瘀散痛止，患者不禁失笑而愈，故名「失笑散」，示其效捷。",
+        "transfer": "若痛经见刺痛固定、经色紫暗有块，用失笑散须加何药以调经？"
+      },
+      "stdJudgment": "活血祛瘀、散结止痛，主治瘀血停滞之心腹刺痛，药简力专而名「失笑」",
+      "coreDefinition": "五灵脂（君）活血祛瘀止痛、通利血脉；蒲黄（臣）活血化瘀、炒用止血；醋或酒调服以活血散瘀、引药入血",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "五灵脂 9g（炒）、蒲黄 9g（炒）；共为细末，醋调或酒调服，亦可作汤剂",
+        "caution": "孕妇禁用；血虚无瘀者忌用；蒲黄生用活血、炒用止血，用制宜明"
+      },
+      "safety": {
+        "note": "专为瘀血实证而设，孕妇、血虚无瘀者禁用"
+      }
+    },
+    {
+      "id": "pb8-l-051",
+      "title": "桂枝茯苓丸",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "理血剂",
+        "桂枝茯苓丸"
+      ],
+      "intent": "桂枝茯苓丸的组成、功效与主治（瘀阻胞宫之癥积）及活血化瘀、缓消癥块法",
+      "learning": {
+        "knowledge": "桂枝茯苓丸（《金匮要略》）：桂枝、茯苓、牡丹皮、桃仁、芍药。功效活血化瘀、缓消癥块。主治瘀阻胞宫证：妇人素有癥块、妊娠胎动不安、漏下不止、血色紫黑晦暗、腹痛拒按、舌紫暗、脉沉涩。",
+        "misjudgment": "把胎动不安一律当肾虚而补肾安胎。错：桂枝茯苓丸治瘀血内阻、癥块不去之胎动不安（腹痛拒按、漏下色紫暗），「当下其癥」；肾虚胎动（腰酸、下血色淡）误用本方则愈逐愈虚。",
+        "reasoning": "妊娠本不宜攻伐，为何仲景用活血化瘀药治胎动不安？",
+        "feedback": "癥病不去则血不归经、胎失所养，瘀去则漏止胎安；制丸缓图、量小渐进，故「下癥」而不伤胎。",
+        "transfer": "桂枝茯苓丸与桃核承气汤同治瘀血，攻逐之峻缓有何不同？"
+      },
+      "stdJudgment": "活血化瘀、缓消癥块，主治瘀阻胞宫之癥块，丸以缓图、祛瘀而不伤胎",
+      "coreDefinition": "桂枝（君）温通血脉、行瘀散结；茯苓（臣）渗湿健脾；牡丹皮桃仁（佐）活血祛瘀、凉血清热；芍药（佐）缓急止痛",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《金匮要略》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "妇人妊娠病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "所以血不止者，其癥不去故也，当下其癥，桂枝茯苓丸主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "桂枝、茯苓、牡丹皮、桃仁、芍药各 9g；炼蜜为丸，如兔屎大，食前服",
+        "caution": "孕妇无瘀血徵象者禁用；本方为缓消癥块之剂，血虚者不宜；漏下不止者须辨证使用"
+      },
+      "safety": {
+        "note": "妊娠而兼癥病者，化瘀须缓，故制为丸剂小量渐消；无瘀之妊娠禁用"
+      }
+    },
+    {
+      "id": "pb8-l-052",
+      "title": "三仁汤",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "祛湿剂",
+        "三仁汤",
+        "半夏·高风险"
+      ],
+      "intent": "三仁汤的组成、功效与主治（湿温初起、湿重于热）及宣畅气机、清利湿热法",
+      "learning": {
+        "knowledge": "三仁汤（《温病条辨》）：杏仁、飞滑石、白通草、白蔻仁、竹叶、厚朴、生薏苡仁、半夏。功效宣畅气机、清利湿热。主治湿温初起、湿重于热证：头痛恶寒、身重疼痛、面色淡黄、胸闷不饥、午后身热、舌白不渴、脉弦细而濡。杏仁宣上、蔻仁畅中、薏仁渗下。",
+        "misjudgment": "把「午后身热」当阴虚而滋阴。错：湿温之午后身热是湿遏热伏之象（兼身重、苔白腻、脉濡），须芳香宣化；误用滋阴则湿邪愈胶、热势缠绵，「状若阴虚」而非阴虚。",
+        "reasoning": "湿温初起为何忌用汗、下、润三法？",
+        "feedback": "湿邪黏滞，发汗则湿热蒸腾上蒙，攻下则脾阳受损湿邪内陷，滋润则湿愈胶结；唯宣畅气机、分消走泄为正治。",
+        "transfer": "若湿温证见舌苔黄腻、热象渐重，三仁汤应如何化裁？"
+      },
+      "stdJudgment": "宣畅气机、清利湿热，主治湿温初起之湿重于热证，三焦分消为其组方纲领",
+      "coreDefinition": "杏仁（君）宣利上焦肺气；白蔻仁（臣）芳香化湿、行气畅中焦；薏苡仁（臣）渗利下焦湿热；半夏厚朴（佐）行气化湿、散满除痞；滑石通草竹叶（佐）清热利湿",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《温病条辨》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温病条辨》",
+          "canon": "上焦篇",
+          "chapter": "",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "头痛恶寒，身重疼痛，舌白不渴，脉弦细而濡，面色淡黄，胸闷不饥，午后身热，状若阴虚，病难速已，名曰湿温"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "杏仁 12g、飞滑石 18g、白通草 6g、白蔻仁 6g（后下）、竹叶 6g、厚朴 6g、生薏苡仁 18g、半夏 10g（姜制）；水煎温服",
+        "caution": "方含半夏须炮制；湿温化燥伤阴者（舌绛少津）禁用；本方宣化之力，热重于湿者力所不及"
+      },
+      "safety": {
+        "note": "方含半夏须用炮制品；湿温忌大汗、忌攻下、忌滋润，三禁宜守",
+        "prohibitions": [
+          "【高风险】生半夏有毒，不得生品内服，须炮制；反乌头类（含附子）；孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-053",
+      "title": "甘露消毒丹",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "祛湿剂",
+        "甘露消毒丹",
+        "木通·品种注意"
+      ],
+      "intent": "甘露消毒丹的组成、功效与主治（湿温时疫、湿热并重）及利湿化浊、清热解毒法",
+      "learning": {
+        "knowledge": "甘露消毒丹（《温热经纬》引叶天士方）：飞滑石、淡黄芩、绵茵陈、石菖蒲、川贝母、木通、藿香、连翘、白蔻仁、薄荷、射干。功效利湿化浊、清热解毒。主治湿温时疫之湿热并重证：发热困倦、胸闷腹胀、肢酸咽肿、身黄、小便短赤、苔黄腻、脉濡数。",
+        "misjudgment": "把湿温当普通感冒或单纯湿热。错：甘露消毒丹治湿热并重、充斥气分之湿温时疫（发热困倦、咽肿身黄、苔厚腻），须利湿与解毒并施；湿重于热之三仁汤证用之则苦寒伤阳。",
+        "reasoning": "甘露消毒丹与三仁汤都治湿温，从「湿与热之轻重」如何选方？",
+        "feedback": "三仁汤证湿重于热（苔白腻、热不扬），甘露消毒丹证湿热并重（苔厚腻或干黄、咽肿口渴）；苔之黄腻程度与热象是判别关键。",
+        "transfer": "若湿温见咽喉肿痛明显，甘露消毒丹中哪些药可重用？"
+      },
+      "stdJudgment": "利湿化浊、清热解毒，主治湿温时疫之湿热并重证，为「治湿温时疫之主方」",
+      "coreDefinition": "滑石茵陈黄芩（君）清热利湿解毒；石菖蒲藿香白蔻仁（臣）芳香化浊、醒脾和中；连翘薄荷射干贝母（佐）清热解毒、利咽散结；木通（佐）通利湿热",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "飞滑石 15g、淡黄芩 10g、绵茵陈 11g、石菖蒲 6g、川贝母 5g、木通 5g、藿香 4g、连翘 4g、白蔻仁 4g、薄荷 4g、射干 4g；研末或作汤剂",
+        "caution": "木通须用川木通，禁用含马兜铃酸的关木通；湿重于热、脾虚便溏者慎用"
+      },
+      "safety": {
+        "note": "方中木通须用川木通或木通，含马兜铃酸的关木通有肾毒性禁用",
+        "prohibitions": [
+          "【高风险】方中木通须用川木通或木通，含马兜铃酸的关木通有肾毒性、已禁用，不可混用；肾功能不全者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-054",
+      "title": "八正散",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "祛湿剂",
+        "八正散",
+        "木通·品种注意"
+      ],
+      "intent": "八正散的组成、功效与主治（湿热淋证）及清热泻火、利水通淋法",
+      "learning": {
+        "knowledge": "八正散（《太平惠民和剂局方》）：车前子、瞿麦、萹蓄、滑石、山栀子仁、炙甘草、木通、大黄、灯心草。功效清热泻火、利水通淋。主治湿热淋证：尿频尿急、溺时涩痛、淋沥不畅、尿色浑赤、甚则癃闭不通、小腹急满、口燥咽干、舌苔黄腻、脉滑数。",
+        "misjudgment": "把尿路刺激症状当肾虚而补肾。错：八正散治湿热蕴结膀胱之热淋（尿赤涩痛、苔黄腻、脉滑数），宜清利；肾虚淋证（淋沥不已、遇劳即发）误用苦寒通利则肾气愈伤。",
+        "reasoning": "治淋方中为何用大黄「通下」？",
+        "feedback": "大黄苦寒泻热，与利水药相伍「通因通用」，使湿热从二便分消，热去则淋自止。",
+        "transfer": "若淋证反复发作、遇劳加重、腰膝酸软，八正散还适用吗？"
+      },
+      "stdJudgment": "清热泻火、利水通淋，主治湿热淋证之尿频尿急尿痛，为治热淋之代表方",
+      "coreDefinition": "车前子瞿麦萹蓄滑石木通（君臣）清热利水通淋；栀子大黄（佐）清热泻火、导热下行（通因通用）；灯心草（佐使）清热利水；甘草（使）和中",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.yaojin",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "车前子 9g、瞿麦 9g、萹蓄 9g、滑石 9g、山栀子仁 9g、炙甘草 9g、木通 9g、大黄 9g（面裹煨）；加灯心草煎服",
+        "caution": "木通须用川木通，禁用关木通；淋证属气虚、阴虚或石淋日久者不宜；孕妇慎用"
+      },
+      "safety": {
+        "note": "方中木通须用川木通，含马兜铃酸的关木通禁用；苦寒通利，体虚淋证忌用",
+        "prohibitions": [
+          "【高风险】方中木通须用川木通或木通，含马兜铃酸的关木通有肾毒性、已禁用，不可混用；肾功能不全者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb8-l-055",
+      "title": "猪苓汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "祛湿剂",
+        "猪苓汤"
+      ],
+      "intent": "猪苓汤的组成、功效与主治（水热互结伤阴之小便不利）及利水清热养阴法，与五苓散鉴别",
+      "learning": {
+        "knowledge": "猪苓汤（《伤寒论》）：猪苓、茯苓、泽泻、滑石、阿胶。功效利水渗湿、清热养阴。主治水热互结伤阴证：小便不利、发热、渴欲饮水、或心烦不得眠、或咳嗽呕恶、下利、舌红苔白或微黄、脉细数。猪苓茯苓泽泻淡渗利水，滑石清热利水，阿胶滋阴润燥。",
+        "misjudgment": "把猪苓汤与五苓散混用。错：五苓散治太阳蓄水、表邪未解之小便不利（苔白、脉浮），属气化不利；猪苓汤治阳明或少阴水热互结伤阴（发热口渴、心烦不眠、舌红少津），属阴虚水停；一温化一清养，方向相反。",
+        "reasoning": "同为利水，猪苓汤为何配阿胶、滑石而五苓散配桂枝、白术？",
+        "feedback": "猪苓汤证水热互结而阴已伤，故滑石清热、阿胶养阴，利水不伤阴；五苓散证气化不利而无热无阴伤，故桂枝温阳化气、白术健脾制水。",
+        "transfer": "患者小便不利、口渴而舌淡苔白、脉浮，选猪苓汤还是五苓散？"
+      },
+      "stdJudgment": "利水渗湿、清热养阴，主治水热互结伤阴之小便不利，利水而不伤阴、滋阴而不恋邪",
+      "coreDefinition": "猪苓茯苓泽泻（君臣）淡渗利水；滑石（臣）清热利水通淋；阿胶（佐）滋阴润燥、防利水伤阴",
+      "facts": [
+        {
+          "field": "formula.fangyuan",
+          "sourceType": "classic_original",
+          "sourceTitle": "《伤寒论》",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zuocheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.gongxiao",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "formula.jiliang",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "辨阳明病脉证并治",
+          "chapter": "",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "若脉浮发热，渴欲饮水，小便不利者，猪苓汤主之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "猪苓 9g、茯苓 9g、泽泻 9g、阿胶 9g（烊化）、滑石 9g；水煎温服，阿胶烊化兑入",
+        "caution": "湿热内蕴而无阴伤者不宜；脾胃虚寒便溏者慎用；阿胶滋腻，湿盛者忌"
+      },
+      "safety": {
+        "note": "利水与养阴并施，阴虚兼水停方宜；纯湿热无阴伤者不宜"
+      }
+    }
+  ]
+}

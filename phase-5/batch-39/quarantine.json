@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-39",
+  "genLabel": "Phase 5 · Batch-39 · 65 nodes（N 中医经典 120→145 / H 中药鉴定 50→70 / J 中药炮制 40→60 上限补足）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

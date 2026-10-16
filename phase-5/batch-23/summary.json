@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-23",
+  "genLabel": "Phase 5 · Batch-23 · 15 nodes（X 中医耳鼻咽喉科 0→15 下限）",
+  "total": 15,
+  "counts": {
+    "candidate": 15,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 88,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 9,
+      "pct": 60
+    },
+    "mid": {
+      "count": 3,
+      "pct": 20
+    },
+    "hard": {
+      "count": 2,
+      "pct": 13
+    },
+    "mixed": {
+      "count": 1,
+      "pct": 7
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "X 中医耳鼻咽喉科补足至下限 15；整书级经典补丁 2 条",
+  "generatedAt": "2026-09-21T14:37:37.036Z"
+}

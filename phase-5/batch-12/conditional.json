@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-12",
+  "genLabel": "Phase 5 · Batch-12 · 29 nodes（Q 中医临床基础 6→35）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

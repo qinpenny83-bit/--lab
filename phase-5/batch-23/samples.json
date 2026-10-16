@@ -1,0 +1,1268 @@
+{
+  "seed": "phase-5/batch-23",
+  "genLabel": "Phase 5 · Batch-23 · 15 nodes（X 中医耳鼻咽喉科 0→15 下限）",
+  "total": 15,
+  "note": "X 中医耳鼻咽喉科补足至下限 15；整书级经典补丁 2 条",
+  "samples": [
+    {
+      "id": "pb23-x-001",
+      "title": "耳鼻喉·耳为肾窍与耳病辨证概要",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "耳病",
+        "肾开窍于耳",
+        "辨证概要",
+        "脏腑经络"
+      ],
+      "intent": "掌握肾开窍于耳的理论与耳病辨证纲领，为耳科各证型辨治奠定基础。",
+      "learning": {
+        "knowledge": "肾开窍于耳，心寄窍于耳，胆经、三焦经循行入耳，肝经分支亦络耳；听觉赖肾精充养与经脉血气上荣。辨证首分虚实：耳痛、耳脓、暴鸣多实，属肝胆火热或外邪上犯；久鸣渐聋、头晕腰酸多虚，属肾精亏虚。治法实者清肝泻火、疏风通窍，虚者补肾填精、滋阴潜阳。",
+        "misjudgment": "把久病耳鸣一律按肾虚进补。错：耳鸣亦有痰火、瘀血、肝郁之实，久鸣未必皆虚，须察脉舌与兼症，实证误补则邪愈壅、鸣反加重。",
+        "reasoning": "肾开窍于耳，为何肝火、痰湿亦能致耳鸣耳聋？",
+        "feedback": "耳窍赖肾精充养，又为宗脉所聚，肝胆火炎、痰湿上蒙皆可阻遏清阳、壅闭耳窍，故耳鸣之治不独补肾一端。",
+        "transfer": "见耳鸣即辨新久虚实，新病暴鸣与久病渐聋的立法侧重有何不同？"
+      },
+      "stdJudgment": "耳病辨证先分虚实：新病暴作、耳痛流脓者多实，责之肝胆火热或外邪上犯；久病渐鸣、听力缓降者多虚，责之肾精不足。耳为肾窍，又赖诸经血气上荣，故辨耳鸣必察新久、声调与兼症，虚实明则立法有据。",
+      "coreDefinition": "耳为肾窍，肾气通耳则听敏；耳病辨证以虚实为纲，实证多责肝胆火热，虚证多责肾精亏虚。",
+      "facts": [
+        {
+          "field": "clinical.脏腑经络关系",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病因病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "脉度第十七",
+          "originalText": "肾气通于耳，肾和则耳能闻五音矣。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "口问第二十八",
+          "originalText": "耳者，宗脉之所聚也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本节为耳病辨证纲要，不列专方；临证按证型选方，如肝火上扰用龙胆泻肝汤、肾精亏虚用耳聋左慈丸，内服剂量以《中国药典》及规划教材为准，汤剂日1剂分2次温服。",
+        "caution": "耳内流脓、突发耳鸣耳聋或眩晕者须及早诊治；外耳道用药忌盲目滴入不明药液，鼓膜穿孔者滴耳须谨慎。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；耳病急症须及早诊治",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb23-x-002",
+      "title": "耳鼻喉·耳鸣耳聋肝火上扰证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "耳鸣耳聋",
+        "肝火上扰",
+        "清肝泄热",
+        "龙胆泻肝汤"
+      ],
+      "intent": "掌握肝火上扰耳鸣耳聋的主症舌脉、病机与清肝泄热治法，熟悉龙胆泻肝汤的组方与禁忌。",
+      "learning": {
+        "knowledge": "主症耳鸣如潮或如风雷声，耳聋时轻时重，每于郁怒或情志激动后加重，伴头痛、面赤、口苦、咽干、心烦易怒、夜寐不宁、大便秘结、小便黄赤；舌红苔黄，脉弦数。病机情志不遂，肝失调达，气郁化火，循经上扰清窍。治以清肝泄热、开郁通窍，主方龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、木通、车前子、当归、生地黄、柴胡、甘草），便秘加决明子、大黄。外治：耳内无脓者忌盲目滴药，宜调畅情志、避免噪声。",
+        "misjudgment": "肝火耳鸣兼腰酸即投补肾之品。错：本证属实火，补肾腻补反助火势，鸣声愈亢；须先清泄肝火，待火平后再议补益。",
+        "reasoning": "同是耳鸣，肝火上扰与肾精亏虚一实一虚，如何凭症状与舌脉取舍？",
+        "feedback": "肝火者鸣如潮涌、随怒增剧、脉弦数；肾虚者声细如蝉、夜静尤显、脉沉细。辨明虚实，清泄与填补方不误投。",
+        "transfer": "与人争执后耳内轰鸣不止、口苦面赤者，试按肝火上扰立法并权衡泻火力度。"
+      },
+      "stdJudgment": "肝火耳鸣多在恼怒之后猝作，声如潮涌、时轻时重，兼头痛面赤、口苦咽干、心烦易怒，舌红苔黄、脉弦数；肝郁化火循经上炎，壅闭清窍，法当清肝泄热、开郁通窍，龙胆泻肝汤苦寒直折其火，火降则鸣减窍通。",
+      "coreDefinition": "肝火上扰证以耳鸣如潮、郁怒加重、口苦面赤、脉弦数为特征，治以清肝泄热开郁通窍。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "脏气法时论篇第二十二",
+          "originalText": "肝病者，两胁下痛引少腹，令人善怒；虚则目䀮䀮无所见，耳无所闻，善恐，如人将捕之。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减：龙胆草6g、黄芩9g、栀子9g、泽泻12g、木通6g、车前子9g（包煎）、当归6g、生地黄12g、柴胡6g、生甘草3g，水煎，日1剂分2次温服。",
+        "caution": "方中木通须用木通科木通，禁用马兜铃科关木通；龙胆草、栀子苦寒易伤胃气，脾胃虚寒者慎用，中病即止，勿久服。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；苦寒直折中病即止",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "【高风险】关木通（马兜铃科）含马兜铃酸有肾毒性，禁作木通入药；肾功能不全者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-003",
+      "title": "耳鼻喉·耳鸣耳聋肾精亏虚证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "耳鸣耳聋",
+        "肾精亏虚",
+        "补肾益精",
+        "耳聋左慈丸",
+        "磁石"
+      ],
+      "intent": "掌握肾精亏虚耳鸣耳聋的主症舌脉、病机与补肾益精治法，理解耳聋左慈丸滋中寓镇的配伍。",
+      "learning": {
+        "knowledge": "主症耳鸣如蝉、昼夜不息、夜间及安静时加重，听力逐渐下降，伴头晕目眩、腰膝酸软、失眠健忘、手足心热或畏寒肢冷、夜尿频多；舌红少苔脉细数，或舌淡苔白脉沉细。病机肾精亏耗，髓海空虚，耳窍失于充养。治以补肾益精、滋阴潜阳，主方耳聋左慈丸加减（六味地黄丸加磁石、石菖蒲、五味子），阴虚火旺加知母、黄柏，阳虚加补骨脂、杜仲、菟丝子。外治：可辅以耳部按摩与鸣天鼓法，避免噪声刺激。",
+        "misjudgment": "肾虚耳鸣兼咽干口苦即作肝火论治。错：肾虚亦可虚火上浮而见咽干，但脉细、夜甚、腰膝酸软为肾虚眼目，若投龙胆泻肝汤苦寒则更伤肾阴。",
+        "reasoning": "耳鸣如蝉、入夜尤甚者为何多责之肾？",
+        "feedback": "夜卧静则浮阳上越、髓海不足之象无所掩蔽而转显，故夜甚者多为虚证，补肾填精为治本之图。",
+        "transfer": "老年听力渐降、腰膝酸软者，试从补肾填精角度分析耳聋左慈丸重用熟地、磁石的用意。"
+      },
+      "stdJudgment": "肾精亏虚之耳鸣声细如蝉，入夜尤甚，听力缓降，伴头晕目眩、腰膝酸软、失眠多梦，舌红少苔脉细或舌淡脉沉；肾精不足、髓海失充，耳窍失养，治宜补肾益精、滋阴潜阳，耳聋左慈丸于六味地黄中加磁石、菖蒲、五味，滋中寓镇，缓缓图功。",
+      "coreDefinition": "肾精亏虚证以耳鸣如蝉、入夜尤甚、听力缓降、腰膝酸软为特征，治以补肾益精滋阴潜阳。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "海论第三十三",
+          "originalText": "髓海不足，则脑转耳鸣，胫酸眩冒，目无所见，懈怠安卧。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "耳聋左慈丸加减：熟地黄24g、山药12g、山茱萸12g、茯苓9g、泽泻9g、牡丹皮9g、磁石30g（打碎先煎）、石菖蒲6g、五味子6g，水煎，日1剂分2次温服；或按成药说明服用，宜缓图。",
+        "caution": "磁石质重碍胃，脾胃虚弱者酌减剂量或佐砂仁；肾虚耳鸣忌辛散耗气与苦寒伤阳之品，丸剂久服注意顾护脾胃。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；磁石宜打碎先煎，耳鸣虚证忌峻补碍胃",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb23-x-004",
+      "title": "耳鼻喉·脓耳肝胆湿热证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "脓耳",
+        "肝胆湿热",
+        "清泻肝胆",
+        "龙胆泻肝汤",
+        "滴耳"
+      ],
+      "intent": "掌握脓耳肝胆湿热证的主症舌脉、病机与清泻肝胆利湿排脓治法，熟悉内服外治配合的要点。",
+      "learning": {
+        "knowledge": "主症耳内疼痛、流脓量多色黄质稠、脓出痛减、听力减退，鼓膜充血或穿孔，耳道皮肤潮红糜烂，可伴发热、口苦、咽干、小便黄赤；舌红苔黄腻，脉弦数或滑数。病机肝胆湿热循经上蒸耳窍，热腐成脓。治以清泻肝胆、利湿排脓，主方龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、车前子、木通、当归、生地黄、柴胡、甘草），脓多稠厚加皂角刺、天花粉。外治要点：3%过氧化氢清洗外耳道脓液后滴黄连滴耳液，日2~3次，忌挖耳与污水入耳。",
+        "misjudgment": "脓耳流脓即用收敛燥湿之品塞耳。错：湿热未清而早用收涩，脓液闭阻内陷，可致乳突积脓；须清泄排脓为先，脓净后方议收敛生肌。",
+        "reasoning": "脓耳湿热之脓黄稠而臭，与虚证脓耳之脓清稀如何鉴别？",
+        "feedback": "湿热实证之脓黄稠量多、耳痛口苦、苔黄腻，治在清泄排脓；虚证流脓清稀日久、鼓膜大穿孔、脉细弱，治在补托，虚实判然。",
+        "transfer": "游泳后耳痛流黄稠脓液、口苦尿黄者，试按肝胆湿热辨治并说明滴耳外治的先后次序。"
+      },
+      "stdJudgment": "脓耳以耳内流脓为主症，肝胆湿热者脓量多而黄稠、耳痛较甚、鼓膜充血或穿孔，伴口苦咽干、溲黄便结，舌红苔黄腻、脉弦数；肝胆湿热循经上蒸，化腐成脓，治宜清泻肝胆、利湿排脓，内服龙胆泻肝汤，外以双氧水清脓、滴耳液滴耳，内外合治。",
+      "coreDefinition": "脓耳肝胆湿热证以耳内流脓黄稠、耳痛、苔黄腻为特征，治以清泻肝胆利湿排脓。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "邪气脏腑病形第四",
+          "originalText": "十二经脉，三百六十五络，其血气皆上于面而走空窍，其精阳气上走于目而为睛，其别气走于耳而为听。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减（剂量同肝火耳鸣条）水煎内服，日1剂分2次温服；外治：先以3%过氧化氢溶液清洗外耳道脓液，拭净后滴黄连滴耳液2~3滴，日2~3次。",
+        "caution": "木通禁用关木通；滴耳前须清拭脓液，鼓膜穿孔者滴耳动作宜轻，忌污水入耳、忌挖耳；流脓日久不愈或痛引头脑者须专科检查。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；滴耳液仅作局部外用，脓液多时先清拭再滴药",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "【高风险】关木通（马兜铃科）含马兜铃酸有肾毒性，禁作木通入药；肾功能不全者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-005",
+      "title": "耳鼻喉·鼻渊肺经风热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "鼻渊",
+        "肺经风热",
+        "疏风清热",
+        "银翘散",
+        "苍耳子散",
+        "苍耳子"
+      ],
+      "intent": "掌握鼻渊肺经风热证的主症舌脉、病机与疏风清热宣肺通窍治法，熟悉银翘散合苍耳子散。",
+      "learning": {
+        "knowledge": "主症鼻塞时作、鼻涕量多白黏或微黄、嗅觉减退、头额胀痛，可伴发热、微恶风、咳嗽、咽痛；舌边尖红，苔薄白或薄黄，脉浮数。病机风热犯肺，肺失清肃，邪热循经上蒸鼻窍。治以疏风清热、宣肺通窍，主方银翘散合苍耳子散加减（金银花、连翘、薄荷、荆芥、桔梗、牛蒡子、苍耳子、辛夷、白芷、甘草），涕黄量多加黄芩、鱼腥草。外治要点：辛夷滴鼻液滴鼻，或生理盐水冲洗鼻腔。",
+        "misjudgment": "鼻渊见涕多即投清热解毒重剂。错：风热初起邪尚在表，重在疏风透邪，过用苦寒冰伏邪气反致鼻塞缠绵；须银翘宣透为主。",
+        "reasoning": "苍耳子、辛夷同为通鼻窍要药，为何苍耳子须炒用而辛夷须包煎？",
+        "feedback": "苍耳子有小毒，炒用减毒且剂量宜控；辛夷多绒毛，包煎免刺激咽喉，两药炮制煎法各有讲究。",
+        "transfer": "感冒后鼻塞流黏涕、前额胀痛者，试按肺经风热辨治并说明苍耳子的用量警戒。"
+      },
+      "stdJudgment": "鼻渊肺经风热者鼻塞涕多，涕白黏或微黄，嗅觉减退，头额胀痛，兼发热恶风、咳嗽咽痛，舌红苔薄黄、脉浮数；风热犯肺、肺失清肃，熏蒸鼻窍，治宜疏风清热、宣肺通窍，银翘散合苍耳子散疏解上焦风热、宣利鼻窍，涕黄稠者加黄芩鱼腥草。",
+      "coreDefinition": "鼻渊肺经风热证以鼻塞涕多、涕白黏或微黄、头额胀痛、脉浮数为特征，治以疏风清热宣肺通窍。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "太阴风温、温热、温疫、冬温，初起恶风寒者，桂枝汤主之；但热不恶寒而渴者，辛凉平剂银翘散主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "银翘散合苍耳子散加减：金银花15g、连翘15g、薄荷6g（后下）、荆芥9g、桔梗9g、牛蒡子9g、苍耳子6g（炒）、辛夷9g（包煎）、白芷9g、甘草3g，水煎，日1剂分2次温服；外以辛夷滴鼻液滴鼻，日3次。",
+        "caution": "苍耳子有毒须炒用，内服3~9g，不可过量久服，肝肾功能不全者慎用；辛夷有毛刺激咽喉须包煎；风寒鼻渊及脾虚者不宜单投寒凉。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；苍耳子有毒须炒用，不可过量久服",
+        "prohibitions": [
+          "苍耳子有毒须炒用，内服3~9g，不可过量久服，肝肾功能不全者慎用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-006",
+      "title": "耳鼻喉·鼻渊胆腑郁热证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "鼻渊",
+        "胆腑郁热",
+        "清泄胆热",
+        "龙胆泻肝汤",
+        "鼻渊"
+      ],
+      "intent": "掌握鼻渊胆腑郁热证的主症舌脉、病机与清泄胆热利湿通窍治法，理解胆移热于脑的病机。",
+      "learning": {
+        "knowledge": "主症鼻涕脓浊、色黄或黄绿、量多而有臭味，鼻塞，嗅觉减退，头痛剧烈，以前额、颞部为甚，伴口苦、咽干、目眩、耳鸣、急躁易怒、大便秘结；舌红苔黄腻，脉弦数或滑数。病机胆腑郁热，循经上犯，移热于脑，蒸灼鼻窍。治以清泄胆热、利湿通窍，主方龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、车前子、木通、当归、生地黄、柴胡、甘草），可合苍耳子散宣通鼻窍，脓涕臭加败酱草、鱼腥草。外治要点：滴鼻剂滴鼻，鼻腔冲洗清除脓涕。",
+        "misjudgment": "胆腑郁热鼻渊见头痛即按风寒外感投辛温。错：本证脓涕臭、口苦苔黄腻属里热实证，辛温助热，脓涕更壅；须清泄胆热，热清则涕少痛减。",
+        "reasoning": "胆热为何上移于脑而病鼻渊，其经络联系何在？",
+        "feedback": "胆经起于目锐眦、上抵头角，其支别者从耳后入耳中，循经上犯，热移于脑，浊涕下注，故鼻渊之治每从肝胆求之。",
+        "transfer": "鼻窦炎反复发作、脓涕黄绿味臭、头痛口苦者，试按胆腑郁热立法并说明与肺经风热的鉴别。"
+      },
+      "stdJudgment": "鼻渊胆腑郁热者涕黄绿脓稠、量多味臭，鼻塞头痛剧烈，痛在颞额，伴口苦咽干、目眩耳鸣、急躁易怒，舌红苔黄腻、脉弦数；胆经郁热循经上犯，移热于脑，熏蒸鼻窍，治宜清泄胆热、利湿通窍，龙胆泻肝汤苦寒直折，佐以苍耳子散宣通，脓涕臭者加败酱草鱼腥草。",
+      "coreDefinition": "鼻渊胆腑郁热证以脓涕黄绿量多味臭、头痛剧烈、口苦苔黄腻为特征，治以清泄胆热利湿通窍。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气厥论篇第三十七",
+          "originalText": "胆移热于脑，则辛頞鼻渊，鼻渊者，浊涕下不止也，传为衄蔑瞑目。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减：龙胆草6g、黄芩9g、栀子9g、泽泻12g、车前子9g（包煎）、木通6g、当归6g、生地黄12g、柴胡6g、生甘草3g，可合苍耳子散，水煎，日1剂分2次温服；外以滴鼻剂滴鼻、生理盐水冲洗鼻腔。",
+        "caution": "木通禁用关木通；苦寒之品中病即止，脾虚便溏者慎用；脓涕腥臭、头痛剧烈者须排除鼻窦积脓等器质病变。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；苦寒泻热中病即止，外用滴鼻剂仅限局部",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "【高风险】关木通（马兜铃科）含马兜铃酸有肾毒性，禁作木通入药；肾功能不全者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-007",
+      "title": "耳鼻喉·鼻鼽肺气虚寒证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "鼻鼽",
+        "肺气虚寒",
+        "温肺散寒",
+        "温肺止流丹",
+        "细辛"
+      ],
+      "intent": "掌握鼻鼽肺气虚寒证的主症舌脉、病机与温肺散寒益气固表治法，熟悉温肺止流丹。",
+      "learning": {
+        "knowledge": "主症阵发性鼻痒、喷嚏频作、流大量清稀鼻涕、鼻塞，遇冷空气、尘螨或异味即诱发，平素畏风怕冷、易感冒、气短懒言、自汗；舌淡苔薄白，脉虚弱。病机肺气虚寒，卫表不固，风寒之邪乘虚侵袭鼻窍。治以温肺散寒、益气固表，主方温肺止流丹加减（人参、荆芥、细辛、诃子、甘草、桔梗、鱼脑骨），鼻塞重加苍耳子、辛夷，自汗甚加黄芪、防风。外治要点：避风寒及过敏原，按摩迎香穴、热敷鼻部。",
+        "misjudgment": "鼻鼽清涕喷嚏按风寒感冒投峻汗之剂。错：鼻鼽反复发作、无发热恶寒之表证，病本在肺虚卫弱，峻汗徒伤卫气；当温肺固表、标本兼顾。",
+        "reasoning": "鼻鼽喷嚏清涕与风寒感冒相似，如何鉴别？",
+        "feedback": "感冒有恶寒发热等表证、病程短；鼻鼽反复阵发、遇冷即作、平素畏风自汗，无表热，治重益气固表。",
+        "transfer": "晨起遇冷喷嚏清涕连连、自汗畏风者，试按肺气虚寒立法并权衡细辛用量。"
+      },
+      "stdJudgment": "鼻鼽肺气虚寒者鼻痒喷嚏连作、清涕如水、鼻塞，遇冷风异味即发，平素畏风自汗、气短乏力，舌淡苔薄白、脉虚弱；肺气虚弱、卫表不固，风寒乘虚犯鼻，治宜温肺散寒、益气固表，温肺止流丹以细辛荆芥温散、诃子敛肺、人参益气，寒重者加干姜桂枝，卫虚甚加黄芪防风。",
+      "coreDefinition": "鼻鼽肺气虚寒证以鼻痒喷嚏连作、清涕如水、遇冷即发、畏风自汗为特征，治以温肺散寒益气固表。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "口问第二十八",
+          "originalText": "黄帝曰：人之嚏者，何气使然？岐伯曰：阳气和利，满于心，出于鼻，故为嚏。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "温肺止流丹加减：人参9g（另煎兑入）、荆芥9g、细辛3g、诃子9g、甘草6g、桔梗9g、鱼脑骨15g，水煎，日1剂分2次温服；鼻塞重加苍耳子6g（炒）、辛夷9g（包煎）。",
+        "caution": "细辛为高风险药，煎剂1~3g，过量可致中毒，反藜芦；本方偏温，肺经风热或阴虚火旺者忌用。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；细辛煎剂1-3g，过量可致中毒",
+        "prohibitions": [
+          "【高风险】细辛煎剂1-3g散剂0.5-1g，过量可致中毒；反藜芦",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-008",
+      "title": "耳鼻喉·鼻衄肺经风热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "鼻衄",
+        "肺经风热",
+        "疏风清热",
+        "凉血止血",
+        "桑菊饮"
+      ],
+      "intent": "掌握鼻衄肺经风热证的主症舌脉、病机与疏风清热凉血止血治法，熟悉局部止血外治。",
+      "learning": {
+        "knowledge": "主症鼻中出血、点滴而下、血色鲜红，伴鼻塞、涕黄、咳嗽痰少、咽痛、发热、微恶风、口渴；舌质红，苔薄黄，脉浮数。病机风热上犯于鼻，热灼脉络，血溢脉外。治以疏风清热、凉血止血，主方桑菊饮加减（桑叶、菊花、杏仁、连翘、薄荷、桔梗、芦根、甘草），加白茅根、牡丹皮、栀子炭凉血止血。外治要点：冷敷前额及鼻根，指压鼻翼止血，血出较多以消毒棉片蘸云南白药塞鼻。",
+        "misjudgment": "鼻衄见血即用炭类收涩止血。错：风热在表未解，早用收涩则闭门留寇，热郁更易复衄；须疏风清热与凉血并行，表解热清血自宁。",
+        "reasoning": "鼻衄血色鲜红而量少者为何多从风热论治？",
+        "feedback": "血色鲜红、兼表证脉浮数，病在肺经风热灼络，治当透邪清热凉血，使邪去络安，血不妄行。",
+        "transfer": "感冒后鼻腔出血点滴鲜红、咽痒咳嗽者，试按肺经风热立法并说明局部止血外治。"
+      },
+      "stdJudgment": "鼻衄肺经风热者出血点滴渗出、血色鲜红，鼻塞涕黄、咳嗽咽痛、发热微恶风、口渴，舌红苔薄黄、脉浮数；风热上犯、灼伤鼻络，血溢脉外，治宜疏风清热、凉血止血，桑菊饮轻清宣透，加白茅根、牡丹皮、栀子炭凉血宁络，外以冷敷额鼻、指压止血，标本并图。",
+      "coreDefinition": "鼻衄肺经风热证以鼻出血色鲜红量少、涕黄、发热微恶风、脉浮数为特征，治以疏风清热凉血止血。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《温病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "百病始生第六十六",
+          "originalText": "阳络伤则血外溢，血外溢则衄血。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "桑菊饮加减：桑叶9g、菊花9g、杏仁9g、连翘12g、薄荷6g（后下）、桔梗9g、芦根15g、白茅根15g、牡丹皮9g、栀子炭9g、甘草3g，水煎，日1剂分2次温服；外治冷敷前额鼻根、指压鼻翼止血，血出较多以消毒棉片蘸云南白药塞鼻。",
+        "caution": "出血量多不止者须立即耳鼻喉科填塞止血，并排除血液病；脾胃虚寒者苦寒凉血药不宜久用。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；鼻衄量多不止须及时就医止血",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-009",
+      "title": "耳鼻喉·鼻衄胃热炽盛证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "鼻衄",
+        "胃热炽盛",
+        "清胃泻火",
+        "凉血止血",
+        "玉女煎"
+      ],
+      "intent": "掌握鼻衄胃热炽盛证的主症舌脉、病机与清胃泻火凉血止血治法，理解玉女煎清胃养阴配伍。",
+      "learning": {
+        "knowledge": "主症鼻中出血量多、血色鲜红或深红，鼻内干燥灼热感，伴口干、口臭、烦渴引饮、大便秘结、小便短赤；舌红苔黄，脉洪大或滑数。病机嗜食辛辣炙煿，胃热炽盛，循经上炎，灼伤鼻络。治以清胃泻火、凉血止血，主方玉女煎加减（石膏、知母、麦冬、生地黄、牛膝），加白茅根、藕节、牡丹皮、栀子炭。外治要点：冷敷、指压止血，出血不止须耳鼻喉科填塞处理。",
+        "misjudgment": "胃热鼻衄兼口燥即按阴虚火旺滋阴。错：本证苔黄、脉洪大、口气热臭属实火，滋阴而不泻火则热不降；须石膏知母直清胃热，佐养阴防热伤津。",
+        "reasoning": "同为胃热，为何玉女煎清胃泻火而兼以养阴？",
+        "feedback": "胃热炽盛最易劫烁胃阴，故以石膏知母清火、麦冬生地养阴，牛膝引血下行，清热不伤阴，治火亦防变。",
+        "transfer": "嗜食辛辣后鼻衄量多、口臭便秘者，试按胃热炽盛立法并说明通腑与止血的关系。"
+      },
+      "stdJudgment": "鼻衄胃热炽盛者出血量多、色鲜红或深红，鼻内干燥灼热，口干口臭、烦渴引饮、大便燥结、小便短赤，舌红苔黄、脉洪大或滑数；阳明胃热循经上炎，灼伤鼻络，治宜清胃泻火、凉血止血，玉女煎石膏知母清泻胃火，麦冬生地养阴，牛膝引血下行，加白茅根藕节丹皮凉血，便通火降则衄止。",
+      "coreDefinition": "鼻衄胃热炽盛证以出血量多色鲜红、口干口臭、便秘、脉洪大为特征，治以清胃泻火凉血止血。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨阳明病脉证并治",
+          "originalText": "阳明病，口燥，但欲漱水，不欲咽者，此必衄。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "玉女煎加减：石膏30g（先煎）、知母9g、麦冬12g、生地黄15g、牛膝9g、白茅根15g、藕节15g、牡丹皮9g，水煎，日1剂分2次温服；外治同肺经风热条，冷敷、指压，出血不止须专科填塞。",
+        "caution": "石膏先煎；脾胃虚寒及大便溏泄者慎用大剂寒凉；反复鼻衄、出血量多者须排除鼻腔器质病变与全身性疾病。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；石膏先煎，出血不止须及时就医",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb23-x-010",
+      "title": "耳鼻喉·喉痹肺肾阴虚证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "喉痹",
+        "肺肾阴虚",
+        "滋养肺肾",
+        "百合固金汤",
+        "虚火上炎"
+      ],
+      "intent": "掌握喉痹肺肾阴虚证的主症舌脉、病机与滋养肺肾降火利咽治法，理解金水相生之义。",
+      "learning": {
+        "knowledge": "主症咽部干燥、灼热疼痛不适、有异物感，干咳少痰或无痰，午后及疲劳后加重，可伴颧红、手足心热、腰膝酸软、耳鸣、夜寐不安；舌红少苔或苔花剥，脉细数。病机肺肾阴虚，津液不足，虚火上炎，熏灼咽喉。治以滋养肺肾、降火利咽，主方百合固金汤加减（百合、生地黄、熟地黄、玄参、麦冬、贝母、当归、白芍、桔梗、甘草），咽干甚加沙参、天花粉，声嘶加木蝴蝶、蝉蜕。外治要点：金银花、甘草煎水含漱，忌辛辣烟酒，多饮温水。",
+        "misjudgment": "喉痹咽痛兼颧红即投清热解毒苦寒之品。错：本证属虚火上炎，苦寒直折反伤阴津、火更上浮；须滋阴降火，水足则火自平。",
+        "reasoning": "喉痹咽干，为何清热不如养阴？",
+        "feedback": "肺肾阴亏则虚火无制，苦寒清热徒伤真阴，惟滋养肺肾、金水相生，阴充火敛，咽喉乃润。",
+        "transfer": "慢性咽炎咽干午后加重、干咳少痰者，试按肺肾阴虚立法并说明含漱外治的作用。"
+      },
+      "stdJudgment": "喉痹肺肾阴虚者咽干微痛、灼热不适、有异物感，干咳少痰，午后及劳累后加重，伴颧红、手足心热、腰膝酸软、耳鸣，舌红少苔、脉细数；肺肾阴虚、虚火上炎，熏灼咽喉，治宜滋养肺肾、降火利咽，百合固金汤润肺滋肾、金水相生，咽干甚加玄参麦冬，声嘶加木蝴蝶，忌辛燥炙煿。",
+      "coreDefinition": "喉痹肺肾阴虚证以咽干微痛、午后加重、颧红、舌红少苔、脉细数为特征，治以滋养肺肾降火利咽。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳别论篇第七",
+          "originalText": "一阴一阳结，谓之喉痹。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "百合固金汤加减：百合15g、生地黄12g、熟地黄12g、玄参12g、麦冬12g、贝母9g、当归9g、白芍12g、桔梗9g、甘草6g，水煎，日1剂分2次温服；外以金银花、甘草煎水含漱，日数次。",
+        "caution": "甘草反海藻大戟甘遂芫花；玄参反藜芦；本方甘润，痰湿壅盛或脾胃虚寒便溏者慎用，忌辛辣烟酒。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；甘润养阴之剂忌辛燥伤津",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高",
+          "玄参反藜芦，同用须忌"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-011",
+      "title": "耳鼻喉·乳蛾风热外犯证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "乳蛾",
+        "风热外犯",
+        "疏风清热",
+        "银翘散",
+        "吹喉"
+      ],
+      "intent": "掌握乳蛾风热外犯证的主症舌脉、病机与疏风清热消肿利咽治法，熟悉吹喉外治用法。",
+      "learning": {
+        "knowledge": "主症咽部疼痛、吞咽时加重，喉核红肿，表面或有黄白色脓点，可伴发热、微恶风、头痛、咳嗽、口渴；舌尖红，苔薄白或薄黄，脉浮数。病机风热外犯，肺经蕴热，热毒搏结于喉核。治以疏风清热、消肿利咽，主方银翘散加减（金银花、连翘、薄荷、荆芥穗、桔梗、牛蒡子、淡竹叶、芦根、甘草），加射干、马勃、山豆根，脓点成加黄芩、皂角刺。外治要点：冰硼散少量吹敷喉核红肿处，日2~3次，或以金银花、甘草煎水含漱。",
+        "misjudgment": "乳蛾喉核红肿即投大剂苦寒清热解毒。错：风热在表当透邪外出，过用苦寒冰伏邪热，喉核肿痛反迁延；须银翘疏散为先。",
+        "reasoning": "乳蛾脓点已成，为何仍以疏风透邪为先？",
+        "feedback": "脓成源于热毒壅结，透邪使热有出路，配射干马勃解毒、皂角刺排脓，表里兼顾，脓自外泄。",
+        "transfer": "咽痛吞物加剧、喉核红肿有脓点者，试按风热外犯立法并说明吹喉外治的用量警戒。"
+      },
+      "stdJudgment": "乳蛾风热外犯者咽痛渐重、吞咽加剧，喉核红肿、表面或有黄白脓点，伴发热恶风、头痛咳嗽、口渴，舌红苔薄白或薄黄、脉浮数；风热外犯、肺经蕴热，热毒搏结于喉核，治宜疏风清热、消肿利咽，银翘散疏解表热，加射干马勃解毒利咽，脓点成者加黄芩皂角刺排脓，外以冰硼散吹喉。",
+      "coreDefinition": "乳蛾风热外犯证以咽痛、喉核红肿或有脓点、发热恶风、脉浮数为特征，治以疏风清热消肿利咽。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "太阴阳明论篇第二十九",
+          "originalText": "喉主天气，咽主地气。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "银翘散加减：金银花15g、连翘15g、薄荷6g（后下）、荆芥穗9g、桔梗9g、牛蒡子9g、淡竹叶9g、芦根15g、射干9g、马勃6g（包煎）、甘草6g，水煎，日1剂分2次温服；外治：冰硼散少量吹敷喉核红肿处，日2~3次，或以金银花、甘草煎水含漱。",
+        "caution": "冰硼散含朱砂，只作局部吹敷、用量宜少，不可咽下，不可久用，孕妇忌用；山豆根苦寒有毒，内服3~6g，勿过量。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；冰硼散含朱砂仅限外用吹敷，忌咽下、忌久用",
+        "prohibitions": [
+          "【高风险】朱砂含硫化汞忌火煅；0.1-0.5g只入丸散；不可久服；孕妇禁用",
+          "山豆根苦寒有毒，内服3~6g，过量可致中毒",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-012",
+      "title": "耳鼻喉·喉喑风寒束肺证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "喉喑",
+        "风寒束肺",
+        "宣肺开音",
+        "三拗汤",
+        "麻黄",
+        "金实不鸣"
+      ],
+      "intent": "掌握喉喑风寒束肺证的主症舌脉、病机与疏风散寒宣肺开音治法，辨识金实不鸣与金破不鸣。",
+      "learning": {
+        "knowledge": "主症声音不扬或卒然嘶哑，咽痒、咳嗽、痰白清稀，鼻塞流清涕，恶寒、发热、无汗、头痛身楚；舌苔薄白，脉浮紧。病机风寒外束，肺气壅遏，会厌开阖不利而失音，属金实不鸣。治以疏风散寒、宣肺开音，主方三拗汤加减（麻黄、杏仁、甘草），加蝉蜕、木蝴蝶、桔梗、胖大海利咽开音。外治要点：声带休息、避免高声，苏叶、蝉蜕煎液蒸汽熏喉。",
+        "misjudgment": "声嘶即按阴虚喉喑投滋润之品。错：本证卒然声哑伴恶寒无汗、痰白清稀，属风寒闭肺之金实不鸣，滋润敛邪反致声哑难愈；须辛温宣散开肺。",
+        "reasoning": "同为声音嘶哑，风寒喉喑与阴虚喉喑为何一用宣散一用滋润？",
+        "feedback": "风寒者肺气壅实、会厌启闭不利，宣肺散寒则金鸣复响；阴虚者肺失濡润、声户失养，滋肺养阴则声自清，虚实迥异。",
+        "transfer": "受凉后声嘶咽痒、痰白清稀者，试按风寒束肺立法并说明与风热喉喑的鉴别。"
+      },
+      "stdJudgment": "喉喑风寒束肺者卒然声嘶、发音不扬，咽痒咳嗽、痰白清稀，鼻塞流清涕、恶寒发热无汗，苔薄白、脉浮紧；风寒外束、肺气壅遏，会厌开阖不利，金实不鸣，治宜疏风散寒、宣肺开音，三拗汤宣肺利窍，加蝉蜕木蝴蝶桔梗利咽开音，与风热喉喑痰黄咽痛、阴虚喉喑声嘶日久判然有别。",
+      "coreDefinition": "喉喑风寒束肺证以卒然声嘶、痰白清稀、鼻塞流清涕、脉浮紧为特征，治以疏风散寒宣肺开音。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《伤寒论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "忧恚无言第六十九",
+          "originalText": "会厌者，音声之户也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "三拗汤加减：麻黄6g（先煎）、杏仁9g、甘草6g、蝉蜕9g、木蝴蝶6g、桔梗9g、胖大海9g，水煎，日1剂分2次温服；另以苏叶、蝉蜕煎液蒸汽熏喉。",
+        "caution": "麻黄发汗力强，虚人、高血压、心脏病、失眠者慎用，运动员禁用；风寒喉喑忌寒凉清热之品，声带休息、禁高声。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；三拗汤含麻黄，虚人及高血压心脏病者慎用",
+        "prohibitions": [
+          "麻黄发汗力强虚人慎用；高血压心脏病失眠者慎用；运动员禁用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-013",
+      "title": "耳鼻喉·梅核气痰气互结证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "梅核气",
+        "痰气互结",
+        "行气散结",
+        "半夏厚朴汤",
+        "半夏"
+      ],
+      "intent": "掌握梅核气痰气互结证的主症舌脉、病机与行气散结降逆化痰治法，理解情志致病特点。",
+      "learning": {
+        "knowledge": "主症咽中异物感，如梅核梗阻，咯之不出、咽之不下，不碍吞咽饮食，症状随情绪波动时轻时重，伴胸闷、胁胀、善太息、脘痞纳呆；舌苔白腻，脉弦滑。病机情志不遂，肝气郁结，津聚为痰，痰气互结上阻咽喉。治以行气散结、降逆化痰，主方半夏厚朴汤加减（半夏、厚朴、茯苓、生姜、紫苏叶），胸闷甚加瓜蒌、郁金，嗳气加旋覆花、代赭石。外治要点：咽部检查排除器质病变后重在情志调畅，忌过度清嗓。",
+        "misjudgment": "梅核气按喉痹咽痛投清热利咽之品。错：梅核气无咽痛红肿，病在气郁痰阻，清热利咽不对病机；须行气化痰，兼调情志。",
+        "reasoning": "梅核气与喉痹的咽部异物感如何鉴别？",
+        "feedback": "喉痹咽干灼痛、黏膜或见红肿；梅核气咽部无异物可见、不碍吞咽，症状随情志增减，一实一虚、一痰一气，治法迥异。",
+        "transfer": "情志不舒后咽中如梗、咯之不出者，试按痰气互结立法并说明情志调摄的作用。"
+      },
+      "stdJudgment": "梅核气痰气互结者咽中异物感如梅核梗阻，咯之不出、咽之不下，时轻时重，每随情志波动而增减，胸闷胁胀、善太息，苔白腻、脉弦滑；情志不遂、肝气郁结，津聚为痰，痰气交阻咽喉，治宜行气散结、降逆化痰，半夏厚朴汤辛开苦降、痰气并治，兼以开导情志，咽干者去紫苏叶加玄参麦冬。",
+      "coreDefinition": "梅核气痰气互结证以咽中异物感如梅核、咯之不出咽之不下、随情志增减为特征，治以行气散结降逆化痰。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "本神第八",
+          "originalText": "愁忧者，气闭塞而不行。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "半夏厚朴汤加减：半夏9g（法半夏）、厚朴9g、茯苓12g、生姜9g、紫苏叶6g（后下），胸闷甚加瓜蒌12g、郁金9g，嗳气加旋覆花9g（包煎），水煎，日1剂分2次温服。",
+        "caution": "半夏须用炮制品（法半夏、姜半夏），生半夏有毒，反乌头类（含附子），孕妇慎用；本方偏辛温，阴虚津亏或咽干口燥者慎用。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；咽部异物感须先排除器质病变",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-014",
+      "title": "耳鼻喉·口疮心脾积热证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "口疮",
+        "心脾积热",
+        "清心泻脾",
+        "凉膈散",
+        "冰硼散",
+        "朱砂"
+      ],
+      "intent": "掌握口疮心脾积热证的主症舌脉、病机与清心泻脾通腑泻热治法，辨识与阴虚口疮之异。",
+      "learning": {
+        "knowledge": "主症口腔黏膜溃疡数目较多、溃面红肿灼热疼痛，甚则满口糜烂，影响进食，伴口臭、口渴饮冷、心烦、大便秘结、小便短赤；舌红，苔黄或黄腻，脉数有力。病机过食辛辣厚味，心脾积热，循经上炎，熏灼口舌。治以清心泻脾、通腑泻热，主方凉膈散加减（连翘、栀子、黄芩、薄荷、竹叶、大黄、芒硝、甘草），热甚加黄连、石膏。外治要点：冰硼散或锡类散吹敷溃疡面，日2~3次，金银花甘草水含漱，忌辛辣炙煿。",
+        "misjudgment": "口疮反复发作即按阴虚火旺滋阴。错：本证溃面红肿灼痛、口臭便秘、苔黄腻属实热，滋阴恋邪反助火势；须通腑泻热，釜底抽薪。",
+        "reasoning": "口疮通腑泻热，为何大便一通而疮痛立减？",
+        "feedback": "心脾之热下移肠腑，大黄芒硝通腑泻热，热从下夺，火不上炎，口疮自敛，此即上病下取之法。",
+        "transfer": "熬夜嗜辣后口舌生疮红肿灼痛、便秘口臭者，试按心脾积热立法并说明吹敷外治禁忌。"
+      },
+      "stdJudgment": "口疮心脾积热者口疮数目多、溃面红肿灼痛，或满口糜烂，口臭、口渴饮冷、大便秘结、小便短赤，舌红苔黄厚腻、脉数；心脾积热循经上炎，熏灼口舌生疮，治宜清心泻脾、通腑泻热，凉膈散清上泻下、釜底抽薪，便通热泄则疮自愈，与阴虚口疮色淡痛轻、反复难愈迥异，外以冰硼散吹敷。",
+      "coreDefinition": "口疮心脾积热证以口疮红肿灼痛、口臭便秘、苔黄腻为特征，治以清心泻脾通腑泻热。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "脉度第十七",
+          "originalText": "心气通于舌，心和则舌能知五味矣。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "凉膈散加减：连翘15g、栀子9g、黄芩9g、薄荷6g（后下）、竹叶9g、大黄6g（后下）、芒硝6g（冲服）、甘草6g，水煎，日1剂分2次服，得利即减大黄芒硝；外治：冰硼散或锡类散吹敷溃疡面，日2~3次，金银花甘草水含漱。",
+        "caution": "冰硼散含朱砂，仅外用吹敷，忌咽下、不可久用，孕妇禁用；大黄、芒硝泻下，孕妇及脾虚便溏者慎用，中病即止。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；冰硼散含朱砂仅限外用吹敷，忌咽下、忌久用",
+        "prohibitions": [
+          "【高风险】朱砂含硫化汞忌火煅；0.1-0.5g只入丸散；不可久服；孕妇禁用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb23-x-015",
+      "title": "耳鼻喉·牙痛胃火上炎证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "牙痛",
+        "胃火上炎",
+        "清胃泻火",
+        "清胃散",
+        "含漱"
+      ],
+      "intent": "掌握牙痛胃火上炎证的主症舌脉、病机与清胃泻火凉血止痛治法，结合经脉循行理解上下牙归经。",
+      "learning": {
+        "knowledge": "主症牙齿疼痛剧烈、牙龈红肿，甚则肿连腮颊、头痛，得冷则痛减，伴口渴引饮、口气热臭、大便秘结、小便黄赤；舌红苔黄，脉洪数或滑数。病机嗜食辛辣，胃火炽盛，循阳明经上炎，熏灼牙龈。治以清胃泻火、凉血止痛，主方清胃散加减（黄连、升麻、当归、生地黄、牡丹皮），痛甚加石膏、知母，便秘加大黄、芒硝。外治要点：金银花、蒲公英煎水含漱，肿连腮颊者以金黄散茶水调敷患处。",
+        "misjudgment": "牙痛红肿即按风火牙痛投疏风散热。错：本证口气热臭、便秘、苔黄厚、脉洪数，属胃火炽盛之里实热，疏风药力不逮；须清胃泻火，直折其势。",
+        "reasoning": "上牙痛多属胃火、下牙痛多责大肠，与经脉循行有何关系？",
+        "feedback": "胃足阳明之脉入上齿中，大肠手阳明之脉入下齿中，故上下牙痛归经有别，用药可相应侧重胃经或大肠经，此即经络辨证之用。",
+        "transfer": "牙龈肿痛剧烈、口气热臭、大便数日未行，试按胃火上炎立法并说明通腑与含漱外治的配合。"
+      },
+      "stdJudgment": "牙痛胃火上炎者牙痛剧烈、牙龈红肿甚则肿连腮颊，得冷痛减、遇热痛增，头痛、口渴引饮、口气热臭、大便秘结，舌红苔黄、脉洪数；胃火循经上炎，熏灼齿龈，治宜清胃泻火、凉血止痛，清胃散黄连苦寒清胃、升麻散火达邪、生地丹皮凉血清热，痛甚加石膏知母，肿连腮颊者外以金黄散调敷，兼含漱清热。",
+      "coreDefinition": "牙痛胃火上炎证以牙痛剧烈、牙龈红肿、口气热臭、便秘脉洪数为特征，治以清胃泻火凉血止痛。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局部外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医耳鼻咽喉科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经脉第十",
+          "originalText": "胃足阳明之脉，起于鼻，交頞中，旁约太阳之脉，下循鼻外，入上齿中。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "清胃散加减：黄连6g、升麻6g、当归9g、生地黄15g、牡丹皮9g，痛甚加石膏30g（先煎）、知母9g，便秘加大黄6g（后下）、芒硝6g（冲服），水煎，日1剂分2次温服；外以金银花、蒲公英煎水含漱，肿连腮颊者以金黄散茶水调敷。",
+        "caution": "本方偏苦寒，脾胃虚寒者慎用；牙痛反复或伴龋洞、牙髓病变者须口腔科诊治；孕妇忌大黄芒硝。"
+      },
+      "safety": {
+        "note": "专科辨证知识学习，临床用药须遵医嘱；牙痛伴龋洞或牙髓病变者须口腔科诊治",
+        "prohibitions": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "pa3-01",
+    "title": "附子",
+    "category": "中药",
+    "trap": "「回阳救逆第一品」无出处却标 classic_original + verified",
+    "failures": [
+      {
+        "gate": "A",
+        "name": "事实来源完整性",
+        "note": "fact「herb.huiyang」缺 sourceTitle"
+      },
+      {
+        "gate": "K",
+        "name": "知识边界",
+        "note": "原典无明确记载却标为经典事实"
+      }
+    ]
+  },
+  {
+    "id": "pa3-02",
+    "title": "半夏",
+    "category": "中药",
+    "trap": "十八反歌诀写成药典原文（来源错配）",
+    "failures": [
+      {
+        "gate": "B",
+        "name": "经典出处正确性",
+        "note": "经典「十八反」出处误标为「《中国药典》一部」，应为「后世本草歌诀（须核验）」"
+      }
+    ]
+  },
+  {
+    "id": "pa3-04",
+    "title": "细辛",
+    "category": "中药",
+    "trap": "「细辛不过钱」古训写成药典强制条文并折算克数（剂量混标+来源错配）",
+    "failures": [
+      {
+        "gate": "B",
+        "name": "经典出处正确性",
+        "note": "经典「细辛不过钱」出处误标为「《中国药典》」，应为「宋《本草别说》古训」"
+      },
+      {
+        "gate": "C",
+        "name": "剂量来源隔离",
+        "note": "原典「等分/两」被折算为克数并混写"
+      }
+    ]
+  },
+  {
+    "id": "pa3-05",
+    "title": "关木通（肾毒性）",
+    "category": "中药",
+    "trap": "马兜铃酸药材功效未带禁用红线（危险内容放行）",
+    "failures": [
+      {
+        "gate": "A",
+        "name": "事实来源完整性",
+        "note": "fact「herb.efficacy」缺 sourceTitle"
+      },
+      {
+        "gate": "J",
+        "name": "异常内容隔离",
+        "note": "已禁用药材未带「已禁用」红线警示"
+      }
+    ]
+  },
+  {
+    "id": "pa3-06",
+    "title": "麻黄汤",
+    "category": "方剂",
+    "trap": "麻黄“三两”折算成“9g”标作原方剂量（剂量混标）",
+    "failures": [
+      {
+        "gate": "C",
+        "name": "剂量来源隔离",
+        "note": "原典「等分/两」被折算为克数并混写"
+      }
+    ]
+  },
+  {
+    "id": "pa3-07",
+    "title": "桂枝汤",
+    "category": "方剂",
+    "trap": "「调和营卫」教学术语标成经典原文且 verified（教学越级+教材当原文）",
+    "failures": [
+      {
+        "gate": "D",
+        "name": "三值不越级",
+        "note": "fact「formula.yinwei」教学/现代解释被 upgrade 为 verified"
+      },
+      {
+        "gate": "K",
+        "name": "知识边界",
+        "note": "教材表述伪装成经典原文；teaching_inference/design 被升级为 verified"
+      }
+    ]
+  },
+  {
+    "id": "pa3-09",
+    "title": "小柴胡汤",
+    "category": "方剂",
+    "trap": "「但见一证便是」断章取义漏「有柴胡证」前提（经典误引）",
+    "failures": [
+      {
+        "gate": "B",
+        "name": "经典出处正确性",
+        "note": "经典「但见一证便是」出处误标为「《伤寒论》断章」，应为「《伤寒论》第101条全文」"
+      }
+    ]
+  },
+  {
+    "id": "pa3-11",
+    "title": "三阴交",
+    "category": "腧穴",
+    "trap": "孕妇禁针安全提示遗漏（安全边界失效）",
+    "failures": [
+      {
+        "gate": "J",
+        "name": "异常内容隔离",
+        "note": "高危节点缺失安全/禁针提示"
+      }
+    ]
+  },
+  {
+    "id": "pa3-13",
+    "title": "合谷",
+    "category": "腧穴",
+    "trap": "「面口合谷收」出处想当然标《针灸大成》（来源错配）",
+    "failures": [
+      {
+        "gate": "B",
+        "name": "经典出处正确性",
+        "note": "经典「四总穴歌」出处误标为「《针灸大成》」，应为「四总穴歌首出（须核验）」"
+      }
+    ]
+  },
+  {
+    "id": "pa3-16",
+    "title": "气机升降",
+    "category": "理论",
+    "trap": "「左升右降」写成《内经》原句（后世解释冒充原典）",
+    "failures": [
+      {
+        "gate": "K",
+        "name": "知识边界",
+        "note": "后世解释伪装成原典观点"
+      }
+    ]
+  },
+  {
+    "id": "pa3-17",
+    "title": "气血关系",
+    "category": "理论",
+    "trap": "「气为血之帅」教学总结标 verified（教学越级）",
+    "failures": [
+      {
+        "gate": "D",
+        "name": "三值不越级",
+        "note": "fact「theory.qixue」教学/现代解释被 upgrade 为 verified"
+      },
+      {
+        "gate": "K",
+        "name": "知识边界",
+        "note": "教材表述伪装成经典原文；teaching_inference/design 被升级为 verified"
+      }
+    ]
+  },
+  {
+    "id": "pa3-19",
+    "title": "五行生克乘侮",
+    "category": "理论",
+    "trap": "「见肝之病，知肝传脾」写成《内经》（经典出处错）",
+    "failures": [
+      {
+        "gate": "B",
+        "name": "经典出处正确性",
+        "note": "经典「见肝之病知肝传脾」出处误标为「《内经》」，应为「《金匮要略》」"
+      }
+    ]
+  },
+  {
+    "id": "pa3-21",
+    "title": "阴盛格阳（真寒假热）",
+    "category": "医案",
+    "trap": "C4 反证泛泛而谈，不能真正削弱原判断（反证无效）",
+    "failures": [
+      {
+        "gate": "F",
+        "name": "反证有效性",
+        "note": "C4 反证为补充性说明，未真正削弱原判断"
+      }
+    ]
+  },
+  {
+    "id": "pa3-22",
+    "title": "肝郁脾虚 vs 肝胃不和",
+    "category": "医案",
+    "trap": "两证 distinctions 无实质差异（模板化）",
+    "failures": [
+      {
+        "gate": "H",
+        "name": "内容重复/模板化",
+        "note": "freeReasoning/C3C4 为套话，证据与反证未随证而变（模板化）"
+      }
+    ]
+  },
+  {
+    "id": "pa3-24",
+    "title": "血瘀 vs 血虚",
+    "category": "医案",
+    "trap": "C4 修正未真正回应反证（修正无效）",
+    "failures": [
+      {
+        "gate": "G",
+        "name": "修正有效性",
+        "note": "C4 修正未回应反证，仅换词/重复原判断"
+      }
+    ]
+  },
+  {
+    "id": "pa3-25",
+    "title": "湿热蕴脾 vs 寒湿困脾",
+    "category": "医案",
+    "trap": "两证只换“黄/白”“热/寒”字（模板化/重复）",
+    "failures": [
+      {
+        "gate": "H",
+        "name": "内容重复/模板化",
+        "note": "freeReasoning/C3C4 为套话，证据与反证未随证而变（模板化）"
+      }
+    ]
+  }
+]

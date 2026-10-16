@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-43",
+  "genLabel": "Phase 5 · Batch-43 · 人体认知入门 30 nodes（A 中医基础理论 155→185）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

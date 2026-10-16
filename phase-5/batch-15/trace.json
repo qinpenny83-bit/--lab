@@ -1,0 +1,2819 @@
+{
+  "seed": "phase-5/batch-15",
+  "total": 40,
+  "trace": [
+    {
+      "nodeId": "pb15-o-001",
+      "title": "医古文·绪论与医古文性质",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-001",
+        "title": "医古文·绪论与医古文性质",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-002",
+      "title": "医古文·工具书与查检方法",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-002",
+        "title": "医古文·工具书与查检方法",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-003",
+      "title": "医古文·汉字形体演变",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-003",
+        "title": "医古文·汉字形体演变",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-004",
+      "title": "医古文·古今字举隅",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《内经选读》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-004",
+        "title": "医古文·古今字举隅",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-005",
+      "title": "医古文·异体字举隅",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-005",
+        "title": "医古文·异体字举隅",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-006",
+      "title": "医古文·通假字举隅",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《内经选读》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-006",
+        "title": "医古文·通假字举隅",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-007",
+      "title": "医古文·繁简字辨识",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-007",
+        "title": "医古文·繁简字辨识",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-008",
+      "title": "医古文·词义引申规律",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《古代汉语》规划教材",
+        "《医古文》规划教材",
+        "《内经选读》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-008",
+        "title": "医古文·词义引申规律",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-009",
+      "title": "医古文·词义辨析举隅",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-009",
+        "title": "医古文·词义辨析举隅",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-010",
+      "title": "医古文·实词活用举隅",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《内经选读》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-010",
+        "title": "医古文·实词活用举隅",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-011",
+      "title": "医古文·使动意动用法",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-011",
+        "title": "医古文·使动意动用法",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-012",
+      "title": "医古文·常见虚词用法之",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-012",
+        "title": "医古文·常见虚词用法之",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-013",
+      "title": "医古文·常见虚词用法其而于",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-013",
+        "title": "医古文·常见虚词用法其而于",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-014",
+      "title": "医古文·判断句与被动句",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《内经选读》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-014",
+        "title": "医古文·判断句与被动句",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-015",
+      "title": "医古文·省略句与倒装句",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-015",
+        "title": "医古文·省略句与倒装句",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-016",
+      "title": "医古文·句读方法",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-016",
+        "title": "医古文·句读方法",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-017",
+      "title": "医古文·标点与今译原则",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-017",
+        "title": "医古文·标点与今译原则",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-018",
+      "title": "医古文·训诂方法",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-018",
+        "title": "医古文·训诂方法",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-019",
+      "title": "医古文·注释体例与术语",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材",
+        "《古代汉语》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-019",
+        "title": "医古文·注释体例与术语",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-020",
+      "title": "医古文·避讳与版本常识",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-020",
+        "title": "医古文·避讳与版本常识",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-021",
+      "title": "医古文·《秦医缓和》选读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-021",
+        "title": "医古文·《秦医缓和》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-022",
+      "title": "医古文·《扁鹊传》选读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-022",
+        "title": "医古文·《扁鹊传》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-023",
+      "title": "医古文·《华佗传》选读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-023",
+        "title": "医古文·《华佗传》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-024",
+      "title": "医古文·《张仲景传》选读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-024",
+        "title": "医古文·《张仲景传》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-025",
+      "title": "医古文·《伤寒论序》选读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-025",
+        "title": "医古文·《伤寒论序》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-026",
+      "title": "医古文·《黄帝内经素问注序》选读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-026",
+        "title": "医古文·《黄帝内经素问注序》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-027",
+      "title": "医古文·《大医精诚》选读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-027",
+        "title": "医古文·《大医精诚》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-028",
+      "title": "医古文·《用药如用兵论》选读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-028",
+        "title": "医古文·《用药如用兵论》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-029",
+      "title": "医古文·《本草纲目序》选读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-029",
+        "title": "医古文·《本草纲目序》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-030",
+      "title": "医古文·《类经序》选读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-030",
+        "title": "医古文·《类经序》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-031",
+      "title": "医古文·《医案四则》选读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-031",
+        "title": "医古文·《医案四则》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-032",
+      "title": "医古文·《与崔连州论石钟乳书》选读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-032",
+        "title": "医古文·《与崔连州论石钟乳书》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-033",
+      "title": "医古文·《养生论》选读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-033",
+        "title": "医古文·《养生论》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-034",
+      "title": "医古文·《秋燥论》选读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-034",
+        "title": "医古文·《秋燥论》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-035",
+      "title": "医古文·《病家两要说》选读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-035",
+        "title": "医古文·《病家两要说》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-036",
+      "title": "医古文·《汗下吐三法该尽治病诠》选读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-036",
+        "title": "医古文·《汗下吐三法该尽治病诠》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-037",
+      "title": "医古文·《诸医论》选读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-037",
+        "title": "医古文·《诸医论》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-038",
+      "title": "医古文·《不失人情论》选读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-038",
+        "title": "医古文·《不失人情论》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "review",
+          "note": "knowledge 偏概括，缺具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-review"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-039",
+      "title": "医古文·《赠医师葛某序》选读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-039",
+        "title": "医古文·《赠医师葛某序》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb15-o-040",
+      "title": "医古文·《鉴药》选读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材",
+        "《医古文》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb15-o-040",
+        "title": "医古文·《鉴药》选读",
+        "category": "theory",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    }
+  ]
+}

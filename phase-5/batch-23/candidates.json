@@ -1,0 +1,145 @@
+{
+  "seed": "phase-5/batch-23",
+  "genLabel": "Phase 5 · Batch-23 · 15 nodes（X 中医耳鼻咽喉科 0→15 下限）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 15
+  },
+  "samples": [
+    {
+      "id": "pb23-x-001",
+      "title": "耳鼻喉·耳为肾窍与耳病辨证概要",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-002",
+      "title": "耳鼻喉·耳鸣耳聋肝火上扰证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-003",
+      "title": "耳鼻喉·耳鸣耳聋肾精亏虚证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-004",
+      "title": "耳鼻喉·脓耳肝胆湿热证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-005",
+      "title": "耳鼻喉·鼻渊肺经风热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-006",
+      "title": "耳鼻喉·鼻渊胆腑郁热证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-007",
+      "title": "耳鼻喉·鼻鼽肺气虚寒证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-008",
+      "title": "耳鼻喉·鼻衄肺经风热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-009",
+      "title": "耳鼻喉·鼻衄胃热炽盛证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-010",
+      "title": "耳鼻喉·喉痹肺肾阴虚证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-011",
+      "title": "耳鼻喉·乳蛾风热外犯证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-012",
+      "title": "耳鼻喉·喉喑风寒束肺证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-013",
+      "title": "耳鼻喉·梅核气痰气互结证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-014",
+      "title": "耳鼻喉·口疮心脾积热证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb23-x-015",
+      "title": "耳鼻喉·牙痛胃火上炎证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-27",
+  "genLabel": "Phase 5 · Batch-27 · AB 全科医学 15 nodes",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

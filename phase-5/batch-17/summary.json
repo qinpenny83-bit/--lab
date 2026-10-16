@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-17",
+  "genLabel": "Phase 5 · Batch-17 · 95 nodes（R 中医内科学 0→95 下限）",
+  "total": 95,
+  "counts": {
+    "candidate": 95,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 525,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 52,
+      "pct": 55
+    },
+    "mid": {
+      "count": 22,
+      "pct": 23
+    },
+    "hard": {
+      "count": 13,
+      "pct": 14
+    },
+    "mixed": {
+      "count": 8,
+      "pct": 8
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "R 中医内科学补足至下限 95；整书级经典补丁 14 条；高危药红线全覆盖",
+  "generatedAt": "2026-09-21T11:36:13.793Z"
+}

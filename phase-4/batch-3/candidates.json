@@ -1,0 +1,586 @@
+{
+  "seed": "phase-4/batch-3",
+  "genLabel": "Phase 4 · Batch-3 · 75 nodes（L1-L6 + A-K + Q1-Q8）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核（含 C4 语义门通过但无 humanReviewRequired 标记者）。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 64
+  },
+  "samples": [
+    {
+      "id": "pb3-th-01-08",
+      "title": "中医理论的发展脉络",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-03-02",
+      "title": "五行属性",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-03-03",
+      "title": "五行归类",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-03-06",
+      "title": "五行制化",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-03-08",
+      "title": "五行与人体（生理）",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-03-09",
+      "title": "五行与病理",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-03-10",
+      "title": "五行与诊断",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-03-11",
+      "title": "五行与治疗",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-03-12",
+      "title": "五行的理论边界",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-04-02",
+      "title": "五脏总论",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-04-15",
+      "title": "奇恒之腑",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-04-17",
+      "title": "六腑之间的关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-04-18",
+      "title": "脏与腑的表里关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-06-03",
+      "title": "奇经八脉",
+      "category": "meridian",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-06-04",
+      "title": "络脉",
+      "category": "meridian",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-06-05",
+      "title": "经筋与皮部",
+      "category": "meridian",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-06-07",
+      "title": "经络病理",
+      "category": "meridian",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-06-08",
+      "title": "经络理论的位置",
+      "category": "meridian",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-07-04",
+      "title": "暑邪",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-07-06",
+      "title": "燥邪",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-07-07",
+      "title": "火（热）邪",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-07-08",
+      "title": "疠气",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-07-10",
+      "title": "饮食失宜",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-07-11",
+      "title": "劳逸失度",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-07-12",
+      "title": "外伤与虫兽伤",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-dg-09-04",
+      "title": "望形态",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-dg-09-07",
+      "title": "望排出物",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-dg-09-09",
+      "title": "听声音",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-dg-09-10",
+      "title": "嗅气味",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-dg-09-17",
+      "title": "问二便",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-dg-09-19",
+      "title": "问情志",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-dg-09-23",
+      "title": "按诊",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-cl-11-14",
+      "title": "证候区别与联系",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-03",
+      "title": "心血虚/心阴虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-05",
+      "title": "心脉瘀阻",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-07",
+      "title": "肝火上炎",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-12",
+      "title": "寒湿困脾/湿热蕴脾",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-13",
+      "title": "肺气虚",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-14",
+      "title": "肺阴虚",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-15",
+      "title": "风寒束肺/风热犯肺",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-17",
+      "title": "肾气不固/肾不纳气",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-18",
+      "title": "肾精不足",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-19",
+      "title": "胃寒/胃热/胃阴虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-20",
+      "title": "胆郁痰扰",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-21",
+      "title": "小肠/大肠常见证候",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-22",
+      "title": "心脾两虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-23",
+      "title": "肝脾不调",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-24",
+      "title": "肝胃不和",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-25",
+      "title": "肝肾阴虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-26",
+      "title": "脾肾阳虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-27",
+      "title": "肺脾两虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-28",
+      "title": "肺肾阴虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-12-29",
+      "title": "心肾不交",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-13-10",
+      "title": "六经辨证思路",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-14-05",
+      "title": "血分证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-14-06",
+      "title": "卫气营血的传变",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-14-07",
+      "title": "卫气营血辨证特点",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-15-05",
+      "title": "三焦传变",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cl-15-06",
+      "title": "三种辨证体系比较",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-th-16-08",
+      "title": "治则与辨证的关系",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-fm-17-06",
+      "title": "方剂分类",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-fm-17-09",
+      "title": "方剂之间的比较",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb3-th-19-10",
+      "title": "金匮要略·代表病篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb3-cs-20-01",
+      "title": "医案阅读方法",
+      "category": "case",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

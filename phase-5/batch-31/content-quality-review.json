@@ -1,0 +1,763 @@
+{
+  "seed": "phase-5/batch-31",
+  "genLabel": "Phase 5 · Batch-31 · AF 科研·证据 18 nodes",
+  "total": 18,
+  "samples": [
+    {
+      "nodeId": "pb31-af-001",
+      "title": "循证·循证医学三要素",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-002",
+      "title": "循证·证据分级体系",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-003",
+      "title": "科研·系统评价与Meta分析",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-004",
+      "title": "科研·随机对照试验",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-005",
+      "title": "科研·队列研究",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-006",
+      "title": "科研·病例对照研究",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-007",
+      "title": "循证·诊断试验评价",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-008",
+      "title": "循证·偏倚控制",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-009",
+      "title": "科研·PICO问题构建",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-010",
+      "title": "科研·文献检索策略",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-011",
+      "title": "科研·医学统计描述指标",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-012",
+      "title": "科研·假设检验与P值",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-013",
+      "title": "科研·相关与回归",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb31-af-014",
+      "title": "科研·生存分析",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-015",
+      "title": "循证·研究伦理与注册",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-016",
+      "title": "循证·结果报告规范",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb31-af-017",
+      "title": "科研·中医临床研究设计",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb31-af-018",
+      "title": "循证·证据转化为决策",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    }
+  ]
+}

@@ -1,0 +1,1057 @@
+{
+  "seed": "phase-5/batch-11",
+  "genLabel": "Phase 5 · Batch-11 · 25 nodes（F 刺法灸法学 0→25）",
+  "total": 25,
+  "samples": [
+    {
+      "nodeId": "pb11-f-001",
+      "title": "毫针刺法·进针手法",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-002",
+      "title": "毫针刺法·针刺角度与深度",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-003",
+      "title": "毫针刺法·得气与候气催气",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb11-f-004",
+      "title": "毫针刺法·行针手法（提插捻转）",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-005",
+      "title": "毫针刺法·捻转补泻",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-006",
+      "title": "毫针刺法·提插补泻",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-007",
+      "title": "毫针刺法·平补平泻",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-008",
+      "title": "毫针刺法·留针与出针",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-009",
+      "title": "毫针刺法·晕针处理",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-010",
+      "title": "毫针刺法·滞针弯针断针处理",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-011",
+      "title": "毫针刺法·体位消毒与治神",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb11-f-012",
+      "title": "毫针刺法·针刺时机与疗程",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb11-f-013",
+      "title": "皮肤针·梅花针叩刺",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb11-f-014",
+      "title": "三棱针·点刺放血",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-015",
+      "title": "皮内针·埋针法",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-016",
+      "title": "电针法·波形参数",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-017",
+      "title": "头针·头皮针分区",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-018",
+      "title": "耳针·耳穴压豆",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-019",
+      "title": "艾炷灸·直接灸与间接灸",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-020",
+      "title": "艾条灸·温和灸雀啄灸回旋灸",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-021",
+      "title": "温针灸·针上加灸",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-022",
+      "title": "灸法·补泻与施灸禁忌",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb11-f-023",
+      "title": "拔罐法·闪罐走罐留罐",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    {
+      "nodeId": "pb11-f-024",
+      "title": "刮痧法·刮拭手法",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    {
+      "nodeId": "pb11-f-025",
+      "title": "穴位注射与穴位贴敷·操作要点",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 5/5 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    }
+  ]
+}

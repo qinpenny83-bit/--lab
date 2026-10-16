@@ -1,0 +1,76 @@
+{
+  "seed": 20260920,
+  "genLabel": "phase-3b-batch1",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记（出处待核 / C4 语义门 humanReviewRequired / 暂缓判断类）。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 5
+  },
+  "samples": [
+    {
+      "id": "pb1-formula-06",
+      "title": "补中益气汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「甘温除大热」来源纠偏：sourceType→traditional_commentary、出处→「李东垣（补中益气汤相关，首出须核验）」、status→teaching_inference（术语首出须核验）"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「甘温除大热」来源纠偏：sourceType→traditional_commentary、出处→「李东垣（补中益气汤相关，首出须核验）」、status→teaching_inference（术语首出须核验）"
+        }
+      ]
+    },
+    {
+      "id": "pb1-formula-10",
+      "title": "白虎汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「四大证」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「四大证」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb1-case-05",
+      "title": "眩晕虚实辨案",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb1-case-06",
+      "title": "咳嗽寒热辨案",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb1-case-09",
+      "title": "寒热真假权重案",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    }
+  ]
+}

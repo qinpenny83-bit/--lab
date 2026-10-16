@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-40",
+  "genLabel": "Phase 5 · Batch-40 · 95 nodes（R 中医内科学 95→115 / D 腧穴学 60→75 / I 本草学 30→45 / O 医古文 40→55 / P 各家学说 30→45 / AC 现代医学基础 40→55 上限补足）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

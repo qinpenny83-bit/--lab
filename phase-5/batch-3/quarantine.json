@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-3",
+  "genLabel": "Phase 5 · Batch-3 · 30 nodes（D 腧穴学补足 30→60，达 33 学科蓝图目标下限）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

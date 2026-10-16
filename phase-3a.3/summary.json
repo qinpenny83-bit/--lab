@@ -1,0 +1,164 @@
+{
+  "seed": 20260920,
+  "genLabel": "phase-3a.3-targeted-closure",
+  "total": 7,
+  "counts": {
+    "candidate": 4,
+    "conditional": 1,
+    "quarantine": 2
+  },
+  "samples": [
+    {
+      "id": "pa33-herb-banxia",
+      "title": "半夏",
+      "category": "herb",
+      "intent": "十八反出处闭合：误标《中国药典》→ 纠为《儒门事亲》",
+      "verdict": "candidate",
+      "evidenceLayers": [],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「十八反」来源纠偏：sourceType→traditional_commentary、出处→「金·张子和《儒门事亲》」、status→teaching_inference（「十八反歌」最早见于金·张子和《儒门事亲》，为后世本草歌诀，非《中国药典》原文）"
+        }
+      ],
+      "gateFails": []
+    },
+    {
+      "id": "pa33-acu-hegu",
+      "title": "合谷",
+      "category": "acupoint",
+      "intent": "四总穴歌出处闭合：误标《针灸大成》→ 纠为《针灸大全》",
+      "verdict": "candidate",
+      "evidenceLayers": [],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「明·徐凤《针灸大全》」、status→teaching_inference（四总穴歌最早记载于明·徐凤《针灸大全》，非《针灸大成》原句）"
+        },
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "禁针穴「合谷」注入：孕妇禁针，有堕胎风险"
+        }
+      ],
+      "gateFails": []
+    },
+    {
+      "id": "pa33-theory-yinyang",
+      "title": "阴阳原典",
+      "category": "theory",
+      "intent": "阴阳白名单缺口闭合：补入《素问·阴阳应象大论》verified",
+      "verdict": "candidate",
+      "evidenceLayers": [],
+      "humanReviewRequired": false,
+      "corrections": [],
+      "gateFails": []
+    },
+    {
+      "id": "pa33-e-01",
+      "title": "失眠（仅症状）",
+      "category": "clinical",
+      "intent": "E 校准：只有症状、确实不足 → 应拦截",
+      "verdict": "quarantine",
+      "evidenceLayers": [
+        {
+          "text": "入睡困难、多梦易醒",
+          "tier": 1,
+          "tierLabel": "症状事实"
+        },
+        {
+          "text": "胸闷心慌、时有头晕",
+          "tier": 1,
+          "tierLabel": "症状事实"
+        }
+      ],
+      "humanReviewRequired": false,
+      "corrections": [],
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        }
+      ]
+    },
+    {
+      "id": "pa33-e-02",
+      "title": "失眠（症状+舌脉）",
+      "category": "clinical",
+      "intent": "E 校准：症状 + 第二独立证据（舌脉）→ 应进入 C3",
+      "verdict": "candidate",
+      "evidenceLayers": [
+        {
+          "text": "入睡困难、多梦易醒",
+          "tier": 1,
+          "tierLabel": "症状事实"
+        },
+        {
+          "text": "舌淡红、苔薄白、脉弦细",
+          "tier": 2,
+          "tierLabel": "舌脉/体征"
+        }
+      ],
+      "humanReviewRequired": false,
+      "corrections": [],
+      "gateFails": []
+    },
+    {
+      "id": "pa33-fg-01",
+      "title": "眩晕医案（真实反证）",
+      "category": "clinical",
+      "intent": "F/G 抽检：真实反证 + 有效修正 → 通过 F/G，加 human_review_required",
+      "verdict": "conditional",
+      "evidenceLayers": [
+        {
+          "text": "眩晕耳鸣、头胀痛",
+          "tier": 1,
+          "tierLabel": "症状事实"
+        },
+        {
+          "text": "舌红苔黄、脉弦数",
+          "tier": 2,
+          "tierLabel": "舌脉/体征"
+        }
+      ],
+      "humanReviewRequired": true,
+      "corrections": [],
+      "gateFails": []
+    },
+    {
+      "id": "pa33-fg-02",
+      "title": "胸痹医案（反证无效）",
+      "category": "clinical",
+      "intent": "F/G 抽检：反证与判断无关 + 修正未回应 → 应拦截",
+      "verdict": "quarantine",
+      "evidenceLayers": [
+        {
+          "text": "胸闷如窒、痰多",
+          "tier": 1,
+          "tierLabel": "症状事实"
+        },
+        {
+          "text": "形体肥胖、苔白腻、脉滑",
+          "tier": 2,
+          "tierLabel": "舌脉/体征"
+        }
+      ],
+      "humanReviewRequired": false,
+      "corrections": [],
+      "gateFails": [
+        {
+          "gate": "F",
+          "note": "反证为空泛/补充性说明，未真正削弱原判断"
+        },
+        {
+          "gate": "G",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        }
+      ]
+    }
+  ]
+}

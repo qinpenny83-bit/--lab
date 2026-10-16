@@ -1,0 +1,3750 @@
+[
+  {
+    "nodeId": "pb5-me-01",
+    "title": "十二经脉的命名规律",
+    "category": "theory",
+    "difficulty": 1,
+    "difficultyLabel": "简单",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-01",
+      "title": "十二经脉的命名规律",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-02",
+    "title": "十二经脉的走向与流注规律",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-02",
+      "title": "十二经脉的走向与流注规律",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-03",
+    "title": "十二经脉的表里关系与交接规律",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-03",
+      "title": "十二经脉的表里关系与交接规律",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-04",
+    "title": "十二经脉在四肢与头面躯干的分布规律",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-04",
+      "title": "十二经脉在四肢与头面躯干的分布规律",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-05",
+    "title": "手太阴肺经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-05",
+      "title": "手太阴肺经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-06",
+    "title": "手阳明大肠经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-06",
+      "title": "手阳明大肠经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-07",
+    "title": "足阳明胃经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-07",
+      "title": "足阳明胃经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-08",
+    "title": "足太阴脾经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-08",
+      "title": "足太阴脾经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-09",
+    "title": "手少阴心经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-09",
+      "title": "手少阴心经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-10",
+    "title": "手太阳小肠经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-10",
+      "title": "手太阳小肠经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-11",
+    "title": "足太阳膀胱经与背俞穴",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-11",
+      "title": "足太阳膀胱经与背俞穴",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-12",
+    "title": "足少阴肾经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-12",
+      "title": "足少阴肾经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-13",
+    "title": "手厥阴心包经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-13",
+      "title": "手厥阴心包经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-14",
+    "title": "手少阳三焦经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-14",
+      "title": "手少阳三焦经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-15",
+    "title": "足少阳胆经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-15",
+      "title": "足少阳胆经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-16",
+    "title": "足厥阴肝经",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-16",
+      "title": "足厥阴肝经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-17",
+    "title": "督脉（阳脉之海）",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-17",
+      "title": "督脉（阳脉之海）",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-18",
+    "title": "任脉（阴脉之海）",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-18",
+      "title": "任脉（阴脉之海）",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-19",
+    "title": "冲脉与带脉",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-19",
+      "title": "冲脉与带脉",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-20",
+    "title": "跷脉与维脉",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-20",
+      "title": "跷脉与维脉",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-21",
+    "title": "十二经别与十五络脉",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-21",
+      "title": "十二经别与十五络脉",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-22",
+    "title": "十二经病候概要（是动病与所生病）",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-22",
+      "title": "十二经病候概要（是动病与所生病）",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-23",
+    "title": "经络临床应用：辨证归经与循经取穴",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-23",
+      "title": "经络临床应用：辨证归经与循经取穴",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-24",
+    "title": "经络综合案例：头痛辨经",
+    "category": "theory",
+    "difficulty": 5,
+    "difficultyLabel": "综合推理",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-24",
+      "title": "经络综合案例：头痛辨经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-me-25",
+    "title": "经络综合案例：胁痛辨经",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-me-25",
+      "title": "经络综合案例：胁痛辨经",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-01",
+    "title": "腧穴的概念与分类",
+    "category": "acupoint",
+    "difficulty": 1,
+    "difficultyLabel": "简单",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-01",
+      "title": "腧穴的概念与分类",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-02",
+    "title": "腧穴定位：骨度分寸法",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-02",
+      "title": "腧穴定位：骨度分寸法",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-03",
+    "title": "腧穴定位：体表标志与手指同身寸",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-03",
+      "title": "腧穴定位：体表标志与手指同身寸",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-04",
+    "title": "特定穴：五输穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-04",
+      "title": "特定穴：五输穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-05",
+    "title": "特定穴：原穴与络穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-05",
+      "title": "特定穴：原穴与络穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-06",
+    "title": "特定穴：俞穴与募穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-06",
+      "title": "特定穴：俞穴与募穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-07",
+    "title": "特定穴：郄穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-07",
+      "title": "特定穴：郄穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-08",
+    "title": "特定穴：八会穴与八脉交会穴",
+    "category": "acupoint",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-08",
+      "title": "特定穴：八会穴与八脉交会穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-09",
+    "title": "特定穴：下合穴",
+    "category": "acupoint",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-09",
+      "title": "特定穴：下合穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-10",
+    "title": "手太阴肺经常用穴",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-10",
+      "title": "手太阴肺经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-11",
+    "title": "手阳明大肠经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-11",
+      "title": "手阳明大肠经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-12",
+    "title": "足阳明胃经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-12",
+      "title": "足阳明胃经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（1 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-13",
+    "title": "足太阴脾经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-13",
+      "title": "足太阴脾经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-14",
+    "title": "手少阴心经常用穴",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-14",
+      "title": "手少阴心经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-15",
+    "title": "手太阳小肠经常用穴",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-15",
+      "title": "手太阳小肠经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-16",
+    "title": "足太阳膀胱经常用穴：睛明攒竹肺俞心俞",
+    "category": "acupoint",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-16",
+      "title": "足太阳膀胱经常用穴：睛明攒竹肺俞心俞",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-17",
+    "title": "足太阳膀胱经常用穴：肝俞脾俞肾俞委中承山",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-17",
+      "title": "足太阳膀胱经常用穴：肝俞脾俞肾俞委中承山",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（1 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-18",
+    "title": "足少阴肾经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-18",
+      "title": "足少阴肾经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-19",
+    "title": "手厥阴心包经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-19",
+      "title": "手厥阴心包经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-20",
+    "title": "手少阳三焦经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-20",
+      "title": "手少阳三焦经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-21",
+    "title": "足少阳胆经常用穴：风池肩井环跳阳陵泉悬钟",
+    "category": "acupoint",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-21",
+      "title": "足少阳胆经常用穴：风池肩井环跳阳陵泉悬钟",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-22",
+    "title": "足厥阴肝经常用穴",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-22",
+      "title": "足厥阴肝经常用穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-23",
+    "title": "任脉常用穴：关元气海神阙中脘膻中",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-23",
+      "title": "任脉常用穴：关元气海神阙中脘膻中",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-24",
+    "title": "督脉常用穴：大椎百会水沟命门长强",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-24",
+      "title": "督脉常用穴：大椎百会水沟命门长强",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-25",
+    "title": "经外奇穴",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-25",
+      "title": "经外奇穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-26",
+    "title": "阿是穴与压痛反应",
+    "category": "acupoint",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-26",
+      "title": "阿是穴与压痛反应",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-27",
+    "title": "腧穴主治规律：近治远治特殊",
+    "category": "acupoint",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-27",
+      "title": "腧穴主治规律：近治远治特殊",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（2 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-28",
+    "title": "腧穴配伍原则",
+    "category": "acupoint",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-28",
+      "title": "腧穴配伍原则",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-29",
+    "title": "禁针禁灸穴与针刺安全规范",
+    "category": "acupoint",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-29",
+      "title": "禁针禁灸穴与针刺安全规范",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-ac-30",
+    "title": "腧穴综合案例：胃脘痛选穴",
+    "category": "acupoint",
+    "difficulty": 5,
+    "difficultyLabel": "综合推理",
+    "source": [
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-ac-30",
+      "title": "腧穴综合案例：胃脘痛选穴",
+      "category": "acupoint",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  }
+]

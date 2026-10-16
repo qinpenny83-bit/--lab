@@ -1,0 +1,1433 @@
+{
+  "seed": "phase-5/batch-21",
+  "total": 20,
+  "trace": [
+    {
+      "nodeId": "pb21-v-001",
+      "title": "骨伤·骨折概论与整复原则",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-001",
+        "title": "骨伤·骨折概论与整复原则",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-002",
+      "title": "骨伤·桡骨远端骨折夹板固定",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-002",
+        "title": "骨伤·桡骨远端骨折夹板固定",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-003",
+      "title": "骨伤·锁骨骨折\"8\"字绷带固定",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-003",
+        "title": "骨伤·锁骨骨折\"8\"字绷带固定",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-004",
+      "title": "骨伤·肱骨干骨折夹板固定",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-004",
+        "title": "骨伤·肱骨干骨折夹板固定",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-005",
+      "title": "骨伤·股骨颈骨折牵引固定",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-005",
+        "title": "骨伤·股骨颈骨折牵引固定",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-006",
+      "title": "骨伤·脊柱压缩骨折过伸复位",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-006",
+        "title": "骨伤·脊柱压缩骨折过伸复位",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-007",
+      "title": "骨伤·脱位概论与复位原则",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-007",
+        "title": "骨伤·脱位概论与复位原则",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-008",
+      "title": "骨伤·肩关节脱位拔伸复位",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-008",
+        "title": "骨伤·肩关节脱位拔伸复位",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-009",
+      "title": "骨伤·肘关节脱位复位",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-009",
+        "title": "骨伤·肘关节脱位复位",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-010",
+      "title": "骨伤·颞颌关节脱位口腔内复位",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-010",
+        "title": "骨伤·颞颌关节脱位口腔内复位",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 4/4 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-011",
+      "title": "骨伤·颈椎病痹痛证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-011",
+        "title": "骨伤·颈椎病痹痛证治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-012",
+      "title": "骨伤·腰椎间盘突出血瘀证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-012",
+        "title": "骨伤·腰椎间盘突出血瘀证治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-013",
+      "title": "骨伤·急性腰扭伤理筋手法",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-013",
+        "title": "骨伤·急性腰扭伤理筋手法",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-014",
+      "title": "骨伤·膝骨关节炎寒湿证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-014",
+        "title": "骨伤·膝骨关节炎寒湿证治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-015",
+      "title": "骨伤·肩周炎松解手法",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-015",
+        "title": "骨伤·肩周炎松解手法",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-016",
+      "title": "骨伤·踝关节扭伤早期处理",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-016",
+        "title": "骨伤·踝关节扭伤早期处理",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-017",
+      "title": "骨伤·伤筋三期用药原则",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《方剂学》规划教材",
+        "《方剂学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-017",
+        "title": "骨伤·伤筋三期用药原则",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-018",
+      "title": "骨伤·骨折愈合与练功康复",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-018",
+        "title": "骨伤·骨折愈合与练功康复",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-019",
+      "title": "骨伤·骨不连气血亏虚证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《方剂学》规划教材",
+        "《中国药典》"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-019",
+        "title": "骨伤·骨不连气血亏虚证治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb21-v-020",
+      "title": "骨伤·创伤急救止血包扎要点",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中医骨伤科学》规划教材",
+        "《中药学》规划教材",
+        "《中医骨伤科学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb21-v-020",
+        "title": "骨伤·创伤急救止血包扎要点",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    }
+  ]
+}

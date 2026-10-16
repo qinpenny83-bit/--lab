@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="zh"><head>
+<meta charset="UTF-8">
+<title>Fun Check</title>
+<style>body { font-family: monospace; padding: 12px; background: #fff; } pre { white-space: pre-wrap; } iframe { width: 1200px; height: 1500px; border: 1px solid #ccc; }</style>
+</head>
+<body>
+<iframe src="/#/practice/00-08"></iframe>
+<script>
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  await sleep(8000);
+  const lines = [];
+  try {
+    const ifr = document.querySelector('iframe');
+    const d = ifr.contentDocument;
+    const pick = (sel) => {
+      const el = d.querySelector(sel);
+      return el ? el.textContent.trim().replace(/\s+/g, ' ').slice(0, 120) : '(absent)';
+    };
+    lines.push('PERSONA: ' + pick('.persona-card'));
+    lines.push('DRAMA: ' + pick('.drama-box'));
+    lines.push('FUNFACT: ' + pick('.funfact-box'));
+    lines.push('MEM: ' + pick('.mem-text'));
+    lines.push('TRAP: ' + pick('.trap-statement'));
+  } catch (e) {
+    lines.push('ERR ' + e.message);
+  }
+  const pre = document.createElement('pre');
+  pre.textContent = lines.join('\n');
+  document.body.appendChild(pre);
+})();
+</script>
+
+
+<pre>PERSONA: 🎭 肝 · 化工厂厂长人设档案「谁惹我，我「肝火」就旺！」解毒、代谢、分泌胆汁、存营养；性格闷不吭声——早期受损也没感觉，所以要主动护肝。
+DRAMA: 🎬 情景小剧场 热闹的聚餐饭桌「端着酒杯的朋友」认真地对你说——「以为肝只是「解毒的」，解毒就是它的全部」上面这句台词，是「正确理解」还是「常见误区」？请判断：
+FUNFACT: 💡涨知识：你睡着的时候，肝可没闲着——中医说「人卧则血归于肝」，人静卧时，约有四分之一的血液会回到肝里「加班」。
+MEM: 肝是人体最大的内脏器官，躺在右上腹，像一座化工厂：血液里的毒物、药物、酒精都在这里被分解转化；糖、脂肪、蛋白质的代谢在这里调度；它还分泌胆汁帮消化脂肪，并把多余的营养存进仓库备用。肝脏再生能力强，切掉一部分能长回来，但它对损伤「闷不吭声」，
+TRAP: 「以为肝只是「解毒的」，解毒就是它的全部」</pre></body></html>

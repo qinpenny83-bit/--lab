@@ -1,0 +1,93 @@
+{
+  "seed": "phase-5/batch-6",
+  "genLabel": "Phase 5 · Batch-6 · 108 nodes（G 中药学 142→250）",
+  "total": 108,
+  "counts": {
+    "candidate": 108,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 451,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 11,
+    "covered": 11,
+    "rate": 100,
+    "riskTitles": [
+      "甘草与大枣",
+      "半夏与天南星",
+      "马兜铃与枇杷叶",
+      "黄药子与海藻",
+      "白果与麻黄",
+      "半夏与陈皮",
+      "朱砂与磁石",
+      "洋金花与麻黄",
+      "附子与肉桂",
+      "附子与干姜",
+      "麻黄与桂枝"
+    ]
+  },
+  "difficulty": {
+    "basic": {
+      "count": 62,
+      "pct": 57
+    },
+    "mid": {
+      "count": 29,
+      "pct": 27
+    },
+    "hard": {
+      "count": 15,
+      "pct": 14
+    },
+    "mixed": {
+      "count": 2,
+      "pct": 2
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "Batch-6：G 中药学补足 108 节点至目标下限 250（补虚/化痰止咳平喘/安神/平肝息风/开窍/收涩/温里/理气/消食/解表/清热深度对比）",
+  "generatedAt": "2026-09-21T06:00:36.687Z"
+}

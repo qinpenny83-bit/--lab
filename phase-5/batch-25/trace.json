@@ -1,0 +1,1431 @@
+{
+  "seed": "phase-5/batch-25",
+  "total": 20,
+  "trace": [
+    {
+      "nodeId": "pb25-z-001",
+      "title": "急诊·高热急症辨证救治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《温病学》规划教材",
+        "《温病学》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-001",
+        "title": "急诊·高热急症辨证救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-002",
+      "title": "急诊·神昏急症辨证救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《温病学》规划教材",
+        "《温病学》规划教材",
+        "《温病学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-002",
+        "title": "急诊·神昏急症辨证救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-003",
+      "title": "急诊·厥脱阳脱证救治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《伤寒论》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-003",
+        "title": "急诊·厥脱阳脱证救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-004",
+      "title": "急诊·中风急症闭证救治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《温病学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-004",
+        "title": "急诊·中风急症闭证救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-005",
+      "title": "急诊·胸痹真心痛救治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-005",
+        "title": "急诊·胸痹真心痛救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-006",
+      "title": "急诊·喘脱证救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-006",
+        "title": "急诊·喘脱证救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-007",
+      "title": "急诊·血证大出血救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-007",
+        "title": "急诊·血证大出血救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-008",
+      "title": "急诊·剧烈腹痛急腹症鉴别",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-008",
+        "title": "急诊·剧烈腹痛急腹症鉴别",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-009",
+      "title": "急诊·急性吐泻津脱救治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-009",
+        "title": "急诊·急性吐泻津脱救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-010",
+      "title": "急诊·惊厥抽搐救治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-010",
+        "title": "急诊·惊厥抽搐救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-011",
+      "title": "急诊·中暑阳暑阴暑辨治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-011",
+        "title": "急诊·中暑阳暑阴暑辨治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=4 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-012",
+      "title": "急诊·溺水急救复苏",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-012",
+        "title": "急诊·溺水急救复苏",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-013",
+      "title": "急诊·电击伤急救",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-013",
+        "title": "急诊·电击伤急救",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-014",
+      "title": "急诊·急性中毒洗胃导泻",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中药学》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-014",
+        "title": "急诊·急性中毒洗胃导泻",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-015",
+      "title": "急诊·毒蛇咬伤急救",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中药学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-015",
+        "title": "急诊·毒蛇咬伤急救",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=2 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-016",
+      "title": "急诊·烧烫伤早期处理",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中药学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-016",
+        "title": "急诊·烧烫伤早期处理",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-017",
+      "title": "急诊·犬咬伤处置与狂犬病预防",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《传染病学》规划教材",
+        "《传染病学》规划教材",
+        "《中医急诊学》规划教材",
+        "《传染病学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-017",
+        "title": "急诊·犬咬伤处置与狂犬病预防",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=1 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "na",
+          "note": "不涉及经典",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-018",
+      "title": "急诊·急性喉梗阻救治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《方剂学》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-018",
+        "title": "急诊·急性喉梗阻救治",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=3 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-019",
+      "title": "急诊·多脏器功能衰竭中医参与",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中国药典》",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-019",
+        "title": "急诊·多脏器功能衰竭中医参与",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 6/6 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    },
+    {
+      "nodeId": "pb25-z-020",
+      "title": "急诊·急危重症监护与转诊指征",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "source": [
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材",
+        "《中医急诊学》规划教材"
+      ],
+      "sourceType": [
+        "textbook"
+      ],
+      "verificationStatus": [
+        "verified"
+      ],
+      "L1": [],
+      "L2": [],
+      "L3": [],
+      "L4": [],
+      "L5": [],
+      "L6": [],
+      "factCollection": [],
+      "gateResults": [],
+      "contentQualityReview": {
+        "nodeId": "pb25-z-020",
+        "title": "急诊·急危重症监护与转诊指征",
+        "category": "clinical",
+        "Q1": {
+          "score": "pass",
+          "note": "事实 5/5 条来源要素齐全"
+        },
+        "Q2": {
+          "score": "pass",
+          "note": "knowledge 含具体知识点"
+        },
+        "Q3": {
+          "score": "pass",
+          "note": "reasoning 为问句;misjudgment 含具体陷阱"
+        },
+        "Q4": {
+          "score": "pass",
+          "note": "difficulty=5 合法，难度匹配须人工核对"
+        },
+        "Q5": {
+          "score": "pass",
+          "note": "stdJudgment 批次内唯一"
+        },
+        "Q6": {
+          "score": "pass",
+          "note": "经典条目带原文或已分层",
+          "hits": []
+        },
+        "Q7": {
+          "score": "pass",
+          "hits": [],
+          "note": "未检出机器味句式"
+        },
+        "Q8": {
+          "score": "pass",
+          "note": "transfer 提供可迁移的新情境"
+        },
+        "machineLikeCount": 0,
+        "reviewer": "human (待人工审核)",
+        "preliminary": "content-candidate"
+      },
+      "finalStatus": "candidate"
+    }
+  ]
+}

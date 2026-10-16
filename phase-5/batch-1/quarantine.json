@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-1",
+  "genLabel": "Phase 5 · Batch-1 · 150 nodes（A28 + B40 + G42 + L40，33 学科蓝图首批基础四科）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截（证据不足 / 反证无效 / 套话修正 / 模板化 / 非法来源枚举）。隔离即安全：不得自动放行。",
+  "samples": []
+}

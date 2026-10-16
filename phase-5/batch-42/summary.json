@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-42",
+  "genLabel": "Phase 5 · Batch-42 · 23 nodes（收官：AD 医德法规 12→20 / AE 医患沟通心理 12→20 / AF 循证科研 18→25 全部达上限，全库 2185 节点）",
+  "total": 23,
+  "counts": {
+    "candidate": 23,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 115,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 16,
+      "pct": 70
+    },
+    "mid": {
+      "count": 4,
+      "pct": 17
+    },
+    "hard": {
+      "count": 2,
+      "pct": 9
+    },
+    "mixed": {
+      "count": 1,
+      "pct": 4
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "AD 中医药医德传承/针灸推拿伦理/互联网诊疗/传染病防治法/药品管理法/纠纷处理/中药饮片调剂/药品流通 8；AE 倾听共情/儿童老年沟通/慢病心理调适/家属支持/职业倦怠/睡眠心理/疼痛心理 8；AF 指南制定/GRADE/系统评价解读/异质性发表偏倚/非劣效等效/真实世界研究/中医药循证 7",
+  "generatedAt": "2026-09-26T09:17:57.075Z"
+}

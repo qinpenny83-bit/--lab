@@ -1,0 +1,1288 @@
+{
+  "seed": "phase-4/batch-4",
+  "genLabel": "Phase 4 · Batch-4 · 139 nodes（105 计划 + 34 legacy 补足，完成 305 覆盖）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记（出处待核 / C4 语义门 humanReviewRequired / 暂缓判断类）。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 84
+  },
+  "samples": [
+    {
+      "id": "pb4-th-01-02",
+      "title": "整体观念",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "基础",
+      "reviewReasons": [
+        "经典「人以天地之气生」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「人以天地之气生」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-03",
+      "title": "阴阳对立制约",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「阴平阳秘」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「阴平阳秘」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-06",
+      "title": "阴阳相互转化",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「重寒则热」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「重寒则热」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-08",
+      "title": "阴阳在人体中的体现",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「背为阳，腹为阴」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「背为阳，腹为阴」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-09",
+      "title": "阴阳与生理",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「阴在内，阳之守也」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「阴在内，阳之守也」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-10",
+      "title": "阴阳与病理",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「阴胜则阳病」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「阴胜则阳病」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-11",
+      "title": "阴阳与诊断",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「善诊者，察色按脉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「善诊者，察色按脉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-04",
+      "title": "肝",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「肝者，罢极之本」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「肝者，罢极之本」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-05",
+      "title": "脾",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「脾胃者，仓廪之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「脾胃者，仓廪之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-06",
+      "title": "肺",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「肺者，相傅之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「肺者，相傅之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-07",
+      "title": "肾",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「肾者，作强之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「肾者，作强之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-09",
+      "title": "胆",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「胆者，中正之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「胆者，中正之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-10",
+      "title": "胃",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「胃者，水谷之海」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「胃者，水谷之海」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-11",
+      "title": "小肠",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「小肠者，受盛之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「小肠者，受盛之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-12",
+      "title": "大肠",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「大肠者，传导之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「大肠者，传导之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-13",
+      "title": "膀胱",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「膀胱者，州都之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「膀胱者，州都之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-14",
+      "title": "三焦",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「三焦者，决渎之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「三焦者，决渎之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-03",
+      "title": "气的生成",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「天食人以五气」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「天食人以五气」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-05",
+      "title": "气的运动",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「升降出入，无器不有」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「升降出入，无器不有」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-07",
+      "title": "气的分类",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「卫气者，所以温分肉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「卫气者，所以温分肉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-08",
+      "title": "血的基本概念",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「中焦受气取汁」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「中焦受气取汁」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-09",
+      "title": "津液的基本概念",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「腠理发泄，汗出溱溱」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「腠理发泄，汗出溱溱」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-13",
+      "title": "血与津液的关系",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「夺血者无汗，夺汗者无血」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「夺血者无汗，夺汗者无血」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-07-09",
+      "title": "七情内伤",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「怒则气上」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「怒则气上」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-07-14",
+      "title": "瘀血",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「痛则不通」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「痛则不通」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-08-01",
+      "title": "病机基本概念",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「审察病机，无失气宜」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「审察病机，无失气宜」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-08-03",
+      "title": "阴阳失调",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「阴胜则阳病」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": true,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「阴胜则阳病」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-08-04",
+      "title": "气血失常",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-08-07",
+      "title": "气机升降出入失常",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「清气在下，则生飧泄」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「清气在下，则生飧泄」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-01",
+      "title": "望诊理论基础",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「望而知之谓之神」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「望而知之谓之神」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-02",
+      "title": "望神",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「得神者昌，失神者亡」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「得神者昌，失神者亡」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-06",
+      "title": "望舌（舌诊）",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「舌为心之苗」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「舌为心之苗」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-08",
+      "title": "闻诊理论基础",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「闻而知之谓之圣」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「闻而知之谓之圣」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-11",
+      "title": "问诊理论基础",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「问而知之谓之工」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「问而知之谓之工」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-14",
+      "title": "问汗",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「阳加于阴谓之汗」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「阳加于阴谓之汗」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-20",
+      "title": "切诊理论基础",
+      "category": "diagnostic",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「切而知之谓之巧」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「切而知之谓之巧」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-21",
+      "title": "脉诊基本",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「三部九候」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「三部九候」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-22",
+      "title": "常见脉象（浮沉迟数）",
+      "category": "diagnostic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「脉浮者，病在表」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「脉浮者，病在表」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-dg-09-25",
+      "title": "舌诊与病机对应",
+      "category": "diagnostic",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-10-04",
+      "title": "表里出入",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「伤寒一日，太阳受之」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「伤寒一日，太阳受之」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-10-08",
+      "title": "寒热真假",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「寒极生热，热极生寒」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": true,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「寒极生热，热极生寒」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-10-09",
+      "title": "虚证与实证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「邪气盛则实，精气夺则虚」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「邪气盛则实，精气夺则虚」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-02-17",
+      "title": "阴阳在养生中的应用",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「春夏养阳，秋冬养阴」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「春夏养阳，秋冬养阴」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-03-14",
+      "title": "五行在情志配属中的应用",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「怒伤肝，悲胜怒」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「怒伤肝，悲胜怒」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-20",
+      "title": "五脏与五液五志五窍",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「肝开窍于目」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「肝开窍于目」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-04-21",
+      "title": "女子胞与冲任二脉",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「女子七岁，肾气盛，齿更发长；二七而天癸至，任脉通，太冲脉盛，月事以时下」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「女子七岁，肾气盛，齿更发长；二七而天癸至，任脉通，太冲脉盛，月事以时下」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-05-18",
+      "title": "气街与四海",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「人有髓海、血海、气海、水谷之海」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「人有髓海、血海、气海、水谷之海」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-me-06-09",
+      "title": "十二经别",
+      "category": "meridian",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「十二经脉，三百六十五络」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「十二经脉，三百六十五络」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-me-06-10",
+      "title": "标本根结",
+      "category": "meridian",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「根于涌泉，结于廉泉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「根于涌泉，结于廉泉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-11-15",
+      "title": "气血津液辨证与脏腑辨证衔接",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-14-08",
+      "title": "卫气营血与现代感染性疾病",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-19-12",
+      "title": "《神农本草经》概览",
+      "category": "classic",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「上药一百二十种为君」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「上药一百二十种为君」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-ca-20-02",
+      "title": "古代名医医案",
+      "category": "case",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-ca-20-04",
+      "title": "复杂病机医案",
+      "category": "case",
+      "difficulty": 5,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-ca-20-05",
+      "title": "误治医案",
+      "category": "case",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-ca-20-06",
+      "title": "医案中的思维还原",
+      "category": "case",
+      "difficulty": 5,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-21-04",
+      "title": "病因+病机→辨证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「审察病机，无失气宜」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": true,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「审察病机，无失气宜」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-21-06",
+      "title": "排除法辨证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-21-08",
+      "title": "综合辨证练习",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-th-22-03",
+      "title": "六经 vs 八纲",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「病有发热恶寒者，发于阳也；无热恶寒者，发于阴也」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「病有发热恶寒者，发于阳也；无热恶寒者，发于阴也」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-23-01",
+      "title": "整体思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「治病必求于本」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「治病必求于本」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-23-02",
+      "title": "动态思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「善治者治皮毛，其次治肌肤，其次治筋脉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「善治者治皮毛，其次治肌肤，其次治筋脉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-23-04",
+      "title": "类比思维",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「援物比类，化之冥冥」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「援物比类，化之冥冥」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-23-09",
+      "title": "避免单因素推断",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「四诊合参，不可偏废」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": true,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「四诊合参，不可偏废」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb4-th-23-10",
+      "title": "避免机械套证",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-10-14",
+      "title": "八纲辨证常见误区",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-11-08",
+      "title": "血热证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-11-11",
+      "title": "痰证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-11-12",
+      "title": "饮证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-11-13",
+      "title": "水湿证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-12-01",
+      "title": "脏腑辨证总论",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「君主之官」来源纠偏：status→verified（「心者，君主之官也，神明出焉」原文）"
+        }
+      ]
+    },
+    {
+      "id": "pb4-cl-13-04",
+      "title": "少阳病辨证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-13-05",
+      "title": "太阴病辨证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-13-06",
+      "title": "少阴病辨证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-13-07",
+      "title": "厥阴病辨证",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-th-16-04",
+      "title": "正治与反治",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-fo-17-03",
+      "title": "组方原则",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-fo-17-08",
+      "title": "方证关系",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-fo-18-16",
+      "title": "类方比较",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-21-03",
+      "title": "八纲→气血津液→脏腑递进",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-21-05",
+      "title": "多假设推理",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-21-07",
+      "title": "证候演变预测",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-cl-22-06",
+      "title": "不同体系如何协同",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    },
+    {
+      "id": "pb4-th-23-08",
+      "title": "综合判断",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [],
+      "humanReviewRequired": true,
+      "corrections": []
+    }
+  ]
+}

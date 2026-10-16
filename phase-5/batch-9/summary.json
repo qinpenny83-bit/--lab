@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-9",
+  "genLabel": "Phase 5 · Batch-9 · 85 nodes（L 方剂学 145→230）",
+  "total": 85,
+  "counts": {
+    "candidate": 85,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 465,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 52,
+      "pct": 61
+    },
+    "mid": {
+      "count": 20,
+      "pct": 24
+    },
+    "hard": {
+      "count": 10,
+      "pct": 12
+    },
+    "mixed": {
+      "count": 3,
+      "pct": 4
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "Batch-9：L 方剂学祛湿/祛痰/消食/驱虫/治风/治燥/祛暑/痈疡/表里双解/开窍/鉴别对照 85 节点",
+  "generatedAt": "2026-09-21T08:28:04.554Z"
+}

@@ -1,0 +1,2729 @@
+{
+  "seed": "phase-5/batch-28",
+  "genLabel": "Phase 5 · Batch-28 · AC 现代医学基础 40 nodes",
+  "total": 40,
+  "note": "AC 现代医学基础 40 节点：解剖生理、病理药理、检验影像、急救基础、循证意识",
+  "samples": [
+    {
+      "id": "pb28-ac-001",
+      "title": "现代医学·细胞结构与基本功能",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "细胞结构",
+        "细胞膜",
+        "细胞器",
+        "细胞核",
+        "线粒体"
+      ],
+      "intent": "掌握细胞的基本结构层次与主要细胞器的功能定位，为理解病理变化打基础。",
+      "learning": {
+        "knowledge": "细胞膜构成液态镶嵌模型，介导单纯扩散、易化扩散、主动转运等跨膜转运；线粒体经三羧酸循环与氧化磷酸化供能；粗面内质网与核糖体合成蛋白质，高尔基体修饰包装分泌；溶酶体为细胞内消化器官；细胞核经DNA复制与转录传递遗传信息，核仁与核糖体合成相关。",
+        "misjudgment": "把细胞膜的跨膜转运都当作被动过程。错：Na⁺-K⁺泵逆浓度梯度耗能转运，属主动转运，若误作被动扩散，便无法解释静息电位的维持机制。",
+        "reasoning": "同为膜蛋白，为何通道蛋白介导离子快速跨膜而泵蛋白却需消耗ATP？",
+        "feedback": "通道蛋白形成亲水性孔道，离子顺电化学梯度易化通过；泵蛋白逆梯度做功，须ATP供能，两者的耗能与方向属性截然不同。",
+        "transfer": "缺氧使线粒体氧化磷酸化受阻时，细胞能量代谢与离子稳态会出现哪些连锁变化？"
+      },
+      "stdJudgment": "细胞是人体结构与功能的基本单位，由细胞膜、细胞质与细胞核构成。细胞膜以磷脂双分子层为骨架、镶嵌蛋白质，承担物质转运与信号识别；线粒体为有氧氧化供能场所，内质网与高尔基体负责蛋白质合成加工分泌，溶酶体消化异物，细胞核承载遗传物质。",
+      "coreDefinition": "细胞由细胞膜、细胞质（含细胞器）与细胞核构成，是人体结构和功能的基本单位。",
+      "facts": [
+        {
+          "field": "clinical.细胞膜结构与功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主要细胞器",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.细胞核与遗传信息",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.细胞损伤与死亡",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为细胞学基础知识，无用药剂量内容。",
+        "caution": "理解可逆性损伤与不可逆性坏死、凋亡的界限，是后续认识炎症与肿瘤病理的起点，形态描述须结合显微结构。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；本节为形态学基础知识，不涉及药物或临床操作",
+        "prohibitions": [
+          "本节为解剖生理知识，不涉及药物与操作"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-002",
+      "title": "现代医学·人体九大系统概览",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "九大系统",
+        "运动系统",
+        "消化系统",
+        "循环系统",
+        "系统协调"
+      ],
+      "intent": "建立人体九大系统的整体框架，掌握各系统主要组成与核心功能及协调方式。",
+      "learning": {
+        "knowledge": "九大系统各有主司：运动系统由骨、骨连接与骨骼肌构成，消化系统含消化管与消化腺，呼吸系统由呼吸道与肺组成，循环系统分心血管系与淋巴系，泌尿系统主司排泄，神经与内分泌系统主导调节。各系统功能叠加构成整体，任一系统失衡均可波及其他系统。",
+        "misjudgment": "把内分泌与神经系统的调节作用彼此割裂。错：下丘脑-垂体-靶腺轴即为神经与内分泌的交接枢纽，应激反应同时动员交感神经与肾上腺，两大调节系统实为一体。",
+        "reasoning": "为何循环系统疾病常以呼吸困难为首发症状，而非心悸胸痛？",
+        "feedback": "左心功能不全使肺静脉淤血，直接以肺换气障碍的形式表现，提示系统间以功能连动相互影响，问诊不可拘泥于单一系统。",
+        "transfer": "慢性肾衰竭患者出现贫血与骨痛，试从系统间联系解释其发生机制。"
+      },
+      "stdJudgment": "人体按解剖生理分为运动、消化、呼吸、泌尿、生殖、循环、淋巴（免疫）、神经与内分泌九大系统。各系统由相应器官与组织构成，行使相对独立的生理职能，又经神经-体液-免疫网络整合调节，共同维持内环境稳态，系统之间以功能连动相互影响。",
+      "coreDefinition": "人体九大系统由相应器官组织构成，分别承担运动、消化、呼吸、泌尿、生殖、循环、免疫、神经与内分泌功能，经神经体液免疫调节协同。",
+      "facts": [
+        {
+          "field": "clinical.系统划分",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.各系统组成与功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.系统间协调",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.疾病的系统归属",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为系统解剖生理概览，无用药剂量内容。",
+        "caution": "九大系统划分是临床分科的解剖学基础，同一疾病可累及多系统，问诊查体须按系统逐项排查。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；本节为系统概览知识，不涉及药物或临床操作",
+        "prohibitions": [
+          "本节为系统概览知识，不涉及药物与操作"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-003",
+      "title": "现代医学·血液组成与血型",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "血液",
+        "血细胞",
+        "ABO血型",
+        "Rh血型",
+        "输血原则"
+      ],
+      "intent": "掌握血液的组成、血细胞正常参考值与ABO/Rh血型系统的核心规则。",
+      "learning": {
+        "knowledge": "血浆占全血55%左右，含白蛋白、球蛋白、纤维蛋白原等；红细胞寿命约120天，靠血红蛋白运输氧与二氧化碳；白细胞分中性、嗜酸、嗜碱粒细胞与淋巴细胞、单核细胞，构成防御体系；血小板参与止血凝血。贫血按红细胞形态分正细胞性、小细胞低色素性与大细胞性三类。",
+        "misjudgment": "把O型血当作万能供血者随意输注。错：O型红细胞虽无A、B抗原，但其血浆含抗A抗B抗体，大量输注可使受血者红细胞发生溶血，仅应急时少量应用。",
+        "reasoning": "同为同型输血，为何Rh阴性者首次输血通常安全，而再次输血可能发生溶血？",
+        "feedback": "Rh阴性者首次接触Rh阳性红细胞后产生抗D抗体需数周，再次输注时记忆性免疫应答迅速激活，血管内溶血快速而剧烈。",
+        "transfer": "反复输血的贫血患者出现输血反应，试从血型抗体角度排查可能的病因。"
+      },
+      "stdJudgment": "血液由血浆与血细胞构成，血细胞含红细胞、白细胞与血小板。成人红细胞计数男性约4.0~5.5×10¹²/L，白细胞4~10×10⁹/L，血小板100~300×10⁹/L。ABO血型按红细胞膜A、B抗原划分，输血以同型为原则；Rh阴性者无抗D天然抗体，再次输入Rh阳性血可致严重溶血。",
+      "coreDefinition": "血液由血浆与红细胞、白细胞、血小板构成；ABO血型按A/B抗原分四型，Rh血型以D抗原分阴阳，输血须同型且交叉配血。",
+      "facts": [
+        {
+          "field": "clinical.血液组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血细胞参考值",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血型系统",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.输血原则",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.贫血类型",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：输血属临床操作，本节仅讲授血液学基础概念。",
+        "caution": "ABO血型不合输血可致急性溶血反应，Rh阴性受血者再次接触Rh阳性血液风险升高，输血前必须完成交叉配血。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；血型鉴定与配血错误可致致命性溶血反应",
+        "prohibitions": [
+          "输血必须遵循同型输注与交叉配血原则，血型鉴定错误可致致命性溶血反应"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-004",
+      "title": "现代医学·循环系统解剖生理",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "循环系统",
+        "心脏",
+        "体循环",
+        "肺循环",
+        "心动周期"
+      ],
+      "intent": "掌握心脏结构、体肺循环路径、心动周期与心输出量、血压的决定因素。",
+      "learning": {
+        "knowledge": "心脏四腔，左心室泵血入主动脉构成体循环，右心室泵血入肺动脉构成肺循环；心动周期中房室瓣与半月瓣交替开闭，产生第一、第二心音；每搏输出量受心室舒张末期容积（前负荷）、动脉血压（后负荷）与心肌收缩力影响；颈动脉窦与主动脉弓压力感受器反射即时调节血压。",
+        "misjudgment": "把收缩压升高都归因于心输出量增加。错：多数原发性高血压以外周阻力升高为主，老年患者常见大动脉顺应性下降致脉压增大，机制不同处理思路各异。",
+        "reasoning": "剧烈运动时心输出量数倍增加而血压升高有限，机体如何同时兼顾供血与血压稳定？",
+        "feedback": "运动时交感兴奋增强心肌收缩力并选择性收缩内脏血管，骨骼肌血管却因局部代谢产物扩张，总外周阻力相对稳定，故血压升幅小于心输出量增幅。",
+        "transfer": "大量失血早期血压尚可维持而后骤降，试以代偿机制解释这一过程。"
+      },
+      "stdJudgment": "循环系统由心脏与血管构成，血液经体循环与肺循环两条回路周流不息。心脏以窦房结为起搏点，心动周期分收缩期与舒张期，心输出量等于每搏输出量乘心率，受前负荷、后负荷与心肌收缩力调节，血压由心输出量与外周阻力共同决定。",
+      "coreDefinition": "循环系统由心脏、动脉、毛细血管与静脉构成，心输出量=每搏量×心率，血压取决于心输出量与总外周阻力。",
+      "facts": [
+        {
+          "field": "clinical.心脏结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血管系统与循环路径",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心动周期",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血压调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心力衰竭",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为循环系统解剖生理基础，无用药剂量内容。",
+        "caution": "血压与心率的正常范围受年龄与状态影响，单次测量异常须复测并动态观察，不宜即时定性。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；听诊、测血压等操作须在医师指导下进行",
+        "prohibitions": [
+          "本节为解剖生理知识，听诊、测血压等操作须在医师指导下进行"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-005",
+      "title": "现代医学·呼吸系统解剖生理",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "呼吸系统",
+        "肺通气",
+        "肺换气",
+        "血气",
+        "呼吸调节"
+      ],
+      "intent": "掌握呼吸道与肺的结构层次、肺通气与换气过程及呼吸调节机制。",
+      "learning": {
+        "knowledge": "肺泡表面活性物质由Ⅱ型肺泡细胞分泌，降低表面张力防止肺泡塌陷；肺活量等于潮气量加补吸气量加补呼气量；气体交换遵循弥散定律，O₂与CO₂经肺泡-毛细血管膜交换；缺氧与CO₂潴留均可兴奋化学感受器，但CO₂对中枢的刺激作用最强。",
+        "misjudgment": "把呼吸困难一律归因于肺本身病变。错：心源性哮喘、贫血及代谢性酸中毒均可表现气促，须结合心脏体征、血红蛋白与血气综合判断，单查肺脏会漏诊。",
+        "reasoning": "慢性阻塞性肺疾病患者长期CO₂潴留后，为何对CO₂刺激反而不敏感？",
+        "feedback": "长期高碳酸血症使中枢化学感受器对CO₂敏感性下降，呼吸驱动转而依赖低氧刺激外周化学感受器，此时骤然高浓度吸氧可致呼吸抑制。",
+        "transfer": "急性左心衰患者为何咳出粉红色泡沫痰，试从肺循环淤血角度解释。"
+      },
+      "stdJudgment": "呼吸系统由上下呼吸道与肺组成，肺泡构成换气面。肺通气动力来自呼吸肌舒缩，潮气量约500ml；肺泡与血液间经弥散完成气体交换。呼吸节律由延髓呼吸中枢产生，受外周与中枢化学感受器调节，CO₂分压升高是驱动呼吸的最主要刺激。",
+      "coreDefinition": "呼吸包括肺通气与肺换气两环节，通气由呼吸肌驱动，换气靠弥散完成，延髓呼吸中枢与化学感受器协同调节节律。",
+      "facts": [
+        {
+          "field": "clinical.呼吸道与肺结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肺通气",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肺换气",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.呼吸调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.呼吸系统疾病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为呼吸系统解剖生理基础，无用药剂量内容。",
+        "caution": "血氧饱和度与动脉血气分析是评估呼吸功能的客观手段，不能单凭发绀判断缺氧程度。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；氧疗与血气分析须由医护人员执行",
+        "prohibitions": [
+          "氧疗、血气分析等操作须由医护人员执行，家庭氧疗须遵医嘱设定流量"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-006",
+      "title": "现代医学·消化系统解剖生理",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "消化系统",
+        "消化吸收",
+        "胃液",
+        "肝脏",
+        "胰腺"
+      ],
+      "intent": "掌握消化管的解剖分段、机械与化学消化过程及肝脏胰腺的功能。",
+      "learning": {
+        "knowledge": "胃液含盐酸与胃蛋白酶原，盐酸激活胃蛋白酶并杀菌；胆汁由肝分泌、胆囊储存，乳化脂肪促进吸收；胰液含胰蛋白酶、胰淀粉酶、胰脂肪酶，是最重要的消化液；糖、氨基酸经门静脉入肝，长链脂肪酸以乳糜微粒经淋巴入血；门静脉将吸收物质先送肝脏处理。",
+        "misjudgment": "把脂肪吸收路径当作全部经门静脉入肝。错：长链脂肪酸形成乳糜微粒经淋巴管汇入胸导管后入血，只有中短链脂肪酸直接入门静脉，一概而论会误判吸收途径。",
+        "reasoning": "切除胆囊后患者进食油腻为何易腹泻，而数月后多能耐受？",
+        "feedback": "胆囊储存浓缩胆汁，切除后胆汁持续缓慢入肠，进食油腻时胆盐浓度不足，脂肪乳化消化受限故腹泻；胆总管代偿性扩张后消化渐趋适应。",
+        "transfer": "肝硬化患者出现呕血，试从门静脉高压侧支循环角度解释出血来源。"
+      },
+      "stdJudgment": "消化系统由口腔、咽、食管、胃、小肠、大肠等消化管及唾液腺、肝、胰等消化腺组成。消化分机械性咀嚼蠕动与化学性酶解两类；三大营养物质主要在小肠吸收；肝脏承担代谢、解毒、胆汁分泌与凝血因子合成，胰腺分泌胰酶与胰岛素，内外分泌兼备。",
+      "coreDefinition": "消化系统由消化管与消化腺构成，经机械与化学消化将食物分解为小分子，主要在小肠吸收，肝与胰承担代谢与内分泌功能。",
+      "facts": [
+        {
+          "field": "clinical.消化管结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.化学消化",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.营养物质吸收",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肝脏功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.胰腺功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.消化系统疾病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为消化系统解剖生理基础，无用药剂量内容。",
+        "caution": "上消化道出血、急腹症表现凶险，鉴别涉及内镜与影像检查，不可仅凭症状自行判断。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；胃肠镜检查属侵入性操作须在医疗机构进行",
+        "prohibitions": [
+          "本节为解剖生理知识，胃肠镜检查等侵入性操作须在医疗机构进行"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-007",
+      "title": "现代医学·泌尿系统解剖生理",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "泌尿系统",
+        "肾单位",
+        "肾小球滤过",
+        "重吸收",
+        "肾脏内分泌"
+      ],
+      "intent": "掌握肾脏与输尿道的结构层次、肾单位滤过重吸收分泌过程及尿液生成。",
+      "learning": {
+        "knowledge": "肾小球滤过膜由内皮细胞、基膜与足细胞构成，阻止血细胞与大分子蛋白通过；正常成人每日滤过原尿约180L，而终尿仅1~2L，99%水被重吸收；葡萄糖在近端小管全部重吸收，超过肾糖阈则出现尿糖；抗利尿激素调节远曲小管与集合管对水的通透性，醛固酮保钠排钾。",
+        "misjudgment": "把尿蛋白阳性都当作肾小球病变。错：发热、剧烈运动可出现一过性生理性蛋白尿，肾小管病变也可致小分子蛋白尿，须定量与分型后再定性。",
+        "reasoning": "同为滤过屏障受损，为何肾病综合征大量蛋白尿而血尿不突出？",
+        "feedback": "肾病综合征以基膜电荷屏障及分子屏障损伤为主，蛋白漏出多而红细胞漏出少；肾小球肾炎则以孔径屏障破坏为主，血尿显著，两者病理损害位点不同。",
+        "transfer": "长期未控制的糖尿病为何损伤肾脏，试从高滤过与基膜增厚角度推导。"
+      },
+      "stdJudgment": "泌尿系统由肾、输尿管、膀胱与尿道组成，肾单位是结构和功能单位，由肾小球与肾小管构成。血浆经肾小球滤过形成原尿，肾小管选择性重吸收并分泌，最终生成终尿。肾脏还分泌肾素、促红细胞生成素并活化维生素D，参与血压、造血与钙磷代谢调节。",
+      "coreDefinition": "肾单位完成滤过-重吸收-分泌三部曲生成尿液，肾脏同时是内分泌器官，分泌肾素、促红细胞生成素并活化维生素D。",
+      "facts": [
+        {
+          "field": "clinical.肾脏结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾小球滤过",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.重吸收与分泌",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾脏内分泌",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾脏病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾脏疾病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为泌尿系统解剖生理基础，无用药剂量内容。",
+        "caution": "尿量骤减或骤增、肉眼血尿均属警示信号，须及时就医查尿常规与肾功能。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；导尿等操作须由医护人员执行",
+        "prohibitions": [
+          "本节为解剖生理知识，导尿等操作须由医护人员执行"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-008",
+      "title": "现代医学·神经系统解剖生理",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "神经系统",
+        "神经元",
+        "突触",
+        "反射弧",
+        "自主神经"
+      ],
+      "intent": "掌握神经元的电活动与突触传递、反射弧结构与脑的层次分区及自主神经功能。",
+      "learning": {
+        "knowledge": "静息电位由K⁺外流形成，动作电位由Na⁺内流形成并沿轴突传导；突触传递经突触前膜释放递质、突触后膜受体结合完成，可分兴奋性与抑制性；脑干网状结构维持觉醒，基底节调节肌张力，交感与副交感神经拮抗协同，共同维持内环境稳定。",
+        "misjudgment": "把神经递质的作用理解为非兴奋即抑制的单一模式。错：同一递质如乙酰胆碱在骨骼肌接头为兴奋、在心肌则经迷走发挥抑制，作用取决于受体亚型与效应器官。",
+        "reasoning": "脊髓横断初期为何出现弛缓性瘫痪，而数周后转为痉挛性瘫痪？",
+        "feedback": "脊休克期高位的下行调控突然中断，反射活动暂时消失呈弛缓；随后脊髓固有反射恢复且失去上位抑制，牵张反射亢进故呈痉挛。",
+        "transfer": "帕金森病静止性震颤与基底节多巴胺不足相关，试推导治疗应围绕哪类递质平衡展开。"
+      },
+      "stdJudgment": "神经系统由中枢部（脑与脊髓）和周围部（脑神经与脊神经）组成，基本单位是神经元，经突触传递兴奋。反射是神经系统活动的基本形式，反射弧五环节缺一不可。脑干维持生命中枢，小脑协调运动，大脑皮层主司感觉运动与高级认知，自主神经调控内脏活动。",
+      "coreDefinition": "神经系统以神经元为基本单位，借突触传递信息，以反射为基本活动方式；脑干、小脑、大脑皮层分工协同，自主神经调节内脏功能。",
+      "facts": [
+        {
+          "field": "clinical.神经元结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.突触传递",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.中枢神经分区",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.自主神经",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.神经病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为神经系统解剖生理基础，无用药剂量内容。",
+        "caution": "突发肢体麻木、言语不清、剧烈头痛可能是脑血管急症，须立即就医，勿自行观察等待。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；脑卒中、惊厥等神经急症须立即送医",
+        "prohibitions": [
+          "本节为解剖生理知识，神经系统急症（脑卒中、惊厥）须立即送医"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-009",
+      "title": "现代医学·内分泌系统与激素",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "内分泌",
+        "激素",
+        "下丘脑-垂体轴",
+        "靶腺",
+        "负反馈"
+      ],
+      "intent": "掌握激素的化学分类与作用机制、下丘脑-垂体-靶腺轴的调节方式。",
+      "learning": {
+        "knowledge": "甲状腺激素提高基础代谢率并促进生长发育；胰岛素促进糖原合成、降低血糖，胰高血糖素相反；皮质醇经糖皮质激素受体调节代谢与应激；醛固酮经核受体保钠排钾；生长激素促进骨骼与肌肉生长；调节方式以负反馈为主，正反馈见于排卵前的LH高峰与分娩。",
+        "misjudgment": "把糖尿病患者一律视为胰岛素分泌不足。错：2型糖尿病以胰岛素抵抗为主，早期胰岛素水平不低反高，治疗路径与1型显著不同。",
+        "reasoning": "长期大量使用外源性糖皮质激素后突然停药，为何会出现肾上腺皮质功能不全？",
+        "feedback": "外源激素持续抑制下丘脑-垂体-靶腺轴，自身ACTH与皮质醇分泌萎缩，骤停使体内激素骤缺，故须缓慢递减并监测。",
+        "transfer": "甲亢患者为何怕热多汗、消瘦心悸，试从甲状腺激素产热效应推导。"
+      },
+      "stdJudgment": "内分泌系统由内分泌腺与散在的内分泌细胞组成，激素经血液运输作用于靶细胞。激素按化学本质分肽类、胺类与类固醇类，分别经膜受体与胞内受体发挥作用。下丘脑-垂体-靶腺轴构成三级调节，靶腺激素对上级起负反馈抑制，维持血中激素水平相对恒定。",
+      "coreDefinition": "激素分肽类、胺类与类固醇类，经血液运输作用于靶细胞；下丘脑-垂体-靶腺轴配合负反馈调节维持激素稳态。",
+      "facts": [
+        {
+          "field": "clinical.激素分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.下丘脑-垂体轴",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.靶腺功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.反馈调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.内分泌疾病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授激素作用原理，激素类药物属处方药，剂量须由医师个体化制定。",
+        "caution": "糖皮质激素长期应用不可骤停，须逐步减量，否则可致肾上腺皮质危象。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；激素类制剂须遵医嘱使用",
+        "prohibitions": [
+          "激素类制剂须遵医嘱使用，擅自加量或骤停可致严重后果"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-010",
+      "title": "现代医学·免疫系统基础",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "免疫",
+        "固有免疫",
+        "适应性免疫",
+        "抗体",
+        "疫苗"
+      ],
+      "intent": "掌握固有与适应性免疫的分工、主要免疫细胞与体液/细胞免疫两条途径。",
+      "learning": {
+        "knowledge": "皮肤黏膜屏障、吞噬细胞与补体构成固有免疫；T细胞在胸腺成熟，分CD4⁺辅助性与CD8⁺细胞毒性两类；B细胞在骨髓成熟，经抗原刺激分化为浆细胞分泌IgG、IgA、IgM等抗体；初次应答潜伏期长、抗体量低，再次应答快而强，是疫苗免疫的记忆基础；免疫耐受失调可致自身免疫病。",
+        "misjudgment": "把抗体当成清除细胞内病原的主力。错：抗体只能结合细胞外抗原，病毒侵入细胞后须依赖CD8⁺T细胞杀伤感染细胞，体液与细胞免疫各有分工。",
+        "reasoning": "疫苗为何常需加强接种，且再次接种后抗体上升又快又高？",
+        "feedback": "初次接种建立记忆性B细胞与T细胞，加强接种使记忆细胞迅速增殖分化为浆细胞，故再次应答潜伏期短、滴度高、维持久。",
+        "transfer": "艾滋病患者为何易患机会性感染，试从CD4⁺T细胞下降角度解释。"
+      },
+      "stdJudgment": "免疫系统由免疫器官、免疫细胞与免疫分子组成，分固有免疫与适应性免疫两大防线。固有免疫即刻应答、无特异性，屏障、吞噬与补体参与；适应性免疫具特异性与记忆性，B细胞产生抗体介导体液免疫，T细胞介导细胞免疫，两者协同清除病原。",
+      "coreDefinition": "免疫系统由免疫器官、细胞与分子构成；固有免疫快速非特异，适应性免疫特异且有记忆，分体液免疫与细胞免疫两途径。",
+      "facts": [
+        {
+          "field": "clinical.免疫系统组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.固有免疫",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.适应性免疫",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.体液与细胞免疫",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.免疫相关疾病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节为免疫学基础，疫苗与免疫制剂的使用按国家免疫规划执行。",
+        "caution": "疫苗接种有禁忌证，发热、急性感染及免疫缺陷者接种须评估，不可自行决定。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；预防接种须在正规机构按免疫规划进行",
+        "prohibitions": [
+          "预防接种须按免疫规划在正规机构进行，接种前须评估禁忌证"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-011",
+      "title": "现代医学·体温调节与发热",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "体温",
+        "发热",
+        "产热",
+        "散热",
+        "热型"
+      ],
+      "intent": "掌握体温正常范围与调节机制、发热的致热原机制及常见热型鉴别。",
+      "learning": {
+        "knowledge": "产热以肝脏与骨骼肌为主，散热经辐射、传导、对流与蒸发四路，出汗是高温下主要散热方式；体温有昼夜波动，清晨低、午后高，女性排卵后因孕激素作用略升；发热分期为体温上升期、高热持续期与退热期，三期产热散热关系不同；稽留热见于大叶性肺炎，弛张热见于败血症，间歇热见于疟疾。",
+        "misjudgment": "把发热直接等同于感染，或把一切体温升高都当作病理状态。错：剧烈运动、排卵后期体温可生理性升高，肿瘤、结缔组织病亦可致热，须结合伴随症状与检查定位病因。",
+        "reasoning": "退热期皮肤为何大汗淋漓而体温骤降，上升期却寒战不止？",
+        "feedback": "调定点被抬高后体温逐步趋近，机体表现产热亢进的寒战；调定点回落时散热全面开放，血管扩张、汗腺分泌，故大汗而退。",
+        "transfer": "长期低热伴盗汗消瘦者，试按热型与伴随症状列出需鉴别的疾病方向。"
+      },
+      "stdJudgment": "正常体温腋测36~37℃，由下丘脑体温调节中枢以调定点方式维持产热与散热平衡。发热是外源性致热原激活白细胞释放内源性致热原（IL-1、TNF等），上调下丘脑调定点所致，体温随之升高。热型分稽留热、弛张热、间歇热等，对病因诊断有提示意义。",
+      "coreDefinition": "发热由致热原上调下丘脑调定点引起，产热增加散热减少；热型（稽留、弛张、间歇等）是疾病诊断的重要线索。",
+      "facts": [
+        {
+          "field": "clinical.正常体温",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.体温调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.发热机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.热型",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.发热处理",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授体温调节与发热机制，退热药使用须按体重与年龄掌握，勿重复叠加。",
+        "caution": "婴幼儿高热易致热性惊厥，高热不退或伴意识改变、皮疹、出血点者须立即就医。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；高热伴惊厥、意识障碍者属急症须立即就医",
+        "prohibitions": [
+          "高热伴惊厥、意识障碍、皮疹出血者属急症，须立即就医，勿自行处理"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-012",
+      "title": "现代医学·体液平衡与电解质",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "体液",
+        "电解质",
+        "脱水",
+        "低钠血症",
+        "高钾血症"
+      ],
+      "intent": "掌握体液分布与容量调节、脱水分类及低钾高钾的临床表现与处置警戒。",
+      "learning": {
+        "knowledge": "细胞外液主要阳离子为Na⁺，细胞内液为K⁺，渗透压决定水分布；等渗性脱水最常见（呕吐腹泻丢失），高渗性脱水以口渴为突出表现，低渗性脱水易致循环衰竭；每日需水量约2500ml，出入基本平衡；低钾血症常见于利尿剂使用与腹泻，表现乏力、肠麻痹、心电图U波；高钾见于肾衰与大量溶血，心电图T波高尖。",
+        "misjudgment": "把低钠血症一律当缺水处理而快速输高渗钠。错：低钠须区分低渗性、等渗性与稀释性（水潴留）三类，快速纠正可致脑桥中央髓鞘溶解，速率比总量更关键。",
+        "reasoning": "为何静脉补钾的浓度与速度都有严格上限，而口服补钾相对安全？",
+        "feedback": "血钾骤然升高直接改变心肌静息电位，可致传导阻滞与停搏；胃肠道吸收缓慢且受调节，故口服风险低，静脉给药必须限浓限速。",
+        "transfer": "长期使用噻嗪类利尿剂的高血压患者出现乏力腿软，试推断可能的电解质紊乱。"
+      },
+      "stdJudgment": "体液占体重约60%，分细胞内液与细胞外液，以细胞外液维持内环境稳定。水钠经抗利尿激素、醛固酮与渴觉三重机制调节。脱水分高渗性、等渗性与低渗性三类；钾平衡经肾排钾调节，低钾致肌无力与心律失常，高钾抑制心肌可致心脏停搏。",
+      "coreDefinition": "体液分细胞内、外液，水钠经ADH-醛固酮-渴觉调节；脱水按渗透压分三类，钾紊乱以心脏与神经肌肉表现最凶险。",
+      "facts": [
+        {
+          "field": "clinical.体液分布",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.水钠调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.脱水类型",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.钾代谢",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.电解质紊乱诊治",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授水电解质平衡原理，补液与补钾的速率浓度须由医师按化验结果制定，禁止自行静脉输液。",
+        "caution": "静脉补钾须见尿补钾、限制浓度与滴速，高钾血症可致心脏骤停，须紧急处理。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；静脉补液补钾属医疗操作，严禁自行输液",
+        "prohibitions": [
+          "静脉补液补钾属医疗操作，严禁自行输液；高钾血症是急症须立即就医"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-013",
+      "title": "现代医学·酸碱平衡与血气分析",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "酸碱平衡",
+        "血气分析",
+        "代谢性酸中毒",
+        "呼吸性碱中毒",
+        "代偿"
+      ],
+      "intent": "掌握pH、PaCO₂、HCO₃⁻等血气指标的判读与四大酸碱失衡的鉴别。",
+      "learning": {
+        "knowledge": "碳酸氢盐缓冲对（HCO₃⁻/H₂CO₃）为主缓冲系统；代谢性酸中毒pH↓、HCO₃⁻↓，见于糖尿病酮症与腹泻；呼吸性酸中毒pH↓、PaCO₂↑，见于COPD与呼吸抑制；代谢性碱中毒pH↑、HCO₃⁻↑，见于剧烈呕吐；呼吸性碱中毒pH↑、PaCO₂↓，见于过度通气；单纯型失衡代偿方向一致，混合型则方向相悖或代偿超限。",
+        "misjudgment": "见到pH正常便认定无酸碱失衡。错：完全代偿时pH可回至正常范围，须结合HCO₃⁻与PaCO₂的原发改变方向，必要时计算阴离子间隙与代偿预计值。",
+        "reasoning": "慢性CO₂潴留患者血HCO₃⁻升高，为何判为呼吸性酸中毒代偿而非代谢性碱中毒？",
+        "feedback": "病史为COPD伴长期PaCO₂升高，肾脏代偿性保留HCO₃⁻，原发因素在呼吸侧；判读须结合病史、原发指标与代偿方向，而非孤立看数值。",
+        "transfer": "持续呕吐导致频繁丢失HCl，血气将如何变化，试按代谢性碱中毒推导。"
+      },
+      "stdJudgment": "动脉血气分析测pH、PaCO₂与HCO₃⁻，pH正常7.35~7.45，PaCO₂反映呼吸因素，HCO₃⁻反映代谢因素。缓冲系统、肺与肾三线代偿维持pH稳定。酸碱失衡按原发因素分代谢性酸中毒、代谢性碱中毒、呼吸性酸中毒与呼吸性碱中毒，并可双重混合。",
+      "coreDefinition": "pH由PaCO₂（呼吸）与HCO₃⁻（代谢）双因素决定；四大失衡按原发改变与代偿方向判读，肺肾代偿维持pH稳定。",
+      "facts": [
+        {
+          "field": "clinical.血气指标",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.缓冲系统",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.酸碱失衡类型",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.代偿机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血气判读",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授血气分析与酸碱失衡原理，纠酸补碱及氧疗方案须由医师依据血气结果制定。",
+        "caution": "代谢性酸中毒使用碳酸氢钠须计算并缓慢补给，过量可致碱中毒与反常性细胞内酸中毒。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；血气分析须由医护人员采集动脉血",
+        "prohibitions": [
+          "血气分析须由医护人员采集动脉血，纠酸补碱属医疗处置，禁止自行处理"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-014",
+      "title": "现代医学·心电图基础与常见异常",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "心电图",
+        "P波",
+        "QRS波",
+        "ST段",
+        "心律失常"
+      ],
+      "intent": "掌握心电图各波段的生理意义、常见心律失常与心肌缺血心梗的心电图特征。",
+      "learning": {
+        "knowledge": "标准12导联分肢体导联与胸前导联，Ⅱ导联利于观察P波，V1-V3观察室间隔与右室，V4-V6观察左室侧壁；P-R间期0.12~0.20s，超过提示房室传导阻滞；心房颤动P波消失代之以f波、R-R绝对不齐；室性心动过速QRS宽大畸形；心梗演变呈T波高尖、ST段弓背抬高、病理性Q波、T波倒置的时序变化。",
+        "misjudgment": "把室性期前收缩一律当作需要紧急处理的恶性心律失常。错：偶发室早可见于健康人与电解质紊乱，关键是评估基础心脏病与频次、形态、成串性，无症状者不必盲目用药。",
+        "reasoning": "同一导联ST段抬高，为何有时是心梗、有时是心包炎或早期复极？",
+        "feedback": "心梗ST段抬高呈区域性、弓背向上且有动态演变与病理性Q波；心包炎呈弥漫性凹面向上抬高伴PR段压低，须结合病史与肌钙蛋白鉴别。",
+        "transfer": "心悸伴脉律绝对不齐的老年人，试从心电图角度推测最可能的诊断与风险点。"
+      },
+      "stdJudgment": "心电图记录心肌除极复极的电活动，P波为心房除极，QRS波群为心室除极，T波为心室复极，ST段反映心室缓慢复极期。正常窦性心律节律规整、频率60~100次/分。常见异常包括期前收缩、心房颤动、室上性与室性心动过速，心肌缺血呈ST段压低，心梗呈ST段抬高与病理性Q波。",
+      "coreDefinition": "心电图由P-QRS-T波群构成，窦性心律60~100次/分；房颤、室速等心律失常各有特征，ST-T改变提示心肌缺血损伤。",
+      "facts": [
+        {
+          "field": "clinical.心电图导联",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.正常心电波形",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心律失常",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心肌缺血心梗",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心电图判读",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授心电图判读基础，抗心律失常药物属处方药，须按心律失常类型个体化给药。",
+        "caution": "急性胸痛伴ST段抬高提示心肌梗死，须立即呼叫急救，不可因等待心电图而延误就医。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；急性ST段抬高型心梗属致命急症",
+        "prohibitions": [
+          "急性心梗（ST段抬高型）属致命急症，须立即拨打急救电话，本节点仅知识学习"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-015",
+      "title": "现代医学·影像检查基础（X线CTMRI）",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "影像检查",
+        "X线",
+        "CT",
+        "MRI",
+        "放射防护"
+      ],
+      "intent": "掌握X线、CT、MRI三种影像手段的原理特点与适应证选择。",
+      "learning": {
+        "knowledge": "X线平片因组织间密度差形成天然对比，骨折、肺炎、肺结核表现为透过度改变；CT以亨氏单位衡量密度，颅脑出血、肺结节、腹部实质脏器病变首选CT；MRI对软组织、椎间盘、关节韧带与脑脊髓显示优越，弥散加权像用于急性脑梗早期诊断；孕妇与儿童尽量选择无电离辐射的检查（超声、MRI）。",
+        "misjudgment": "把X线、CT的辐射风险混为一谈，或认为MRI有辐射。错：MRI利用磁场与射频，无电离辐射；CT辐射剂量显著高于平片，须权衡获益，尤其是儿童。",
+        "reasoning": "急性脑梗死为何首选MRI弥散加权成像而非CT平扫？",
+        "feedback": "脑梗后数小时弥散加权即呈高信号，CT平扫最早24小时才可见低密度灶，时间窗内DWI是敏感度最高的检出手段，利于尽早溶栓。",
+        "transfer": "疑似腰椎间盘突出压迫神经根，试从软组织对比度角度选择最优影像检查。"
+      },
+      "stdJudgment": "X线平片利用组织密度差成像，对骨与肺病变敏感；CT以断层重建显示解剖细节，分辨密度差异能力强，是颅脑、胸腹创伤与肿瘤筛查的常用手段；MRI利用氢质子磁共振信号，软组织对比最佳，无电离辐射，但检查时间长且有金属禁忌。三者按病变部位与组织特性互补选用。",
+      "coreDefinition": "X线以密度对比成像，CT为断层密度成像，MRI为软组织高分辨成像；按病变部位、组织特性与禁忌证选择检查手段。",
+      "facts": [
+        {
+          "field": "clinical.X线原理",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.CT原理",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.MRI原理",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.检查适应证",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.对比剂",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授影像检查原理与选择，碘对比剂使用与检查申请均由影像科与临床医师把关。",
+        "caution": "碘对比剂过敏者、甲亢及肾功能不全者慎行增强扫描；体内金属植入物与起搏器者禁行MRI。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；增强扫描须评估碘对比剂过敏与肾功能",
+        "prohibitions": [
+          "装有心脏起搏器或体内金属异物者禁行MRI，增强扫描须评估碘对比剂过敏与肾功能"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-016",
+      "title": "现代医学·实验室检查常用指标",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "实验室检查",
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "心肌标志物"
+      ],
+      "intent": "掌握血常规、尿常规与常用生化指标的临床意义与解读思路。",
+      "learning": {
+        "knowledge": "白细胞计数升高伴中性粒细胞增多提示细菌感染，淋巴细胞增多提示病毒感染；血红蛋白降低程度分级贫血，MCV区分大细胞与小细胞性贫血；尿蛋白阳性须区分生理与病理性；ALT、AST升高提示肝细胞损伤，胆红素升高区分溶血性、肝细胞性与梗阻性黄疸；肌酐是肾功能评估的稳定指标，肌钙蛋白在急性心梗后数小时开始升高且特异性强。",
+        "misjudgment": "把肌酐正常误判为肾功能完好。错：肾有强大代偿储备，肌酐在肾功能下降近一半时才明显升高，须结合eGFR与病程动态评估。",
+        "reasoning": "同为发热，为何有人白细胞升高、有人白细胞正常甚至降低？",
+        "feedback": "白细胞反应与病原种类及机体反应性相关，病毒、伤寒等常致白细胞不高或降低，细菌感染多升高，指标须与血象分类和临床表现互参。",
+        "transfer": "尿常规发现大量红细胞而无尿痛者，试沿肾到尿路的路径列出需排查的病变。"
+      },
+      "stdJudgment": "实验室检查是临床诊断的客观依据。血常规反映贫血、感染与出血倾向；尿常规查尿蛋白、尿糖与红细胞；肝功能以ALT、AST、胆红素为主，肾功能以肌酐、尿素氮为主；心肌肌钙蛋白是急性心梗的特异性标志物。解读须结合参考范围与动态变化，单项升高不能孤立定性。",
+      "coreDefinition": "血常规、尿常规、肝肾功能与心肌标志物构成常用检验体系，指标解读须结合临床与动态变化。",
+      "facts": [
+        {
+          "field": "clinical.血常规",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.尿常规",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肝功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心肌损伤标志物",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授检验指标解读，检验申请与结果判读须结合临床表现。",
+        "caution": "单项指标异常不等于确诊，须结合病史与其他检查综合判断，复查可排除操作与仪器误差。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；标本采集与检验申请由医护人员执行",
+        "prohibitions": [
+          "标本采集与检验申请由医护人员执行，结果解读须结合临床，勿自行据单下结论"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-017",
+      "title": "现代医学·体格检查基本方法",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "体格检查",
+        "视诊",
+        "触诊",
+        "叩诊",
+        "听诊"
+      ],
+      "intent": "掌握视触叩听四诊的操作要点与常见阳性体征的临床意义，辨识易混体征。",
+      "learning": {
+        "knowledge": "叩诊清音见于正常肺，浊音见于肺实变与胸腔积液，鼓音见于气胸与胃泡区，实音见于大量积液与实性脏器；正常肺泡呼吸音呈柔和吹风样，支气管呼吸音见于肺实变区；干啰音提示气道狭窄，湿啰音提示气道与肺泡内液体；心脏听诊注意瓣膜区，舒张期杂音多提示器质性病变；移动性浊音提示腹水，肠鸣音亢进见于肠梗阻早期。",
+        "misjudgment": "把肺部湿啰音与干啰音的病生理混淆。错：湿啰音源于气道内液体（炎症渗出、心衰肺水肿），干啰音源于气道狭窄痉挛（哮喘、COPD），听诊性质不同提示的病种迥异，须分辨清楚。",
+        "reasoning": "同样是呼吸音减弱，为何气胸与胸腔积液的叩诊音不同？",
+        "feedback": "气胸使肺泡被压缩、胸腔含气，叩诊呈鼓音；积液为液体占据胸膜腔，叩诊呈实音，两者分别以鼓音与实音鉴别，显示叩诊在胸膜疾病中的价值。",
+        "transfer": "低垂部位水肿伴颈静脉怒张、肝大者，试以体格检查线索推断循环系统病变方向。"
+      },
+      "stdJudgment": "体格检查按视、触、叩、听四步进行。视诊观察一般状态、皮肤黏膜与胸廓形态；触诊分浅部与深部触诊，感知脏器与包块；叩诊依叩击音分清音、浊音、实音与鼓音；听诊以听诊器听取心音、呼吸音与肠鸣音。体征须左右对比、动态观察，结合问诊与实验室结果综合定位病灶。",
+      "coreDefinition": "体格检查以视触叩听四法收集体征，按部位系统有序进行，结合左右对比与动态观察定位病变。",
+      "facts": [
+        {
+          "field": "clinical.视诊",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.触诊",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.叩诊",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.听诊",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.常见体征",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：体格检查为无创操作技能，无用药剂量内容。",
+        "caution": "检查须按视触叩听顺序规范进行，腹部触诊须由浅入深并观察患者表情，避免粗暴操作。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；体格检查操作须在专业人员指导下练习",
+        "prohibitions": [
+          "体格检查操作须在专业人员指导下练习，不得对危重患者随意搬动检查"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-018",
+      "title": "现代医学·心肺复苏术基础",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "心肺复苏",
+        "CPR",
+        "心脏骤停",
+        "除颤",
+        "急救"
+      ],
+      "intent": "掌握心脏骤停的识别、胸外按压与人工呼吸的操作要领及除颤时机，推演现场处置。",
+      "learning": {
+        "knowledge": "黄金4分钟指骤停后4分钟内开始复苏预后最佳；胸外按压通过挤压心脏形成人工循环，按压部位过低易致损伤、过浅无效；开放气道用仰头抬颏法，人工呼吸每次约1秒见胸廓隆起；AED（自动体外除颤器）开启后按语音提示操作；复苏有效指征为触及大动脉搏动、瞳孔回缩、面色转红。",
+        "misjudgment": "把「摸脉搏确认」作为旁观者识别骤停的首要动作而延误按压。错：旁观者仅凭意识与呼吸判断即可启动复苏，反复触摸脉搏耗时且易判错，按压延迟直接降低存活率。",
+        "reasoning": "为何按压中断时间越短越好，即使是为了人工呼吸或分析心律？",
+        "feedback": "冠状动脉灌注压需要多次连续按压才能建立，每中断一次灌注压骤降，复苏成功概率随之下降，故中断须控制在10秒内。",
+        "transfer": "游泳馆发现有人溺水无反应，试按生存链顺序推演现场处置步骤。"
+      },
+      "stdJudgment": "心肺复苏针对心脏骤停，识别要点为意识丧失、呼吸停止或叹息样呼吸、大动脉搏动消失。成人胸外按压部位为胸骨下半部，深度5~6cm，频率100~120次/分，按压与通气比30:2；可除颤心律（室颤、无脉性室速）应尽早电除颤。生存链强调尽早识别呼救、按压、除颤与高级生命支持。",
+      "coreDefinition": "心肺复苏以胸外按压为核心，按压深度5~6cm、频率100~120次/分，30:2配合人工呼吸，室颤尽早除颤。",
+      "facts": [
+        {
+          "field": "clinical.心脏骤停识别",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.胸外按压",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.人工呼吸",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.除颤时机",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.生存链",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：心肺复苏为急救技能，肾上腺素等急救药物须由现场急救人员按指南给药。",
+        "caution": "成人胸外按压深度5~6cm、频率100~120次/分，按压中断时间尽量缩短，儿童与婴儿参数不同。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；心肺复苏须经培训演练后方可实施",
+        "prohibitions": [
+          "心肺复苏须经培训演练后方可实施，现场应同时呼叫急救，本节点仅知识学习"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-019",
+      "title": "现代医学·抗菌药物合理使用",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "抗菌药物",
+        "抗生素",
+        "细菌耐药",
+        "药敏试验",
+        "处方药"
+      ],
+      "intent": "掌握抗菌药物的分类、作用机制、经验用药与靶向用药原则及耐药防控。",
+      "learning": {
+        "knowledge": "β-内酰胺类（青霉素、头孢菌素）抑制细胞壁合成，属繁殖期杀菌剂；大环内酯类（阿奇霉素）抑制蛋白质合成；氨基糖苷类（庆大霉素）具耳肾毒性；喹诺酮类（左氧氟沙星）抑制DNA回旋酶，18岁以下及孕妇慎用；经验用药选择覆盖最可能病原的窄谱药物，48~72小时评估疗效并据药敏调整；围手术期预防用药一般于切皮前0.5~1小时给予，术后24小时内停用。",
+        "misjudgment": "把抗生素当消炎药用于一切发热与疼痛。错：抗生素只针对细菌等病原，对病毒性感冒与无菌性炎症无效，滥用不仅无效还增加耐药与肠道菌群紊乱风险。",
+        "reasoning": "同为上呼吸道感染，为何医生对发热咽痛者有时开抗生素、有时只让对症处理？",
+        "feedback": "是否用抗生素取决于感染性质，化脓性扁桃体炎多由链球菌引起需用青霉素，病毒性咽炎则无须抗生素，判断依据是病原学与体征而非发热本身。",
+        "transfer": "长期住院患者反复使用广谱抗生素后出现腹泻，试推测可能的病原与对策。"
+      },
+      "stdJudgment": "抗菌药物按结构分β-内酰胺类、大环内酯类、氨基糖苷类、喹诺酮类等，按作用机制分抑菌与杀菌两类。用药遵循先送病原学标本再经验用药、获药敏后靶向调整的原则；病毒感染不用抗菌药物，联合用药须有指征。合理使用是延缓细菌耐药的关键。",
+      "coreDefinition": "抗菌药物按结构与机制分类，遵循经验用药→药敏靶向调整的路径，避免滥用以延缓耐药。",
+      "facts": [
+        {
+          "field": "clinical.抗菌药物分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.作用机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.经验用药",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药敏试验",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.耐药防控",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：抗菌药物剂量须按感染部位、病原、肾功能与年龄制定，属处方药管理。",
+        "caution": "青霉素类须皮试后使用；不可自行增减剂量或提前停药，以防耐药与复发。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；抗菌药物属处方药须凭处方使用",
+        "prohibitions": [
+          "抗菌药物属处方药，须凭处方并按疗程使用；青霉素类须皮试，过敏者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-020",
+      "title": "现代医学·常见药物不良反应",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "药物不良反应",
+        "ADR",
+        "过敏反应",
+        "肝毒性",
+        "肾毒性"
+      ],
+      "intent": "掌握药物不良反应的分类、常见类型与识别处置原则，推演可疑反应的排查思路。",
+      "learning": {
+        "knowledge": "A型不良反应与药理作用延伸相关，如氨基糖苷类肾毒性耳毒性、非甾体抗炎药致消化道溃疡出血；B型与个体体质相关，如青霉素过敏性休克、磺胺药溶血；药疹是常见表现，重症如Stevens-Johnson综合征须停用可疑药物；联合用药经药酶（CYP450）与蛋白结合竞争可改变血药浓度，如华法林与多种药物相互作用，须监测INR。",
+        "misjudgment": "把「剂量过大或误用引起的中毒」也算作药物不良反应。错：ADR定义限定在正常用法用量下，过量中毒属药源性中毒范畴，两者上报与防范路径不同。",
+        "reasoning": "同一种药物在两个人身上，为何一人安然无恙、另一人却发生严重过敏？",
+        "feedback": "过敏属B型反应，与药物剂量关系小，取决于个体遗传易感与既往致敏状态，故用药史与过敏史采集是预防关键。",
+        "transfer": "服用他汀类降脂药后出现肌痛乏力伴尿色加深，试推断可能的严重不良反应与处理方向。"
+      },
+      "stdJudgment": "药物不良反应指合格药品在正常用法用量下出现的与用药目的无关的有害反应，分A型（剂量相关、可预测，如肝毒性）与B型（与剂量无关、个体特异，如过敏反应）。识别依赖用药时间关联、停药反应与再激发试验。我国实行不良反应报告制度，疑似反应须及时上报。",
+      "coreDefinition": "药物不良反应分A型（剂量相关可预测）与B型（特异质过敏），识别靠时间关联与停药观察，须按制度上报。",
+      "facts": [
+        {
+          "field": "clinical.ADR分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.变态反应",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.器官毒性",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物相互作用",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.ADR监测报告",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量：本节讲授不良反应识别，用药剂量与疗程须遵医嘱，出现可疑反应及时就医并报告。",
+        "caution": "怀疑药物过敏应立即停药就医，严重者按过敏性休克处理；多种药物同服前应咨询医师药师。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱；疑似过敏反应须立即停药就医",
+        "prohibitions": [
+          "出现皮疹、喉头水肿、呼吸困难等疑似过敏表现须立即停药就医，属急诊处理范畴"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-021",
+      "title": "现代医学·高血压诊断与分级",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "高血压",
+        "诊室血压",
+        "动态血压",
+        "危险分层",
+        "靶器官损害"
+      ],
+      "intent": "掌握血压测量规范、高血压诊断标准与血压分级，理解总体心血管危险分层对启动治疗时机的意义。",
+      "learning": {
+        "knowledge": "主题要点：血压测量规范（静坐5分钟、袖带与心脏同水平、测2~3次取均值）直接决定数值可靠性；家庭自测≥135/85mmHg与动态血压均值≥130/80mmHg亦为诊断依据。核心概念：1级140~159/90~99mmHg，2级160~179/100~109mmHg，3级≥180/110mmHg；单纯收缩期高血压指收缩压≥140且舒张压<90。实践要点：首诊双上肢对比取高值，疑白大衣高血压者加做动态血压监测。注意事项：单次升高不立即诊断，须复查并排查肾实质病、肾动脉狭窄、醛固酮增多症等继发性高血压。",
+        "misjudgment": "单次诊室血压160/100mmHg即下高血压诊断。错：紧张、运动、测量姿势不当均可致一过性升高，须非同日三次达标并结合家庭或动态血压复核。",
+        "reasoning": "同为145/95mmHg的血压，为何有人立即启动药物降压，有人先观察生活方式干预数月？",
+        "feedback": "是否用药不只取决于血压数值，还取决于总体心血管风险：合并糖尿病、靶器官损害或高危者即使1级也倾向及早用药，低危者可先行为期数月的非药物干预。",
+        "transfer": "65岁老人家庭自测血压多在138/88左右，诊室测量却达152/94，如何解释这一现象并安排复核？"
+      },
+      "stdJudgment": "高血压诊断以非同日三次诊室血压≥140/90mmHg为标准，按水平分1级（140~159/90~99）、2级（160~179/100~109）、3级（≥180/110mmHg），再结合危险因素、靶器官损害与并发症作总体心血管风险分层，分级与分层共同决定启动药物降压的时机与强度。",
+      "coreDefinition": "高血压指未用降压药情况下诊室血压非同日三次≥140/90mmHg，按水平分级并结合危险因素与靶器官损害分层。",
+      "facts": [
+        {
+          "field": "clinical.血压测量规范",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.诊断标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血压分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心血管危险分层",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.靶器官损害",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "降压药物种类与剂量由医生依分级与危险分层决定，患者不可自行停药、减量或更换药物。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "血压测量与降压方案由医护人员实施，患者不可自行停药、减量或更换降压药"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-022",
+      "title": "现代医学·冠心病危险因素与防治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "冠心病",
+        "动脉粥样硬化",
+        "危险因素",
+        "调脂",
+        "二级预防"
+      ],
+      "intent": "掌握冠心病的可改变与不可改变危险因素，理解一级预防与二级预防的措施框架与药物基础。",
+      "learning": {
+        "knowledge": "主题要点：动脉粥样硬化始于内皮损伤，脂质沉积、炎症反应与斑块破裂贯穿冠心病发生发展全程。核心概念：可改变与不可改变危险因素的分界；LDL-C是调脂首要靶标，冠心病与糖尿病者属极高危，目标多低于1.8mmol/L。实践要点：一级预防从生活方式入手（限盐、戒烟、规律运动、控制体重），二级预防在生活方式基础上叠加四联药物。注意事项：他汀与强CYP3A4抑制剂（大环内酯类、唑类抗真菌药）合用须警惕肌病与横纹肌溶解；合并糖尿病的冠心病患者血压控制目标更严格。",
+        "misjudgment": "认为LDL-C降到化验单参考范围上限以内即达标。错：冠心病与糖尿病者属高危或极高危人群，目标值低于普通人群，须按风险分层设定个体目标。",
+        "reasoning": "年龄与家族史无法改变，为何家族史阳性者反而要更早、更严格地控制其他危险因素？",
+        "feedback": "不可改变因素决定基线风险高低，可改变因素决定干预空间，基线风险越高者从严格达标中的获益越大，故更须及早干预。",
+        "transfer": "吸烟合并LDL-C 4.2mmol/L的40岁男性无其他病史，一级预防应优先落实哪些干预并设定何目标？"
+      },
+      "stdJudgment": "冠心病发病由不可改变因素（年龄、性别、早发家族史）与可改变因素（血脂异常、高血压、糖尿病、吸烟、肥胖）共同促成，动脉粥样硬化是病理基础。防治以控制可改变因素为纲：LDL-C、血压、血糖达标并戒烟运动；已确诊者行抗血小板、他汀、β受体阻滞剂与ACEI/ARB为基础的二级预防。",
+      "coreDefinition": "冠心病防治以控制可改变危险因素为纲，二级预防以抗血小板、他汀、β受体阻滞剂与ACEI/ARB四联为基础。",
+      "facts": [
+        {
+          "field": "clinical.危险因素分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.动脉粥样硬化病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血脂管理",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.二级预防用药",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.生活方式干预",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "抗血小板、他汀等二级预防药物须遵医嘱长期服用，出现肌痛、乏力或尿色加深时及时就诊排查他汀相关肌病。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "抗血小板、他汀等二级预防药物须遵医嘱服用，不可自行停改或增减剂量",
+          "他汀用药期间出现肌痛、乏力或尿色加深须及时就诊"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-023",
+      "title": "现代医学·糖尿病诊断与分型",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "糖尿病",
+        "空腹血糖",
+        "OGTT",
+        "糖化血红蛋白",
+        "胰岛素抵抗"
+      ],
+      "intent": "掌握糖尿病的诊断界值与主要分型，理解1型与2型鉴别要点及糖尿病前期概念。",
+      "learning": {
+        "knowledge": "主题要点：血糖调控依赖胰岛素分泌与作用，长期高血糖损伤微血管（视网膜、肾、神经）与大血管。核心概念：空腹血糖受损（6.1~6.9mmol/L）与糖耐量减低（OGTT 2小时7.8~11.0mmol/L）属糖尿病前期，是干预窗口；1型与2型鉴别看发病年龄、酮症倾向、胰岛自身抗体（GADA、ICA）与C肽水平。实践要点：无典型症状者单次血糖达标须改日复测；疑诊1型尽快查抗体与C肽以决定是否依赖胰岛素。注意事项：急性感染、手术、应激可致一过性高血糖，须在应激消除后复查确认。",
+        "misjudgment": "凭一次空腹血糖7.3mmol/L即诊断糖尿病并开始用药。错：诊断须两次独立测定或加做OGTT确认，且要排除应激性高血糖，过早定型与用药可能误治。",
+        "reasoning": "同为血糖升高，为何有些患者要查胰岛自身抗体与C肽才能确定治疗方向？",
+        "feedback": "分型决定治疗策略：1型必须依赖胰岛素，2型可先生活方式加口服药，抗体与C肽是定型的关键证据。",
+        "transfer": "肥胖青年空腹血糖6.9、餐后2小时11.8、HbA1c 6.3，试判断其糖代谢状态并给出下一步建议。"
+      },
+      "stdJudgment": "糖尿病诊断依据为典型症状加随机血糖≥11.1mmol/L，或空腹血糖≥7.0mmol/L，或OGTT 2小时血糖≥11.1mmol/L，或HbA1c≥6.5%（无典型症状者须复测确认）。分型以1型（胰岛素绝对缺乏）与2型（胰岛素抵抗为主）为主，另有特殊类型与妊娠期糖尿病。",
+      "coreDefinition": "糖尿病以慢性高血糖为特征，按血糖与糖化血红蛋白界值诊断，按病因及胰岛素缺乏程度分型。",
+      "facts": [
+        {
+          "field": "clinical.诊断标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.OGTT与糖化血红蛋白",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.胰岛素抵抗病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.糖尿病前期",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "降糖药物与胰岛素剂量由医生依据血糖监测结果调整，患者不可自行增减胰岛素用量，并须掌握低血糖识别与处理。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "血糖监测与降糖方案调整须遵医嘱，胰岛素用量不可自行增减，须掌握低血糖急救处理"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-024",
+      "title": "现代医学·慢性阻塞性肺疾病",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "慢阻肺",
+        "气流受限",
+        "肺功能",
+        "支气管扩张剂",
+        "急性加重"
+      ],
+      "intent": "掌握慢阻肺的肺功能诊断标准与GOLD分级，理解稳定期治疗与急性加重识别处理。",
+      "learning": {
+        "knowledge": "主题要点：吸烟与生物燃料烟雾是最主要危险因素，慢性气道炎症致气流受限进行性加重。核心概念：FEV1/FVC<0.70为气流受限界值，FEV1占预计值≥80%、50~79%、30~49%、<30%分GOLD 1~4级；慢支与肺气肿是两种病理表型。实践要点：稳定期首选长效β2受体激动剂（LABA）或长效抗胆碱药（LAMA），症状重者联合吸入糖皮质激素（ICS）；肺康复、流感与肺炎球菌疫苗为基础措施。注意事项：吸入技术错误是疗效不佳常见原因，须现场演示核对；急性加重须评估氧疗、全身激素与抗菌药物指征。",
+        "misjudgment": "吸烟者咳嗽咳痰且肺功能FEV1/FVC正常就诊断慢阻肺。错：慢阻肺必须有持续气流受限的客观证据，慢性支气管炎不伴气流受限时不能诊断为慢阻肺。",
+        "reasoning": "同样是FEV1/FVC<0.70，为何有人只用一种长效支扩剂，有人却要三联吸入甚至家庭氧疗？",
+        "feedback": "GOLD分级只是其中一维，症状负担与急性加重史共同决定吸入方案阶梯，须综合评估后个体化选择。",
+        "transfer": "长期吸烟的65岁男性活动后气短、晨起咳痰，肺功能FEV1/FVC 0.62且FEV1占预计值52%，稳定期首选治疗是什么？"
+      },
+      "stdJudgment": "慢阻肺以持续气流受限为特征，吸入支气管扩张剂后FEV1/FVC<0.70为确诊标准，按FEV1占预计值百分比分GOLD 1~4级；稳定期以长效支气管扩张剂为核心并配合戒烟、肺康复与疫苗接种，急性加重以呼吸困难、痰量与痰脓性变化识别并及时处理。",
+      "coreDefinition": "慢阻肺指持续气流受限的慢性气道疾病，肺功能FEV1/FVC<0.70确诊，稳定期以长效支气管扩张剂为核心。",
+      "facts": [
+        {
+          "field": "clinical.定义与诊断",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肺功能分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病理特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.稳定期治疗",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.急性加重评估",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "吸入装置种类与剂量须遵医嘱，使用后漱口；急性加重伴静息呼吸困难或意识障碍须立即就医。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "肺功能检查与吸入装置使用须经专业人员指导，急性加重伴静息呼吸困难须立即就医"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-025",
+      "title": "现代医学·支气管哮喘管理",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "哮喘",
+        "气道高反应性",
+        "吸入糖皮质激素",
+        "阶梯治疗",
+        "急性发作"
+      ],
+      "intent": "掌握哮喘的诊断要素、控制水平评估与阶梯治疗方案，理解急性发作的分级处理。",
+      "learning": {
+        "knowledge": "主题要点：嗜酸性粒细胞、肥大细胞与Th2型炎症介导气道高反应性，过敏原、运动、冷空气与呼吸道感染为常见诱因。核心概念：控制评估分完全控制、部分控制与未控制三档；缓解药物（SABA）按需使用，控制药物（ICS、ICS/LABA、LTRA）长期规律使用。实践要点：初诊按严重度选择起始阶梯，每2~4周评估调整；重度哮喘可考虑生物制剂；每次就诊核对吸入技术。注意事项：单用SABA不抑制炎症，用量增加提示控制恶化；发作时说话不成句、发绀、意识改变为重度发作，须立即急诊。",
+        "misjudgment": "只靠沙丁胺醇按需吸入控制哮喘，不坚持ICS。错：SABA只扩张支气管不抑制炎症，单用会掩盖气道炎症进展，增加发作频率与死亡风险。",
+        "reasoning": "同为喘息发作，为何哮喘治疗强调抗炎为基石，而慢阻肺稳定期以解痉扩张为主？",
+        "feedback": "哮喘炎症以嗜酸性粒细胞为主、对激素敏感且多可逆，慢阻肺气流受限多不可逆，故治疗重心一在抗炎、一在扩张与康复。",
+        "transfer": "夜间反复憋醒、晨起PEF变异率达25%的青年，拟诊哮喘后应完成哪些客观检查以确诊？"
+      },
+      "stdJudgment": "哮喘是可逆性气流受限的慢性气道炎症性疾病，诊断需典型症状加可变气流受限证据（支气管舒张试验阳性、PEF变异率增大或抗炎治疗后改善）并除外其他病因；管理以吸入糖皮质激素为核心按控制水平阶梯升降，急性发作按严重程度分级处理，中重度发作及时转急诊。",
+      "coreDefinition": "哮喘以可变呼气气流受限与气道高反应性为特征，管理核心是ICS抗炎基础上的阶梯治疗与急性发作分级处理。",
+      "facts": [
+        {
+          "field": "clinical.诊断标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.控制水平评估",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.阶梯治疗方案",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.气道炎症病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.急性发作分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "吸入激素与长效支扩剂的剂量调整须遵医嘱，急性发作时不可自行反复吸入缓解药代替就医。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "吸入激素与长效支扩剂的剂量调整须遵医嘱，急性发作时不可自行反复吸入缓解药代替就医"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-026",
+      "title": "现代医学·消化性溃疡",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "消化性溃疡",
+        "幽门螺杆菌",
+        "NSAIDs",
+        "抑酸",
+        "胃镜"
+      ],
+      "intent": "掌握消化性溃疡的病因机制、腹痛节律特点与并发症，理解抑酸与根除Hp的核心治疗。",
+      "learning": {
+        "knowledge": "主题要点：十二指肠溃疡多见于高胃酸状态，胃溃疡常伴黏膜屏障减弱与胃动力异常。核心概念：腹痛节律——DU呈空腹痛、进食缓解，GU呈餐后痛；常见并发症为出血、穿孔、幽门梗阻，胃溃疡须随访除外癌变。实践要点：确诊行胃镜并活检做Hp检测；Hp阳性者予铋剂四联（PPI+铋剂+两种抗生素）10~14天，疗程结束后停药4周复查尿素呼气试验。注意事项：NSAIDs相关溃疡应评估停药或换用选择性COX-2抑制剂，并加用PPI保护；老年溃疡出血风险高，须警惕黑便与晕厥。",
+        "misjudgment": "上腹痛一律按溃疡予抑酸药，不查Hp。错：Hp阳性者不根除则溃疡复发率高，抑酸仅暂时缓解，须规范四联根除并复查确认。",
+        "reasoning": "同为抑酸，为何根除Hp后溃疡年复发率明显低于单纯抑酸维持治疗？",
+        "feedback": "Hp持续感染破坏黏膜防御并刺激酸分泌，根除后可显著改变溃疡自然病程，故对Hp阳性溃疡根除治疗优先于长期抑酸维持。",
+        "transfer": "长期服阿司匹林的老人突发黑便、上腹隐痛、Hb较前下降，应如何评估并协调抗血小板方案？"
+      },
+      "stdJudgment": "消化性溃疡以胃酸与胃蛋白酶对黏膜的侵袭超过防御修复为基本病机，幽门螺杆菌感染与非甾体抗炎药（NSAIDs）是两大主要病因；典型表现为慢性、节律性、周期性上腹痛，确诊依赖胃镜，治疗以抑酸、根除Hp与停用NSAIDs为核心，并发症以出血最常见。",
+      "coreDefinition": "消化性溃疡指胃或十二指肠黏膜缺损超过黏膜肌层，Hp感染与NSAIDs为主要病因，治疗核心是抑酸与根除Hp。",
+      "facts": [
+        {
+          "field": "clinical.病因与发病机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.临床表现",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.溃疡病理形态",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.Hp根除方案",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.并发症处理",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "根除Hp的四联方案含抗生素，须足疗程遵医嘱服用，不可自行购买组合或中途停药。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "根除Hp的四联方案含抗生素，须足疗程遵医嘱服用，不可自行购买组合或中途停药"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-027",
+      "title": "现代医学·慢性肾病分期",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "慢性肾病",
+        "eGFR",
+        "白蛋白尿",
+        "RAS抑制剂",
+        "SGLT2i"
+      ],
+      "intent": "掌握CKD的定义、eGFR分期与白蛋白尿分级，理解延缓进展与并发症管理的综合策略。",
+      "learning": {
+        "knowledge": "主题要点：eGFR由血肌酐经CKD-EPI公式估算，分期必须结合白蛋白尿分级，两者共同决定风险与随访频率。核心概念：G1≥90、G2 60~89、G3a 45~59、G3b 30~44、G4 15~29、G5<15ml/(min·1.73m²)；白蛋白尿A1<30、A2 30~300、A3>300mg/g。实践要点：有蛋白尿的高血压者首选ACEI/ARB并监测血钾与肌酐，血肌酐上升30%以内可继续观察；糖尿病肾病须血糖、血压、蛋白尿三达标；SGLT2i对伴蛋白尿者具肾脏保护证据。注意事项：避免脱水、感染与心衰等肾灌注下降因素；CKD贫血用铁剂与促红素前须先排查缺铁等继发因素。",
+        "misjudgment": "只凭血肌酐值判断肾病轻重，肌酐正常就认为无肾病。错：血肌酐受肌肉量与年龄影响大，须以eGFR分期，肌酐轻度升高者eGFR可能已明显下降，且白蛋白尿可独立于eGFR提示肾损伤。",
+        "reasoning": "两位eGFR同为38的患者，为何一位加用SGLT2i并强化降压，另一位却先处理贫血与高磷血症？",
+        "feedback": "CKD管理是综合工程，延缓进展与并发症处理需按分期、蛋白尿与合并症同步推进，治疗重点因人而异。",
+        "transfer": "糖尿病10年、尿白蛋白/肌酐比350mg/g、eGFR 46的患者属哪一期哪一级，管理重点如何安排？"
+      },
+      "stdJudgment": "慢性肾病（CKD）定义为肾损伤标志（蛋白尿、血尿、影像异常）或eGFR<60ml/(min·1.73m²)持续≥3个月，按eGFR分G1~G5期并结合白蛋白尿A1~A3分级；管理以延缓进展（ACEI/ARB、SGLT2i、控压控糖）与处理贫血、钙磷紊乱并重，G5期评估替代治疗。",
+      "coreDefinition": "CKD按eGFR分G1~G5五期并联合白蛋白尿分级，治疗核心是延缓进展与控制心血管及代谢并发症。",
+      "facts": [
+        {
+          "field": "clinical.定义与分期标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.eGFR评估",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾单位病变病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肾保护药物",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.并发症管理",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "肾病患者禁用或慎用NSAIDs、氨基糖苷类等肾毒性药物，含马兜铃酸的中药制剂不可服用，用药须遵医嘱并监测血钾肌酐。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "肾病患者禁用或慎用NSAIDs、氨基糖苷类等肾毒性药物，含马兜铃酸的中药制剂不可服用，用药须遵医嘱"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-028",
+      "title": "现代医学·脑卒中急救与康复",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "脑卒中",
+        "FAST",
+        "时间窗",
+        "溶栓",
+        "康复"
+      ],
+      "intent": "掌握脑卒中的院前识别、缺血与出血鉴别及再灌注时间窗概念，理解分阶段康复原则。",
+      "learning": {
+        "knowledge": "主题要点：缺血性卒中约占80%，CT平扫用于区分出血与缺血，是溶栓决策的前提。核心概念：FAST——面部下垂、手臂无力、言语不清、立即记录发病时间；静脉溶栓用阿替普酶、时间窗4.5小时，大血管闭塞在灌注影像评估后可延至24小时取栓。实践要点：溶栓前控制血压低于185/110mmHg并排除禁忌（近期手术、活动性出血、血小板降低）；急性期监测吞咽功能防误吸。注意事项：康复分阶段——急性期良肢位与被动活动、恢复期运动言语吞咽训练、后遗症期社区康复与二级预防（抗血小板、他汀、降压、房颤抗凝）。",
+        "misjudgment": "家属发现老人肢体无力后先在家测血压、喂水服药，等血压稳定再送医院。错：卒中再灌注治疗有严格时间窗，院前耽搁直接错失溶栓机会，且喂水服药可致误吸窒息。",
+        "reasoning": "同样是脑梗死，为何有的患者溶栓、有的取栓、有的只能抗血小板保守治疗？",
+        "feedback": "是否在时间窗内、有无溶栓禁忌、影像是否提示大血管闭塞共同决定再灌注策略，个体差异大，须以卒中中心评估为准。",
+        "transfer": "发现老人突发口角歪斜、言语含糊、右侧肢体无力，发病约2小时，正确的第一步处理是什么？"
+      },
+      "stdJudgment": "脑卒中急救遵循「时间就是大脑」：院前用FAST快速识别，疑似卒中立即送卒中中心而非自行处理；缺血性卒中在时间窗内（静脉溶栓4.5小时、影像筛选的机械取栓可延至24小时）行再灌注治疗，出血性卒中以降颅压、控制血压为主；生命体征稳定后尽早启动分阶段康复训练。",
+      "coreDefinition": "卒中救治以快速识别与时间窗内再灌注为核心，缺血性争取溶栓取栓，出血性稳定生命体征，康复须早期介入。",
+      "facts": [
+        {
+          "field": "clinical.卒中分型与鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.院前识别与急救",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.溶栓与取栓治疗",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.缺血半暗带病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.康复分期",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "静脉溶栓与机械取栓的用药、剂量与禁忌评估须由卒中中心专科执行，家属不可自行喂药。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "疑似卒中须立即拨打急救电话送卒中中心，切勿自行用药、喂水或等待观察"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-029",
+      "title": "现代医学·癫痫发作类型",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "癫痫",
+        "全面性发作",
+        "局灶性发作",
+        "失神发作",
+        "脑电图"
+      ],
+      "intent": "掌握全面性与局灶性发作的区分要点，理解失神与全面强直-阵挛发作的表现差异及分型意义。",
+      "learning": {
+        "knowledge": "主题要点：发作类型是选药与预后判断的基础，误分型可致选药不当甚至加重发作。核心概念：全面强直-阵挛发作——突然意识丧失、跌倒、全身抽搐、可咬舌尿失禁，发作后嗜睡；失神发作——多见于儿童，凝视数秒、动作中断、呼之不应，醒后如常无跌伤；局灶性发作——一侧肢体或面部抽动、感觉异常、自主神经症状，意识可保留或受损。实践要点：发作时保护头部、侧卧防误吸，勿强行按压肢体或塞物入口；家属录像记录发作表现对分型极有价值。注意事项：单次发作持续超过5分钟或连续发作间期意识不恢复为癫痫持续状态，须按急症处理。",
+        "misjudgment": "把儿童失神发作当成走神、注意力不集中，或误诊为全面强直-阵挛发作。错：失神无跌倒无抽搐，脑电图呈3Hz棘慢波，与全面强直-阵挛发作选药完全不同，误诊可致治疗无效。",
+        "reasoning": "为何目击者对发作过程的描述（有无先兆、意识是否丧失、抽搐从哪侧开始）常比影像检查更有分型价值？",
+        "feedback": "发作期表现是癫痫分型的第一手证据，影像与脑电图提供定位与电生理支持，目击描述越具体分型越可靠。",
+        "transfer": "学龄儿童上课时反复发呆数秒、呼之不应、手中笔掉落，应首先怀疑何种发作并安排什么检查？"
+      },
+      "stdJudgment": "癫痫发作按放电起源分为全面性发作与局灶性发作两大类，局灶性可继发全面化；全面强直-阵挛发作以意识丧失、全身强直继而阵挛、可伴咬舌与尿失禁为特征，失神发作以数秒意识中断、凝视呆滞、醒后如常为特征，两者表现迥异；分型依赖详细发作史与脑电图，直接决定抗癫痫药选择。",
+      "coreDefinition": "癫痫发作按放电起源分全面性与局灶性，失神与全面强直-阵挛表现迥异，脑电图与目击描述是分型关键。",
+      "facts": [
+        {
+          "field": "clinical.发作分类体系",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.全面性发作特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.局灶性发作特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.脑电图诊断价值",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.癫痫持续状态",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "抗癫痫药须规律服用，剂量调整由神经科医生指导，不可自行停药或换药。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "癫痫持续状态（发作>5分钟）须立即呼叫急救，抗癫痫药调整须由神经科医生指导，不可自行停药或换药"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-030",
+      "title": "现代医学·甲状腺功能异常",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "甲亢",
+        "甲减",
+        "TSH",
+        "Graves病",
+        "桥本甲状腺炎"
+      ],
+      "intent": "掌握甲亢与甲减的临床表现与检验判读，理解亚临床状态及治疗要点与药物警戒。",
+      "learning": {
+        "knowledge": "主题要点：下丘脑-垂体-甲状腺轴负反馈使TSH对激素变化最敏感，故TSH是筛查首选。核心概念：甲亢——高代谢表现（心悸、多汗、体重下降、手颤、易怒），Graves病可伴突眼与胫前黏液性水肿；甲减——低代谢表现（怕冷、乏力、便秘、反应迟钝、黏液性水肿）。实践要点：抗甲状腺药（甲巯咪唑、丙硫氧嘧啶）起始后每4~6周复查甲功调整剂量，稳定后延长间隔；甲减替代从小剂量起始，老年与心脏病者缓加。注意事项：抗甲状腺药可致粒细胞缺乏与肝损伤，用药期间发热咽痛须立即查血常规；妊娠期甲减须尽快达标，孕早期甲亢首选丙硫氧嘧啶。",
+        "misjudgment": "TSH升高伴FT4正常就一律按临床甲减开始足量替代。错：TSH升高而FT4正常属亚临床甲减，是否治疗取决于TSH水平、TPO抗体与妊娠等特殊情况，不须一律用药。",
+        "reasoning": "同为甲亢，为何有人选抗甲状腺药物，有人选放射性碘治疗或手术切除？",
+        "feedback": "年龄、甲状腺大小、Graves病复发倾向、妊娠与哺乳状态、合并结节或压迫症状共同决定治疗路径，须个体化权衡利弊。",
+        "transfer": "妊娠8周的孕妇查出TSH 6.9mIU/L而FT4正常，应如何解读并处理？"
+      },
+      "stdJudgment": "甲状腺功能异常以血清TSH为一线筛查指标：TSH降低伴FT4、FT3升高为临床甲亢，TSH升高伴FT4降低为临床甲减，TSH异常而FT4正常为亚临床状态；Graves病是甲亢最常见病因，桥本甲状腺炎是甲减最常见病因，治疗分别以抗甲状腺药物或左甲状腺素替代为主并监测不良反应。",
+      "coreDefinition": "甲亢与甲减分别因甲状腺激素过多或过少致病，TSH与FT4联合判读是诊断与随访的核心。",
+      "facts": [
+        {
+          "field": "clinical.甲亢病因与表现",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.甲减病因与表现",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.甲状腺功能检验判读",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.抗甲状腺药物",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.甲状腺病变病理",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "抗甲状腺药物与左甲状腺素剂量调整须遵医嘱，用药期间发热咽痛须立即查血常规，妊娠期用药须专科指导。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "抗甲状腺药物与左甲状腺素剂量调整须遵医嘱，用药期间发热咽痛须立即查血常规，妊娠期用药须专科指导"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-031",
+      "title": "现代医学·贫血分类与诊断",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "贫血",
+        "血红蛋白",
+        "MCV",
+        "缺铁性贫血",
+        "网织红细胞"
+      ],
+      "intent": "掌握贫血的定义与形态学分类，理解小细胞、正细胞、大细胞贫血的诊断思路与鉴别要点。",
+      "learning": {
+        "knowledge": "主题要点：贫血是综合征而非疾病诊断，必须查明病因。核心概念：MCV<80fL为小细胞低色素（缺铁、慢性病贫血、地中海贫血），MCV 80~100fL为正细胞（急性失血、肾性贫血、再障、溶血早期），MCV>100fL为大细胞（维生素B12或叶酸缺乏）；网织红细胞升高提示骨髓代偿（溶血、失血），降低提示生成不足。实践要点：疑缺铁查血清铁蛋白，<15μg/L高度提示缺铁；诊断性补铁后2周网织红细胞上升、Hb回升为有效证据。注意事项：大细胞贫血须鉴别巨幼细胞贫血与骨髓增生异常综合征，补叶酸前应排除维生素B12缺乏，避免掩盖神经损害。",
+        "misjudgment": "见到贫血一律补铁。错：大细胞性贫血补铁无效，正细胞性贫血须查肾、骨髓与慢性病病因，缺铁只是贫血中的一类，盲目补铁延误诊断。",
+        "reasoning": "同是小细胞低色素贫血，为何缺铁性贫血与地中海贫血的治疗方向截然相反？",
+        "feedback": "缺铁者补铁有效，地中海贫血患者补铁反致铁过载损伤脏器，二者须以铁蛋白、转铁蛋白饱和度与家族史鉴别，机制不同则处理不同。",
+        "transfer": "长期素食者Hb 82g/L、MCV 115fL，最可能的病因与下一步检查是什么？"
+      },
+      "stdJudgment": "贫血以血红蛋白低于正常下限为诊断标准（成年男性<130g/L、女性<120g/L、孕妇<110g/L），按红细胞平均体积分小细胞低色素、正细胞正色素与大细胞性贫血三类；诊断流程先看形态再看网织红细胞，再结合铁代谢、维生素B12与叶酸检测追查病因，缺铁性贫血为最常见类型。",
+      "coreDefinition": "贫血按Hb水平与红细胞形态分类，诊断流程为定形态、看网织红细胞、查病因，缺铁性贫血最常见。",
+      "facts": [
+        {
+          "field": "clinical.贫血定义与分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.形态学分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血常规与网织红细胞判读",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.缺铁性贫血机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.常见贫血鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "补铁与补充维生素B12等治疗须遵医嘱，铁剂过量可致铁过载，诊断不明时不可自行长期补铁。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "补铁与补充维生素B12等治疗须遵医嘱，铁剂过量可致铁过载，诊断不明时不可自行长期补铁"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-032",
+      "title": "现代医学·恶性肿瘤早期信号",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "肿瘤早筛",
+        "警示信号",
+        "肿瘤标志物",
+        "病理活检",
+        "癌前病变"
+      ],
+      "intent": "掌握恶性肿瘤的常见早期警示信号与规范筛查手段，理解标志物与病理确诊的关系及各自局限。",
+      "learning": {
+        "knowledge": "主题要点：对高发癌种规范筛查比等待症状更有效——肺癌用低剂量CT、乳腺癌用钼靶、宫颈癌用TCT联合HPV、结直肠癌用结肠镜。核心概念：十大警示信号（异常肿块、出血、痣变、吞咽困难、声嘶干咳、大小便习惯改变、经期异常出血、消瘦乏力、长期不愈溃疡、不明原因发热疼痛）；癌前病变（结直肠腺瘤、宫颈上皮内瘤变、Barrett食管）干预可阻断进展。实践要点：体检发现标志物升高或影像可疑须专科复查，避免自行网查比对；家族史阳性者提前并加密筛查。注意事项：肿瘤标志物特异性有限，炎症、良性增生亦可升高，单次轻度升高常需复查随访，不可据此定癌。",
+        "misjudgment": "把肿瘤标志物升高直接等同于患癌，或标志物正常就放松筛查。错：标志物既非确诊依据亦非排除依据，须结合影像与病理综合判断，焦虑或忽视都会延误决策。",
+        "reasoning": "同一项肿瘤标志物升高，为何医生有时安排活检、有时只让过三个月复查？",
+        "feedback": "标志物解读须结合动态变化、影像所见与临床背景，孤立一次升高多先复查随访，持续上升或伴影像异常才进入确诊流程。",
+        "transfer": "50岁男性便潜血阳性但无任何不适，应走怎样的结直肠癌筛查与确诊路径？"
+      },
+      "stdJudgment": "恶性肿瘤早期常无症状或仅有非特异表现，公认的警示信号包括进行性增大的肿块、不明原因消瘦、持续声嘶或干咳、吞咽困难、黑便或便血、无痛血尿、疣痣变化、异常出血等；但出现信号不等于患癌，无信号也不等于无癌，确诊以病理活检为金标准，肿瘤标志物与影像只作筛查和辅助。",
+      "coreDefinition": "恶性肿瘤早筛依赖警示信号、影像内镜与标志物组合，确诊以病理活检为金标准，信号须动态评估不可自诊。",
+      "facts": [
+        {
+          "field": "clinical.肿瘤早期信号",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.常用筛查手段",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.肿瘤标志物价值与局限",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病理确诊依据",
+          "sourceType": "textbook",
+          "sourceTitle": "《病理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.癌前病变与早筛",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "肿瘤筛查与确诊须在医疗机构完成，出现持续异常症状须及时就诊，勿凭信号或标志物自行判断。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "肿瘤筛查与确诊须在医疗机构完成，出现持续异常症状须及时就诊，勿凭信号或标志物自行判断"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-033",
+      "title": "现代医学·疼痛评估与镇痛原则",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "疼痛评估",
+        "NRS",
+        "三阶梯",
+        "阿片类",
+        "癌痛"
+      ],
+      "intent": "掌握疼痛的主观评估方法与WHO三阶梯镇痛原则，理解阿片类药物的规范使用与不良反应防治。",
+      "learning": {
+        "knowledge": "主题要点：疼痛分为伤害感受性、神经病理性与混合性，机制不同选药不同。核心概念：NRS 1~3轻度、4~6中度、7~10重度；三阶梯对应药物——非阿片类（对乙酰氨基酚、NSAIDs）、弱阿片类（可待因、曲马多）、强阿片类（吗啡、羟考酮、芬太尼）；神经病理性疼痛加用加巴喷丁类或三环类抗抑郁药。实践要点：癌痛按三阶梯按时给药、即释制剂处理爆发痛，强阿片起始后逐日滴定；慢性非癌痛慎用阿片。注意事项：阿片类最常见便秘须预防性通便，警惕呼吸抑制与依赖；NSAIDs有消化道与肾脏不良反应，老年、肾功能不全、溃疡史者慎用。",
+        "misjudgment": "以评分高低代替患者主诉给药，患者喊不痛就不给药。错：疼痛是主观体验，量表只是量化工具，应尊重患者自报并据此个体化滴定。",
+        "reasoning": "同为重度疼痛，为何癌痛患者可长期用强阿片，而慢性非癌痛患者多不推荐阿片治疗？",
+        "feedback": "癌痛属疾病本身持续存在，规律用药获益大于风险；慢性非癌痛阿片长期应用缺乏获益证据而依赖风险高，故策略不同。",
+        "transfer": "晚期肿瘤患者持续骨痛NRS 7分，试按三阶梯原则拟定给药思路并列出需随访的不良反应。"
+      },
+      "stdJudgment": "疼痛是主观体验，评估以患者自报为准，常用数字评分法（NRS 0~10）、视觉模拟法（VAS）与面部表情量表量化程度；镇痛遵循WHO三阶梯原则——轻度用非阿片类、中度用弱阿片类、重度用强阿片类，强调口服首选、按时给药、个体化滴定，并同步防治便秘、呼吸抑制等不良反应。",
+      "coreDefinition": "疼痛评估以患者主观自报为金标准，三阶梯原则指导镇痛药选择，按时给药、个体化滴定并防治不良反应。",
+      "facts": [
+        {
+          "field": "clinical.疼痛评估方法",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.疼痛分类与机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.三阶梯镇痛原则",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.常用镇痛药比较",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.慢性疼痛管理",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "阿片类镇痛药为处方管控药品，须遵医嘱使用，禁止自行加量或与他人分享。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "阿片类镇痛药为处方管控药品，须遵医嘱使用，禁止自行加量或与他人分享"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-034",
+      "title": "现代医学·感染与发热鉴别",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "发热",
+        "热型",
+        "降钙素原",
+        "不明原因发热",
+        "抗菌药物"
+      ],
+      "intent": "掌握发热的感染性与非感染性鉴别思路、热型鉴别价值及抗菌药物的合理使用时机。",
+      "learning": {
+        "knowledge": "主题要点：致热原（外源性与内生性）作用于体温调节中枢使调定点上移，体温调节本身正常。核心概念：稽留热见于大叶性肺炎与伤寒，弛张热见于脓毒症与脓肿，间歇热见于疟疾，回归热见于霍奇金淋巴瘤；PCT显著升高倾向细菌感染，病毒感染多正常或轻度升高。实践要点：不明原因发热（发热≥3周、多次≥38.3℃、常规检查一周未确诊）按感染、肿瘤、结缔组织病三大方向排查，重视用药史以排除药物热。注意事项：退热药不改变病因，高热伴谵妄、虚脱或儿童热性惊厥时对症处理并就医；抗菌药物使用前先留取培养标本。",
+        "misjudgment": "一发烧就静滴抗菌药物「消炎」。错：病毒感染、药物热、肿瘤热对抗菌药物无效且徒增耐药与不良反应，应先行病因学评估。",
+        "reasoning": "两位发热患者CRP都明显升高，为何一位用抗菌药物，另一位只用退热与观察？",
+        "feedback": "CRP只提示炎症存在，是否用抗菌药物取决于感染部位与病原学证据，体温高低与CRP数值本身不直接决定用药。",
+        "transfer": "持续发热2周、PCT正常、广谱抗菌药物治疗无效的患者，应重点排查哪些非感染性病因？"
+      },
+      "stdJudgment": "发热以感染性最常见，但肿瘤、自身免疫病、药物热等非感染性原因同样常见；热型（稽留热、弛张热、间歇热、回归热）有鉴别价值却易被退热药干扰，降钙素原与CRP辅助判断细菌感染，发热原因未明前避免盲目退热掩盖病程，更不可滥用抗菌药物。",
+      "coreDefinition": "发热鉴别先分感染性与非感染性，结合热型与炎症标志物定位定性，抗菌药物须在感染证据明确后使用。",
+      "facts": [
+        {
+          "field": "clinical.发热机制与热型",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.感染性与非感染性发热",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.炎症标志物判读",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.抗菌药物合理应用",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.不明原因发热",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "发热原因未明时禁止自行服用抗菌药物，退热药与处方用药须遵医嘱。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "发热原因未明时禁止自行服用抗菌药物，退热药与处方用药须遵医嘱"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-035",
+      "title": "现代医学·休克类型与处理",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "休克",
+        "低血容量性",
+        "感染性休克",
+        "液体复苏",
+        "去甲肾上腺素"
+      ],
+      "intent": "掌握休克的分类与早期识别要点，理解液体复苏原则与各类休克的治疗差异。",
+      "learning": {
+        "knowledge": "主题要点：血压是休克晚期指标，代偿期心率增快、皮肤湿冷、尿量减少先于血压下降出现。核心概念：低血容量性休克按失血量分四级（<15%、15~30%、30~40%、>40%）；感染性休克在充分液体复苏后仍低血压者用去甲肾上腺素，并尽早（1小时内）经验性广谱抗感染；心源性休克重在病因再灌注治疗、液体慎用；梗阻性休克（肺栓塞、心包压塞、张力性气胸）须解除梗阻。实践要点：液体复苏首选平衡晶体液，初始快速补液后评估反应再调整；动态监测乳酸、尿量、意识与皮肤灌注。注意事项：儿童与老年代偿储备差、变化快；心源性休克补液须防肺水肿，超声评估容量状态优于单一血压。",
+        "misjudgment": "血压正常就认为没有休克。错：代偿期血压可维持正常而组织已灌注不足，应以乳酸、尿量、皮肤灌注与意识判断，血压仅作参考。",
+        "reasoning": "同为休克，为何感染性休克积极补液、心源性休克却限制液体并强调病因处理？",
+        "feedback": "分布性休克以容量相对不足为主、需快速复苏；心源性休克泵衰竭致肺淤血，扩容风险高，方向相反，机械套用补液公式会加重病情。",
+        "transfer": "车祸外伤者面色苍白、心率128、尿量减少但血压尚在正常范围，应如何评估其休克状态并处置？"
+      },
+      "stdJudgment": "休克是有效循环血量不足导致组织灌注障碍的急症，按病因分低血容量性、心源性、分布性（感染性、过敏性）与梗阻性四类；早期识别靠意识改变、皮肤湿冷花斑、尿量减少与血乳酸升高，血压下降已属失代偿；处理以病因治疗与液体复苏为核心，感染性休克强调早期广谱抗感染并联合血管活性药物。",
+      "coreDefinition": "休克以组织灌注不足为本质，四型分治，液体复苏与病因治疗并行，乳酸、尿量与意识是监测关键。",
+      "facts": [
+        {
+          "field": "clinical.休克病理生理",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.休克分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.早期识别与监测",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.液体复苏原则",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.血管活性药物",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "液体复苏与血管活性药物须由医护人员执行，休克属急危重症，须立即送医。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "休克属急危重症，须立即送医，液体复苏与血管活性药物须由医护人员执行"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-036",
+      "title": "现代医学·水电解质紊乱处理",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "低钠血症",
+        "低钾血症",
+        "高钾血症",
+        "渗透压",
+        "补液原则"
+      ],
+      "intent": "掌握水电解质紊乱的容量与渗透压评估思路，理解低钠低钾高钾的处理原则与速度控制。",
+      "learning": {
+        "knowledge": "主题要点：钠是细胞外液主要阳离子，决定血浆渗透压；钾是细胞内液主要阳离子，决定神经肌肉与心肌兴奋性。核心概念：低钠血症分低容量性（缺钠）与高容量性（稀释），血钠<120mmol/L伴意识障碍时用3%高渗盐水，24小时血钠回升不超过8~10mmol/L；低钾血症（<3.5mmol/L）补钾途径与速度受严格限制；血钾>6.5mmol/L或心电图T波高尖、QRS增宽时用10%葡萄糖酸钙拮抗、胰岛素加葡萄糖促转移、排钾利尿或透析排钾。实践要点：每日记录出入量、监测电解质与心电图，肾功能不全者补钾须格外谨慎。注意事项：慢性低钠快速纠正可致脑桥中央髓鞘溶解；无尿者禁止常规补钾。",
+        "misjudgment": "血钾3.0mmol/L就一次性快速静脉补钾「补回来」。错：静脉补钾浓度与速度受限，快速补钾可诱发高钾性心律失常甚至猝死，且须先确认尿量。",
+        "reasoning": "两位低钠患者一位口渴尿少、一位水肿尿多，为何一个补水一个限水？",
+        "feedback": "低钠必须区分容量状态：低容量性低钠需补钠补水，稀释性低钠应限水并处理原发病，方向搞反会加重病情。",
+        "transfer": "透析患者突感四肢麻木，心电图示T波高尖，血钾结果未回报前应如何处置？"
+      },
+      "stdJudgment": "水电解质紊乱处理先判断容量状态（缺水或水过多）与渗透压类型（低渗、等渗、高渗），再定补液方案；低钠纠正宁慢勿快以防渗透性脱髓鞘；低钾须见尿补钾并控制浓度速度；高钾属急症，先以钙剂拮抗心肌毒性，再联合降钾措施。",
+      "coreDefinition": "水电解质紊乱以容量与渗透压评估为前提，补液速度宁慢勿快，高钾血症须按急症抢先处理。",
+      "facts": [
+        {
+          "field": "clinical.体液分布与渗透压调节",
+          "sourceType": "textbook",
+          "sourceTitle": "《生理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.低钠血症诊治",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.低钾血症处理",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.高钾血症急救",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.补液原则",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "静脉补钾补钠的浓度与速度须由医护人员严格控制，禁止自行输液或调节滴速。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "静脉补钾补钠的浓度与速度须由医护人员严格控制，禁止自行输液或调节滴速"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-037",
+      "title": "现代医学·抗生素耐药与防控",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "抗菌药物",
+        "耐药机制",
+        "分级管理",
+        "多重耐药菌",
+        "医院感染"
+      ],
+      "intent": "掌握抗生素耐药的主要机制与抗菌药物分级管理，理解合理用药与院感防控双管齐下的策略。",
+      "learning": {
+        "knowledge": "主题要点：耐药机制包括产酶灭活（β-内酰胺酶、碳青霉烯酶如KPC、NDM）、靶位改变（MRSA的mecA基因）、外排泵与膜通透性下降。核心概念：抗菌药物分非限制、限制与特殊使用三级，特殊级（碳青霉烯类、万古霉素、替加环素等）须会诊审批；经验治疗与目标治疗衔接——先按病原流行病学经验选药并送培养，药敏回报后降阶梯。实践要点：病毒性感染与无菌性炎症不用抗菌药；外科预防用药有明确指征与时限（多<24小时）。注意事项：多重耐药菌（MRSA、CRE、CRPA、ESBL肠杆菌）患者须单间或集中隔离，接触隔离加手卫生是防控基石；抗菌药物管理项目持续监测使用强度与耐药率。",
+        "misjudgment": "培养出细菌就等于感染、就须抗菌治疗。错：标本污染与定植均不需抗菌治疗，须结合炎症证据与感染部位判断，否则造成过度用药并筛选耐药菌。",
+        "reasoning": "新抗菌药物研发速度远不及耐药产生速度，为何把现有药物用好被看作最有效的新药来源？",
+        "feedback": "合理用药直接减缓耐药选择压力，感染控制切断传播，二者叠加可长期维持现有药物有效性，比等待新药更现实可行。",
+        "transfer": "住院患者痰培养检出CRE但无发热、无脓痰，应如何决定治疗并落实哪些防控措施？"
+      },
+      "stdJudgment": "抗生素耐药是细菌在药物选择压力下经基因突变与水平转移形成的适应性结果，防控须双管齐下：处方端严格抗菌药物分级管理、用药前送培养、按药敏降阶梯、足疗程但不过度；传播端落实手卫生、接触隔离与环境卫生，切断多重耐药菌在院内的人际传播链。",
+      "coreDefinition": "抗生素耐药防控以合理用药减少选择压力、以院感控制切断传播链为核心，两端并重缺一不可。",
+      "facts": [
+        {
+          "field": "clinical.耐药机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.抗菌药物分级管理",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.多重耐药菌感染诊治",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.标本送检与目标治疗",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.医院感染防控",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "抗菌药物须凭处方使用，禁止自行购买服用；特殊使用级药物须经会诊审批。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "抗菌药物须凭处方使用，禁止自行购买服用；特殊使用级药物须经会诊审批"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-038",
+      "title": "现代医学·围手术期管理要点",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "围手术期",
+        "ASA分级",
+        "禁食",
+        "抗凝桥接",
+        "静脉血栓预防"
+      ],
+      "intent": "掌握围手术期术前评估、禁食要求与用药调整，理解术后并发症预防的核心环节。",
+      "learning": {
+        "knowledge": "主题要点：术前评估的核心是心肺储备、用药史与营养状态，ASA分级Ⅰ~Ⅵ提示麻醉风险。核心概念：禁食原则——固体食物6小时、牛奶等半流质4小时、清流质2小时；抗凝桥接（华法林术前停药、低分子肝素过渡）、糖尿病术前胰岛素减量（手术日约减半）；术后VTE预防——低分子肝素、弹力袜与早期下床联合。实践要点：抗血小板药（阿司匹林、氯吡格雷）停药时间依出血与血栓风险由多学科权衡，冠脉支架者不可贸然全停；术后发热按时间窗排查肺不张、感染与静脉血栓。注意事项：老年、营养不良者加强围术期营养支持；术后恶心呕吐、谵妄、尿潴留须系统管理。",
+        "misjudgment": "术前禁食只禁「饭」，让患者喝牛奶或豆浆顶饿。错：牛奶含脂肪蛋白、排空慢，麻醉诱导期同样存在反流误吸风险，禁食要求须严格执行。",
+        "reasoning": "同一台手术，为何糖尿病者术前胰岛素要减量、而常规服用的二甲双胍多要暂停？",
+        "feedback": "禁食与手术应激改变血糖与肾功能状态，胰岛素减量防术中低血糖，二甲双胍暂停防乳酸酸中毒风险，药物调整以安全为先。",
+        "transfer": "长期口服华法林的房颤患者拟行腹腔镜胆囊切除，术前应如何安排抗凝管理与桥接？"
+      },
+      "stdJudgment": "围手术期管理覆盖术前评估优化、术中监护与术后并发症预防三个阶段：术前按ASA分级评估心肺储备并调整抗凝、降糖等药物，执行禁食6小时、清流质2小时的原则；术后重在疼痛控制、早期活动、静脉血栓预防与切口感染监测，是保障手术安全与加速康复的关键。",
+      "coreDefinition": "围手术期管理以术前风险评估与药物调整、禁食管理、术后并发症预防为链条，核心是防误吸、防血栓、防感染。",
+      "facts": [
+        {
+          "field": "clinical.术前评估要素",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.ASA分级与风险",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.麻醉与禁食要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.术后并发症预防",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.VTE预防",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "围手术期停药与禁食安排须由医护团队执行，患者不可自行停药或私自进食。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "围手术期停药与禁食安排须由医护团队执行，患者不可自行停药或私自进食"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-039",
+      "title": "现代医学·临终关怀与姑息治疗",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "姑息治疗",
+        "安宁疗护",
+        "全人照护",
+        "阿片类镇痛",
+        "生前预嘱"
+      ],
+      "intent": "掌握姑息治疗的目标与全人照护理念，理解终末期症状控制与阿片类镇痛的正确使用。",
+      "learning": {
+        "knowledge": "主题要点：姑息治疗适用于肿瘤及心衰、慢阻肺、神经退行性疾病等各种严重疾病的生命末期，不以治愈为目标而以舒适为宗旨。核心概念：全人照护四维度——生理（疼痛、呼吸困难、便秘、恶心、谵妄）、心理（焦虑、抑郁）、社会（家庭与经济支持）、灵性（生命意义、和解与告别）；镇痛遵循三阶梯并按时给药；呼吸困难可用小剂量阿片类缓解。实践要点：终末期常见表现（嗜睡增多、不思饮食、周围循环减弱、呼吸方式改变）提前向家属说明，减少恐慌；尊重患者生前预嘱，避免无获益的有创抢救。注意事项：家属哀伤辅导是姑息治疗组成部分；镇痛剂量个体差异大，以症状缓解与舒适为终点。",
+        "misjudgment": "把临终关怀当作放弃治疗、等待死亡。错：姑息治疗是积极转换治疗目标——从治愈转向舒适，症状控制与心理支持同样投入，只是不再做无获益的根治性措施。",
+        "reasoning": "生命末期使用阿片类镇痛，为何规范足量给药下的成瘾恐惧被认为是不必要的？",
+        "feedback": "终末期患者规律用药追求的是持续舒适而非快感，真实依赖风险远低于痛苦控制获益，疼痛未控本身就是折磨。",
+        "transfer": "晚期肺癌患者呼吸急促、焦虑不安，家属手足无措，试列出症状缓解与家属支持的要点。"
+      },
+      "stdJudgment": "姑息治疗以提高终末期患者及家属的生活质量为目标，通过全面控制疼痛、呼吸困难、恶心呕吐、谵妄等痛苦症状，配合心理、社会与灵性照护，使患者有尊严地走完生命最后阶段；阿片类药物在终末期疼痛与呼吸困难控制中居核心地位，剂量以症状缓解为目标，无须顾虑成瘾而拒用。",
+      "coreDefinition": "姑息治疗以症状控制与身心社灵全人照护为核心，让终末期患者少痛苦、有尊严地度过最后阶段。",
+      "facts": [
+        {
+          "field": "clinical.姑息治疗理念",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.终末期症状控制",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.癌痛三阶梯镇痛",
+          "sourceType": "textbook",
+          "sourceTitle": "《药理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.心理社会支持",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.安宁疗护实践",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "生命末期阿片类用药须由安宁疗护团队评估指导，家属不可自行增减剂量。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "生命末期阿片类用药须由安宁疗护团队评估指导，家属不可自行增减剂量"
+        ]
+      }
+    },
+    {
+      "id": "pb28-ac-040",
+      "title": "现代医学·循证医学在临床的应用",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "循证医学",
+        "证据分级",
+        "PICO",
+        "临床指南",
+        "批判性评价"
+      ],
+      "intent": "掌握循证医学三要素与五步实践流程，理解证据分级、诊断试验评价及指南与个体决策的关系。",
+      "learning": {
+        "knowledge": "主题要点：循证决策三要素缺一不可——证据离开经验与患者意愿难以落地，经验离开证据易流于随意。核心概念：证据分级大致为系统评价/Meta分析、随机对照试验、队列研究、病例对照研究、病例系列与专家意见；诊断试验评价指标包括灵敏度、特异度、阳性预测值、阴性预测值与似然比。实践要点：用PICO框架构建问题（患者、干预、对照、结局），检索后批判性评价文献质量，警惕发表偏倚、样本量不足与利益冲突；指南推荐强度（强推荐、弱推荐）须结合患者偏好执行。注意事项：老年多病、妊娠、罕见病等特殊人群常缺乏直接证据，决策须依据间接证据加个体化判断，并记录理由。",
+        "misjudgment": "把最新指南的强推荐原样套到每个患者身上，或认为没有RCT证据就不能处理。错：证据是群体概率，个体合并症、价值观与资源条件都会改变适用性，指南提供方向而非强制指令。",
+        "reasoning": "一项样本量大但纳入人群与本地差异明显的RCT结论，直接照搬还是批判性采纳，判断依据是什么？",
+        "feedback": "证据外推性取决于人群、干预、对照与结局同目标患者的匹配程度，批判性评价正是循证实践区别于照书治病的核心能力。",
+        "transfer": "80岁多病老人适用某项指南强推荐治疗但预期获益有限、负担较重，如何权衡证据与个体意愿？"
+      },
+      "stdJudgment": "循证医学将最佳研究证据、临床经验与患者意愿三者整合用于个体决策，实践按提出问题、系统检索、评价证据、应用证据、后效评价五步展开；证据按设计强度分级，系统评价与RCT居高层，但证据只回答群体平均效应，落到个体须结合病情与偏好，指南是工具而非指令。",
+      "coreDefinition": "循证医学整合最佳证据、临床经验与患者价值观作临床决策，循五步实践，证据分级指导证据强度判断。",
+      "facts": [
+        {
+          "field": "clinical.循证实践步骤",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.证据分级体系",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.诊断试验评价",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.指南与推荐分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《内科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.统计与偏倚基本概念",
+          "sourceType": "textbook",
+          "sourceTitle": "《诊断学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "不涉及剂量。",
+        "caution": "循证决策须结合临床判断与患者意愿，治疗方案由医生与患者共同商定，不可自行套用网络指南。"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "循证决策须结合临床判断与患者意愿，治疗方案由医生与患者共同商定，不可自行套用网络指南"
+        ]
+      }
+    }
+  ]
+}

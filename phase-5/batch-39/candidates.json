@@ -1,0 +1,595 @@
+{
+  "seed": "phase-5/batch-39",
+  "genLabel": "Phase 5 · Batch-39 · 65 nodes（N 中医经典 120→145 / H 中药鉴定 50→70 / J 中药炮制 40→60 上限补足）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 65
+  },
+  "samples": [
+    {
+      "id": "pb39-n-001",
+      "title": "素问·阴阳应象大论精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-002",
+      "title": "素问·五藏别论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-003",
+      "title": "素问·灵兰秘典论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-004",
+      "title": "素问·经脉别论精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-005",
+      "title": "素问·皮部论精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-006",
+      "title": "素问·经络论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-007",
+      "title": "素问·气穴论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-008",
+      "title": "素问·气府论精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-009",
+      "title": "素问·水热穴论精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-010",
+      "title": "灵枢·经脉篇精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-011",
+      "title": "灵枢·经水篇精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-012",
+      "title": "灵枢·五色篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-013",
+      "title": "灵枢·阴阳二十五人篇精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-014",
+      "title": "灵枢·忧恚无言篇精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-015",
+      "title": "难经·八难论气口独为五脏主精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-016",
+      "title": "难经·二十二难论是动所生病精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-017",
+      "title": "难经·三十六难论肾与命门精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-018",
+      "title": "伤寒论·太阳病条辨精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-n-019",
+      "title": "伤寒论·阳明病条辨精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-020",
+      "title": "伤寒论·少阳病条辨精读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-n-021",
+      "title": "金匮要略·五脏风寒积聚病篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-022",
+      "title": "金匮要略·疮痈肠痈浸淫病篇精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-n-023",
+      "title": "温病条辨·秋燥篇精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-n-024",
+      "title": "温病条辨·伏暑篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-n-025",
+      "title": "温热论·察舌辨苔精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-001",
+      "title": "鉴定·葶苈子真伪鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-002",
+      "title": "鉴定·大青叶性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-003",
+      "title": "鉴定·枇杷叶性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-004",
+      "title": "鉴定·桑叶性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-005",
+      "title": "鉴定·番泻叶性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-006",
+      "title": "鉴定·紫苏叶与佩兰叶鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-007",
+      "title": "鉴定·荆芥穗性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-008",
+      "title": "鉴定·紫花地丁与苦地丁鉴别",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-009",
+      "title": "鉴定·蒲公英性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-010",
+      "title": "鉴定·龙胆与坚龙胆鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-011",
+      "title": "鉴定·秦艽性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-012",
+      "title": "鉴定·白芷性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-013",
+      "title": "鉴定·细辛性状鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-014",
+      "title": "鉴定·木香与川木香鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-015",
+      "title": "鉴定·苍耳子性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-016",
+      "title": "鉴定·辛夷性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-017",
+      "title": "鉴定·丁香性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-018",
+      "title": "鉴定·女贞子性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-019",
+      "title": "鉴定·菟丝子性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-h-020",
+      "title": "鉴定·瓜蒌与天花粉鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-001",
+      "title": "炮制·牡蛎煅制固涩",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-002",
+      "title": "炮制·石膏煅制收湿敛疮",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-003",
+      "title": "炮制·龙骨煅制收敛固涩",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-004",
+      "title": "炮制·白矾煅制枯矾",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-005",
+      "title": "炮制·自然铜煅淬止痛",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-006",
+      "title": "炮制·炉甘石煅淬明目",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-007",
+      "title": "炮制·磁石煅淬重镇安神",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-008",
+      "title": "炮制·代赭石煅淬降逆",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-009",
+      "title": "炮制·肉豆蔻煨制涩肠止泻",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-010",
+      "title": "炮制·木香煨制实肠止泻",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-011",
+      "title": "炮制·肉豆蔻霜制霜减毒",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb39-j-012",
+      "title": "炮制·西瓜霜制霜清热消肿",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-013",
+      "title": "炮制·胆南星复制清热化痰",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-014",
+      "title": "炮制·半夏曲发酵消食化痰",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-015",
+      "title": "炮制·建神曲发酵消食",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-016",
+      "title": "炮制·谷芽发芽消食",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-017",
+      "title": "炮制·大豆黄卷发芽解表祛暑",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-018",
+      "title": "炮制·天冬蒸制滋阴润燥",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-019",
+      "title": "炮制·五味子醋蒸敛肺涩肠",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb39-j-020",
+      "title": "炮制·山茱萸酒蒸补益肝肾",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

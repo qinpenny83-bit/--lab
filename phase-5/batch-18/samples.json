@@ -1,0 +1,2537 @@
+{
+  "seed": "phase-5/batch-18",
+  "genLabel": "Phase 5 · Batch-18 · 30 nodes（S 中医外科学 0→30 下限）",
+  "total": 30,
+  "note": "S 中医外科学补足至下限 30；整书级经典补丁 6 条；外用有毒药红线全覆盖",
+  "samples": [
+    {
+      "id": "pb18-s-001",
+      "title": "疮疡·疖热毒蕴结证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "疮疡",
+        "疖",
+        "热毒蕴结",
+        "五味消毒饮",
+        "清热解毒"
+      ],
+      "intent": "掌握疖热毒蕴结证的主症舌脉、病机与清热解毒治法，熟悉五味消毒饮的组方与外治箍围法。",
+      "learning": {
+        "knowledge": "主症皮肤浅表红肿热痛，突起根浅，范围3~6cm，脓出即愈，轻者无全身症状，重者恶寒发热；舌红苔薄黄，脉数。病机热毒蕴结肌肤，气血凝滞，营卫不和。治以清热解毒，主方五味消毒饮（金银花、野菊花、蒲公英、紫花地丁、紫背天葵子），热盛加连翘、黄芩，外治初起箍围消肿、脓成切开排脓。",
+        "misjudgment": "把多发性反复发作的疖一律按热毒蕴结投清热解毒重剂。错：反复发作者多属阴虚内热或脾胃气虚，须养阴清热或健脾益气，一味苦寒反伤中阳，愈清愈发。",
+        "reasoning": "同为清热解毒，五味消毒饮为何以金银花为君而不以苦寒直折的黄连为君？",
+        "feedback": "金银花甘寒清透，善清解热毒且不伤胃，配野菊花、蒲公英等共奏清解消散之效；黄连苦寒虽峻，用于轻浅之疖则嫌药重病轻。",
+        "transfer": "颈后反复起硬结红肿疼痛者，试辨其属实热还是正虚，再定清热解毒或扶正托毒。"
+      },
+      "stdJudgment": "疖为浅表化脓性疾病，热毒蕴结证见局部红肿热痛、突起根浅、范围3~6cm，轻者无身热，重者恶寒发热，舌红苔薄黄、脉数。法取清热解毒，五味消毒饮药少力专，金银花为君清气分热毒，配蒲公英野菊花紫花地丁清解疗毒，外以箍围促其消散。",
+      "coreDefinition": "疖热毒蕴结证以局部红肿热痛、根浅突起、易脓易溃为特征，治以清热解毒，方用五味消毒饮。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "生气通天论篇第三",
+          "originalText": "营气不从，逆于肉理，乃生痈肿。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "五味消毒饮（金银花、野菊花、蒲公英、紫花地丁、紫背天葵子）水煎，金银花、蒲公英各15~30g，野菊花、紫花地丁各10~15g，日1剂分2~3次温服；外用：初起用金黄膏或玉露膏箍围外敷，脓成则切开排脓后掺九一丹提脓。",
+        "caution": "五味消毒饮药性寒凉，脾胃虚寒、大便溏泄者慎用，中病即止；疖肿切忌挤压，尤其颜面部疖肿挤压可致毒邪走散。"
+      },
+      "safety": {
+        "note": "外治忌挤压，颜面疖肿尤须防毒邪走散；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb18-s-002",
+      "title": "疮疡·颜面部疔疮证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "疮疡",
+        "颜面部疔疮",
+        "火毒蕴结",
+        "五味消毒饮",
+        "黄连解毒汤",
+        "走黄"
+      ],
+      "intent": "掌握颜面部疔疮主症舌脉、火毒蕴结病机与清热解毒治法，牢记忌挤压忌切开防走黄。",
+      "learning": {
+        "knowledge": "主症颜面部初起粟米样脓头，或痒或麻，逐渐红肿热痛，根深坚硬如钉丁之状，重者恶寒发热、口渴便秘；舌红苔黄，脉数有力。病机火毒蕴结，气血凝滞，毒盛则内攻入营成走黄。治以清热解毒，主方五味消毒饮合黄连解毒汤（金银花、野菊花、蒲公英、紫花地丁、紫背天葵子、黄连、黄芩、黄柏、栀子），便秘加生大黄，外治初起箍围、脓成提脓、溃后祛腐。",
+        "misjudgment": "疔疮脓头初现即用刀针切开排脓。错：疔根深蒂固，早期切开反致毒邪内陷走散，惟脓熟根松方宜提脓，且以药物提脓为主。",
+        "reasoning": "疔疮初起麻痒而后红肿热痛，为何说麻痒正是毒深之兆？",
+        "feedback": "麻痒为火毒走窜、经络阻隔之象，毒势深伏未及外透，较之单纯红肿热痛更险，故疔忌挤压切开，防其内攻。",
+        "transfer": "口角或鼻翼旁出现粟粒硬结红肿者，试分析其走黄风险与应避免的操作。"
+      },
+      "stdJudgment": "颜面疔疮初起如粟米脓头，坚硬根深，状如钉丁，麻痒相兼，继则红肿热痛明显，伴恶寒发热，舌红苔黄、脉数，重者壮热烦躁。疔为火毒之烈者，毒深根固，法当清热解毒并投，五味消毒饮合黄连解毒汤清解三焦火毒，外治只宜箍围，严禁挤压切开。",
+      "coreDefinition": "颜面部疔疮以粟粒脓头、坚硬根深、红肿热痛为特征，火毒蕴结，治以清热解毒，方用五味消毒饮合黄连解毒汤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.走黄警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "生气通天论篇第三",
+          "originalText": "膏粱之变，足生大丁，受如持虚。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "五味消毒饮合黄连解毒汤（金银花、野菊花、蒲公英、紫花地丁、紫背天葵子、黄连、黄芩、黄柏、栀子）水煎，黄连、黄芩各6~10g，金银花15~30g，日1剂分2~3次服，重者日2剂；外用：初起玉露散或金黄散箍围，脓成提脓祛腐，溃后掺九一丹。",
+        "caution": "颜面疔疮严禁挤压、早期切开、艾灸及挑刺，防毒邪走散内攻成走黄危候；出现高热神昏、烦躁谵语、脉洪数须即中西医结合救治；苦寒药中病即止，防伤脾胃。"
+      },
+      "safety": {
+        "note": "颜面疔疮忌挤压、忌早期切开、忌灸，防疔毒走黄；出现走黄先兆（高热神昏）即按危重症救治；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb18-s-003",
+      "title": "疮疡·痈初期证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "疮疡",
+        "痈",
+        "初期",
+        "仙方活命饮",
+        "消法"
+      ],
+      "intent": "掌握痈初期主症舌脉、热毒蕴结病机与清热解毒和营消肿治法，理解消法在外痈初期的应用。",
+      "learning": {
+        "knowledge": "主症患处皮肉之间红肿，光软无头，灼热疼痛，范围6~9cm，初起即有恶寒发热、头痛泛恶；舌红苔黄腻，脉滑数。病机热毒蕴结，营卫不和，经络阻隔，气血凝滞。治以清热解毒、和营消肿，主方仙方活命饮（金银花、当归、赤芍、乳香、没药、陈皮、防风、白芷、贝母、天花粉、皂角刺、穿山甲、甘草），热盛加黄连、连翘，外治初期金黄膏箍围消肿。",
+        "misjudgment": "痈成脓后仍守消法重用皂刺山甲企图内消。错：脓已成则热胜肉腐、毒聚成脓，消之无功反稽留病程，当切开排脓或托毒外出。",
+        "reasoning": "仙方活命饮中白芷、防风辛温透表，为何痈初起热毒壅盛时仍可配伍？",
+        "feedback": "痈虽属热，但需因势利导，白芷防风疏风透邪使热毒外达，与清热活血之品相伍，透、清、消并行，正合痈初期消法之旨。",
+        "transfer": "颈后红肿光软无头、渐成肿块并恶寒发热者，试按痈初期拟定内服与外治方案。"
+      },
+      "stdJudgment": "痈发于皮肉之间，初期患处光软无头、红肿热痛、范围6~9cm，伴恶寒发热、头痛泛恶，舌红苔黄腻、脉滑数。热毒蕴结、营卫不和，法取清热解毒、和营消肿，仙方活命饮为疡门开手攻毒第一方，金银花配归芍活血，白芷防风透表，皂刺山甲溃坚，内外兼施以消为贵。",
+      "coreDefinition": "痈初期证以光软无头、红肿热痛、范围较大为特征，热毒蕴结，治以清热解毒和营消肿，方用仙方活命饮。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "痈疽第八十一",
+          "originalText": "大热不止，热胜则肉腐，肉腐则为脓。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "至真要大论篇第七十四",
+          "originalText": "诸痛痒疮，皆属于心。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "仙方活命饮（金银花、当归、赤芍、乳香、没药、陈皮、防风、白芷、贝母、天花粉、皂角刺、穿山甲、甘草）水煎，金银花15~30g为君，日1剂分2次温服，药渣可再煎外洗；外用：初期金黄膏或玉露膏箍围外敷，范围超过肿块1~2cm，脓成则切开排脓。",
+        "caution": "仙方活命饮活血溃坚之品较多，孕妇及月经过多者慎用；乳香、没药有刺激性，过敏者减量；痈肿已成脓者不宜单纯内消，当转托法或切开。"
+      },
+      "safety": {
+        "note": "痈为阳证，初期以消法为主，脓成忌内消；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-004",
+      "title": "疮疡·有头疽证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "疮疡",
+        "有头疽",
+        "火毒凝结",
+        "黄连解毒汤",
+        "托法"
+      ],
+      "intent": "掌握有头疽主症舌脉、火毒凝结病机与清热和营托毒治法，理解消托补三期分治。",
+      "learning": {
+        "knowledge": "主症初起粟粒样脓头，红肿热痛，根脚收束，脓头相继增多如蜂窝，范围常超过9cm，多发项背，伴壮热口渴、便秘溲赤；舌红苔黄，脉数有力。病机外感风热湿热火毒，脏腑蕴毒，气血凝滞，热胜肉腐。治以清热解毒、和营托毒，主方黄连解毒汤合仙方活命饮（黄连、黄芩、黄柏、栀子、金银花、当归、赤芍、乳香、没药、皂角刺、穿山甲等），外治初起箍围、脓成切开、溃后提脓生肌。",
+        "misjudgment": "有头疽与痈同用消法，忽视托补转化。错：有头疽毒深根大，脓成后须托毒外出，溃后气血耗伤须补托收口，一味内消则毒陷难敛。",
+        "reasoning": "同为火毒为患，为何疔重内消而疽重托补？",
+        "feedback": "疔毒浅而急，消之可散；疽毒深而聚，脓成难消，托法助正鼓脓外出，防毒内陷，故三期分治各得其所。",
+        "transfer": "项部大片红肿、脓头蜂窝状并高热口渴者，试拟定消托补的阶段性用药思路。"
+      },
+      "stdJudgment": "有头疽初起皮肤一粟粒样脓头，红肿热痛，根脚收束，渐向深部及四周扩散，脓头相继增多，溃后状如蜂窝，范围常逾9cm，伴壮热口渴，舌红苔黄、脉数有力。火毒凝结、气血凝滞，法取清热和营托毒，黄连解毒汤清三焦火毒，合仙方活命饮和营溃坚，脓成即托，溃后转补。",
+      "coreDefinition": "有头疽以粟粒脓头相继增多、红肿热痛、溃后如蜂窝为特征，火毒凝结，治以清热和营托毒。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.消托补分期",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《医宗金鉴》",
+          "canon": "《医宗金鉴》",
+          "chapter": "外科心法要诀",
+          "originalText": "痈疽原是火毒生，经络阻隔气血凝。",
+          "sourceTitle": "《医宗金鉴》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "黄连解毒汤合仙方活命饮（黄连、黄芩、黄柏、栀子、金银花、当归、赤芍、乳香、没药、防风、白芷、贝母、天花粉、皂角刺、穿山甲、甘草）水煎，日1剂分2~3次温服，重者日2剂；外用：初起金黄膏箍围，脓成十字或井字切开排脓，溃后提脓祛腐、生肌收口。",
+        "caution": "有头疽发于项背易内陷，忌挤压碰撞，忌过早切开；脓成而不溃或疮口过小，须及时扩创引流；兼糖尿病者血糖控制与外科处理并重；穿山甲孕妇禁用，乳香没药孕妇慎用。"
+      },
+      "safety": {
+        "note": "有头疽忌挤压、忌早期切开；脓熟不溃须扩创引流；消托补三期各有其法，不可混施；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-005",
+      "title": "疮疡·丹毒风热毒蕴证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "疮疡",
+        "丹毒",
+        "风热毒蕴",
+        "普济消毒饮",
+        "疏风清热"
+      ],
+      "intent": "掌握头面部丹毒主症舌脉、风热毒蕴病机与疏风清热解毒治法，熟悉普济消毒饮与外敷法。",
+      "learning": {
+        "knowledge": "主症头面部皮肤突然发红、色如涂丹、边界清楚、灼热肿胀、迅速蔓延，伴恶寒发热、头痛、口渴，重者双目肿闭；舌红苔薄黄，脉浮数。病机风热毒邪外袭，血分蕴热，肌肤经络壅滞。治以疏风清热解毒，主方普济消毒饮（黄芩、黄连、连翘、板蓝根、马勃、牛蒡子、薄荷、僵蚕、玄参、升麻、柴胡、桔梗、甘草、陈皮），外治玉露散或金黄散凉调外敷，颜面禁砭镰。",
+        "misjudgment": "头面丹毒误作一般接触性皮炎仅予外涂药膏。错：丹毒为血分热毒为患，须内服清热凉血解毒方药，单恃外涂不及其本，反致毒热蔓延。",
+        "reasoning": "同为颜面红肿热痛，丹毒与颜面疔疮为何治法一散一清、外治一敷一忌？",
+        "feedback": "丹毒浮浅在表，疏风清热可散；疔疮根深蒂固，清热解毒须防内攻，且忌挤压切开，二者病位浅深有别，治法随之而异。",
+        "transfer": "小腿焮红灼热、边界清楚且反复发作的患者，试分析其证型归属与根治要点。"
+      },
+      "stdJudgment": "丹毒发于头面者，皮肤突然焮红灼热、肿胀疼痛、边界清楚、迅速蔓延，伴恶寒发热、头痛口渴，甚则双目合缝，舌红苔薄黄、脉浮数。风热毒邪上犯，血分热盛，法取疏风清热解毒，普济消毒饮以芩连清上焦热毒，升麻柴胡薄荷疏风透邪，马勃牛蒡利咽散肿，外敷凉药以散热毒。",
+      "coreDefinition": "丹毒风热毒蕴证以皮肤焮红如丹涂、边界清楚、灼热肿胀为特征，治以疏风清热解毒，方用普济消毒饮。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《诸病源候论》",
+          "canon": "《诸病源候论》",
+          "chapter": "丹毒病诸候",
+          "originalText": "丹毒者，人身忽然焮赤，如丹涂之状，故谓之丹毒。",
+          "sourceTitle": "《诸病源候论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "普济消毒饮（黄芩、黄连、连翘、板蓝根、马勃、牛蒡子、薄荷、僵蚕、玄参、升麻、柴胡、桔梗、甘草、陈皮）水煎，黄芩、黄连各6~10g，板蓝根15~30g，薄荷后下，日1剂分2次服；外用：玉露散或金黄散凉开水调敷，随干随换；颜面部丹毒禁用砭镰法。",
+        "caution": "普济消毒饮苦寒清解，脾胃虚寒者慎用，中病即止；头面部丹毒禁砭镰放血，防感染扩散；丹毒反复发作须防形成大脚风，需根治足癣等感染灶。"
+      },
+      "safety": {
+        "note": "颜面部丹毒禁用砭镰法；发于下肢者反复发作可成象皮腿；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-006",
+      "title": "疮疡·瘰疬气滞痰凝证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "疮疡",
+        "瘰疬",
+        "气滞痰凝",
+        "逍遥散",
+        "二陈汤",
+        "半夏"
+      ],
+      "intent": "掌握瘰疬气滞痰凝证的主症舌脉、病机与疏肝理气化痰散结治法，并鉴别颈痈与失荣。",
+      "learning": {
+        "knowledge": "主症颈项部结核如串珠状，大小不一，皮色不变，按之坚实、推之可动，无红肿热痛，或随喜怒而消长，兼胸胁胀闷；舌淡红苔白腻，脉弦滑。病机肝气郁结，脾失健运，痰浊内生，气滞痰凝于颈。治以疏肝理气、化痰散结，主方逍遥散合二陈汤（柴胡、当归、白芍、白术、茯苓、薄荷、生姜、制半夏、陈皮、甘草），肿块硬加海藻、昆布、牡蛎，外治阳和解凝膏外敷。",
+        "misjudgment": "把瘰疬误作颈痈而用清热解毒、切开排脓。错：颈痈为急性化脓性疾患，红肿热痛起病急；瘰疬属慢性痰核，不红不热不痛，误切则成瘘管，迁延难敛。",
+        "reasoning": "瘰疬结核随情志消长，为何疏肝之外尚需化痰？",
+        "feedback": "肝郁则气滞，气滞则津凝为痰，痰随气行结于颈项而成核，故疏肝与化痰并举，气行则痰消，结核自散。",
+        "transfer": "颈侧多个无痛性小结节且情绪波动时增大者，试从气滞痰凝角度分析其证治。"
+      },
+      "stdJudgment": "瘰疬发于颈项，结核如串珠，气滞痰凝证见肿块坚实、推之可动、皮色不变、不热不痛，或随情志而消长，苔白腻、脉弦滑。肝郁脾虚、痰气凝结成核，法取疏肝理气、化痰散结，逍遥散疏肝解郁，二陈汤燥湿化痰，内外合治，此证须与颈痈、失荣相鉴别。",
+      "coreDefinition": "瘰疬气滞痰凝证以颈项结核如串珠、坚实可动、皮色不变为特征，治以疏肝理气化痰散结，方用逍遥散合二陈汤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "寒热第七十",
+          "originalText": "此皆鼠瘘寒热之毒气也，留于脉而不去者也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "逍遥散合二陈汤（柴胡、当归、白芍、白术、茯苓、薄荷、生姜、甘草、半夏、陈皮）水煎，日1剂分2次温服，半夏用制半夏6~10g；外用：肿块期太乙膏或阳和解凝膏外敷，溃后提脓祛腐生肌。",
+        "caution": "制半夏有毒须炮制后用，生品禁内服，反乌头类（附子、川乌、草乌）；本方疏肝化痰，孕妇及月经过多者慎用；瘰疬如见肿块坚硬如石、推之不移，须排除恶性病变。"
+      },
+      "safety": {
+        "note": "瘰疬初起无红肿热痛，切忌当作颈痈切开；痰核坚硬如石须排查恶变；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-007",
+      "title": "疮疡·流注暑湿阻络证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "疮疡",
+        "流注",
+        "暑湿阻络",
+        "五神汤",
+        "黄连解毒汤"
+      ],
+      "intent": "掌握流注暑湿阻络证的主症舌脉、病机与清热解毒化湿通络治法，理解流注多发性特点。",
+      "learning": {
+        "knowledge": "主症初起恶寒发热、头胀胸闷、呕恶纳呆，继则四肢或躯干一处或多处漫肿疼痛，皮色如常，按之微热，此处未愈他处又起；舌红苔白腻，脉滑数。病机暑湿之邪阻于经络，气血凝滞，肉腐成脓。治以清热解毒、化湿通络，主方五神汤合黄连解毒汤（金银花、紫花地丁、车前子、茯苓、牛膝、黄连、黄芩、黄柏、栀子），外治初起金黄膏箍围、脓成切开引流。",
+        "misjudgment": "流注皮色不变、漫肿无头即误作阴证而投温补。错：流注虽皮色如常，然多伴寒战高热、按之灼热，属阳证脓疡，温补反助火毒，当清化解毒、促脓早透。",
+        "reasoning": "流注皮色不变而内已成脓，为何不可因外形不红而判定为阴证？",
+        "feedback": "病位深在肌肉，热毒尚未外透故皮色如常，然全身壮热、局部灼热已示阳证本质，辨阴阳当四诊合参，不可单恃皮色。",
+        "transfer": "夏秋之际多处肌肉漫肿疼痛伴恶寒发热者，试按暑湿流注分析病机与治疗原则。"
+      },
+      "stdJudgment": "流注多发于夏秋，暑湿流注证见恶寒发热、头胀胸闷呕恶，躯干四肢一处或多处漫肿疼痛、皮色不变、按之微热，舌红苔白腻、脉滑数。暑湿之邪阻于经络，气血壅滞成脓，法取清热解毒、化湿通络，五神汤清解湿毒、通络消肿，合黄连解毒汤泻火解毒，外治箍围与切开并用。",
+      "coreDefinition": "流注暑湿阻络证以肌肉深处漫肿疼痛、皮色不变、此处未愈他处又起为特征，治以清热解毒化湿通络。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "痈疽第八十一",
+          "originalText": "营卫稽留于经脉之中，则血泣而不行，血泣而不行则卫气从之而不通，壅遏而不得行，故热。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "五神汤合黄连解毒汤（金银花、紫花地丁、车前子、茯苓、牛膝、黄连、黄芩、黄柏、栀子）水煎，金银花15~30g，黄连、黄芩各6~10g，日1剂分2次温服；外用：初起金黄膏箍围，脓成切开引流，溃后提脓祛腐、生肌收口。",
+        "caution": "流注为多发性脓肿，一处未愈他处又起，须注意全身用药与局部处理并重；苦寒清热药中病即止；已成脓者及时切开，不可一味内消。"
+      },
+      "safety": {
+        "note": "流注多发性、易走散，须全身与局部同治；脓成即切开引流；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb18-s-008",
+      "title": "乳痈·肝胃郁热证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "乳痈",
+        "肝胃郁热",
+        "疏肝清胃",
+        "瓜蒌牛蒡汤"
+      ],
+      "intent": "掌握乳痈肝胃郁热证的主症舌脉、病机与疏肝清胃通乳消肿治法，熟悉瓜蒌牛蒡汤与外治。",
+      "learning": {
+        "knowledge": "主症乳房红肿热痛较甚，肿块增大，乳汁排出不畅，皮色焮红，伴恶寒发热或壮热、口渴欲饮、便秘溲赤；舌红苔黄腻，脉弦数。病机乳头属肝、乳房属胃，肝气郁结化热，胃热壅滞，乳络阻塞，热盛肉腐。治以疏肝清胃、通乳消肿，主方瓜蒌牛蒡汤（瓜蒌、牛蒡子、天花粉、黄芩、栀子、连翘、金银花、柴胡、青皮、陈皮、皂角刺、甘草），外治初起金黄膏外敷、脓成切开排脓。",
+        "misjudgment": "乳痈发热红肿即大量用苦寒直折，忽视通乳散结。错：乳痈之成以乳汁壅滞为本，苦寒虽可清热，不通乳则郁积不去，当疏肝清胃与通乳并施，使乳络通畅热毒得泄。",
+        "reasoning": "乳头属肝、乳房属胃，乳痈红肿热痛为何既要清胃热又要疏肝气？",
+        "feedback": "肝气郁则乳络不畅，胃热盛则肉腐为脓，疏肝以通乳络、清胃以解热毒，二者相须，郁解热清则痈肿自消。",
+        "transfer": "产后哺乳乳房红肿跳痛、按之应指者，试分析其属肝胃郁热还是已入成脓期及处理要点。"
+      },
+      "stdJudgment": "乳痈肝胃郁热证见乳房红肿热痛加剧、肿块增大、乳汁排出不畅，伴恶寒发热或壮热、口渴、便秘溲赤，舌红苔黄腻、脉弦数。乳头属肝、乳房属胃，肝气郁结、胃热壅滞，热胜肉腐欲成脓，法取疏肝清胃、通乳消肿，瓜蒌牛蒡汤清解肝胃热毒、疏通乳络，脓成则切开。",
+      "coreDefinition": "乳痈肝胃郁热证以乳房红肿热痛、肿块增大、乳汁不畅为特征，治以疏肝清胃通乳消肿，方用瓜蒌牛蒡汤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《外科正宗》",
+          "canon": "《外科正宗》",
+          "chapter": "乳痈论第二十七",
+          "originalText": "乳房属阳明胃经，乳头属足厥阴肝经。",
+          "sourceTitle": "《外科正宗》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "瓜蒌牛蒡汤（瓜蒌、牛蒡子、天花粉、黄芩、栀子、连翘、金银花、柴胡、青皮、陈皮、皂角刺、甘草）水煎，瓜蒌15~30g，日1剂分2次温服；外用：初期金黄膏或玉露膏外敷，脓成则切开排脓，溃后八二丹提脓、生肌散收口。",
+        "caution": "瓜蒌反乌头类（附子、川乌、草乌），不宜同用；哺乳期用药宜兼顾乳汁排出，通乳与清解并行；脓成当及时切开，不宜一味内消；乳痈须防成乳漏。"
+      },
+      "safety": {
+        "note": "乳痈红肿明显者忌暴力按摩排乳，防炎症扩散；脓成切开宜循乳络放射方向；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "瓜蒌反乌头类（附子、川乌、草乌），含瓜蒌方不宜与乌头类同用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-009",
+      "title": "乳痈·乳汁郁滞证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "乳痈",
+        "乳汁郁滞",
+        "通乳散结",
+        "瓜蒌牛蒡汤"
+      ],
+      "intent": "掌握乳痈乳汁郁滞证的主症舌脉、病机与疏肝理气通乳散结治法，熟悉排乳手法与外敷。",
+      "learning": {
+        "knowledge": "主症乳房胀硬疼痛，乳汁排出不畅，可触及边界不清的肿块，压痛明显，皮色微红或不变，伴恶寒发热较轻；舌淡红苔薄白或薄黄，脉弦。病机乳汁蓄积，乳络阻塞，气滞血凝。治以疏肝理气、通乳散结，主方瓜蒌牛蒡汤加减（瓜蒌、牛蒡子、天花粉、柴胡、青皮、陈皮、王不留行、漏芦、路路通、甘草），外治热敷按摩排乳、金黄散外敷。",
+        "misjudgment": "乳汁郁滞期即予大剂清热解毒，忽视通乳。错：此期郁滞为本、热象不显，重在疏肝通乳，乳汁得通则肿消痛止；过早苦寒反碍乳络疏通。",
+        "reasoning": "同是乳痈，为何乳汁郁滞期以通乳为先而不急于清热？",
+        "feedback": "郁滞未化热或热象尚轻，通乳使乳汁外泄、气血畅行，则瘀滞自散；若热毒已盛则须清解，病期不同治法有别。",
+        "transfer": "哺乳妇乳房胀痛硬结、排乳不畅而无高热者，试拟定通乳散结的内外治法。"
+      },
+      "stdJudgment": "乳痈乳汁郁滞证为乳痈初期，乳房胀硬疼痛、乳汁排出不畅、肿块边界不清、压痛明显、皮色微红，可伴轻度恶寒发热，舌淡红苔薄白或薄黄、脉弦。乳汁蓄积、乳络阻塞，气血凝滞成块，法取疏肝理气、通乳散结，瓜蒌牛蒡汤通乳消肿，配王不留行、路路通等，外以热敷按摩、金黄散外敷，通乳为第一要义。",
+      "coreDefinition": "乳痈乳汁郁滞证以乳房胀硬疼痛、乳汁不畅、肿块边界不清为特征，治以疏肝理气通乳散结。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《诸病源候论》",
+          "canon": "《诸病源候论》",
+          "chapter": "妇人杂病诸候·乳痈候",
+          "originalText": "此由新产后，儿未能饮之，及饮不泄，或断儿乳，捻其乳汁不尽，皆令乳汁蓄结，与血气相搏。",
+          "sourceTitle": "《诸病源候论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "瓜蒌牛蒡汤加减（瓜蒌、牛蒡子、天花粉、柴胡、青皮、陈皮、皂角刺、王不留行、漏芦、路路通、甘草）水煎，日1剂分2次温服；外用：金黄散或玉露散冷调外敷肿块处，并可循乳络方向轻柔按摩排乳，哺乳前湿热敷。",
+        "caution": "按摩排乳忌暴力挤压，防乳腺损伤与炎症扩散；乳痈早期未成脓者忌手术切开；瓜蒌反乌头类；哺乳期用药注意观察婴儿反应。"
+      },
+      "safety": {
+        "note": "早期通乳为要，忌暴力按摩与过早切开；保持排乳通畅是防痈成脓的关键；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "瓜蒌反乌头类（附子、川乌、草乌），含瓜蒌方不宜与乌头类同用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-010",
+      "title": "乳癖·肝郁痰凝证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "乳癖",
+        "肝郁痰凝",
+        "疏肝解郁",
+        "逍遥蒌贝散"
+      ],
+      "intent": "掌握乳癖肝郁痰凝证的主症舌脉、病机与疏肝解郁化痰散结治法，理解其与乳岩的鉴别。",
+      "learning": {
+        "knowledge": "主症单侧或双侧乳房胀痛，可触及大小不一、质地中等、边界不清的肿块，经前加重、经后减轻，随喜怒消长，兼胸胁胀闷、善郁易怒、失眠多梦；舌淡红苔薄白或白腻，脉弦滑。病机肝气郁结，脾失健运，痰浊凝结，乳络瘀阻。治以疏肝解郁、化痰散结，主方逍遥蒌贝散（柴胡、当归、白芍、茯苓、白术、瓜蒌、贝母、半夏、南星、生牡蛎、山慈菇），外治阳和解凝膏外敷。",
+        "misjudgment": "乳癖肿块按之不痛即疑为乳岩而过度恐慌。错：乳癖肿块质软或韧、活动、随月经消长，与乳岩肿块坚硬如石、推之不移、溃后如岩穴有别，可借助钼靶或活检鉴别。",
+        "reasoning": "乳癖与乳岩同发于乳房，为何乳癖重在疏肝化痰而乳岩重在扶正祛邪？",
+        "feedback": "乳癖为肝郁痰凝之良性增生，疏肝化痰可消；乳岩为癌毒内结、正气已伤之恶候，须扶正与解毒并行，病性不同治法迥异。",
+        "transfer": "经前乳房胀痛加重、可触及条索状结块的中年女性，试分析其证型与调治思路。"
+      },
+      "stdJudgment": "乳癖多见于青中年妇女，乳房胀痛与月经周期相关，肝郁痰凝证见乳房肿块随喜怒消长，胀痛连及胸胁，善郁易怒，失眠多梦，舌淡红苔薄白、脉弦滑。肝气郁结、痰浊凝结，乳络瘀阻，法取疏肝解郁、化痰散结，逍遥蒌贝散疏肝健脾化痰软坚，肿块柔软活动、随月经消长是与乳岩鉴别之要。",
+      "coreDefinition": "乳癖肝郁痰凝证以乳房肿块随喜怒消长、胀痛与月经相关为特征，治以疏肝解郁化痰散结，方用逍遥蒌贝散。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《疡科心得集》",
+          "canon": "《疡科心得集》",
+          "chapter": "辨乳癖乳痰论",
+          "originalText": "乳中结核，形如丸卵，不疼痛，不发寒热，皮色不变，其核随喜怒消长。",
+          "sourceTitle": "《疡科心得集》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "逍遥蒌贝散（柴胡、当归、白芍、茯苓、白术、瓜蒌、贝母、半夏、南星、生牡蛎、山慈菇）水煎，日1剂分2次温服，疗程与月经周期相关，经前加重者经前连服7~10日；外用：肿块明显者阳和解凝膏外敷。",
+        "caution": "瓜蒌、贝母反乌头类，半夏生品有毒须制用，天南星有毒须制用；孕妇慎用；乳癖肿块若短期增大、质地变硬、与皮肤粘连，须排除乳岩及时活检。"
+      },
+      "safety": {
+        "note": "乳癖为良性增生，但肿块质硬、固定、乳头溢血者须排除乳岩；外敷药注意皮肤过敏；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用",
+          "瓜蒌贝母反乌头类，含瓜蒌贝母方不宜与乌头类同用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-011",
+      "title": "乳岩·正虚毒恋证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "乳岩",
+        "正虚毒恋",
+        "益气养血",
+        "八珍汤",
+        "五味消毒饮"
+      ],
+      "intent": "掌握乳岩正虚毒恋证的主症舌脉、病机与益气养血解毒散结治法，理解扶正与祛邪的关系。",
+      "learning": {
+        "knowledge": "主症乳岩晚期肿块增大，或溃破如岩穴，疮口不敛，渗流血水，乳头内陷、抬高，兼形体消瘦、神疲乏力、气短懒言、纳少便溏；舌淡红或淡暗，苔薄白，脉沉细弱。病机气血亏虚，癌毒留恋，正虚邪恋。治以益气养血、解毒散结，主方八珍汤合五味消毒饮（人参或党参、白术、茯苓、当归、川芎、白芍、熟地黄、甘草、金银花、野菊花、蒲公英、紫花地丁、紫背天葵子），外治疮面祛腐生肌。",
+        "misjudgment": "正虚毒恋期仍以大剂清热解毒攻伐。错：晚期气血大亏，一味攻毒则正气愈伤，毒未去而人先衰，当扶正为主、解毒为辅，益气养血使正复则邪自难留。",
+        "reasoning": "乳岩晚期毒邪仍在，为何治法以益气养血为先而不专事攻毒？",
+        "feedback": "邪之所凑其气必虚，晚期正虚为本，气旺血充则脏腑功能得复，方能耐受解毒散结之品，此扶正以祛邪之义。",
+        "transfer": "乳岩术后创面不愈、神疲消瘦者，试从正虚毒恋角度拟定扶正与祛邪兼顾的用药思路。"
+      },
+      "stdJudgment": "乳岩晚期正虚毒恋证见肿块增大溃破，疮口不敛、渗流血水或如岩穴，乳头内陷，伴形体消瘦、神疲乏力、气短纳少，舌淡红苔薄白、脉沉细弱。癌毒内结日久，气血两亏、余毒留恋，法取益气养血、解毒散结，八珍汤双补气血扶其正，合五味消毒饮清解余毒，正复毒祛乃可带瘤延年。",
+      "coreDefinition": "乳岩正虚毒恋证以肿块溃破不敛、渗流血水、形体消瘦、神疲乏力为特征，治以益气养血解毒散结，方用八珍汤合五味消毒饮。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.预后警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《外科正宗》",
+          "canon": "《外科正宗》",
+          "chapter": "乳痈论第二十七",
+          "originalText": "忧郁伤肝，思虑伤脾，积想在心，所愿不得志者，致经络痞涩，聚结成核。",
+          "sourceTitle": "《外科正宗》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "八珍汤合五味消毒饮（人参或党参、白术、茯苓、当归、川芎、白芍、熟地黄、甘草、金银花、野菊花、蒲公英、紫花地丁、紫背天葵子）水煎，日1剂分2次温服，扶正与解毒并进；外用：疮面渗血水者掺海浮散或八二丹，外用生肌玉红膏。",
+        "caution": "乳岩溃破者忌挤压、忌乱用腐蚀药外涂；白花蛇舌草、半枝莲等解毒抗癌药久服须顾护脾胃；补益与解毒之品同用时注意消补相宜，正气来复乃可受攻。"
+      },
+      "safety": {
+        "note": "乳岩溃破忌挤压刺激，禁用腐蚀性外用药；出现广泛转移征象须及时中西医结合综合治疗；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-012",
+      "title": "气瘿·肝郁气滞证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "气瘿",
+        "肝郁气滞",
+        "疏肝理气",
+        "四海舒郁丸",
+        "海藻"
+      ],
+      "intent": "掌握气瘿肝郁气滞证的主症舌脉、病机与疏肝理气解郁消肿治法，熟悉四海舒郁丸。",
+      "learning": {
+        "knowledge": "主症颈前结喉两侧漫肿，质软不痛，皮色如常，随吞咽上下移动，肿块可随情志而消长，兼胸胁胀满、善太息；舌淡红苔薄白，脉弦。病机肝郁气滞，脾失健运，痰气交阻，结于颈前。治以疏肝理气、解郁消肿，主方四海舒郁丸（海藻、昆布、海带、海螵蛸、海蛤壳、青木香、陈皮），胸闷太息加柴胡、郁金、香附，外治肿块明显者膏药外敷。",
+        "misjudgment": "气瘿肿块增大即疑为恶性而急于手术。错：气瘿多为单纯性甲状腺肿，质软随吞咽移动、无压迫症状者可保守调理；惟肿块硬、固定、声嘶、迅速增大方须手术或活检。",
+        "reasoning": "四海舒郁丸以海藻昆布等咸寒软坚药为主，为何尚需配青木香、陈皮理气？",
+        "feedback": "瘿肿因气滞痰凝，咸药软坚散结之外，须理气以助痰化，气行则痰消肿散，二者相辅相成。",
+        "transfer": "山区青年颈前对称性肿大、质软无压痛者，试从肝郁气滞与缺碘两个角度分析防治要点。"
+      },
+      "stdJudgment": "气瘿多见于青春期或缺碘地区，颈前结喉两侧弥漫性肿大，质软不痛，皮色如常，随吞咽上下移动，可随情志波动消长，兼胸胁胀满，舌淡红苔薄白、脉弦。肝郁气滞、痰气交阻结于颈前，法取疏肝理气、解郁消肿，四海舒郁丸以海藻昆布海带咸软坚散结、青木香陈皮理气，气得行则肿得消。",
+      "coreDefinition": "气瘿肝郁气滞证以颈前弥漫肿大、质软不痛、随吞咽移动为特征，治以疏肝理气解郁消肿，方用四海舒郁丸。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.禁忌",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《诸病源候论》",
+          "canon": "《诸病源候论》",
+          "chapter": "瘿候",
+          "originalText": "瘿者，由忧恚气结所生。",
+          "sourceTitle": "《诸病源候论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "四海舒郁丸（海藻、昆布、海带、海螵蛸、海蛤壳、青木香、陈皮）水煎服或为丸，海藻、昆布各10~15g，日1剂分2次服；一般不需外治，肿块明显者可配合外敷消瘿散结之膏药。",
+        "caution": "海藻反甘草，四海舒郁丸含海藻，忌与甘草同用；孕妇慎用；气瘿肿块迅速增大、质地变硬、有压迫症状者须排除恶变，考虑手术治疗。"
+      },
+      "safety": {
+        "note": "气瘿以情志调摄与饮食（碘）调理为辅；肿块压迫气管或疑恶变者手术；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；含海藻方忌与甘草同用；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-013",
+      "title": "肉瘿·痰气凝结证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "肉瘿",
+        "痰气凝结",
+        "理气化痰",
+        "海藻玉壶汤",
+        "十八反"
+      ],
+      "intent": "掌握肉瘿痰气凝结证的主症舌脉、病机与理气化痰软坚散结治法，理解海藻玉壶汤反药同用的含义。",
+      "learning": {
+        "knowledge": "主症颈前喉结一侧或两侧结块，柔韧而圆，形如肉团，边界清楚，表面光滑，随吞咽上下移动，无明显疼痛，肿块可缓慢增大；舌淡红苔白腻，脉弦滑。病机肝脾气郁，痰浊凝结，瘀阻颈前。治以理气化痰、软坚散结，主方海藻玉壶汤（海藻、昆布、贝母、半夏、青皮、陈皮、当归、川芎、连翘、甘草、独活、海带），外治阳和解凝膏外敷或手术切除。",
+        "misjudgment": "肉瘿痰气凝结即长期服用海藻玉壶汤，忽视十八反风险。错：海藻与甘草同用属相反配伍，虽古方相激成用，但长期服用安全性存疑，肿块增长者宜手术，服药须中病即止。",
+        "reasoning": "海藻玉壶汤中海藻与甘草本属十八反，为何古方仍配伍同用？",
+        "feedback": "此取相反相激、借其激荡之力以攻坚破结，属特定配伍经验；后世用之极审慎，现代临床多避忌或减量短服，学习其义而不必泥守。",
+        "transfer": "颈前单发圆滑肿块随吞咽移动而甲功正常者，试分析肉瘿与气瘿的鉴别要点及是否宜用含海藻方。"
+      },
+      "stdJudgment": "肉瘿多见于中青年，颈前喉结一侧或两侧结块，柔韧而圆如肉之团，边界清楚，表面光滑，随吞咽上下移动，不痛，可缓慢增大，舌淡红苔白腻、脉弦滑。痰气凝结、瘀阻颈前，法取理气化痰、软坚散结，海藻玉壶汤软坚消瘿、理气化痰，方中海藻与甘草并用，为十八反相激成用之例，用须谨慎。",
+      "coreDefinition": "肉瘿痰气凝结证以颈前柔韧圆滑结块、随吞咽移动、不痛为特征，治以理气化痰软坚散结，方用海藻玉壶汤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.十八反警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《外科正宗》",
+          "canon": "《外科正宗》",
+          "chapter": "瘿瘤论第二十二",
+          "originalText": "肉瘿者，软如绵，硬如馒，皮色如常。",
+          "sourceTitle": "《外科正宗》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "海藻玉壶汤（海藻、昆布、贝母、半夏、青皮、陈皮、当归、川芎、连翘、甘草、独活、海带）水煎，海藻、昆布各10~15g，制半夏6~10g，日1剂分2次服；外用：肿块外用阳和解凝膏，必要时手术切除。",
+        "caution": "海藻玉壶汤中海藻与甘草同用属十八反配伍，教材注明取其相反相激、攻坚破结之旨，临床应用须谨慎权衡、不宜久服；半夏生品有毒须炮制，反乌头类；孕妇慎用；肉瘿肿块增大迅速或囊变出血须手术。"
+      },
+      "safety": {
+        "note": "海藻玉壶汤含海藻与甘草相反药对，属有争议配伍，须辨证审慎使用，不宜久服，服药期间忌与含甘草方剂同用；含制半夏，生半夏禁内服；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用",
+          "甘草反海藻大戟甘遂芫花；海藻与甘草同用属十八反，须慎用且不宜久服"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-014",
+      "title": "瘿痈·风热痰凝证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "瘿痈",
+        "风热痰凝",
+        "疏风清热",
+        "牛蒡解肌汤"
+      ],
+      "intent": "掌握瘿痈风热痰凝证的主症舌脉、病机与疏风清热化痰消肿治法，熟悉牛蒡解肌汤。",
+      "learning": {
+        "knowledge": "主症颈前结喉一侧或两侧肿胀疼痛，灼热，皮色发红，可向耳后枕后放射，肿块边界不清，按之痛甚，伴恶寒发热、头痛、口渴咽干；舌红苔薄黄，脉浮数。病机风热外袭，与痰相搏，痰热壅结颈前。治以疏风清热、化痰消肿，主方牛蒡解肌汤（牛蒡子、薄荷、荆芥、连翘、栀子、牡丹皮、石斛、玄参、夏枯草），外治金黄膏外敷、脓成切开排脓。",
+        "misjudgment": "瘿痈按一般瘿病投海藻玉壶汤类软坚散结。错：瘿痈为风热痰凝之急证，红肿热痛明显，当疏风清热为先；软坚散结之品性缓力柔，用于急性红肿反缓不济急。",
+        "reasoning": "同为颈前肿块，瘿痈红肿热痛，气瘿肉瘿则不红不痛，治疗为何一清一消？",
+        "feedback": "瘿痈为风热痰凝之阳证急症，须疏风清热速解其毒；气瘿肉瘿为痰气凝结之慢性肿块，宜理气软坚缓图，急慢殊途治法各异。",
+        "transfer": "颈前肿痛灼热伴发热咽痛、吞咽牵痛者，试按瘿痈风热痰凝分析病机与方药。"
+      },
+      "stdJudgment": "瘿痈多发于中年女性，颈前结喉一侧或两侧肿起，灼热疼痛，皮色发红，肿块边界不清，可波及耳后枕后，伴恶寒发热、头痛、口渴，舌红苔薄黄、脉浮数。风热外袭、痰热壅结颈前，法取疏风清热、化痰消肿，牛蒡解肌汤疏散风热、解毒消肿，夏枯草玄参散结清火，脓成即切开。",
+      "coreDefinition": "瘿痈风热痰凝证以颈前结块红肿热痛、伴恶寒发热为特征，治以疏风清热化痰消肿，方用牛蒡解肌汤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《外科正宗》",
+          "canon": "《外科正宗》",
+          "chapter": "瘿瘤论第二十二",
+          "originalText": "夫人生瘿瘤之症，非阴阳正气结肿，乃五脏瘀血、浊气、痰滞而成。",
+          "sourceTitle": "《外科正宗》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "牛蒡解肌汤（牛蒡子、薄荷、荆芥、连翘、栀子、牡丹皮、石斛、玄参、夏枯草）水煎，牛蒡子10~15g，薄荷后下，日1剂分2次温服；外用：金黄膏或玉露膏外敷颈前肿处，脓成则切开排脓。",
+        "caution": "牛蒡解肌汤性偏寒凉，脾胃虚寒者慎用，中病即止；瘿痈成脓应早期切开引流，防压迫气道；颈部肿块伴高热、呼吸不畅者须急治。"
+      },
+      "safety": {
+        "note": "瘿痈急性期忌按摩挤压肿处，防炎症扩散与成脓加速；脓成及时切开引流；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb18-s-015",
+      "title": "疮疡·附骨疽证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "疮疡",
+        "附骨疽",
+        "湿热瘀滞",
+        "仙方活命饮",
+        "五神汤"
+      ],
+      "intent": "掌握附骨疽主症舌脉、湿热瘀滞病机与清热解毒化湿行瘀治法，理解其深附着骨的特点。",
+      "learning": {
+        "knowledge": "主症初起患肢疼痛彻骨，继则疼痛加剧，局部胖肿，皮色微红或不变，灼热，拒按，活动受限，伴寒战高热、口渴、溲赤便秘；舌红苔黄腻，脉滑数。病机疔疖痈毒未尽或外伤染毒，湿热毒邪深袭，阻于筋骨，气血凝滞。治以清热解毒、化湿行瘀，主方仙方活命饮合五神汤（金银花、当归、赤芍、乳香、没药、白芷、贝母、天花粉、皂角刺、穿山甲、紫花地丁、车前子、茯苓、牛膝、甘草），外治初起箍围、脓成切开引流。",
+        "misjudgment": "附骨疽初期患肢疼痛剧烈而皮色不变，误作痹证而用祛风除湿。错：附骨疽痛彻骨髓、按之灼热、伴寒战高热，乃毒深着骨之象，痹证多无高热与固定深压痛，误治则毒蚀骨质成死骨。",
+        "reasoning": "附骨疽与流注同为深部脓疡，为何附骨疽疼痛彻骨而流注以漫肿为主？",
+        "feedback": "附骨疽毒邪附着于骨，骨膜与骨内压力骤增故痛彻骨髓、拒按；流注病在肌肉之间，故以漫肿疼痛为主，病位浅深不同，疼痛性质迥异。",
+        "transfer": "大腿深部剧痛拒按、高热不退且皮色如常者，试分析其与流注、附骨疽的鉴别及治疗原则。"
+      },
+      "stdJudgment": "附骨疽发于四肢长骨，初起患肢疼痛彻骨，1~2周后疼痛加剧、局部胖肿、皮色微红、灼热拒按，伴寒战高热、口渴，舌红苔黄腻、脉滑数。疔疮疖痈余毒未尽或跌打损伤，湿热毒邪深窜入骨，法取清热解毒、化湿行瘀，仙方活命饮合五神汤清解托毒、活血消肿，脓成即切，防毒蚀骨。",
+      "coreDefinition": "附骨疽以患肢疼痛彻骨、胖肿灼热、恶寒高热为特征，湿热瘀滞，治以清热解毒化湿行瘀，方用仙方活命饮合五神汤。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "痈疽第八十一",
+          "originalText": "热气淳盛，下陷肌肤，筋髓枯，内连五脏，血气竭，当其痈下，筋骨良肉皆无余，故命曰疽。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "仙方活命饮合五神汤（金银花、当归、赤芍、乳香、没药、白芷、贝母、天花粉、皂角刺、穿山甲、甘草、紫花地丁、车前子、茯苓、牛膝）水煎，金银花15~30g，日1剂分2~3次温服；外用：初起金黄膏箍围，脓成切开引流，溃后药线引流、提脓祛腐生肌。",
+        "caution": "附骨疽毒深着骨，初起即须重剂清热解毒，脓成及早切开防死骨形成；穿山甲孕妇禁用，乳香没药孕妇慎用；慢性期迁延成窦道者须结合清创与抗感染综合处理。"
+      },
+      "safety": {
+        "note": "附骨疽初起即须重剂清解、及早切开，防死骨与窦道形成；慢性附骨疽须清创与内外同治；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-016",
+      "title": "皮肤病·蛇串疮肝经郁热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "蛇串疮",
+        "带状疱疹",
+        "肝经郁热",
+        "清泻肝火",
+        "龙胆泻肝汤"
+      ],
+      "intent": "掌握蛇串疮肝经郁热证的主症舌脉、病机与清泻肝火解毒止痛治法，熟悉龙胆泻肝汤加减与外治。",
+      "learning": {
+        "knowledge": "主症：皮损鲜红，疱壁紧张，灼热刺痛，口苦咽干，烦躁易怒，大便干，小便黄；舌质红，苔薄黄或黄腻，脉弦滑数。病机：情志内伤，肝气郁结，郁久化火，火毒循经外发，蕴结肌肤。治法：清泻肝火、解毒止痛。主方：龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、木通、车前子、当归、生地黄、柴胡、甘草），加板蓝根、大青叶、紫草、延胡索。外治要点：未破者三黄洗剂外搽，破溃糜烂者青黛散麻油调敷，痛剧者佐活血通络之品防后遗痛。",
+        "misjudgment": "蛇串疮灼热刺痛误作一般湿疮，专事祛湿止痒。错：本证以肝经火毒为患，重在泻火解毒，湿疮以湿热浸淫为主，用药重心不同，火不泻则痛难止。",
+        "reasoning": "蛇串疮疱疹消退后疼痛仍不止者，与病机十九条「诸痛痒疮，皆属于心」有何关联？",
+        "feedback": "心主血脉、主神明，火毒灼络、瘀阻经络则痛久不除，故后期须兼以活血通络、养阴柔肝，痛自可缓。",
+        "transfer": "肋间带状疱疹痛如针刺、口苦心烦者，试按肝经郁热立法组方。"
+      },
+      "stdJudgment": "蛇串疮肝经郁热者，皮损沿胁肋一侧呈带状分布，鲜红簇集、疱壁紧张、痛如灼刺，病在肝经循行之处，非寻常湿疮可比。龙胆泻肝汤直折肝火，佐板蓝根大青叶解毒、延胡索止痛，火毒清则疱疹结痂而痛止，年高者当防后遗神经痛。",
+      "coreDefinition": "蛇串疮肝经郁热证以皮损鲜红、疱壁紧张、灼热刺痛为特征，治以清泻肝火、解毒止痛，主方龙胆泻肝汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "至真要大论篇第七十四",
+          "originalText": "诸痛痒疮，皆属于心。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减：龙胆草6g、黄芩9g、栀子9g、泽泻12g、车前子15g（包煎）、木通6g（《中国药典》正品）、当归9g、生地黄15g、柴胡6g、生甘草6g，加板蓝根30g、大青叶15g、紫草10g、延胡索10g，水煎日1剂分2次温服。外治：水疱未破者以三黄洗剂外搽，每日数次；疱破糜烂渗液者以青黛散麻油调敷。",
+        "caution": "本方苦寒败胃，中病即止，不宜久服；年老体弱者酌减苦寒之品；孕妇慎用；木通须用《中国药典》正品，禁用含马兜铃酸的关木通；外用药禁入眼及黏膜。"
+      },
+      "safety": {
+        "note": "苦寒泻火剂中病即止；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "龙胆泻肝汤苦寒，脾胃虚寒者慎用，中病即止",
+          "木通须用《中国药典》正品，禁用含马兜铃酸的关木通"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-017",
+      "title": "皮肤病·湿疮湿热浸淫证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "湿疮",
+        "湿疹",
+        "湿热浸淫",
+        "清热利湿",
+        "龙胆泻肝汤",
+        "萆薢渗湿汤"
+      ],
+      "intent": "掌握湿疮湿热浸淫证急性发作的主症舌脉、病机与清热利湿止痒治法，熟悉内外合治之法。",
+      "learning": {
+        "knowledge": "主症：发病急，皮损潮红灼热，丘疱疹密集，瘙痒无休，抓破滋水淋漓，浸淫成片，或伴身热心烦、口渴、大便干、小便短赤；舌质红，苔黄腻，脉滑数。病机：禀赋不耐，饮食不节，脾失健运，湿热内生，外受风邪，风湿热邪浸淫肌肤。治法：清热利湿、祛风止痒。主方：龙胆泻肝汤合萆薢渗湿汤加减（龙胆草、黄芩、栀子、泽泻、木通、车前子、当归、生地黄、柴胡、甘草、萆薢、薏苡仁、黄柏、赤茯苓、牡丹皮、滑石、通草），痒甚加白鲜皮、地肤子、苦参。外治要点：滋水多者冷湿敷，渗水少者三黄洗剂外搽。",
+        "misjudgment": "湿疮滋水淋漓即用收敛燥湿药粉厚扑。错：湿热未清而骤用收敛，湿热之邪被遏于内，反致浸淫扩散；须先清利湿热，湿去水止再议收敛生肌。",
+        "reasoning": "龙胆泻肝汤既治蛇串疮又治湿疮，一方两用，取舍之别何在？",
+        "feedback": "蛇串疮火毒为患，重在泻肝火；湿疮湿热浸淫，重在利下焦湿热，同方随证化裁，体现异病同治之理。",
+        "transfer": "双小腿急性湿疹潮红渗液、瘙痒夜甚者，试按湿热浸淫拟定内外合治方案。"
+      },
+      "stdJudgment": "湿疮湿热浸淫起病急骤，皮损潮红灼热、丘疱疹密集、抓破滋水淋漓而浸淫成片，瘙痒无休，舌红苔黄腻脉滑数，湿热俱盛之象昭然。龙胆泻肝汤合萆薢渗湿汤清利并用，外以冷湿敷收水敛疮，内外合治则湿热分消，滋水自止。",
+      "coreDefinition": "湿疮湿热浸淫证以皮损潮红、丘疱疹密集、滋水淋漓、浸淫成片为特征，治以清热利湿止痒。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "疮痈肠痈浸淫病脉证并治第十八",
+          "originalText": "浸淫疮，从口流向四肢者，可治；从四肢流来入口者，不可治。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤合萆薢渗湿汤加减：龙胆草6g、黄芩9g、栀子9g、泽泻12g、车前子15g（包煎）、木通6g、当归9g、生地黄15g、柴胡6g、萆薢12g、薏苡仁30g、黄柏9g、赤茯苓15g、牡丹皮9g、滑石15g（包煎）、通草6g，水煎日1剂分2次服。外治：滋水多者以马齿苋60g或黄柏30g煎液冷湿敷，每次15~20分钟，每日数次；渗水少者三黄洗剂外搽。",
+        "caution": "急性期忌热水烫洗、忌搔抓，忌辛辣海腥发物；苦寒利湿之剂久服伤脾，肿消痒减即减量；孕产妇慎用木通、通草类通利之品。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；急性期外治以冷湿敷为主，忌热水烫洗",
+        "prohibitions": [
+          "龙胆泻肝汤苦寒，脾胃虚寒者慎用，中病即止",
+          "木通须用《中国药典》正品，禁用含马兜铃酸的关木通"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-018",
+      "title": "皮肤病·瘾疹风热犯表证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "瘾疹",
+        "荨麻疹",
+        "风热犯表",
+        "疏风清热",
+        "消风散"
+      ],
+      "intent": "掌握瘾疹风热犯表证风团色红灼热的主症舌脉、病机与疏风清热止痒治法，熟悉消风散。",
+      "learning": {
+        "knowledge": "主症：风团色红，灼热剧痒，遇热加重，得冷则减，或伴发热恶寒、咽喉肿痛；舌质红，苔薄黄，脉浮数。病机：风热外袭，客于肌表，营卫失和，气血壅滞肌肤。治法：疏风清热、止痒消疹。主方：消风散加减（荆芥、防风、牛蒡子、蝉蜕、苍术、苦参、石膏、知母、当归、生地黄、胡麻仁、木通、甘草），热重加金银花、连翘，咽喉肿痛加板蓝根、玄参。外治要点：炉甘石洗剂外搽，苦参白鲜皮地肤子煎水外洗。",
+        "misjudgment": "瘾疹见风团即投消风散，不辨寒热。错：风寒束表者风团色白、遇寒加重，宜桂枝汤类辛温疏风；消风散偏凉，误用反遏寒邪，风团不退。",
+        "reasoning": "同为风团瘙痒，风热犯表与风寒束表治法一凉一温，辨证眼目在何处？",
+        "feedback": "风团色红遇热加重为热，色白遇寒加重为寒，参合舌脉浮数浮紧，寒热立判，方随证转。",
+        "transfer": "进食海鲜后全身起红风团、瘙痒灼热、咽红者，试按风热犯表立法并说明忌口。"
+      },
+      "stdJudgment": "瘾疹风热犯表者风团色红、灼热剧痒、遇热加重，常伴发热咽痛，舌红苔薄黄脉浮数，风热客于肌表、营卫失和使然。消风散疏风清热、凉血止痒，风去热清则风团即退；然风善行数变，反复发作须究其本，勿恃疏散为常法。",
+      "coreDefinition": "瘾疹风热犯表证以风团色红、灼热剧痒、遇热加重为特征，治以疏风清热止痒，主方消风散加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "风论篇第四十二",
+          "originalText": "风者，善行而数变。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "消风散加减：荆芥9g、防风9g、牛蒡子9g、蝉蜕6g、苍术9g、苦参9g、石膏30g（先煎）、知母9g、当归9g、生地黄15g、胡麻仁12g、木通6g、甘草6g，水煎日1剂分2次服。热重加金银花、连翘、栀子，咽喉肿痛加板蓝根、玄参。外治：炉甘石洗剂外搽止痒，每日数次；苦参、白鲜皮、地肤子各30g煎水外洗。",
+        "caution": "石膏、苦参寒凉，脾胃虚寒者酌减；风团骤起骤消，忌辛辣发物及鱼虾海鲜；反复发作迁延不愈者当从气血虚风论治，不宜久投疏散。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；疏散之剂中病即止，忌过汗伤津",
+        "prohibitions": [
+          "石膏知母寒凉，脾胃虚寒者慎用",
+          "木通须用《中国药典》正品，禁用含马兜铃酸的关木通"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-019",
+      "title": "皮肤病·牛皮癣风湿热蕴证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "牛皮癣",
+        "神经性皮炎",
+        "风湿热蕴",
+        "祛风利湿",
+        "消风散",
+        "雄黄",
+        "轻粉"
+      ],
+      "intent": "掌握牛皮癣风湿热蕴证皮损肥厚瘙痒的主症舌脉、病机与祛风清热利湿治法，鉴别与白疕之异。",
+      "learning": {
+        "knowledge": "主症：皮损呈淡褐色片状，粗糙肥厚，皮纹加深，剧烈瘙痒，抓破渗液或结血痂，或伴口干苦、大便干、小便黄；舌质红，苔黄腻，脉滑数。病机：情志不遂，郁而化火，风湿热邪蕴结肌肤，气血壅滞，皮肤失养而肥厚。治法：祛风清热、利湿止痒。主方：消风散加减（荆芥、防风、牛蒡子、蝉蜕、苍术、苦参、石膏、知母、当归、生地黄、胡麻仁、木通、甘草），痒甚加白鲜皮、地肤子、乌梢蛇，肥厚加丹参、赤芍、莪术。外治要点：三黄洗剂外搽，肥厚者以软膏薄涂，有毒外用药须限量。",
+        "misjudgment": "牛皮癣与白疕同见增厚脱屑，误用治白疕之凉血解毒剂。错：牛皮癣多与情志、搔抓相关，风湿热蕴者当疏风利湿清热；白疕血热重在凉血消斑，病机不同，用药各有所归。",
+        "reasoning": "牛皮癣皮损肥厚如牛领之皮，其「厚」的形成与血虚风燥有何关系？",
+        "feedback": "风湿热蕴日久耗伤阴血，肌肤失养则粗糙肥厚，故后期多转血虚风燥，法当养血祛风润燥，滋阴养血与清热利湿随证进退。",
+        "transfer": "颈后反复搔抓而成片肥厚瘙痒、心烦易怒者，试按牛皮癣风湿热蕴分析其发作诱因。"
+      },
+      "stdJudgment": "牛皮癣风湿热蕴者皮损淡褐、粗糙肥厚、剧痒，抓破渗液结痂，舌红苔黄腻脉滑数，风湿热邪蕴结肌肤所致。消风散祛风清热利湿，痒势随湿热之清而减；其肥厚之形与白疕银屑相类而病机有别，治法不可混同。",
+      "coreDefinition": "牛皮癣风湿热蕴证以皮损粗糙肥厚、剧烈瘙痒、苔黄腻为特征，治以祛风清热、利湿止痒，主方消风散加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "消风散加减：荆芥9g、防风9g、牛蒡子9g、蝉蜕6g、苍术9g、苦参9g、石膏30g（先煎）、知母9g、当归9g、生地黄15g、胡麻仁12g、木通6g、甘草6g，痒甚加白鲜皮15g、地肤子15g、乌梢蛇10g，皮损肥厚加丹参15g、赤芍10g、莪术10g，水煎日1剂分2次服。外治：三黄洗剂外搽，每日数次；肥厚皮损可用软膏薄涂，凡含雄黄、轻粉等有毒成分的外用酊剂须小面积试用、中病即止。",
+        "caution": "忌搔抓、忌热水烫洗；外用酊剂禁用于糜烂破损及黏膜处；含雄黄、轻粉等有毒成分的外用药禁大面积久用，孕妇及儿童忌用；内服方苦寒，脾胃虚寒者酌减。"
+      },
+      "safety": {
+        "note": "外用有毒药（雄黄、轻粉类酊剂）须小面积试用、中病即止；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "【高风险】雄黄有毒0.05-0.1g只入丸散；忌火煅；孕妇禁用",
+          "【高风险】轻粉有毒0.1-0.2g只入丸散；不可久服；孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-020",
+      "title": "皮肤病·白疕血热证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "白疕",
+        "银屑病",
+        "血热",
+        "清热凉血",
+        "犀角地黄汤"
+      ],
+      "intent": "掌握白疕血热证进行期的主症舌脉、病机与清热凉血解毒消斑治法，熟悉犀角地黄汤加减。",
+      "learning": {
+        "knowledge": "主症：皮疹鲜红，鳞屑银白，刮除鳞屑可见薄膜现象及筛状出血点，瘙痒明显，新疹不断出现、发展迅速，或伴口干舌燥、心烦易怒、大便干、小便黄；舌质红或红绛，苔薄黄，脉弦滑数。病机：素体阳热偏盛，或情志内伤、气机壅滞，郁久化火，热毒蕴伏营血，外发肌肤。治法：清热凉血、解毒消斑。主方：犀角地黄汤加减（水牛角、生地黄、赤芍、牡丹皮），加紫草、白茅根、土茯苓、板蓝根、金银花、槐花。外治要点：黄柏膏或青黛散薄涂，忌强刺激之品。",
+        "misjudgment": "白疕血热见新疹不断即用强效激素类外用药压制。错：血热外发当凉血清热解毒，骤用强效激素虽可暂退，停药反跳更甚，且掩盖病情、延误辨证。",
+        "reasoning": "白疕刮除鳞屑可见薄膜与点状出血，这一体征对辨证有何提示？",
+        "feedback": "点状出血为血热迫血妄行之象，提示病在血分，凉血解毒为其正治，辛温燥烈之品在所当忌。",
+        "transfer": "全身泛发鲜红斑片覆银白鳞屑、口渴心烦的青年患者，试按血热证拟定内服外治思路。"
+      },
+      "stdJudgment": "白疕血热者皮疹鲜红、鳞屑银白，刮去鳞屑见薄膜与点状出血，新疹不断涌现，口干心烦、舌红苔黄脉弦滑数，血热外发之候毕现。犀角地黄汤凉血清热、解毒消斑，热清血宁则红斑渐退，鳞屑自减。",
+      "coreDefinition": "白疕血热证以皮疹鲜红、银白鳞屑、点状出血、新疹不断为特征，治以清热凉血、解毒消斑，主方犀角地黄汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《医宗金鉴》",
+          "canon": "《医宗金鉴》",
+          "chapter": "外科心法要诀",
+          "originalText": "白疕，俗名蛇虱，生于皮肤，形如疹疥，色白而痒，搔起白皮。",
+          "sourceTitle": "《医宗金鉴》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "犀角地黄汤加减：水牛角30g（先煎）、生地黄30g、赤芍12g、牡丹皮10g，加紫草15g、白茅根30g、土茯苓30g、板蓝根15g、金银花15g、槐花10g，水煎日1剂分2次服。外治：皮损外搽黄柏膏或青黛散麻油调涂，每日1~2次，避免使用刺激性强的外用药。",
+        "caution": "水牛角须先煎久煎，以代犀角；苦寒清营之剂中病即止，防伤脾胃；忌辛辣发物及酒；进行期忌用刺激性外用药，防同形反应。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；进行期忌刺激性外用药",
+        "prohibitions": [
+          "水牛角先煎久煎，苦寒清营剂中病即止",
+          "青黛散等含青黛外用制剂性寒，脾胃虚寒及破溃处慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-021",
+      "title": "皮肤病·粉刺肺经风热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "粉刺",
+        "痤疮",
+        "肺经风热",
+        "疏风清肺",
+        "枇杷清肺饮",
+        "硫黄"
+      ],
+      "intent": "掌握粉刺肺经风热证颜面丘疹色红的主症舌脉、病机与疏风清肺治法，熟悉枇杷清肺饮与外治。",
+      "learning": {
+        "knowledge": "主症：颜面、胸背多发丘疹粉刺，色红，或有痒痛，或见脓疱，伴口渴喜饮、大便秘结、小便黄；舌质红，苔薄黄，脉浮数。病机：素体阳热偏盛，肺经蕴热，复感风邪，上蒸颜面，壅滞肌肤。治法：疏风清肺。主方：枇杷清肺饮加减（枇杷叶、桑白皮、黄连、黄柏、生甘草），加金银花、连翘、黄芩、栀子，便秘加大黄。外治要点：颠倒散凉开水调涂、硫黄洗剂外搽，禁挤压以防留疤。",
+        "misjudgment": "粉刺红肿疼痛即重用苦寒内服而忽视外治。错：粉刺病在皮肤毛窍，须内外合治，内清肺热、外疏风散结并举，单恃苦寒反伤脾胃。",
+        "reasoning": "同为肺经风热之粉刺，为何男子多兼大便秘结、女子多经前加重？",
+        "feedback": "肺与大肠相表里，肺热下移则便秘；女子冲任与气血相关，经前气血壅盛故皮疹加重，临证须兼顾通腑与调经。",
+        "transfer": "青春期面部油腻、红丘疹伴口臭便秘者，试按肺经风热拟定内外合治方案。"
+      },
+      "stdJudgment": "粉刺肺经风热者颜面胸背起粟疹色红，或顶白脓、痒痛相兼，口渴溲黄、舌红苔薄黄脉浮数，肺经蕴热上蒸所致。枇杷清肺饮疏风清肺，配颠倒散外涂疏泄壅滞，内外同施则粉刺渐消，此病虽在皮毛，治不离肺。",
+      "coreDefinition": "粉刺肺经风热证以颜面红色丘疹粉刺、痒痛、口渴溲黄为特征，治以疏风清肺，主方枇杷清肺饮加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "生气通天论篇第三",
+          "originalText": "汗出见湿，乃生痤痱。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "生气通天论篇第三",
+          "originalText": "劳汗当风，寒薄为皶，郁乃痤。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "枇杷清肺饮加减：枇杷叶10g、桑白皮12g、黄连3g、黄柏6g、生甘草6g，加金银花15g、连翘10g、黄芩9g、栀子9g，大便秘结加生大黄6g（后下），水煎日1剂分2次服。外治：颠倒散（大黄、硫黄各等分研末）以凉开水调涂患处，睡前薄涂、晨起洗净，每日1次。",
+        "caution": "硫黄外用浓度不宜过高、面积不宜过大，皮肤敏感者先小面积试用；含硫制剂禁入眼口鼻黏膜；孕妇慎用硫黄类外用药；忌辛辣甜腻及挤压皮疹。"
+      },
+      "safety": {
+        "note": "颠倒散含硫黄，外用须限量并避免入眼口鼻；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "【高风险】硫黄有毒1.5-3g只入丸散不入煎剂；孕妇慎用",
+          "含硫外用制剂禁入眼及黏膜，皮肤破损处及过敏者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-022",
+      "title": "皮肤病·白驳风气血不和证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "白驳风",
+        "白癜风",
+        "气血不和",
+        "调和气血",
+        "通窍活血汤"
+      ],
+      "intent": "掌握白驳风气血不和证白斑无痛痒的主症舌脉、病机与调和气血疏风通络治法，熟悉通窍活血汤加减。",
+      "learning": {
+        "knowledge": "主症：皮肤白斑，境界清楚，边缘可有色素加深，表面光滑无鳞屑，无痛痒或微痒，发展缓慢，可伴情志抑郁；舌淡红，苔薄白，脉弦或细。病机：肝气郁结，气机不畅，气血失和，肌肤腠理失于濡养。治法：调和气血、疏风通络。主方：通窍活血汤加减（赤芍、川芎、桃仁、红花、老葱、生姜、大枣、麝香或以白芷石菖蒲代），加刺蒺藜、浮萍、补骨脂、首乌藤。外治要点：30%补骨脂酊外搽后适度日晒，或梅花针叩刺。",
+        "misjudgment": "白驳风无痛痒即以为无须治疗，或见白斑即投温补。错：白斑为气血不和、肌肤失养，与阳虚无涉，温补无益，须调和气血、疏风通络并配合光疗。",
+        "reasoning": "白驳风与花斑癣均见白斑，如何鉴别？",
+        "feedback": "花斑癣多伴细碎鳞屑、微痒，真菌检查阳性，白斑边界不清；白驳风白斑边界清楚、光滑无屑，鉴别不难，误诊则治之失的。",
+        "transfer": "面颊出现边界清楚的白斑、平素郁郁寡欢者，试按气血不和分析其调治方向。"
+      },
+      "stdJudgment": "白驳风气血不和者皮肤出现乳白色斑片，境界清楚、表面光滑无鳞屑，不痛不痒，发展缓慢，舌淡红苔薄白脉弦细，气血失和、肌肤失养使然。通窍活血汤调气活血、疏风通络，佐补骨脂酊外搽助色素复生，内外兼治，疗程较长，须守方缓图。",
+      "coreDefinition": "白驳风气血不和证以皮肤乳白斑片、境界清楚、光滑无屑为特征，治以调和气血、疏风通络，主方通窍活血汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "调经论篇第六十二",
+          "originalText": "血气不和，百病乃变化而生。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "通窍活血汤加减：赤芍10g、川芎10g、桃仁10g、红花10g、老葱3根、生姜9g、大枣5枚、麝香0.15g（冲服，或以白芷10g、石菖蒲10g代），加刺蒺藜15g、浮萍10g、补骨脂10g、首乌藤15g，水煎日1剂分2次服。外治：30%补骨脂酊外搽患处，每日1~2次，搽后适度日晒或照射紫外线5~15分钟，循序渐进。",
+        "caution": "补骨脂酊有光敏性，日晒时间须逐日增加，防灼伤起疱；孕妇及皮肤破损处慎用；活血之品经期慎用，有出血倾向者减量。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；补骨脂酊外用后须避强光暴晒，防光敏灼伤",
+        "prohibitions": [
+          "补骨脂酊有光敏性，日晒须循序渐进，过量暴晒可致灼伤起疱",
+          "活血化瘀药经期、孕期及有出血倾向者禁用或慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-023",
+      "title": "肛肠病·内痔风伤肠络证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "内痔",
+        "风伤肠络",
+        "清热凉血",
+        "凉血地黄汤"
+      ],
+      "intent": "掌握内痔风伤肠络证便血鲜红的主症舌脉、病机与清热凉血祛风治法，熟悉凉血地黄汤与外治。",
+      "learning": {
+        "knowledge": "主症：大便带血、滴血或喷射状出血，血色鲜红，或伴肛门瘙痒，无痛，多见于一期二期之内痔；舌质红，苔薄白或薄黄，脉浮数。病机：风热下迫，灼伤肠络，血不循经，溢于脉外。治法：清热凉血祛风。主方：凉血地黄汤加减（生地黄、当归尾、地榆、槐角、黄连、天花粉、生甘草、升麻、赤芍、枳壳、黄芩、荆芥穗），出血多加仙鹤草、白茅根。外治要点：五倍子汤熏洗坐浴、痔疮栓纳肛，内痔脱出者手法复位。",
+        "misjudgment": "内痔出血见血色鲜红即用收涩止血。错：风伤肠络当清热凉血祛风，涩药过早反致瘀热内留，血止而痔胀不减，须凉血与祛风并行。",
+        "reasoning": "「筋脉横解，肠澼为痔」与现代对痔静脉曲张的认识有何相通之处？",
+        "feedback": "横解即筋脉弛纵，与痔静脉丛充血曲张相应，古人对痔的病位与形态早有素朴认识，立法仍以清热凉血祛风为先。",
+        "transfer": "久坐办公者大便滴血鲜红、肛门坠胀者，试按风伤肠络立法并给出生活调摄建议。"
+      },
+      "stdJudgment": "内痔风伤肠络者大便带血、滴血或喷射状出血，血色鲜红，多无痛感，舌红苔薄黄脉浮数，风热下迫、灼伤肠络使然。凉血地黄汤清热凉血祛风，血止络宁，配合熏洗坐浴与纳栓，一期二期之内痔每可收效。",
+      "coreDefinition": "内痔风伤肠络证以便血鲜红、滴血或喷射状出血为特征，治以清热凉血祛风，主方凉血地黄汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "生气通天论篇第三",
+          "originalText": "因而饱食，筋脉横解，肠澼为痔。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "凉血地黄汤加减：生地黄15g、当归尾9g、地榆12g、槐角12g、黄连3g、天花粉10g、生甘草6g、升麻6g、赤芍10g、枳壳10g、黄芩9g、荆芥穗9g，出血多加仙鹤草15g、白茅根15g、藕节炭10g，便秘加火麻仁15g，水煎日1剂分2次服。外治：五倍子汤（五倍子、朴硝、桑寄生、莲房、荆芥）煎汤熏洗坐浴，每日1~2次，每次15~20分钟，配合痔疮栓纳肛。",
+        "caution": "忌辛辣醇酒、久坐久立、用力努挣；便血反复者须行肛门指检及肠镜检查，排除直肠癌；孕妇慎用活血凉血之品。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；便血须与肠癌等鉴别，勿以止血掩盖病情",
+        "prohibitions": [
+          "凉血地黄汤性偏寒凉，脾胃虚寒者慎用",
+          "反复便血者须行指检与肠镜检查，禁用自购止血药掩盖病情"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-024",
+      "title": "肛肠病·肛痈热毒炽盛证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "肛痈",
+        "肛周脓肿",
+        "热毒炽盛",
+        "清热解毒",
+        "透脓散",
+        "五味消毒饮"
+      ],
+      "intent": "掌握肛痈热毒炽盛成脓期的主症舌脉、病机与清热解毒透脓托毒治法，理解脓成即切之外治原则。",
+      "learning": {
+        "knowledge": "主症：肛周肿痛剧烈，肿块红热明显，按之中软应指，或溃后脓出黄稠味臭，伴壮热口渴、大便秘结、小便短赤；舌质红，苔黄腻或黄燥，脉弦滑数。病机：热毒炽盛，肉腐成脓。治法：清热解毒、透脓托毒。主方：透脓散合五味消毒饮加减（生黄芪、当归、川芎、皂角刺、金银花、野菊花、蒲公英、紫花地丁、紫背天葵），热盛加石膏、知母。外治要点：脓成即切开排脓，低位一次切开，高位挂线或切开挂线结合，溃后药线引流、生肌散收口。",
+        "misjudgment": "肛痈红肿热痛即用清热解毒重剂而延误排脓。错：脓已成当托毒溃脓、及时切开，专恃清解则脓毒内蓄，深溃旁窜而成肛瘘。",
+        "reasoning": "「热胜则肉腐，肉腐则为脓」，脓成与否如何判断？",
+        "feedback": "成脓期肿块中软应指、波动明显、痛如鸡啄，即当切开；未成脓者以消为主，已成脓者以托为要，此消托之序。",
+        "transfer": "肛旁红肿疼痛5日、触之中软、伴发热口渴者，试按热毒炽盛分析其转归与处理。"
+      },
+      "stdJudgment": "肛痈热毒炽盛者肛周肿痛剧烈、红热显著、按之应指，伴壮热口渴、便秘溲赤，舌红苔黄腻脉弦滑数，热毒炽盛、肉腐成脓之候。透脓散合五味消毒饮托毒溃脓、清热解毒，脓成即当切开，使脓毒外泄，免其内陷旁窜成瘘。",
+      "coreDefinition": "肛痈热毒炽盛证以肛周肿痛剧烈、红热应指、壮热口渴为特征，治以清热解毒、透脓托毒，主方透脓散合五味消毒饮。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "痈疽第八十一",
+          "originalText": "营卫稽留于经脉之中，则血泣而不行，血泣而不行，则卫气从之而不通，壅遏而不得行，故热。大热不止，热胜则肉腐，肉腐则为脓。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "透脓散合五味消毒饮加减：生黄芪15g、当归9g、川芎9g、皂角刺12g、金银花15g、野菊花15g、蒲公英30g、紫花地丁15g、紫背天葵10g，壮热口渴加石膏30g（先煎）、知母9g，便秘加生大黄6g（后下），水煎日1剂分2次服。外治：脓成即切开排脓，低位脓肿行一次切开，高位者按深浅行挂线或切开挂线结合，溃后以药线引流、外敷生肌散收口。",
+        "caution": "脓肿忌挤压、忌过早切开，脓未成者以消为法，脓已成者宜托宜切；五味消毒饮苦寒，脾胃虚者酌加顾护；血糖异常者先控糖再手术。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；脓肿须由专科处理，忌自行挤压排脓",
+        "prohibitions": [
+          "脓肿成脓期忌挤压、忌过早切开，防毒邪内陷",
+          "穿山甲为国家保护动物药，临床以王不留行、皂角刺代用，禁用野生穿山甲鳞片"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-025",
+      "title": "肛肠病·肛瘘湿热下注证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "肛瘘",
+        "湿热下注",
+        "清热利湿",
+        "萆薢渗湿汤",
+        "挂线疗法"
+      ],
+      "intent": "掌握肛瘘湿热下注证漏口流脓的主症舌脉、病机与清热利湿治法，理解挂线疗法保护括约肌的原理。",
+      "learning": {
+        "knowledge": "主症：肛周漏口时流脓液，质稠色黄，局部灼热胀痛，漏口周围皮肤潮红，或伴发热口渴、小便黄；舌质红，苔黄腻，脉弦滑数。病机：湿热蕴结，下注肛门，气血壅滞，溃腐成瘘。治法：清热利湿。主方：萆薢渗湿汤加减（萆薢、薏苡仁、黄柏、赤茯苓、牡丹皮、泽泻、滑石、通草），加金银花、连翘、蒲公英、红藤，脓稠味臭加虎杖、败酱草。外治要点：挂线疗法或切开疗法为主，术后药线引流、生肌散收口，须辨明内外口及管道走向。",
+        "misjudgment": "肛瘘时愈时发，误以为炎症消退即痊愈而中断治疗。错：瘘管已成，内口不闭则脓液经久外渗，须以挂线或切开去除管道，单纯服药难收根治之效。",
+        "reasoning": "肛瘘挂线疗法以线代刀、缓慢切割，其保护括约肌功能的机理何在？",
+        "feedback": "橡皮筋慢性勒割使管道在愈合过程中渐次切开，括约肌被缓慢离断并纤维化固定，避免一次性切断致肛门失禁，此中医外治特色。",
+        "transfer": "肛周反复流脓2年、内口在齿线附近者，试推演挂线疗法与术后护理要点。"
+      },
+      "stdJudgment": "肛瘘湿热下注者漏口时流脓液、质稠色黄、局部灼热胀痛，舌红苔黄腻脉弦滑数，湿热蕴结、下注肛门、溃腐成瘘使然。萆薢渗湿汤清利湿热以治其标，然瘘管不除则脓液难绝，须以挂线或切开去除管道，内服药与手术相须为用。",
+      "coreDefinition": "肛瘘湿热下注证以漏口时流黄稠脓液、灼热胀痛为特征，治以清热利湿，主方萆薢渗湿汤加减，外治以挂线或切开疗法。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "生气通天论篇第三",
+          "originalText": "陷脉为瘘，留连肉腠。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "萆薢渗湿汤加减：萆薢12g、薏苡仁30g、黄柏9g、赤茯苓15g、牡丹皮9g、泽泻12g、滑石15g（包煎）、通草6g，加金银花15g、连翘10g、蒲公英30g、红藤15g，脓稠味臭加虎杖15g、败酱草30g，水煎日1剂分2次服。外治：以挂线疗法为主，保护肛门括约肌功能；或行切开疗法；术后每日换药，药线引流，脓尽后生肌散收口。",
+        "caution": "瘘管深者须辨明内外口及走向，高位复杂性肛瘘须分期手术；忌辛辣酒酪，保持大便通畅，忌用力努挣。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；肛瘘根治以外治手术为主，内服药为辅",
+        "prohibitions": [
+          "高位复杂性肛瘘须分期手术，忌单纯内治延误根治",
+          "坐浴熏洗水温忌过高，术后忌用力努挣，防创面出血"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-026",
+      "title": "男科病·子痈湿热下注证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "子痈",
+        "附睾炎",
+        "湿热下注",
+        "清热利湿",
+        "龙胆泻肝汤"
+      ],
+      "intent": "掌握子痈湿热下注证睾丸肿痛的主症舌脉、病机与清热利湿解毒消肿治法，熟悉龙胆泻肝汤加减。",
+      "learning": {
+        "knowledge": "主症：睾丸或附睾肿痛，阴囊皮肤红肿灼热，疼痛剧烈，痛引少腹，可伴恶寒发热、口渴、小便黄赤；舌质红，苔黄腻，脉滑数。病机：湿热下注，蕴结肾子，气血壅滞，化热成痈。治法：清热利湿、解毒消肿。主方：龙胆泻肝汤加减（龙胆草、黄芩、栀子、泽泻、木通、车前子、当归、生地黄、柴胡、甘草），加金银花、连翘、蒲公英、川楝子、延胡索、橘核。外治要点：急性期金黄散冷敷，脓成切开引流，溃后按溃疡换药。",
+        "misjudgment": "子痈红肿热痛误作寒疝或气疝，投温散之品。错：湿热下注之急性肿痛当清利，温散反助火势；疝气多与体位相关、可还纳，痛无红肿灼热，宜细辨。",
+        "reasoning": "子痈与卵子瘟（流行性腮腺炎并发睾丸炎）皆见睾丸肿痛，治法有何异同？",
+        "feedback": "子痈湿热下注重在清利解毒；卵子瘟为温毒余邪流注肾子，当清热解毒、软坚散结，可佐板蓝根、大青叶，同中有异。",
+        "transfer": "阴囊坠胀肿痛、皮色红热、发热口渴者，试按湿热下注拟定内服外敷方案。"
+      },
+      "stdJudgment": "子痈湿热下注者睾丸或附睾肿痛、阴囊皮肤红热、痛引少腹，伴恶寒发热、口渴溲黄，舌红苔黄腻脉滑数，湿热下注、蕴结肾子使然。龙胆泻肝汤清利湿热、解毒消肿，外以金黄散冷敷，脓成即切，湿热去则肿痛消。",
+      "coreDefinition": "子痈湿热下注证以睾丸肿痛、阴囊红肿灼热为特征，治以清热利湿、解毒消肿，主方龙胆泻肝汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "龙胆泻肝汤加减：龙胆草6g、黄芩9g、栀子9g、泽泻12g、车前子15g（包煎）、木通6g（《中国药典》正品）、当归9g、生地黄15g、柴胡6g、生甘草6g，加金银花15g、连翘10g、蒲公英30g、川楝子10g、延胡索10g、橘核10g，水煎日1剂分2次服。外治：急性期以金黄散或玉露散冷开水调敷肿处，每日更换1次；脓成者切开引流。",
+        "caution": "急性期忌热敷、忌按摩挤压，防炎症扩散；阴囊红肿明显、高热不退者须查血象，脓成即切开；木通须用《中国药典》正品。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；急性期忌挤压热敷，脓成由专科切开引流",
+        "prohibitions": [
+          "急性期忌热敷与按摩，防炎症扩散",
+          "木通须用《中国药典》正品，禁用含马兜铃酸的关木通"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-027",
+      "title": "男科病·精浊湿热蕴结证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "精浊",
+        "慢性前列腺炎",
+        "湿热蕴结",
+        "清热利湿",
+        "萆薢分清饮"
+      ],
+      "intent": "掌握精浊湿热蕴结证尿频滴白的主症舌脉、病机与清热利湿分清泌浊治法，熟悉程氏萆薢分清饮。",
+      "learning": {
+        "knowledge": "主症：尿频尿急尿痛，尿道灼热，尿末或大便时尿道口滴白，会阴、少腹坠胀疼痛，或伴发热口苦、小便黄赤；舌质红，苔黄腻，脉滑数。病机：过食肥甘厚味，酿生湿热，流注下焦，蕴结精室。治法：清热利湿、分清泌浊。主方：程氏萆薢分清饮加减（萆薢、黄柏、石菖蒲、茯苓、白术、莲子心、丹参、车前子），尿痛加瞿麦、萹蓄，痛甚加川楝子、延胡索。外治要点：温水坐浴、中药保留灌肠，慢性期配合前列腺按摩。",
+        "misjudgment": "精浊尿末滴白误认为遗精，动辄补肾固涩。错：滴白为湿热下注、精室受扰，湿热不清而骤用固涩，反使湿热壅滞，滴白更甚。",
+        "reasoning": "精浊虽有「精」字，为何湿热蕴结者反忌固精涩尿之品？",
+        "feedback": "精浊病位在精室，湿热蕴结者当清利湿热、分清泌浊，邪去则精室安宁；固涩于邪实之际无异闭门留寇。",
+        "transfer": "久坐程序员尿频灼热、尿末滴白、会阴坠胀者，试按湿热蕴结分析其病机与调护。"
+      },
+      "stdJudgment": "精浊湿热蕴结者尿频尿急尿痛、尿道灼热、尿末或大便时滴白，会阴少腹坠胀，舌红苔黄腻脉滑数，湿热蕴结精室、下注膀胱使然。程氏萆薢分清饮清热利湿、分清泌浊，佐坐浴灌肠内外合治，湿热清则滴白止。",
+      "coreDefinition": "精浊湿热蕴结证以尿频尿痛、尿道灼热、尿末滴白为特征，治以清热利湿、分清泌浊，主方程氏萆薢分清饮加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "六节藏象论篇第九",
+          "originalText": "肾者，主蛰，封藏之本，精之处也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "程氏萆薢分清饮加减：萆薢12g、黄柏9g、石菖蒲10g、茯苓15g、白术10g、莲子心6g、丹参15g、车前子15g（包煎），尿痛加瞿麦12g、萹蓄12g，会阴痛甚加川楝子10g、延胡索10g，水煎日1剂分2次服。外治：温水坐浴，每日1次，每次15~20分钟；红藤、败酱草、蒲公英、黄柏各30g煎液保留灌肠，每晚1次。",
+        "caution": "忌久坐、忌憋尿、忌辛辣酒酪；急性发作期忌前列腺按摩，防感染扩散；抗生素与中药并用须遵医嘱。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；急性期忌前列腺按摩",
+        "prohibitions": [
+          "急性发作期忌前列腺按摩，防感染扩散",
+          "忌久坐憋尿，忌辛辣酒酪等刺激之品"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-028",
+      "title": "周围血管病·臁疮湿热下注证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "臁疮",
+        "下肢慢性溃疡",
+        "湿热下注",
+        "清热利湿",
+        "三妙丸",
+        "轻粉"
+      ],
+      "intent": "掌握臁疮湿热下注证小腿溃疡脓稠的主症舌脉、病机与清热利湿和营治法，熟悉提脓祛腐生肌外治。",
+      "learning": {
+        "knowledge": "主症：小腿下1/3内外臁溃疡，创面脓液稠厚、味臭，周围皮肤红肿灼热、痒痛相兼，甚则恶寒发热；舌质红，苔黄腻，脉滑数。病机：湿热下注，瘀血凝滞，经络阻隔，肌肤失养，溃腐成疮。治法：清热利湿、和营消肿。主方：三妙丸合萆薢渗湿汤加减（苍术、黄柏、牛膝、萆薢、薏苡仁、赤茯苓、牡丹皮、泽泻、滑石、通草），加金银花、蒲公英、紫花地丁。外治要点：脓腐多者提脓祛腐（九一丹、红油膏），脓净者生肌收口（生肌散、生肌玉红膏），疮周金黄散外敷，配合抬高患肢与缠缚疗法。",
+        "misjudgment": "臁疮溃烂流脓即用生肌收口药。错：脓腐未净而妄用生肌，则毒邪内闭，疮口假敛而复发；须先提脓祛腐，腐尽方议生肌。",
+        "reasoning": "臁疮为何多发于小腿下段内外臁而缠绵难愈？",
+        "feedback": "小腿下段气血运行迟滞、湿性趋下，加之静脉瘀滞，肌肤失养则溃久难敛，故治以利湿和营并重，配合抬高患肢。",
+        "transfer": "下肢静脉曲张多年、内臁溃疡流臭脓者，试按湿热下注拟定内外合治与调护方案。"
+      },
+      "stdJudgment": "臁疮湿热下注者小腿下段溃疡、脓液稠厚味臭、疮周红肿灼热痒痛，舌红苔黄腻脉滑数，湿热下注、瘀凝络阻、肌肤失养使然。三妙丸合萆薢渗湿汤清热利湿和营，外以提脓祛腐、生肌收口循序而施，抬高患肢为要务。",
+      "coreDefinition": "臁疮湿热下注证以小腿溃疡脓稠味臭、疮周红肿为特征，治以清热利湿、和营消肿，主方三妙丸合萆薢渗湿汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳应象大论篇第五",
+          "originalText": "地之湿气，感则害皮肉筋脉。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "三妙丸合萆薢渗湿汤加减：苍术9g、黄柏9g、牛膝12g、萆薢12g、薏苡仁30g、赤茯苓15g、牡丹皮9g、泽泻12g、滑石15g（包煎）、通草6g，加金银花15g、蒲公英30g、紫花地丁15g，红肿甚加赤芍12g，水煎日1剂分2次服。外治：溃疡面脓腐多者以九一丹、红油膏提脓祛腐，每日换药1次；脓净后用生肌散、生肌玉红膏生肌收口；疮周红肿以金黄散外敷，抬高患肢并缠缚疗法。",
+        "caution": "九一丹等含汞提脓祛腐药须小面积、短期使用，禁大面积久用防汞吸收中毒；溃面忌用水洗，忌淋雨涉水；溃疡日久者须查血糖及下肢血管，排除糖尿病足与动脉性溃疡。"
+      },
+      "safety": {
+        "note": "含汞提脓祛腐药（九一丹类）须小面积短期使用；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "【高风险】轻粉有毒0.1-0.2g只入丸散；不可久服；孕妇禁用",
+          "含汞提脓祛腐药（红升丹、九一丹类）禁大面积久用，防汞吸收中毒"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-029",
+      "title": "周围血管病·脱疽寒凝血脉证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "脱疽",
+        "血栓闭塞性脉管炎",
+        "寒凝血脉",
+        "温阳散寒",
+        "阳和汤",
+        "麻黄"
+      ],
+      "intent": "掌握脱疽寒凝血脉证患肢发凉的主症舌脉、病机与温阳散寒活血通脉治法，辨析与热毒证之异。",
+      "learning": {
+        "knowledge": "主症：患肢发凉怕冷，麻木酸胀，皮肤苍白或紫暗，间歇性跛行，疼痛遇寒加重、得温则减，夜间痛甚；舌淡紫，苔白润，脉沉细迟。病机：脾肾阳虚，寒邪凝滞，阳气不达四末，血脉瘀阻。治法：温阳散寒、活血通脉。主方：阳和汤加减（熟地黄、肉桂、麻黄、鹿角胶、白芥子、姜炭、生甘草），加丹参、鸡血藤、地龙、牛膝，痛甚加乳香、没药。外治要点：未溃者冲和膏外敷、红灵酒轻揉，禁热敷防烫伤，已溃者按溃疡处理。",
+        "misjudgment": "脱疽肢端发凉疼痛即用活血破瘀重剂。错：寒凝血脉者阳虚寒盛为本，须温阳散寒为主、活血为辅，纯破瘀则阳气更伤，痛反加剧。",
+        "reasoning": "同为脱疽，寒凝血脉与热毒伤阴证一温一清，如何从皮色温度辨之？",
+        "feedback": "寒凝者肢端苍白紫暗、发凉怕冷、得温则减；热毒者红肿灼热、溃烂坏死、痛如火燎；寒热之辨定治疗大向。",
+        "transfer": "吸烟男性右足发凉苍白、行走后小腿酸胀疼痛者，试按寒凝血脉分析其病机与调护。"
+      },
+      "stdJudgment": "脱疽寒凝血脉者患肢发凉怕冷、麻木酸胀、皮肤苍白紫暗、间歇性跛行，痛遇寒加重得温则减，舌淡紫苔白润脉沉细迟，寒凝血脉、阳气不达四末使然。阳和汤温阳散寒、活血通脉，须戒烟保暖，与热毒证之红肿灼痛判然有别。",
+      "coreDefinition": "脱疽寒凝血脉证以患肢发凉怕冷、皮肤苍白紫暗、间歇性跛行为特征，治以温阳散寒、活血通脉，主方阳和汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "痈疽第八十一",
+          "originalText": "发于足指，名脱痈。其状赤黑，死不治；不赤黑，不死。不衰，急斩之，不则死矣。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "阳和汤加减：熟地黄30g、肉桂3g（焗服）、麻黄2g、鹿角胶10g（烊化兑入）、白芥子6g、姜炭6g、生甘草3g，加丹参15g、鸡血藤30g、地龙10g、牛膝12g，痛甚加乳香、没药各6g，水煎日1剂分2次温服。外治：未溃者冲和膏外敷，或红灵酒轻揉患肢；已溃者按溃疡处理，严禁热敷。",
+        "caution": "麻黄发汗力强，虚人及高血压心脏病者慎用；阳和汤辛温，阴虚有热及热毒证型禁用；患肢感觉减退，取暖防烫伤；戒烟为要务。"
+      },
+      "safety": {
+        "note": "阳和汤含麻黄，须辨体施用；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "麻黄发汗力强虚人慎用；高血压心脏病失眠者慎用；运动员禁用",
+          "阳和汤辛温，阴虚有热及热毒证型禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb18-s-030",
+      "title": "周围血管病·股肿气虚血瘀证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "股肿",
+        "下肢深静脉血栓",
+        "气虚血瘀",
+        "益气活血",
+        "补阳还五汤"
+      ],
+      "intent": "掌握股肿气虚血瘀证患肢肿胀的主症舌脉、病机与益气活血通脉治法，理解急性期制动防栓脱落。",
+      "learning": {
+        "knowledge": "主症：患肢肿胀日久不消，沉重麻木，皮色暗紫，按之凹陷，活动后加重，伴倦怠乏力、气短懒言；舌淡紫或有瘀斑，苔薄白，脉沉涩。病机：久病气虚，运血无力，血行瘀滞，脉络瘀阻。治法：益气活血、通脉消肿。主方：补阳还五汤加减（生黄芪重用、当归尾、赤芍、地龙、川芎、桃仁、红花），加丹参、鸡血藤、水蛭、牛膝，肿甚加茯苓、薏苡仁、泽泻。外治要点：急性期抬高患肢、制动，禁按摩热敷；恢复期弹力袜、缠缚疗法。",
+        "misjudgment": "股肿患肢肿胀即用利尿药消胀。错：本证为气虚血瘀、脉络瘀阻，利尿徒损气津，须益气活血通脉，气旺则血行，瘀去肿自消。",
+        "reasoning": "补阳还五汤重用黄芪为君，治股肿气虚血瘀为何以气为帅？",
+        "feedback": "气为血之帅，气虚无力推动则血瘀脉中，重用黄芪大补元气以助血行，配活血通络之品，标本同治。",
+        "transfer": "术后卧床数日突发左下肢肿胀、皮色暗紫者，试按股肿分析其成因与处理要点。"
+      },
+      "stdJudgment": "股肿气虚血瘀者患肢肿胀日久不消、沉重麻木、皮色暗紫，活动后加重，伴倦怠乏力、气短懒言，舌淡紫有瘀斑脉沉涩，气虚运血无力、瘀阻脉络使然。补阳还五汤重用黄芪益气以行血，配活血通络之品，气旺瘀去则肿消，急性期制动防栓脱落为第一要务。",
+      "coreDefinition": "股肿气虚血瘀证以患肢肿胀日久、沉重麻木、倦怠乏力为特征，治以益气活血、通脉消肿，主方补阳还五汤加减。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医外科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "本藏第四十七",
+          "originalText": "经脉者，所以行血气而营阴阳，濡筋骨，利关节者也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "补阳还五汤加减：生黄芪30~60g（重用）、当归尾10g、赤芍10g、地龙10g、川芎10g、桃仁10g、红花10g，加丹参15g、鸡血藤30g、水蛭3g（研末冲服）、牛膝12g，肿甚加茯苓15g、薏苡仁30g、泽泻12g，水煎日1剂分2次服。外治：急性期抬高患肢、绝对卧床制动，严禁按摩挤压热敷；恢复期穿弹力袜或缠缚疗法。",
+        "caution": "急性期患肢禁按摩、禁热敷、禁剧烈活动，防血栓脱落致肺栓塞；有出血倾向者慎用活血药；抗凝治疗须监测凝血功能；水蛭孕妇禁用。"
+      },
+      "safety": {
+        "note": "辨证论治知识学习，临床用药须遵医嘱；急性期制动防肺栓塞为第一要务",
+        "prohibitions": [
+          "急性期患肢禁按摩、禁热敷、禁剧烈活动，防血栓脱落致肺栓塞",
+          "水蛭有毒，孕妇禁用，有出血倾向者慎用活血化瘀药"
+        ]
+      }
+    }
+  ]
+}

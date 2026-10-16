@@ -1,0 +1,2166 @@
+{
+  "seed": "phase-5/batch-10",
+  "genLabel": "Phase 5 · Batch-10 · 30 nodes（E 针灸治疗学 0→30）",
+  "total": 30,
+  "note": "E 针灸治疗学第一批：针灸治疗原则/选穴配穴/特定穴应用/头面五官/内科/妇儿/筋骨病证，全部含安全声明+禁针红线",
+  "samples": [
+    {
+      "id": "pb10-e-001",
+      "title": "针灸治疗原则·补虚泻实",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "针灸治疗原则",
+        "提插捻转补泻",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "掌握虚则补之、实则泻之、宛陈则除之三大补泻原则及提插捻转补泻的操作方向",
+      "learning": {
+        "knowledge": "虚证取足三里（足阳明胃经）、关元（任脉）施提插捻转补法以扶正；实证取合谷（手阳明大肠经）、太冲（足厥阴肝经）施泻法以祛邪；瘀血宛陈取委中刺络放血。补法重插轻提、捻转左转，泻法重提轻插、捻转右转。",
+        "misjudgment": "把「实则泻之」理解成凡实必重泻，忽略正虚邪实之体——纯泻伤正，须补泻兼施或先补后泻，视脉证虚实而定。",
+        "reasoning": "同为合谷一穴，虚证与实证在提插捻转操作上如何区别？",
+        "feedback": "补法重插轻提、拇指向前捻转为主，泻法重提轻插、拇指向后捻转为主，同一腧穴因手法差异而补泻异向。",
+        "transfer": "若患者气滞血瘀兼体虚，补泻手法应如何配合使用？"
+      },
+      "stdJudgment": "虚证用补法扶正、实证用泻法祛邪，络脉瘀阻之宛陈则刺络出血以除之，补泻方向全在提插轻重与捻转顺逆",
+      "coreDefinition": "虚则补之、实则泻之、宛陈则除之，为针灸补虚泻实、祛瘀除滞的总原则",
+      "facts": [
+        {
+          "field": "clinical.zhize",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.zhize",
+          "sourceType": "classic_original",
+          "sourceTitle": "《灵枢》",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.buxiefa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.wanchen",
+          "sourceType": "classic_original",
+          "sourceTitle": "《灵枢》",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢",
+          "chapter": "经脉",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "盛则泻之，虚则补之，热则疾之，寒则留之，陷下则灸之，不盛不虚，以经取之"
+        },
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢",
+          "chapter": "九针十二原",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "凡用针者，虚则实之，满则泄之，宛陈则除之，邪胜则虚之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "补法重插轻提、拇指向前捻转为主，刺激量轻；泻法重提轻插、拇指向后捻转为主，刺激量重；宛陈刺络取委中（足太阳膀胱经）出血",
+        "caution": "提插捻转补泻须在针下得气的基础上操作，刺激量依体质耐受而定；合谷、关元孕妇禁针"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。补泻手法须得气后操作，刺激量因人、因病位而异，不可盲目追求强刺激。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险",
+          "关元：膀胱充盈时禁深刺；孕妇禁针"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-002",
+      "title": "针灸治疗原则·清热温寒",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "针灸治疗原则",
+        "热则疾之",
+        "陷下则灸之"
+      ],
+      "intent": "掌握热则疾之、寒则留之、陷下则灸之的刺灸法度及临床应用",
+      "learning": {
+        "knowledge": "热证浅刺疾出不留针，高热取大椎（督脉）、曲池（手阳明大肠经）毫针泻法；寒证深刺久留针并加灸，胃脘冷痛取中脘（任脉）、足三里（足阳明胃经）温针灸；阳气下陷之脱肛、久泻，灸百会（督脉）升提固脱。",
+        "misjudgment": "把「热则疾之」等同于发热即放血——疾之指浅刺速出，宜于热在卫表气分；里热炽盛仍须深刺泻法或刺络，一概放血反耗正气。",
+        "reasoning": "寒证为何要久留针而热证却要浅刺疾出？",
+        "feedback": "寒邪凝滞须留针候气、以针温散，配灸助阳散寒；热邪浮越于表，浅刺疾出使邪随针泄，久留反助热势。",
+        "transfer": "若患者脱肛属中气下陷，为何首选灸法而非针刺？"
+      },
+      "stdJudgment": "热证浅刺疾出以泄热，寒证久留针或加灸以温散，阳气下陷者用灸以升提",
+      "coreDefinition": "热则疾之、寒则留之、陷下则灸之，是针灸针对热证、寒证、虚陷证的不同刺灸法度",
+      "facts": [
+        {
+          "field": "clinical.zhize",
+          "sourceType": "classic_original",
+          "sourceTitle": "《灵枢》",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.qingre",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.wenhan",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.jiufa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢",
+          "chapter": "经脉",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "热则疾之，寒则留之，陷下则灸之"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "热证毫针浅刺疾出、不留针；寒证深刺久留针，可配温针灸或艾灸；陷下证以艾灸为主",
+        "caution": "灸法防烫伤，颜面、五官、大血管浅表处及孕妇腹部慎灸"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。灸法操作须防烫伤，阴虚火旺者慎灸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-003",
+      "title": "针灸治疗原则·标本缓急",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "针灸治疗原则",
+        "治病求本",
+        "急则治标"
+      ],
+      "intent": "掌握治病求本、急则治标、缓则治本、标本同治的先后主次",
+      "learning": {
+        "knowledge": "头痛因肝阳上亢者，本在肝而标在头，取太冲（足厥阴肝经）、风池（足少阳胆经）平肝潜阳以治本；痛势剧烈者先取太阳（经外奇穴）、阿是穴毫针泻法急止其痛，标缓再调其本。",
+        "misjudgment": "见头痛便只取局部止痛穴，不辨病本——痛止而病源未除必反复发作，先分标本再定主次才是施治次序。",
+        "reasoning": "同为胃痛，为何有人先刺足三里缓急、有人却灸中脘治本？",
+        "feedback": "痛势急迫者先取足三里（足阳明胃经）和胃止痛，属急则治标；病程缠绵隐痛者灸中脘（任脉）、足三里健脾和胃，属缓则治本。",
+        "transfer": "若患者中风昏迷兼大便秘结，标本先后应如何安排？"
+      },
+      "stdJudgment": "治病求本是根本大法，标急先治标、标缓专治本、标本俱急则同治，先后主次决定处方",
+      "coreDefinition": "标本缓急指针灸立法须分清病本与标症，急则治标、缓则治本、标本同治",
+      "facts": [
+        {
+          "field": "clinical.biaoben",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.zhiben",
+          "sourceType": "classic_original",
+          "sourceTitle": "《素问》",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.zhiji",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问",
+          "chapter": "阴阳应象大论",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "治病必求于本"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "标急者先治标，毫针泻法急止其症；标缓者专治本，补法缓图；标本俱急者标本同治",
+        "caution": "急则治标须以不伤正为度，标症缓解后即转治本"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-004",
+      "title": "针灸治疗原则·三因制宜",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "针灸治疗原则",
+        "因时因地因人"
+      ],
+      "intent": "掌握因时、因地、因人制宜在针刺深浅、灸法取舍与刺激量上的体现",
+      "learning": {
+        "knowledge": "春夏腠理开疏，针刺宜浅；秋冬腠理致密，宜深刺留针，冬季哮喘可灸肺俞（足太阳膀胱经）、膏肓俞扶正；北方严寒阳虚者多，可重用灸法；年老体弱者手法宜轻，取足三里（足阳明胃经）补法，青壮年实证可重泻。",
+        "misjudgment": "把因人制宜只当作年龄之差——性别、体质虚实、职业劳逸同样影响取穴与刺激量，漏看一项即失于周详。",
+        "reasoning": "同是风寒感冒，为何冬季针刺宜深、夏季宜浅？",
+        "feedback": "腠理随季节开阖，冬寒腠密深刺留针以达邪，夏热腠疏浅刺疾出以防伤卫，此即因时制宜。",
+        "transfer": "若患者为孕妇，取穴与刺激量需作哪些调整？"
+      },
+      "stdJudgment": "因时看季节昼夜与气血流注，因地察南北高下与体质倾向，因人审年龄性别强弱，三者合参以定刺灸宜忌",
+      "coreDefinition": "因时、因地、因人制宜，指针灸施治须结合时令气候、地域环境与个体差异灵活立法",
+      "facts": [
+        {
+          "field": "clinical.yinshi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yindi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yinren",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.cifa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "春夏浅刺、秋冬深刺留针；灸量依地域寒温与体质强弱增减",
+        "caution": "年老体弱、孕妇及初诊者刺激量宜轻"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-005",
+      "title": "选穴原则·近部取穴与远部取穴",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "选穴原则",
+        "腧穴所在主治所在",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "掌握腧穴所在主治所在与经脉所过主治所及两大选穴法则",
+      "learning": {
+        "knowledge": "近部取穴如眼病取睛明、攒竹（足太阳膀胱经），鼻病取迎香（手阳明大肠经），体现腧穴所在主治所在；远部取穴如胃痛取足三里（足阳明胃经）、面口病取合谷（手阳明大肠经），体现经脉所过主治所及，远近常配合使用。",
+        "misjudgment": "以为远部取穴只限于本经之穴——表里经、同名经及特定穴皆可远取，重在经脉联系，拘泥本经反失灵活。",
+        "reasoning": "牙痛为何常取远端的合谷而不只取口周局部穴？",
+        "feedback": "合谷为手阳明大肠经原穴，该经入下齿中，远部取穴以经脉所过主治所及为据，配颊车（足阳明胃经）远近相济。",
+        "transfer": "若患者腰痛在督脉正中一线，远部取穴应选何穴？"
+      },
+      "stdJudgment": "病在局部取局部腧穴以疏调患部气血，病在脏腑或循经远达者取四肢远端穴，经脉所过主治所及为据",
+      "coreDefinition": "近部取穴即腧穴所在主治所在，远部取穴即经脉所过主治所及，为针灸选穴两大基本法则",
+      "facts": [
+        {
+          "field": "clinical.jinbu",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yuanbu",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.jingmai",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "近部穴多浅刺或平刺，远部穴按病性施补泻，远近相配",
+        "caution": "睛明等目周穴禁深刺、禁提插捻转"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。睛明等目周穴禁深刺，操作须极谨慎。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-006",
+      "title": "选穴原则·辨证取穴与对症取穴",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "选穴原则",
+        "辨证取穴",
+        "对症取穴"
+      ],
+      "intent": "掌握辨证取穴与对症取穴的分野及配合，如痰热取丰隆、发热取大椎曲池",
+      "learning": {
+        "knowledge": "辨证取穴如痰热壅肺之咳喘痰黄，取丰隆（足阳明胃经络穴）化痰、尺泽（手太阴肺经合穴）清肺；对症取穴如发热取大椎（督脉）、曲池（手阳明大肠经）退热，失眠取神门（手少阴心经）宁心安神，两者常相配合。",
+        "misjudgment": "把对症取穴当主法而忽略辨证——头痛一律取太阳、印堂止痛，不辨外感内伤与虚实，疗效短暂而病本难除。",
+        "reasoning": "同为咳嗽，为何有人取丰隆化痰、有人取太渊补肺？",
+        "feedback": "丰隆为化痰要穴，痰湿壅肺者宜之；太渊为肺经原穴，肺气虚弱者宜之，证型不同选穴自异。",
+        "transfer": "若患者高热伴神昏抽搐，对症取穴应选哪些急救穴？"
+      },
+      "stdJudgment": "辨证取穴针对病机立法，对症取穴针对症状选用经验穴，二者相须为用、纲举目张",
+      "coreDefinition": "辨证取穴以证候病机为纲选穴，对症取穴以症状体征为目选穴",
+      "facts": [
+        {
+          "field": "clinical.bianzheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.duizheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.shuxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "辨证穴按证候虚实施补泻，对症穴多用泻法或平补平泻",
+        "caution": "刺络退热须体质壮实者方可，体虚发热不宜放血"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-007",
+      "title": "配穴方法·本经配穴与表里经配穴",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "配穴方法",
+        "本经配穴",
+        "表里经配穴"
+      ],
+      "intent": "掌握本经配穴与表里经配穴的取穴思路与脏腑表里理论依据",
+      "learning": {
+        "knowledge": "本经配穴如肺病咳嗽取中府、尺泽、太渊（手太阴肺经）远近同用；表里经配穴如胃病取足三里（足阳明胃经）配公孙（足太阴脾经络穴），脾胃表里相济；胆病取阳陵泉（足少阳胆经）配太冲（足厥阴肝经）疏泄肝胆。",
+        "misjudgment": "误以为表里经配穴只用于脏病——腑病与经脉病同样适用，凡脏腑表里相关皆可相配，胃病配脾经穴即其例。",
+        "reasoning": "胃痛时为何足三里与公孙相配优于足三里单用？",
+        "feedback": "足三里为胃经合穴、公孙为脾经络穴，表里经相配使脾胃同调、经气相接，协同之力胜于单穴。",
+        "transfer": "若患者心悸属心经病，本经配穴与表里经配穴各举一例。"
+      },
+      "stdJudgment": "本经配穴取病经远近腧穴同调，表里经配穴取相表里两经腧穴并施，以脏腑经脉表里相通为据",
+      "coreDefinition": "本经配穴按病变经脉自取远近穴，表里经配穴以阴阳表里经相配，共奏调经和脏之效",
+      "facts": [
+        {
+          "field": "clinical.benjing",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.biaoli",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yinyang",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "本经配穴远近同调，表里经配穴两经并施，毫针按证候补泻",
+        "caution": "表里配穴亦须辨虚实主次，不可两经平调而无侧重"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-008",
+      "title": "配穴方法·前后配穴与上下配穴",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "配穴方法",
+        "俞募配穴",
+        "八脉交会穴"
+      ],
+      "intent": "掌握俞募配穴与八脉交会穴上下相应的取穴规律",
+      "learning": {
+        "knowledge": "俞募配穴如胃病取中脘（任脉、胃之募）配胃俞（足太阳膀胱经），肺病取中府（手太阴肺经、肺之募）配肺俞；上下配穴如内关（手厥阴心包经）配公孙（足太阴脾经）治胃心胸病，后溪（手太阳小肠经）配申脉（足太阳膀胱经）治头项腰背病。",
+        "misjudgment": "把俞募配穴理解为前后各取一穴即可——俞募须同属一脏一腑、腹背相对相应，张冠李戴则经气不接、调脏无功。",
+        "reasoning": "同为胃病，何时用俞募配穴、何时用上下配穴？",
+        "feedback": "脏腑虚损明显者以俞募配穴调补本脏本腑，气机逆乱、痛在心胸者以八脉交会穴上下相配，内关公孙通调胃心胸气。",
+        "transfer": "若患者心痛彻背，八脉交会穴上下相应当取哪一对？"
+      },
+      "stdJudgment": "前后配穴以胸腹募穴配腰背俞穴调脏腑之气，上下配穴取四肢上下相应穴通调经气，属远近配合之变法",
+      "coreDefinition": "前后配穴即俞募配穴，上下配穴多取八脉交会穴，均属远近配穴之变法",
+      "facts": [
+        {
+          "field": "clinical.qianhou",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.shangxia",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yumu",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bamai",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "俞募穴毫针补泻随脏腑虚实，八脉交会穴上下两穴同取、先刺一穴得气再刺对穴",
+        "caution": "胸腹募穴不宜深刺，背部俞穴斜刺防伤内脏"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。背部俞穴须斜刺，胸腹穴不可深刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-009",
+      "title": "特定穴应用·五输穴与补母泻子法",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "特定穴",
+        "五输穴",
+        "补母泻子"
+      ],
+      "intent": "掌握五输穴井荥输经合的五行属性与补母泻子取穴法",
+      "learning": {
+        "knowledge": "五输穴分布在肘膝以下：井（木）、荥（火）、输（土）、经（金）、合（水）。肺属金，虚证补母穴太渊（手太阴肺经输土穴），实证泻子穴尺泽（合水穴）；肝属木，虚证补曲泉（足厥阴肝经合水穴），实证泻行间（荥火穴）。",
+        "misjudgment": "补母泻子只记「虚补母、实泻子」却忘先定本经五行——五行属错则母子全乱，如把肺金母穴错取成他经土穴。",
+        "reasoning": "肺经实证为何泻尺泽而不泻太渊？",
+        "feedback": "肺属金、金生水，尺泽为肺经合水穴即子穴，实则泻其子；太渊为输土穴即母穴，虚则补之，补泻正相反。",
+        "transfer": "若肾经虚证（肾属水），补母泻子法当取何穴？"
+      },
+      "stdJudgment": "五输穴以井荥输经合配五行，虚证补其母经母穴、实证泻其子经子穴，母子法依生我我生而定",
+      "coreDefinition": "五输穴为十二经脉肘膝以下的井荥输经合五穴，补母泻子法按五行生克关系取穴施补泻",
+      "facts": [
+        {
+          "field": "clinical.wushu",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bumu",
+          "sourceType": "classic_original",
+          "sourceTitle": "《难经》",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.quxi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《难经》",
+          "canon": "难经",
+          "chapter": "六十九难",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "虚者补其母，实者泻其子"
+        },
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢",
+          "chapter": "九针十二原",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "所出为井，所溜为荥，所注为输，所行为经，所入为合"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "补母穴用补法、泻子穴用泻法，毫针得气后按补泻手法操作",
+        "caution": "取穴前须先定本经五行属性，五行推错则母子颠倒"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-010",
+      "title": "特定穴应用·原穴络穴与俞募穴",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "特定穴",
+        "原络配穴",
+        "俞募配穴",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "辨析原络配穴与俞募配穴的取穴部位、配穴关系与主治侧重",
+      "learning": {
+        "knowledge": "原络配穴如肺经病取本经原穴太渊为主，配大肠经络穴偏历为客；大肠经病则反取合谷为主、列缺为客。俞募配穴如胃病取胃俞（足太阳膀胱经）配中脘（任脉、胃之募），肾病取肾俞配京门（足少阳胆经、肾之募）。",
+        "misjudgment": "原络配穴与俞募配穴常被混谈——原络主客配在表里经之间、穴在四肢腕踝部，俞募配在胸腹腰背、以脏腑为核心，方向全然不同。",
+        "reasoning": "肺经有病为何配大肠经络穴偏历而非肺经他穴？",
+        "feedback": "络穴为表里两经联络之枢纽，肺与大肠相表里，取偏历使表里经气相接，主客相应、一原一络共调两经。",
+        "transfer": "若患者便秘属大肠腑病，俞募配穴当取哪两穴？"
+      },
+      "stdJudgment": "原穴为脏腑原气留止、络穴为表里两经联络之枢，原络配穴主客相应，俞募配穴阴阳腹背相济",
+      "coreDefinition": "原穴调本脏本腑、络穴通表里两经，原络配穴主客相配；俞募配穴以背俞穴配胸腹募穴调脏腑",
+      "facts": [
+        {
+          "field": "clinical.yuanxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.luoxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yuanluo",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yumu",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "原络配穴主客同取，主经原穴配客经络穴；俞募配穴背俞斜刺、募穴浅刺",
+        "caution": "背俞穴针刺方向斜向脊柱，胸腹募穴不可深刺"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。背部俞穴须斜刺防伤内脏。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-011",
+      "title": "特定穴应用·八会穴与八脉交会穴",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "特定穴",
+        "八会穴",
+        "八脉交会穴"
+      ],
+      "intent": "掌握八会穴各会精气类别与八脉交会穴四对上下相应之配",
+      "learning": {
+        "knowledge": "脏会章门、腑会中脘、气会膻中（任脉）、血会膈俞、筋会阳陵泉（足少阳胆经）、骨会大杼、髓会绝骨、脉会太渊（手太阴肺经）；八脉交会穴：公孙配内关治胃心胸，后溪配申脉治头项腰背，足临泣配外关治目锐眦耳后，列缺配照海治肺系咽喉胸膈。",
+        "misjudgment": "八会穴与八脉交会穴名近实异——八会按精气类别分属八穴，八脉交会按奇经相通配对，口诀混记则取穴张冠李戴。",
+        "reasoning": "为何筋病取阳陵泉而骨病取大杼，二者归经有何不同？",
+        "feedback": "阳陵泉为足少阳胆经合穴，筋会于此，筋脉拘挛宜之；大杼为足太阳膀胱经穴，骨会于此，骨节酸楚宜之，各依所会。",
+        "transfer": "若患者眩晕属髓海不足，当取八会穴中何穴？"
+      },
+      "stdJudgment": "八会穴各会脏、腑、气、血、筋、骨、髓、脉之精气，八脉交会穴通奇经八脉而上下相应，各有所主",
+      "coreDefinition": "八会穴为八类精气聚会之穴，八脉交会穴为十二正经与奇经八脉相通的八个腧穴",
+      "facts": [
+        {
+          "field": "clinical.bahui",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bamai",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bahui",
+          "sourceType": "classic_original",
+          "sourceTitle": "《难经》",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.yingyong",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《难经》",
+          "canon": "难经",
+          "chapter": "四十五难",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "腑会太仓，脏会季胁，筋会阳陵泉，髓会绝骨，血会膈俞，骨会大杼，脉会太渊，气会三焦外一筋直两乳内也"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "八会穴按所会精气施补泻，八脉交会穴上下两穴相配同取",
+        "caution": "膈俞、大杼等背部穴斜刺，胸腹穴禁深刺"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。膈俞、大杼等背部穴须斜刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-012",
+      "title": "头痛·分经论治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "头痛",
+        "分经论治",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "掌握头痛按阳明、少阳、太阳、厥阴分经论治的取穴规律",
+      "learning": {
+        "knowledge": "头痛主穴百会（督脉）、太阳（经外奇穴）、风池（足少阳胆经）、合谷（手阳明大肠经），毫针平补平泻。分经配穴：阳明前额配印堂、头维、内庭；少阳偏头配率谷、外关、足临泣；太阳后项配天柱、后溪、昆仑；厥阴巅顶配四神聪、太冲、行间。",
+        "misjudgment": "见头痛即取百会太阳风池了事，不辨部位归经——前额与巅顶配穴迥异，不分经则主穴之外无从加减、疗效打折。",
+        "reasoning": "同是头痛，为何偏头痛要配外关、足临泣这对八脉交会穴？",
+        "feedback": "外关（手少阳三焦经）通阳维脉、足临泣（足少阳胆经）通带脉，上下相应，专疏少阳经气不利之偏头痛。",
+        "transfer": "若患者巅顶痛伴干呕吐涎沫，配穴当加哪些肝经穴？"
+      },
+      "stdJudgment": "头痛以分经论治为纲，前额属阳明、两侧属少阳、后项属太阳、巅顶属厥阴，主穴基础上按经加配",
+      "coreDefinition": "头痛按疼痛部位归属阳明、少阳、太阳、厥阴四经，循经远近配穴论治",
+      "facts": [
+        {
+          "field": "clinical.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bianzheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.quxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.cifa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "主穴毫针平补平泻，按经配穴随证补泻；顽固性头痛可加电针",
+        "caution": "合谷孕妇禁针；头痛剧烈伴呕吐、神志改变者须排除颅脑病变"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。头痛若伴喷射性呕吐、神志异常，须先就医排除器质病变。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-013",
+      "title": "面瘫·风寒袭络",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "面瘫",
+        "风寒袭络",
+        "分期刺灸",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "掌握面瘫风寒袭络证的主穴处方与急性期、恢复期分期刺灸法",
+      "learning": {
+        "knowledge": "面瘫主穴地仓、颊车（足阳明胃经）互相透刺，攒竹、阳白（足太阳膀胱经）平刺，合谷（手阳明大肠经）、太冲（足厥阴肝经）远近相配。风寒袭络加风池（足少阳胆经）、翳风祛风散寒；急性期毫针浅刺轻刺激，恢复期面部穴加艾条温和灸或温针灸。",
+        "misjudgment": "急性期对面部穴施强刺激或电针重泻——邪在浅表经络，强刺激反致面肌痉挛、恢复变慢，宜浅刺轻刺激。",
+        "reasoning": "面瘫初期为何面部穴宜轻浅刺激而合谷太冲不可省略？",
+        "feedback": "初期邪浅，面部浅刺意在疏调局部经气；合谷太冲为四关穴，通行气血、祛风通络，远近配合且不伤面部。",
+        "transfer": "若患者面瘫日久、面肌萎缩无力，刺灸法应作何调整？"
+      },
+      "stdJudgment": "面瘫取阳明少阳经面部穴为主，风寒袭络者初期浅刺轻刺激、恢复期加灸，远近配穴贯穿始终",
+      "coreDefinition": "面瘫以口眼歪斜为主症，风寒袭络者治以祛风散寒、通经活络，局部穴配远端合谷太冲",
+      "facts": [
+        {
+          "field": "clinical.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bianzheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.quxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.cifa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "急性期面部穴浅刺轻刺激、短留针；恢复期面部穴平刺透刺，可加艾条温和灸或温针灸；风寒重者风池、翳风可配拔罐",
+        "caution": "合谷孕妇禁针；面部血管丰富，出针后按压防血肿"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。面部穴操作须轻柔，出针按压防血肿。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-014",
+      "title": "牙痛·胃火与肾虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "牙痛",
+        "胃火",
+        "肾虚",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "辨析牙痛胃火实证与肾虚虚证的取穴与补泻差异",
+      "learning": {
+        "knowledge": "牙痛主穴合谷（手阳明大肠经）、颊车（足阳明胃经），毫针泻法。胃火牙痛痛势剧烈、齿龈红肿，配内庭（足阳明胃经荥穴）清泻胃火；肾虚牙痛隐隐作痛、牙齿松动，配太溪（足少阴肾经原穴）补益肾阴、行间（足厥阴肝经荥穴）清泻虚火。",
+        "misjudgment": "把肾虚牙痛也当胃火泻之——肾虚者龈不红肿、痛势绵绵、齿根松动，再以泻法伤正，须太溪补、行间泻分施。",
+        "reasoning": "同为牙痛，为何胃火取内庭而肾虚却取太溪行间？",
+        "feedback": "内庭为胃经荥穴，荥主身热，清阳明实火；太溪为肾经原穴，补其不足，行间清泻虚火，一补一泻、虚实分治。",
+        "transfer": "若患者上牙痛属胃火兼便秘，配穴当如何调整？"
+      },
+      "stdJudgment": "牙痛分虚实，胃火牙痛属实取合谷颊车内庭泻之，肾虚牙痛属虚取太溪行间补泻兼施",
+      "coreDefinition": "牙痛以手阳明、足阳明经穴为主，胃火者清泻阳明，肾虚者滋阴降火",
+      "facts": [
+        {
+          "field": "clinical.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bianzheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.quxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.cifa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "主穴合谷、颊车毫针泻法；胃火配内庭泻法，肾虚配太溪补法、行间泻法",
+        "caution": "合谷孕妇禁针；牙痛剧烈伴颊部红肿高热者须排除牙髓及颌面感染"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-015",
+      "title": "咽喉肿痛·实热与虚热",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "咽喉肿痛",
+        "实热虚热",
+        "点刺出血",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "综合推理：据红肿、痛势、咽干与舌脉辨咽喉肿痛虚实，分施刺血与滋阴",
+      "learning": {
+        "knowledge": "咽喉肿痛实热证取少商（手太阴肺经井穴）、商阳（手阳明大肠经井穴）点刺出血，配尺泽（手太阴肺经合穴）、合谷（手阳明大肠经）泻法清泻肺胃实热；虚热证取照海（足少阴肾经）补法、列缺利咽，配太溪滋阴降火，干痛甚者加廉泉（任脉）。",
+        "misjudgment": "虚热咽痛也点刺少商出血——虚火当滋阴润燥，刺血更泄阴液反伤正气，须辨红肿、痛势与咽干程度再定补泻。",
+        "reasoning": "为何实热咽痛选井穴点刺出血，而虚热却取照海补法？",
+        "feedback": "少商商阳为井穴，点刺出血清泻肺热、消肿利咽，属实者泻之；照海通阴跷脉、滋阴利咽，虚火得水而制，属虚者补之。",
+        "transfer": "若患者咽痛伴发热恶寒、咳嗽，辨证当属何型，配穴如何调整？"
+      },
+      "stdJudgment": "咽喉肿痛实证刺少商商阳点刺出血以泻热，虚证补照海滋阴降火，尺泽合谷随虚实加减",
+      "coreDefinition": "咽喉肿痛分实热与虚热，实热泻肺胃之热，虚热滋阴降火，刺灸法随虚实而异",
+      "facts": [
+        {
+          "field": "clinical.zhuzhi",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.bianzheng",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.quxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.cifa",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "实热取少商、商阳点刺出血，配尺泽、合谷泻法；虚热取照海、列缺，补法为主，可配太溪",
+        "caution": "合谷孕妇禁针；点刺出血须严格消毒，出针按压止血"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。点刺出血须严格消毒，体质虚弱者忌放血。",
+        "prohibitions": [
+          "合谷：孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-016",
+      "title": "胃脘痛·脾胃虚寒与肝气犯胃",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "内科病证",
+        "脾胃系",
+        "辨证配穴",
+        "毫针补泻"
+      ],
+      "intent": "区分胃脘痛脾胃虚寒与肝气犯胃两证的取穴与补泻差异，掌握和胃止痛基本方",
+      "learning": {
+        "knowledge": "胃脘痛主穴中脘（任脉、胃之募穴）、足三里（足阳明胃经、胃之下合穴）、内关（手厥阴心包经），治以和胃止痛。脾胃虚寒配脾俞、胃俞，毫针补法加灸；肝气犯胃配太冲、期门、阳陵泉，毫针泻法。",
+        "misjudgment": "两证都见胃痛，若只凭疼痛程度分虚实、忽视喜温喜按与舌脉之异，易把虚寒当气滞而纯用泻法，致中阳更伤。",
+        "reasoning": "同为胃脘痛，为何虚寒证重用灸法而肝气犯胃证忌灸？",
+        "feedback": "灸能温散寒凝、扶助中阳，虚寒得灸则痛止；肝气犯胃属气郁化热之实，灸之助热更伤阴，当以疏肝和胃为要。",
+        "transfer": "若患者胃痛兼见泛酸烧心、嘈杂似饥，配穴应作何加减？"
+      },
+      "stdJudgment": "胃脘痛取中脘、足三里、内关通调胃腑气机，虚寒者灸而温之、肝气犯胃者泻太冲以疏肝，虚实异治正是取穴差异所在",
+      "coreDefinition": "胃脘痛以和胃止痛为纲，主穴中脘（胃募）、足三里（胃合）、内关（心包络），再按寒热虚实配穴",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢·邪气脏腑病形",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "胃病者，腹䐜胀，胃脘当心而痛"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "中脘直刺1-1.5寸，足三里直刺1-2寸，内关直刺0.5-1寸，得气后留针20-30分钟",
+        "caution": "中脘深部为胃腑，肝脾肿大者不宜深刺；虚寒证可加艾灸中脘、足三里"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。中脘深部为胃腑，不可深刺；艾灸时防烫伤",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-017",
+      "title": "泄泻·急性与慢性",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "内科病证",
+        "脾胃肠腑",
+        "急性泄泻",
+        "慢性泄泻"
+      ],
+      "intent": "掌握急性泄泻与慢性泄泻共用主穴、分型配穴的异同，理解利小便实大便之义",
+      "learning": {
+        "knowledge": "泄泻主穴天枢（足阳明胃经、大肠募穴）、上巨虚（足阳明、大肠下合穴）、阴陵泉（足太阴脾经），治以运脾利湿止泻。急性泄泻毫针泻法，寒湿者灸天枢；慢性脾虚配脾俞、足三里、公孙，补法加灸。",
+        "misjudgment": "一见泄泻即用止泻法，忽视祛湿化滞——湿不去则泻不止，主穴取阴陵泉正是利小便实大便之义。",
+        "reasoning": "急性泄泻为何不先取止泻专穴，而重用天枢与上巨虚通调大肠气机？",
+        "feedback": "泄泻病位在大肠，天枢为大肠募穴、上巨虚为大肠下合穴，募合相配使腑气调畅、湿滞得化，邪去则泻自止。",
+        "transfer": "若泄泻迁延三月、每因食生冷而加重，主穴与刺灸法应如何变化？"
+      },
+      "stdJudgment": "急性泄泻以祛邪为主、毫针泻法直折湿滞，慢性泄泻以健脾为要、补法加灸缓图其本，同一主穴两法迥异",
+      "coreDefinition": "泄泻以天枢、上巨虚、阴陵泉为主穴，运脾利湿止泻，急性偏泻、慢性偏补",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问·阴阳应象大论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "湿盛则濡泻"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "天枢直刺1-1.5寸，上巨虚、阴陵泉直刺1-2寸，急性者留针20-30分钟、每日1-2次；慢性者可加灸",
+        "caution": "天枢深部为肠腑，肠梗阻腹胀者慎深刺；急性泄泻剧烈伴脱水者须配合补液，针刺不能替代"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。泄泻剧烈伴脱水、高热者须及时就医，针刺不能替代补液",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-018",
+      "title": "便秘·热秘与气虚",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "内科病证",
+        "脾胃肠腑",
+        "热秘",
+        "气虚秘",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "掌握便秘主穴天枢支沟上巨虚，区分热秘泻法与气虚秘补法的取穴与刺灸差异",
+      "learning": {
+        "knowledge": "便秘主穴天枢（足阳明、大肠募穴）、支沟（手少阳三焦经、通调三焦气机）、上巨虚（足阳明、大肠下合穴）。热秘配内庭、合谷，毫针泻法；气虚秘配气海、脾俞、足三里，补法加灸。",
+        "misjudgment": "把支沟当单纯通便要穴而忽略其理气之性——支沟善行三焦气机，气秘气虚皆可用，但热秘不配清热穴则难中病。",
+        "reasoning": "气虚便秘为何不可一律用泻下通便之法？",
+        "feedback": "气虚者推动无力，腑气不运而大便艰涩，纯用攻下则中气更虚、停药复秘，当补气升清与通降相伍。",
+        "transfer": "若老年患者大便不干但临厕努挣乏力，取穴与刺灸应偏于何法？"
+      },
+      "stdJudgment": "便秘通腑以天枢、支沟、上巨虚为纲，热秘泻之清之、气虚秘补之温之，攻补之别不可混施",
+      "coreDefinition": "便秘以通调大肠腑气为法，主穴天枢（大肠募）、支沟（三焦经）、上巨虚（大肠下合）",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问·灵兰秘典论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "大肠者，传导之官，变化出焉"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "天枢直刺1-1.5寸，支沟直刺0.8-1.2寸，上巨虚直刺1-2寸，留针20-30分钟",
+        "caution": "热秘宜泻法、中病即止；气虚秘补法可加灸气海、足三里"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。便秘伴剧烈腹痛、呕吐、停止排气者须排除肠梗阻，速就医；配穴合谷孕妇禁针",
+        "prohibitions": [
+          "孕妇禁针：合谷，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-019",
+      "title": "失眠·心脾两虚与心肾不交",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "内科病证",
+        "心系病证",
+        "心脾两虚",
+        "心肾不交",
+        "三阴交·孕妇禁针"
+      ],
+      "intent": "掌握失眠基本方神门三阴交百会安眠，辨析心脾两虚与心肾不交的配穴差异",
+      "learning": {
+        "knowledge": "失眠主穴神门（手少阴心经原穴）、三阴交（足太阴脾经）、百会（督脉）、安眠（经外奇穴）。心脾两虚配心俞、脾俞、足三里，补法；心肾不交配心俞、肾俞、太溪，平补平泻，引火归元。",
+        "misjudgment": "心脾两虚与心肾不交均见多梦易醒，若忽略舌脉——前者舌淡脉细弱、后者舌红少苔脉细数——单凭主诉配穴必误。",
+        "reasoning": "心肾不交的失眠为何取肾俞、太溪而不直接泻心火？",
+        "feedback": "病本在肾水亏于下、不能上济心火，泻心火只治其标；滋肾阴、壮水之主使水火既济，方治其本。",
+        "transfer": "若患者入睡不难而凌晨易醒、醒后难眠，配穴思路应如何侧重？"
+      },
+      "stdJudgment": "失眠治在宁心安神，主穴神门三阴交百会安眠通调阴阳，心脾两虚补益、心肾不交交通，配穴各循其本",
+      "coreDefinition": "失眠以宁心安神为纲，主穴神门（心经原）、三阴交（脾经）、百会（督脉）、安眠（奇穴）",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢·大惑论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "卫气不得入于阴，常留于阳，留于阳则阳气满，阳气满则阳跷盛，不得入于阴则阴气虚，故目不瞑矣"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "神门直刺0.3-0.5寸，三阴交直刺1-1.5寸，百会平刺0.5-0.8寸，安眠穴直刺0.5-0.8寸，留针30分钟",
+        "caution": "三阴交孕妇禁针；百会下为颅骨，须平刺勿深刺"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。三阴交孕妇禁针，有堕胎风险",
+        "prohibitions": [
+          "孕妇禁针：三阴交，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-020",
+      "title": "眩晕·肝阳上亢与气血亏虚",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "内科病证",
+        "肝阳上亢",
+        "气血亏虚",
+        "虚实辨证"
+      ],
+      "intent": "综合辨析眩晕虚实两证，掌握风池百会太冲为主穴、虚证益气养血的配穴与刺灸法则",
+      "learning": {
+        "knowledge": "眩晕主穴风池（足少阳胆经）、百会（督脉）、太冲（足厥阴肝经）。肝阳上亢配行间、侠溪、肝俞，毫针泻法平肝潜阳；气血亏虚配足三里、气海、脾俞，补法加灸益气养血。",
+        "misjudgment": "肝阳上亢与气血亏虚都可因劳累诱发眩晕，若只凭诱因而忽略面白神疲、舌淡脉弱与面红目赤、舌红脉弦之异，补泻必反。",
+        "reasoning": "同为眩晕，为何肝阳上亢取太冲用泻法，气血亏虚却取足三里、气海用灸法？",
+        "feedback": "太冲为肝经原穴，泻之能平抑亢逆之肝阳；气海、足三里属任脉与胃经，补灸能升举清阳、充养气血，病机一实一虚，取穴刺灸自然相反。",
+        "transfer": "若患者眩晕而痰多体胖、苔白腻，主穴之上还应加哪类穴位？"
+      },
+      "stdJudgment": "眩晕一证虚实迥异，肝阳上亢者平肝潜阳、以泻法折其亢逆，气血亏虚者培补中焦、以灸法扶其本，攻补全凭舌脉",
+      "coreDefinition": "眩晕以风池、百会、太冲为基本方，实证平肝熄风，虚证益气养血",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问·至真要大论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "诸风掉眩，皆属于肝"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "风池向鼻尖方向斜刺0.8-1.2寸，百会平刺0.5-0.8寸，太冲直刺0.5-0.8寸；实证泻法，虚证补法可灸",
+        "caution": "风池深部近延髓，不可向内上方深刺；气血亏虚者行针手法宜轻"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。风池深部近延髓，禁向内上方深刺；眩晕伴呕吐肢麻、言语不清者须防中风，速就医",
+        "prohibitions": [
+          "禁深刺：风池穴，深部近延髓，禁向内上方深刺"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-021",
+      "title": "中风·中经络",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "内科病证",
+        "中风",
+        "醒脑开窍",
+        "三阴交·孕妇禁针"
+      ],
+      "intent": "掌握中经络醒脑开窍取穴（水沟内关三阴交）与肢体配穴（极泉尺泽委中）及三阴交孕妇禁用声明",
+      "learning": {
+        "knowledge": "中经络主穴水沟（督脉）、内关（手厥阴心包经）、三阴交（足太阴脾经），醒脑开窍、滋补肝肾；配极泉（手少阴）、尺泽（手太阴）、委中（足太阳）疏通肢体经络，毫针泻法，以肢体抽动为得气。",
+        "misjudgment": "把三阴交当普通补穴常规直刺——醒脑开窍法要求沿胫骨内侧缘斜刺并提插，方向深度有专论，且孕妇禁用，失之毫厘则疗效与安全俱失。",
+        "reasoning": "醒脑开窍法为何以水沟、内关、三阴交三穴为核心，而不用传统风池、百会？",
+        "feedback": "水沟醒脑开窍、内关调神理气、三阴交滋补肝肾，三穴共奏调神导气之功，直指中经络窍闭神匿、神不导气之病机，与传统取穴思路互补。",
+        "transfer": "若中经络患者兼见言语謇涩，应加哪些与舌咽相关的穴位？"
+      },
+      "stdJudgment": "中经络以醒脑开窍、疏通经络为法，水沟内关三阴交调神导气，极泉尺泽委中分治上下肢，手法量学讲究得气感传导",
+      "coreDefinition": "中风（中经络）取水沟、内关、三阴交醒脑开窍，极泉、尺泽、委中疏通肢体经络",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢·刺节真邪",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "虚邪偏客于身半，其入深，内居营卫，营卫稍衰，则真气去，邪气独留，发为偏枯"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "水沟向鼻中隔方向斜刺0.3-0.5寸、雀啄泻法至眼球湿润；内关直刺1-1.5寸提插捻转；三阴交沿胫骨内侧缘斜刺1-1.5寸；极泉、尺泽、委中提插泻法使肢体抽动为度",
+        "caution": "极泉深部有腋血管神经，须避开腋动脉；委中深部有腘动脉、腘静脉，禁粗暴提插；三阴交孕妇禁针"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。醒脑开窍法取三阴交，孕妇禁用；极泉、委中深部有重要血管神经，须由专业人员操作",
+        "prohibitions": [
+          "孕妇禁针：三阴交，有堕胎风险",
+          "极泉、委中深部有血管神经，禁粗暴提插"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-022",
+      "title": "面瘫后遗症·恢复期与后遗症期取穴",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "针灸科病证",
+        "面瘫后遗症",
+        "分期治疗",
+        "合谷·孕妇禁针"
+      ],
+      "intent": "在面瘫基础治法上讲清恢复期与后遗症期的取穴变化与刺法，避免与基础面瘫节点重复主诉",
+      "learning": {
+        "knowledge": "面瘫恢复期（2周至3月）以面部浅刺平补平泻为主，加足三里补益气血、合谷循经远取；后遗症期（3月以上）面部穴透刺，阳白透鱼腰、地仓透颊车，配灸法与刺络拔罐，面肌痉挛加风池、太冲。",
+        "misjudgment": "后遗症期仍照急性期浅刺轻刺——病久邪留成瘀，刺激量不足则经气难通，当加大透刺与灸法力度，但面肌痉挛者反须轻刺激防诱发。",
+        "reasoning": "面肌痉挛与面肌萎缩同属后遗症，为何前者宜轻刺而后者宜透刺灸法？",
+        "feedback": "痉挛属经筋拘急、虚风内动，重刺反助风动；萎缩属气血不荣、经筋失养，透刺灸法能温养经气、促其恢复，一抑一扶，方向相反。",
+        "transfer": "若患者病程半年、闭目不全伴流泪明显，局部取穴之外还应考虑哪经远端穴？"
+      },
+      "stdJudgment": "面瘫后遗症重在分期：恢复期宜轻刺激促其向愈，后遗症期久病入络、当以透刺灸法与刺络拔罐破其留滞，勿守一成不变",
+      "coreDefinition": "面瘫后遗症按病程分期论治，恢复期疏调经气，后遗症期通络逐瘀，取穴在基础方上随期加减",
+      "facts": [
+        {
+          "field": "clinical.病程分期",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.恢复期治则",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.后遗症期治则",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "恢复期面部穴浅刺平补平泻、可加电针（断续波）；后遗症期面部穴可透刺并配灸法或刺络拔罐，留针20-30分钟",
+        "caution": "合谷孕妇禁针；面部血管丰富，出针后按压防血肿"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。面部穴深部血管神经丰富，禁粗暴手法；合谷孕妇禁针",
+        "prohibitions": [
+          "孕妇禁针：合谷，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-023",
+      "title": "痹证·行痹痛痹着痹",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "筋骨病证",
+        "痹证",
+        "阿是穴",
+        "关元·孕妇禁针"
+      ],
+      "intent": "掌握痹证以阿是穴为主、按行痹痛痹着痹分型配穴的方法与灸法应用",
+      "learning": {
+        "knowledge": "痹证以阿是穴及局部经穴为主，毫针刺。行痹（风盛）配膈俞、血海，血行风自灭；痛痹（寒盛）配肾俞、关元，重用灸法温经散寒；着痹（湿盛）配阴陵泉、足三里健脾化湿。",
+        "misjudgment": "三痹皆用同一组穴而无分型——行痹重活血、痛痹重温灸、着痹重健脾，取舍不明则风难去、寒难散、湿难化。",
+        "reasoning": "痛痹为何强调灸法而着痹更重阴陵泉、足三里？",
+        "feedback": "痛痹寒凝收引，灸能温通血脉、散寒止痛；着痹湿性重浊困脾，取脾经合穴阴陵泉与胃经合穴足三里健运中州以绝生湿之源。",
+        "transfer": "若痹证日久关节变形、屈伸不利，应转向何种治法与穴位？"
+      },
+      "stdJudgment": "痹证以阿是穴为靶、分型配穴为纲，行痹治风先治血、痛痹温经散寒、着痹健脾化湿，灸法于痛痹最宜",
+      "coreDefinition": "痹证取阿是穴与局部经穴为主，行痹活血祛风、痛痹温经散寒、着痹健脾除湿",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问·痹论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "风寒湿三气杂至，合而为痹也"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "阿是穴及局部经穴常规毫针刺，行痹配膈俞、血海，痛痹配肾俞、关元并重用灸法，着痹配阴陵泉、足三里；留针20-30分钟",
+        "caution": "关元膀胱充盈时禁深刺、孕妇禁针；灸法防烫伤，痛痹隔姜灸尤宜"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。痛痹取关元者，孕妇禁针、膀胱充盈时禁深刺",
+        "prohibitions": [
+          "孕妇禁针：关元，有堕胎风险；膀胱充盈时禁深刺"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-024",
+      "title": "腰痛·寒湿与肾虚",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "筋骨病证",
+        "腰痛",
+        "寒湿腰痛",
+        "肾虚腰痛",
+        "灸法"
+      ],
+      "intent": "掌握腰痛主穴委中腰阳关大肠俞及寒湿、肾虚两证的配穴与灸法运用",
+      "learning": {
+        "knowledge": "腰痛主穴委中（足太阳膀胱经合穴，腰背委中求）、腰阳关（督脉）、大肠俞（足太阳膀胱经）。寒湿腰痛配阴陵泉、命门，毫针泻法加灸；肾虚腰痛配肾俞、命门、太溪，补法加灸。",
+        "misjudgment": "腰痛一律泻委中——肾虚者本元不足，重泻则肾气更亏，须辨寒热虚实，委中在虚证当轻刺激或改补法。",
+        "reasoning": "寒湿腰痛与肾虚腰痛都用灸法，灸所起的作用有何不同？",
+        "feedback": "寒湿者灸以温散寒湿、通络止痛；肾虚者灸以温补肾阳、壮腰健骨，灸法同而立法各异，一泻一补随证为用。",
+        "transfer": "若急性腰扭伤、痛如针刺、活动受限，主穴与刺法应如何变化？"
+      },
+      "stdJudgment": "腰痛以通调足太阳经气为法，委中腰阳关大肠俞为主，寒湿者散寒化湿、肾虚者温肾壮腰，灸法两证皆宜",
+      "coreDefinition": "腰痛主穴委中（膀胱经合穴）、腰阳关（督脉）、大肠俞（膀胱经），寒湿化湿通络、肾虚补肾壮腰",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问·脉要精微论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "腰者，肾之府，转摇不能，肾将惫矣"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "委中直刺1-1.5寸（急性扭伤可点刺出血），腰阳关、大肠俞直刺1-1.5寸；寒湿与肾虚均加灸肾俞、命门",
+        "caution": "委中深部有腘动脉、腘静脉，禁提插过猛；肾虚腰痛行针手法宜补"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。腰痛伴下肢放射痛、二便异常者须排除腰椎间盘突出重症及马尾综合征，速就医",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-025",
+      "title": "坐骨神经痛·足太阳经证",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "筋骨病证",
+        "坐骨神经痛",
+        "足太阳经",
+        "深穴操作"
+      ],
+      "intent": "掌握坐骨神经痛主穴环跳秩边阳陵泉委中及沿足太阳经配穴的基本思路",
+      "learning": {
+        "knowledge": "坐骨神经痛主穴环跳（足少阳胆经）、秩边（足太阳膀胱经）、阳陵泉（足少阳、筋会）、委中（足太阳合穴）。足太阳经证沿经配殷门、承山、昆仑；兼足少阳经走行痛者加风市、悬钟、丘墟，毫针泻法，可加电针。",
+        "misjudgment": "针刺环跳一味追求强烈触电感——过强刺激可损伤坐骨神经干致下肢麻木加重，得气以柔和放射感为度。",
+        "reasoning": "环跳属足少阳经，足太阳经证的坐骨神经痛为何仍以环跳为主穴？",
+        "feedback": "环跳位于臀部深层，为少阳、太阳二经交会之处，针之能疏通髋部经气、气至病所，故两经证型皆可重用。",
+        "transfer": "若疼痛沿下肢外侧（足少阳经）放射至足背，配穴应换成哪些穴位？"
+      },
+      "stdJudgment": "坐骨神经痛取环跳秩边疏通臀部经气、阳陵泉筋会舒筋、委中通调足太阳，配穴沿经下行至承山昆仑，全经得畅则痛减",
+      "coreDefinition": "坐骨神经痛（足太阳经证）主穴环跳、秩边、阳陵泉、委中，沿经配殷门、承山、昆仑",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "环跳直刺2-3寸、秩边直刺1.5-2.5寸，使针感向下肢放射；阳陵泉直刺1-1.5寸，委中直刺1-1.5寸；留针20-30分钟，可加电针",
+        "caution": "环跳、秩边深部有坐骨神经干，针刺方向与深度须严守，得气后不宜反复强提插；委中禁粗暴手法"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。环跳、秩边深部为坐骨神经干，针刺方向与深度须由专业人员掌握，针感以柔和麻胀为度，忌粗暴提插",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-026",
+      "title": "肩周炎·肩三针",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "筋骨病证",
+        "肩周炎",
+        "肩三针",
+        "动刺法"
+      ],
+      "intent": "掌握肩周炎肩三针（肩髃肩髎肩贞）取穴与条口透承山动刺法的操作要点",
+      "learning": {
+        "knowledge": "肩周炎主穴肩髃（手阳明大肠经）、肩髎（手少阳三焦经）、肩贞（手太阳小肠经），合称肩三针，通调三阳经气；配条口透承山、外关、阳陵泉，毫针平补平泻，动刺配合活动肩部。",
+        "misjudgment": "只针局部不取远端——条口透承山配合动刺能引经气上行肩部、松解粘连，缺此一着则取效迟缓。",
+        "reasoning": "条口属足阳明经，为何能治手三阳经分布区的肩痛？",
+        "feedback": "条口虽在下肢，然足阳明经多气多血，透刺承山更兼调太阳经筋，配合动刺使经气上下贯通，肩部气血得畅、拘挛得缓。",
+        "transfer": "若患者肩痛以后伸受限为主，除肩三针外可加哪一透穴或经穴？"
+      },
+      "stdJudgment": "肩周炎以肩三针围刺病所、通利关节，配条口透承山远道取穴动刺相须，局部与远端同用是取效关键",
+      "coreDefinition": "肩周炎主穴肩髃（大肠经）、肩髎（三焦经）、肩贞（小肠经）肩三针，配条口透承山、外关",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "肩髃直刺1-1.5寸或向下透刺，肩髎、肩贞直刺1-1.5寸，条口透承山2-3寸；针刺条口时嘱患者活动肩关节，留针20-30分钟",
+        "caution": "肩贞深部有腋神经与血管，不可深刺过猛；透刺须掌握方向防刺伤胸膜"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。肩贞深部邻近腋神经血管，禁深刺；条口透承山须防刺穿胸腔，手法宜轻柔",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-027",
+      "title": "落枕·经筋病",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "筋骨病证",
+        "落枕",
+        "经筋病",
+        "远端取穴",
+        "动刺法"
+      ],
+      "intent": "掌握落枕以外劳宫后溪悬钟远端取穴为主、针刺时活动颈部的动刺法",
+      "learning": {
+        "knowledge": "落枕主穴外劳宫（经外奇穴，又名落枕穴）、后溪（手太阳小肠经，通督脉）、悬钟（足少阳胆经，髓会），均从远端取穴，毫针泻法，针刺时嘱患者活动颈部，行动刺法。",
+        "misjudgment": "只在颈部阿是穴局部针刺而不动针时活动——经筋拘急者须远端取穴与动刺相合，单纯局部治疗往往缓解不彻底。",
+        "reasoning": "后溪属小肠经且在手上，为何能缓解颈部经筋拘急？",
+        "feedback": "后溪为手太阳经输穴而通于督脉，颈项正是太阳经与督脉所过，针之可疏通颈项经气，配合动刺令筋急得缓。",
+        "transfer": "若落枕反复发作、晨起即痛，除急性期取穴外还应考虑调整哪一脏腑？"
+      },
+      "stdJudgment": "落枕病在经筋、治从远端，外劳宫为经验要穴、后溪通督脉、悬钟舒筋，动刺之法使筋急得缓、颈部转侧复常",
+      "coreDefinition": "落枕以外劳宫、后溪、悬钟远端取穴，配合针刺时活动颈部的动刺法舒筋缓急",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢·经筋",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "治在燔针劫刺，以知为数，以痛为输"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "外劳宫直刺0.5-0.8寸，后溪直刺0.5-1寸，悬钟直刺1-1.5寸；针刺同时嘱患者缓慢活动颈部，留针20-30分钟",
+        "caution": "悬钟邻近腓骨，针刺避开腓动脉；动刺时活动幅度宜缓，防晕针"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。针刺时活动颈部须缓慢，眩晕者禁用大幅度转动；症状反复或伴上肢麻木者须查颈椎",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb10-e-028",
+      "title": "痛经·寒凝血瘀与气滞血瘀",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "妇儿病证",
+        "痛经",
+        "寒凝血瘀",
+        "气滞血瘀",
+        "三阴交·孕妇禁针",
+        "关元·孕妇禁针"
+      ],
+      "intent": "掌握痛经主穴关元三阴交地机次髎，区分寒凝血瘀与气滞血瘀的配穴及灸法运用",
+      "learning": {
+        "knowledge": "痛经主穴关元（任脉、调理冲任）、三阴交（足太阴脾经、妇科要穴）、地机（足太阴郄穴、痛经经验穴）、次髎（足太阳膀胱经）。寒凝血瘀配归来、天枢，重用灸法；气滞血瘀配太冲、血海、膈俞，毫针泻法。",
+        "misjudgment": "痛经一律用灸——气滞血瘀者灸之反助热壅，当分寒热：寒凝者得温则减、宜灸，气滞者胀甚于痛、宜行气不宜灸。",
+        "reasoning": "同为瘀阻胞宫，为何寒凝血瘀者重用灸而气滞血瘀者以行气为要？",
+        "feedback": "寒凝血瘀以寒为因、得温则行，灸能温经散寒使瘀自化；气滞血瘀以气为先、气行则血行，故重太冲、血海行气活血，寒热之异决定灸与不灸。",
+        "transfer": "若患者经前乳胀、情志不舒而经期小腹刺痛，取穴应侧重哪一经？"
+      },
+      "stdJudgment": "痛经以温经散寒、行气化瘀为法，关元温胞宫、三阴交调冲任、地机为郄、次髎理下焦，灸法与泻法随证而施",
+      "coreDefinition": "痛经主穴关元（任脉）、三阴交（脾经）、地机（脾经郄穴）、次髎（膀胱经），寒者温灸、瘀者行散",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "关元直刺1-1.5寸，三阴交直刺1-1.5寸，地机直刺1-1.5寸，次髎直刺1-1.5寸；寒凝血瘀者关元、次髎隔姜灸，留针20-30分钟",
+        "caution": "关元孕妇禁针、膀胱充盈时禁深刺；三阴交孕妇禁针；经期施灸须防经量增多"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。关元、三阴交孕妇禁针，有堕胎风险；膀胱充盈时关元禁深刺",
+        "prohibitions": [
+          "孕妇禁针：三阴交，有堕胎风险",
+          "孕妇禁针：关元，有堕胎风险；膀胱充盈时禁深刺"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-029",
+      "title": "月经不调·先期与后期",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "妇儿病证",
+        "月经不调",
+        "经行先期",
+        "经行后期",
+        "三阴交·孕妇禁针",
+        "关元·孕妇禁针"
+      ],
+      "intent": "掌握月经不调主穴关元三阴交血海，理解经行先期与后期在配穴补泻上的不同侧重",
+      "learning": {
+        "knowledge": "月经不调主穴关元（任脉、调理冲任）、三阴交（足太阴脾经）、血海（足太阴脾经、理血要穴）。经行先期血热者配行间、地机，毫针泻法；气虚者配脾俞、足三里，补法。经行后期寒凝配归来、天枢加灸；血虚配脾俞、足三里。",
+        "misjudgment": "先期一律清热、后期一律温补——先期亦有气虚不摄、后期亦有气滞血瘀，须凭经色经量舌脉辨其寒热虚实。",
+        "reasoning": "先期与后期在取穴上同用关元三阴交，为何还要细辨寒热虚实？",
+        "feedback": "关元三阴交只是调理冲任的基本框架，先期之热当清、后期之寒当温，气虚补脾、气滞疏肝，分型配穴才能切中病机。",
+        "transfer": "若患者经期先后不定、量少色淡、腰酸耳鸣，辨为何证、配穴当如何？"
+      },
+      "stdJudgment": "月经不调以调理冲任为纲，关元三阴交血海通调气血，先期多热宜清、后期多寒宜温，重在辨周期之先后",
+      "coreDefinition": "月经不调主穴关元（任脉）、三阴交（脾经）、血海（脾经），先期清热调经、后期温经养血",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "素问·上古天真论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "女子二七而天癸至，任脉通，太冲脉盛，月事以时下"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "关元直刺1-1.5寸，三阴交直刺1-1.5寸，血海直刺1-1.5寸；先期血热者泻行间，后期寒凝者灸归来、天枢",
+        "caution": "关元、三阴交孕妇禁针；经期针刺血海、三阴交刺激量宜轻"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。关元、三阴交孕妇禁针，有堕胎风险；若经量异常增多或经期延长须查妇科排除器质病变",
+        "prohibitions": [
+          "孕妇禁针：三阴交，有堕胎风险",
+          "孕妇禁针：关元，有堕胎风险；膀胱充盈时禁深刺"
+        ]
+      }
+    },
+    {
+      "id": "pb10-e-030",
+      "title": "小儿遗尿·肾气不固",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "妇儿病证",
+        "小儿遗尿",
+        "肾气不固",
+        "灸法",
+        "三阴交·孕妇禁针",
+        "关元·孕妇禁针"
+      ],
+      "intent": "掌握小儿遗尿主穴关元中极三阴交膀胱俞及肾气不固证的配穴与灸法",
+      "learning": {
+        "knowledge": "小儿遗尿主穴关元（任脉）、中极（任脉、膀胱募穴）、三阴交（足太阴脾经）、膀胱俞（足太阳膀胱经），俞募配穴固摄膀胱。肾气不固配肾俞、命门，艾灸关元、中极、肾俞，补法。",
+        "misjudgment": "把遗尿当湿热下注而一概清利——小儿遗尿以肾气不固、膀胱失约者居多，误用清利反伤肾阳，须以温补固摄为主。",
+        "reasoning": "中极与膀胱俞同用属何种配穴法，为什么适合遗尿？",
+        "feedback": "中极为膀胱募穴、膀胱俞为膀胱背俞穴，俞募相配前后呼应、直达病所，能振奋膀胱气化、约束水道，故为遗尿要法。",
+        "transfer": "若患儿兼见睡中多梦易惊、白天神疲食少，配穴应如何加减？"
+      },
+      "stdJudgment": "小儿遗尿责之肾气不固、膀胱失约，关元中极与膀胱俞俞募相配固摄下元，三阴交调三阴，灸肾俞命门温肾助约",
+      "coreDefinition": "小儿遗尿主穴关元、中极（膀胱募）、三阴交、膀胱俞，肾气不固者温肾固摄、灸法为要",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辨证分型",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治则治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.配穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.刺灸法",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《黄帝内经》",
+          "canon": "灵枢·九针论",
+          "chapter": "",
+          "sourceTitle": "《黄帝内经》",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "膀胱不约为遗溺"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "关元直刺1-1.5寸，中极直刺1-1.5寸（须先排尿），三阴交直刺1-1.5寸，膀胱俞直刺1-1.5寸；肾气不固加肾俞、命门，艾条温和灸各穴5-10分钟",
+        "caution": "中极、关元膀胱充盈时禁深刺，针刺前须排空小便；三阴交、关元对孕妇禁针（成年女性患者）"
+      },
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。中极、关元深部为膀胱，针刺前须排尿、禁深刺；三阴交、关元对孕妇禁针",
+        "prohibitions": [
+          "孕妇禁针：三阴交，有堕胎风险",
+          "孕妇禁针：关元，有堕胎风险；膀胱充盈时禁深刺",
+          "中极穴膀胱充盈时禁深刺，须先排尿"
+        ]
+      }
+    }
+  ]
+}

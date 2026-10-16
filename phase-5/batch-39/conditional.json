@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-39",
+  "genLabel": "Phase 5 · Batch-39 · 65 nodes（N 中医经典 120→145 / H 中药鉴定 50→70 / J 中药炮制 40→60 上限补足）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

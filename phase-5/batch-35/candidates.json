@@ -1,0 +1,370 @@
+{
+  "seed": "phase-5/batch-35",
+  "genLabel": "Phase 5 · Batch-35 · J 中药炮制学 40 nodes",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 40
+  },
+  "samples": [
+    {
+      "id": "pb35-j-001",
+      "title": "炮制·炮制目的与意义",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-002",
+      "title": "炮制·净制与切制",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-003",
+      "title": "炮制·炮炙法分类与操作",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-004",
+      "title": "炮制·水火共制方法",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-005",
+      "title": "炮制·常用辅料与作用",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-006",
+      "title": "炮制·炮制对药性药效的影响",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-007",
+      "title": "炮制·炒黄法及其应用",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-008",
+      "title": "炮制·山楂炒焦消食",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-009",
+      "title": "炮制·荆芥槐花炒炭止血",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-010",
+      "title": "炮制·白术麸炒健脾",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-011",
+      "title": "炮制·白术土炒止泻",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-012",
+      "title": "炮制·苍术麸炒燥湿",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-013",
+      "title": "炮制·党参米炒健脾益气",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-014",
+      "title": "炮制·马钱子砂炒减毒",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-015",
+      "title": "炮制·穿山甲砂炒醋淬",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-016",
+      "title": "炮制·当归酒炙活血调经",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-017",
+      "title": "炮制·黄芩酒炙清上焦热",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-018",
+      "title": "炮制·大黄酒炙与炮制品种",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-019",
+      "title": "炮制·柴胡香附醋炙疏肝理气",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb35-j-020",
+      "title": "炮制·延胡索醋炙止痛增效",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-021",
+      "title": "炮制·杜仲盐炙补肾强腰",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-022",
+      "title": "炮制·黄柏盐炙入肾经",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-023",
+      "title": "炮制·车前子盐炙利水通淋",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-024",
+      "title": "炮制·厚朴姜炙和胃止呕",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-025",
+      "title": "炮制·黄芪蜜炙补气升阳",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-026",
+      "title": "炮制·甘草蜜炙缓急补益",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-027",
+      "title": "炮制·麻黄蜜炙润肺止咳",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-028",
+      "title": "炮制·枇杷叶蜜炙润肺止咳",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-029",
+      "title": "炮制·淫羊藿羊脂油炙温肾壮阳",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-030",
+      "title": "炮制·煅法明煅煅淬闷煅",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-031",
+      "title": "炮制·何首乌蒸制补肝肾",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-032",
+      "title": "炮制·地黄蒸制滋阴养血",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-033",
+      "title": "炮制·川乌附子煮制减毒",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-034",
+      "title": "炮制·半夏复制法减毒",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-035",
+      "title": "炮制·天南星白附子复制减毒",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-036",
+      "title": "炮制·麦芽发芽法",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-037",
+      "title": "炮制·淡豆豉六神曲发酵",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-038",
+      "title": "炮制·巴豆霜千金子霜制霜减毒",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-039",
+      "title": "炮制·斑蝥炮制减毒",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb35-j-040",
+      "title": "炮制·芒硝提净朱砂雄黄水飞",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

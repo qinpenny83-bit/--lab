@@ -1,0 +1,586 @@
+// ============================================================
+// 杏林大典 · Phase 5 · Batch-21 · 样本 Part V1（V 中医骨伤科学 20 节点 pb21-v-001 ~ pb21-v-020）
+// 学科：V 中医骨伤科学；覆盖：骨折概论与整复（001-004）/ 骨折牵引与过伸复位（005-006）/
+//       脱位与复位手法（007-010）/ 颈腰膝肩踝伤筋病（011-016）/ 三期用药与康复（017-018）/
+//       骨不连与创伤急救（019-020）
+// schema：{ id, title, category, difficulty, difficultyLabel, riskTags, intent,
+//          facts[], classics[], dosage, cases, stdJudgment, coreDefinition,
+//          safety:{note, prohibitions[]}, learning:{knowledge, misjudgment, reasoning, feedback, transfer} }
+// category 一律 'clinical'；title 一律「骨伤·病证·治法」式（前缀必带「骨伤·」）
+// facts sourceTitle 限定：《中医骨伤科学》规划教材 / 《方剂学》规划教材 / 《中药学》规划教材 /
+//   《中国药典》 / 《伤寒论》规划教材
+// classics 一律整书名 label（《仙授理伤续断秘方》《正体类要》《伤科汇纂》《医宗金鉴》
+//   《素问》《灵枢》《诸病源候论》），篇名入 chapter，originalText 逐字核对，
+//   sourceType:'classic_original'，status:'verified'，均已在 classic-patch.mjs 收录
+// dosage 一律填写 guideline（内服剂量+外用方法）/caution（禁忌与警戒）
+// 高危药红线按 authoring-spec 第 4 节表与第 19 节：附子/细辛/马钱子/川乌草乌/乳香没药过量/甘草
+// 难度分布：基础 6（difficulty 1）/ 中等 6（difficulty 2）/ 困难 4（difficulty 3）/
+//           易混综合 4（易混淆 2 + 综合推理 2）
+// ============================================================
+
+export const PART_V1 = [
+  // ============================================================
+  // V 中医骨伤科学 · 骨折概论与整复（001–004）
+  // ============================================================
+  {
+    id: 'pb21-v-001', title: '骨伤·骨折概论与整复原则', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['骨折', '整复原则', '三期用药', '动静结合'],
+    intent: '掌握骨折的移位类型、整复标准与复位、固定、练功、药物四法综合的治疗原则。',
+    facts: [
+      { field: 'clinical.定义分类', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.移位类型', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.整复标准', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.治疗原则', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.三期用药', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.药物剂量', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '痿论篇第四十四', originalText: '肾主身之骨髓。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+      { label: '《医宗金鉴》', canon: '《医宗金鉴》', chapter: '编辑正骨心法要旨', originalText: '夫手法者，谓以两手安置所伤之筋骨，使仍复于旧也。', sourceTitle: '《医宗金鉴》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '骨折内治按三期：初期活血化瘀消肿止痛，复元活血汤（柴胡、天花粉、当归、红花、穿山甲、酒大黄、桃仁、甘草）水煎日1剂分2次服；中期和营生新，和营止痛汤；后期补益肝肾，六味地黄丸（浓缩丸每次8丸日3次）；外敷消瘀止痛膏每日换药1次。', caution: '整复前须摄片明确移位类型与合并损伤；老年心肺功能不全者慎用大黄攻下；活血方含乳香没药者内服过量刺激胃肠；甘草反海藻大戟甘遂芫花。' },
+    cases: null,
+    stdJudgment: '骨折诊断以畸形、异常活动、骨擦音三体征为据，X线可确认移位类型；整复求功能复位而非强求解剖对位，复位、固定、练功、用药四法贯穿始终，动静结合使断端稳定与关节活动两不相碍，三期用药依瘀、和、补次第而行。',
+    coreDefinition: '骨折是骨的完整性或连续性中断，治以复位、固定、练功、药物四法综合，三期辨证用药。',
+    safety: { note: '骨折属骨科急症，复位固定须由专业医师操作；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：伤处肿胀疼痛、畸形、异常活动、骨擦音、功能障碍；X线明确部位与移位。病机为外力致骨之连续性中断，断端可成角、侧方、缩短、旋转、分离五型移位。治法：复位、固定、功能锻炼、内外用药，即动静结合、筋骨并重、内外兼治、医患合作；主方初期复元活血汤、中期和营止痛汤、后期六味地黄丸，外敷消瘀止痛膏。',
+      misjudgment: '把解剖复位当作一切骨折的必需标准。错：长骨干及部分关节内骨折经努力仍难解剖对位者，力线好、长度恢复、对位在功能允许范围即可，强求解剖对位反增创伤与手术风险。',
+      reasoning: '固定使断端相对静止，练功又强调关节活动，为何动与静能在骨折治疗中并行不悖？',
+      feedback: '固定只约束断端活动以利修复，练功限于未固定关节与肌肉，使血运与肌力不废，以不扰动对位为前提，动中有静、静中有动。',
+      transfer: '前臂双骨折复位后既有旋转活动需求又有再移位风险，试按动静结合原则安排固定范围与练功次序。',
+    },
+  },
+  {
+    id: 'pb21-v-002', title: '骨伤·桡骨远端骨折夹板固定', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['桡骨远端骨折', '夹板固定', 'Colles骨折', '餐叉样畸形'],
+    intent: '掌握桡骨远端骨折的移位特点、四夹板固定方法与固定期练功要点。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.移位特点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定方法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《仙授理伤续断秘方》', canon: '《仙授理伤续断秘方》', chapter: '卷一', originalText: '凡用杉皮浸，约如指大片，疏排令周匝，用小绳三度紧缚，三日一次，如前淋洗，换涂贴药。', sourceTitle: '《仙授理伤续断秘方》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '手法复位后四块夹板固定（背侧板超腕、掌侧板达腕横纹、桡侧板超腕、尺侧板平尺骨头），布带扎三道；内服桃红四物汤（桃仁、红花、当归、川芎、生地黄、赤芍）水煎日1剂，三七粉3g冲服；外敷消瘀止痛膏。', caution: '固定后即查指端血运与桡动脉搏动，过紧致指端青紫麻木须及时松解；老年骨质疏松者宜低强度复位；活血药孕妇忌用。' },
+    cases: null,
+    stdJudgment: 'Colles骨折以腕部餐叉样、枪刺样畸形为眼目，多因跌倒手掌撑地，骨折远端向背侧桡侧移位；整复宜早，麻醉下先拔伸牵引再掌屈尺偏，四夹板固定于腕屈曲尺偏位，三周后改中立位，是伤科拔伸牵引与夹挤分骨诸法的典型运用。',
+    coreDefinition: '桡骨远端骨折多因跌倒手掌撑地，远端向背桡侧移位呈餐叉样畸形，治以手法复位加夹板固定。',
+    safety: { note: '夹板松紧以布带能上下移动1cm为度，固定后须随访调整；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '三七孕妇慎用，血虚无瘀者忌用'] },
+    learning: {
+      knowledge: '主症与体征：腕部肿胀疼痛、功能障碍，侧面餐叉样、正面枪刺样畸形，桡骨远端压痛叩痛。病机为跌倒手掌撑地之传导暴力，致桡骨远端2-3cm内骨折，远端向背侧桡侧移位，可合并尺骨茎突骨折。治法：手法复位、夹板固定；主方桃红四物汤合三七粉，外敷消瘀止痛膏，固定期即练指间关节与肩肘活动。',
+      misjudgment: '把儿童桡骨远端青枝骨折当成人Colles骨折强力整复。错：青枝骨折一侧皮质完好、移位轻微，轻柔矫正成角后夹板固定即可，强力整复反致完全骨折移位。',
+      reasoning: '桡骨远端骨折固定时为何背侧夹板须超腕，掌侧板却仅达腕横纹？',
+      feedback: '超腕固定限制背伸与桡偏，掌侧不过腕则保留掌屈余地，借助腕屈肌群张力维持复位，正合动静结合之意。',
+      transfer: '滑倒手掌撑地致腕部畸形肿痛者，试述从体征辨认到复位固定与练功的完整流程。',
+    },
+  },
+  {
+    id: 'pb21-v-003', title: '骨伤·锁骨骨折"8"字绷带固定', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['锁骨骨折', '8字绷带', '儿童骨折', '塑形能力强'],
+    intent: '掌握锁骨骨折的好发部位、8字绷带固定方法与儿童塑形特点。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.好发部位', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定方法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.调护要点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《正体类要》', canon: '《正体类要》', chapter: '序', originalText: '且肢体损于外，则气血伤于内，荣卫有所不贯，脏腑由之不和，岂可纯任手法，而不求之脉理，审其虚实，以施补泻哉？', sourceTitle: '《正体类要》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '手法复位后以8字绷带或锁骨带固定，双肩向后上提拉，松紧以能伸入一指为度；内服桃红四物汤加骨碎补、续断（当归、川芎、桃仁、红花、生地黄、赤芍、骨碎补、续断）水煎日1剂分2次，儿童剂量酌减；外敷消瘀止痛膏。', caution: '8字绷带过紧压迫腋部血管神经，须观察上肢麻木发绀；固定4-6周；婴幼儿可仅用8字绷带不必复位；活血药孕妇忌用。' },
+    cases: null,
+    stdJudgment: '锁骨骨折以中1/3最多，多因侧方跌倒肩部着地或直接暴力，近端因胸锁乳突肌牵拉向上后方移位、远端因上肢重力向下移位；儿童青枝骨折塑形力强，轻度移位不须强求复位，8字绷带使双肩后伸即获固定，愈合后外观功能常无碍。',
+    coreDefinition: '锁骨骨折多位于中1/3，以8字绷带使双肩后伸固定，儿童塑形能力强预后良好。',
+    safety: { note: '固定后每2-3日检查调整松紧并观察腋部神经血管；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用'] },
+    learning: {
+      knowledge: '主症与体征：伤肩下垂、头部偏向患侧、以健手托肘、锁骨中部肿胀压痛、可扪及骨擦感。病机为跌倒肩部着地或直接打击，断端受胸锁乳突肌与上肢重力牵拉而重叠移位。治法：手法复位、8字绷带固定；主方桃红四物汤加骨碎补、续断，外敷消瘀止痛膏，固定后即练腕指与肘部活动。',
+      misjudgment: '强求解剖复位而反复粗暴整复。错：锁骨骨折愈合后轻度重叠不影响功能，儿童塑形可完全矫正，反复整复徒增创伤与不愈合风险。',
+      reasoning: '8字绷带为何能让移位的锁骨断端自行靠拢？',
+      feedback: '双肩后伸使胸大肌、胸锁乳突肌等牵拉趋于平衡，断端在肌张力下复位并保持稳定，以体位与肌力维持对位，不依赖强力手法。',
+      transfer: '学龄儿童跌倒肩部着地致锁骨中段骨折短缩1cm者，试按塑形原理决定是否复位及固定方式。',
+    },
+  },
+  {
+    id: 'pb21-v-004', title: '骨伤·肱骨干骨折夹板固定', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['肱骨干骨折', '夹板固定', '桡神经损伤', '骨不连'],
+    intent: '掌握肱骨干骨折的移位规律、夹板固定要点与桡神经损伤的辨识。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.移位规律', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.神经检查', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定方法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《医宗金鉴》', canon: '《医宗金鉴》', chapter: '编辑正骨心法要旨', originalText: '摸者，用手细细摸其所伤之处，或骨断、骨碎、骨歪、骨整、骨软、骨硬、筋强、筋柔、筋歪、筋正、筋断、筋走、筋粗、筋翻、筋寒、筋热，以及表里虚实，并所患之新旧也。', sourceTitle: '《医宗金鉴》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '手法复位后上臂前后内外四夹板固定，中段骨折可配U形石膏；内服新伤续断汤（当归尾、地鳖虫、乳香、没药、丹参、自然铜、骨碎补、泽兰叶、延胡索、苏木、续断、桑枝、桃仁）水煎日1剂分2次；外敷消瘀止痛膏。', caution: '中下1/3骨折易伤桡神经，固定前后必查伸腕伸指，垂腕即提示桡神经损伤；夹板不可压于桡神经沟；肱骨干骨不连发生率高，成人固定须6-8周。' },
+    cases: null,
+    stdJudgment: '肱骨干骨折以中1/3最多，因三角肌与胸大肌等止点不同，骨折线在三角肌止点上、下其移位方向各异；桡神经紧贴肱骨中下段桡神经沟，中下1/3骨折最易并发桡神经损伤，固定前后必查伸腕伸指，此为本骨折之关键警戒。',
+    coreDefinition: '肱骨干骨折多见于中1/3，以夹板固定并警惕桡神经损伤，注意预防骨不连。',
+    safety: { note: '固定后每日检查指端血运感觉运动；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '自然铜为矿物药，不宜过量久服'] },
+    learning: {
+      knowledge: '主症与体征：上臂肿胀疼痛、短缩成角畸形、异常活动、骨擦音。病机为直接暴力或传达暴力，断端因肌肉附着不同而呈不同方向移位。治法：手法复位、夹板固定；主方新伤续断汤，外敷消瘀止痛膏；固定期练腕指活动，肿胀消退后练耸肩，忌旋转上臂。',
+      misjudgment: '把桡神经损伤的垂腕误作骨折后一般疼痛反应。错：伸腕伸指不能、虎口区麻木是桡神经损伤特征，须立即检查并调整固定，延误可致永久性功能障碍。',
+      reasoning: '肱骨干骨折为何比尺桡骨骨折更易发生骨不连？',
+      feedback: '肱骨干周围肌肉丰厚、断端间易夹入软组织，上肢重力又使断端分离，血供较差，故愈合慢；固定与练功失当即演为骨不连，须防分离移位。',
+      transfer: '举重物致上臂中段骨折后出现垂腕者，试分析损伤结构并说明固定前处置要点。',
+    },
+  },
+  // ============================================================
+  // V 中医骨伤科学 · 牵引固定与过伸复位（005–006）
+  // ============================================================
+  {
+    id: 'pb21-v-005', title: '骨伤·股骨颈骨折牵引固定', category: 'clinical', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['股骨颈骨折', '牵引固定', '老年骨折', '头下型', '股骨头坏死'],
+    intent: '掌握股骨颈骨折的分型、牵引固定方法及老年患者并发症防治。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.骨折分型', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.牵引方法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.并发症', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.药物剂量', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '脉要精微论篇第十七', originalText: '骨者，髓之府，不能久立，行则振掉，骨将惫矣。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '无移位或嵌插型用皮牵引或防旋鞋于外展中立位固定6-8周；移位型常需骨牵引或内固定，牵引重量3-5kg；内服六味地黄丸（浓缩丸8丸日3次）或左归丸补肝肾，阳虚者右归丸（含制附子）加减；外敷活血散。', caution: '右归丸含附子，须炮制先煎久煎至无麻辣感，反半夏瓜蒌贝母白蔹白及，孕妇禁用；老年卧床牵引须防坠积性肺炎、褥疮、泌尿系感染与深静脉血栓，鼓励床上练功；股骨头血供中断者牵引难愈，须评估手术。' },
+    cases: null,
+    stdJudgment: '股骨颈骨折以患肢短缩外旋、髋部疼痛不能站立为辨，头下型血供几乎中断、愈合极难，经颈型次之，基底型血供较好；老人轻微扭转即可骨折，牵引固定与内固定之争焦点在血供，牵引期即须床上练功以杜并发症，此乃老年骨折治疗之要。',
+    coreDefinition: '股骨颈骨折多见于老年人，患肢短缩外旋，按部位分头下、经颈、基底型，以牵引或内固定治疗。',
+    safety: { note: '老年髋部骨折属高危损伤，须综合评估全身状况；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['附子须炮制先煎久煎至无麻辣感；反半夏瓜蒌贝母白蔹白及；孕妇禁用', '乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用'] },
+    learning: {
+      knowledge: '主症与体征：髋部疼痛、患肢短缩并外旋45°-60°、大转子叩痛、轴向叩击痛，嵌插型尚可行走。病机为老年人骨质疏松，平地滑倒臀部着地等间接暴力所致。治法：牵引固定或内固定；主方六味地黄丸、左归丸（阳虚者右归丸），外敷活血散；牵引期练踝泵与股四头肌等长收缩。',
+      misjudgment: '嵌插型骨折能行走便误作软组织损伤。错：嵌插型症状轻微但骨折确已存在，行走负重可致移位而断绝血供，须摄X线或CT确认，莫因能走而漏诊。',
+      reasoning: '同为股骨颈骨折，为何头下型常选人工关节置换而基底型可保守牵引？',
+      feedback: '头下型股骨头血供大部断绝，内固定后坏死率高，高龄者直接置换以早期下地；基底型血供尚存，牵引或内固定可望愈合，选择取决于血供而非年龄。',
+      transfer: '高龄老人平地跌倒髋痛不能站起、患肢外旋短缩者，试述初步处置与牵引期间护理要点。',
+    },
+  },
+  {
+    id: 'pb21-v-006', title: '骨伤·脊柱压缩骨折过伸复位', category: 'clinical', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['胸腰椎压缩骨折', '过伸复位', '垫枕法', '脊髓损伤', '练功法'],
+    intent: '掌握胸腰椎压缩骨折的过伸复位原理、垫枕固定与练功疗法，警惕脊髓损伤。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.复位方法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定练功', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.脊髓损伤警戒', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《医宗金鉴》', canon: '《医宗金鉴》', chapter: '编辑正骨心法要旨', originalText: '提者，谓陷下之骨，提出如旧也。', sourceTitle: '《医宗金鉴》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '稳定型压缩骨折以过伸复位：双踝悬吊法或垫枕法（腰下垫枕由低渐高），复位后腰背垫枕维持过伸位，卧床4-6周；内服复元活血汤（柴胡、天花粉、当归、红花、穿山甲、酒大黄、桃仁、甘草）水煎日1剂，以大便通利为度；后期服六味地黄丸。', caution: '复位前必须排除脊髓神经损伤与椎管内占位，瘫痪、大小便失禁者严禁过伸复位，须急诊手术评估；复元活血汤含大黄，脾虚便溏者减量；卧床期防褥疮与深静脉血栓。' },
+    cases: null,
+    stdJudgment: '胸腰段压缩骨折多因高处坠落臀部着地或屈曲暴力，椎体前缘压缩呈楔形变、脊柱后凸；过伸复位借前纵韧带张力牵开压缩椎体，垫枕练功法以背伸肌力维持复位，此即提陷下之骨的活用，合并脊髓损伤者过伸复位即为禁忌。',
+    coreDefinition: '胸腰椎压缩骨折以过伸位复位、垫枕固定、背伸肌练功为治，合并脊髓损伤者禁过伸复位。',
+    safety: { note: '压缩骨折伴脊髓损伤属急症，须立即就医评估，禁止盲目过伸复位；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高', '大黄苦寒攻下，孕妇及经期忌用，脾虚便溏者慎用'] },
+    learning: {
+      knowledge: '主症与体征：伤后腰背疼痛、不敢翻身起坐、脊柱后凸、棘突压痛叩击痛，严重者双下肢麻木瘫痪、大小便障碍。病机为屈曲压缩暴力致椎体前缘压缩。治法：过伸复位、垫枕固定与练功；主方复元活血汤，后期六味地黄丸；伤后即练踝泵，2-3周后练五点支撑，后期练飞燕式。',
+      misjudgment: '压缩骨折伴下肢麻木仍予过伸复位。错：麻木提示脊髓或马尾受压，过伸可加重椎管内占位致瘫痪恶化，须先影像学评估，椎管内受累者须减压固定。',
+      reasoning: '垫枕由低渐高逐日加高，其理何在？',
+      feedback: '渐进加高使脊柱缓慢过伸，前纵韧带张力渐增而柔和牵开压缩椎体，避免骤然过伸致韧带或椎体再损伤，符合循序渐进之意。',
+      transfer: '高处坠落臀部着地致腰1椎体压缩1/3且无神经症状者，试拟过伸复位与练功安排。',
+    },
+  },
+  // ============================================================
+  // V 中医骨伤科学 · 脱位与复位手法（007–010）
+  // ============================================================
+  {
+    id: 'pb21-v-007', title: '骨伤·脱位概论与复位原则', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['脱位', '复位原则', '新鲜脱位', '弹性固定', '习惯性脱位'],
+    intent: '掌握脱位的定义、分类、诊断三体征与早期复位、固定、练功原则。',
+    facts: [
+      { field: 'clinical.定义分类', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.诊断要点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.复位原则', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定练功', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《灵枢》', canon: '《灵枢》', chapter: '经脉第十', originalText: '骨为干，脉为营，筋为刚，肉为墙，皮肤坚而毛发长。', sourceTitle: '《灵枢》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '新鲜脱位宜尽早复位，麻醉或肌松下以拔伸牵引配合屈伸收展旋转诸法，复位后固定2-3周；内服桃红四物汤（桃仁、红花、当归、川芎、白芍、熟地黄）水煎日1剂分2次；外用海桐皮汤（海桐皮、透骨草、乳香、没药、当归、川椒、川芎、红花、威灵仙、甘草、防风、白芷）熏洗每日1-2次。', caution: '复位前须摄片排除骨折，尤其关节内骨折与血管神经损伤；不可暴力反复整复；固定期避免过早负重以防再脱位；习惯性脱位须延长固定并练肌力。' },
+    cases: null,
+    stdJudgment: '脱位以关节畸形、弹性固定、关节盂空虚三体征为辨，常伴肿胀疼痛与功能障碍，X线可确诊并排除合并骨折；治疗贵在早期，一复位二固定三练功，复位后固定使撕伤之关节囊韧带得以修复，否则易成习惯性脱位。',
+    coreDefinition: '脱位即构成关节的骨端失去正常对合关系，以早期复位、恰当固定、功能锻炼为治则。',
+    safety: { note: '脱位整复须专业医师操作，复位前必须摄片排除骨折；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症体征：关节畸形、弹性固定、关节盂空虚三大体征，伴关节肿痛与功能障碍；脱位按原因分外伤性、病理性、先天性、麻痹性，按时间分新鲜（3周内）与陈旧。病机为暴力致骨端脱出关节囊、筋伤血瘀。治法为早期复位、恰当固定、功能锻炼；主方桃红四物汤，外用海桐皮汤熏洗；固定期练未受累关节。',
+      misjudgment: '把弹性固定误作关节僵硬而强行扳拉。错：弹性固定是脱位后关节被肌肉弹性牵于异常位置，强行扳拉撕伤软组织，须先辨脱位方向再以拔伸牵引整复。',
+      reasoning: '脱位复位后为何仍须固定2-3周而不能立即活动？',
+      feedback: '复位仅使骨端归位，撕伤的关节囊韧带需时间修复，过早活动致修复不良即反复脱位，固定期练未受累关节可保功能。',
+      transfer: '打篮球肩部受伤后弹性固定于外展位、肩峰下空虚者，试述辨证步骤与复位后处理。',
+    },
+  },
+  {
+    id: 'pb21-v-008', title: '骨伤·肩关节脱位拔伸复位', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['肩关节脱位', '拔伸足蹬法', '前脱位', '方肩畸形', 'Dugas征'],
+    intent: '掌握肩关节前脱位的诊断、拔伸足蹬法与复位后固定要点。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.脱位分型', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.复位手法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定练功', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《仙授理伤续断秘方》', canon: '《仙授理伤续断秘方》', chapter: '卷一', originalText: '凡肩甲骨出，相度如何整，用椅当圈住胁，仍以软衣被盛簟，使一人捉定，两人援伸，却坠下手腕，又着曲着手腕，绢片缚之。', sourceTitle: '《仙授理伤续断秘方》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '拔伸足蹬法：患者仰卧，术者足跟蹬患侧腋下，双手握腕沿上臂纵轴持续拔伸并外旋内收，闻及弹响即复位；复位后上臂内收内旋贴胸，三角巾悬吊固定2-3周；内服舒筋活血汤（羌活、防风、荆芥、独活、当归、续断、青皮、牛膝、五加皮、杜仲、红花、枳壳），外用海桐皮汤熏洗。', caution: '复位前必摄片排除肱骨大结节骨折与腋神经损伤（三角肌区麻木）；冠心病、骨质疏松者忌暴力；固定期禁外展外旋；习惯性脱位者加强肩袖肌力训练。' },
+    cases: null,
+    stdJudgment: '肩关节脱位以前脱位最多，呈方肩畸形、弹性固定、肩峰下空虚、Dugas征阳性；拔伸足蹬法以持续牵引对抗肌痉挛，配合旋转使肱骨头滑过盂缘回纳，操作宜稳缓，忌暴力扭转，复位成功标志为肩部丰满、被动活动恢复、Dugas征转阴。',
+    coreDefinition: '肩关节前脱位呈方肩畸形，以拔伸足蹬法整复，复位后内收内旋位固定2-3周。',
+    safety: { note: '肩脱位整复须专业医师操作，伴骨折或神经损伤者按相应处理；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用'] },
+    learning: {
+      knowledge: '主症与体征：肩部疼痛肿胀、健手托患肘、头偏向患侧，方肩畸形、弹性固定于外展位、肩峰下空虚、Dugas征阳性。病机为外展外旋暴力致肱骨头突破关节囊前下壁。治法：拔伸足蹬法或椅背法复位；主方舒筋活血汤，外用海桐皮汤熏洗；固定期练腕指与耸肩。',
+      misjudgment: '把肱骨外科颈骨折误作脱位强行足蹬。错：骨折无弹性固定、有骨擦音且肩峰下可及骨端，X线可辨；骨折脱位相混时强行整复加重损伤，须先读片再施法。',
+      reasoning: '复位后为何须将上臂固定于内收内旋位？',
+      feedback: '前脱位损伤前下关节囊，内收内旋使关节囊前壁松弛贴合，给撕裂组织修复机会，防止复发脱位。',
+      transfer: '老年人脱衣时肩部剧痛、方肩畸形、腋下可及肱骨头者，试述复位手法要点与固定体位。',
+    },
+  },
+  {
+    id: 'pb21-v-009', title: '骨伤·肘关节脱位复位', category: 'clinical', difficulty: 4, difficultyLabel: '易混淆',
+    riskTags: ['肘关节脱位', '后脱位', '拔伸屈肘法', '肘三点关系', '肱骨髁上骨折'],
+    intent: '掌握肘关节后脱位的拔伸屈肘复位法，并与肱骨髁上骨折相鉴别。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.脱位分型', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.复位手法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.鉴别要点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《医宗金鉴》', canon: '《医宗金鉴》', chapter: '编辑正骨心法要旨', originalText: '端者，或用两手一手，擒定应端之处，酌其重轻，或从下往上端，或从外向内托，或直端、斜端也。', sourceTitle: '《医宗金鉴》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '拔伸屈肘法：助手固定上臂，术者一手握腕牵引、拇指顶尺骨鹰嘴向前推，同时屈肘至复位弹响；复位后屈肘90°三角巾悬吊固定2周；内服桃红四物汤加延胡索（桃仁、红花、当归、川芎、白芍、熟地黄、延胡索），外用海桐皮汤熏洗。', caution: '复位前后检查肱动脉与正中、尺、桡神经功能（手部感觉运动）；肿胀重者先冷敷再整复；肘关节强直倾向明显，固定期即练腕指与肩关节；陈旧性脱位勿强力复位。' },
+    cases: null,
+    stdJudgment: '肘关节后脱位以肘后空虚、鹰嘴后突、肘三点关系破坏、弹性固定于半屈曲位为辨，多因跌倒手掌撑地传导暴力所致；拔伸屈肘法先牵引解除交锁再屈肘使滑车归位，与肱骨髁上骨折的鉴别在肘三点关系是否改变与有无骨擦音，二者处置截然不同。',
+    coreDefinition: '肘关节后脱位呈肘后空虚、鹰嘴后突，以拔伸屈肘法复位，须与肱骨髁上骨折鉴别。',
+    safety: { note: '肘脱位可合并血管神经损伤，复位后须观察手部血运；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用'] },
+    learning: {
+      knowledge: '主症与体征：肘部肿痛、弹性固定于半屈位约135°、肘后空虚、鹰嘴突向后、肘前可触及肱骨下端，肘后三点骨性标志关系改变。病机为跌倒手掌撑地、肘过伸致尺骨鹰嘴滑出肱骨滑车。治法：拔伸屈肘法；主方桃红四物汤加延胡索，外用海桐皮汤熏洗，2周后逐步练屈伸。',
+      misjudgment: '把肘关节后脱位与肱骨髁上骨折相混。错：髁上骨折多见于儿童、肘三点关系正常、有骨擦音与异常活动且肿痛剧烈，脱位则三点关系破坏、弹性固定；髁上骨折须防Volkmann挛缩，处置迥异。',
+      reasoning: '肘关节脱位固定期为何禁被动强力伸肘？',
+      feedback: '脱位撕伤关节囊与侧副韧带，过早强力伸肘拉伤修复组织并诱发骨化性肌炎，固定期主动练屈、循序练伸方合损伤修复规律。',
+      transfer: '儿童肘部摔伤肿痛，如何凭肘三点关系与异常活动初判脱位或髁上骨折并安排处理？',
+    },
+  },
+  {
+    id: 'pb21-v-010', title: '骨伤·颞颌关节脱位口腔内复位', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['颞颌关节脱位', '口腔内复位', '习惯性脱位', '补中益气'],
+    intent: '掌握颞颌关节前脱位的口腔内复位手法与习惯性脱位的益气升提防治。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.复位手法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定调护', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '口腔内复位法：患者坐位头靠墙，术者双拇指裹纱布伸入口腔置于最后臼齿上，向下向后按压并配合下颌上抬后送，闻弹响即复位；复位后绷带兜住下颌限制张口1-2周；习惯性脱位者内服补中益气汤（黄芪、党参、白术、当归、陈皮、升麻、柴胡、甘草）水煎日1剂分2次。', caution: '复位时术者拇指须裹纱布防咬伤；咀嚼肌痉挛者先局部热敷或指压颊车穴；习惯性脱位者忌大张口、大笑、打呵欠用力；复位后禁食硬物，流质或软食1周。' },
+    cases: null,
+    stdJudgment: '颞颌关节前脱位以口半开不能合、下颌前伸、耳屏前凹陷、流涎言语不清为辨，多因大笑、打呵欠张口过度；口腔内复位法借杠杆之力使髁状突越过关节结节回纳，术后限制张口并益气升提，俾气虚下陷之习惯性脱位得固。',
+    coreDefinition: '颞颌关节前脱位表现为口开不能合，以口腔内复位法回纳，习惯性者益气升提。',
+    safety: { note: '复位后禁食硬物，流质或软食1周；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：张口不能闭合、下颌骨前伸偏斜、耳屏前方凹陷、口涎外流、言语不清、吞咽困难。病机为张口过大致髁状突滑过关节结节而不能回纳。治法：口腔内复位法；主方补中益气汤（习惯性脱位），外用兜颌带固定，热敷颊车穴。',
+      misjudgment: '把颞颌关节脱位误作下颌骨骨折。错：骨折多伴咬合紊乱、局部瘀肿压痛与骨擦音，脱位则复位后咬合即恢复；张口受限伴外伤史者须摄片排除髁状突骨折。',
+      reasoning: '习惯性颞颌关节脱位为何宜补中益气而少用活血之品？',
+      feedback: '习惯性脱位多因年老气虚、韧带松弛，升提清阳使肌筋得养、关节囊张力恢复，与急性损伤瘀肿治血之旨有别，此即陷者举之。',
+      transfer: '老年女性打呵欠后下颌不能闭合、流涎不止者，试述复位手法与后续防复发措施。',
+    },
+  },
+  // ============================================================
+  // V 中医骨伤科学 · 颈腰膝肩踝伤筋病（011–016）
+  // ============================================================
+  {
+    id: 'pb21-v-011', title: '骨伤·颈椎病痹痛证治', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['颈椎病', '痹痛型', '独活寄生汤', '枕颌带牵引', '细辛'],
+    intent: '掌握颈椎病痹痛型的证候特点、治法与枕颌带牵引配合。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.病机', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.治法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.牵引疗法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.药物剂量', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '痹论篇第四十三', originalText: '风寒湿三气杂至，合而为痹也。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '主方独活寄生汤（独活、桑寄生、杜仲、牛膝、细辛、秦艽、茯苓、肉桂心、防风、川芎、人参、甘草、当归、芍药、干地黄）水煎日1剂分2次温服；枕颌带牵引重量2-5kg、每次15-30分钟，每日1-2次；外用海桐皮汤热敷颈项。', caution: '细辛煎剂1-3g、散剂0.5-1g，过量可致中毒；牵引时眩晕恶心者减量暂停；脊髓型颈椎病禁用旋转手法，牵引宜慎；颈项按摩忌暴力扭转。' },
+    cases: null,
+    stdJudgment: '痹痛型颈椎病以颈肩疼痛、项背强直、活动受限、上肢窜痛麻木为辨，多因风寒湿邪乘虚客于太阳经脉、经络痹阻；独活寄生汤祛风湿止痹痛、益肝肾补气血，配合枕颌带牵引与颈项功能锻炼，风寒去、经络通则痛麻自减。',
+    coreDefinition: '痹痛型颈椎病因风寒湿痹阻经络，以独活寄生汤祛风散寒除湿、益肝肾，配牵引练功。',
+    safety: { note: '颈椎病分型各异，脊髓型禁扳法；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['【高风险】细辛煎剂1-3g散剂0.5-1g，过量可致中毒；反藜芦', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：颈项强痛、转动不利、痛引肩臂、上肢麻木窜痛、遇寒加重、得温则减，舌淡苔白腻、脉弦紧。病机为肝肾亏虚、风寒湿乘虚痹阻太阳经筋。治法：祛风散寒除湿、益肝肾补气血；主方独活寄生汤，配枕颌带牵引，针刺风池、颈夹脊、肩井、天宗、外关；练颈项前屈后伸侧屈旋转。',
+      misjudgment: '把脊髓型颈椎病的下肢踩棉感误作痹痛而施重手法。错：脊髓型以锥体束征为特征，牵引按摩可致瘫痪加重，须手术评估；痹痛型方宜保守综合治疗，辨型是首务。',
+      reasoning: '细辛不过钱之说如何与汤剂中细辛常用1-3g相参？',
+      feedback: '细辛作煎剂1-3g安全效佳，不过钱指散剂，煎煮使挥发油损耗而毒性大减，故汤剂散剂用量须分别对待，剂型不同毒性有异。',
+      transfer: '长期伏案者颈肩痛、上肢麻木、畏寒喜暖者，试按痹痛型拟定内服、牵引与练功方案。',
+    },
+  },
+  {
+    id: 'pb21-v-012', title: '骨伤·腰椎间盘突出血瘀证治', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['腰椎间盘突出', '血瘀证', '身痛逐瘀汤', '骨盆牵引', '斜扳法'],
+    intent: '掌握腰椎间盘突出血瘀证的主症、治法与牵引手法配合。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.病机', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.治法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.牵引手法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.药物剂量', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《诸病源候论》', canon: '《诸病源候论》', chapter: '腰背病诸候', originalText: '肾主腰脚，肾经虚损，风冷乘之，故腰痛也。', sourceTitle: '《诸病源候论》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '主方身痛逐瘀汤（桃仁、红花、当归、川芎、五灵脂、没药、香附、牛膝、地龙、秦艽、羌活、甘草）水煎日1剂分2次温服；骨盆牵引每侧5-10kg、每次30分钟；外用活血止痛膏贴敷，配合斜扳法整复（须医师操作）。', caution: '五灵脂宜布包煎，孕妇忌用；没药内服过量刺激胃肠；牵引后宜卧床休息；巨大突出或马尾综合征（大小便障碍、鞍区麻木）须急诊手术，禁手法；老年人骨质疏松慎扳法。' },
+    cases: null,
+    stdJudgment: '腰椎间盘突出血瘀证以腰痛如刺、痛有定处、日轻夜重、俯仰转侧不利、或有外伤史为辨，舌紫暗有瘀点、脉弦涩；病机为跌仆闪挫、瘀血阻滞经络；身痛逐瘀汤活血化瘀通络止痛，配骨盆牵引使椎间隙增宽、髓核回纳，手法整复在急性期须谨慎从事。',
+    coreDefinition: '腰椎间盘突出血瘀证以刺痛定处、夜重舌紫为特征，治以活血化瘀通络，身痛逐瘀汤主之。',
+    safety: { note: '马尾综合征属急症，禁推拿牵引，须立即就医；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '五灵脂活血化瘀，孕妇慎用；不宜与人参同用（十九畏）', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：腰痛如刺、固定不移、拒按、日轻夜重、痛引下肢放射、甚则跛行，舌紫暗或有瘀点、脉弦涩；直腿抬高试验阳性、加强试验阳性、棘突旁压痛并放射。病机为跌仆扭挫致瘀血阻滞经络、气血不通。治法：活血化瘀、通络止痛；主方身痛逐瘀汤，配合骨盆牵引、斜扳法；急性期卧硬板床。',
+      misjudgment: '血瘀腰痛见夜间痛重便疑为肿瘤。错：肿瘤痛多进行性加重、静息痛伴消瘦恶液质、影像有骨质破坏；血瘀证有外伤史与舌脉征，逐瘀后痛减，鉴别靠病史影像而非单凭夜间痛。',
+      reasoning: '同为腰椎间盘突出，为何有人偏于血瘀、有人偏于寒湿，治法有何不同？',
+      feedback: '血瘀因外伤瘀阻，治以活血通络；寒湿因外邪痹阻，治以散寒祛湿，同病而异证，辨证定方，故身痛逐瘀汤与独活寄生汤各有所宜。',
+      transfer: '搬重物扭腰后刺痛夜重、痛引右下肢、舌有瘀点者，试按血瘀证选方并说明牵引要点。',
+    },
+  },
+  {
+    id: 'pb21-v-013', title: '骨伤·急性腰扭伤理筋手法', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['急性腰扭伤', '理筋手法', '斜扳法', '后溪', '委中'],
+    intent: '掌握急性腰扭伤的理筋手法操作与针灸配穴。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.病机', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.手法操作', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.针灸配穴', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《诸病源候论》', canon: '《诸病源候论》', chapter: '腰背病诸候', originalText: '䐴腰者，谓卒然伤损于腰而致痛也。此由损血搏于背脊所为。', sourceTitle: '《诸病源候论》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '理筋手法：先按揉腰背两侧膀胱经（肾俞、大肠俞、环跳、委中）放松肌痉挛，再点按阿是穴，最后斜扳法或屈髋屈膝法整复小关节紊乱；针刺后溪、委中、腰痛点，动留针配合活动；内服桃红四物汤合复元活血汤，外用消瘀止痛膏。', caution: '手法先轻后重，急性期忌重刺激与强扳；腰椎间盘突出、骨折、结核、肿瘤所致腰痛禁用扳法；手法后宜卧床1-2日，减少弯腰负重。' },
+    cases: null,
+    stdJudgment: '急性腰扭伤以伤后即发腰部剧痛、活动受限、咳嗽用力痛增、痛点固定为辨，多因搬物姿势不当或突然扭转，经筋错缝、气血瘀滞；理筋手法松筋解痉、斜扳整复关节错缝，针后溪委中动气行针，瘀去筋舒则腰痛立减，属以松治痛之典范。',
+    coreDefinition: '急性腰扭伤因经筋错缝、瘀血阻滞，以理筋手法、针刺后溪委中、活血方药综合治疗。',
+    safety: { note: '手法治疗前须排除骨折与腰椎间盘突出等器质病变；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：腰部剧痛、僵硬如板、弯腰转身受限、痛点固定于腰骶或一侧、无明显下肢放射，舌暗苔白、脉弦涩。病机为搬抬闪挫致腰部经筋扭错、气血瘀滞。治法：理筋手法（按揉、弹拨、斜扳）、针刺后溪委中；主方桃红四物汤合复元活血汤，外敷消瘀止痛膏；愈后练腰背肌防复发。',
+      misjudgment: '急性腰痛一律按腰扭伤施以重手法。错：腰椎压缩骨折、结核、肿瘤、感染均可腰痛，无外伤史或伴发热夜痛消瘦者须先影像学排查，重手法可致骨折移位或肿瘤扩散。',
+      reasoning: '针刺后溪时令患者活动腰部，其机理何在？',
+      feedback: '后溪通督脉，动留针使经气随运动达病所，属动气针法；针与动相合，气至病所则经筋舒展、疼痛缓解，体现针灸与运动疗法结合。',
+      transfer: '弯腰搬箱后腰痛不能直起、无下肢放射者，试述手法与针刺的先后配合次序。',
+    },
+  },
+  {
+    id: 'pb21-v-014', title: '骨伤·膝骨关节炎寒湿证治', category: 'clinical', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['膝骨关节炎', '寒湿痹阻', '独活寄生汤', '海桐皮汤', '制川乌'],
+    intent: '掌握膝骨关节炎寒湿证的证治与内外合治要点。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.病机', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.治法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.药物剂量', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '脉要精微论篇第十七', originalText: '膝者，筋之府，屈伸不能，行则偻附，筋将惫矣。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '主方独活寄生汤（独活、桑寄生、杜仲、牛膝、细辛、秦艽、茯苓、肉桂心、防风、川芎、人参、甘草、当归、芍药、干地黄）水煎日1剂；寒甚痛剧者加制川乌3g先煎久煎；外用海桐皮汤熏洗、中药热敷，每日1-2次；练股四头肌等长收缩与直腿抬高。', caution: '细辛煎剂1-3g；制川乌有大毒，须炮制先煎久煎（60分钟以上）至无麻感，反半夏瓜蒌贝母白蔹白及，孕妇禁用，心功能不全者慎用；海桐皮汤仅外用禁内服；关节红肿热痛者禁用温热药。' },
+    cases: null,
+    stdJudgment: '膝骨关节炎寒湿证以膝部冷痛重着、遇寒加剧、得温痛减、关节肿胀屈伸不利为辨，舌淡苔白腻、脉沉迟；年老肝肾渐亏、筋骨失养为本，风寒湿邪乘虚痹阻为标，独活寄生汤补肝肾祛风湿标本兼治，海桐皮汤外洗温经通络，痛剧佐制川乌须先煎久煎以杜中毒。',
+    coreDefinition: '膝骨关节炎寒湿证以膝冷痛、遇寒加重为特征，独活寄生汤内服、海桐皮汤外洗，兼补肝肾。',
+    safety: { note: '寒湿证忌温热外敷于红肿热痛之热痹；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['【高风险】细辛煎剂1-3g散剂0.5-1g，过量可致中毒；反藜芦', '【高风险】川乌有大毒，须炮制先煎久煎至无麻感；反半夏瓜蒌贝母白蔹白及；孕妇禁用', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：膝部冷痛重着、遇寒加重得温则减、晨僵、上下楼痛甚、关节肿胀积液、活动有摩擦感，舌淡苔白腻、脉沉迟；髌骨研磨试验阳性、膝关节内翻畸形。病机为肝肾不足、筋骨失养，风寒湿邪痹阻膝络。治法：祛风散寒除湿、补肝肾强筋骨；主方独活寄生汤，寒甚加制川乌；外用海桐皮汤熏洗，练股四头肌。',
+      misjudgment: '膝痛红肿热痛者仍投独活寄生汤温补。错：红肿灼热为湿热或热毒痹阻，温燥之剂助热伤阴，须改四妙散类清热利湿；寒热之辨在局部温凉与舌脉，不可但见膝痛即温。',
+      reasoning: '同为膝痛，为何骨赘增生之痛重在补肝肾，而寒湿之痛重在祛邪？',
+      feedback: '骨关节炎本在肝肾亏虚，骨赘增生乃代偿之变，补肝肾强筋骨以固本；寒湿证以邪实为急，祛风散寒除湿为先，标本主次随证而移。',
+      transfer: '老年妇女双膝冷痛多年、遇寒加重、晨僵明显者，试按寒湿证拟定内外合治方案并说明乌头类用药警戒。',
+    },
+  },
+  {
+    id: 'pb21-v-015', title: '骨伤·肩周炎松解手法', category: 'clinical', difficulty: 4, difficultyLabel: '易混淆',
+    riskTags: ['肩周炎', '漏肩风', '松解手法', '黄芪桂枝五物汤', '爬墙练功'],
+    intent: '掌握肩周炎的松解手法与练功方法，并辨析与肩袖损伤之异。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.分期特点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.手法操作', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.鉴别要点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '生气通天论篇第三', originalText: '阳气者，精则养神，柔则养筋。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '松解手法：先一指禅推、滚、揉肩髃、肩髎、肩贞、天宗及三角肌，再摇肩、内收扳、外展扳、后伸扳逐步松解粘连，隔日1次；内服黄芪桂枝五物汤（黄芪、桂枝、白芍、生姜、大枣）水煎日1剂；外用海桐皮汤热敷；配合爬墙、弯腰划圈、梳头练功每日2-3次。', caution: '松解手法以患者能耐受为度，暴力扳撕可致肱骨外科颈骨折或肩袖撕裂；糖尿病、外伤后冻结肩病程长需耐心；练功须忍痛坚持但忌强力牵拉；肩袖损伤急性期禁肩外展上举练习。' },
+    cases: null,
+    stdJudgment: '肩周炎以50岁前后发病、肩痛夜间为甚、各方向活动受限、肩关节冻结为辨，病机为气血不足、风寒侵袭、筋脉失养拘急；松解手法循序剥离粘连，黄芪桂枝五物汤益气温经和血通痹，练功贯彻始终，三者合治多可复常，然与肩袖损伤之疼痛弧须先辨明。',
+    coreDefinition: '肩周炎以肩痛与活动受限并见，治以松解手法、益气温经方药与爬墙练功结合。',
+    safety: { note: '肩周炎与肩袖损伤鉴别不清时禁强扳；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用'] },
+    learning: {
+      knowledge: '主症与体征：肩部酸痛、夜间痛甚、肩关节外展外旋后伸受限、梳头穿衣困难，后期三角肌萎缩；肩前压痛、被动活动受限。病机为肝肾气血亏虚、风寒湿侵袭、筋脉拘急粘连。治法：松解手法（摇、扳、滚揉）；主方黄芪桂枝五物汤，外用海桐皮汤；疼痛期以止痛为主，冻结期以松解为主。',
+      misjudgment: '把肩袖损伤当肩周炎反复扳抬。错：肩袖损伤以疼痛弧（60°-120°痛）与主动活动受限、被动活动尚可为特征，强力扳拉加重撕裂；肩周炎被动活动亦受限，鉴别在主动被动差异与痛点，必要时MRI。',
+      reasoning: '肩周炎松解手法为何强调以痛为腧、渐进为要，而不求一次撕开？',
+      feedback: '粘连一次暴力撕开反致出血再粘连，渐进松解配合练功使修复与活动同步，痛阈提高则患者乐于配合，疗效方巩固。',
+      transfer: '55岁患者左肩痛半年、梳头不能、夜痛明显，试辨肩周炎并拟手法、内服、练功三步方案。',
+    },
+  },
+  {
+    id: 'pb21-v-016', title: '骨伤·踝关节扭伤早期处理', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['踝关节扭伤', '早期处理', '冷敷加压', '桃红四物汤', '五苓散'],
+    intent: '掌握踝关节扭伤的早期冷敷、加压、抬高处理与后期活血消肿。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.损伤机理', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.早期处理', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '阴阳应象大论篇第五', originalText: '气伤痛，形伤肿。故先痛而后肿者，气伤形也；先肿而后痛者，形伤气也。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '早期（24-48小时）冷敷每次15-20分钟、日3-4次，加压包扎与抬高患肢、制动；48小时后改中药外敷消瘀止痛膏或双柏散，每日换药；内服桃红四物汤合五苓散（肿甚利水）水煎日1剂，或三七粉3g冲服；肿消后练踝关节屈伸与提踵。', caution: '冷敷忌冻伤皮肤，冰块不直接贴肤；疑有骨折或韧带完全断裂（踝关节不稳、瘀斑广泛）须摄片评估，勿延误；外敷药皮肤过敏即停；早期禁热敷、禁按摩揉搓。' },
+    cases: null,
+    stdJudgment: '踝关节扭伤以内翻位最多，伤后外踝前下方肿痛、皮下瘀斑、跛行，距腓前韧带最易受损；早期冷敷加压抬高控制出血肿胀，48小时后活血消肿，肿消即练功能，此序不可颠倒，早期热敷或揉搓使出血加重、肿痛反增，是处理踝扭伤最常见的失误。',
+    coreDefinition: '踝关节扭伤早期以冷敷、加压、抬高制动为先，48小时后活血消肿外敷内服并举。',
+    safety: { note: '反复扭伤致踝关节不稳者须系统康复训练；辨证论治知识学习，临床手法与用药须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '三七孕妇慎用，血虚无瘀者忌用'] },
+    learning: {
+      knowledge: '主症与体征：内翻扭伤后外踝肿痛、皮下瘀斑、行走跛行、外翻时痛减；外踝前下方压痛，抽屉试验可查韧带松弛。病机为足内翻致踝外侧韧带（距腓前韧带）牵拉撕裂、络破血溢。治法：早期冷敷加压抬高、后期活血消肿；主方桃红四物汤合五苓散或三七粉，外敷消瘀止痛膏；恢复期练踝泵、提踵。',
+      misjudgment: '伤后即热敷或用力揉搓以求活血。错：早期毛细血管破裂出血，热敷揉搓扩张血管加重出血肿胀，须先冷敷收缩止血，48小时后血止方宜温热活血，先后颠倒则肿痛迁延。',
+      reasoning: '同为踝扭伤，为何有人数日即愈、有人反复扭伤遗留不稳？',
+      feedback: '初发者韧带部分撕裂、规范处理可愈；反复扭伤提示韧带松弛或本体感觉减退，须加强腓骨长短肌与平衡训练，否则外踝不稳成习惯性扭伤。',
+      transfer: '打篮球足内翻扭伤、外踝肿如馒头者，试述伤后当天与一周后处理之异。',
+    },
+  },
+  // ============================================================
+  // V 中医骨伤科学 · 三期用药与康复（017–018）
+  // ============================================================
+  {
+    id: 'pb21-v-017', title: '骨伤·伤筋三期用药原则', category: 'clinical', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['伤筋', '三期用药', '活血化瘀', '和营生新', '制马钱子'],
+    intent: '掌握伤筋早中后三期用药规律与代表方，理解瘀、和、补的递进。',
+    facts: [
+      { field: 'clinical.初期治法方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.中期治法方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.后期治法方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.剂量警戒', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《医宗金鉴》', canon: '《医宗金鉴》', chapter: '编辑正骨心法要旨', originalText: '今之正骨科，即古跌打损伤之证也。专从血论，须先辨或有瘀血停积，或为亡血过多，然后施以内治之法，庶不有误也。', sourceTitle: '《医宗金鉴》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '初期（1-2周）活血化瘀消肿止痛，复元活血汤或桃红四物汤水煎日1剂；中期（3-6周）和营生新接骨续筋，和营止痛汤或续骨活血汤；后期（6周后）补益肝肾强筋壮骨，六味地黄丸、左归丸，接骨续筋丸（含制马钱子）按丸剂服；外治海桐皮汤熏洗。', caution: '制马钱子有大毒，炮制后0.3-0.6g入丸散，过量致惊厥，孕妇禁用；和营止痛汤含乳香没药，内服过量刺激胃肠；补益之剂须待瘀去方可投，瘀未净而补则留邪。' },
+    cases: null,
+    stdJudgment: '伤筋用药以血为纲，初期瘀血停积当攻利之，中期瘀去未尽、新血始生当和营生新，后期筋骨失养当补肝肾强筋骨，攻、和、补循序递进，此即伤科内治大法；若瘀未去而骤补，则瘀滞邪留，补而未达；马钱子类接骨药炮制限量，中病即止，不可久服。',
+    coreDefinition: '伤筋内治按初期活血化瘀、中期和营生新、后期补益肝肾三期立法，方随证转。',
+    safety: { note: '马钱子制剂须严格炮制限量，中病即止；辨证论治知识学习，临床用药须遵医嘱', prohibitions: ['【高风险】马钱子有大毒炮制后0.3-0.6g入丸散；过量致惊厥；孕妇禁用', '乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高'] },
+    learning: {
+      knowledge: '主症与体征：局部肿痛、皮下瘀斑、压痛、功能障碍，瘀血内停为病机关键。三期用药：初期（1-2周）瘀血内停、肿痛明显，治法活血化瘀消肿止痛，主方复元活血汤、桃红四物汤；中期（3-6周）肿痛渐减、瘀未尽新未生，治法和营生新接骨续筋，主方和营止痛汤、续骨活血汤；后期（6周后）肝肾亏虚、筋骨软弱，治法补益肝肾强筋壮骨，主方六味地黄丸、左归丸，接骨续筋丸含制马钱子0.3-0.6g；外治海桐皮汤熏洗。',
+      misjudgment: '伤后一律投活血峻剂或后期过早进补。错：初期大剂破血伤正，出血者更忌；后期瘀未净而补则邪留；须以肿痛瘀象定三期，血瘀者攻之、亡血者补而行之，法度在辨证。',
+      reasoning: '瘀血者宜攻利之、亡血者宜补而行之，为何二者均不离行字？',
+      feedback: '瘀者行之使其消散，亡血者补中兼行使其新生而循经，血以通为用，攻补皆在复其流通，故行之一字贯穿伤科治血始终。',
+      transfer: '闭合性骨折术后3周肿痛已减而活动不利者，试按中期立法选方并说明与初期用药之别。',
+    },
+  },
+  {
+    id: 'pb21-v-018', title: '骨伤·骨折愈合与练功康复', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['骨折愈合', '练功康复', '动静结合', '分期练功'],
+    intent: '掌握骨折愈合四期与分期练功方法，理解动静结合的康复原则。',
+    facts: [
+      { field: 'clinical.愈合分期', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.影响因素', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.练功分期', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.外用方', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《仙授理伤续断秘方》', canon: '《仙授理伤续断秘方》', chapter: '卷一', originalText: '凡曲转，如手腕、脚凹、手指之类，要转动，用药贴，将绢片包之，后时时运动。盖曲则得伸，得伸则不得屈，或屈或伸，时时为之方可。', sourceTitle: '《仙授理伤续断秘方》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '内服按三期：初期活血化瘀复元活血汤，中期和营生新续骨活血汤，后期补肝肾六味地黄丸、左归丸，水煎或丸剂服用；外洗海桐皮汤每日1次；练功：早期（1-2周）未固定关节主动活动与肌肉等长收缩，中期（3-8周）骨折邻近关节循序活动，后期（8周后）全面活动加抗阻力训练。', caution: '练功以不引起骨折再移位为度，避免过早负重与暴力活动；老年人及骨质疏松者练功强度宜缓；外固定解除前禁做与移位方向一致的动作；疼痛加重或异常活动提示固定失效须复查。' },
+    cases: null,
+    stdJudgment: '骨折愈合历经血肿机化、原始骨痂、成熟骨板、塑形四期，其快慢取决于血供、固定稳定性与全身状态；练功自早期肌肉等长收缩始，渐及邻近关节与整体功能，动静结合使断端稳定与功能恢复并行，此正蔺道人时时运动之旨，练功不当或过早负重则畸形愈合、迟缓愈合乃至骨不连。',
+    coreDefinition: '骨折愈合分血肿机化、原始骨痂、成熟骨板、塑形四期，练功分期循序渐进以复功能。',
+    safety: { note: '康复练功须在固定稳妥与医师指导下进行；辨证论治知识学习，临床用药与康复锻炼须遵医嘱', prohibitions: ['乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用'] },
+    learning: {
+      knowledge: '主症与体征：伤处肿痛、畸形、异常活动、骨擦音；病机为外力致骨断、瘀血内停、筋骨失养。骨折愈合四期：血肿机化期（1-2周）、原始骨痂期（3-8周）、成熟骨板期（8-12周）、塑形期（数月至数年）；影响因素有局部血供、固定稳定、软组织损伤程度与年龄营养。治法为动静结合分期练功与三期用药：早期练未固定关节与等长收缩，中期练邻近关节活动，后期全面练功与负重；主方按三期复元活血汤、续骨活血汤、六味地黄丸，外洗海桐皮汤。',
+      misjudgment: '认为骨折愈合期间完全不动最安全。错：长期不动致肌肉萎缩、关节僵硬、骨质脱钙，反不利愈合；动静结合、未固定关节早动、断端稳定不动，才是安全高效的康复路径。',
+      reasoning: '同为下肢骨折，为何股骨颈骨折愈合慢而儿童股骨干骨折愈合快？',
+      feedback: '股骨颈骨折股骨头血供几近中断、滋养血管破坏，儿童骨膜厚血供丰、塑形力强；血供与年龄是决定愈合速度的关键变量，治法宜据此权衡。',
+      transfer: '胫骨中下段骨折术后6周X线示骨痂稀疏者，试分析可能原因并调整练功与用药。',
+    },
+  },
+  // ============================================================
+  // V 中医骨伤科学 · 骨不连与创伤急救（019–020）
+  // ============================================================
+  {
+    id: 'pb21-v-019', title: '骨伤·骨不连气血亏虚证治', category: 'clinical', difficulty: 5, difficultyLabel: '综合推理',
+    riskTags: ['骨不连', '气血亏虚', '八珍汤', '续骨活血汤', '综合推理'],
+    intent: '掌握骨不连的诊断与气血亏虚证的补益治法，综合分析局部与全身因素。',
+    facts: [
+      { field: 'clinical.主症体征', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.诊断标准', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.病机', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.治法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.主方', sourceType: 'textbook', sourceTitle: '《方剂学》规划教材', status: 'verified' },
+      { field: 'clinical.药物剂量', sourceType: 'textbook', sourceTitle: '《中国药典》', status: 'verified' },
+    ],
+    classics: [
+      { label: '《医宗金鉴》', canon: '《医宗金鉴》', chapter: '编辑正骨心法要旨', originalText: '有瘀血者宜攻利之，亡血者宜补而行之。', sourceTitle: '《医宗金鉴》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '主方八珍汤（人参、白术、茯苓、甘草、当归、川芎、白芍、熟地黄）合续骨活血汤（当归尾、赤芍、白芍、生地黄、红花、地鳖虫、骨碎补、自然铜、续断、落得打、乳香、没药）水煎日1剂分2次温服，人参另煎兑入；外用海桐皮汤熏洗或中药热敷；配合骨折端电刺激与循序负重。', caution: '八珍汤甘温壅滞，湿浊中阻者先调脾胃；甘草反海藻大戟甘遂芫花；骨不连若由固定不稳、断端分离或感染所致，单纯补益无效，须先处理固定与感染；忌过早负重。' },
+    cases: null,
+    stdJudgment: '骨不连以骨折超过9个月未愈合且连续3个月无进展为诊断，X线示断端硬化、髓腔封闭或假关节；气血亏虚者面色少华、患肢瘦削、伤口久不敛、舌淡脉细弱；八珍汤气血双补合续骨活血汤接骨续筋，然须先排除固定失稳、感染与断端分离等机械因素，补虚与矫正力学因素并行方能奏效。',
+    coreDefinition: '骨不连以超过9个月不愈合且无进展为诊断，气血亏虚者以八珍汤合续骨活血汤补益接骨。',
+    safety: { note: '骨不连原因复杂，须影像学评估后综合处理；辨证论治知识学习，临床用药须遵医嘱', prohibitions: ['甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高', '乳香、没药活血止痛力峻，内服过量刺激胃肠致恶心呕吐，孕妇慎用', '自然铜为矿物药，不宜过量久服'] },
+    learning: {
+      knowledge: '主症与体征：骨折逾9个月不愈合、局部轻痛或假关节活动、患肢肌肉萎缩、面色少华、神疲乏力、伤口久不敛合，舌淡苔白、脉细弱。病机为素体亏虚或失血过多，气血不足、筋骨失养，断端无生机。治法：补益气血、接骨续筋；主方八珍汤合续骨活血汤，外洗海桐皮汤，配合电刺激与适量负重刺激。',
+      misjudgment: '骨不连一律进补而忽视固定与力学因素。错：骨不连多因血供差、固定不稳、断端分离或感染，气血亏虚只是其一，须X线评估断端状态，机械因素不除则补益无功，此为局部与全身并重之要。',
+      reasoning: '为何同一骨折，气血壮实者愈合快、气血亏虚者迟延，治法当如何权衡？',
+      feedback: '气血为濡养筋骨之源，气旺血充则骨痂生长有资；虚者补之、实者通之，同时矫正力学环境，标本兼治方促愈合。',
+      transfer: '老年股骨干骨折术后一年骨不连、面白乏力者，试综合局部与全身因素拟定补益与力学干预方案。',
+    },
+  },
+  {
+    id: 'pb21-v-020', title: '骨伤·创伤急救止血包扎要点', category: 'clinical', difficulty: 5, difficultyLabel: '综合推理',
+    riskTags: ['创伤急救', '止血', '包扎固定', '搬运', '综合推理'],
+    intent: '掌握创伤出血的止血、包扎、固定、搬运四序要点与急救警戒。',
+    facts: [
+      { field: 'clinical.止血方法', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.包扎要点', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.固定搬运', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+      { field: 'clinical.伤科用药', sourceType: 'textbook', sourceTitle: '《中药学》规划教材', status: 'verified' },
+      { field: 'clinical.急救警戒', sourceType: 'textbook', sourceTitle: '《中医骨伤科学》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《仙授理伤续断秘方》', canon: '《仙授理伤续断秘方》', chapter: '卷一', originalText: '若破，用风流散填疮口，绢片包之。不可见风着水，恐成破伤风。', sourceTitle: '《仙授理伤续断秘方》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: { guideline: '止血：指压动脉（颞浅、面、肱、股动脉）、加压包扎、填塞、止血带（上肢上1/3或下肢中上1/3，记录时间，每1小时放松1-2分钟）；包扎用无菌敷料与绷带、三角巾；骨折先固定后搬运；内服云南白药（胶囊1次2粒日3次）或三七粉3g冲服；伤口污染者配合破伤风抗毒素。', caution: '止血带连续使用不超过2小时，过久致肢体坏死；锐器刺入物不随意拔出；外露骨折端不复位以免加重污染；疑脊柱损伤者须轴线翻身、硬板搬运；云南白药孕妇禁用。' },
+    cases: null,
+    stdJudgment: '创伤急救按止血、包扎、固定、搬运四序进行，止血为第一要务，外出血以加压包扎为主、动脉出血用指压与止血带，止血带须记录时间并定时松放；包扎要快准轻牢，固定超上下关节，搬运保轴线一致，脊柱伤禁扭曲；伤口污染深者防破伤风，此四序环环相扣，颠倒或疏漏皆可致命。',
+    coreDefinition: '创伤急救以止血、包扎、固定、搬运四序处理，止血带限时使用，脊柱伤轴线搬运。',
+    safety: { note: '大出血与休克属急症，须立即呼叫急救并行现场止血；本节点仅知识学习，急救操作须经专业训练', prohibitions: ['云南白药内含草乌类成分，孕妇禁用，不宜过量久服', '【高风险】草乌有大毒，制用先煎久煎，外用适量禁内服'] },
+    learning: {
+      knowledge: '主症与体征：开放性伤口出血、肿胀疼痛，重者面色苍白、肢冷脉数呈休克征象；病机为金刃所伤、络破血溢、气随血脱。治法按止血、包扎、固定、搬运四序急救：止血方法分层，毛细血管渗血加压包扎即可，动脉出血指压近心端加止血带；止血带部位上肢上1/3、下肢中上1/3，衬垫保护，记录时间每1小时松1-2分钟；包扎绷带由远心端向近心端缠；固定超骨折上下关节；搬运视伤情，脊柱伤三人平托或滚动法。主方云南白药或三七粉内服，深而污染的伤口须破伤风抗毒素。',
+      misjudgment: '止血带一扎不复松，或刺入物随手拔出。错：持续过久肢体缺血坏死，须定时松放；刺入物可能压迫止血，拔出致大出血，应固定后由专业处置。',
+      reasoning: '同是外出血，为何加压包扎与止血带各有其用而不宜滥用？',
+      feedback: '加压包扎对静脉与毛细血管出血有效且少并发症，动脉出血压力高须止血带阻断；滥用止血带有缺血坏死之虞，以最小干预达止血目的为原则。',
+      transfer: '工地外伤致小腿动脉出血呈喷射状，试述从止血带到包扎固定的现场处置顺序与注意事项。',
+    },
+  },
+];

@@ -1,0 +1,9 @@
+{
+  "seed": "phase-4/batch-4",
+  "genLabel": "Phase 4 · Batch-4 · 139 nodes（105 计划 + 34 legacy 补足，完成 305 覆盖）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截（证据不足 / 反证无效 / 套话修正 / 模板化 / 非法来源枚举）。隔离即安全：不得自动放行。",
+  "samples": []
+}

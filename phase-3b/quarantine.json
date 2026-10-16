@@ -1,0 +1,48 @@
+{
+  "seed": 20260920,
+  "genLabel": "phase-3b-batch1",
+  "counts": {
+    "quarantine": 2
+  },
+  "note": "隔离 = Gate 最终不变式拦截（证据不足 / 反证无效 / 套话修正 / 模板化 / 非法来源枚举）。隔离即安全：不得自动放行。",
+  "samples": [
+    {
+      "id": "pb1-case-04",
+      "title": "湿困中焦证据不足案",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "C3 证据不足",
+        "E 门拦截"
+      ],
+      "intent": "C3 证据不足：仅「身体困重」类症状，无舌脉/时间线第二独立证据，E 门拦截",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        }
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pb1-case-10",
+      "title": "需暂缓判断案",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "暂缓判断",
+        "C3 证据不足"
+      ],
+      "intent": "需暂缓判断：症状矛盾、缺舌脉，证据不足须继续采集，不硬下结论（E 门拦截）",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        }
+      ],
+      "corrections": []
+    }
+  ]
+}

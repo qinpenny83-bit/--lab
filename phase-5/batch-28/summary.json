@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-28",
+  "genLabel": "Phase 5 · Batch-28 · AC 现代医学基础 40 nodes",
+  "total": 40,
+  "counts": {
+    "candidate": 40,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 200,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 24,
+      "pct": 60
+    },
+    "mid": {
+      "count": 8,
+      "pct": 20
+    },
+    "hard": {
+      "count": 4,
+      "pct": 10
+    },
+    "mixed": {
+      "count": 4,
+      "pct": 10
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "AC 现代医学基础 40 节点：解剖生理、病理药理、检验影像、急救基础、循证意识",
+  "generatedAt": "2026-09-21T15:17:02.273Z"
+}

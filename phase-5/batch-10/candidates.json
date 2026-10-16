@@ -1,0 +1,309 @@
+{
+  "seed": "phase-5/batch-10",
+  "genLabel": "Phase 5 · Batch-10 · 30 nodes（E 针灸治疗学 0→30）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 30
+  },
+  "samples": [
+    {
+      "id": "pb10-e-001",
+      "title": "针灸治疗原则·补虚泻实",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+        },
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-002",
+      "title": "针灸治疗原则·清热温寒",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-003",
+      "title": "针灸治疗原则·标本缓急",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-004",
+      "title": "针灸治疗原则·三因制宜",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-005",
+      "title": "选穴原则·近部取穴与远部取穴",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-006",
+      "title": "选穴原则·辨证取穴与对症取穴",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-007",
+      "title": "配穴方法·本经配穴与表里经配穴",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb10-e-008",
+      "title": "配穴方法·前后配穴与上下配穴",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-009",
+      "title": "特定穴应用·五输穴与补母泻子法",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-010",
+      "title": "特定穴应用·原穴络穴与俞募穴",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-011",
+      "title": "特定穴应用·八会穴与八脉交会穴",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-012",
+      "title": "头痛·分经论治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-013",
+      "title": "面瘫·风寒袭络",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb10-e-014",
+      "title": "牙痛·胃火与肾虚",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb10-e-015",
+      "title": "咽喉肿痛·实热与虚热",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-016",
+      "title": "胃脘痛·脾胃虚寒与肝气犯胃",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-017",
+      "title": "泄泻·急性与慢性",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-018",
+      "title": "便秘·热秘与气虚",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb10-e-019",
+      "title": "失眠·心脾两虚与心肾不交",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-020",
+      "title": "眩晕·肝阳上亢与气血亏虚",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-021",
+      "title": "中风·中经络",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-022",
+      "title": "面瘫后遗症·恢复期与后遗症期取穴",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb10-e-023",
+      "title": "痹证·行痹痛痹着痹",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-024",
+      "title": "腰痛·寒湿与肾虚",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-025",
+      "title": "坐骨神经痛·足太阳经证",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-026",
+      "title": "肩周炎·肩三针",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb10-e-027",
+      "title": "落枕·经筋病",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-028",
+      "title": "痛经·寒凝血瘀与气滞血瘀",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-029",
+      "title": "月经不调·先期与后期",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb10-e-030",
+      "title": "小儿遗尿·肾气不固",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

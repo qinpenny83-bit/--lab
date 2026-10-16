@@ -1,0 +1,190 @@
+{
+  "seed": "phase-5/batch-13",
+  "genLabel": "Phase 5 · Batch-13 · 20 nodes（M 方剂剂量 0→20）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 20
+  },
+  "samples": [
+    {
+      "id": "pb13-m-001",
+      "title": "剂量·经方一两折合今制（汉制考证与现代折算法）",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-002",
+      "title": "剂量·古今权衡制演变（汉唐斤两制与宋元明清制）",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-003",
+      "title": "剂量·常用药单次剂量安全窗口",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-004",
+      "title": "剂量·细辛用量警戒",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "高危",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-005",
+      "title": "剂量·附子用量与先煎久煎",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "高危",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-006",
+      "title": "剂量·峻下逐水药丸散用量（甘遂大戟芫花）",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-007",
+      "title": "剂量·儿童剂量折算（年龄与体重法）",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-008",
+      "title": "剂量·老人与体虚者剂量调整",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-009",
+      "title": "剂量·煎煮法对剂量影响（先煎后下包煎另煎）",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-010",
+      "title": "剂量·剂型与剂量换算（丸散汤膏）",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-011",
+      "title": "剂量·中病即止原则",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-012",
+      "title": "剂量·量效关系与毒性阈值",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-013",
+      "title": "剂量·药食同源品限量",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-014",
+      "title": "剂量·内服与外用剂量之别",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-015",
+      "title": "剂量·妊娠用药剂量警戒",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-016",
+      "title": "剂量·服药时辰与用法用量",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-017",
+      "title": "剂量·现代药理与安全窗",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb13-m-018",
+      "title": "剂量·仲景方常量药考证",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-019",
+      "title": "剂量·历代医家剂量经验",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb13-m-020",
+      "title": "剂量·剧毒药剂量警戒",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    }
+  ]
+}

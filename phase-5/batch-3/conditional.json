@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-3",
+  "genLabel": "Phase 5 · Batch-3 · 30 nodes（D 腧穴学补足 30→60，达 33 学科蓝图目标下限）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

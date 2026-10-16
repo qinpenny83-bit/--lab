@@ -1,0 +1,428 @@
+// ============================================================
+// 杏林大典 · Phase 5 · Batch-16 · 样本 Part P1（P 各家学说 15 节点 pb16-p-001 ~ pb16-p-015）
+// 学科：P 各家学说；覆盖：医经学派 / 经方学派 / 伤寒学派 / 河间学派 / 易水学派 /
+//       攻邪学派 / 丹溪学派 / 温补学派 / 温病学派 / 中西汇通学派 /
+//       张仲景·辨证论治体系 / 王叔和·脉学整理 / 皇甫谧·针灸甲乙经 /
+//       孙思邈·大医精诚与千金方 / 钱乙·儿科大家
+// schema：{ id, title, category, difficulty, difficultyLabel, riskTags, intent,
+//          facts[], classics[], dosage, cases, stdJudgment, coreDefinition,
+//          safety:{note, prohibitions[]}, learning:{knowledge, misjudgment, reasoning, feedback, transfer} }
+// category 一律 'theory'；title 一律「学派·主题」或「医家·学术思想」式
+// classics 一律整书名 label（《素问》《灵枢》《难经》《伤寒论》《金匮要略》《脾胃论》《儒门事亲》
+//   《丹溪心法》《景岳全书》《温疫论》《备急千金要方》《小儿药证直诀》），均已在 classic-patch.mjs 收录；
+//   篇名入 chapter，originalText 逐字核对，sourceType:'classic_original'，status:'verified'；
+//   皇甫谧节点原需《针灸甲乙经》无补丁，改以《灵枢·经脉》原文承载经络学说
+// facts sourceTitle 限定：《中医各家学说》规划教材 / 《中国医学史》规划教材
+// 难度分布：1-2 级 5 个 / 3 级 4 个 / 4 级 3 个 / 5 级 3 个
+// safety 一律「学说观点学习，临床用药须辨证」，不提供现代用药剂量
+// ============================================================
+
+export const PART_P1 = [
+  // ============================================================
+  // P 各家学说 · 学派总览（001–010）
+  // ============================================================
+  {
+    id: 'pb16-p-001', title: '各家学说·医经学派', category: 'theory', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['各家学说', '医经学派', '《黄帝内经》'],
+    intent: '认识医经学派以《黄帝内经》为宗的学术传承，掌握其源流、研经方法与历史影响。',
+    facts: [
+      { field: 'theory.学派界定', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表医家', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.研经方法', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.历史沿革', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.学术影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '阴阳应象大论篇第五', originalText: '阴阳者，天地之道也，万物之纲纪，变化之父母，生杀之本始，神明之府也，治病必求于本。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '医经学派以《内经》为宗而兼收诸经，自战国秦汉奠基，历代注家或校勘或训诂或阐发，使阴阳五行、藏象经络诸论渐成体系；它并非门户之见，而是中医学理论沿革的主线，为后世河间、易水诸派立说之本。',
+    coreDefinition: '医经学派以研习《黄帝内经》为主、兼及诸经，历代注解校勘阐发，为中医学理论之源。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '医经学派源流上溯战国秦汉，以《黄帝内经》为宗，兼研《难经》诸经；代表医家如东汉张仲景、唐王冰（约710—805年）、明马莳、清张志聪。核心学说为阴阳五行、藏象经络与诊法治则；王冰注《素问》为传世要著，其学影响后世各家学说之形成。',
+      misjudgment: '把医经学派等同于《内经》版本考据一门。错：医经学派以经为据而不拘一经，历代医家注解发挥各成体系，是学术流派而非单纯校勘之学。',
+      reasoning: '医经学派历千年而不断，为何同一部《内经》能派生出河间、易水等截然不同的学说？',
+      feedback: '医经学派之「经」是学术渊薮，注家各以时代问题重释《内经》，故一源而多流，这正是中医学说演进的动力。',
+      transfer: '后世各家皆自《内经》出发，试举「治未病」一语在《金匮要略》与温病学中的不同发挥。',
+    },
+  },
+  {
+    id: 'pb16-p-002', title: '各家学说·经方学派', category: 'theory', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['各家学说', '经方学派', '张仲景', '方证对应'],
+    intent: '理解经方学派的界定、源流与方证对应的核心主张，辨析经方与时方之别。',
+    facts: [
+      { field: 'theory.经方界说', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表医家', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《伤寒论》', canon: '《伤寒论》', chapter: '伤寒论序', originalText: '感往昔之沦丧，伤横夭之莫救，乃勤求古训，博采众方。', sourceTitle: '《伤寒论》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '经方学派以张仲景《伤寒杂病论》所载方剂为宗，讲求药少力专、方证对应；经方与时方之别不在年代早晚，而在配伍法度与验效传统，后世徐大椿《伤寒类方》按方类证，即承此脉。',
+    coreDefinition: '经方学派尊仲景方为经，重方证对应、药少力专，以《伤寒杂病论》方剂为辨证施治准绳。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '经方学派源流可溯至汉唐，以东汉张仲景（约150—219年）《伤寒杂病论》方为经方之祖，核心学说为「方证对应」、药少力专；宋校正医书局校刊《伤寒论》《金匮要略》，清徐大椿《伤寒类方》按方类证，其影响贯穿辨证论治与方剂学。',
+      misjudgment: '以为经方即古方、时方即今方，以年代定高下。错：经方之「经」在配伍法度与方证对应，宋代局方亦属古方而未必皆经方，分野在辨证法度与验效传统。',
+      reasoning: '同为仲景方，为何经方派强调「方证对应」，而时方派主张灵活化裁，两说之争的焦点在哪里？',
+      feedback: '方证对应是经方派的临床抓手，辨方证即辨病机之所在；时方化裁补其未备，两派实为辨证深浅之争。',
+      transfer: '遇到高热惊厥之小儿，如何借鉴经方方证对应思想选用仲景方？',
+    },
+  },
+  {
+    id: 'pb16-p-003', title: '各家学说·伤寒学派', category: 'theory', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['各家学说', '伤寒学派', '六经辨证', '《伤寒论》'],
+    intent: '掌握伤寒学派的源流与错简重订、维护旧论、辨证论治三大流派的分野与贡献。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.三大流派', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表医家', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.核心观点', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《伤寒论》', canon: '《伤寒论》', chapter: '辨太阳病脉证并治', originalText: '太阳之为病，脉浮，头项强痛而恶寒。', sourceTitle: '《伤寒论》', sourceType: 'classic_original', status: 'verified' },
+      { label: '《伤寒论》', canon: '《伤寒论》', chapter: '辨太阳病脉证并治', originalText: '观其脉证，知犯何逆，随证治之。', sourceTitle: '《伤寒论》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '伤寒学派围绕《伤寒论》六经辨证展开千年论争，错简重订、维护旧论、辨证论治三派各执一说，考据与临床互为表里；其共同处在于皆以六经钤百病，把外感热病乃至杂病的辨治纳入同一法度。',
+    coreDefinition: '伤寒学派围绕《伤寒论》六经辨证展开研究，分流错简重订、维护旧论、辨证论治三派。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '伤寒学派源流自晋唐起研习《伤寒论》，代表医家金成无己（约1063—1156年）首注全论、明方有执倡错简重订、清柯琴主辨证论治；核心学说为六经辨证纲领；历代注本数十家，其研究影响温病学与内科杂病辨治。',
+      misjudgment: '把伤寒学派三派之争看作门户意气。错：错简重订、维护旧论、辨证论治三派皆围绕《伤寒论》原貌与辨证精神展开，其分歧恰是推动六经辨证深化的动力。',
+      reasoning: '错简重订派与维护旧论派针锋相对，为什么说两派之争反而推进了《伤寒论》的临床应用？',
+      feedback: '三派之争促使后世从文献与临床两端逼近仲景本旨，六经辨证由此愈辨愈明，成为外感热病辨治纲领。',
+      transfer: '六经辨证用于杂病（如胃痛、眩晕），试以太阳或少阳提纲分析一例。',
+    },
+  },
+  {
+    id: 'pb16-p-004', title: '各家学说·河间学派', category: 'theory', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['各家学说', '河间学派', '主火论', '刘完素'],
+    intent: '掌握河间学派刘完素火热论的核心主张、代表著作及其承上启下的学术影响。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心学说·主火论', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《素问》', canon: '《素问》', chapter: '至真要大论篇第七十四', originalText: '诸热瞀瘈，皆属于火。', sourceTitle: '《素问》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '河间学派以刘完素火热论为核心，倡「六气皆从火化」「五志过极皆为热病」，用药偏于寒凉，开金元学术争鸣之先；其说经罗知悌而下启丹溪，又影响攻邪之张从正，为寒凉一系之源。',
+    coreDefinition: '河间学派以刘完素为主火论代表，倡六气皆从火化，用药偏寒凉，开金元学术争鸣先声。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '河间学派源流可溯至北宋运气学说，代表医家金代刘完素（约1120—1200年）创「主火论」：六气皆从火化、五志过极皆为热病；代表著作《素问玄机原病式》《素问病机气宜保命集》；罗知悌传其学下启朱丹溪，并影响攻邪派张从正，为寒凉一系之源。',
+      misjudgment: '把主火论理解为凡病皆热、一律寒凉。错：刘完素言「六气皆从火化」是病机倾向而非绝对，其治亦配表里双解、养阴退热，若凡病投寒凉则失河间本旨。',
+      reasoning: '同为外感热病，刘完素主寒凉而张仲景主辛温，火热论究竟在哪些环节补充了六经辨证？',
+      feedback: '火热论抓住温邪致病的热化倾向，补充了辛温解表之外的寒凉清解路径，与伤寒论治互为表里。',
+      transfer: '当今急性热病早期，从火热论看抗生素与清热方药并用是否合理。',
+    },
+  },
+  {
+    id: 'pb16-p-005', title: '各家学说·易水学派', category: 'theory', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['各家学说', '易水学派', '补土派', '李杲'],
+    intent: '掌握易水学派张元素脏腑辨证、遣药制方与李杲脾胃内伤学说的源流与影响。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心学说·补土论', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《脾胃论》', canon: '《脾胃论》', chapter: '脾胃虚实传变论', originalText: '若胃气之本弱，饮食自倍，则脾胃之气既伤，而元气亦不能充，而诸病之所由生也。', sourceTitle: '《脾胃论》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '易水学派由张元素开山，重脏腑辨证与遣药制方，弟子李杲创「脾胃内伤，百病由生」之论而称补土派；其着眼于内伤不足、升阳益气，与河间主火论相对而互补，后世温补诸家多承其余绪。',
+    coreDefinition: '易水学派以脏腑辨证与遣药制方见长，李杲立脾胃内伤学说，后世称补土派。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '易水学派源流由金代张元素开山（易水人），创脏腑辨证、遣药制方与引经报使；弟子李杲（1180—1251年）立「脾胃内伤，百病由生」学说，著《脾胃论》《内外伤辨惑论》；王好古、罗天益继之，其学影响明清温补学派。',
+      misjudgment: '把补土派简化为「补脾即补土」。错：李杲论脾胃内伤重在升发清阳、甘温除热，用药升阳益胃、补中益气并举，绝非一味蛮补，滥用甘温反助湿热。',
+      reasoning: '李杲说「脾胃内伤，百病由生」，为何甘温之剂能退大热，其机理何在？',
+      feedback: '内伤发热源于中气下陷、阴火上乘，甘温升阳使清阳复位，虚热自退，即「甘温除大热」之理。',
+      transfer: '慢性疲劳伴低热者，试用「甘温除大热」思路解释其病机与治法。',
+    },
+  },
+  {
+    id: 'pb16-p-006', title: '各家学说·攻邪学派', category: 'theory', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['各家学说', '攻邪学派', '汗吐下三法', '张从正'],
+    intent: '掌握攻邪学派张从正「邪去正安」的攻邪论、汗吐下三法及其施用界限。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心学说·攻邪论', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《儒门事亲》', canon: '《儒门事亲》', chapter: '汗下吐三法该尽治病诠', originalText: '夫病之一物，非人身素有之也。或自外而入，或由内而生，皆邪气也。', sourceTitle: '《儒门事亲》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '攻邪学派以张从正「邪去则正安」立说，力主病由邪生，汗、吐、下三法可赅众法；其攻邪之论纠补虚时弊，然施治须辨虚实缓急，邪去即止，绝非浪施峻剂，故《儒门事亲》首重「速攻」「速去」。',
+    coreDefinition: '攻邪学派以张从正为代表，主邪去正安，汗吐下三法赅治众病，纠补虚时弊。',
+    safety: { note: '学说观点学习，临床用药须辨证；汗吐下皆峻烈之施，临床须守中病即止', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '攻邪学派源流承刘完素而自成一家，代表医家金代张从正（约1156—1228年）倡「攻邪论」：病由邪生、邪去正安，汗吐下三法该尽治病；代表著作《儒门事亲》；经麻知几整理流传，其祛邪思想影响后世临床。',
+      misjudgment: '以为攻邪派见病即汗吐下。错：张从正三法自有适应与禁忌，讲「中病即止」、邪去正安，其用下法亦分轻重缓急；体虚者须扶正兼施，浪施峻剂实违其旨。',
+      reasoning: '张从正以汗吐下三法赅治众病，若遇体虚之人又当如何权衡攻邪与扶正？',
+      feedback: '攻邪须辨邪之深浅与正之强弱，邪实正未虚者速攻，正虚邪恋者攻补兼施，总以邪去正安为期。',
+      transfer: '感冒初起邪在肌表，汗法之外，张从正的三法思想如何提示早期祛邪？',
+    },
+  },
+  {
+    id: 'pb16-p-007', title: '各家学说·丹溪学派', category: 'theory', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['各家学说', '丹溪学派', '滋阴降火', '朱震亨'],
+    intent: '掌握丹溪学派朱震亨「阳常有余，阴常不足」论、相火论与杂病论治的学术体系。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心学说·阳有余阴不足', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《丹溪心法》', canon: '《丹溪心法》', chapter: '六郁', originalText: '气血冲和，万病不生，一有怫郁，诸病生焉。', sourceTitle: '《丹溪心法》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '丹溪学派以朱震亨「阳常有余，阴常不足」与相火论为纲，创滋阴降火大法，杂病又重气、血、痰、郁，四伤之说影响明清；其学上承河间易水，下启温补与温病诸家，为承前启后之枢纽。',
+    coreDefinition: '丹溪学派以朱震亨为宗，倡阳常有余阴常不足，重滋阴降火与气血痰郁杂病论治。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '丹溪学派源流上承河间、易水，朱震亨（1281—1358年）师事罗知悌而集大成；核心学说为「阳常有余，阴常不足」论与相火论，创滋阴降火法，杂病重气血痰郁；代表著作《格致余论》《局方发挥》《丹溪心法》；戴思恭等传承，影响温补、温病诸家。',
+      misjudgment: '把滋阴降火理解为滋阴药堆砌。错：丹溪明「阴常不足」而重节欲保精，降火用苦寒有制，且杂病主以气血痰郁辨证，若不分病机专事滋阴，反碍脾胃生阴之源。',
+      reasoning: '朱丹溪既言「阴常不足」，又主气血痰郁论杂病，两说如何统一于他的临床辨证？',
+      feedback: '阴常不足为立论，气血痰郁为治法，养阴与调郁并行不悖：郁开则阴自复，阴充则火自降。',
+      transfer: '现代都市人焦虑失眠多郁，试以丹溪「气血冲和」之理分析其调治方向。',
+    },
+  },
+  {
+    id: 'pb16-p-008', title: '各家学说·温补学派', category: 'theory', difficulty: 4, difficultyLabel: '综合推理',
+    riskTags: ['各家学说', '温补学派', '命门学说', '张介宾', '附子'],
+    intent: '掌握温补学派命门学说与「阳非有余，阴亦不足」论，理解其纠寒凉时弊的学术背景。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心学说·命门温补', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《景岳全书》', canon: '《景岳全书》', chapter: '新方八略引', originalText: '善补阳者，必于阴中求阳，则阳得阴助而生化无穷；善补阴者，必于阳中求阴，则阴得阳升而泉源不竭。', sourceTitle: '《景岳全书》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '温补学派于明代应运而起，薛己、孙一奎、赵献可、张介宾、李中梓辈力主命门水火与脾胃并重，倡「阳非有余，阴亦不足」，纠正寒凉时弊；其用温补而善调阴阳，补而不滞，为内伤虚损证治开一大法门。',
+    coreDefinition: '温补学派主命门水火温补，张介宾倡阳非有余阴亦不足，纠寒凉时弊、重脾胃与命门。',
+    safety: { note: '学说观点学习，临床用药须辨证；温补学说说理多涉附子、肉桂等辛热之品，不提供现代用药剂量', prohibitions: ['附子须炮制先煎久煎至无麻辣感；反半夏瓜蒌贝母白蔹白及；孕妇禁用', '不提供现代用药剂量'] },
+    learning: {
+      knowledge: '温补学派源流承易水余绪而兴于明代，代表医家薛己、孙一奎、赵献可、张介宾（1563—1640年）、李中梓；核心学说为命门学说与「阳非有余，阴亦不足」论，重阴中求阳；代表著作《景岳全书》《类经》《医贯》《医宗必读》，对虚损证治影响深远。',
+      misjudgment: '把温补学派与滥用温热药画等号。错：张介宾温补讲究「阴中求阳、阳中求阴」，且辨真阴真阳之虚，若实证热证误投温补则火上添油，温补自有其证。',
+      reasoning: '张介宾说「阳非有余，阴亦不足」，与刘完素「阳常有余」针锋相对，谁更接近临床实际？',
+      feedback: '阳非有余意在纠偏，温补命门贵在平衡水火，真阳不足者温之、真阴亏者补之，不可一概温热。',
+      transfer: '久病虚损畏寒者，如何运用「阴中求阳」的配伍思路组方？',
+    },
+  },
+  {
+    id: 'pb16-p-009', title: '各家学说·温病学派', category: 'theory', difficulty: 4, difficultyLabel: '易混淆',
+    riskTags: ['各家学说', '温病学派', '卫气营血', '三焦辨证'],
+    intent: '掌握温病学派戾气学说、卫气营血与三焦辨证体系的形成，辨析寒温之异。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心学说·戾气与卫气营血', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《温疫论》', canon: '《温疫论》', chapter: '原病', originalText: '此气之来，无论老少强弱，触之者即病，邪自口鼻而入。', sourceTitle: '《温疫论》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '温病学派于明清蔚为大观，吴有性戾气说辨温疫之因，叶天士卫气营血、吴鞠通三焦立辨治之纲，薛雪、王孟英羽翼其说；温病与伤寒同属外感而病机迥异，寒温之辨贯穿始终，终成与伤寒并峙的辨证体系。',
+    coreDefinition: '温病学派以明清温病学家为主，创卫气营血与三焦辨证，与伤寒六经辨证并立。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '温病学派源流于明清渐成体系，明吴有性（约1582—1652年）著《温疫论》倡戾气学说，清叶天士（1667—1746年）创卫气营血辨证，吴鞠通《温病条辨》立三焦辨证；核心学说为温病传变规律与清热养阴大法，与伤寒六经辨证并立，影响至今。',
+      misjudgment: '把温病与伤寒截然对立。错：温病学派承认温病源出伤寒而有发展，卫气营血、三焦辨证与六经辨证互补，寒温之辨在临床是辨病机层次而非门户之争。',
+      reasoning: '叶天士「卫之后方言气，营之后方言血」与吴鞠通三焦辨证，两套纲领在温病辨治中如何互补？',
+      feedback: '卫气营血辨病程浅深，三焦辨病位上下，二纲合用则温病传变层次与治疗重心俱明。',
+      transfer: '乙脑、流感等急性传染病，从戾气学说与卫气营血辨证如何分阶段论治？',
+    },
+  },
+  {
+    id: 'pb16-p-010', title: '各家学说·中西汇通学派', category: 'theory', difficulty: 5, difficultyLabel: '综合推理',
+    riskTags: ['各家学说', '中西汇通', '衷中参西', '张锡纯'],
+    intent: '掌握中西汇通学派的形成背景、代表医家与「衷中参西」的主张及历史得失。',
+    facts: [
+      { field: 'theory.学派源流', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.核心主张·衷中参西', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: null,
+    cases: null,
+    stdJudgment: '中西汇通学派于清末民初西学东渐中崛起，唐宗海、朱沛文、张锡纯、恽铁樵诸家以中医为本、参酌西说，尝试以脏腑解剖与气化理论互证；其汇通多属初步比附，然开启中西医结合先河，其得失皆为后来者镜鉴。',
+    coreDefinition: '中西汇通学派以中医为本、参酌西说，唐宗海张锡纯等尝试中西医理互证汇通。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '中西汇通学派源流于清末民初西学东渐中形成，代表医家唐宗海、朱沛文、张锡纯（1860—1933年）、恽铁樵；核心主张「衷中参西」，以中医气化理论参证西医解剖药理；代表著作《医学衷中参西录》《中西汇通医书五种》，开中西医结合先河，影响现代中西医结合研究。',
+      misjudgment: '以为中西汇通即中西药简单同用。错：张锡纯等主张以中医气化理论统摄西医解剖药理，汇通重在理法层面的互证，机械拼凑中西药反失衷中之旨。',
+      reasoning: '张锡纯以石膏配阿司匹林治温病，这种中西药同用是汇通还是拼凑，其得失如何评判？',
+      feedback: '汇通的得失在于是否以中医理论为本，凡能印证气化、提高疗效者存之，机械比附者汰之。',
+      transfer: '今天的中西医结合诊疗，在哪些环节仍可见张锡纯「衷中参西」的余绪？',
+    },
+  },
+  // ============================================================
+  // P 各家学说 · 医家学术思想（011–015）
+  // ============================================================
+  {
+    id: 'pb16-p-011', title: '张仲景·辨证论治体系', category: 'theory', difficulty: 5, difficultyLabel: '综合推理',
+    riskTags: ['医家', '张仲景', '辨证论治', '六经辨证'],
+    intent: '掌握张仲景辨证论治体系的构成，理解六经辨证与脏腑辨证结合的学术意义。',
+    facts: [
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.著作与成书', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.六经辨证', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.辨证论治精神', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《金匮要略》', canon: '《金匮要略》', chapter: '脏腑经络先后病脉证第一', originalText: '夫治未病者，见肝之病，知肝传脾，当先实脾。', sourceTitle: '《金匮要略》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '张仲景勤求古训、博采众方，著《伤寒杂病论》，创六经辨证与脏腑辨证相结合的辨证论治体系，理法方药一线贯通；「观其脉证，知犯何逆，随证治之」一句，实为全书辨证精神之总括，后世尊为医圣。',
+    coreDefinition: '张仲景辨证论治体系以六经辨证为纲，理法方药一贯，为中医临床辨证之圭臬。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '张仲景（东汉，约150—219年）勤求古训、博采众方，学术源流直承《内经》《难经》；著《伤寒杂病论》，后世析为《伤寒论》《金匮要略》；核心学说为六经辨证与脏腑辨证相合的辨证论治体系，「观其脉证，知犯何逆，随证治之」为总纲，被尊为医圣，影响历代临床。',
+      misjudgment: '把辨证论治等同于对号入座地套方。错：仲景「随证治之」强调因机而变，方证相应须在病机把握基础上灵活化裁，刻舟求剑式套方恰违辨证精神。',
+      reasoning: '「观其脉证，知犯何逆，随证治之」为何被奉为辨证论治总纲，它和套用成方有何本质区别？',
+      feedback: '辨证论治重病机动态，随证治之即随病机转化而立法处方，与刻板套方有本末之别。',
+      transfer: '一患者桂枝汤证而兼项背强几几，试按「随证治之」思想推演加减。',
+    },
+  },
+  {
+    id: 'pb16-p-012', title: '王叔和·脉学整理', category: 'theory', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['医家', '王叔和', '脉经', '脉学'],
+    intent: '掌握王叔和《脉经》的学术内容与编次《伤寒论》的贡献，理解其脉学规范意义。',
+    facts: [
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.脉经内容', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.寸关尺诊法', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.编次伤寒论', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《难经》', canon: '《难经》', chapter: '一难', originalText: '寸口者，脉之大会，手太阴之脉动也。', sourceTitle: '《难经》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '王叔和编次《伤寒论》、撰著《脉经》，使张仲景遗文赖以不坠，脉学自此有专书；《脉经》汇《内经》《难经》及扁鹊华佗诸家脉法，定寸关尺三部候法、列二十四脉，为脉学规范之祖，功在文献亦在临床。',
+    coreDefinition: '王叔和撰《脉经》定寸关尺三部候法与二十四脉，并编次《伤寒论》，为脉学之祖。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '王叔和（西晋，约210—285年）曾任太医令，学术源流集《内经》《难经》及扁鹊、华佗脉法；核心学说为「独取寸口」的三部九候诊法；著《脉经》十卷列二十四脉，又编次《伤寒论》，其脉学规范影响后世诊法，为脉学之祖。',
+      misjudgment: '以为《脉经》只是脉象罗列。错：王叔和定寸关尺三部九候法、明脏腑配属，把脉诊纳入辨证体系，且编次《伤寒论》使辨证文献传世，文献与临床之功并重。',
+      reasoning: '王叔和「独取寸口」的诊法依据《难经》而来，为何独取寸口能候全身脏腑之病？',
+      feedback: '寸口为肺经动脉而肺朝百脉，五脏六腑之气皆变见于寸口，故三部九候可候全身。',
+      transfer: '临床诊脉时，寸关尺与脏腑的配属关系如何在《脉经》基础上沿用至今？',
+    },
+  },
+  {
+    id: 'pb16-p-013', title: '皇甫谧·针灸甲乙经', category: 'theory', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['医家', '皇甫谧', '针灸甲乙经', '针灸学'],
+    intent: '掌握皇甫谧《针灸甲乙经》的成书、体例与腧穴厘定贡献，认识其针灸学奠基地位。',
+    facts: [
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.成书与体例', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.腧穴厘定', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《灵枢》', canon: '《灵枢》', chapter: '经脉第十', originalText: '经脉者，所以能决死生，处百病，调虚实，不可不通。', sourceTitle: '《灵枢》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '皇甫谧中年病痹而耽于针灸，撰《针灸甲乙经》，辑《素问》《灵枢》《明堂孔穴针灸治要》于一编，厘定腧穴、条列刺法，使针灸学首次有系统专著；其书远传海外，为针灸学术之津梁。',
+    coreDefinition: '皇甫谧撰《针灸甲乙经》，辑三部医经厘定腧穴条列刺法，为现存最早针灸专著。',
+    safety: { note: '学说观点学习，临床用药须辨证；针灸内容仅作知识学习，禁止无资质自行针刺', prohibitions: ['不提供现代用药剂量', '禁止无资质自行针刺'] },
+    learning: {
+      knowledge: '皇甫谧（魏晋，215—282年）中年病痹而研习针灸，学术源流辑《素问》《灵枢》《明堂孔穴针灸治要》三经之要；核心学说为「经络为纲、腧穴为目」的针灸辨治体系，厘定腧穴349个；著《黄帝三部针灸甲乙经》十二卷，为现存最早针灸专著，影响远及朝鲜日本。',
+      misjudgment: '把《针灸甲乙经》当作腧穴目录。错：该书辑三部医经，经络、腧穴、刺法、禁忌、病证并重，是理论系统化的针灸专著，并非单纯穴位表。',
+      reasoning: '皇甫谧辑三部医经成《甲乙经》，为何说他的「删繁就简」比新创内容对针灸学贡献更大？',
+      feedback: '整理编次使散乱经文条理化、系统化，理论由此可教可传，比增益新论更惠后人。',
+      transfer: '学习现代针灸取穴时，试举《甲乙经》腧穴定位对今日标准定位的影响。',
+    },
+  },
+  {
+    id: 'pb16-p-014', title: '孙思邈·大医精诚与千金方', category: 'theory', difficulty: 4, difficultyLabel: '综合推理',
+    riskTags: ['医家', '孙思邈', '备急千金要方', '大医精诚'],
+    intent: '掌握孙思邈《千金方》的学术成就与《大医精诚》的医德思想，理解其综合贡献。',
+    facts: [
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.千金方内容', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.妇儿分科', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.大医精诚', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《备急千金要方》', canon: '《备急千金要方》', chapter: '大医精诚', originalText: '凡大医治病，必当安神定志，无欲无求，先发大慈恻隐之心，誓愿普救含灵之苦。', sourceTitle: '《备急千金要方》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '孙思邈博极医源，著《备急千金要方》与《千金翼方》，首列妇人、小儿诸科，按脏腑类编方书，又倡食疗、养性与医德；《大医精诚》以精诚二字立医德之范，其博爱济众之旨垂范千古。',
+    coreDefinition: '孙思邈著《千金要方》《千金翼方》，重医德精诚、妇儿分立与脏腑类方，世称药王。',
+    safety: { note: '学说观点学习，临床用药须辨证', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '孙思邈（唐，约581—682年）著《备急千金要方》《千金翼方》各三十卷，学术源流兼收唐前诸家；核心成就在妇儿分科、按脏腑类编方书与「大医精诚」医德观；首列妇人小儿诸科，倡食疗养生，影响方剂学与养生学，后世尊为药王。',
+      misjudgment: '把「大医精诚」仅当医德口号。错：精诚二字兼指医术精勤与心地诚笃，孙思邈以德统术、术德并重，医德观与千金方的脏腑类方、妇儿分立构成完整学术体系。',
+      reasoning: '孙思邈首将妇儿独立成科，这种分科思想对后世临床各科发展的意义在哪里？',
+      feedback: '分科使专科病证得到系统研究，妇儿独立带动专科方药与辨证发展，为临床分科之先声。',
+      transfer: '现代医患沟通与医德教育，如何从《大医精诚》「普同一等」中汲取原则？',
+    },
+  },
+  {
+    id: 'pb16-p-015', title: '钱乙·儿科大家', category: 'theory', difficulty: 5, difficultyLabel: '综合推理',
+    riskTags: ['医家', '钱乙', '小儿药证直诀', '儿科'],
+    intent: '掌握钱乙小儿五脏辨证体系与《小儿药证直诀》的学术内容，理解儿科学确立的标志。',
+    facts: [
+      { field: 'theory.医家生卒', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.代表著作', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+      { field: 'theory.五脏辨证', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.小儿体质观', sourceType: 'textbook', sourceTitle: '《中医各家学说》规划教材', status: 'verified' },
+      { field: 'theory.继承与影响', sourceType: 'textbook', sourceTitle: '《中国医学史》规划教材', status: 'verified' },
+    ],
+    classics: [
+      { label: '《小儿药证直诀》', canon: '《小儿药证直诀》', chapter: '脉证治法', originalText: '急惊合凉泻，慢惊合温补。', sourceTitle: '《小儿药证直诀》', sourceType: 'classic_original', status: 'verified' },
+    ],
+    dosage: null,
+    cases: null,
+    stdJudgment: '钱乙专攻儿科，著《小儿药证直诀》，首创小儿五脏辨证，以心肝脾肺肾虚实为纲论治诸证，又明「易虚易实，易寒易热」之体质特点；其化裁肾气丸为六味地黄丸，补泻兼施，为儿科圣手、后世儿科学之宗。',
+    coreDefinition: '钱乙创小儿五脏辨证，明易虚易实之体，著《小儿药证直诀》，为儿科之圣。',
+    safety: { note: '学说观点学习，临床用药须辨证；儿科用药轻灵，剂量尤须审慎', prohibitions: ['不提供现代用药剂量'] },
+    learning: {
+      knowledge: '钱乙（宋，约1032—1113年）专攻儿科，学术源流上承《颅囟经》而自成一家；核心学说为小儿五脏辨证与「易虚易实，易寒易热」体质观；著《小儿药证直诀》（阎季忠整理），化裁肾气丸为六味地黄丸，被称儿科之圣，影响后世儿科学。',
+      misjudgment: '把小儿五脏辨证等同于成人辨证。错：钱乙立足小儿「易虚易实、易寒易热」与脏腑娇嫩之体，五脏辨证重在虚实补泻，且剂型量轻，不可照搬成人脏腑辨证。',
+      reasoning: '钱乙把金匮肾气丸去桂附改为六味地黄丸，为何小儿补肾反不宜肉桂附子？',
+      feedback: '小儿纯阳之体、肾常虚而阳易亢，六味地黄丸平补三阴而无桂附辛燥之弊，适其体质。',
+      transfer: '小儿反复呼吸道感染，试按钱乙五脏辨证分析其常虚之脏与调治要点。',
+    },
+  },
+];

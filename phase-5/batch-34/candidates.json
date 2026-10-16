@@ -1,0 +1,280 @@
+{
+  "seed": "phase-5/batch-34",
+  "genLabel": "Phase 5 · Batch-34 · I 药用植物·本草学 30 nodes",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 30
+  },
+  "samples": [
+    {
+      "id": "pb34-i-001",
+      "title": "本草·药用植物分类基础",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-002",
+      "title": "本草·根与根茎形态辨识",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-003",
+      "title": "本草·茎与皮类形态辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-004",
+      "title": "本草·叶与花形态辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-005",
+      "title": "本草·果实与种子形态辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-006",
+      "title": "本草·药用部位类型",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-007",
+      "title": "本草·采收加工总则",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-008",
+      "title": "本草·道地药材与产地",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-009",
+      "title": "本草·药材贮藏养护",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-010",
+      "title": "本草·显微特征与组织构造",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-011",
+      "title": "本草·《神农本草经》三品分类",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-012",
+      "title": "本草·陶弘景《本草经集注》",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-013",
+      "title": "本草·苏敬《新修本草》",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-014",
+      "title": "本草·唐慎微《证类本草》",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-015",
+      "title": "本草·李时珍《本草纲目》分类与贡献",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-016",
+      "title": "本草·历代本草学术思想流变",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-017",
+      "title": "本草·人参植物形态与商品鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-018",
+      "title": "本草·黄芪与甘草根形辨识",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-019",
+      "title": "本草·当归与地黄根类辨识",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-020",
+      "title": "本草·黄连根茎形态与味连雅连",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-021",
+      "title": "本草·金银花与枸杞花果实辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-022",
+      "title": "本草·五味子与酸枣仁果实种子辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-023",
+      "title": "本草·薄荷茎叶形态与芳香油",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-024",
+      "title": "本草·麻黄草质茎辨识与毒性警戒",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-025",
+      "title": "本草·银杏叶与果实辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-026",
+      "title": "本草·杜仲与厚朴树皮辨识",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-027",
+      "title": "本草·肉桂皮形态与桂枝比较",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb34-i-028",
+      "title": "本草·茯苓菌核辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-029",
+      "title": "本草·灵芝子实体辨识",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb34-i-030",
+      "title": "本草·冬虫夏草与鹿茸来源辨识",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    }
+  ]
+}

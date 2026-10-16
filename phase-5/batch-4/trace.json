@@ -1,0 +1,3422 @@
+[
+  {
+    "nodeId": "pb5-g-43",
+    "title": "黄芩",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-43",
+      "title": "黄芩",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-44",
+    "title": "栀子",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-44",
+      "title": "栀子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-45",
+    "title": "夏枯草与龙胆草",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-45",
+      "title": "夏枯草与龙胆草",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-46",
+    "title": "玄参与牡丹皮",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-46",
+      "title": "玄参与牡丹皮",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-47",
+    "title": "青蒿与地骨皮",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-47",
+      "title": "青蒿与地骨皮",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-48",
+    "title": "火麻仁",
+    "category": "herb",
+    "difficulty": 1,
+    "difficultyLabel": "简单",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-48",
+      "title": "火麻仁",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-49",
+    "title": "甘遂与巴豆",
+    "category": "herb",
+    "difficulty": 4,
+    "difficultyLabel": "高危",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-49",
+      "title": "甘遂与巴豆",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-50",
+    "title": "威灵仙与秦艽",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-50",
+      "title": "威灵仙与秦艽",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-51",
+    "title": "防己",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-51",
+      "title": "防己",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-52",
+    "title": "桑寄生与五加皮",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-52",
+      "title": "桑寄生与五加皮",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-53",
+    "title": "苍术",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-53",
+      "title": "苍术",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-54",
+    "title": "厚朴",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-54",
+      "title": "厚朴",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-55",
+    "title": "砂仁与白豆蔻",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-55",
+      "title": "砂仁与白豆蔻",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-56",
+    "title": "薏苡仁",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-56",
+      "title": "薏苡仁",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-57",
+    "title": "车前子与猪苓",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-57",
+      "title": "车前子与猪苓",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-58",
+    "title": "茵陈与金钱草",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-58",
+      "title": "茵陈与金钱草",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-59",
+    "title": "肉桂",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-59",
+      "title": "肉桂",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-60",
+    "title": "吴茱萸",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-60",
+      "title": "吴茱萸",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-61",
+    "title": "木香与香附",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-61",
+      "title": "木香与香附",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-62",
+    "title": "薤白与川楝子",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-62",
+      "title": "薤白与川楝子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-63",
+    "title": "乌药与沉香",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-63",
+      "title": "乌药与沉香",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-64",
+    "title": "神曲麦芽莱菔子",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-64",
+      "title": "神曲麦芽莱菔子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-65",
+    "title": "鸡内金",
+    "category": "herb",
+    "difficulty": 1,
+    "difficultyLabel": "简单",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-65",
+      "title": "鸡内金",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-66",
+    "title": "驱虫药概述与使君子、槟榔",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-66",
+      "title": "驱虫药概述与使君子、槟榔",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-67",
+    "title": "大蓟小蓟地榆槐花",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-67",
+      "title": "大蓟小蓟地榆槐花",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-68",
+    "title": "茜草与蒲黄",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-68",
+      "title": "茜草与蒲黄",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-69",
+    "title": "仙鹤草与炮姜",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-69",
+      "title": "仙鹤草与炮姜",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-70",
+    "title": "延胡索",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-70",
+      "title": "延胡索",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-71",
+    "title": "郁金与姜黄",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-71",
+      "title": "郁金与姜黄",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-72",
+    "title": "益母草与牛膝",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-72",
+      "title": "益母草与牛膝",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-73",
+    "title": "乳香没药与鸡血藤",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-73",
+      "title": "乳香没药与鸡血藤",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-74",
+    "title": "莪术三棱与水蛭",
+    "category": "herb",
+    "difficulty": 4,
+    "difficultyLabel": "高危",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-74",
+      "title": "莪术三棱与水蛭",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 4/4 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-75",
+    "title": "天南星与白附子",
+    "category": "herb",
+    "difficulty": 4,
+    "difficultyLabel": "高危",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-75",
+      "title": "天南星与白附子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-76",
+    "title": "瓜蒌",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-76",
+      "title": "瓜蒌",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-77",
+    "title": "竹茹与前胡",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-77",
+      "title": "竹茹与前胡",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-78",
+    "title": "浙贝母",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-78",
+      "title": "浙贝母",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-79",
+    "title": "款冬花紫菀百部",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-79",
+      "title": "款冬花紫菀百部",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-80",
+    "title": "桑白皮与葶苈子",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-80",
+      "title": "桑白皮与葶苈子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-81",
+    "title": "远志柏子仁合欢皮",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-81",
+      "title": "远志柏子仁合欢皮",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-82",
+    "title": "磁石与龙骨",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-82",
+      "title": "磁石与龙骨",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-83",
+    "title": "钩藤与羚羊角",
+    "category": "herb",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-83",
+      "title": "钩藤与羚羊角",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-84",
+    "title": "石决明与牡蛎",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-84",
+      "title": "石决明与牡蛎",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-85",
+    "title": "全蝎蜈蚣僵蚕",
+    "category": "herb",
+    "difficulty": 4,
+    "difficultyLabel": "高危",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-85",
+      "title": "全蝎蜈蚣僵蚕",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-86",
+    "title": "开窍药概述与麝香、冰片",
+    "category": "herb",
+    "difficulty": 4,
+    "difficultyLabel": "高危",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-86",
+      "title": "开窍药概述与麝香、冰片",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-87",
+    "title": "党参与白术",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-87",
+      "title": "党参与白术",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-88",
+    "title": "甘草",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [
+      {
+        "layer": "安全红线",
+        "kind": "J",
+        "reason": "高风险药材「甘草」注入红线：【高风险】反海藻、大戟、甘遂、芫花；大剂量久服致水肿、血压升高，不得与禁忌药同用"
+      }
+    ],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-88",
+      "title": "甘草",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-89",
+    "title": "熟地黄与白芍",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-89",
+      "title": "熟地黄与白芍",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-90",
+    "title": "阿胶与何首乌",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-90",
+      "title": "阿胶与何首乌",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-91",
+    "title": "枸杞子与女贞子",
+    "category": "herb",
+    "difficulty": 1,
+    "difficultyLabel": "简单",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-91",
+      "title": "枸杞子与女贞子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb5-g-92",
+    "title": "杜仲续断菟丝子",
+    "category": "herb",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中药学》规划教材",
+      "《中药学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb5-g-92",
+      "title": "杜仲续断菟丝子",
+      "category": "herb",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  }
+]

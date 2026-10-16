@@ -1,0 +1,1649 @@
+{
+  "seed": "phase-5/batch-3",
+  "genLabel": "Phase 5 · Batch-3 · 30 nodes（D 腧穴学补足 30→60，达 33 学科蓝图目标下限）",
+  "total": 30,
+  "note": "30 个真实知识节点（Batch-3：D 腧穴学补足，单穴要穴 15 + 特定穴应用/奇穴/案例 15）。D 腧穴学累计 60 节点，达 33 学科蓝图目标区间下限 [60,75]。",
+  "samples": [
+    {
+      "id": "pb5-ac-31",
+      "title": "手阳明大肠经要穴：合谷",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "孕妇禁忌",
+        "原穴",
+        "面口病要穴"
+      ],
+      "intent": "掌握合谷定位与主治，牢记孕妇禁针的安全红线。",
+      "learning": {
+        "knowledge": "合谷在手背第2掌骨桡侧的中点处（拇、食指并拢时肌肉最高点即虎口）。为手阳明大肠经原穴，主治头痛、目赤肿痛、齿痛、鼻衄、口眼㖞斜、耳聋、咽喉肿痛、热病无汗或多汗、腹痛便秘、经闭、滞产，尤善治面口五官病（四总穴歌「面口合谷收」）。原穴可调本经虚实，配太冲名「开四关」，镇静息风治头痛眩晕。直刺0.5～1寸，孕妇禁针。",
+        "misjudgment": "错：合谷主治以头面病为主，故孕妇头痛时可放心使用。",
+        "reasoning": "合谷作为原穴，为什么能治疗面口五官病而不仅是手部局部病？",
+        "feedback": "合谷循行路线虽在上肢，但为大肠经原穴且与肺经相表里，经脉上达头面，故远治面口病；但孕妇禁针的安全红线必须严格遵循。",
+        "transfer": "小儿高热惊厥欲配穴镇惊，合谷与太冲相配的依据是什么？"
+      },
+      "stdJudgment": "合谷为手阳明大肠经原穴，主治面口五官病与热病，孕妇禁针。",
+      "coreDefinition": "合谷定位于手背第2掌骨桡侧中点，为面口病要穴（面口合谷收），原穴主本经虚实。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材（孕妇禁针）",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "面口合谷收",
+          "canon": "明·徐凤《针灸大全》",
+          "chapter": "",
+          "sourceType": "traditional_commentary",
+          "status": "teaching_inference"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "合谷为妊娠禁忌穴，孕妇禁针；针感强，体虚者手法宜轻。",
+        "prohibitions": [
+          "孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-32",
+      "title": "手阳明大肠经要穴：曲池手三里迎香",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "清热要穴",
+        "合穴"
+      ],
+      "intent": "掌握曲池、手三里、迎香三穴定位主治与清热应用。",
+      "learning": {
+        "knowledge": "曲池为手阳明大肠经合穴，屈肘成直角时肘横纹外侧端与肱骨外上髁连线中点，主治发热、咽喉肿痛、齿痛、目赤肿痛、上肢不遂、肘臂疼痛、瘾疹、湿疹、腹痛吐泻、高血压，为清热要穴，直刺1～1.5寸。手三里在肘横纹下2寸，主治上肢不遂、肘臂疼痛、腹胀、齿痛颊肿。迎香在鼻翼外缘中点旁开0.5寸鼻唇沟中，主治鼻塞、鼻衄、口㖞，配四白、地仓治面瘫，配胆俞、阳陵泉治胆道蛔虫症，斜刺或平刺0.3～0.5寸。",
+        "misjudgment": "错：迎香穴只治鼻塞流涕，不用于其他疾病。",
+        "reasoning": "曲池为何被列为清热要穴，其治疗瘾疹、高血压的机理是什么？",
+        "feedback": "曲池为合穴，合主逆气而泄，善清阳明经热与血分之热，故治热病、瘾疹；阳明经多气多血，曲池又能调节血压。",
+        "transfer": "患者上肢痿痹，取曲池、手三里、合谷三穴，配伍的理论依据是什么？"
+      },
+      "stdJudgment": "曲池为清热要穴治热病瘾疹，手三里治上肢不遂，迎香专治鼻病。",
+      "coreDefinition": "曲池（合穴）清解阳明热邪，手三里通经活络，迎香通利鼻窍兼治胆道蛔虫。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "曲池、手三里针刺常规深度即可；迎香可斜刺或平刺0.3～0.5寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-33",
+      "title": "足阳明胃经要穴：足三里",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "保健要穴",
+        "下合穴",
+        "胃经"
+      ],
+      "intent": "掌握足三里定位主治与保健应用，理解「肚腹三里留」。",
+      "learning": {
+        "knowledge": "足三里为足阳明胃经合穴、胃之下合穴，定位在犊鼻穴（外膝眼）下3寸、胫骨前嵴外一横指处。主治胃痛、呕吐、腹胀、泄泻、痢疾、便秘、乳痈、虚劳羸瘦、下肢痿痹、癫狂痫，为治胃肠病要穴（四总穴歌「肚腹三里留」），又为强壮保健要穴（「若要安，三里常不干」，常灸可扶正培元）。配中脘、内关治胃痛呕吐；配天枢、上巨虚治泄泻痢疾；配阳陵泉、悬钟治下肢痿痹。直刺1～2寸，可灸。",
+        "misjudgment": "错：足三里只管胃痛腹泻，与全身虚劳保健无关。",
+        "reasoning": "足三里既能治胃腹实证泄泻，又能补虚羸瘦，其双向调节如何理解？",
+        "feedback": "足三里为胃经合穴、胃下合穴，胃为水谷之海、气血生化之源，故本穴既能通调胃腑气机治实证，又能健脾益气充养后天治虚证，属双向调节。",
+        "transfer": "中老年人常灸足三里保健，与「治未病」思想的联系是什么？"
+      },
+      "stdJudgment": "足三里为胃下合穴与合穴，治胃腹诸病兼强壮保健，为养生要穴。",
+      "coreDefinition": "足三里在犊鼻下3寸胫骨前嵴外一横指，肚腹疾病必用之穴（肚腹三里留），亦是保健灸首选。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.tonification",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材（强壮保健）",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "肚腹三里留",
+          "canon": "明·徐凤《针灸大全》",
+          "chapter": "",
+          "sourceType": "traditional_commentary",
+          "status": "teaching_inference"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "足三里针刺常规深度1～2寸；保健常用艾灸，灸后可防病强身。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-34",
+      "title": "足阳明胃经要穴：上巨虚下巨虚丰隆",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "下合穴",
+        "络穴",
+        "化痰要穴"
+      ],
+      "intent": "掌握上巨虚、下巨虚为大小肠下合穴，丰隆为化痰要穴。",
+      "learning": {
+        "knowledge": "上巨虚在足三里下3寸，为大肠下合穴，主治肠鸣腹痛、泄泻、便秘、痢疾、肠痈、下肢痿痹，合治大肠腑病；下巨虚在上巨虚下3寸，为小肠下合穴，主治小腹痛、泄泻、痢疾、乳痈、下肢痿痹，合治小肠腑病。丰隆在外踝尖上8寸、条口穴外1寸、胫骨前嵴外二横指处，为足阳明经络穴，主治头痛眩晕、咳嗽痰多、呕吐、便秘、癫狂痫、下肢痿痹，为化痰要穴（「百病多由痰作祟」，丰隆祛有形无形之痰），配中脘、内关治痰湿中阻呕吐。",
+        "misjudgment": "错：丰隆只治咳嗽痰多，眩晕、癫狂痫等与痰无关的病证不用它。",
+        "reasoning": "丰隆治眩晕、癫狂痫，依据「化痰」这一核心功效，如何从痰论治这些病？",
+        "feedback": "眩晕、癫狂痫多由痰浊蒙蔽清窍或蒙蔽心神所致，丰隆健脾化痰、祛除痰浊之源，故能治无形之痰引起的多种病证，体现异病同治。",
+        "transfer": "患者痢疾腹痛，取上巨虚为主穴，为什么不用足三里作为下合穴主穴？"
+      },
+      "stdJudgment": "上巨虚为大肠下合穴、下巨虚为小肠下合穴，丰隆为化痰第一要穴。",
+      "coreDefinition": "上下巨虚合治大小肠腑病，丰隆健脾化痰治痰浊诸证（有形之痰与无形之痰）。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（下合穴/络穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "合治内腑",
+          "canon": "《灵枢·邪气脏腑病形》",
+          "chapter": "邪气脏腑病形第四",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "荥输治外经，合治内腑"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "三穴针刺常规深度即可；丰隆直刺1～1.5寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-35",
+      "title": "足阳明胃经要穴：天枢梁门内庭",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "募穴",
+        "清胃火"
+      ],
+      "intent": "掌握天枢（大肠募穴）治肠腑、内庭清胃火的应用。",
+      "learning": {
+        "knowledge": "天枢在脐中旁开2寸，为手阳明大肠经募穴，主治腹痛、腹胀、肠鸣、泄泻、痢疾、便秘、月经不调、痛经，为治肠腑病要穴，直刺1～1.5寸，可灸。梁门在脐上4寸旁开2寸，主治胃痛、呕吐、食欲不振、腹胀泄泻。内庭在足背第2、3趾间缝纹端，为足阳明胃经荥穴，主治齿痛、咽喉肿痛、口㖞、鼻衄、胃痛吐酸、腹胀、泄泻、痢疾、便秘、足背肿痛、热病，荥主身热，善清胃火治牙痛口臭，直刺或斜刺0.5～0.8寸。",
+        "misjudgment": "错：内庭治齿痛，是因为它位于足部能通经活络。",
+        "reasoning": "内庭作为荥穴为什么专治胃火牙痛、口臭等热证？",
+        "feedback": "荥主身热，荥穴善治热证；内庭为胃经荥穴，胃火循经上炎致齿痛口臭，故内庭清泻胃火而治之。",
+        "transfer": "患者便秘数日，为何取天枢既可用补法又可用泻法？"
+      },
+      "stdJudgment": "天枢为大肠募穴主治肠腑病，梁门治胃脘，内庭清阳明胃火。",
+      "coreDefinition": "天枢调肠腑（泄泻便秘皆治），梁门和胃降逆，内庭为荥穴清胃火治齿痛口疮。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（募穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "腹部穴位针刺注意避开腹直肌过深；天枢直刺1～1.5寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-36",
+      "title": "足太阴脾经要穴：三阴交",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "孕妇禁忌",
+        "交会穴",
+        "妇科要穴"
+      ],
+      "intent": "掌握三阴交定位主治，牢记孕妇禁针红线，理解足三阴交会意义。",
+      "learning": {
+        "knowledge": "三阴交在内踝尖上3寸、胫骨内侧缘后际，为足太阴脾经穴，足太阴、足少阴、足厥阴三经交会于此。主治月经不调、痛经、崩漏、带下、经闭、产后血晕、遗精、阳痿、遗尿、小便不利、失眠、腹胀、泄泻、下肢痿痹，为妇科调经要穴，兼健脾、疏肝、益肾。直刺1～1.5寸；孕妇禁针（有堕胎风险）。配关元、血海治月经不调；配神门、心俞治失眠；配天枢、上巨虚治脾虚泄泻。",
+        "misjudgment": "错：三阴交只治妇科病，男性疾病和脾胃病不用它。",
+        "reasoning": "三阴交为什么能同时调治妇科、脾胃、泌尿生殖三类疾病？",
+        "feedback": "三阴交为足三阴经交会穴，肝脾肾三经同调：脾主运化治脾胃病，肝藏血调经治妇科病，肾主水司二便治泌尿生殖病，故适用范围广。",
+        "transfer": "孕妇出现失眠，为何三阴交不能作为首选穴？"
+      },
+      "stdJudgment": "三阴交为足三阴经交会穴，治妇科病、脾胃病与失眠，孕妇禁针。",
+      "coreDefinition": "三阴交在内踝尖上3寸胫骨内侧缘后际，脾肝肾三经交会，为妇科第一要穴。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材（孕妇禁针）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "三阴交为妊娠禁忌穴，孕妇禁针；有堕胎风险。",
+        "prohibitions": [
+          "孕妇禁针，有堕胎风险"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-37",
+      "title": "足太阴脾经要穴：阴陵泉血海公孙",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "利水要穴",
+        "活血要穴",
+        "八脉交会穴"
+      ],
+      "intent": "掌握阴陵泉利水、血海活血、公孙通冲脉治脾病。",
+      "learning": {
+        "knowledge": "阴陵泉为足太阴脾经合穴，在胫骨内侧髁下方凹陷中，主治腹胀、泄泻、水肿、黄疸、小便不利或失禁、膝痛，为利水渗湿要穴（配水分、足三里治水肿）。血海在髌底内侧端上2寸、股内侧肌隆起处，主治月经不调、痛经、经闭、崩漏、瘾疹、湿疹、丹毒、膝股内侧痛，为活血调经要穴。公孙在足内侧第1跖骨基底部前下方赤白肉际处，为脾经络穴、八脉交会穴之一（通冲脉），主治胃痛、呕吐、腹痛、泄泻、痢疾、心烦失眠、奔豚气，配内关（通阴维）治胃心胸病。",
+        "misjudgment": "错：公孙是脾经络穴，只能治脾胃病，不能治心胸病。",
+        "reasoning": "公孙为八脉交会穴通冲脉，为什么能配内关治疗胃心胸疾患？",
+        "feedback": "公孙通冲脉、内关通阴维，冲脉为十二经之海、阴维维系诸阴，公孙配内关主治心、胸、胃病，属八脉交会穴的经典配对（合于胸胃）。",
+        "transfer": "患者水肿明显，取阴陵泉配水分，为什么能利水消肿？"
+      },
+      "stdJudgment": "阴陵泉利水渗湿，血海活血调经，公孙通冲脉治脾胃与心胸病。",
+      "coreDefinition": "阴陵泉为治湿要穴，血海为妇科调血要穴，公孙通冲脉主脾胃与心胸病。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（络穴/八脉交会穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "三穴针刺常规深度即可；血海直刺1～1.5寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-38",
+      "title": "手少阴心经要穴：神门少海通里",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "安神要穴",
+        "原穴",
+        "络穴"
+      ],
+      "intent": "掌握神门安神、少海治肘臂、通里治舌强失语。",
+      "learning": {
+        "knowledge": "神门在腕掌侧横纹尺侧端、尺侧腕屈肌腱桡侧凹陷中，为手少阴心经输穴、原穴，主治心痛、心烦、惊悸、怔忡、健忘、失眠、癫狂痫、胸胁痛，为安神定志要穴，配三阴交、百会治失眠，直刺0.3～0.5寸。少海（合穴）在屈肘肘横纹内侧端与肱骨内上髁连线中点，主治心痛、肘臂挛痛、瘰疬、头项痛、腋胁痛。通里（络穴）在腕横纹上1寸、尺侧腕屈肌腱桡侧缘，主治心悸怔忡、暴喑、舌强不语、腕臂痛，为心经络穴，别走小肠，治舌强语謇。",
+        "misjudgment": "错：通里是络穴，主治应以表里经小肠病为主。",
+        "reasoning": "神门治失眠的核心机理是什么，为什么它是心经原穴？",
+        "feedback": "神门为心经原穴，心藏神、主血脉，神门调心神、宁心志，故治心悸失眠健忘；原穴能调节本经虚实，失眠属心神不宁者取之神效。",
+        "transfer": "患者中风后舌强不语，为什么首选通里？"
+      },
+      "stdJudgment": "神门为心经原穴善安神定志，少海治肘臂挛痛，通里治暴喑舌强。",
+      "coreDefinition": "神门安神治心悸失眠，少海为合穴治肘臂与瘰疬，通里为络穴治舌系病。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（原穴/络穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "腕部穴位针刺时避开尺动脉；神门直刺0.3～0.5寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-39",
+      "title": "手太阳小肠经要穴：后溪听宫养老",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "八脉交会穴",
+        "郄穴",
+        "通督脉"
+      ],
+      "intent": "掌握后溪通督脉治颈腰痛、听宫治耳病、养老治目疾。",
+      "learning": {
+        "knowledge": "后溪在微握拳时第5掌指关节尺侧近端赤白肉际凹陷中，为手太阳小肠经输穴、八脉交会穴之一（通督脉），主治头项强痛、腰背痛、手指及肘臂挛痛、耳聋、目赤、癫狂痫、疟疾，通督脉故善治颈腰椎病，向掌骨方向透刺0.5～1寸。听宫在耳屏前、下颌骨髁状突后方张口凹陷中，主治耳鸣、耳聋、聤耳、齿痛，张口直刺1～1.5寸。养老（郄穴）在尺骨茎突桡侧骨缝凹陷中（屈肘掌心向胸），主治目视不明、肩背肘臂酸痛、急性腰痛，为小肠经郄穴，郄穴治急症。",
+        "misjudgment": "错：后溪是小肠经穴，只能治小肠腑病和手指病。",
+        "reasoning": "后溪作为小肠经输穴，为何能治疗腰背痛、头项强痛？",
+        "feedback": "后溪为八脉交会穴通督脉，督脉行于脊背正中，故后溪可治腰背颈项痛；输主体重节痛，亦合其治痛之能。",
+        "transfer": "急性腰扭伤患者取后溪强刺激并活动腰部，其取穴思路是什么？"
+      },
+      "stdJudgment": "后溪通督脉主治颈项腰背痛，听宫治耳鸣耳聋，养老为郄穴治急性痛。",
+      "coreDefinition": "后溪为八脉交会穴通督脉，听宫治耳疾，养老治目视不明与急性腰痛。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（输穴/八脉交会穴/郄穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "后溪可向掌骨间透刺；听宫张口取穴，针刺时嘱患者张口。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-40",
+      "title": "足太阳膀胱经要穴：委中承山昆仑",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "下合穴",
+        "治痔要穴",
+        "孕妇禁忌"
+      ],
+      "intent": "掌握委中治腰背（腰背委中求）、承山治痔、昆仑定位与孕妇禁忌。",
+      "learning": {
+        "knowledge": "委中在腘横纹中点，为足太阳膀胱经合穴、膀胱下合穴，主治腰背痛、下肢痿痹、腹痛、吐泻、小便不利、遗尿、丹毒，四总穴歌「腰背委中求」，为治腰背痛要穴；深部有腘动静脉，禁深刺，常用三棱针点刺放血治急性腰扭伤。承山在腓肠肌两肌腹之间凹陷顶端，主治腰腿拘急疼痛、小腿转筋、痔疾、便秘，为治痔要穴，直刺1～2寸。昆仑在外踝尖与跟腱之间凹陷中，为膀胱经经穴，主治头痛、项强、目眩、腰骶痛、足踝肿痛、癫痫、难产；孕妇禁针。",
+        "misjudgment": "错：委中治腰背痛，故腰痛时深刺委中效果更佳。",
+        "reasoning": "委中位于腘窝，为什么能治腰背痛，且常用放血疗法？",
+        "feedback": "委中为膀胱下合穴，膀胱经「挟脊抵腰中」，经脉所过主治所及，故治腰背痛；急性腰扭伤痛处络脉瘀滞，委中刺络放血可祛瘀通络、急则治标。",
+        "transfer": "孕妇腰背痛能否用昆仑穴，为什么？"
+      },
+      "stdJudgment": "委中治腰背痛（腰背委中求），承山治痔疾腿抽筋，昆仑治头项足踝痛且孕妇禁针。",
+      "coreDefinition": "委中为膀胱下合穴主治腰背与下肢病，承山治痔疾转筋，昆仑经穴治头项踝痛。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材（孕妇禁针）",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "腰背委中求",
+          "canon": "明·徐凤《针灸大全》",
+          "chapter": "",
+          "sourceType": "traditional_commentary",
+          "status": "teaching_inference"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "委中深部为腘动脉，禁深刺，常用刺络放血；昆仑孕妇禁针。",
+        "prohibitions": [
+          "孕妇禁针（昆仑）"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-41",
+      "title": "足太阳膀胱经要穴：申脉至阴飞扬",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "经络穴位",
+        "八脉交会穴",
+        "井穴",
+        "孕妇禁忌"
+      ],
+      "intent": "掌握申脉通阳跷治失眠癫狂、至阴矫正胎位、飞扬络穴治痔。",
+      "learning": {
+        "knowledge": "申脉在外踝直下方凹陷中，为八脉交会穴之一（通阳跷脉），主治头痛、眩晕、癫狂痫、失眠、嗜卧、腰腿酸痛、目赤肿痛、项强，配照海（通阴跷）治失眠（阳跷阴跷平衡则寤寐有序）。至阴在足小趾外侧趾甲角旁0.1寸，为膀胱经井穴，主治胎位不正、难产、头痛、目痛、鼻塞、鼻衄，艾灸至阴为矫正胎位常用法；孕妇禁针。飞扬在昆仑穴直上7寸、承山外下方1寸处，为膀胱经络穴，主治头痛、目眩、腰腿疼痛、痔疾，络穴沟通表里（膀胱与肾），治表里经病。",
+        "misjudgment": "错：至阴是小趾井穴，主治以急救开窍为主。",
+        "reasoning": "至阴为井穴，为什么艾灸它能矫正胎位不正？",
+        "feedback": "井穴位于肢端，为经气所出之处，膀胱经「从巅入络脑，还出别下项，挟脊抵腰中，络肾属膀胱」，其经脉下连至阴；灸至阴可激发经气、调节胞宫，为历代验证的转胎要法。",
+        "transfer": "失眠患者取申脉配照海，如何从阴阳跷脉角度解释其安眠作用？"
+      },
+      "stdJudgment": "申脉通阳跷治失眠癫狂，至阴为井穴灸之矫正胎位，飞扬为络穴治腰腿痔疾。",
+      "coreDefinition": "申脉主阳跷脉病，至阴灸之转胎，飞扬治腰腿痛与痔疾。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材（孕妇禁针）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "至阴孕妇禁针，灸法可矫正胎位；申脉针刺常规深度。",
+        "prohibitions": [
+          "孕妇禁针（至阴）"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-42",
+      "title": "足少阴肾经要穴：太溪照海涌泉",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "补肾要穴",
+        "八脉交会穴",
+        "井穴急救"
+      ],
+      "intent": "掌握太溪补肾、照海通阴跷治咽痛失眠、涌泉急救醒神。",
+      "learning": {
+        "knowledge": "太溪在内踝尖与跟腱之间凹陷中，为足少阴肾经输穴、原穴，主治头痛、目眩、耳鸣、耳聋、失眠、健忘、月经不调、遗精、阳痿、小便频数、腰脊痛、足跟痛、气喘、消渴，为补肾要穴（滋阴益肾、壮阳强腰），配肾俞、命门治肾虚腰痛，直刺0.5～1寸。照海在内踝尖下1寸内踝下缘凹陷中，为八脉交会穴之一（通阴跷脉），主治失眠、癫痫、咽喉干痛、目赤肿痛、月经不调、痛经、小便频数、便秘。涌泉在足底屈足卷趾时足心最凹陷处（约足底前1/3中点），为肾经井穴，主治昏厥、中暑、小儿惊风、癫痫、头痛、头晕、咽喉肿痛、小便不利、便秘，为急救醒神要穴，可重刺激或灸。",
+        "misjudgment": "错：涌泉是井穴，只用于急救昏迷，不用于头晕失眠。",
+        "reasoning": "涌泉治昏厥急救与引火归元治头晕，两种作用如何统一？",
+        "feedback": "井穴为经气所出，涌泉属肾经井穴，善开窍醒神苏厥；肾藏精生髓，涌泉又引虚火下行，故可治肾阴亏虚、虚火上炎之头晕失眠，一穴两用。",
+        "transfer": "肾虚腰痛患者取太溪配肾俞、命门，为何太溪是原穴而非普通经穴？"
+      },
+      "stdJudgment": "太溪为肾经原穴补肾要穴，照海通阴跷治咽痛失眠，涌泉急救开窍醒神。",
+      "coreDefinition": "太溪滋肾阴补肾阳，照海利咽安神，涌泉急救苏厥又引火归元。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（原穴/八脉交会穴/井穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "太溪针刺时避开胫后动脉；涌泉可直刺0.5～1寸，急救时重刺激。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-43",
+      "title": "手厥阴心包经要穴：内关曲泽劳宫",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "八脉交会穴",
+        "宽胸要穴",
+        "清心火"
+      ],
+      "intent": "掌握内关宽胸理气治心胃病、曲泽放血治中暑、劳宫清心火。",
+      "learning": {
+        "knowledge": "内关在腕掌侧横纹上2寸、掌长肌腱与桡侧腕屈肌腱之间，为手厥阴心包经络穴、八脉交会穴之一（通阴维脉），主治心痛、心悸、胸闷、胃痛、呕吐、呃逆、失眠、眩晕、癫痫、肘臂挛痛，为宽胸理气、和胃止呕要穴（配公孙治胃心胸病，配膻中治胸痹）。曲泽（合穴）在肘横纹中、肱二头肌腱尺侧凹陷中，主治心痛、心悸、胃痛、呕吐、泄泻、肘臂挛痛，中暑高热可点刺放血。劳宫（荥穴）在掌心第2、3掌骨间偏第3掌骨桡侧握拳时中指尖下，主治心痛、癫狂痫、口疮、口臭、鹅掌风，荥主身热，善清心火。",
+        "misjudgment": "错：内关是心包经络穴，主治以心痛心悸为主，不用于呕吐呃逆。",
+        "reasoning": "内关为什么能同时治疗心胸病和胃病？",
+        "feedback": "内关通阴维脉，阴维维系诸阴经，主治心与胃之疾患；心包经「起于胸中，下膈，历络三焦」，经脉过胃脘，故内关宽胸理气、和胃降逆，心胃同治。",
+        "transfer": "晕车呕吐患者按压内关为何有效，其机理与主治如何对应？"
+      },
+      "stdJudgment": "内关宽胸理气治心胃病，曲泽放血清热治中暑，劳宫清心泻火治口疮。",
+      "coreDefinition": "内关（络穴通阴维）治心胸胃病，曲泽（合穴）放血治中暑热病，劳宫（荥穴）清心火。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（络穴/八脉交会穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "内关针刺时避开正中神经强刺激；曲泽可点刺放血。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-44",
+      "title": "手少阳三焦经要穴：外关支沟翳风",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "八脉交会穴",
+        "治便秘要穴",
+        "耳病"
+      ],
+      "intent": "掌握外关通阳维解表退热、支沟治便秘、翳风治耳病。",
+      "learning": {
+        "knowledge": "外关在腕背横纹上2寸、尺骨与桡骨之间，为手少阳三焦经络穴、八脉交会穴之一（通阳维脉），主治热病、头痛、目赤肿痛、耳鸣、耳聋、胁肋痛、上肢痿痹，阳维主表，故外关解表退热、疏风通络。支沟（经穴）在腕背横纹上3寸、尺桡骨之间，主治便秘、胁肋痛、耳鸣耳聋、暴喑、热病，为治便秘要穴（配天枢、足三里通便）。翳风在耳垂后方、乳突下端前方凹陷中，主治耳鸣、耳聋、口眼㖞斜、牙关紧闭、颊肿、瘰疬，为治耳病要穴，针刺朝鼻尖方向，禁向对侧深刺。",
+        "misjudgment": "错：支沟治便秘是因为它在手臂上能刺激肠道蠕动。",
+        "reasoning": "支沟作为三焦经经穴，为何成为治便秘的专穴？",
+        "feedback": "三焦主气化、司水道，支沟为三焦经经穴，能宣通气机、疏利三焦，气机通畅则腑气下行，故善治便秘；其机理在调气而非直接刺激肠道。",
+        "transfer": "感冒发热患者取外关配风池，与「阳维主表」有什么关系？"
+      },
+      "stdJudgment": "外关通阳维解表退热，支沟为治便秘要穴，翳风治耳病与口眼㖞斜。",
+      "coreDefinition": "外关（络穴通阳维）治外感热病与耳胁病，支沟（经穴）通便，翳风治耳鸣口㖞。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（络穴/八脉交会穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "翳风针刺方向朝鼻尖，禁向对侧深刺；外关直刺0.5～1寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-45",
+      "title": "足少阳胆经要穴：阳陵泉悬钟丘墟",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "筋会",
+        "髓会",
+        "原穴"
+      ],
+      "intent": "掌握阳陵泉筋会、悬钟髓会、丘墟原穴的定位主治。",
+      "learning": {
+        "knowledge": "阳陵泉在腓骨小头前下方凹陷中，为足少阳胆经合穴、八会穴之筋会，主治胁痛、口苦、黄疸、呕吐、下肢痿痹、膝肿痛、筋脉拘挛、小儿惊风，为治筋病要穴（筋会阳陵泉，凡筋病皆可选用），配太冲治胁痛口苦。悬钟（绝骨）在外踝尖上3寸、腓骨前缘，为八会穴之髓会，主治项强、胸胁痛、下肢痿痹、髓海不足之眩晕耳鸣。丘墟（原穴）在外踝前下方、趾长伸肌腱外侧凹陷中，主治目赤肿痛、目翳、颈项痛、胸胁痛、下肢痿痹、足踝肿痛，原穴主胆腑虚实。",
+        "misjudgment": "错：阳陵泉是胆经合穴，主治应限于胆腑病如口苦黄疸。",
+        "reasoning": "阳陵泉作为「筋会」，为什么各种筋病（痉挛、痿痹、惊风）都取它？",
+        "feedback": "八会穴中筋会阳陵泉，凡筋脉病证（筋挛、筋痿、抽搐、痿痹）均可选用阳陵泉，这是特定穴「会穴」主治规律的体现，超出单纯胆腑病范围。",
+        "transfer": "中老年人头晕耳鸣属髓海不足，取悬钟的依据是什么？"
+      },
+      "stdJudgment": "阳陵泉为筋会治筋病，悬钟为髓会治髓病，丘墟为原穴治胆腑病。",
+      "coreDefinition": "阳陵泉（合穴、筋会）治筋脉拘挛，悬钟（髓会）治髓海不足眩晕，丘墟（原穴）治胆病胁痛。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（合穴/筋会/髓会/原穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "八会",
+          "canon": "《难经》",
+          "chapter": "四十五难",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "腑会太仓，脏会季胁，筋会阳陵泉，髓会绝骨，血会膈俞，骨会大杼，脉会太渊，气会三焦外一筋直两乳内也"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "三穴针刺常规深度即可；阳陵泉直刺1～1.5寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-46",
+      "title": "足厥阴肝经要穴：太冲行间期门章门",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "疏肝要穴",
+        "募穴",
+        "脏会"
+      ],
+      "intent": "掌握太冲疏肝、行间清肝火、期门章门为募穴的应用。",
+      "learning": {
+        "knowledge": "太冲在足背第1、2跖骨间、跖骨底结合部前方凹陷中，为足厥阴肝经输穴、原穴，主治头痛、眩晕、目赤肿痛、口㖞、胁痛、郁证、疝气、月经不调、癫痫、下肢痿痹，为疏肝理气要穴，配合谷为「开四关」。行间（荥穴）在足背第1、2趾间缝纹端，主治头痛、目眩、目赤肿痛、口㖞、胁痛、疝气、崩漏、癫痫、失眠，荥主身热，善清肝火。期门（肝之募穴）在乳头直下第6肋间隙，主治胸胁胀痛、乳痈、呕吐、呃逆、腹胀；禁深刺。章门（脾之募穴、八会穴之脏会）在第11肋游离端下方，主治腹胀、腹痛、肠鸣、泄泻、胁痛、痞块。",
+        "misjudgment": "错：太冲只能治肝经循行部位的病证，不能治头痛眩晕。",
+        "reasoning": "太冲为肝经原穴，为什么能治肝阳上亢的头痛眩晕？",
+        "feedback": "肝为刚脏、主升主动，肝阳上亢循经上扰清窍则头痛眩晕；太冲为原穴平肝潜阳、疏肝降逆，配太溪（滋肾阴）可育阴潜阳，故治之。",
+        "transfer": "患者情志抑郁、胸胁胀满，为何首选太冲配期门？"
+      },
+      "stdJudgment": "太冲为肝经原穴疏肝理气，行间清泻肝火，期门为肝募、章门为脾募兼脏会。",
+      "coreDefinition": "太冲（输穴原穴）疏肝解郁，行间（荥穴）清肝火，期门（肝募）章门（脾募、脏会）调脏腑。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（原穴/募穴/脏会）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "期门、章门深部为肝脾，禁深刺、禁直刺过深；太冲直刺0.5～0.8寸。",
+        "prohibitions": [
+          "期门、章门禁深刺（深部为肝脾）"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-47",
+      "title": "任脉要穴：中脘膻中天突中极",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "腑会",
+        "气会",
+        "募穴",
+        "孕妇禁忌"
+      ],
+      "intent": "掌握中脘腑会、膻中气会、天突治喉、中极膀胱募穴的应用。",
+      "learning": {
+        "knowledge": "中脘在脐上4寸前正中线上，为胃之募穴、八会穴之腑会，主治胃痛、腹胀、呕吐、呃逆、吞酸、泄泻、黄疸、癫狂，腑会治六腑病，配足三里、内关治胃痛。膻中在前正中线平第4肋间隙、两乳头连线中点，为心包之募穴、八会穴之气会，主治胸闷、胸痛、心悸、咳喘、乳少、呃逆，气会治气病，配内关、心俞治胸痹。天突在胸骨上窝中央，主治咳嗽、气喘、咽喉肿痛、暴喑、瘿气、梅核气，先直刺0.2寸后向下沿胸骨后缘斜刺，禁深刺。中极在脐下4寸前正中线上，为膀胱之募穴，主治小便不利、遗尿、癃闭、遗精、阳痿、月经不调、痛经、带下；孕妇禁针。",
+        "misjudgment": "错：中脘只能治胃病，六腑病用它没有依据。",
+        "reasoning": "中脘为腑会，为何能治疗六腑病而不限于胃腑？",
+        "feedback": "八会穴中「腑会太仓（中脘）」，六腑以通为用、以降为顺，中脘为腑气会聚之处，调中脘即调六腑气机，故治胃、肠、胆等腑病。",
+        "transfer": "患者胸闷气短、善太息，取膻中为主穴的依据是什么？"
+      },
+      "stdJudgment": "中脘为腑会胃募治六腑病，膻中为气会治气病，天突治喉病，中极为膀胱募治小便病。",
+      "coreDefinition": "中脘和胃降逆，膻中理气宽胸，天突利咽平喘，中极调理膀胱与妇科。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（募穴/八会穴）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "天突深部为气管，禁深刺；中极孕妇禁针；腹部穴直刺1～1.5寸。",
+        "prohibitions": [
+          "孕妇禁针（中极）"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-48",
+      "title": "督脉要穴：大椎百会命门腰阳关至阳",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络穴位",
+        "退热要穴",
+        "升阳要穴",
+        "温阳要穴"
+      ],
+      "intent": "掌握大椎退热、百会升阳举陷、命门温阳、腰阳关至阳定位。",
+      "learning": {
+        "knowledge": "大椎在第7颈椎棘突下凹陷中，为督脉与手足三阳经交会穴，主治热病、疟疾、咳嗽、气喘、骨蒸盗汗、头痛项强、癫痫，为退热要穴（配曲池、合谷退热）。百会在前发际正中直上5寸、两耳尖连线中点，主治头痛、眩晕、中风失语、癫狂痫、健忘、脱肛、阴挺、泄泻，为升阳举陷要穴（配长强、承山治脱肛）。命门在第2腰椎棘突下凹陷中，主治腰脊强痛、遗精、阳痿、月经不调、泄泻、下肢痿痹，温补肾阳。腰阳关在第4腰椎棘突下凹陷中，主治腰骶疼痛、下肢痿痹、月经不调、遗精。至阳在第7胸椎棘突下凹陷中，主治胸胁胀痛、黄疸、咳嗽气喘、脊背强痛。",
+        "misjudgment": "错：大椎退热只适用于外感发热，内伤发热无效。",
+        "reasoning": "大椎为督脉与手足三阳经交会穴，为何能成为全身退热要穴？",
+        "feedback": "督脉总督诸阳，大椎为诸阳之会，能宣通阳气、透邪外出，故外感发热、内伤发热、疟疾骨蒸均可配用，尤善清解阳经热邪。",
+        "transfer": "久泻脱肛患者取百会，为何用灸法或平刺而不用深刺？"
+      },
+      "stdJudgment": "大椎为退热要穴，百会升阳举陷，命门温补肾阳，腰阳关至阳治脊痛。",
+      "coreDefinition": "大椎（三阳督脉之会）退热解表，百会升清举陷，命门温阳，腰阳关治腰骶、至阳治胸胁。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.specificPoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（督脉与手足三阳交会）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "大椎针刺方向宜稍向上，不可过深（1寸内）；百会平刺0.5～0.8寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-49",
+      "title": "经外奇穴补充：四神聪印堂太阳定喘夹脊",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "经外奇穴",
+        "安神",
+        "治喘"
+      ],
+      "intent": "掌握四神聪、印堂、太阳、定喘、夹脊五组奇穴定位与主治。",
+      "learning": {
+        "knowledge": "四神聪在百会前后左右各1寸共4穴，主治头痛、眩晕、失眠、健忘、癫痫、中风，为安神益智要穴（配神门、三阴交治失眠）。印堂在两眉头连线中点，主治头痛、眩晕、失眠、鼻塞、鼻衄、小儿惊风，为经外奇穴，斜刺或平刺0.3～0.5寸。太阳在眉梢与目外眦之间向后约1横指凹陷中，主治头痛、目赤肿痛、目眩、口眼㖞斜，头痛目赤可点刺放血。定喘在第7颈椎棘突下（大椎）旁开0.5寸，主治哮喘、咳嗽、落枕、肩背痛，为治喘经验穴。夹脊在第1胸椎至第5腰椎棘突下旁开0.5寸共34穴，上胸段治心肺、中胸段治肝胆脾胃、腰段治腰腹下肢病，直刺0.5～1寸。",
+        "misjudgment": "错：夹脊穴没有经脉归属，所以只能治局部脊背痛。",
+        "reasoning": "夹脊穴无经脉归属，为何能分节段治疗相应脏腑病？",
+        "feedback": "夹脊位于督脉与膀胱经之间，与脊神经节段及脏腑背俞穴位置相应，故按节段主治：上胸段心肺、中胸段脾胃肝胆、腰段腰腹下肢，属经验总结与神经节段理论的结合。",
+        "transfer": "哮喘急性发作时取定喘穴，其与主穴（如肺俞、膻中）如何分工？"
+      },
+      "stdJudgment": "四神聪安神治失眠，印堂治鼻与神志病，太阳治头痛目疾，定喘治咳喘，夹脊按节段主治。",
+      "coreDefinition": "五组经外奇穴各有专治：四神聪安神、印堂通鼻窍、太阳清头目、定喘平喘、夹脊调节段脏腑。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（太阳刺络放血）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "太阳穴深部近颞浅动脉，勿深刺，常用点刺放血；夹脊直刺0.5～1寸。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-50",
+      "title": "经外奇穴补充：十宣八邪八风外劳宫膝眼",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "经络穴位",
+        "经外奇穴",
+        "急救",
+        "局部病"
+      ],
+      "intent": "掌握十宣急救放血、八邪八风治手足病、外劳宫治落枕、膝眼治膝痛。",
+      "learning": {
+        "knowledge": "十宣在十指尖端距指甲游离缘0.1寸共10穴，主治昏迷、晕厥、中暑、热病、癫痫、咽喉肿痛、指端麻木，为急救开窍醒神要穴，常用三棱针点刺放血。八邪在手背各指间缝纹端赤白肉际共8穴，主治手背肿痛、手指麻木、毒蛇咬伤、烦热、目痛。八风在足背各趾间缝纹端赤白肉际共8穴，主治足跗肿痛、趾痛麻木、脚气、毒蛇咬伤。外劳宫（落枕穴）在手背第2、3掌骨间掌指关节后0.5寸凹陷中，主治落枕、手背肿痛、消化不良，为治落枕经验穴。膝眼在屈膝时髌韧带两侧凹陷中（内膝眼、外膝眼，外膝眼即犊鼻），主治膝痛、腿痛、脚气、鹤膝风，配阳陵泉、梁丘治膝骨关节炎。",
+        "misjudgment": "错：十宣只能用于急救昏迷，发热咽痛时无意义。",
+        "reasoning": "十宣点刺放血为什么既能急救开窍又能退热利咽？",
+        "feedback": "十宣为经气交接之末端，点刺放血可泄热开窍、疏通经气：热闭神昏则开窍醒神，风热咽痛则泄热消肿，异病同治于「泄热通络」。",
+        "transfer": "落枕患者取外劳宫强刺激并嘱活动颈部，这种远端取穴的思路是什么？"
+      },
+      "stdJudgment": "十宣急救开窍放血清热，八邪八风治手足局部病，外劳宫治落枕，膝眼治膝痛。",
+      "coreDefinition": "十宣为急救放血要穴，八邪八风主治手足痛麻，外劳宫为落枕经验穴，膝眼专治膝痛。",
+      "facts": [
+        {
+          "field": "acupoint.location",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "acupoint.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材（十宣放血）",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "十宣点刺放血注意消毒；膝眼直刺1～1.5寸，勿伤及关节腔。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-51",
+      "title": "特定穴：交会穴",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "特定穴",
+        "交会穴",
+        "主治规律"
+      ],
+      "intent": "掌握交会穴概念、代表穴与「治本经兼治交会经病」的主治规律。",
+      "learning": {
+        "knowledge": "交会穴是指两经或数经相交会合的腧穴，多分布在头面、躯干部。主治本经病证与所交会经脉的病证，扩大了单经主治范围。代表穴：三阴交（足太阴、少阴、厥阴交会，治脾肝肾三经病）、大椎（督脉与手足三阳经交会，治诸阳经热病）、中极、关元（任脉与足三阴经交会，治任脉与三阴病）、风池（足少阳与阳维脉交会）、百会（督脉与足太阳交会）、头维（足阳明与足少阳、阳维交会）。临床应用：妇科病取三阴交（脾统血、肝藏血、肾主生殖），退热取大椎（诸阳之会）。",
+        "misjudgment": "错：交会穴是几条经的穴位叠加，主治等于各经穴位之和。",
+        "reasoning": "三阴交既是脾经穴又是三阴经交会穴，其主治范围为什么比普通脾经穴更广？",
+        "feedback": "交会穴的气血来自数条经脉，刺激一次可同时调节多条经脉，故主治涵盖本经与交会经病证，如三阴交兼顾脾之运化、肝之藏血、肾之生殖，是「经脉所过，主治所及」的深化。",
+        "transfer": "遗尿患者取关元，与它是任脉、足三阴经交会穴有什么关系？"
+      },
+      "stdJudgment": "交会穴为两经或数经相交会合的腧穴，主治本经与所交会经脉的病证。",
+      "coreDefinition": "交会穴扩大主治范围：治本经病兼治交会经病，如三阴交治足三阴经病。",
+      "facts": [
+        {
+          "field": "specificPoint.concept",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.representatives",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "交会穴本身无特殊针刺禁忌，按所在部位常规操作。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-52",
+      "title": "特定穴临床应用：俞募配穴法",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "特定穴",
+        "俞募配穴",
+        "前后配穴"
+      ],
+      "intent": "掌握俞募配穴法的原理、配对规律与临床应用。",
+      "learning": {
+        "knowledge": "俞募配穴法：脏腑之气输注于背腰部的俞穴（背俞穴）与汇聚于胸腹部的募穴（募穴）相配，属前后配穴法，是特定穴配伍的重要方法。原理：阴病行阳、阳病行阴，募在阴俞在阳，俞募相配可前后呼应、调节脏腑阴阳。配对示例：肺病取肺俞配中府（肺募）；胃病取胃俞配中脘（胃募）；肝病取肝俞配期门（肝募）；膀胱病取膀胱俞配中极（膀胱募）；大肠病取大肠俞配天枢（大肠募）。临床应用：脏腑虚证多用俞穴灸补，实证多用募穴针泻，或俞募同用平调。",
+        "misjudgment": "错：俞募配穴就是前后各扎一针，无先后主次之分。",
+        "reasoning": "「五脏募皆在阴，而俞在阳」如何指导俞募配穴治疗脏腑病？",
+        "feedback": "背为阳、腹为阴，俞在阳主脏之背、募在阴主腑之腹；阴病行阳（脏病可取背俞）、阳病行阴（腑病可取腹募），俞募同用则阴阳同治、前后呼应，如胃痛取胃俞配中脘。",
+        "transfer": "患者咳嗽气喘属肺虚，俞募配穴应取哪两穴、用何补泻？"
+      },
+      "stdJudgment": "俞募配穴将背俞穴与胸腹募穴前后相配，治疗相应脏腑病证。",
+      "coreDefinition": "脏腑之气输注于背腰之俞穴、汇聚于胸腹之募穴，前后配穴共调脏腑阴阳。",
+      "facts": [
+        {
+          "field": "specificPoint.yushu",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.muxue",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.pairing",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "五脏募皆在阴",
+          "canon": "《难经》",
+          "chapter": "六十七难",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "五脏募皆在阴，而俞在阳者，何谓也？然：阴病行阳，阳病行阴，故令募在阴，俞在阳"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "背俞穴斜刺0.5～0.8寸，禁深刺以防伤及内脏；腹部募穴直刺按常规深度。",
+        "prohibitions": [
+          "背俞穴禁深刺（深部为内脏）"
+        ]
+      }
+    },
+    {
+      "id": "pb5-ac-53",
+      "title": "特定穴临床应用：原络配穴法",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "特定穴",
+        "原络配穴",
+        "表里经"
+      ],
+      "intent": "掌握原络配穴法的原理与配对规律（主客原络配穴）。",
+      "learning": {
+        "knowledge": "原络配穴法：以本经原穴为主（主），配与其相表里经脉的络穴为客（客），又称主客原络配穴，主治表里两经同病或脏腑相合之病。原理：原穴为脏腑原气留止之处，能调节本经脏腑虚实；络穴联络表里两经，刺之可通表里经气。配对示例：肺经病取太渊（肺经原穴）配合谷（大肠经络穴）；大肠经病取合谷（原）配列缺（肺经络穴）；脾经病取太白（原）配丰隆（胃经络穴）；心经病取神门（原）配支正（小肠经络穴）；肾经病取太溪（原）配飞扬（膀胱经络穴）；肝经病取太冲（原）配光明（胆经络穴）。",
+        "misjudgment": "错：原络配穴只是两个穴一起用，不讲究主客方向。",
+        "reasoning": "原络配穴为什么能同时治疗本经与相表里经的病证？",
+        "feedback": "原穴留止本经脏腑之原气，络穴沟通表里两经之经气，原络相配则表里同治、主客分明：如肺病咳嗽兼大肠腑气不调，取太渊（主）配合谷（客）可肺肠同治。",
+        "transfer": "患者胃脘痛兼脾虚泄泻，按原络配穴应如何选穴？"
+      },
+      "stdJudgment": "原络配穴法以本经原穴配表里经络穴，主治表里两经同病。",
+      "coreDefinition": "原穴主本经虚实、络穴联络表里，原络相配主客同治表里经病。",
+      "facts": [
+        {
+          "field": "specificPoint.yuan",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.luo",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.pairing",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "十二原",
+          "canon": "《灵枢·九针十二原》",
+          "chapter": "九针十二原第一",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "十二原者，五脏之所以禀三百六十五节气味也"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "无特殊禁忌，按所在部位常规操作。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-54",
+      "title": "特定穴临床应用：郄穴急救与八会穴应用",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "特定穴",
+        "郄穴",
+        "八会穴",
+        "急症"
+      ],
+      "intent": "掌握郄穴治急症、八会穴治脏腑气血筋骨髓脉病的应用。",
+      "learning": {
+        "knowledge": "郄穴为经气深聚之处，共16穴（十二经+阴阳跷、阴阳维各一），主治本经循行部位的急性病证，尤善治急性疼痛与血症：肺经郄穴孔最治咯血、胃经郄穴梁丘治急性胃痛、心包经郄穴郄门治急性心痛、胆经郄穴外丘治胆绞痛、膀胱经郄穴金门治急性腰痛。八会穴为脏、腑、气、血、筋、骨、髓、脉八类精气会聚之穴：脏会章门、腑会中脘、气会膻中、血会膈俞、筋会阳陵泉、骨会大杼、髓会绝骨（悬钟）、脉会太渊，各治所属病证：如血证取膈俞、筋病取阳陵泉、髓海不足取绝骨、脉病（无脉证）取太渊。",
+        "misjudgment": "错：郄穴只在急救时用，平时取穴不用郄穴。",
+        "reasoning": "为什么说郄穴善治急症，且常与八会穴配合使用？",
+        "feedback": "郄穴为经气深聚之处，邪气深聚则痛急，故郄穴治急性疼痛与血症效捷；八会穴为八类精气之会，郄会相配（如急性胃痛取梁丘配中脘）可急则治标、会聚调本。",
+        "transfer": "患者突发心前区闷痛，郄穴与八会穴如何联合选穴？"
+      },
+      "stdJudgment": "郄穴善治本经急症，八会穴各会脏、腑、气、血、筋、骨、髓、脉。",
+      "coreDefinition": "郄穴治急痛血症（孔最咯血、梁丘胃痛、郄门心痛），八会穴按所会治疗八类病证。",
+      "facts": [
+        {
+          "field": "specificPoint.xi",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.bahui",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.clinical",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "八会",
+          "canon": "《难经》",
+          "chapter": "四十五难",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "腑会太仓，脏会季胁，筋会阳陵泉，髓会绝骨，血会膈俞，骨会大杼，脉会太渊，气会三焦外一筋直两乳内也"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "无特殊禁忌，按所在部位常规操作；血会膈俞禁深刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-55",
+      "title": "五输穴临床应用：井荥输经合主病",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "特定穴",
+        "五输穴",
+        "井荥输经合"
+      ],
+      "intent": "掌握五输穴「井主心下满、荥主身热、输主体重节痛、经主喘咳寒热、合主逆气而泄」主病规律。",
+      "learning": {
+        "knowledge": "五输穴为十二经脉在肘膝关节以下井、荥、输、经、合五个特定穴，经气由小到大、由浅入深：井（所出，在指趾端）、荥（所溜，在掌指/跖趾关节前）、输（所注，在关节后）、经（所行，在腕踝附近）、合（所入，在肘膝关节附近）。主病规律（《难经·六十八难》）：井主心下满（神志昏迷、心下痞满，急救取井如少商、中冲、涌泉）、荥主身热（热病取荥如内庭、行间、劳宫）、输主体重节痛（风湿痹痛取输如太冲、太白）、经主喘咳寒热（外感喘咳取经如阳溪、解溪、支沟）、合主逆气而泄（气机上逆、下利取合如曲池、足三里、阳陵泉）。阴经井木、阳经井金，五行属性不同，子母补泻依此。",
+        "misjudgment": "错：五输穴主治只按部位远近，与井荥输经合层次无关。",
+        "reasoning": "「井主心下满」与「合主逆气而泄」如何体现经气深浅与主治的关系？",
+        "feedback": "井穴在肢端经气始出，治神志昏蒙、心下痞满（阳井金主清肃）；合穴在肘膝经气深入，治气机上逆与泄利（合主逆气而泄）；层次越高越近身，主治由神志、热证、痹痛、外感渐及脏腑气机。",
+        "transfer": "急性热病高热神昏，按五输穴主病应首选哪类穴、为何？"
+      },
+      "stdJudgment": "五输穴按井荥输经合分层主治：心下满、身热、体重节痛、喘咳寒热、逆气而泄。",
+      "coreDefinition": "五输穴经气由浅入深（出溜注行入），主治随层次对应五脏病机。",
+      "facts": [
+        {
+          "field": "specificPoint.wushu",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.rules",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.clinical",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "所出为井",
+          "canon": "《灵枢·九针十二原》",
+          "chapter": "九针十二原第一",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "所出为井，所溜为荥，所注为输，所行为经，所入为合"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "井穴多在指趾端，点刺出血宜轻浅；合穴多位于肘膝，可深刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-56",
+      "title": "下合穴临床应用：合治内腑",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "特定穴",
+        "下合穴",
+        "六腑病"
+      ],
+      "intent": "掌握六腑下合穴与「合治内腑」的临床应用。",
+      "learning": {
+        "knowledge": "下合穴为六腑之气下合于足三阳经的腧穴，共6穴：「合治内腑」，下合穴主要用于治疗六腑病证，是治疗腑病的要穴。六腑下合穴：胃之下合穴足三里（胃经）、大肠下合穴上巨虚（胃经）、小肠下合穴下巨虚（胃经）、膀胱下合穴委中（膀胱经）、三焦下合穴委阳（膀胱经）、胆下合穴阳陵泉（胆经）。临床应用：胃痛腹胀取足三里；肠痈腹痛取上巨虚；小腹痛、泄泻取下巨虚；遗尿癃闭取委中、委阳；胁痛口苦取阳陵泉。配伍：腑病多配募穴（中脘、天枢、中极、日月等）前后同调。",
+        "misjudgment": "错：六腑下合穴都在各自经脉上，如大肠下合穴应在手阳明大肠经上。",
+        "reasoning": "大肠、小肠、三焦的下合穴为什么都在足阳明或足太阳经上？",
+        "feedback": "大肠、小肠、三焦之腑气下合于足经：大肠、小肠属胃（受盛化物），其气下合于上巨虚、下巨虚；三焦为水道，其气下合于膀胱经委阳，故下合穴分布于足三阳经，取之可调相应六腑。",
+        "transfer": "患者肠痈（阑尾炎）腹痛，取下巨虚还是上巨虚，为什么？"
+      },
+      "stdJudgment": "下合穴主治六腑病，「合治内腑」为取穴总则。",
+      "coreDefinition": "六腑各自下合穴：胃足三里、大肠上巨虚、小肠下巨虚、膀胱委中、三焦委阳、胆阳陵泉。",
+      "facts": [
+        {
+          "field": "specificPoint.xiahe",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.rules",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "specificPoint.clinical",
+          "sourceType": "textbook",
+          "sourceTitle": "《经络腧穴学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "合治内腑",
+          "canon": "《灵枢·邪气脏腑病形》",
+          "chapter": "邪气脏腑病形第四",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "荥输治外经，合治内腑"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "无特殊禁忌，按所在部位常规操作。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-57",
+      "title": "针刺得气与腧穴感应",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "针刺",
+        "得气",
+        "针感"
+      ],
+      "intent": "掌握得气的概念、标志与「气至而有效」的临床意义。",
+      "learning": {
+        "knowledge": "得气又称针感，指毫针刺入腧穴一定深度后，医者针下出现沉紧、涩滞感，患者局部出现酸、麻、胀、重感，或向一定方向传导扩散的现象。经典强调「刺之要，气至而有效，效之信，若风之吹云」，得气是取得疗效的关键环节。不得气的原因：取穴不准、针刺深度方向不当、手法欠妥、体虚经气不足等。促使得气的方法：调整针刺方向深度、行捻转提插手法、留针候气、循按催气。得气后可行补泻手法，气至病所（针感向病所传导）者疗效更佳。",
+        "misjudgment": "错：针感越强越好，没有强烈针感就是没有得气。",
+        "reasoning": "「气至而有效」中「气至」的标准是什么，为何强调气至病所？",
+        "feedback": "气至以「针下沉紧+患者酸麻胀重」为标志，不以强度论成败；经气到达病所则经气直达病灶、疏通局部，疗效显著增强，故临证常以气至病所作为取效指标。",
+        "transfer": "患者体质虚弱针下难得气，可用哪些方法促使得气？"
+      },
+      "stdJudgment": "得气是针刺获得疗效的关键，「气至而有效」强调针下气至则效验。",
+      "coreDefinition": "得气标志：患者酸麻胀重感、医者针下沉紧感；气至病所则疗效更佳。",
+      "facts": [
+        {
+          "field": "needle.deqi",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "needle.markers",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "needle.significance",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "气至而有效",
+          "canon": "《灵枢·九针十二原》",
+          "chapter": "九针十二原第一",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "刺之要，气至而有效，效之信，若风之吹云"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "得气不等于强刺激，体虚者以得气为度，不宜过度追求强烈针感。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-58",
+      "title": "针刺补泻手法与刺激量",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "针刺",
+        "补泻",
+        "手法"
+      ],
+      "intent": "掌握针刺补泻基本原则与代表手法（捻转、提插补泻）。",
+      "learning": {
+        "knowledge": "针刺补泻以虚实辨证为前提：「盛则泻之，虚则补之，热则疾之，寒则留之，陷下则灸之，不盛不虚，以经取之」。常用手法：捻转补泻——捻转角度小、频率慢、用力轻为补，角度大、频率快、用力重为泻；提插补泻——先浅后深、重插轻提、幅度小频率慢为补，先深后浅、轻插重提、幅度大频率快为泻。其他：徐疾补泻、迎随补泻、呼吸补泻、开阖补泻。刺激量：补法刺激量小、时间短，泻法刺激量大、时间长。实证（热、闭、瘀）用泻，虚证（寒、陷、脱）用补，平补平泻用于虚实不显者。",
+        "misjudgment": "错：补泻手法是固定套路，与患者体质强弱无关。",
+        "reasoning": "「热则疾之，寒则留之」如何体现在进针留针的刺激量上？",
+        "feedback": "热证实热邪盛，针刺宜浅而快、不留针或少留针以泻热；寒证经气凝滞，宜深刺留针并加灸以温散寒邪，故留针时间与手法轻重均随病性而定。",
+        "transfer": "同一穴位足三里，如何用补法强壮保健、用泻法清泻实滞？"
+      },
+      "stdJudgment": "补泻依虚实而定：盛则泻之、虚则补之，热则疾之、寒则留之。",
+      "coreDefinition": "补法轻缓刺激量小，泻法重疾刺激量大，平补平泻介于其间，以得气为度。",
+      "facts": [
+        {
+          "field": "needle.buxie",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "needle.methods",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "needle.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "盛则泻之",
+          "canon": "《灵枢·经脉》",
+          "chapter": "经脉第十",
+          "sourceType": "classic_original",
+          "status": "verified",
+          "originalText": "盛则泻之，虚则补之，热则疾之，寒则留之，陷下则灸之"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "补泻以辨证为准，实证忌补、虚证忌泻；强刺激泻法须防晕针。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-59",
+      "title": "腧穴综合案例：头痛辨证选穴",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "临床案例",
+        "头痛",
+        "辨证选穴"
+      ],
+      "intent": "训练按头痛部位与证型辨证选穴的综合能力。",
+      "learning": {
+        "knowledge": "头痛辨证选穴：先辨经——太阳头痛（后枕下项）取天柱、后溪、昆仑；阳明头痛（前额眉棱）取头维、印堂、合谷、内庭；少阳头痛（头侧）取风池、太阳、外关、足临泣；厥阴头痛（巅顶）取百会、太冲、行间。再辨证——外感风寒加风池、风门、列缺，风热加曲池、大椎、外关；内伤肝阳上亢加太冲、太溪（育阴潜阳），痰浊头痛加丰隆、中脘、阴陵泉，气血亏虚加足三里、气海、脾俞、胃俞，瘀血头痛加膈俞、血海、阿是穴。全头痛可开四关（合谷、太冲）。",
+        "misjudgment": "错：头痛就是按部位选几个穴，辨经辨证是多余的理论。",
+        "reasoning": "同为头痛，为何肝阳上亢者加太溪、痰浊者加丰隆？",
+        "feedback": "肝阳上亢本于肝肾阴虚，太溪滋肾阴以潜肝阳；痰浊头痛因脾失健运，丰隆健脾化痰，证型加减直指病机，体现辨证论治优于机械取穴。",
+        "transfer": "患者巅顶痛如针刺、痛处固定，应如何辨经辨证选穴？"
+      },
+      "stdJudgment": "头痛先辨经（太阳/阳明/少阳/厥阴）再辨证（外感/内伤），循经取穴配证型加减。",
+      "coreDefinition": "头痛治疗以辨经选穴为主纲，以证型加减为变，体现「经脉所过，主治所及」与辨证论治结合。",
+      "facts": [
+        {
+          "field": "case.syndrome",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "case.points",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "case.rationale",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": {
+        "level": "C1",
+        "originalJudgment": "头痛按循经部位辨经选穴，配以证型加减。",
+        "c3Evidence": [
+          "太阳头痛痛在后枕下项，取天柱、后溪（通督脉）、昆仑",
+          "阳明头痛痛在前额眉棱，取头维、印堂、合谷、内庭（循经取穴）",
+          "少阳头痛痛在头侧，取风池、太阳、外关、足临泣（胆经循行头侧）",
+          "厥阴头痛痛在巅顶，取百会、太冲、行间（肝经上达巅顶）"
+        ],
+        "counterEvidence": "仅凭头痛部位选穴而不辨证，风寒风热肝阳痰浊之头痛均按同一处方。",
+        "revision": "辨经选穴为基础，须结合证型加减：风寒加风池、风门，风热加曲池、大椎，肝阳加太冲、太溪，痰浊加丰隆、中脘，气血虚加足三里、气海。"
+      },
+      "dosage": null,
+      "safety": {
+        "note": "太阳穴不宜深刺，可点刺放血；巅顶头痛取百会平刺。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb5-ac-60",
+      "title": "腧穴综合案例：腰痛辨证选穴",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "临床案例",
+        "腰痛",
+        "辨证选穴"
+      ],
+      "intent": "训练按腰痛虚实急慢性辨证选穴的综合能力。",
+      "learning": {
+        "knowledge": "腰痛辨证选穴：主穴取委中（腰背委中求）、肾俞、大肠俞、阿是穴。辨证配穴——急性腰扭伤（实证瘀血）：委中刺络放血、后溪通督脉、腰痛点，强刺激并嘱活动腰部；寒湿腰痛（腰部冷痛重着、阴雨加重）：配腰阳关、命门、阴陵泉、风府，针灸并用温散寒湿；肾虚腰痛（绵绵作痛、劳则加重、卧则减轻）：配肾俞、命门、太溪、志室，用补法加灸；瘀血腰痛（刺痛固定拒按）：配膈俞、血海、三阴交，泻法并刺络。",
+        "misjudgment": "错：腰痛一律取委中重刺激，疗效与辨证无关。",
+        "reasoning": "同样腰痛，为什么急性扭伤用委中放血、肾虚腰痛却要补太溪？",
+        "feedback": "急性扭伤为络脉瘀滞之实证，放血祛瘀通络、急则治标；肾虚腰痛为精气亏耗之虚证，当补肾壮腰（肾俞、太溪补法加灸），虚实施治有别，误用泻法反伤正气。",
+        "transfer": "患者腰部冷痛重着、转侧不利、阴雨天加重，应如何辨证选穴？"
+      },
+      "stdJudgment": "腰痛主穴委中肾俞大肠俞，急性瘀血用泻放血，寒湿温散，肾虚用补。",
+      "coreDefinition": "腰痛分虚实：实证（急性扭伤瘀血、寒湿）以泻法疏通，虚证（肾虚劳损）以补法壮腰。",
+      "facts": [
+        {
+          "field": "case.syndrome",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "case.points",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "case.rationale",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸治疗学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "腰背委中求",
+          "canon": "明·徐凤《针灸大全》",
+          "chapter": "",
+          "sourceType": "traditional_commentary",
+          "status": "teaching_inference"
+        }
+      ],
+      "cases": {
+        "level": "C2",
+        "originalJudgment": "腰痛以委中、肾俞、大肠俞为主穴，按虚实急慢分型配穴。",
+        "c3Evidence": [
+          "急性腰扭伤络脉瘀滞，委中刺络放血、后溪通督脉强刺激并活动腰部",
+          "寒湿腰痛腰部冷痛重着，配腰阳关、阴陵泉、命门（温散寒湿）",
+          "肾虚腰痛绵绵作痛、劳则加重，配肾俞、命门、太溪（补肾壮腰）"
+        ],
+        "counterEvidence": "慢性肾虚腰痛亦取委中放血重泻。",
+        "revision": "委中为膀胱下合穴主腰背（腰背委中求），但虚证当补、实证当泻：急性瘀血实证用委中放血，肾虚劳损当补肾俞、太溪，不可一律重泻。"
+      },
+      "dosage": null,
+      "safety": {
+        "note": "委中深部为腘动脉，禁深刺，放血须严格消毒；腰背俞穴禁深刺。",
+        "prohibitions": [
+          "委中禁深刺（深部为腘动脉）",
+          "肾俞、大肠俞禁深刺（深部为肾脏等）"
+        ]
+      }
+    }
+  ]
+}

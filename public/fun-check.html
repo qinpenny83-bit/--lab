@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>Fun Check</title>
+<style>body { font-family: monospace; padding: 12px; background: #fff; } pre { white-space: pre-wrap; } iframe { width: 1200px; height: 1500px; border: 1px solid #ccc; }</style>
+</head>
+<body>
+<iframe src="/#/practice/00-08"></iframe>
+<script>
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  await sleep(8000);
+  const lines = [];
+  try {
+    const ifr = document.querySelector('iframe');
+    const d = ifr.contentDocument;
+    const pick = (sel) => {
+      const el = d.querySelector(sel);
+      return el ? el.textContent.trim().replace(/\s+/g, ' ').slice(0, 120) : '(absent)';
+    };
+    lines.push('PERSONA: ' + pick('.persona-card'));
+    lines.push('DRAMA: ' + pick('.drama-box'));
+    lines.push('FUNFACT: ' + pick('.funfact-box'));
+    lines.push('MEM: ' + pick('.mem-text'));
+    lines.push('TRAP: ' + pick('.trap-statement'));
+  } catch (e) {
+    lines.push('ERR ' + e.message);
+  }
+  const pre = document.createElement('pre');
+  pre.textContent = lines.join('\n');
+  document.body.appendChild(pre);
+})();
+</script>
+</body>
+</html>

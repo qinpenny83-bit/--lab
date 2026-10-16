@@ -1,0 +1,1991 @@
+{
+  "schema": "phase-5/review/adjudicate/v1",
+  "basis": "aggregated-queue.json（99 项）+ review-patch.mjs（56 条补丁）+ coverage-matrix.json（455 行）",
+  "adjudicatedAt": "2026-09-20T13:46:10.751Z",
+  "stats": {
+    "total": 99,
+    "closedToCandidate": 48,
+    "retainedTeaching": 3,
+    "missingPatch": 0,
+    "noReason": 2,
+    "humanReview": 43,
+    "quarantine": 3,
+    "unknownNode": 0,
+    "afterMatrix": {
+      "candidate": 404,
+      "conditional": 48,
+      "quarantine": 3
+    }
+  },
+  "closed": [
+    {
+      "nodeId": "01-02",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "整体观念",
+      "difficulty": 1,
+      "category": "theory",
+      "samples": [
+        "pb4-th-01-02"
+      ],
+      "reasons": [
+        "经典「人以天地之气生」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "整体观念的三层内涵：人体自身一体、人与天地相应、人与社会相联",
+      "cLevel": null,
+      "quote": "人以天地之气生",
+      "action": "close_to_candidate",
+      "canon": "《素问·宝命全形论》",
+      "chapter": "宝命全形论篇第二十五",
+      "originalText": "人以天地之气生，四时之法成",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·宝命全形论》·宝命全形论篇第二十五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-03",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳对立制约",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-03"
+      ],
+      "reasons": [
+        "经典「阴平阳秘」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳对立制约：双方相互斗争、相互抑制，维持动态平衡",
+      "cLevel": null,
+      "quote": "阴平阳秘",
+      "action": "close_to_candidate",
+      "canon": "《素问·生气通天论》",
+      "chapter": "生气通天论篇第三",
+      "originalText": "阴平阳秘，精神乃治",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·生气通天论》·生气通天论篇第三（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-06",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳相互转化",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-06"
+      ],
+      "reasons": [
+        "经典「重寒则热」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳转化：一定条件下阴阳向其对立面转化，「重阴必阳、重阳必阴」",
+      "cLevel": "C3",
+      "quote": "重寒则热",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "重寒则热，重热则寒",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-08",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳在人体中的体现",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-08"
+      ],
+      "reasons": [
+        "经典「背为阳，腹为阴」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳在人体结构、功能、经络中的体现（上为阳下为阴、背阳腹阴、六腑阳五脏阴）",
+      "cLevel": "C3",
+      "quote": "背为阳，腹为阴",
+      "action": "close_to_candidate",
+      "canon": "《素问·金匮真言论》",
+      "chapter": "金匮真言论篇第四",
+      "originalText": "背为阳，阳中之阳，心也；腹为阴，阴中之阴，肾也",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·金匮真言论》·金匮真言论篇第四（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-09",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与生理",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-09"
+      ],
+      "reasons": [
+        "经典「阴在内，阳之守也」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳学说解释人体生理：物质与功能、兴奋与抑制的阴阳协调",
+      "cLevel": "C3",
+      "quote": "阴在内，阳之守也",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "阴在内，阳之守也；阳在外，阴之使也",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-10",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与病理",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-10"
+      ],
+      "reasons": [
+        "经典「阴胜则阳病」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳失调的基本病理：偏盛、偏衰、互损、格拒、亡失",
+      "cLevel": "C3",
+      "quote": "阴胜则阳病",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "阴胜则阳病，阳胜则阴病",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-11",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与诊断",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-11"
+      ],
+      "reasons": [
+        "经典「善诊者，察色按脉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳学说在诊断中的应用：望闻问切中辨别阴阳（色泽、声息、寒热、脉象）",
+      "cLevel": "C3",
+      "quote": "善诊者，察色按脉",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "善诊者，察色按脉，先别阴阳",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "02-17",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳在养生中的应用",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-02-17"
+      ],
+      "reasons": [
+        "经典「春夏养阳，秋冬养阴」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：阴阳消长规律在养生（起居、饮食、情志、四季）中的应用",
+      "cLevel": null,
+      "quote": "春夏养阳，秋冬养阴",
+      "action": "close_to_candidate",
+      "canon": "《素问·四气调神大论》",
+      "chapter": "四气调神大论篇第二",
+      "originalText": "所以圣人春夏养阳，秋冬养阴，以从其根",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·四气调神大论》·四气调神大论篇第二（原文可逐字核对）"
+    },
+    {
+      "nodeId": "03-14",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行在情志配属中的应用",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-03-14"
+      ],
+      "reasons": [
+        "经典「怒伤肝，悲胜怒」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：五志（喜怒思悲恐）配五脏五行及其在情志调理中的应用",
+      "cLevel": null,
+      "quote": "怒伤肝，悲胜怒",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "怒伤肝，悲胜怒",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-04",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肝",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-04"
+      ],
+      "reasons": [
+        "经典「肝者，罢极之本」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "肝的生理功能（主疏泄、主藏血）、特性（体阴用阳）与病理要点",
+      "cLevel": "C3",
+      "quote": "肝者，罢极之本",
+      "action": "close_to_candidate",
+      "canon": "《素问·六节藏象论》",
+      "chapter": "六节藏象论篇第九",
+      "originalText": "肝者，罢极之本，魂之居也",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·六节藏象论》·六节藏象论篇第九（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-05",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "脾",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-05"
+      ],
+      "reasons": [
+        "经典「脾胃者，仓廪之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "脾的生理功能（主运化、主统血、主升清）与「后天之本」意义",
+      "cLevel": "C3",
+      "quote": "脾胃者，仓廪之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "脾胃者，仓廪之官，五味出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-06",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肺",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-06"
+      ],
+      "reasons": [
+        "经典「肺者，相傅之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "肺的生理功能（主气司呼吸、通调水道、朝百脉）与「华盖娇脏」特性",
+      "cLevel": "C3",
+      "quote": "肺者，相傅之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "肺者，相傅之官，治节出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-07",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肾",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-07"
+      ],
+      "reasons": [
+        "经典「肾者，作强之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "肾的生理功能（藏精、主水、纳气）与「先天之本」意义",
+      "cLevel": "C3",
+      "quote": "肾者，作强之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "肾者，作强之官，伎巧出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-09",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "胆",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-09"
+      ],
+      "reasons": [
+        "经典「胆者，中正之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "胆的生理功能（贮藏排泄胆汁、主决断）与「奇恒之腑」属性",
+      "cLevel": "C3",
+      "quote": "胆者，中正之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "胆者，中正之官，决断出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-10",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "胃",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-10"
+      ],
+      "reasons": [
+        "经典「胃者，水谷之海」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "胃的生理功能（受纳腐熟、主通降）与「胃气」的重要性",
+      "cLevel": "C3",
+      "quote": "胃者，水谷之海",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·海论》",
+      "chapter": "海论第三十三",
+      "originalText": "胃者，水谷之海",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·海论》·海论第三十三（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-11",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "小肠",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-11"
+      ],
+      "reasons": [
+        "经典「小肠者，受盛之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "小肠的生理功能（受盛化物、泌别清浊）与「小肠主液」",
+      "cLevel": "C3",
+      "quote": "小肠者，受盛之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "小肠者，受盛之官，化物出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-12",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "大肠",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-12"
+      ],
+      "reasons": [
+        "经典「大肠者，传导之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "大肠的生理功能（传导糟粕、主津）与排便的关系",
+      "cLevel": "C3",
+      "quote": "大肠者，传导之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "大肠者，传导之官，变化出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-13",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "膀胱",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-13"
+      ],
+      "reasons": [
+        "经典「膀胱者，州都之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "膀胱的生理功能（贮存、排泄尿液）与肾的气化关系",
+      "cLevel": "C3",
+      "quote": "膀胱者，州都之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "膀胱者，州都之官，津液藏焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-14",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "三焦",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-14"
+      ],
+      "reasons": [
+        "经典「三焦者，决渎之官」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "三焦的生理功能（通行元气、运行水液）与部位划分（上中下焦）",
+      "cLevel": "C3",
+      "quote": "三焦者，决渎之官",
+      "action": "close_to_candidate",
+      "canon": "《素问·灵兰秘典论》",
+      "chapter": "灵兰秘典论篇第八",
+      "originalText": "三焦者，决渎之官，水道出焉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·灵兰秘典论》·灵兰秘典论篇第八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-20",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏与五液五志五窍",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-20"
+      ],
+      "reasons": [
+        "经典「肝开窍于目」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：五脏开窍与五液五志五华的对应关系及其临床诊断意义",
+      "cLevel": null,
+      "quote": "肝开窍于目",
+      "action": "close_to_candidate",
+      "canon": "《素问·金匮真言论》",
+      "chapter": "金匮真言论篇第四",
+      "originalText": "东方青色，入通于肝，开窍于目，藏精于肝",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·金匮真言论》·金匮真言论篇第四（原文可逐字核对）"
+    },
+    {
+      "nodeId": "04-21",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "女子胞与冲任二脉",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-04-21"
+      ],
+      "reasons": [
+        "经典「女子七岁，肾气盛，齿更发长；二七而天癸至，任脉通，太冲脉盛，月事以时下」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：女子胞（胞宫）的功能及其与脏腑、天癸、冲任二脉的关系",
+      "cLevel": null,
+      "quote": "女子七岁，肾气盛，齿更发长；二七而天癸至，任脉通，太冲脉盛，月事以时下",
+      "action": "close_to_candidate",
+      "canon": "《素问·上古天真论》",
+      "chapter": "上古天真论篇第一",
+      "originalText": "女子七岁，肾气盛，齿更发长；二七而天癸至，任脉通，太冲脉盛，月事以时下，故有子",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·上古天真论》·上古天真论篇第一（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-03",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的生成",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-03"
+      ],
+      "reasons": [
+        "经典「天食人以五气」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "气的生成来源：先天之精气、水谷之精气、自然界清气及其相关脏腑",
+      "cLevel": "C3",
+      "quote": "天食人以五气",
+      "action": "close_to_candidate",
+      "canon": "《素问·六节藏象论》",
+      "chapter": "六节藏象论篇第九",
+      "originalText": "天食人以五气，地食人以五味",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·六节藏象论》·六节藏象论篇第九（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-05",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的运动",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-05"
+      ],
+      "reasons": [
+        "经典「升降出入，无器不有」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "气的运动形式：升、降、出、入及其生理意义",
+      "cLevel": "C3",
+      "quote": "升降出入，无器不有",
+      "action": "close_to_candidate",
+      "canon": "《素问·六微旨大论》",
+      "chapter": "六微旨大论篇第六十八",
+      "originalText": "升降出入，无器不有",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·六微旨大论》·六微旨大论篇第六十八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-07",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的分类",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-07"
+      ],
+      "reasons": [
+        "经典「卫气者，所以温分肉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "气的四种分类：元气、宗气、营气、卫气的生成、分布与功能",
+      "cLevel": "C3",
+      "quote": "卫气者，所以温分肉",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·本藏》",
+      "chapter": "本藏第四十七",
+      "originalText": "卫气者，所以温分肉，充皮肤，肥腠理，司开阖者也",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·本藏》·本藏第四十七（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-08",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "血的基本概念",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-08"
+      ],
+      "reasons": [
+        "经典「中焦受气取汁」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "血的生成（水谷精微化生、肾精化血）与功能（濡养、化神）",
+      "cLevel": "C3",
+      "quote": "中焦受气取汁",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·决气》",
+      "chapter": "决气第三十",
+      "originalText": "中焦受气取汁，变化而赤，是谓血",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·决气》·决气第三十（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-09",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "津液的基本概念",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-09"
+      ],
+      "reasons": [
+        "经典「腠理发泄，汗出溱溱」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "津液的概念、津与液的区别、津液的生成输布与排泄",
+      "cLevel": "C3",
+      "quote": "腠理发泄，汗出溱溱",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·决气》",
+      "chapter": "决气第三十",
+      "originalText": "腠理发泄，汗出溱溱，是谓津",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·决气》·决气第三十（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-13",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "血与津液的关系",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-13"
+      ],
+      "reasons": [
+        "经典「夺血者无汗，夺汗者无血」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "血与津液同源互化的关系（津血同源）及临床禁忌（夺血者无汗、夺汗者无血）",
+      "cLevel": "C3",
+      "quote": "夺血者无汗，夺汗者无血",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·营卫生会》",
+      "chapter": "营卫生会第十八",
+      "originalText": "夺血者无汗，夺汗者无血",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·营卫生会》·营卫生会第十八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "05-18",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气街与四海",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-05-18"
+      ],
+      "reasons": [
+        "经典「人有髓海、血海、气海、水谷之海」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：气街（四街）与四海（髓海、血海、气海、水谷之海）的经气汇聚理论",
+      "cLevel": null,
+      "quote": "人有髓海、血海、气海、水谷之海",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·海论》",
+      "chapter": "海论第三十三",
+      "originalText": "人有髓海，有血海，有气海，有水谷之海",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·海论》·海论第三十三（原文可逐字核对）"
+    },
+    {
+      "nodeId": "06-10",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "标本根结",
+      "difficulty": 4,
+      "category": "meridian",
+      "samples": [
+        "pb4-me-06-10"
+      ],
+      "reasons": [
+        "经典「根于涌泉，结于廉泉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：标本根结理论（经气上下内外关系）及其在针灸取穴中的应用",
+      "cLevel": null,
+      "quote": "根于涌泉，结于廉泉",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·根结》",
+      "chapter": "根结第五",
+      "originalText": "足少阴根于涌泉，结于廉泉",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·根结》·根结第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "07-09",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "七情内伤",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-07-09"
+      ],
+      "reasons": [
+        "经典「怒则气上」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "七情内伤的致病特点：直接伤及内脏（五志对应）、影响气机、情志波动",
+      "cLevel": "C3",
+      "quote": "怒则气上",
+      "action": "close_to_candidate",
+      "canon": "《素问·举痛论》",
+      "chapter": "举痛论篇第三十九",
+      "originalText": "怒则气上，喜则气缓，悲则气消，恐则气下，寒则气收，炅则气泄，惊则气乱，劳则气耗，思则气结",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·举痛论》·举痛论篇第三十九（原文可逐字核对）"
+    },
+    {
+      "nodeId": "08-01",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机基本概念",
+      "difficulty": 3,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-08-01"
+      ],
+      "reasons": [
+        "经典「审察病机，无失气宜」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "病机的定义、层次（病位病性病势）与审证求因的方法",
+      "cLevel": "C3",
+      "quote": "审察病机，无失气宜",
+      "action": "close_to_candidate",
+      "canon": "《素问·至真要大论》",
+      "chapter": "至真要大论篇第七十四",
+      "originalText": "审察病机，无失气宜",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·至真要大论》·至真要大论篇第七十四（原文可逐字核对）"
+    },
+    {
+      "nodeId": "08-07",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "气机升降出入失常",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-08-07"
+      ],
+      "reasons": [
+        "经典「清气在下，则生飧泄」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "气机升降出入失常的病机（升降失调、出入失常）及其脏腑表现",
+      "cLevel": "C3",
+      "quote": "清气在下，则生飧泄",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "清气在下，则生飧泄；浊气在上，则生䐜胀",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-01",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望诊理论基础",
+      "difficulty": 2,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-01"
+      ],
+      "reasons": [
+        "经典「望而知之谓之神」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "望诊的原理（有诸内必形诸外）与主要内容（神、色、形、态、舌、排出物）",
+      "cLevel": "C3",
+      "quote": "望而知之谓之神",
+      "action": "close_to_candidate",
+      "canon": "《难经·六十一难》",
+      "chapter": "六十一难",
+      "originalText": "望而知之谓之神，闻而知之谓之圣，问而知之谓之工，切脉而知之谓之巧",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《难经·六十一难》·六十一难（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-02",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望神",
+      "difficulty": 2,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-02"
+      ],
+      "reasons": [
+        "经典「得神者昌，失神者亡」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "望神：得神、少神、失神、假神的鉴别与临床意义",
+      "cLevel": "C3",
+      "quote": "得神者昌，失神者亡",
+      "action": "close_to_candidate",
+      "canon": "《素问·移精变气论》",
+      "chapter": "移精变气论篇第十三",
+      "originalText": "得神者昌，失神者亡",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·移精变气论》·移精变气论篇第十三（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-05",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望头面五官",
+      "difficulty": 2,
+      "category": "diagnostic",
+      "samples": [
+        "pb3-dg-09-05"
+      ],
+      "reasons": [
+        "经典「五脏六腑之精气皆上注于目」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "望头面五官：头形、面、目、鼻、唇、齿、咽喉的诊察要点",
+      "cLevel": "C3",
+      "quote": "五脏六腑之精气皆上注于目",
+      "action": "close_to_candidate",
+      "canon": "《灵枢·大惑论》",
+      "chapter": "大惑论第八十",
+      "originalText": "五脏六腑之精气，皆上注于目而为之精",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《灵枢·大惑论》·大惑论第八十（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-08",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "闻诊理论基础",
+      "difficulty": 3,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-08"
+      ],
+      "reasons": [
+        "经典「闻而知之谓之圣」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "闻诊的原理与内容：听声音（语声呼吸咳嗽）与嗅气味（病体气味）",
+      "cLevel": "C3",
+      "quote": "闻而知之谓之圣",
+      "action": "close_to_candidate",
+      "canon": "《难经·六十一难》",
+      "chapter": "六十一难",
+      "originalText": "望而知之谓之神，闻而知之谓之圣，问而知之谓之工，切脉而知之谓之巧",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《难经·六十一难》·六十一难（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-11",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问诊理论基础",
+      "difficulty": 3,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-11"
+      ],
+      "reasons": [
+        "经典「问而知之谓之工」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "问诊的重要性、内容与注意事项（主诉、现病史、既往史、十问）",
+      "cLevel": "C3",
+      "quote": "问而知之谓之工",
+      "action": "close_to_candidate",
+      "canon": "《难经·六十一难》",
+      "chapter": "六十一难",
+      "originalText": "望而知之谓之神，闻而知之谓之圣，问而知之谓之工，切脉而知之谓之巧",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《难经·六十一难》·六十一难（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-14",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问汗",
+      "difficulty": 3,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-14"
+      ],
+      "reasons": [
+        "经典「阳加于阴谓之汗」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "问汗：表证之汗、里证之汗（自汗盗汗）、绝汗的辨证意义",
+      "cLevel": "C3",
+      "quote": "阳加于阴谓之汗",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳别论》",
+      "chapter": "阴阳别论篇第七",
+      "originalText": "阳加于阴谓之汗",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳别论》·阴阳别论篇第七（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-20",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "切诊理论基础",
+      "difficulty": 4,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-20"
+      ],
+      "reasons": [
+        "经典「切而知之谓之巧」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "切诊的内容（脉诊与按诊）及其原理",
+      "cLevel": "C3",
+      "quote": "切而知之谓之巧",
+      "action": "close_to_candidate",
+      "canon": "《难经·六十一难》",
+      "chapter": "六十一难",
+      "originalText": "望而知之谓之神，闻而知之谓之圣，问而知之谓之工，切脉而知之谓之巧",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《难经·六十一难》·六十一难（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-21",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "脉诊基本",
+      "difficulty": 4,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-21"
+      ],
+      "reasons": [
+        "经典「三部九候」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "脉诊的方法（三部九候、举按寻）与平脉（正常脉象）特征",
+      "cLevel": "C3",
+      "quote": "三部九候",
+      "action": "close_to_candidate",
+      "canon": "《素问·三部九候论》",
+      "chapter": "三部九候论篇第二十",
+      "originalText": "故人有三部，部有三候，以决死生，以处百病，以调虚实，而除邪疾",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·三部九候论》·三部九候论篇第二十（原文可逐字核对）"
+    },
+    {
+      "nodeId": "09-22",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "常见脉象（浮沉迟数）",
+      "difficulty": 4,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-22"
+      ],
+      "reasons": [
+        "经典「脉浮者，病在表」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "浮、沉、迟、数四大基本脉象的特征与主病",
+      "cLevel": "C3",
+      "quote": "脉浮者，病在表",
+      "action": "close_to_candidate",
+      "canon": "《伤寒论》",
+      "chapter": "辨太阳病脉证并治（第51条）",
+      "originalText": "脉浮者，病在表，可发汗，宜麻黄汤",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《伤寒论》·辨太阳病脉证并治（第51条）（原文可逐字核对）"
+    },
+    {
+      "nodeId": "10-04",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表里出入",
+      "difficulty": 3,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-10-04"
+      ],
+      "reasons": [
+        "经典「伤寒一日，太阳受之」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "疾病表里出入的传变规律：由表入里、由里出表及其临床意义",
+      "cLevel": "C3",
+      "quote": "伤寒一日，太阳受之",
+      "action": "close_to_candidate",
+      "canon": "《素问·热论》",
+      "chapter": "热论篇第三十一",
+      "originalText": "伤寒一日，巨阳受之，故头项痛腰脊强",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·热论》·热论篇第三十一（原文可逐字核对）"
+    },
+    {
+      "nodeId": "10-09",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚证与实证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-10-09"
+      ],
+      "reasons": [
+        "经典「邪气盛则实，精气夺则虚」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "虚证与实证的概念、证候特征、鉴别要点（病程、声音、疼痛喜按拒按、舌脉）",
+      "cLevel": "C3",
+      "quote": "邪气盛则实，精气夺则虚",
+      "action": "close_to_candidate",
+      "canon": "《素问·通评虚实论》",
+      "chapter": "通评虚实论篇第二十八",
+      "originalText": "邪气盛则实，精气夺则虚",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·通评虚实论》·通评虚实论篇第二十八（原文可逐字核对）"
+    },
+    {
+      "nodeId": "19-12",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《神农本草经》概览",
+      "difficulty": 4,
+      "category": "classic",
+      "samples": [
+        "pb4-cl-19-12"
+      ],
+      "reasons": [
+        "经典「上药一百二十种为君」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：《神农本草经》的成书、三品分类与对中药学的影响",
+      "cLevel": null,
+      "quote": "上药一百二十种为君",
+      "action": "close_to_candidate",
+      "canon": "《神农本草经》",
+      "chapter": "序录",
+      "originalText": "上药一百二十种为君，主养命以应天",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《神农本草经》·序录（原文可逐字核对）"
+    },
+    {
+      "nodeId": "22-03",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "六经 vs 八纲",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-22-03"
+      ],
+      "reasons": [
+        "经典「病有发热恶寒者，发于阳也；无热恶寒者，发于阴也」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "六经辨证与八纲辨证的维度差异：六经含病位+病性+传变动态，八纲为静态纲领",
+      "cLevel": "C3",
+      "quote": "病有发热恶寒者，发于阳也；无热恶寒者，发于阴也",
+      "action": "close_to_candidate",
+      "canon": "《伤寒论》",
+      "chapter": "辨太阳病脉证并治（第7条）",
+      "originalText": "病有发热恶寒者，发于阳也；无热恶寒者，发于阴也",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《伤寒论》·辨太阳病脉证并治（第7条）（原文可逐字核对）"
+    },
+    {
+      "nodeId": "23-01",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "整体思维",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-23-01"
+      ],
+      "reasons": [
+        "经典「治病必求于本」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "中医整体思维的内涵：不孤立看问题，从系统联系中把握疾病",
+      "cLevel": "C3",
+      "quote": "治病必求于本",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "治病必求于本",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "23-02",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "动态思维",
+      "difficulty": 2,
+      "category": "theory",
+      "samples": [
+        "pb4-th-23-02"
+      ],
+      "reasons": [
+        "经典「善治者治皮毛，其次治肌肤，其次治筋脉」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "中医动态思维：疾病是变化的过程，辨证立法须随证而变",
+      "cLevel": "C3",
+      "quote": "善治者治皮毛，其次治肌肤，其次治筋脉",
+      "action": "close_to_candidate",
+      "canon": "《素问·阴阳应象大论》",
+      "chapter": "阴阳应象大论篇第五",
+      "originalText": "善治者治皮毛，其次治肌肤，其次治筋脉，其次治六腑，其次治五脏",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·阴阳应象大论》·阴阳应象大论篇第五（原文可逐字核对）"
+    },
+    {
+      "nodeId": "23-04",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "类比思维",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-23-04"
+      ],
+      "reasons": [
+        "经典「援物比类，化之冥冥」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "取象比类（类比思维）在中医中的价值与理论边界",
+      "cLevel": null,
+      "quote": "援物比类，化之冥冥",
+      "action": "close_to_candidate",
+      "canon": "《素问·示从容论》",
+      "chapter": "示从容论篇第七十六",
+      "originalText": "援物比类，化之冥冥",
+      "sourceType": "classic_original",
+      "note": "出处闭合：《素问·示从容论》·示从容论篇第七十六（原文可逐字核对）"
+    }
+  ],
+  "retainedTeaching": [
+    {
+      "nodeId": "06-09",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "十二经别",
+      "difficulty": 4,
+      "category": "meridian",
+      "samples": [
+        "pb4-me-06-09"
+      ],
+      "reasons": [
+        "经典「十二经脉，三百六十五络」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "reference：十二经别的循行特点（离入出合）及其生理病理意义",
+      "cLevel": null,
+      "quote": "十二经脉，三百六十五络",
+      "action": "keep_conditional_teaching",
+      "note": "教学总结语保留 teaching_inference：后世教学概括：经脉十二见《灵枢·经脉》「经脉十二者，伏行分肉之间」；「三百六十五」之数见《灵枢·九针十二原》「节之交，三百六十五会」"
+    },
+    {
+      "nodeId": "07-14",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "瘀血",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-07-14"
+      ],
+      "reasons": [
+        "经典「痛则不通」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "瘀血的概念、形成（气虚气滞血寒血热外伤）与致病特点",
+      "cLevel": "C3",
+      "quote": "痛则不通",
+      "action": "keep_conditional_teaching",
+      "note": "教学总结语保留 teaching_inference：临床总结语；思想依据《素问·举痛论》「客于脉中则气不通，故卒然而痛」"
+    },
+    {
+      "nodeId": "09-06",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望舌（舌诊）",
+      "difficulty": 2,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-06"
+      ],
+      "reasons": [
+        "经典「舌为心之苗」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "舌诊：舌质（神、色、形、态）与舌苔（苔色、苔质）的诊察意义",
+      "cLevel": "C3",
+      "quote": "舌为心之苗",
+      "action": "keep_conditional_teaching",
+      "note": "教学总结语保留 teaching_inference：教学总结语；思想依据《灵枢·五阅五使》「舌者，心之官也」"
+    }
+  ],
+  "missingPatch": [],
+  "noReason": [
+    {
+      "nodeId": "18-02",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "清热剂",
+      "difficulty": 3,
+      "category": "formula",
+      "samples": [],
+      "reasons": [],
+      "intent": null,
+      "cLevel": null,
+      "quote": null,
+      "action": "keep_conditional_no_reason",
+      "note": "队列中无降级原因记录，保持 conditional，待人工确认降级原因"
+    },
+    {
+      "nodeId": "18-06",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "补益剂",
+      "difficulty": 4,
+      "category": "formula",
+      "samples": [],
+      "reasons": [],
+      "intent": null,
+      "cLevel": null,
+      "quote": null,
+      "action": "keep_conditional_no_reason",
+      "note": "队列中无降级原因记录，保持 conditional，待人工确认降级原因"
+    }
+  ],
+  "humanReview": [
+    {
+      "nodeId": "02-15",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳综合案例",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb2-th-02-15"
+      ],
+      "reasons": [],
+      "intent": "C4：多维度阴阳分析，要求假设→证据→反证→修正",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "05-17",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "综合关系案例",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb3-th-05-17"
+      ],
+      "reasons": [],
+      "intent": "精气血津液神多维度关系推理案例",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "07-15",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "综合病因分析",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb3-th-07-15"
+      ],
+      "reasons": [],
+      "intent": "多因素致病的综合推理训练：从症状线索反推病因组合",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "08-03",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "阴阳失调",
+      "difficulty": 3,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-08-03"
+      ],
+      "reasons": [
+        "经典「阴胜则阳病」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "阴阳失调的五种病机：偏盛、偏衰、互损、格拒、亡失",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "08-04",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "气血失常",
+      "difficulty": 3,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-08-04"
+      ],
+      "reasons": [],
+      "intent": "气血失常的病机：气的失常（虚、滞、逆、陷、闭、脱）与血的失常（虚、瘀、出血）",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "08-11",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机综合推理",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb3-cl-08-11"
+      ],
+      "reasons": [],
+      "intent": "从现象到线索到病理解释再到可能机制的综合推理训练",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "09-25",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "舌诊与病机对应",
+      "difficulty": 4,
+      "category": "diagnostic",
+      "samples": [
+        "pb4-dg-09-25"
+      ],
+      "reasons": [],
+      "intent": "舌诊与病机的对应：舌质舌苔综合判断脏腑虚实、寒热进退",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "10-08",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热真假",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-10-08"
+      ],
+      "reasons": [
+        "经典「寒极生热，热极生寒」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "真热假寒与真寒假热的鉴别要点（舌象、脉象、口渴、胸腹按诊）",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "10-14",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲辨证常见误区",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-10-14"
+      ],
+      "reasons": [],
+      "intent": "八纲辨证常见错误：表里不分、寒热真假混淆、虚实错辨、以症代纲",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "10-15",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲综合案例",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb2-cl-10-15"
+      ],
+      "reasons": [],
+      "intent": "C4：八纲四对纲领合参的综合推理，含反证与修正",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "11-08",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血热证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-11-08"
+      ],
+      "reasons": [],
+      "intent": "血热证的病机（热入血分）、迫血妄行与清热凉血治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "11-11",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "痰证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-11-11"
+      ],
+      "reasons": [],
+      "intent": "痰证的形成（津聚成痰）、有形与无形之痰的表现与化痰治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "11-12",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "饮证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-11-12"
+      ],
+      "reasons": [],
+      "intent": "饮证的成因（阳虚水停）与四饮（痰悬溢支）的分类表现",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "11-13",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "水湿证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-11-13"
+      ],
+      "reasons": [],
+      "intent": "水湿证的成因（肺脾肾气化失司）、水肿表现与利水治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "11-15",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气血津液辨证与脏腑辨证衔接",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-11-15"
+      ],
+      "reasons": [],
+      "intent": "reference：气血津液辨证（辨病性）与脏腑辨证（辨病位）的衔接方法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "12-01",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证总论",
+      "difficulty": 3,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-12-01"
+      ],
+      "reasons": [],
+      "intent": "脏腑辨证总论：以脏腑生理为基础、病位病性结合、组合成证的体系概述",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "12-09",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝阳上亢",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb3-cl-12-09"
+      ],
+      "reasons": [],
+      "intent": "肝阳上亢的证候特点（上盛下虚）及与肝火上炎的鉴别",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "12-10",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝风内动",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb3-cl-12-10"
+      ],
+      "reasons": [
+        "经典「诸风掉眩皆属于肝」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "肝风内动四型（肝阳化风/热极生风/阴虚动风/血虚生风）的鉴别",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "12-30",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证综合案例",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb3-cl-12-30"
+      ],
+      "reasons": [],
+      "intent": "脏腑辨证综合案例：多脏腑兼证的鉴别与主次判断",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "13-04",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "少阳病辨证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-13-04"
+      ],
+      "reasons": [],
+      "intent": "少阳病提纲、往来寒热胸胁苦满的主证与和解治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "13-05",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "太阴病辨证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-13-05"
+      ],
+      "reasons": [],
+      "intent": "太阴病提纲、脾虚寒湿的病机与温中散寒治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "13-06",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "少阴病辨证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-13-06"
+      ],
+      "reasons": [],
+      "intent": "少阴病提纲、寒化热化之分与回阳/育阴治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "13-07",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "厥阴病辨证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-13-07"
+      ],
+      "reasons": [],
+      "intent": "厥阴病提纲、上热下寒之病机与寒热并用的治法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "13-11",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经经典案例",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb3-cl-13-11"
+      ],
+      "reasons": [],
+      "intent": "六经经典案例：太阳病传变阳明的辨证过程",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "14-08",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血与现代感染性疾病",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-14-08"
+      ],
+      "reasons": [],
+      "intent": "reference：卫气营血辨证在现代感染性发热性疾病中的运用与对照",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "16-04",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "正治与反治",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb4-th-16-04"
+      ],
+      "reasons": [],
+      "intent": "正治（逆治）与反治（从治）的含义及「热因热用」等四种反治",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "17-03",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "组方原则",
+      "difficulty": 3,
+      "category": "formula",
+      "samples": [
+        "pb4-fo-17-03"
+      ],
+      "reasons": [],
+      "intent": "组方原则：君臣佐使的配伍结构、各自作用与组方要求",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "17-08",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方证关系",
+      "difficulty": 4,
+      "category": "formula",
+      "samples": [
+        "pb4-fo-17-08"
+      ],
+      "reasons": [],
+      "intent": "方证关系：方随证立、证变方变，「有是证用是方」的临床把握",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "18-16",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "类方比较",
+      "difficulty": 4,
+      "category": "formula",
+      "samples": [
+        "pb4-fo-18-16"
+      ],
+      "reasons": [],
+      "intent": "类方比较：功效相近方剂的鉴别（组成、功效、主治侧重）与选方依据",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "20-02",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "古代名医医案",
+      "difficulty": 3,
+      "category": "case",
+      "samples": [
+        "pb4-ca-20-02"
+      ],
+      "reasons": [],
+      "intent": "古代名医医案（如叶天士、薛生白等）的阅读方法与辨证思路还原",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "20-04",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "复杂病机医案",
+      "difficulty": 4,
+      "category": "case",
+      "samples": [
+        "pb4-ca-20-04"
+      ],
+      "reasons": [],
+      "intent": "复杂病机医案（多证候交织、寒热虚实错杂）的分析方法",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "20-05",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "误治医案",
+      "difficulty": 5,
+      "category": "case",
+      "samples": [
+        "pb4-ca-20-05"
+      ],
+      "reasons": [],
+      "intent": "误治医案（误汗、误下、误补、误清）的成因分析与教训",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "20-06",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "医案中的思维还原",
+      "difficulty": 5,
+      "category": "case",
+      "samples": [
+        "pb4-ca-20-06"
+      ],
+      "reasons": [],
+      "intent": "还原医者当时的推理过程（信息收集→假设→验证→决策），训练临床思维",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "21-03",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "八纲→气血津液→脏腑递进",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-21-03"
+      ],
+      "reasons": [],
+      "intent": "辨证递进路径：八纲定向→气血津液定性→脏腑定位→组合成证",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "21-04",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "病因+病机→辨证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-21-04"
+      ],
+      "reasons": [
+        "经典「审察病机，无失气宜」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "从病因病机推导证候：审证求因、因机证统一",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "21-05",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "多假设推理",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-21-05"
+      ],
+      "reasons": [],
+      "intent": "多假设推理：从主诉列出多种可能、逐一验证排除、避免先入为主",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "21-06",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "排除法辨证",
+      "difficulty": 4,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-21-06"
+      ],
+      "reasons": [],
+      "intent": "排除法辨证：通过逐项排除缩小证候范围，处理信息不足的临床情形",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "21-07",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "证候演变预测",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-21-07"
+      ],
+      "reasons": [],
+      "intent": "证候演变预测：据病机推断传变趋势（表里、六经、卫气营血、脏腑相克），既病防变",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "21-08",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "综合辨证练习",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-21-08"
+      ],
+      "reasons": [],
+      "intent": "多轮综合案例推理：整合四诊、病因、病机、八纲、脏腑进行完整辨证",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "22-06",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "不同体系如何协同",
+      "difficulty": 5,
+      "category": "clinical",
+      "samples": [
+        "pb4-cl-22-06"
+      ],
+      "reasons": [],
+      "intent": "八纲、气血津液、脏腑、六经、卫气营血、三焦各辨证体系的协同运用",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "23-08",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "综合判断",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-23-08"
+      ],
+      "reasons": [],
+      "intent": "综合判断：整合正反证据、以病机主线统一解释、动态修正得出辨证结论",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "23-09",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "避免单因素推断",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-23-09"
+      ],
+      "reasons": [
+        "经典「四诊合参，不可偏废」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "intent": "避免单因素推断：一个症状不等于一个结论，必须多证据合参",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    },
+    {
+      "nodeId": "23-10",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "避免机械套证",
+      "difficulty": 4,
+      "category": "theory",
+      "samples": [
+        "pb4-th-23-10"
+      ],
+      "reasons": [],
+      "intent": "避免机械套证：证候是动态的活状态，不可公式化、模板化",
+      "cLevel": "C4",
+      "action": "keep_conditional_human",
+      "note": "C4 语义人工复核：模型无法稳定判断，需人工审定后放行"
+    }
+  ],
+  "quarantine": [
+    {
+      "nodeId": "03-13",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行综合案例",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb3-th-03-13"
+      ],
+      "reasons": [],
+      "intent": "融合五行生克乘侮与治则的综合性推理案例",
+      "cLevel": "C4",
+      "action": "keep_quarantine",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        },
+        {
+          "gate": "G",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        }
+      ],
+      "note": "隔离即安全：Gate 最终不变式拦截，不得自动放行，留人工复核"
+    },
+    {
+      "nodeId": "04-19",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "藏象综合案例",
+      "difficulty": 3,
+      "category": "theory",
+      "samples": [
+        "pb3-th-04-19"
+      ],
+      "reasons": [],
+      "intent": "多脏腑联合推理：心肾、肝脾、肺脾等多维关系的综合案例",
+      "cLevel": "C4",
+      "action": "keep_quarantine",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+        }
+      ],
+      "note": "隔离即安全：Gate 最终不变式拦截，不得自动放行，留人工复核"
+    },
+    {
+      "nodeId": "17-07",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂的剂型",
+      "difficulty": 4,
+      "category": "formula",
+      "samples": [
+        "pb3-fm-17-07"
+      ],
+      "reasons": [],
+      "intent": "方剂的主要剂型（汤、丸、散、膏、丹）及其特点与选用",
+      "cLevel": "C3",
+      "action": "keep_quarantine",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+        }
+      ],
+      "note": "隔离即安全：Gate 最终不变式拦截，不得自动放行，留人工复核"
+    }
+  ],
+  "unknown": []
+}

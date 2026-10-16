@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-28",
+  "genLabel": "Phase 5 · Batch-28 · AC 现代医学基础 40 nodes",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

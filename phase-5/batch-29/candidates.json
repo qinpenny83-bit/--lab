@@ -1,0 +1,118 @@
+{
+  "seed": "phase-5/batch-29",
+  "genLabel": "Phase 5 · Batch-29 · AD 伦理法律 12 nodes",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 12
+  },
+  "samples": [
+    {
+      "id": "pb29-ad-001",
+      "title": "伦理·医德基本原则",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-002",
+      "title": "伦理·知情同意与患者自主权",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-003",
+      "title": "伦理·隐私保护与保密义务",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-004",
+      "title": "伦理·生命伦理与临终决策",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-005",
+      "title": "伦理·人体试验伦理审查",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-006",
+      "title": "伦理·医疗资源分配公平",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb29-ad-007",
+      "title": "伦理·中医行医执业规范",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-008",
+      "title": "法规·执业医师法要点",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-009",
+      "title": "法规·中医药法要点",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-010",
+      "title": "法规·医疗事故处理条例",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb29-ad-011",
+      "title": "法规·病历书写规范",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb29-ad-012",
+      "title": "法规·医保与处方管理要点",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-review"
+    }
+  ]
+}

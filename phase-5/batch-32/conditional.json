@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-32",
+  "genLabel": "Phase 5 · Batch-32 · AG 综合医案·试炼 20 nodes",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

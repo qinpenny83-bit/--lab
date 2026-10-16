@@ -1,0 +1,276 @@
+// ============================================================
+// 杏林大典 · Phase 5 · Batch-41 · 样本 Part AB（AB 全科医学 补足 10 节点 pb41-ab-001 ~ pb41-ab-010）
+// 学科：AB 全科医学（学科上限补足批次）；覆盖：常见症状鉴别（发热/咳嗽/头痛/胸痛/腹痛）/
+//       慢病管理（高血压/糖尿病/冠心病/COPD）/临终关怀
+// schema：{ id, title, category, difficulty, difficultyLabel, riskTags, intent,
+//          facts[], classics[], dosage, cases, stdJudgment, coreDefinition,
+//          safety:{note, prohibitions[]}, learning:{knowledge, misjudgment, reasoning, feedback, transfer} }
+// category 一律 'clinical'；title 一律「全科·主题」式
+// facts sourceTitle 限定：《全科医学概论》规划教材 / 《社区卫生服务》规划教材，status 一律 'verified'
+// classics 一律留空数组（AB 无权威经典原文出处）
+// dosage 一律写「不涉及剂量」+ 相关注意；safety 统一含「知识学习内容，不构成诊疗建议；临床操作须遵医嘱」
+// 难度分布：简单 3（diff 1）/ 中等 3（diff 2）/ 困难 2（diff 3）/ 易混综合 2（易混淆 1 + 综合推理 1）
+// 机器味句式黑名单（authoring-spec 第 3 节）一律禁用
+// ============================================================
+
+export const PART_AB = [
+  // ============================================================
+  // AB 全科医学 · 常见症状识别（001–005）
+  // ============================================================
+  {
+    id: 'pb41-ab-001', title: '全科·发热鉴别诊断思路', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['发热', '鉴别诊断', '热型', '感染性发热', '不明原因发热'],
+    intent: '掌握发热的临床分度、问诊要点与感染性、非感染性发热的鉴别思路。',
+    facts: [
+      { field: '全科.发热分度', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.问诊要点', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.鉴别思路', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.辅助检查', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+      { field: '全科.处理与转诊', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；对症退热按规范选用解热镇痛药，社区门诊遵循成人儿童剂量分档', caution: '体温不高的退热与抗生素应用须有指征，不明原因发热忌盲目退热掩盖热型，须留取标本后转诊' },
+    cases: null,
+    stdJudgment: '发热鉴别以病史线索为纲：问清起病缓急、热型（稽留弛张间歇）、寒战皮疹、伴随系统症状与用药史、旅行接触史；感染性发热按呼吸道、泌尿道、肠道、中枢定位，非感染性要考虑肿瘤、结缔组织病与内分泌代谢病。不明原因发热（3周以上）社区初筛无果应转诊上级，热型资料是后续诊断的重要线索。',
+    coreDefinition: '发热鉴别从病史热型入手，分感染性与非感染性两大方向，以系统定位与辅助检查逐步收敛。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。发热伴意识障碍、皮疹瘀斑、血压下降属急症须即转诊', prohibitions: ['高热伴惊厥、休克、脑膜刺激征须立即急诊转诊', '不明原因发热忌长期盲目退热与滥用抗生素'] },
+    learning: {
+      knowledge: '发热分度：低热37.3~38℃、中等度热38.1~39℃、高热39.1~41℃、超高热41℃以上。问诊要点：起病与诱因、热程热型、寒战（疟疾菌血症多见）、皮疹（麻疹猩红热药疹）、关节肿痛、咳嗽尿路肠道症状、药物与接触史。鉴别思路：感染性发热定位（呼吸、泌尿、消化、中枢、败血症），非感染性发热（血液肿瘤、自身免疫、甲亢、药物热）。处理：对症退热、留取血尿标本、观察热型，FUO转诊。',
+      misjudgment: '发热即查血常规加抗生素，待结果再议。错：多数自限性病毒性发热无需抗生素；发热诊断应循病史定位，标本留取在用药前，否则掩盖真相又诱导耐药。',
+      reasoning: '同是39℃高热，为何老年人可无显著热型，而以精神萎靡为首见？',
+      feedback: '老年体温调节弱、反应差，发热幅度与感染程度常不匹配，问诊须重精神食欲等整体状态，防低估重症。',
+      transfer: '持续午后低热伴盗汗消瘦者，试按发热鉴别思路列出排查方向。',
+    },
+  },
+  {
+    id: 'pb41-ab-002', title: '全科·慢性咳嗽社区管理', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['慢性咳嗽', '咳嗽变异性哮喘', '上气道咳嗽综合征', '胃食管反流', '社区管理'],
+    intent: '掌握慢性咳嗽的定义、常见病因筛查与社区分层管理思路。',
+    facts: [
+      { field: '全科.定义与筛查', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.常见病因', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.诊断思路', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.社区管理', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+      { field: '全科.转诊指征', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；镇咳药仅短期对症，病因治疗按专科方案执行', caution: '咳嗽药滥用掩盖病因，咯血、消瘦、胸痛、杵状指者禁忌单纯镇咳，须排查器质性病变' },
+    cases: null,
+    stdJudgment: '慢性咳嗽指咳嗽超过8周、胸片无明显异常的常见病；社区筛查按上气道咳嗽综合征、咳嗽变异性哮喘、胃食管反流性咳嗽、嗜酸粒细胞性支气管炎四大病因顺次排查，问清咳嗽性质、时间节律与诱发因素。病因治疗有效者定期随访，伴咯血消瘦胸痛等警示征者转专科。',
+    coreDefinition: '慢性咳嗽（>8周）按UACS、CVA、GERC、EB四大病因顺次筛查，以病因治疗与随访为核心。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。咯血、胸痛、进行性消瘦者须排除肺癌等器质性病变', prohibitions: ['咯血、胸痛、消瘦者禁忌单纯镇咳，须转诊排查', '长期用强镇咳药可掩盖病情，忌无指征滥用'] },
+    learning: {
+      knowledge: '定义：咳嗽持续8周以上。常见病因：上气道咳嗽综合征（鼻后滴流，晨起咳嗽多痰）、咳嗽变异性哮喘（夜间及运动后干咳，支气管激发试验阳性）、胃食管反流性咳嗽（进食后或卧位加重）、嗜酸粒细胞性支气管炎（诱导痰嗜酸粒细胞增高）。诊断思路：问诊节律性质诱因，试验性治疗验证，必要时肺功能与诱导痰检查。管理：病因治疗、戒烟、避免诱因、每3~6月随访评估。',
+      misjudgment: '慢性咳嗽一律按支气管炎反复抗生素治疗。错：慢性咳嗽四大病因均非细菌感染所致，抗生素无效；试验性诊断与病因治疗方为正途。',
+      reasoning: '同为慢性咳嗽，为何有的夜间发作而有的晨起加重，节律提示什么？',
+      feedback: '夜间咳嗽提示变异性哮喘与反流，晨起痰咳提示鼻后滴流，节律即线索，问诊详于时辰则病因渐明。',
+      transfer: '服ACEI类降压药后出现顽固干咳者，试按药物性咳嗽思路调整方案。',
+    },
+  },
+  {
+    id: 'pb41-ab-003', title: '全科·头痛常见类型识别', category: 'clinical', difficulty: 4, difficultyLabel: '易混淆',
+    riskTags: ['头痛', '偏头痛', '紧张型头痛', '丛集性头痛', '红旗征'],
+    intent: '掌握原发性头痛三型的鉴别要点与继发性头痛红旗征的识别转诊。',
+    facts: [
+      { field: '全科.问诊要点', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.偏头痛', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.紧张型头痛', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.丛集性头痛', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.红旗征', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；止痛药按说明短期使用，偏头痛急性期药物与预防药物由专科拟定', caution: '止痛药过用可致药物过度使用性头痛，每月使用天数须记录控制；红旗征者禁用单纯止痛后放行' },
+    cases: null,
+    stdJudgment: '头痛识别先排继发、再辨原发：偏头痛为单侧搏动性中重度头痛、活动加重、伴恶心畏光畏声；紧张型头痛呈双侧压迫紧箍感、轻中度、无伴随；丛集性头痛为单侧眶颞剧痛伴同侧流泪鼻塞、成串发作。霹雳样突发剧痛、发热颈强、新发年龄大于50岁、进行性加重伴神经体征属红旗征，急诊转诊。',
+    coreDefinition: '头痛先识别继发性红旗征，再按偏头痛、紧张型、丛集性三型特征鉴别原发性头痛。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。红旗征头痛须急诊排查脑出血、感染与占位', prohibitions: ['霹雳样突发剧痛、发热颈强、神经体征须立即急诊', '肿瘤转移史或免疫抑制者新发头痛须影像学排查', '止痛药过用致药物过度使用性头痛，忌无度服用'] },
+    learning: {
+      knowledge: '问诊要点：部位、性质、程度、时间节律、诱发因素、伴随症状、用药史。偏头痛：单侧搏动性、持续4~72小时、活动加重、恶心呕吐、畏光畏声、先兆（视觉异常多见）。紧张型：双侧压迫感、紧箍感、轻中度、不伴恶心。丛集性：单侧眶周颞部剧痛、同侧结膜充血流泪鼻塞、15分钟至3小时、成串发作。红旗征：霹雳样头痛、发热颈强、50岁后新发、进行性加重伴偏瘫失语、意识改变、视乳头水肿。',
+      misjudgment: '发作性单侧搏动头痛先做头颅CT排除颅内病变。错：原发性偏头痛影像多无异常，过度检查无益；辨型定治重于影像，红旗征阴性者按发作频率分期管理。',
+      reasoning: '同是单侧头痛，为何丛集性伴同侧流泪而偏头痛伴畏光，神经机制有何不同？',
+      feedback: '丛集性为三叉自主神经反射激活，故泪鼻分泌亢进；偏头痛为皮层扩布抑制与三叉血管激活，故感觉异常，辨伴随即可分型。',
+      transfer: '晨起固定痛伴视乳头水肿者，试按继发性头痛红旗思路处理。',
+    },
+  },
+  {
+    id: 'pb41-ab-004', title: '全科·胸痛危险分层', category: 'clinical', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['胸痛', '急性冠脉综合征', '主动脉夹层', '肺栓塞', '危险分层'],
+    intent: '掌握胸痛的致命性病因识别与危险分层，训练社区首诊的急诊决策能力。',
+    facts: [
+      { field: '全科.问诊要点', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.致命性胸痛', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.危险分层', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.辅助检查', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+      { field: '全科.转诊决策', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；胸痛急诊用药（抗血小板、硝酸酯等）须由急诊医师规范执行', caution: '未排除急性冠脉综合征前忌做运动试验等负荷检查；镇痛药忌在诊断未明时使用' },
+    cases: null,
+    stdJudgment: '胸痛分诊先问高危特征：急性冠脉综合征之压榨样胸骨后痛放射左臂下颌、伴大汗恶心；主动脉夹层之撕裂样痛放射后背、血压差悬殊；肺栓塞之突发呼吸困难、咯血晕厥、深静脉血栓史；张力性气胸之突发呼吸困难伴皮下气肿。任一高危征象即120转诊，低危者（肋软骨炎、反流、肌痛）在社区评估。',
+    coreDefinition: '胸痛危险分层围绕ACS、主动脉夹层、肺栓塞、张力性气胸四大致命病因展开急诊决策。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。疑致命性胸痛必须立即转诊，不可滞留观察', prohibitions: ['疑急性冠脉综合征、夹层、肺栓塞者须立即120转诊', '未排除ACS前禁忌运动负荷试验', '诊断未明忌用镇痛药掩盖体征'] },
+    learning: {
+      knowledge: '问诊要点：性质（压榨/撕裂/锐刺）、放射部位、诱因缓解、持续时间、伴随（出汗、咯血、晕厥、气促）。致命性胸痛：ACS胸骨后压榨痛>20分钟、心电图ST改变、肌钙蛋白升高；主动脉夹层撕裂样痛、血压差、纵隔增宽；肺栓塞呼吸困难咯血、D-二聚体阳性、右心负荷。分层工具：心电图、肌钙蛋白、D-二聚体、年龄危险因素积分。低危：肋软骨炎压痛局限、反流性烧心与体位相关。',
+      misjudgment: '心电图正常即按肋间神经痛处理胸痛。错：早期心梗心电图可正常，须结合症状动态复查并查肌钙蛋白；仅凭一次心电图放行高危胸痛风险极大。',
+      reasoning: '同为胸痛，为何ACS忌运动试验而怀疑肺栓塞时首选D-二聚体筛查？',
+      feedback: '负荷试验在缺血未稳定时诱发意外，D-二聚体筛查肺栓塞敏感度高而特异度低，阴性可基本排除，检查选择依病生理机制与风险而定。',
+      transfer: '长途飞行后突发胸痛咯血者，试按肺栓塞特征设计问诊要点。',
+    },
+  },
+  {
+    id: 'pb41-ab-005', title: '全科·腹痛急慢鉴别', category: 'clinical', difficulty: 2, difficultyLabel: '中等',
+    riskTags: ['腹痛', '急腹症', '腹膜刺激征', '麦氏点', '鉴别'],
+    intent: '掌握腹痛的定位思路与急腹症红旗征，训练全科首诊的鉴别与转诊能力。',
+    facts: [
+      { field: '全科.问诊要点', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.定位思路', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.急腹症红旗', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.慢腹痛', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.处理与转诊', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；急腹症未明确前禁食水、禁用强镇痛药', caution: '诊断未明使用止痛药可掩盖穿孔与休克体征，急腹症转诊前一般不用强镇痛' },
+    cases: null,
+    stdJudgment: '腹痛鉴别以起病缓急与部位定位为纲：突发剧痛、腹膜刺激征、腹胀停止排气排便、呕血便血、发热休克属急腹症红旗，未明确前禁食水并转诊；慢腹痛多属功能性胃肠病，问情志饮食大便节律。部位定位：右上腹肝胆、中上腹胃十二指肠胰腺、右下腹阑尾回盲部、左下腹结肠。',
+    coreDefinition: '腹痛鉴别先识急腹症红旗征，再按部位定位器官，慢腹痛兼顾功能性与心理因素。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。腹膜刺激征、休克征者禁食水并急诊转诊', prohibitions: ['急腹症未明确前禁食水、禁用强镇痛药', '腹膜刺激征、呕血便血、休克须立即急诊', '老年患者腹痛体征可不典型，须警惕'] },
+    learning: {
+      knowledge: '问诊要点：起病急缓、疼痛性质（绞痛/钝痛/刀割样）、部位转移（阑尾炎转移性右下腹痛）、诱因（油腻、饮酒）、伴随（发热呕吐便血）。定位：右上腹胆囊肝脏、中上腹胃十二指肠胰腺、右下腹麦氏点阑尾、左下腹乙状结肠、脐周小肠。急腹症红旗：突发剧痛、压痛反跳痛肌紧张、腹胀排气停止、出血、发热、休克。慢腹痛：肠易激综合征、功能性消化不良，问情绪排便。',
+      misjudgment: '右下腹痛一律按阑尾炎处理，忽略妇科与泌尿鉴别。错：附件炎、宫外孕、输尿管结石均可右下腹痛，育龄女性须问月经与尿检，盲切延误宫外孕出血。',
+      reasoning: '同为急腹症，为何宫外孕破裂禁灌肠通便而肠梗阻要胃肠减压？',
+      feedback: '宫外孕出血病在腹腔，灌肠增腹压加剧出血；肠梗阻病在肠腔，减压减张正其所宜，机制决定处置方向。',
+      transfer: '绝经后女性突发下腹痛伴休克者，试按急腹症红旗征设计处置次序。',
+    },
+  },
+  // ============================================================
+  // AB 全科医学 · 慢病管理（006–009）
+  // ============================================================
+  {
+    id: 'pb41-ab-006', title: '全科·高血压社区管理', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['高血压', '社区管理', '分级分层', '非药物干预', '随访'],
+    intent: '掌握高血压的诊断标准、危险分层与社区长期管理流程。',
+    facts: [
+      { field: '全科.诊断标准', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.危险分层', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.非药物干预', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.药物治疗', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.随访与转诊', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；降压药五大类（ACEI/ARB/CCB/利尿剂/β受体阻滞剂）选择与剂量调整须按诊疗规范执行', caution: '血压≥180/120mmHg伴症状属高血压急症须即转诊；老年人降压防体位性低血压，忌骤降' },
+    cases: null,
+    stdJudgment: '高血压社区管理以诊室血压≥140/90mmHg、家庭血压≥135/85mmHg为诊断界值，先分级再分层：低危者以限盐减重运动等非药物干预为主，中高危者启动药物治疗；达标后每3个月随访评估，血压波动或靶器官损害者转诊。家庭自测与服药依从性是社区管理成败的两大支点。',
+    coreDefinition: '高血压社区管理按分级分层定方案，非药物干预为基础，达标随访与依从性管理为长效保障。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。急症性血压升高须急诊处理', prohibitions: ['血压≥180/120mmHg伴靶器官损害须立即急诊', '老年人忌降压过速过低，防体位性低血压', '妊娠期高血压禁用ACEI/ARB类'] },
+    learning: {
+      knowledge: '诊断标准：诊室≥140/90mmHg，家庭≥135/85mmHg，动态血压24小时均值≥130/80mmHg，不同日多次测量。分级：1级140~159/90~99，2级160~179/100~109，3级≥180/110。危险分层：结合年龄、吸烟、血脂血糖、靶器官损害定低中高危。非药物干预：限盐<5g/日、控制体重、规律运动、戒烟限酒。药物：五大类单药或联合，伴糖尿病肾病首选ACEI/ARB。随访：达标3个月1次，未达标2~4周调整。',
+      misjudgment: '血压测量一次正常即否定高血压诊断。错：血压昼夜波动大，须不同日多次测量或家庭监测，晨峰与白大衣现象均须识别，单次正常不足为凭。',
+      reasoning: '同为降压，为何伴蛋白尿者首选ACEI而非利尿剂？',
+      feedback: 'ACEI/ARB扩张出球小动脉、降低肾小球内压，有靶器官保护之益；利尿剂降低血容量为主，于肾脏受损者获益不同，机制决定首选。',
+      transfer: '晨起头晕测血压正常的老人，试按血压节律思路建议监测时段。',
+    },
+  },
+  {
+    id: 'pb41-ab-007', title: '全科·糖尿病社区管理', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['糖尿病', '社区管理', '五驾马车', '血糖监测', '并发症筛查'],
+    intent: '掌握糖尿病的诊断标准、五驾马车管理内涵与社区随访筛查要点。',
+    facts: [
+      { field: '全科.诊断标准', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.五驾马车', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.药物管理', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.并发症筛查', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.随访要求', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；降糖药物与胰岛素方案由医师按血糖水平个体化调整，社区执行规范监测', caution: '胰岛素使用须防低血糖，低血糖反应（心悸出汗意识改变）急救处理须教会患者与家属' },
+    cases: null,
+    stdJudgment: '糖尿病社区管理以五驾马车为纲：饮食控制（碳水45%~60%）、规律运动、自我血糖监测、药物管理与健康教育；诊断按空腹≥7.0mmol/L、OGTT两小时≥11.1mmol/L或HbA1c≥6.5%。每3个月随访查HbA1c，每年筛查眼底、尿微量白蛋白与足部，重在防并发症。',
+    coreDefinition: '糖尿病社区管理以五驾马车为核心，强调血糖达标、并发症筛查与自我管理能力建设。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。低血糖是降糖治疗首要风险，须普及识别与急救', prohibitions: ['低血糖昏迷须立即急救并纠正，禁用口服补糖于昏迷者', '血糖波动大或反复低血糖者转专科调整方案'] },
+    learning: {
+      knowledge: '诊断标准：糖尿病症状+随机≥11.1mmol/L，或空腹≥7.0mmol/L，或OGTT2小时≥11.1mmol/L，或HbA1c≥6.5%，二次确认。五驾马车：饮食（总量与结构）、运动（每周150分钟中等强度）、监测（自我血糖记录）、药物（口服降糖或胰岛素）、教育（自我管理能力）。并发症筛查：眼底照相、尿微量白蛋白/肌酐、足部感觉与循环、血脂血压。随访：3个月查HbA1c，血压血脂年度评估。',
+      misjudgment: '血糖正常即认为并发症无忧，忽略年度并发症筛查。错：糖尿病微血管病变可早于明显高血糖期隐匿进展，眼底与尿蛋白筛查是早发现早干预的关键。',
+      reasoning: '同为血糖控制，为何老年患者HbA1c目标放宽而年轻患者从严？',
+      feedback: '老年低血糖风险高、预期寿命有限，宽松目标防低血糖之害；年轻人病程长、并发症风险累积，从严达标远期获益更大，个体化设标。',
+      transfer: '反复低血糖的注射胰岛素老人，试按血糖监测记录分析调整方向。',
+    },
+  },
+  {
+    id: 'pb41-ab-008', title: '全科·冠心病二级预防', category: 'clinical', difficulty: 3, difficultyLabel: '困难',
+    riskTags: ['冠心病', '二级预防', 'ABCDE', '危险因素', '抗血小板'],
+    intent: '掌握冠心病二级预防的ABCDE框架与危险因素综合管理，理解社区延续照护的作用。',
+    facts: [
+      { field: '全科.预防目标', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.ABCDE框架', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.危险因素管理', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.药物管理', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.随访评估', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；抗血小板、他汀、ACEI/ARB与β受体阻滞剂的具体方案由专科与全科协作规范执行', caution: '抗血小板治疗须监测出血风险，他汀须复查肝功能肌酶，停药调整均须医嘱' },
+    cases: null,
+    stdJudgment: '冠心病二级预防以ABCDE为纲：A抗血小板与抗心绞痛，B血压控制（<130/80mmHg）与β阻滞剂，C调脂（LDL-C<1.8mmol/L）与戒烟，D饮食与血糖管理（HbA1c<7%），E运动康复与健康教育；社区主长期随访与依从性督导，专科主血运重建与方案调整，防再发防恶化。',
+    coreDefinition: '冠心病二级预防按ABCDE框架综合管理危险因素，抗血小板与降脂达标是防再发核心。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。二级预防药物调整须在医师指导下进行', prohibitions: ['抗血小板与他汀调整忌自行停药', '活动性出血、肝功能显著异常者须评估用药风险'] },
+    learning: {
+      knowledge: '预防目标：防再梗死、心衰与猝死，改善生活质量。ABCDE框架：A阿司匹林+抗心绞痛，B血压<130/80mmHg+β阻滞剂，C胆固醇LDL-C<1.8mmol/L+戒烟，D饮食+糖尿病HbA1c<7%，E运动（心脏康复）与教育。危险因素管理：血压血糖血脂、吸烟、肥胖、久坐综合干预。药物：双联抗血小板、高强度他汀、ACEI/ARB、β阻滞剂分层使用。随访：每3~6个月评估依从性、出血风险与靶目标达成。',
+      misjudgment: '支架术后症状消失即自行停用抗血小板与他汀。错：支架血栓与斑块进展皆可猝发，双抗须足疗程、他汀须长期，停药是再梗死常见诱因。',
+      reasoning: '同为降脂，为何冠心病二级预防的他汀强度高于一级预防？',
+      feedback: '二级预防已处斑块不稳定与再发高危状态，强化降脂快速稳定斑块、显著降事件率；一级预防相对低危，中等强度兼顾获益与成本。',
+      transfer: '心梗术后3个月患者想停阿司匹林，试按二级预防依从性要点设计沟通话术。',
+    },
+  },
+  {
+    id: 'pb41-ab-009', title: '全科·COPD稳定期管理', category: 'clinical', difficulty: 1, difficultyLabel: '简单',
+    riskTags: ['COPD', '稳定期管理', '肺康复', '吸入治疗', '戒烟'],
+    intent: '掌握COPD诊断标准、稳定期综合管理与急性加重预防，理解肺功能评估的价值。',
+    facts: [
+      { field: '全科.诊断标准', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.病情评估', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.稳定期管理', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.吸入治疗', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.加重预防', sourceType: 'textbook', sourceTitle: '《社区卫生服务》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；吸入支气管舒张剂（LAMA/LABA）与吸入糖皮质激素方案按GOLD分组规范执行', caution: '吸入装置使用技术错误是疗效不佳常见原因，每次随访须核查；长程氧疗有严格指征，不可随意吸氧' },
+    cases: null,
+    stdJudgment: 'COPD稳定期管理以确诊为前提：吸入支气管舒张剂后FEV1/FVC<0.70即诊断；按症状与加重史分组（A/B/E组）定治疗，戒烟为一切干预之首，辅以肺康复、疫苗接种与急性加重预案。稳定期每3~6个月评估症状与吸入技术，反复加重或呼衰者转诊评估长程氧疗。',
+    coreDefinition: 'COPD稳定期管理以戒烟、吸入治疗与肺康复为核心，按GOLD分组个体化用药并防急性加重。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。长程氧疗须评估血气，氧流量控制防CO2潴留', prohibitions: ['长程氧疗须有血气指征并控流量，防CO2潴留', '急性加重呼吸困难加重者须及时就医，勿自行加大吸入药量'] },
+    learning: {
+      knowledge: '诊断标准：有吸烟等危险因素+慢性咳嗽咳痰气促，肺功能吸入支气管舒张剂后FEV1/FVC<0.70。评估：改良呼吸困难指数、急性加重次数、肺功能分级。稳定期管理：戒烟（核心）、吸入长效支气管舒张剂（A/B组）、E组加吸入糖皮质激素、肺康复训练（缩唇呼吸、腹式呼吸）、流感与肺炎球菌疫苗。加重预防：识别加重早期征（痰变脓性、气促加重），规范用药防反复。',
+      misjudgment: 'COPD患者气促即加大吸入剂量而不查吸入技术。错：吸入装置使用错误可致药物完全无效，剂量加量徒增副作用；随访先教技术，后调方案。',
+      reasoning: '同为气促，为何COPD强调肺康复锻炼而非单纯休息养肺？',
+      feedback: '呼吸肌废用性萎缩加重呼吸困难，肺康复训练肌肉与呼吸模式，打破气促-少动-更弱的恶性循环，休息不能替代主动康复。',
+      transfer: '反复住院的COPD老人痰多气促者，试按加重预防要点设计居家预案。',
+    },
+  },
+  // ============================================================
+  // AB 全科医学 · 临终关怀（010）
+  // ============================================================
+  {
+    id: 'pb41-ab-010', title: '全科·临终关怀与安宁疗护', category: 'clinical', difficulty: 5, difficultyLabel: '综合推理',
+    riskTags: ['临终关怀', '安宁疗护', '疼痛三阶梯', '生前预嘱', '生命质量'],
+    intent: '掌握安宁疗护的理念内涵、症状控制要点与医患沟通原则，理解生命质量优先的照护取向。',
+    facts: [
+      { field: '全科.核心理念', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.疼痛控制', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.症状管理', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.心理社会支持', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+      { field: '全科.沟通与预嘱', sourceType: 'textbook', sourceTitle: '《全科医学概论》规划教材', status: 'verified' },
+    ],
+    classics: [],
+    dosage: { guideline: '不涉及剂量；镇痛药按三阶梯原则由专科处方，阿片类剂量个体化滴定并防不良反应', caution: '阿片类镇痛须防呼吸抑制与便秘，剂量滴定在医师指导下进行；临终不以延长生命为唯一目标' },
+    cases: null,
+    stdJudgment: '安宁疗护以生命质量为宗旨，为不可治愈的疾病终末期患者提供疼痛与症状控制、心理灵性关怀与家属支持，不作无意义的延长生命干预；疼痛控制按三阶梯原则（非阿片→弱阿片→强阿片+辅助用药），呼吸困难、恶心、谵妄等症状对症管理；生前预嘱与预立照护计划尊重患者意愿，与安乐死界限分明。',
+    coreDefinition: '安宁疗护以控制症状、提高生命质量为宗旨，提供身心社灵全方位照护并支持家属。',
+    safety: { note: '知识学习内容，不构成诊疗建议；临床操作须遵医嘱。阿片类用药须规范滴定并防呼吸抑制', prohibitions: ['阿片类镇痛须个体化滴定，防呼吸抑制与便秘', '放弃抢救决定须与家属充分沟通并依法规记录'] },
+    learning: {
+      knowledge: '核心理念：接纳死亡为正常过程、不加速也不拖延，症状控制与生命质量优先。疼痛控制：三阶梯（非阿片类→弱阿片类→强阿片类+辅助镇痛），按时给药、口服首选、个体化滴定。症状管理：呼吸困难予氧疗与体位、恶心予止吐、谵妄查找可逆原因。心理社会支持：倾听陪伴、灵性关怀、家属哀伤辅导。沟通：坦诚渐进告知、尊重知情权，生前预嘱与预立照护计划落实患者意愿。',
+      misjudgment: '终末期患者疼痛剧烈时顾虑成瘾而不敢用足阿片。错：阿片类用于癌痛规范剂量无成瘾之虞，不足量镇痛反损生命质量，按阶梯按时给药方为正途。',
+      reasoning: '同为临终决策，为何家属坚持抢救而患者希望安宁，医者当以谁为先？',
+      feedback: '医疗决策以患者自主意愿为尊，医者职责在沟通解释、使家属理解安宁内涵，居中调和而非代做决定，法律与伦理并重。',
+      transfer: '晚期肿瘤患者家属询问能否安乐死时，试按伦理法规要点设计回应框架。',
+    },
+  },
+];

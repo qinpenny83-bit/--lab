@@ -1,0 +1,5509 @@
+{
+  "schema": "phase-4/mastery-map/v1",
+  "sourceOfTruth": "computeMasteryProfile（唯一能力事实源；语义见 src/engine/MasteryEngine.ts：new → learning → familiar → mastered / unstable，熟悉/变式/陌生三关验证，间隔遗忘回退 unstable）",
+  "note": "本文件为初始掌握画像：305 节点全部 new。运行时学习记录写入 src/store/progress.ts 的 UserProgress，由 computeMasteryProfile 统一重算；禁止任何模块另立掌握口径。",
+  "generatedAt": "2026-09-20T09:22:19.927Z",
+  "total": 305,
+  "profile": {
+    "initial": "new",
+    "byState": {
+      "new": 305,
+      "learning": 0,
+      "familiar": 0,
+      "mastered": 0,
+      "unstable": 0
+    }
+  },
+  "nodes": [
+    {
+      "nodeId": "01-01",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医学的基本特点",
+      "difficulty": 1,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-02",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "整体观念",
+      "difficulty": 1,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-03",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "辨证论治",
+      "difficulty": 1,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-04",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "证、症、病的区别",
+      "difficulty": 1,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-05",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "同病异治与异病同治",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-06",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "因时因地因人制宜",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-07",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医理论体系框架",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-08",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医理论的发展脉络",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-01",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳基本概念",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-02",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳属性",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-03",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳对立制约",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-04",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳互根互用",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-05",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳消长平衡",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-06",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳相互转化",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-07",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳的相对性",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-08",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳在人体中的体现",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-09",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与生理",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-10",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与病理",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-11",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与诊断",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-12",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与治疗原则",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-13",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与八纲",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-14",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴平阳秘",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-15",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳综合案例",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-01",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行基本概念",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-02",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行属性",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-03",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行归类",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-04",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行相生",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-05",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行相克",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-06",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行制化",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-07",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行乘侮",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-08",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与人体（生理）",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-09",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与病理",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-10",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与诊断",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-11",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与治疗",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-12",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行的理论边界",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-13",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行综合案例",
+      "difficulty": 3,
+      "status": "quarantine",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-01",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "藏象基本概念",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-02",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏总论",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-03",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "心（生理与病理）",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-04",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肝",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-05",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "脾",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-06",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肺",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-07",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肾",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-08",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "六腑总论",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-09",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "胆",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-10",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "胃",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-11",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "小肠",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-12",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "大肠",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-13",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "膀胱",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-14",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "三焦",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-15",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "奇恒之腑",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-16",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏之间的关系",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-17",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "六腑之间的关系",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-18",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "脏与腑的表里关系",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-19",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "藏象综合案例",
+      "difficulty": 3,
+      "status": "quarantine",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-01",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精的基本概念与功能",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-02",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的基本概念",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-03",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的生成",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-04",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的功能",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-05",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的运动",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-06",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气机",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-07",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的分类",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-08",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "血的基本概念",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-09",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "津液的基本概念",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-10",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "神的基本概念",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-11",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气与血的关系",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-12",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气与津液的关系",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-13",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "血与津液的关系",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-14",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精与气的关系",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-15",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精与血的关系",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-16",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精神互用",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-17",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "综合关系案例",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-01",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络基本概念",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-02",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "十二经脉",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-03",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "奇经八脉",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-04",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "络脉",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-05",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经筋与皮部",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-06",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络生理功能",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-07",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络病理",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-08",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络理论的位置",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-01",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "六淫概念",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-02",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "风邪",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-03",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "寒邪",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-04",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "暑邪",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-05",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "湿邪",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-06",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "燥邪",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-07",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "火（热）邪",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-08",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "疠气",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-09",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "七情内伤",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-10",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "饮食失宜",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-11",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "劳逸失度",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-12",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "外伤与虫兽伤",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-13",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "痰饮",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-14",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "瘀血",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-15",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "综合病因分析",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-01",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机基本概念",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-02",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "邪正盛衰",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-03",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "阴阳失调",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-04",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "气血失常",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-05",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "津液代谢失常",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-06",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "内生五邪",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-07",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "气机升降出入失常",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-08",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "脏腑病机",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-09",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病位、病性、病势",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-10",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机转化",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-11",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机综合推理",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-01",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望诊理论基础",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-02",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望神",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-03",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望色",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-04",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望形态",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-05",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望头面五官",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-06",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望舌（舌诊）",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-07",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望排出物",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-08",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "闻诊理论基础",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-09",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "听声音",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-10",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "嗅气味",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-11",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问诊理论基础",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-12",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "十问歌",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-13",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问寒热",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-14",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问汗",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-15",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问疼痛",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-16",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问饮食口味",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-17",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问二便",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-18",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问睡眠",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-19",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问情志",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-20",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "切诊理论基础",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-21",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "脉诊基本",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-22",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "常见脉象（浮沉迟数）",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-23",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "按诊",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-01",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲辨证总论",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-02",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表证与里证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-03",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表里同病",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-04",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表里出入",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-05",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒证与热证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-06",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热错杂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-07",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热转化",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-08",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热真假",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-09",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚证与实证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-10",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚实夹杂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-11",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚实转化",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-12",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "阴阳为总纲",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-13",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲之间组合",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-14",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲辨证常见误区",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "10-15",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲综合案例",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-01",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气血津液辨证总论",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-02",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气虚证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-03",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气陷证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-04",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气滞证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-05",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气逆证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-06",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血虚证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-07",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血瘀证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-08",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血热证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-09",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "出血证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-10",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "津液不足证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-11",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "痰证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-12",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "饮证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-13",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "水湿证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-14",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "证候区别与联系",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-01",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证总论",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-02",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心气虚/心阳虚",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-03",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心血虚/心阴虚",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-04",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心火亢盛",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-05",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心脉瘀阻",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-06",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝气郁结",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-07",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝火上炎",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-08",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝阴虚/肝血虚",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-09",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝阳上亢",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-10",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝风内动",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-11",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脾气虚/脾阳虚",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-12",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "寒湿困脾/湿热蕴脾",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-13",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺气虚",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-14",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺阴虚",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-15",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "风寒束肺/风热犯肺",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-16",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肾阳虚/肾阴虚",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-17",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肾气不固/肾不纳气",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-18",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肾精不足",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-19",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "胃寒/胃热/胃阴虚",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-20",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "胆郁痰扰",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-21",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "小肠/大肠常见证候",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-22",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心脾两虚",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-23",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝脾不调",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-24",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝胃不和",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-25",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝肾阴虚",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-26",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脾肾阳虚",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-27",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺脾两虚",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-28",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺肾阴虚",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-29",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心肾不交",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-30",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证综合案例",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-01",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经辨证总论",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-02",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "太阳病辨证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-03",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "阳明病辨证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-04",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "少阳病辨证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-05",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "太阴病辨证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-06",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "少阴病辨证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-07",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "厥阴病辨证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-08",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经传变",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-09",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "合病与并病",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-10",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经辨证思路",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "13-11",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经经典案例",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-01",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血总论",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-02",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫分证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-03",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "气分证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-04",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "营分证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-05",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "血分证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-06",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血的传变",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-07",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血辨证特点",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "15-01",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "三焦辨证总论",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "15-02",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "上焦病证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "15-03",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "中焦病证",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "15-04",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "下焦病证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "15-05",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "三焦传变",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "15-06",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "三种辨证体系比较",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-01",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "治病求本",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-02",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "扶正与祛邪",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-03",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "标本缓急",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-04",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "正治与反治",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-05",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "因势利导",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-06",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "调整阴阳",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-07",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "三因制宜",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-08",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "治则与辨证的关系",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-01",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂是什么",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-02",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "治法与方剂的关系",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-03",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "组方原则",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-04",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "配伍",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-05",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂的加减变化",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-06",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂分类",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-07",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂的剂型",
+      "difficulty": 4,
+      "status": "quarantine",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-08",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方证关系",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "17-09",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂之间的比较",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-01",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "解表剂",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-02",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "清热剂",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-03",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "泻下剂",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-04",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "和解剂",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-05",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "温里剂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-06",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "补益剂",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-07",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "固涩剂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-08",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "理气剂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-09",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "理血剂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-10",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "祛湿剂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-11",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "祛痰剂",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-12",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "安神剂",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-13",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "治风剂",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-14",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "治燥剂",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-15",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "祛暑剂",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-01",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《黄帝内经》概览",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-02",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "内经·阴阳应象大论精读",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-03",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "内经·灵兰秘典论精读",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-04",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "内经·经脉别论精读",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-05",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《伤寒论》概览",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-06",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "伤寒论·太阳病条辨精读",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-07",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "伤寒论·阳明病条辨精读",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-08",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "伤寒论·少阳病条辨精读",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-09",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《金匮要略》概览",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-10",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "金匮要略·代表病篇精读",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-11",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "经典研读方法论",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "20-01",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "医案阅读方法",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "20-02",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "古代名医医案",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "20-03",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "经方医案",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "20-04",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "复杂病机医案",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "20-05",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "误治医案",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "20-06",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "医案中的思维还原",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-01",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "四诊信息综合",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-02",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "信息整理框架",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-03",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "八纲→气血津液→脏腑递进",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-04",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "病因+病机→辨证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-05",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "多假设推理",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-06",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "排除法辨证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-07",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "证候演变预测",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "21-08",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "综合辨证练习",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "22-01",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "八纲 vs 气血津液辨证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "22-02",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "八纲 vs 脏腑辨证",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "22-03",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "六经 vs 八纲",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "22-04",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "卫气营血 vs 三焦",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "22-05",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "六经 vs 卫气营血 vs 三焦",
+      "difficulty": 5,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "22-06",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "不同体系如何协同",
+      "difficulty": 5,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-01",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "整体思维",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-02",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "动态思维",
+      "difficulty": 2,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-03",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "辨证思维",
+      "difficulty": 2,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-04",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "类比思维",
+      "difficulty": 3,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-05",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "关系思维",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-06",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "证据意识",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-07",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "反证意识",
+      "difficulty": 3,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-08",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "综合判断",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-09",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "避免单因素推断",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "23-10",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "避免机械套证",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "01-09",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医与其他医学体系的区别",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-16",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与五行的关系",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "02-17",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳在养生中的应用",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "03-14",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行在情志配属中的应用",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-20",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏与五液五志五窍",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "04-21",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "女子胞与冲任二脉",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-18",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气街与四海",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "05-19",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精室与生殖",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-09",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "十二经别",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "06-10",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "标本根结",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "07-16",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "药邪与医过",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "08-12",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "疾病传变规律",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-24",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "常见脉象扩展",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "09-25",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "舌诊与病机对应",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "11-15",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气血津液辨证与脏腑辨证衔接",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "12-31",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证现代应用",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "14-08",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血与现代感染性疾病",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "16-09",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "八法",
+      "difficulty": 4,
+      "status": "candidate",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "18-16",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "类方比较",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    },
+    {
+      "nodeId": "19-12",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《神农本草经》概览",
+      "difficulty": 4,
+      "status": "conditional",
+      "mastery": {
+        "state": "new",
+        "familiarPassed": false,
+        "variationPassed": false,
+        "transferPassed": false,
+        "validations": [],
+        "lastResult": false,
+        "lastAt": 0,
+        "enteredAt": 1789896139926
+      }
+    }
+  ]
+}

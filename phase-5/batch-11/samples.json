@@ -1,0 +1,1655 @@
+{
+  "seed": "phase-5/batch-11",
+  "genLabel": "Phase 5 · Batch-11 · 25 nodes（F 刺法灸法学 0→25）",
+  "total": 25,
+  "note": "F 刺法灸法学第一批：毫针刺法/特定刺法/灸法/拔罐刮痧/穴位注射贴敷，全部含安全声明+禁针禁灸红线",
+  "samples": [
+    {
+      "id": "pb11-f-001",
+      "title": "毫针刺法·进针手法",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "毫针刺法",
+        "进针手法",
+        "押手刺手"
+      ],
+      "intent": "掌握指切、夹持、舒张、提捏四种进针手法的操作要领与各自适用范围。",
+      "learning": {
+        "knowledge": "指切进针法：左手拇指或示指指甲切按穴位，右手持针紧靠甲缘刺入，适用于列缺、内关等短针及肌肉浅薄处。夹持进针法：左手拇示二指以消毒干棉球裹住针身下段、露出针尖 2-3 分，右手捻动针柄，两手配合将针尖刺入皮下，适用于环跳、秩边等长针及肌肉丰厚处。舒张进针法：左手拇示二指将穴区皮肤向两侧撑开绷紧，右手持针从两指之间刺入，适用于腹部天枢、大横等皮肤松弛处。提捏进针法：左手拇示二指将穴区皮肤捏起，右手持针从捏起处上端刺入，适用于印堂、百会等皮薄肉浅处。",
+        "misjudgment": "错：夹持进针法用不消毒的手指直接捏住针身刺入。夹持须以消毒干棉球裹针，针身不可被裸手触碰，否则破坏无菌，进针即带入污染。",
+        "reasoning": "为何舒张进针法偏用于腹部皮肤松弛处，而提捏进针法偏用于印堂、百会等皮薄处？",
+        "feedback": "腹部皮松皱褶多，撑开绷紧可使穴位固定、减轻疼痛；印堂百会皮薄肉少，捏起皮肤既便于浅刺入皮，又避免刺入过深，两法各适其位。",
+        "transfer": "给皮肤松弛的老年患者刺中脘，选哪种进针手法最顺手，为何不用提捏法？"
+      },
+      "stdJudgment": "毫针进针以刺手（右手）持针、押手（左手）辅助，四法按针之长短与部位皮肉厚薄选用：指切宜短针，夹持宜长针，舒张宜松弛皱褶之腹部，提捏宜皮薄肉浅之处，总以快速透皮减痛为要。",
+      "coreDefinition": "进针手法是毫针刺入皮下的操作技术，以左右手配合完成，分指切、夹持、舒张、提捏四种，按针长与部位灵活选用。",
+      "facts": [
+        {
+          "field": "technique.method.entry",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.operation.steps",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.indications",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.safety",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。进针前针具、穴区皮肤与医者手指须以 75% 乙醇严格消毒，针身不得触碰他物；指切进针者指甲须修整圆滑，防止划伤皮肤。",
+        "prohibitions": [
+          "皮肤感染、溃疡、瘢痕处禁针"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-002",
+      "title": "毫针刺法·针刺角度与深度",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "毫针刺法",
+        "针刺角度",
+        "针刺深度",
+        "气胸风险"
+      ],
+      "intent": "掌握直刺、斜刺、平刺三种角度与定深原则，明确胸背胁肋等部位的禁深刺红线。",
+      "learning": {
+        "knowledge": "直刺：针身与皮肤呈 90° 垂直刺入，适用于四肢、腹部、腰臀部肌肉丰厚处，如足三里直刺 1-2 寸、环跳直刺 2-3 寸。斜刺：针身与皮肤约呈 45° 倾斜刺入，适用于胸背部及邻近重要脏器的部位，如背部膀胱经第一侧线斜刺 0.5-1 寸。平刺（横刺）：针身与皮肤约呈 15° 刺入，适用于头面部皮薄肉少处，如百会平刺 0.5-0.8 寸、印堂平刺 0.3-0.5 寸。定深原则：以既有针感又不伤脏腑为准，体型胖者深、瘦者浅；四肢肌肉丰厚可深，胸背胁肋 0.5-1 寸以内斜刺，头面 0.3-0.8 寸。",
+        "misjudgment": "错：背部腧穴一律垂直深刺以求强针感。背部内邻肺脏，直刺过深可穿破胸膜肺脏造成气胸，背俞穴当斜刺浅刺，以针感向深层扩散为度。",
+        "reasoning": "同属躯干部，为何腹部腧穴可直刺 1-2 寸，胸背部却只宜斜刺 0.5-1 寸？",
+        "feedback": "腹壁肌肉较厚且腹腔内为柔韧的肠管，可耐受一定深度；胸腔内为膨缩的肺脏，针入胸膜即致气胸，故胸背必须斜刺浅刺，深度的决定因素是内脏的危险性。",
+        "transfer": "在胸部膻中穴附近针刺与在腹部天枢穴针刺，角度深度各应如何把握？"
+      },
+      "stdJudgment": "针刺角度分直刺（90°）、斜刺（45°）、平刺（15°）三类，深度以得气而不伤脏为度，据部位、体型、病情与季节而定，胸背胁肋邻近心肺，只可斜刺浅刺，禁直刺深刺。",
+      "coreDefinition": "角度指针身与皮肤夹角，深度以既不伤重要脏器又能得气为准，四肢肌肉丰厚可深刺，胸背头面薄浅处宜浅刺斜刺。",
+      "facts": [
+        {
+          "field": "technique.angle.kinds",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.depth.principle",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.depth.byRegion",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.safety.depth",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。胸背部、胁肋部禁直刺深刺，防止刺伤肺脏引发气胸；眼区、颈项部及背部正中线附近须严守规定角度与深度，出现胸痛气促须立即起针并按气胸原则处理。",
+        "prohibitions": [
+          "胸背胁肋禁直刺深刺（防气胸）",
+          "大血管浅表处（如人迎、冲阳）禁深刺",
+          "乳中、神阙禁针禁灸"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-003",
+      "title": "毫针刺法·得气与候气催气",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "毫针刺法",
+        "得气",
+        "候气",
+        "催气"
+      ],
+      "intent": "掌握得气的标志、候气与催气的操作方法，理解气至而有效的针灸原理。",
+      "learning": {
+        "knowledge": "得气标志：医者指下感到针沉紧、涩滞，如鱼吞钩饵；患者穴区出现酸、麻、胀、重感，或向一定方向传导、扩散。候气法：进针后未得气，将针留置穴内，静候经气来至，或轻微提捻诱导。催气法：①捻转、提插，以小幅高频激发针感；②循法，沿经脉循行方向轻循按穴周皮肤；③弹法，以指轻弹针柄使针体微颤；④刮法，以拇示指自下而上刮动针柄。行气法还可用摄法、飞法引导针感向病所方向传导。得气是施行补泻手法的前提，得气快者疗效多佳。",
+        "misjudgment": "错：患者自觉疼痛即视为得气。疼痛多为刺及血管壁或强烈刺激引起的不适，与酸麻胀重的针感不同，须调整针向深浅；把锐痛当得气强行行针会损伤组织。",
+        "reasoning": "为何得气快、针感传导远者，疗效往往优于得气迟钝者？",
+        "feedback": "经气盛则针下反应灵敏，气至病所说明经气被激发并沿经脉趋向病位，邪去正复，故古人有「气至而有效」之论，得气程度与疗效关系密切。",
+        "transfer": "体质虚弱者进针良久针下空虚无感，按候气、催气两法各应如何操作？"
+      },
+      "stdJudgment": "得气以医者针下沉紧涩滞与患者酸麻胀重感为标志，未得气者当候气，仍不至者以捻转、提插、循按、弹刮等法催气，气至病所则疗效随之而至。",
+      "coreDefinition": "得气是针刺入穴后经气感应，医者觉针下沉紧、患者觉酸麻胀重；候气为静留待气，催气以手法激发经气运行。",
+      "facts": [
+        {
+          "field": "technique.deqi.sensation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.houqi.method",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.cuiqi.method",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.deqi.principle",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢·九针十二原》",
+          "canon": "灵枢",
+          "chapter": "九针十二原",
+          "originalText": "刺之要，气至而有效，效之信，若风之吹云，明乎若见苍天",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。酸麻胀重属正常针感；若针下出现向肢体远端放射的电击样感应，多因刺中神经干，宜将针退至皮下调整方向，勿反复强刺激。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-004",
+      "title": "毫针刺法·行针手法（提插捻转）",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "毫针刺法",
+        "行针",
+        "提插法",
+        "捻转法"
+      ],
+      "intent": "掌握提插法、捻转法的操作要领与刺激量控制，为补泻手法打基础。",
+      "learning": {
+        "knowledge": "提插法：针尖刺入应至深度后，针身沿纵轴在穴内上下进退，进为插、退为提，提插幅度以 0.3-0.5 寸为宜，频率约每分钟 60 次，幅度大、频率快则刺激强，反之则弱。捻转法：针身沿纵轴左右旋转，捻转角度约 180°-360°，频率约每分钟 60-120 次，角度大、频率快刺激强，角度小、频率慢刺激弱；捻转时须保持针尖方向不变。二者可单独使用也可结合，先小幅试刺探得针感，再据针感调整幅度频率。辅助手法有循、弹、刮、摇、飞、震颤等，用于催气行气。",
+        "misjudgment": "错：提插时把整个针身全部拔出穴外再重新刺入。提插须在穴内上下进退，针身始终保留在组织中，全部拔出会破坏针感、增加疼痛与感染机会。",
+        "reasoning": "捻转行针时，为何要求针尖方向不变、仅针体原地旋转？",
+        "feedback": "针尖方向固定可避免针体在组织内划弧摆动，防止牵拉疼痛与弯针；原地旋转使针身与周围组织均匀摩擦，激发的经气感应集中而稳定。",
+        "transfer": "针感迟钝需加强刺激时，你会在幅度、频率、用力三方面如何组合调整？"
+      },
+      "stdJudgment": "提插法以针体在穴内上下进退行气，捻转法以针体左右旋转行气，幅度大小与频率快慢决定刺激量强弱，二者是行针催气的基本手法，亦是补泻手法的操作基础。",
+      "coreDefinition": "提插为针体上下进退、插进提出；捻转为针体左右旋转；刺激量由幅度、频率、用力与时间四要素构成。",
+      "facts": [
+        {
+          "field": "technique.ticha.method",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.niuzhuan.method",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.stimulation.intensity",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.aid.methods",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。行针刺激量以患者能耐受为度，体弱、初诊者宜轻刺激；捻转不可单向连续过度，防止肌纤维缠绕针身造成滞针。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-005",
+      "title": "毫针刺法·捻转补泻",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "毫针刺法",
+        "捻转补泻",
+        "补法",
+        "泻法"
+      ],
+      "intent": "掌握捻转补泻的手法参数（角度、频率、方向），区分补泻操作的差异。",
+      "learning": {
+        "knowledge": "捻转补法：捻转角度小（约 90°-180°），频率慢（约每分钟 60 次），用力轻，操作时间短，以大指向前、示指向后的左转为主，反复操作以针下热感为佳。捻转泻法：捻转角度大（约 180°-360°），频率快（约每分钟 120 次），用力重，操作时间长，以大指向后、示指向前或左右等幅大幅度捻转为主，以针下凉感为佳。方向分补泻以左转为补、右转为泻为主流；另有以捻转轻重缓急分补泻之说。捻转补泻须在得气后进行，虚证用补法、实证用泻法，可配合提插补泻综合施用。",
+        "misjudgment": "错：捻转补泻只认方向，以为左转必补、右转必泻，而忽略角度、频率与用力。教材以参数综合判补泻，单凭方向在针下无感时易失准，须四要素并重。",
+        "reasoning": "捻转补泻操作时，为何补法要求角度小、频率慢、用力轻，泻法恰恰相反？",
+        "feedback": "小角度慢频率轻用力使刺激温和徐缓，顺应正气扶助之意；大角度快频率重用力则刺激强烈，能顿挫病邪；参数差异正是补泻效应不同的物质基础。",
+        "transfer": "脾胃虚寒之胃痛与肝胃郁热之胃痛，用捻转手法行针时的参数选择有何不同？"
+      },
+      "stdJudgment": "捻转补泻以捻转角度、频率、用力轻重与方向区分补泻：补法角度小、频率慢、用力轻、时间短，多左转；泻法角度大、频率快、用力重、时间长，多右转；操作须在得气基础上进行。",
+      "coreDefinition": "捻转补泻是毫针补泻基本手法之一，以针体左右旋转的不同参数区分补泻，多与提插补泻配合运用。",
+      "facts": [
+        {
+          "field": "technique.nianzhuang.buxie.rule",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.nianzhuang.bu.param",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.nianzhuang.xie.param",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.buxie.precondition",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。单向捻转不可过度连续，防止肌纤维缠绕致滞针；补泻操作以得气为前提，针感过强者宜减小角度与频率。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-006",
+      "title": "毫针刺法·提插补泻",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "毫针刺法",
+        "提插补泻",
+        "重插轻提",
+        "重提轻插"
+      ],
+      "intent": "掌握提插补泻的重插轻提与轻插重提要领及深浅次序。",
+      "learning": {
+        "knowledge": "提插补法：针先刺入浅层（天部），得气后重插轻提，以下插为主，提插幅度小（约 0.3-0.5 寸）、频率慢（约每分钟 60 次），逐渐向深层（人部、地部）推进，即「先浅后深」，反复操作以补虚。提插泻法：针先刺入深层，得气后轻插重提，以上提为主，提插幅度大（约 0.5-1 寸）、频率快（约每分钟 120 次），由深层退向浅层，即「先深后浅」，以泻其实。均以得气为基础，可配合捻转补泻使用。",
+        "misjudgment": "错：把「重插轻提」记成「重提轻插」当补法。重插轻提、以下插为主是引气深入、扶助正气，属补；轻插重提、以上提为主是引邪外出、消散邪气，属泻，颠倒则虚实误治。",
+        "reasoning": "为何提插补法要求先浅后深，而泻法要求先深后浅？",
+        "feedback": "由浅入深如徐缓进阳，引气深入以补虚；由深出浅如开门逐邪，导邪外出以泻实；深浅次序体现补泻的用力方向与经气走向。",
+        "transfer": "肾虚腰痛与急性腰扭伤同取委中，提插补泻手法应分别如何操作？"
+      },
+      "stdJudgment": "提插补泻以插提用力轻重与深浅次序分补泻：补法先浅后深、重插轻提、幅度小频率慢；泻法先深后浅、轻插重提、幅度大频率快；补泻以得气为前提，虚补实泻。",
+      "coreDefinition": "提插补泻是毫针补泻基本手法之一，以重插轻提为补、轻插重提为泻，配合深浅次序与幅度频率操作。",
+      "facts": [
+        {
+          "field": "technique.ticha.buxie.rule",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.ticha.bu.param",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.ticha.xie.param",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.ticha.depth.order",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢·九针十二原》",
+          "canon": "灵枢",
+          "chapter": "九针十二原",
+          "originalText": "凡用针者，虚则实之，满则泄之，宛陈则除之，邪胜则虚之",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。提插幅度不宜超过 0.5-1 寸，防止刺伤深层组织；胸背等禁深刺部位不作大幅度提插，急性疼痛剧烈者提插宜轻。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-007",
+      "title": "毫针刺法·平补平泻",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "毫针刺法",
+        "平补平泻",
+        "补泻手法",
+        "刺激量"
+      ],
+      "intent": "掌握平补平泻的均匀等量操作，辨清其与补法、泻法的区别。",
+      "learning": {
+        "knowledge": "平补平泻操作：进针得气后，均匀地提插、捻转，捻转角度适中（约 90°-180°），提插幅度适中（约 0.3-0.5 寸），频率约每分钟 60-90 次，用力均匀，左右旋转、上下提插等幅等量，不快不慢，连续操作约 1-2 分钟或至针下平和。适用范围：①虚实不显著的病证；②虚实夹杂、不宜纯补纯泻者；③初次针刺、体质敏感者。与补法泻法的区别在于不强调方向与用力偏向，刺激量处于二者之间。",
+        "misjudgment": "错：把平补平泻当成「不补不泻」即随意捻转两下即可。平补平泻讲究均匀等量、得气后行针，是一种有明确操作参数的调气手法，随意的行针既非补泻亦非平补平泻。",
+        "reasoning": "虚实夹杂的病证，为何选用平补平泻而不宜单用补法或泻法？",
+        "feedback": "纯补恐碍邪、纯泻恐伤正，平补平泻以中等刺激调气守衡，既扶正又祛邪，进退有度，适合虚实并见之候。",
+        "transfer": "初次就诊、精神紧张又属实证的头痛患者，行针刺激量应如何调整才稳妥？"
+      },
+      "stdJudgment": "平补平泻在得气后以均匀的力度、中等的角度幅度与频率行提插捻转，不偏补不偏泻，刺激量适中，适用于虚实不显或虚实夹杂的病证，亦为毫针常规刺激量。",
+      "coreDefinition": "平补平泻是均匀等量、不快不慢、不轻不重地提插捻转的行针方法，补泻倾向不明显的调气手段。",
+      "facts": [
+        {
+          "field": "technique.pingbu.method",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.pingbu.range",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.pingbu.difference",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.pingbu.precondition",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。平补平泻亦须得气后操作，刺激量中等均匀；敏感者或虚弱者可将幅度频率调小，以患者能耐受为度。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-008",
+      "title": "毫针刺法·留针与出针",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "毫针刺法",
+        "留针",
+        "出针",
+        "按压针孔"
+      ],
+      "intent": "掌握留针时间与出针操作要领，理解动留针与静留针之别。",
+      "learning": {
+        "knowledge": "留针时间：一般病证得气后留针 15-30 分钟；急性疼痛、痉挛、顽固性病证可延长至 30-60 分钟；小儿、体弱、晕针倾向者短留或不留。静留针：留针期间不行针，任其自然感应；动留针：留针期间每隔 5-10 分钟行针一次，反复 2-3 次以加强针感、维持刺激量。出针操作：左手持消毒干棉球轻按针孔旁皮肤，右手持针柄轻捻并缓缓上提退出，出针后立即以棉球按压针孔 1-2 分钟，防止出血；出针次序一般先上后下、先内后外，术毕清点针数。",
+        "misjudgment": "错：出针时快速猛拔针体，认为越快越不痛。猛拔易牵拉组织、撕裂针孔出血，且针感残留不适；应轻捻缓退并随即按压针孔，方合「疾出针而徐按」或「徐出针而疾按」的补泻要求。",
+        "reasoning": "痛证与痉挛之属为何宜延长留针时间并采用动留针？",
+        "feedback": "痛证气血凝滞、痉挛筋脉拘急，延长留针并定时行针可反复激发经气、疏调气血、解痉止痛，故留针既久且动。",
+        "transfer": "体弱的慢性腹泻老人留针时间与行针次数应如何掌握？"
+      },
+      "stdJudgment": "留针在得气后置针穴内以候气调气，一般 15-30 分钟，痛证痉挛等可延长并定时行针；出针以棉球按压针旁、轻捻缓退，出后按压针孔片刻以防出血。",
+      "coreDefinition": "留针为针刺得气后针留置穴内一段时间以持续调气；出针为治疗毕将针退出并按压针孔的操作。",
+      "facts": [
+        {
+          "field": "technique.liuzhen.time",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.liuzhen.kinds",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.chuzhen.method",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.chuzhen.hemostasis",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢·九针十二原》",
+          "canon": "灵枢",
+          "chapter": "九针十二原",
+          "originalText": "静以徐往，微以久留之而养",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。留针期间须观察患者面色神色，防止晕针；出针后如针孔出血或皮下血肿，按压数分钟并冷敷；若起针后局部青紫肿胀可热敷消散。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-009",
+      "title": "毫针刺法·晕针处理",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "毫针刺法",
+        "晕针",
+        "应急处理",
+        "预防"
+      ],
+      "intent": "掌握晕针的临床表现、发生原因与处理原则，明确预防要点。",
+      "learning": {
+        "knowledge": "临床表现：轻者头晕目眩、心慌气短、恶心欲吐、面色苍白、出冷汗、脉细弱；重者神志昏迷、四肢厥冷、血压下降。常见原因：①患者精神紧张、恐惧；②体质虚弱、饥饿、疲劳、大汗、大泻、大失血后；③体位不当，站立或坐位易发生；④刺激过强。处理：立即停止针刺、起出全部针具，平卧头低足高，松解衣带保暖；轻者饮温糖水静卧；重者掐按水沟、内关、足三里，灸百会、关元；不缓解者配合现代急救。预防：初诊者先解释以安定情绪，尽量取卧位，饥饿过劳者进食休息后再针，刺激量由小到大。",
+        "misjudgment": "错：晕针发生时慌忙拔针却让患者保持坐位，或继续行针以求「醒神」。晕针本质是暂时性脑供血不足，头低足高平卧才能改善灌注；继续行针加重刺激，坐位起立则晕厥加重。",
+        "reasoning": "为何体弱、饥饿者针刺时晕针风险高，且卧位比坐位安全得多？",
+        "feedback": "体弱饥饿者气血本虚，针刺刺激更耗正气、易致气随针脱；卧位时回心血量与脑供血有保障，晕针概率与程度都显著降低，故体位选择是预防第一关。",
+        "transfer": "患者针刺后诉头晕、出冷汗、面色发白，你依序会采取哪几步措施？"
+      },
+      "stdJudgment": "晕针多发于精神紧张、体弱、饥饿疲劳者，先兆为头晕心慌、面色苍白、恶心汗出，处理上立即起针、平卧头低足高、松带保暖、饮温糖水，重者掐按水沟内关足三里，缓解前禁再针刺。",
+      "coreDefinition": "晕针是针刺过程中出现的晕厥先兆或晕厥反应，因精神紧张、体质虚弱或体位不当诱发，须立即起针平卧急救。",
+      "facts": [
+        {
+          "field": "technique.yunzhen.symptoms",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.yunzhen.causes",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.yunzhen.treatment",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.yunzhen.prevention",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。处理原则：立即停止针刺并将针全部起出，扶患者平卧、头部放低，松开衣带、注意保暖；轻者饮温开水或糖水静卧片刻即复；重者掐按水沟、内关、足三里，或灸百会、关元，昏厥不醒者按晕厥常规急救。预防：初诊者解释消除紧张，选卧位，饥饿过劳酒后及大出血后者不予针刺。",
+        "prohibitions": [
+          "饥饿、过劳、酒后、大怒及大出血后者禁立即针刺"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-010",
+      "title": "毫针刺法·滞针弯针断针处理",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "毫针刺法",
+        "滞针",
+        "弯针",
+        "断针",
+        "应急处理"
+      ],
+      "intent": "掌握滞针、弯针、断针的成因、表现与处理原则，强化预防意识。",
+      "learning": {
+        "knowledge": "滞针：针下异常沉紧、捻转提插困难，患者疼痛。成因：精神紧张致局部肌肉收缩，或单向捻转角度过大致肌纤维缠绕针身。处理：放松局部、延长留针，反向捻转回解，循按邻近部位或轻弹针柄。弯针：针柄改变方向、提插捻转受限。成因：进针过猛刺及硬物、医者用力不当或患者移动体位。处理：轻弯者顺弯缓退，弯度大者依弯势退出，体位变动所致先复其位。断针：针身折断。成因：针具质量差、针根腐蚀、行针过猛、肌肉强烈收缩。处理：保持体位、断端外露则镊取，平陷或深藏则手术取出。预防要点：用前检查针具，针身至少留 1/3 于体外。",
+        "misjudgment": "错：发生弯针时强行捻转或猛力抽拔，想把针「拉直」退出。弯针已与组织钩缠，猛拔徒增疼痛并可能折针，须顺着弯曲方向缓缓退出，必要时先复位患者体位。",
+        "reasoning": "为何断针后严禁患者移动体位，且断端深陷时必须请外科处理？",
+        "feedback": "体位变动会使断端随肌肉收缩移向深层，增加取出难度；断端平陷皮下非肉眼能夹取，强行夹取反使针体游走，故必须外科手术取出。",
+        "transfer": "留针时患者因咳嗽猛然移动身体，针柄明显歪斜，你如何判断是滞针还是弯针并处置？"
+      },
+      "stdJudgment": "滞针多因紧张或单向捻转过度，宜放松局部、反向捻回并循按弹柄；弯针须顺弯曲方向或恢复原体位后缓退，禁猛拔；断针须制动体位，外露者镊取，平陷者手术取出。",
+      "coreDefinition": "滞针是针下滞涩进退不得，弯针是针体弯曲，断针是针身断折于体内，三者皆以预防为主，处理须沉着有序。",
+      "facts": [
+        {
+          "field": "technique.zhizhen.cause",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.wanzhen.cause",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.duanzhen.cause",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.abnormal.prevention",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。滞针处理：嘱患者放松、消除紧张，或稍延长留针，单向捻转过度者反向捻回，可循按穴周、弹叩针柄使肌纤维松解。弯针处理：针身微弯可顺弯曲方向缓慢退出；弯度较大须顺弯退出，勿捻转猛拔；因体位移动者先恢复原体位再退针。断针处理：医者镇静，嘱患者勿移动体位；断端外露于皮表者用镊子夹出；断端与皮肤相平或陷入皮下者，须外科手术取出。预防：针具用前检查，进针时留体外针身不少于 1/3，不可将针身全部刺入，留针时嘱患者勿随意变动体位。",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb11-f-011",
+      "title": "毫针刺法·体位消毒与治神",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "毫针刺法",
+        "体位",
+        "消毒",
+        "治神"
+      ],
+      "intent": "掌握针刺体位选择、消毒规范与治神要求，明确禁针禁灸部位红线。",
+      "learning": {
+        "knowledge": "体位选择：常用仰卧位（前身穴）、侧卧位（侧身穴）、俯卧位（后身穴）、仰靠坐位（头面颈项前部）、俯伏坐位（项背头部）、侧伏坐位（面颊耳部）；体弱、精神紧张、晕针史者一律取卧位。消毒规范：①针具，一次性毫针或高压蒸汽灭菌，一人一针；②医者手指，肥皂水刷洗后用 75% 乙醇擦拭；③穴区皮肤，以 75% 乙醇棉球由内向外环形消毒，禁直接以手指触摸针身。治神：《素问》「凡刺之真，必先治神」，医者进针前凝神定志、审察患者神色形态，操作时全神贯注；患者须静心宁神、消除恐惧，呼吸平稳配合。",
+        "misjudgment": "错：取坐位针刺体弱初诊者，以为方便取穴即可。坐位对紧张体弱者易诱发晕针，体弱、初诊、晕针史者应取卧位，体位选择本身就是安全措施。",
+        "reasoning": "为何「凡刺之真，必先治神」把治神置于针刺成败的首位？",
+        "feedback": "医者守神则持针稳、取穴准、手法得当；患者安神则经气易于激发、针感调达；神定气聚是得气与疗效的前提，故治神居首。",
+        "transfer": "给一位惧怕针灸的患者首次治疗，从体位、解释到进针手法你会怎样安排？"
+      },
+      "stdJudgment": "针刺体位以医者便于操作、患者舒适持久为原则，体弱紧张者取卧位；消毒须针具、手指、穴区三方面并重；治神强调医者守神、患者安神；乳中神阙等禁针禁灸部位须铭记。",
+      "coreDefinition": "体位、消毒、治神是针刺施术前的三大准备，关系到操作便利、防感染与疗效，配合禁针禁灸部位的规避构成安全前提。",
+      "facts": [
+        {
+          "field": "technique.position.choice",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.disinfection.rule",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.zhishen.rule",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.forbidden.acupoint",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问·宝命全形论》",
+          "canon": "素问",
+          "chapter": "宝命全形论",
+          "originalText": "凡刺之真，必先治神",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。乳中、神阙禁针禁灸；孕妇腹部、腰骶部禁针，合谷、三阴交、昆仑、至阴等穴孕妇禁针或慎用；颜面部及五官区域禁灸、慎刺；大血管浅表处（人迎、冲阳等）禁深刺。针具一人一针一次性或高压灭菌，穴区以 75% 乙醇棉球由内向外消毒。",
+        "prohibitions": [
+          "乳中、神阙禁针禁灸",
+          "孕妇腹部、腰骶部禁针，合谷、三阴交等孕妇禁针或慎用",
+          "颜面部及五官禁灸",
+          "大血管浅表处禁深刺"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-012",
+      "title": "毫针刺法·针刺时机与疗程",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "毫针刺法",
+        "针刺时机",
+        "疗程",
+        "按时取穴"
+      ],
+      "intent": "掌握针刺时机选择与疗程安排的规律，理解时间因素对疗效的影响。",
+      "learning": {
+        "knowledge": "针刺时机：①急症、痛证发作之时即刻针刺，如心绞痛、胆绞痛发作时针刺；②慢性病按时施针，每日或隔日定时治疗以形成节律；③发作性疾病于发作前施治，如疟疾发作前 1-2 小时针刺，癫痫发作前预防性针刺；④按气血流注择时，如子午流注、灵龟八法按时取穴。疗程安排：急性病可每日 1-2 次，不拘疗程；慢性病一般每日 1 次或隔日 1 次，10 次为一疗程，疗程间休息 3-5 天再行下疗程，顽固病证可连续 2-3 疗程后休息；刺激量首诊宜轻，逐次调整。",
+        "misjudgment": "错：慢性病每日连针不间断、数月不歇，以为针得越多越好。连续久刺使穴位与经气疲劳、耐受性升高，疗效反降，疗程间须休息 3-5 天以复其敏，张弛有度方能持久取效。",
+        "reasoning": "疟疾为何要在发作前 1-2 小时针刺，而非发作时或发作后？",
+        "feedback": "疟疾正邪交争有时，发作前针刺能先机调气、扶正截邪，在疟邪未盛之时抑其发作；发作时气血已乱，针刺难以收功。",
+        "transfer": "偏头痛每周发作两三次，从时机与疗程上应如何安排针刺？"
+      },
+      "stdJudgment": "针刺时机因病情缓急而定，急症痛证发作即刺，慢性病定时施治，部分发作性疾病于发作前针刺；疗程一般每日或隔日一次，10 次为一疗程，疗程间休 3-5 天。",
+      "coreDefinition": "针刺时机是选择施术的时间点，疗程是治疗频次与周期安排，二者据病性缓急与病程长短灵活掌握。",
+      "facts": [
+        {
+          "field": "technique.timing.rule",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.timing.disease",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.course.rule",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "technique.timing.precaution",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "仅作知识学习，禁止无资质自行针刺。孕妇腰骶部、腹部及合谷、三阴交等穴禁针；过饥、过饱、酒后、大怒、过劳者暂不宜针刺；疗程间隔不可省略，连续久刺可致经气疲劳、敏感性下降。",
+        "prohibitions": [
+          "孕妇腰骶部、腹部禁针，合谷、三阴交等孕妇禁针或慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-013",
+      "title": "皮肤针·梅花针叩刺",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "刺法",
+        "皮肤针",
+        "梅花针",
+        "出血",
+        "感染风险"
+      ],
+      "intent": "掌握梅花针叩刺的持针姿势、腕力弹刺手法与轻中重三度刺激量的运用，牢记叩刺禁忌部位。",
+      "learning": {
+        "knowledge": "梅花针操作：针具与叩刺部位消毒后，右手握针柄，以腕关节弹力上下叩击，针尖垂直落到皮肤即迅速提起，频率 70-90 次/分。刺激量分三度：轻叩至皮肤潮红为补，中叩至红晕微出血为平补平泻，重叩至明显出血为泻。适应范围：头痛、失眠、眩晕、神经性皮炎、斑秃、近视（叩眼周）、痛经、带状疱疹后遗神经痛。叩刺部位按经脉循行（督脉、膀胱经背部第一侧线）或局部病灶选择。禁忌：皮肤破损、溃疡、瘢痕、肿瘤局部、大血管浅表处，孕妇腰骶腹部，出血倾向者。",
+        "misjudgment": "叩刺时用手腕主动下压而非腕部弹力。错：皮肤针靠腕关节弹力使针尖轻快垂直叩落，下压式叩击令针尖斜划皮肤，既痛又易感染；落针须垂直、起针须迅速。",
+        "reasoning": "同一梅花针，为何轻叩皮肤潮红属补、重叩出血属泻？",
+        "feedback": "皮部浅刺的刺激量决定补泻：轻叩仅振奋皮部卫气、故补，重叩疏泄瘀热邪气、故泻；刺激量须与病性虚实相称。",
+        "transfer": "带状疱疹后遗神经痛沿肋间分布，梅花针叩刺如何选择叩刺部位与轻重度？"
+      },
+      "stdJudgment": "皮肤针以腕力弹刺、针尖垂直叩击为操作要领，刺激量分轻中重三度；凡皮肤破损、瘢痕、大血管浅表处及孕妇腰骶腹部均禁叩，叩后出血须消毒按压。",
+      "coreDefinition": "皮肤针为浅刺皮肤之丛针，梅花针（5 枚）最常用；以腕力弹刺叩击经脉皮部，取浅刺皮肤、疏通皮部经气之义，多用于皮部病症与慢性调理。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "叩刺频率 70-90 次/分，每穴区叩刺 1-3 分钟，以皮肤潮红或微出血为度；每日或隔日 1 次",
+        "caution": "重叩出血后须以消毒棉球按压止血；局部感染、出血性疾病患者禁用"
+      },
+      "safety": {
+        "note": "叩刺以针尖垂直落下、力度均匀为要，避免斜刺拖刮致痛；轻度出血属正常反应，须以消毒干棉球按压；针具须严格消毒，防止交叉感染。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "皮肤破损、溃疡、瘢痕处禁叩刺",
+          "大血管浅表处禁叩刺",
+          "孕妇腰骶部、腹部禁叩刺",
+          "出血性疾病患者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-014",
+      "title": "三棱针·点刺放血",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "刺法",
+        "三棱针",
+        "放血",
+        "出血风险"
+      ],
+      "intent": "掌握三棱针点刺放血的持针、进针深度与挤压出血操作，牢记虚证禁用与大血管处禁刺的红线。",
+      "learning": {
+        "knowledge": "点刺放血操作：选穴（十宣、十二井、耳尖、太阳、委中、大椎）常规消毒后，左手拇食中三指捏紧穴周皮肤，右手持三棱针快速垂直刺入 1-2 分（约 2-3mm）即出针，然后轻轻挤压针孔周围，使出血数滴至数毫升，以消毒棉球按压止血。常用方法有点刺、散刺、挑刺、泻血。适应范围：高热、中暑、惊厥、急性咽喉肿痛、目赤肿痛、麦粒肿、急性腰扭伤（委中放血）、高血压（耳尖放血）等实证热证瘀血证。注意事项：虚证、贫血、低血糖、出血性疾病禁用；同一部位放血量不宜过多；针具一次性或严格消毒。",
+        "misjudgment": "对虚证或贫血患者也照常用三棱针放血。错：三棱针放血为泻法，气血亏虚者一经放血，正虚更甚，可致晕厥；虚人确需者只宜少量浅刺或改用他法。",
+        "reasoning": "同为咽喉肿痛，为何实热证用少商、商阳点刺出血，而虚热证反而禁刺放血？",
+        "feedback": "点刺放血泄热祛瘀只针对实邪：实热壅肺咽痛刺井穴出血可顿挫热势；虚热为阴津亏耗，放血更伤阴血，故禁刺，当滋阴清热。",
+        "transfer": "麦粒肿初起目睑红肿，耳尖或太阳穴点刺放血为何能泻热消肿？"
+      },
+      "stdJudgment": "三棱针点刺以快速浅刺、挤压出血为要，主治实证热证；体质虚弱、贫血、出血倾向者及孕妇禁用，大血管浅表处禁刺，刺后须按压止血。",
+      "coreDefinition": "三棱针古称锋针，针体三棱、针尖锋利，专用于放血泻热；点刺浅刺 1-2 分，通过泄热、祛瘀、通络而泻实，属刺络泻血之法。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.variation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "点刺深度 1-2 分（约 2-3mm），每穴出血数滴至数毫升，急性实证可稍多；隔日或每日 1 次",
+        "caution": "刺后以消毒干棉球按压 1-2 分钟止血；每次出血总量不宜过大，体弱者减量或不用"
+      },
+      "safety": {
+        "note": "点刺前严格消毒，刺后挤压出血并拭净，再以消毒干棉球按压止血；头面及大血管处禁刺，防止出血不止；晕针、晕血者取平卧施术。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "体质虚弱、贫血、有出血倾向者禁用",
+          "大血管浅表处禁刺",
+          "孕妇腰骶部、腹部禁刺",
+          "头面部血管丰富处慎刺、禁深刺"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-015",
+      "title": "皮内针·埋针法",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "刺法",
+        "皮内针",
+        "埋针",
+        "感染风险"
+      ],
+      "intent": "掌握皮内针麦粒型、图钉型的埋针操作与留置时间，牢记关节活动处及孕妇腹部腰骶禁埋的红线。",
+      "learning": {
+        "knowledge": "埋针法操作：麦粒型皮内针用镊子夹住针身，针尖与皮肤呈 15-30° 角沿皮横刺入皮内 0.3-0.5cm，针柄留于皮外以胶布固定；图钉型（揿针）将针尖对准穴点直接按压刺入皮内，胶布固定。留置时间一般 1-3 天，夏季或汗多时 1 天左右，期间每日按压 2-3 次（每次 1 分钟）增强刺激。适应范围：头痛、失眠、三叉神经痛、哮喘、胃脘痛、遗尿、高血压、痛经等慢性或发作性疾病。注意事项：关节活动处、皮肤破损感染处、孕妇腰骶腹部禁埋；埋后防沾水、防过敏。",
+        "misjudgment": "把皮内针深刺入皮下肌肉层。错：皮内针只入皮内或皮下 0.3-0.5cm，深刺入肌层既失去皮内持续刺激之意，又易引起疼痛、弯针与感染。",
+        "reasoning": "哮喘缓解期为何常用皮内针埋于肺俞、定喘等穴以持续刺激？",
+        "feedback": "缓解期哮喘以扶正固本为主，皮内针浅刺久留持续刺激肺俞、定喘、膏肓，能较长时间激发经气、调节肺功能，比一次毫针刺激更持久。",
+        "transfer": "顽固性失眠，皮内针埋于安眠、神门、心俞，为何选这些穴并留针 1-2 天？"
+      },
+      "stdJudgment": "皮内针以麦粒型横刺皮内、图钉型直按压入为基本操作，留置 1-3 天持续刺激；关节活动处、感染处禁埋，埋后防沾水感染。",
+      "coreDefinition": "皮内针将特制小针埋入皮内或皮下，留置数日以持续刺激腧穴，属浅刺久留之法；取静以留之之义，适用于慢性病、疼痛与需要持续刺激之证。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "埋针 1-3 天，期间每日按压 2-3 次以增强刺激；图钉型多用于耳穴、面部，麦粒型多用于背腰四肢",
+        "caution": "埋针处避免沾水，防感染；局部红肿疼痛即取针"
+      },
+      "safety": {
+        "note": "埋针前局部严格消毒，埋后嘱患者保持局部干燥、避免抓挠，每日按压 1-2 分钟以巩固刺激；若局部红肿、疼痛、感染须立即取出并对症处理。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "关节活动处禁埋针",
+          "皮肤感染、溃破处禁埋针",
+          "孕妇腰骶部、腹部禁针",
+          "留针期间局部禁沾水"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-016",
+      "title": "电针法·波形参数",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "刺法",
+        "电针",
+        "波形",
+        "禁忌证"
+      ],
+      "intent": "掌握电针疏波、密波、疏密波、断续波的频率参数与主治差异，牢记起搏器者禁用等安全红线。",
+      "learning": {
+        "knowledge": "电针操作：毫针针刺得气后，把电针仪输出导线夹在针柄上，先选波形频率再缓慢调大电流，以患者有麻感而能耐受为度，通电 10-30 分钟。参数要领：疏波（2-5Hz）兴奋作用明显，用于痿证、肌肉萎缩、瘫痪（面瘫、中风后遗症）；密波（50-100Hz）镇痛、解痉，用于各种疼痛、肌肉痉挛；疏密波、断续波不易产生耐受，用于急性疼痛与肌肉萎缩锻炼。适应范围：痹证、坐骨神经痛、术后痛、神经衰弱等。注意事项：起搏器者禁用；孕妇腰骶腹部、心前区、延髓附近禁电针；两电极避免横跨脊柱与心脏。",
+        "misjudgment": "把密波用于痿证瘫痪而疏波用于镇痛。错：密波频率高，易致肌肉疲劳、兴奋作用弱，主要用于镇痛解痉；疏波频率低、单个脉冲刺激强，兴奋与收缩肌肉作用明显，才适合痿证瘫痪。",
+        "reasoning": "同一电针，为何坐骨神经痛宜用密波、面瘫恢复期宜用疏密波或断续波？",
+        "feedback": "疼痛以密波高频抑制传导而镇痛；面瘫恢复期需兴奋神经肌肉，疏密波、断续波交替刺激不易耐受疲劳，促进肌力恢复，故选后者。",
+        "transfer": "中风后足下垂患者，电针阳陵泉、解溪宜选何波形与频率？"
+      },
+      "stdJudgment": "电针在毫针得气后通电，以波形频率调控刺激量：疏波兴奋、密波镇痛、疏密断续波作用广泛；起搏器植入者禁用，孕妇腰骶腹部及延髓、心前区穴位禁用电针。",
+      "coreDefinition": "电针是在毫针针刺得气基础上，接通电针仪输出电流以持续刺激腧穴的方法；通过频率、波形与强度参数调节刺激量，增强并替代手工捻转，适用于瘫痪、痿痹、疼痛诸证。",
+      "facts": [
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "疏波 2-5Hz 用于痿证、肌肉萎缩；密波 50-100Hz 用于镇痛；通电 10-30 分钟，每日或隔日 1 次",
+        "caution": "电流由小渐大，避免突然加大；靠近延髓、脊髓的穴位慎用大电流"
+      },
+      "safety": {
+        "note": "通电前检查仪器与导线绝缘，电流从小到大缓慢调大，避免患者突然受电击；两电极不得跨越心脏纵轴（禁置心前区），延髓、脊髓附近穴慎用；电针过程中须观察患者反应，出现不适应立即减小电流或断电。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "安装心脏起搏器者禁用电针",
+          "孕妇腰骶部、腹部禁电针",
+          "心前区、延髓附近穴位禁电针",
+          "皮肤破损感染处禁置电极"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-017",
+      "title": "头针·头皮针分区",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "刺法",
+        "头针",
+        "头皮针",
+        "出血"
+      ],
+      "intent": "掌握头皮针刺激区定位、平刺进针角度深度与快速捻转参数，牢记囟门未闭小儿禁刺等红线。",
+      "learning": {
+        "knowledge": "头皮针操作：取坐位或卧位，选好刺激区（运动区、感觉区、言语一、二、三区、晕听区、舞蹈震颤控制区）并常规消毒，用 28-30 号 1.5-2 寸毫针，针尖与头皮呈 15-30° 角快速刺入帽状腱膜下层，进针 0.5-1.5 寸，不提插，以拇指食指捻转 200 次/分左右，持续 2-3 分钟，留针 20-30 分钟，期间捻转 1-2 次；可配合电针。适应范围：中风偏瘫、失语、吞咽困难、面瘫、眩晕、失眠、癫痫、帕金森病等脑源性疾病。注意事项：头皮感染、囟门未闭、出血倾向者禁用。",
+        "misjudgment": "把言语区与运动区的头皮定位混用。错：言语一区位于运动区下 2/5（大脑皮层语言运动中枢投影），主治运动性失语；运动区主治对侧肢体瘫痪。二者相邻而功能各异，定位不准则效差。",
+        "reasoning": "为何头针进针要沿皮平刺于帽状腱膜下层并快速捻转，而非直刺头皮？",
+        "feedback": "帽状腱膜下层疏松，沿皮平刺便于进针且不易伤及血管神经，快速捻转能产生足够刺激量又无疼痛，是头皮针安全高效的进针层次。",
+        "transfer": "脑梗死致右侧肢体偏瘫伴运动性失语，头针应选哪些刺激区、在哪侧头皮针刺？"
+      },
+      "stdJudgment": "头针按大脑皮层功能分区定刺激区，以 15-30° 角沿皮平刺入帽状腱膜下、快速捻转 200 次/分为操作核心；囟门未闭小儿与头皮感染者禁刺，出针须按压防出血。",
+      "coreDefinition": "头针又称头皮针，依据大脑皮层功能定位在头皮划分刺激区针刺，以平刺、快速捻转激发经气，主治脑源性疾患；刺激区易混淆，须牢记运动区、感觉区、言语区定位。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "针尖与头皮呈 15-30° 角平刺 0.5-1.5 寸，捻转 200 次/分左右，留针 20-30 分钟；每日或隔日 1 次",
+        "caution": "头皮血管丰富，出针后按压 1-2 分钟防出血；中风急性期病情不稳定者慎用"
+      },
+      "safety": {
+        "note": "头皮血管丰富，出针后须用消毒干棉球按压 1-2 分钟以防血肿；针刺沿帽状腱膜下层平刺，勿垂直深刺；小儿囟门未闭者禁刺，头皮感染溃疡处禁刺；中风急性期、高热惊厥等病情危重者慎用。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "囟门未闭小儿禁刺",
+          "头皮感染、溃疡处禁刺",
+          "有出血倾向者慎用头针",
+          "孕妇腰骶部、腹部禁针"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-018",
+      "title": "耳针·耳穴压豆",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "刺法",
+        "耳针",
+        "耳穴",
+        "压豆"
+      ],
+      "intent": "掌握耳穴压豆的选穴、贴压与按压参数，牢记耳廓感染禁用及孕妇习惯性流产史者禁压生殖区耳穴。",
+      "learning": {
+        "knowledge": "耳穴压豆操作：耳廓常规消毒后，用探棒或压痛法在相应耳穴（神门、心、肾、皮质下、内分泌等）寻找敏感点，将王不留行籽粘于 0.5cm×0.5cm 胶布中央，对准敏感点贴压固定，以拇指食指对捏按压至耳廓出现酸、麻、胀、痛（得气感）。每日自行按压 3-5 次，每次 1-2 分钟，双耳交替，3-5 天更换。适应范围：头痛、牙痛、失眠、呃逆、单纯性肥胖、戒烟、高血压、近视、痛经、神经衰弱等。注意事项：耳廓冻伤炎症、孕妇（习惯性流产史）禁用。",
+        "misjudgment": "贴压耳穴后只贴不按。错：压豆的刺激靠反复按压实现，仅贴不按刺激量不足，须每日按压 3-5 次、每次 1-2 分钟至酸胀，方能持续激发耳穴经气。",
+        "reasoning": "失眠患者耳穴压豆常取神门、心、皮质下、枕，这些耳穴为何组合能安神？",
+        "feedback": "神门为止痛安神要穴、心主神明、皮质下调节大脑皮层兴奋抑制、枕镇静，四穴相配共奏宁心安神，符合脏腑辨证与经验取穴相结合。",
+        "transfer": "肥胖患者耳穴压豆取饥点、内分泌、脾、胃，其作用机理是什么？"
+      },
+      "stdJudgment": "耳穴压豆以王不留行籽贴压敏感点、每日按压 3-5 次为要，适合疼痛失眠等慢性调理；耳廓感染、冻伤者禁用，有习惯性流产史者禁压子宫、卵巢等耳穴。",
+      "coreDefinition": "耳针在耳廓相应穴位针刺或压豆以诊治疾病，压豆法以王不留行籽贴压持续按压刺激，安全简便，为耳针最常用之操作；耳穴选取遵循相应部位、脏腑辨证、经验穴等原则。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "每穴每次按压 1-2 分钟，每日 3-5 次；贴压 3-5 天，双耳交替",
+        "caution": "按压勿用力过猛致皮肤破损；耳廓对胶布过敏者改用磁珠或缩短贴敷时间"
+      },
+      "safety": {
+        "note": "耳廓皮肤菲薄、血运较差，压豆前须检查有无冻伤、炎症、湿疹；按压手法由轻到重，防止破皮感染；胶布过敏者慎用。有习惯性流产史或孕妇禁针耳穴，压豆亦须避开子宫、卵巢、内分泌等穴。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "耳廓冻伤、炎症、湿疹处禁用",
+          "孕妇禁针耳穴；有习惯性流产史者禁用子宫、卵巢、内分泌等耳穴",
+          "耳廓出血不止者禁针",
+          "胶布过敏者慎用压豆"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-019",
+      "title": "艾炷灸·直接灸与间接灸",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "灸法",
+        "艾炷灸",
+        "直接灸",
+        "间接灸",
+        "烫伤"
+      ],
+      "intent": "掌握直接灸（瘢痕灸与无瘢痕灸）与间接灸（隔姜、隔蒜、隔附子饼等）的操作参数，牢记禁灸部位红线。",
+      "learning": {
+        "knowledge": "艾炷灸操作：将艾绒搓成上尖下平的圆锥形艾炷（麦粒大、黄豆大或半枣核大）。直接灸分两种：瘢痕灸（化脓灸）将艾炷直接置于穴位（如足三里、大椎）点燃，燃至将尽时按灭或任其燃尽，以局部烫伤化脓、愈后留瘢；无瘢痕灸燃至患者感灼痛时即换炷，以皮肤红晕为度，不起泡不留瘢。间接灸：隔姜灸取鲜姜片厚 0.2-0.3cm、中间针刺数孔，置穴上再放艾炷点燃，每壮燃尽易姜再灸，3-7 壮；隔蒜灸用于疮疡初起、蛇咬伤；隔附子饼灸用于阳痿、虚寒腹痛。适应范围：寒证虚证，如胃寒腹痛、泄泻、哮喘、痹证、疮疡阴证。",
+        "misjudgment": "把隔姜灸的姜片切得又厚又大或中间不扎孔。错：姜片过厚则艾热难以透达、灸效大减，过薄则易烫伤；中间扎数孔是让艾火热气透入，这是隔姜灸取效的关键操作。",
+        "reasoning": "同为虚寒腹痛，为何有人宜隔姜灸中脘、有人宜隔附子饼灸关元、气海？",
+        "feedback": "隔姜灸温中和胃、散寒止呕，适合中焦胃寒之腹痛呕吐；隔附子饼灸温肾助阳、散寒止痛，适合下元虚寒之腰痛、阳痿、宫寒；病位病性不同则所隔之药不同。",
+        "transfer": "寒湿痹痛日久、关节冷痛者，无瘢痕灸与隔姜灸如何取舍壮数与疗程？"
+      },
+      "stdJudgment": "艾炷灸分直接灸与间接灸：直接灸有瘢痕灸与无瘢痕灸之别，间接灸以姜、蒜、附子饼等为隔；颜面五官、乳中及大血管浅表处禁灸，孕妇腰骶腹部禁灸。",
+      "coreDefinition": "艾炷灸将艾绒搓成圆锥形炷体点燃施灸，直接置于皮肤者称直接灸，隔以姜蒜盐药者称间接灸；间接灸借药物与艾火温通之力，温阳散寒力专，为灸法之主体。",
+      "facts": [
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "艾炷大小如麦粒、黄豆或半枣核；无瘢痕灸以皮肤红晕为度（3-5 壮），隔姜灸每壮燃尽易姜再灸，一般 3-7 壮",
+        "caution": "瘢痕灸须取得患者同意并预防感染与瘢痕；间接灸所用姜蒜片须新鲜、厚薄均匀"
+      },
+      "safety": {
+        "note": "施灸时注意防止艾炷倾倒、艾火脱落烫伤，瘢痕灸化脓期间须无菌换药；隔姜蒜片须新鲜、厚薄均匀，中间扎孔透气；颜面五官、乳中、大血管浅表处、孕妇腰骶腹部禁灸，实热证、阴虚内热者慎灸。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "乳中、神阙禁针禁灸",
+          "颜面部与五官禁灸",
+          "大血管浅表处禁灸",
+          "孕妇腰骶部、腹部禁灸",
+          "实热证、阴虚发热者慎灸"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-020",
+      "title": "艾条灸·温和灸雀啄灸回旋灸",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "灸法",
+        "艾条灸",
+        "温和灸",
+        "雀啄灸",
+        "回旋灸"
+      ],
+      "intent": "掌握温和灸、雀啄灸、回旋灸三种悬起灸手法的距离、时长与适用差异，牢记颜面五官禁灸。",
+      "learning": {
+        "knowledge": "艾条灸操作：将艾条一端点燃，右手持艾条悬于穴上方施灸。温和灸：燃端距皮肤 2-3cm 固定不动，每穴灸 10-20 分钟，至皮肤温热红晕为度，患者自觉温热舒适。雀啄灸：燃端如鸟雀啄食般一上一下移动施灸，距皮肤忽近忽远，刺激量较大，多用于急性疼痛、晕厥急救。回旋灸：燃端在穴区皮肤上方往复回旋移动，温热面大，多用于面积较大之痹痛麻木（如腰背、肩周）。适应范围：虚寒性胃脘痛、泄泻、痛经、风寒湿痹、宫寒不孕、阳虚感冒及保健灸（足三里、关元、气海）。",
+        "misjudgment": "雀啄灸时把艾条固定在一个高度不动。错：雀啄灸的要领是上下移动、忽近忽远，刺激量一强一弱交替；固定不动就成了温和灸，失去啄击样强刺激作用。",
+        "reasoning": "腰背痛面积较大与痛点局限者，为何分别宜用回旋灸与雀啄灸？",
+        "feedback": "回旋灸热力散布面积大，适合面状痹痛麻木；雀啄灸刺激集中而强，适合点状痛点与急救；选法应随病灶范围而定。",
+        "transfer": "保健灸足三里以温和灸为宜，每日 10-15 分钟，其温补脾胃之理是什么？"
+      },
+      "stdJudgment": "艾条悬灸以温和灸为基本式，雀啄灸与回旋灸为变化式，均以皮肤温热红晕为度；颜面五官、大血管浅表处禁灸，施灸须防艾灰脱落烫伤。",
+      "coreDefinition": "艾条灸将艾绒卷成条状点燃悬于穴位上方施灸，悬起灸分温和灸、雀啄灸、回旋灸三种手法；操作简便、温热刺激柔和，为灸法最常用的形式。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "燃端距皮肤 2-3cm，每穴灸 10-20 分钟，以皮肤潮红为度；每日 1-2 次",
+        "caution": "雀啄灸、回旋灸用于局部怕冷与痛点；防止艾灰脱落烫伤"
+      },
+      "safety": {
+        "note": "艾条燃端勿靠皮肤太近，随时弹去艾灰，防止灼伤皮肤与烧毁衣物；灸后局部红晕属正常，起水泡须防感染；颜面五官、大血管浅表处禁灸，孕妇腰骶腹部禁灸。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "颜面部与五官禁灸",
+          "大血管浅表处禁灸",
+          "孕妇腰骶部、腹部禁灸",
+          "乳中、神阙禁针禁灸"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-021",
+      "title": "温针灸·针上加灸",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "灸法",
+        "温针灸",
+        "毫针",
+        "烫伤"
+      ],
+      "intent": "掌握温针灸在针柄上裹艾绒、插艾条段的操作要领与防烫措施，牢记颜面五官及孕妇腰骶腹部禁用。",
+      "learning": {
+        "knowledge": "温针灸操作：毫针针刺得气后留针，将艾绒搓成枣核大团裹缠于针柄上，或截取 2cm 左右艾条段从针柄上端插套，从下端点燃，使热力沿针身传入穴位深部。每针每次 1-3 壮，或燃完一段艾条，待艾火完全燃尽、针柄冷却后再出针，留针共约 20-30 分钟。操作要点：艾绒裹紧防脱落，针下垫纸片接灰，随时询问患者热感，过热时移开纸片散热。适应范围：风寒湿痹之腰腿痛、关节冷痛、肩凝、胃寒腹痛、痛经、痿证。注意事项：颜面五官、大血管浅表处、孕妇腰骶腹部禁用。",
+        "misjudgment": "温针灸点燃艾绒后患者刚感热烫就出针。错：温针灸须待艾火燃尽、热度经针身传导充分后再出针，过早出针既失温通之效，针热未退拔针还易带出艾火烫伤。",
+        "reasoning": "寒湿腰痛与虚寒胃痛，为何温针灸比单纯针刺或单纯艾灸效果更持久？",
+        "feedback": "温针灸借针体为导热媒介，热力直达病所深部，同时针刺疏通经络与艾灸温散寒邪协同作用，故对深部寒湿痹痛优于单用针或灸。",
+        "transfer": "膝关节冷痛遇寒加重，温针灸犊鼻、内膝眼、阳陵泉的操作要点有哪些？"
+      },
+      "stdJudgment": "温针灸在毫针留针时于针柄上加艾点燃，借针体导热深入穴内，针与灸并施；须防艾灰脱落烫伤，颜面五官与大血管处不宜，孕妇腰骶腹部禁用。",
+      "coreDefinition": "温针灸是针刺与艾灸结合之法：毫针得气留针后，在针柄上裹艾绒或插艾条段点燃，使热力沿针身传入穴内，温经散寒、通络止痛力专。",
+      "facts": [
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.feature",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "艾绒团或 2cm 艾条段，每针每次灸 1-3 壮（或燃完一段）；留针共约 20-30 分钟，燃尽冷却后出针",
+        "caution": "针柄下垫纸片接灰防烫伤；艾火未熄不得取针"
+      },
+      "safety": {
+        "note": "艾绒应捻紧裹牢在针柄上，或插 2cm 艾条段，点燃前在针下方皮肤垫硬纸片接灰，防止艾灰脱落烫伤；艾火未燃尽不得拔针；颜面五官、大血管浅表处及孕妇腰骶腹部禁用。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "颜面部与五官禁灸（温针灸亦禁）",
+          "大血管浅表处禁灸",
+          "孕妇腰骶部、腹部禁针灸",
+          "乳中禁针禁灸",
+          "艾灰未熄不得拔针，防烫伤"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-022",
+      "title": "灸法·补泻与施灸禁忌",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "灸法",
+        "补泻",
+        "禁灸",
+        "禁忌"
+      ],
+      "intent": "掌握灸法补泻（毋吹其火为补、疾吹其火为泻）与实热阴虚禁灸、禁灸部位等禁忌，防止误灸。",
+      "learning": {
+        "knowledge": "灸法补泻源于《灵枢·背俞》：「以火补者，毋吹其火，须自灭也；以火泻者，疾吹其火，传其艾，须其火灭也。」补法：艾炷宜小、壮数宜少（3-5 壮），点燃后不吹其火，任其徐燃自灭，火力温和，温阳补虚，用于虚寒证（脾肾阳虚之泄泻、宫寒不孕）。泻法：艾炷宜大、壮数宜多，点燃后疾吹其火，使火力强旺，灸至局部灼痛，温通散结、引热外出，用于寒湿痹痛、阴疽初起。施灸禁忌：①实热证、阴虚发热、热毒炽盛（高热、吐血、疔疮走黄）禁灸；②部位禁忌：颜面五官、乳中、神阙、大血管浅表处、阴部禁灸，孕妇腰骶腹部禁灸；③过饥过饱、醉酒、大惊大怒者暂不宜灸。",
+        "misjudgment": "认为灸法只能补阳，实热证用灸也无妨。错：灸法分补泻，实热、阴虚火旺者误灸如火上添油，助热伤津；热病、吐衄等皆属禁灸之列，并非虚寒才能灸、而是热证必须禁灸。",
+        "reasoning": "同是艾灸，为何「毋吹其火」为补、「疾吹其火」为泻？",
+        "feedback": "不吹其火则火力徐缓、温和持久，正合补法温养之义；疾吹其火则火势旺烈、刺激强烈，取泻法开通散结之力；火力强弱即补泻之别。",
+        "transfer": "孕妇下肢寒湿疼痛，为何艾灸腰骶、腹部属禁忌而灸足三里亦须审慎？"
+      },
+      "stdJudgment": "灸法补泻以火之强弱与壮数多少为纲，徐徐自灭为补、疾吹旺火为泻；实热阴虚者禁灸，颜面五官、乳中、大血管浅表处及孕妇腰骶腹部均在禁灸之列。",
+      "coreDefinition": "灸法以艾火温通为用，其补泻取决于火力强弱与刺激量：温和持久者补阳，强火急灸者泻实散结；灸非万能，热证、阴虚及部位禁忌必须严守。",
+      "facts": [
+        {
+          "field": "method.principle",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "补法：小炷 3-5 壮，艾火温和，不吹其火；泻法：大炷 5-10 壮或灸至灼痛，疾吹其火",
+        "caution": "凡实热、阴虚火旺、热病及部位禁忌者禁灸"
+      },
+      "safety": {
+        "note": "施灸先辨证：实热、阴虚内热、温病热盛者误灸可助火伤阴、变证丛生；部位上颜面五官、乳中、神阙、大血管浅表处、阴部禁灸，孕妇腰骶腹部禁灸；灸后局部小水泡可自行吸收，大水泡须无菌处理。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "乳中、神阙禁针禁灸",
+          "颜面部与五官禁灸",
+          "大血管浅表处禁灸",
+          "孕妇腰骶部、腹部禁灸",
+          "实热证、阴虚发热、热毒证禁灸",
+          "阴部禁灸"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-023",
+      "title": "拔罐法·闪罐走罐留罐",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "罐法",
+        "闪罐",
+        "走罐",
+        "留罐",
+        "烫伤"
+      ],
+      "intent": "掌握闪火法及留罐、闪罐、走罐三种手法的操作参数与适应差异，牢记禁用部位与留罐时长。",
+      "learning": {
+        "knowledge": "拔罐操作：闪火法用镊子夹持酒精棉球点燃后伸入罐内绕 1-2 圈即抽出，迅速将罐扣于选定部位（沿肌肉丰满处）。留罐法：罐吸着后留置 10-15 分钟，至皮肤充血或瘀血为度起罐。闪罐法：罐吸着后立即拔下再吸拔，反复 10-20 次至皮肤潮红，用于局部麻木、面瘫、虚寒证。走罐法：罐口及皮肤涂凡士林等润滑剂，吸罐后手握罐体沿经络或肌肉走行上下推拉移动，至皮肤潮红为度，用于腰背、四肢大面积的痹痛。适应范围：风寒湿痹、腰背痛、感冒、咳嗽、哮喘、胃脘痛、软组织损伤。注意事项：皮肤破损、大血管浅表处、孕妇腰骶腹部禁用。",
+        "misjudgment": "走罐时不涂润滑介质直接推拉。错：走罐靠罐口在皮肤上滑动，无介质则罐口与皮肤摩擦牵拉疼痛、破皮；凡士林等润滑是走罐的必要准备。",
+        "reasoning": "同一拔罐，为何面瘫早期宜闪罐而腰背寒湿痛宜走罐或留罐？",
+        "feedback": "面瘫病位浅、面积小且面部皮肤薄嫩，闪罐轻刺激鼓动经气；腰背寒湿痛病位深、面积大，走罐留罐刺激强、祛寒通络彻底；手法随部位与病情而选。",
+        "transfer": "刺络拔罐（三棱针点刺后加罐）用于急性腰扭伤，其泻血通络之理与禁忌是什么？"
+      },
+      "stdJudgment": "拔罐以负压吸拔为用，留罐、闪罐、走罐、刺络拔罐各有要领；皮肤破损、水肿、大血管浅表处及孕妇腰骶腹部禁用，留罐时间过长可致水泡。",
+      "coreDefinition": "拔罐法利用燃烧或抽气使罐内形成负压，吸附于腧穴或体表以祛风散寒、活血通络；留罐、闪罐、走罐等不同手法刺激量与作用面各有差异。",
+      "facts": [
+        {
+          "field": "method.definition",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "留罐 10-15 分钟；闪罐反复 10-20 次；走罐至皮肤潮红为度；刺络拔罐出血数毫升",
+        "caution": "留罐时间过长易起水泡，儿童与皮肤薄嫩者缩短时间"
+      },
+      "safety": {
+        "note": "闪火法操作时酒精棉球火焰勿烧灼罐口，防止烫伤皮肤；走罐须先涂凡士林等润滑介质；留罐时间不宜超过 15 分钟，出现水泡者小泡任其吸收、大泡无菌处理；皮肤破损、水肿、大血管浅表处及孕妇腰骶腹部禁用。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "皮肤溃疡、破损、水肿处禁用拔罐",
+          "大血管浅表处禁用",
+          "孕妇腰骶部、腹部禁用",
+          "高热抽搐、有出血倾向者禁用",
+          "留罐时间禁超过 15 分钟（防起泡）"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-024",
+      "title": "刮痧法·刮拭手法",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "刮痧",
+        "出痧",
+        "皮肤损伤"
+      ],
+      "intent": "掌握刮痧板与皮肤的角度、力度与出痧度判定，牢记出血倾向者禁用及孕妇腰骶腹部禁刮。",
+      "learning": {
+        "knowledge": "刮痧操作：取坐位或卧位，暴露刮拭部位（颈项、肩背、腰骶、四肢），在皮肤涂刮痧油或清水，右手持刮痧板，刮板与皮肤呈 45° 角，先轻后重、单向刮拭（不可来回），每部位刮 10-20 次或至皮肤出现红色、暗红色痧点为止。顺序多自上而下、由内向外，颈项部先刮正中督脉再刮两侧膀胱经。适应范围：中暑、外感发热、头痛、咽痛、颈肩腰背酸痛、胸闷、恶心、风湿痹痛。注意事项：出痧后饮温水休息，3-5 天痧退后再刮；皮肤破损、出血倾向者禁用。",
+        "misjudgment": "刮痧时来回反复刮拭或过度用力追求深色痧。错：刮痧须单向刮拭、由轻到重、出痧即止，来回刮或蛮力刮易损伤皮肤、加重瘀血，深痧并非疗效越好。",
+        "reasoning": "中暑高热患者刮痧取颈项、背部膀胱经，为何能透热解暑？",
+        "feedback": "暑热之邪闭阻肌表经络，刮拭膀胱经、督脉疏通阳气、开腠理而透邪外出，痧出则热散，故中暑刮痧取效快捷。",
+        "transfer": "颈肩酸痛反复发作者自行刮痧，刮拭方向与出痧程度的把握应注意什么？"
+      },
+      "stdJudgment": "刮痧以刮板蘸介质、与皮肤呈 45° 角由轻到重刮拭至出痧为要，适用于外感暑热与肌肉酸痛；皮肤破损、出血倾向者禁用，孕妇腰骶腹部禁刮。",
+      "coreDefinition": "刮痧用刮痧板蘸介质在体表反复刮拭，使皮下毛细血管破裂渗血成痧，以疏经通络、祛邪外出；操作以角度、力度与出痧为度为核心。",
+      "facts": [
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.principle",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "每部位刮拭 10-20 次或至出痧，顺序自上而下、由内向外；刮后饮温水，休息 30 分钟",
+        "caution": "出痧处 3-5 天消退前不宜再刮；刮拭力量过大致皮肤破损者消毒处理"
+      },
+      "safety": {
+        "note": "刮痧板与皮肤须有介质润滑，刮拭方向一致、力度均匀，出痧即止，不必强求出深紫色痧；皮肤破损、感染、出血性疾病、血小板减少者禁用；孕妇腰骶腹部及乳晕部禁刮；刮后避风寒、勿立即洗冷水澡。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "皮肤破损、溃疡、感染处禁刮痧",
+          "有出血倾向、血小板减少者禁用",
+          "孕妇腰骶部、腹部及乳晕部禁刮",
+          "大血管浅表处禁重刮",
+          "出痧未退（3-5 天）不宜重复刮拭"
+        ]
+      }
+    },
+    {
+      "id": "pb11-f-025",
+      "title": "穴位注射与穴位贴敷·操作要点",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "穴位注射",
+        "穴位贴敷",
+        "药物",
+        "过敏"
+      ],
+      "intent": "掌握穴位注射回抽无血后注药、每穴 0.5-2ml 的剂量，以及穴位贴敷敷贴时间，牢记药物过敏与孕妇禁忌。",
+      "learning": {
+        "knowledge": "穴位注射操作：选用 2-5ml 注射器、细针头抽取药液（当归注射液、维生素 B12 等），在选穴处常规消毒，快速刺入皮下后缓慢进针，得气后回抽无血，再缓慢注入药液 0.5-2ml（头面部、耳穴 0.1-0.5ml），出针按压片刻。每日或隔日 1 次。适应范围：痹证、腰腿痛、面瘫、哮喘、胃痛、神经衰弱。穴位贴敷操作：将药物研细末用姜汁、醋或水调成膏，制成药饼敷贴于穴位（三伏贴取肺俞、膏肓、定喘、膻中），胶布固定，成人 2-6 小时、儿童 1-2 小时，以局部灼热、红晕或小水泡为度，揭去药膏。适应范围：哮喘、慢支、过敏性鼻炎、虚寒性胃痛、痛经。禁忌：皮肤破损、药物过敏者禁用。",
+        "misjudgment": "穴位注射时回抽见血仍继续注药。错：回抽见血提示针尖已入血管，继续注药会使药液进入血循环，轻则效差、重则栓塞或过敏反应，必须退针换位重刺，确认无回血后再注。",
+        "reasoning": "同是三伏天贴敷，为何哮喘患者贴肺俞、膏肓、定喘，而痛经患者贴关元、气海、三阴交？",
+        "feedback": "三伏贴以冬病夏治为纲，选穴按病位与辨证：哮喘病在肺，取背俞穴与任脉膻中；痛经病在胞宫，取下焦任脉与三阴交、关元，温经散寒止痛；穴随证移。",
+        "transfer": "过敏性鼻炎患者三伏贴取大椎、肺俞、风门、印堂，贴敷时间与起泡处理应注意什么？"
+      },
+      "stdJudgment": "穴位注射以得气回抽无血后缓慢注药为要，每穴 0.5-2ml；穴位贴敷以药膏敷穴、灼热起泡为度；两者均须严守药物过敏、皮肤破损、孕妇及重要脏器部位禁忌。",
+      "coreDefinition": "穴位注射将药液注入腧穴以兼取针刺与药物双重作用，穴位贴敷以药膏贴敷穴区经皮渗透而治病；一注一敷，皆以穴为靶、以药为用，须严守剂量与禁忌。",
+      "facts": [
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.parameter",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.operation",
+          "sourceType": "textbook",
+          "sourceTitle": "《刺法灸法学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.indication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "method.contraindication",
+          "sourceType": "textbook",
+          "sourceTitle": "《针灸学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "穴位注射每穴 0.5-2ml（头面耳穴 0.1-0.5ml），每日或隔日 1 次；穴位贴敷成人 2-6 小时、儿童 1-2 小时，以局部灼热起红晕为度",
+        "caution": "药物须在医生处方下使用，过敏体质者先小面积试贴；注药前回抽确认无血"
+      },
+      "safety": {
+        "note": "穴位注射前须回抽无回血再注药，严禁药液注入血管或神经干，胸背穴注药须防气胸；青霉素类等须先皮试，过敏体质慎用；穴位贴敷药物多辛温走窜（白芥子、细辛、甘遂等），敷后灼痛起泡须即时揭去并防感染。孕妇腰骶腹部及合谷、三阴交等穴禁用。仅作知识学习，禁止无资质自行针刺/艾灸。",
+        "prohibitions": [
+          "孕妇腰骶部、腹部及合谷、三阴交等穴禁用穴位注射与贴敷",
+          "胸背部穴位注射禁深刺，防气胸",
+          "药液禁注入血管与神经干",
+          "皮肤破损、感染处禁贴敷",
+          "过敏体质者慎用，强刺激性药物禁用于面部"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-30",
+  "genLabel": "Phase 5 · Batch-30 · AE 沟通·心理 12 nodes",
+  "total": 12,
+  "counts": {
+    "candidate": 12,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 60,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 8,
+      "pct": 67
+    },
+    "mid": {
+      "count": 2,
+      "pct": 17
+    },
+    "hard": {
+      "count": 1,
+      "pct": 8
+    },
+    "mixed": {
+      "count": 1,
+      "pct": 8
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "AE 沟通·心理 12 节点：医患沟通、心理评估、情志与心身、心理干预",
+  "generatedAt": "2026-09-21T15:37:07.928Z"
+}

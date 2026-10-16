@@ -1,0 +1,1722 @@
+{
+  "summary": {
+    "totalCases": 83,
+    "blocked": 0,
+    "review": 15,
+    "pass": 68,
+    "gateCounts": {
+      "E": 0,
+      "F": 0,
+      "G": 0
+    },
+    "blockedIds": []
+  },
+  "blocked": [],
+  "review": [
+    {
+      "id": "pb4-cl-08-03",
+      "title": "阴阳失调",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence",
+        "counterEvidence",
+        "revision"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "7(其他支持证据)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "但患者兼见神昏谵语、四肢厥冷，四肢虽冷而胸腹灼热、脉虽沉但重按有力",
+      "revision": "修正为阳盛格阴（真热假寒）：热极阳郁不能外达则四肢厥冷，非真寒；仍治以清热泻火（白虎汤意），不可误用温阳",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-08-04",
+      "title": "气血失常",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence",
+        "counterEvidence",
+        "revision"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "但患者痛处固定不移、入夜加重、面色晦暗，舌质紫暗有瘀点",
+      "revision": "修正为气滞日久致血瘀：先有气滞（胀痛走窜、脉弦）后成血瘀（刺痛固定、舌紫），病机为气滞血瘀，治当行气活血并施（血府逐瘀汤意）",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-dg-09-25",
+      "title": "舌诊与病机对应",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence",
+        "counterEvidence",
+        "revision"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": "但患者面色萎黄、神疲乏力、大便溏薄，舌体胖大边有齿痕",
+      "revision": "修正为脾虚湿热（本虚标实）：舌胖齿痕+神疲便溏为脾气虚之本，苔黄腻口苦为湿热之标，治当健脾与清化湿热并施，不可纯用苦寒清利",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-10-08",
+      "title": "寒热真假",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": "四肢厥冷与「阳虚肢冷喜温」不符：阳虚厥冷必口不渴、脉微细、舌淡，而本证口渴冷饮、舌红苔黄、脉实",
+      "revision": "修正为真热假寒（热深厥深）：厥冷为热邪深伏、阳气郁遏不达四末，不可误作阳虚用温药，应以清泄里热（白虎汤、承气汤类）为治",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-11-15",
+      "title": "气血津液辨证与脏腑辨证衔接",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": "若仅凭心悸辨为心血虚则与自汗、气短、动则加重不符——虚汗气短是气虚特征而非血虚（血虚以面白唇淡、失眠为主）",
+      "revision": "修正为心气虚证：病位在心、病性为气虚，非心血虚，治当补益心气",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-14-08",
+      "title": "卫气营血与现代感染性疾病",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "若仍辨为气分证，则气分证以「四大」为主（大热大渴大汗脉洪大）而无神志改变；本证谵语斑疹是营分受邪之象，单纯气分难以解释",
+      "revision": "修正为气营两燔：气分热炽未解、热入营分，非单纯气分证，须清气凉营并施",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-ca-20-02",
+      "title": "古代名医医案",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": "若仍按外感咳嗽宣肺论治，则与「宣散后咳反甚、舌红少津、脉细数」不符——辛散耗伤肺胃阴液",
+      "revision": "修正为肺胃阴亏、虚热上扰：久咳伤阴、非外感风寒，忌辛散再伤阴液",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-ca-20-04",
+      "title": "复杂病机医案",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "7(其他支持证据)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "但患者伴四肢不温、大便溏薄、腰膝冷痛，纯肝阳上亢不能解释下寒诸症",
+      "revision": "修正为上热下寒、本虚标实：肝阳上亢于上、脾肾阳虚于下，不可单清或单温",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-ca-20-05",
+      "title": "误治医案",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "3(病史/时间线)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "但恶寒发热并见是表证特征，攻下之治与「表证当解表」相悖——误下伤脾、邪陷中焦，攻下后下利不止反证表证被误下",
+      "revision": "修正为误下伤中：表邪内陷、脾阳受损，非里热便秘，当温中止利",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-ca-20-06",
+      "title": "医案中的思维还原",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": "若为气滞痛则胀痛攻撑、情志相关；若为食积痛则嗳腐吞酸——与本证隐痛喜按、遇寒加重不符，逐一排除",
+      "revision": "排除实证后，确定为脾胃虚寒",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-21-04",
+      "title": "病因+病机→辨证",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "若非湿邪而为脾虚，则困重不显、舌淡无腻苔——苔腻脉濡是湿邪特征，且发病与久居湿地相关",
+      "revision": "修正为湿邪外侵、困阻中焦：苔腻脉濡为湿邪特征、非单纯脾虚，治以芳香化湿",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-21-06",
+      "title": "排除法辨证",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": "无恶寒表证、无苔腻湿热之象、动则汗出不似气虚（气虚发热多劳则甚、脉虚）——逐一排除外感/湿热/气虚",
+      "revision": "排除诸证后，结合舌红少苔脉细数，定为阴虚发热",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-cl-21-08",
+      "title": "综合辨证练习",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "肝阳上亢当面红目赤、脉弦有力，气血亏虚当面色淡白无胁痛——均不符，胁痛+便溏+脉弦细指向肝脾同病",
+      "revision": "修正为肝郁乘脾：肝失疏泄则胁痛、脾失健运则便溏、血不养心则失眠，非肝阳上亢或单纯血虚",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-th-23-09",
+      "title": "避免单因素推断",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": "心火扰神当舌红苔黄、脉数、心烦口苦；本证舌淡脉细、面色萎黄为血虚失养，单凭失眠断心火与证据不符",
+      "revision": "修正为心血不足、心神失养：舌淡脉细、面色萎黄为血虚证据，非心火扰神，治以养血安神",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    },
+    {
+      "id": "pb4-th-23-10",
+      "title": "避免机械套证",
+      "level": "C4",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "hypothesis",
+        "c3Evidence",
+        "counterEvidence",
+        "revision",
+        "finalJudgment"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": "阴虚当舌红少苔、脉细数、盗汗潮热；本证苔腻脉濡、身热不扬为湿热蕴蒸，机械套「舌红=阴虚」与湿热证据矛盾",
+      "revision": "舌红在湿热证中亦常见（热象），须辨苔之有无厚薄——苔腻为湿、红为热，合为湿热",
+      "gateResults": {
+        "humanReviewRequired": true
+      },
+      "status": "REVIEW"
+    }
+  ],
+  "pass": [
+    {
+      "id": "pb4-th-01-07",
+      "title": "中医理论体系框架",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "4(检验/客观指标)",
+        "4(检验/客观指标)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-06",
+      "title": "阴阳相互转化",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-08",
+      "title": "阴阳在人体中的体现",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-09",
+      "title": "阴阳与生理",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-10",
+      "title": "阴阳与病理",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "7(其他支持证据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-11",
+      "title": "阴阳与诊断",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-12",
+      "title": "阴阳与治疗原则",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-02-13",
+      "title": "阴阳与八纲",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-04",
+      "title": "肝",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-05",
+      "title": "脾",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-06",
+      "title": "肺",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-07",
+      "title": "肾",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-09",
+      "title": "胆",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-10",
+      "title": "胃",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-11",
+      "title": "小肠",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-12",
+      "title": "大肠",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-13",
+      "title": "膀胱",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-04-14",
+      "title": "三焦",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-03",
+      "title": "气的生成",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-04",
+      "title": "气的功能",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-05",
+      "title": "气的运动",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-06",
+      "title": "气机",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-07",
+      "title": "气的分类",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-08",
+      "title": "血的基本概念",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-09",
+      "title": "津液的基本概念",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-10",
+      "title": "神的基本概念",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-11",
+      "title": "气与血的关系",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-12",
+      "title": "气与津液的关系",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-05-13",
+      "title": "血与津液的关系",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-07-09",
+      "title": "七情内伤",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-07-13",
+      "title": "痰饮",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-07-14",
+      "title": "瘀血",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-08-01",
+      "title": "病机基本概念",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-08-05",
+      "title": "津液代谢失常",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-08-07",
+      "title": "气机升降出入失常",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-08-12",
+      "title": "疾病传变规律",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-01",
+      "title": "望诊理论基础",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "5(经典依据)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-02",
+      "title": "望神",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-06",
+      "title": "望舌（舌诊）",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-08",
+      "title": "闻诊理论基础",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-11",
+      "title": "问诊理论基础",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "5(经典依据)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-13",
+      "title": "问寒热",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-14",
+      "title": "问汗",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-16",
+      "title": "问饮食口味",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-18",
+      "title": "问睡眠",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-20",
+      "title": "切诊理论基础",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-21",
+      "title": "脉诊基本",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-22",
+      "title": "常见脉象（浮沉迟数）",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-dg-09-24",
+      "title": "常见脉象扩展",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 2,
+      "evidenceTiers": [
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-02",
+      "title": "表证与里证",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-03",
+      "title": "表里同病",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-04",
+      "title": "表里出入",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "3(病史/时间线)",
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-05",
+      "title": "寒证与热证",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-07",
+      "title": "寒热转化",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "3(病史/时间线)",
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-09",
+      "title": "虚证与实证",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-10",
+      "title": "虚实夹杂",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-12",
+      "title": "阴阳为总纲",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-cl-10-13",
+      "title": "八纲之间组合",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-07-16",
+      "title": "药邪与医过",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "3(病史/时间线)",
+        "2(舌脉/体征)",
+        "6(方药反应)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-ca-20-03",
+      "title": "经方医案",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-22-01",
+      "title": "八纲 vs 气血津液辨证",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-22-02",
+      "title": "八纲 vs 脏腑辨证",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-22-03",
+      "title": "六经 vs 八纲",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-22-04",
+      "title": "卫气营血 vs 三焦",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-23-01",
+      "title": "整体思维",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "7(其他支持证据)",
+        "2(舌脉/体征)",
+        "3(病史/时间线)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-23-02",
+      "title": "动态思维",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "3(病史/时间线)",
+        "2(舌脉/体征)",
+        "1(症状事实)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-23-03",
+      "title": "辨证思维",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    },
+    {
+      "id": "pb4-th-23-05",
+      "title": "关系思维",
+      "level": "C3",
+      "fields": [
+        "level",
+        "originalJudgment",
+        "c3Evidence"
+      ],
+      "evidenceCount": 3,
+      "evidenceTiers": [
+        "1(症状事实)",
+        "1(症状事实)",
+        "2(舌脉/体征)"
+      ],
+      "counterEvidence": null,
+      "revision": null,
+      "gateResults": {},
+      "status": "PASS"
+    }
+  ]
+}

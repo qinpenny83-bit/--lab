@@ -1,0 +1,142 @@
+{
+  "seed": "phase-5/batch-10",
+  "genLabel": "Phase 5 · Batch-10 · 30 nodes（E 针灸治疗学 0→30）",
+  "total": 30,
+  "counts": {
+    "candidate": 30,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 5,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 149,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 18,
+      "pct": 60
+    },
+    "mid": {
+      "count": 6,
+      "pct": 20
+    },
+    "hard": {
+      "count": 4,
+      "pct": 13
+    },
+    "mixed": {
+      "count": 2,
+      "pct": 7
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {
+    "B": [
+      {
+        "id": "pb10-e-001",
+        "title": "针灸治疗原则·补虚泻实",
+        "layer": "来源解析",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-001",
+        "title": "针灸治疗原则·补虚泻实",
+        "layer": "来源解析",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-002",
+        "title": "针灸治疗原则·清热温寒",
+        "layer": "来源解析",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-003",
+        "title": "针灸治疗原则·标本缓急",
+        "layer": "来源解析",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-009",
+        "title": "特定穴应用·五输穴与补母泻子法",
+        "layer": "来源解析",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      }
+    ]
+  },
+  "correctionsByLayer": {
+    "来源解析": [
+      {
+        "id": "pb10-e-001",
+        "kind": "B",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-001",
+        "kind": "B",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-002",
+        "kind": "B",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-003",
+        "kind": "B",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      },
+      {
+        "id": "pb10-e-009",
+        "kind": "B",
+        "reason": "经典「《黄帝内经》」来源纠偏：出处→「《黄帝内经》」（《黄帝内经》为《素问》《灵枢》合称，引用时宜注明具体篇章）"
+      }
+    ]
+  },
+  "note": "E 针灸治疗学第一批：针灸治疗原则/选穴配穴/特定穴应用/头面五官/内科/妇儿/筋骨病证，全部含安全声明+禁针红线",
+  "generatedAt": "2026-09-21T08:47:01.236Z"
+}

@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-42",
+  "genLabel": "Phase 5 · Batch-42 · 23 nodes（收官：AD 医德法规 12→20 / AE 医患沟通心理 12→20 / AF 循证科研 18→25 全部达上限，全库 2185 节点）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

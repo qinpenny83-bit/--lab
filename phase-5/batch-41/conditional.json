@@ -1,0 +1,82 @@
+{
+  "seed": "phase-5/batch-41",
+  "genLabel": "Phase 5 · Batch-41 · 170 nodes（17 小科各 +10 上限补足：C 35→45 / E 30→40 / F 25→35 / K 25→35 / M 20→30 / Q 35→45 / S 30→40 / T 30→40 / U 25→35 / V 20→30 / W 15→25 / X 15→25 / Y 25→35 / Z 20→30 / AA 20→30 / AB 15→25 / AG 20→30）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 4
+  },
+  "samples": [
+    {
+      "id": "pb41-m-003",
+      "title": "剂量·桂枝与芍药等量配伍意义",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "reviewReasons": [
+        "经典「太阳中风」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「太阳中风」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb41-q-006",
+      "title": "六经·厥阴乌梅丸证",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「蛔厥者乌梅丸主之」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「蛔厥者乌梅丸主之」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb41-q-008",
+      "title": "温病·暑温气分证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "reviewReasons": [
+        "经典「温病者」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「温病者」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    {
+      "id": "pb41-q-009",
+      "title": "温病·秋燥凉燥证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "reviewReasons": [
+        "经典「燥伤本脏」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「燥伤本脏」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    }
+  ]
+}

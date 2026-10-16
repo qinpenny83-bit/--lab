@@ -1,0 +1,167 @@
+{
+  "seed": "phase-5/batch-2",
+  "genLabel": "Phase 5 · Batch-2 · 55 nodes（C 经络学 25 + D 腧穴学 30，33 学科蓝图针灸系列）",
+  "total": 55,
+  "counts": {
+    "candidate": 55,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "verdictBreakdown": {
+    "candidate": 55,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "engineering": {
+    "gateFailByLetter": {},
+    "correctionByKind": {},
+    "correctionByLayer": {},
+    "leakThrough": {
+      "A": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "B": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "C": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "D": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "H": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "J": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "K": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      }
+    },
+    "unknownSourceRatio": {
+      "unknown": 0,
+      "total": 118,
+      "pct": 0
+    },
+    "highRiskIsolationRate": {
+      "covered": 0,
+      "nodes": 0,
+      "pct": 100
+    }
+  },
+  "content": {
+    "difficultyDistribution": {
+      "basic": {
+        "count": 11,
+        "pct": 20
+      },
+      "mid": {
+        "count": 30,
+        "pct": 55
+      },
+      "hard": {
+        "count": 12,
+        "pct": 22
+      },
+      "mixed": {
+        "count": 2,
+        "pct": 4
+      }
+    },
+    "perCategory": {
+      "theory": [
+        1,
+        2,
+        3,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        3,
+        4,
+        5,
+        4
+      ],
+      "acupoint": [
+        1,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        2,
+        3,
+        3,
+        3,
+        2,
+        2,
+        4,
+        3,
+        3,
+        3,
+        3,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        3,
+        4,
+        4,
+        5
+      ]
+    },
+    "perCategoryDistinct": {
+      "theory": 5,
+      "acupoint": 5
+    },
+    "machineLikeRepetition": [],
+    "contentPreliminary": {
+      "contentCandidate": 47,
+      "contentReview": 8
+    },
+    "c3c4": {
+      "cLevels": {
+        "C1": 0,
+        "C2": 0,
+        "C3": 0,
+        "C4": 0
+      },
+      "humanReviewRequired": [],
+      "evidenceInsufficient": []
+    }
+  }
+}

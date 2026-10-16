@@ -1,0 +1,166 @@
+[
+  {
+    "id": "pa33-herb-banxia",
+    "title": "半夏",
+    "intent": "十八反出处闭合：误标《中国药典》→ 纠为《儒门事亲》",
+    "rawClassics": [
+      {
+        "label": "十八反",
+        "canon": "",
+        "chapter": "",
+        "sourceTitle": "《中国药典》一部",
+        "sourceType": "classic_original",
+        "status": "verified"
+      }
+    ],
+    "fixedClassics": [
+      {
+        "label": "十八反",
+        "canon": "",
+        "chapter": "",
+        "sourceTitle": "金·张子和《儒门事亲》",
+        "sourceType": "traditional_commentary",
+        "status": "teaching_inference"
+      }
+    ],
+    "corrections": [
+      {
+        "layer": "来源解析",
+        "kind": "B",
+        "reason": "经典「十八反」来源纠偏：sourceType→traditional_commentary、出处→「金·张子和《儒门事亲》」、status→teaching_inference（「十八反歌」最早见于金·张子和《儒门事亲》，为后世本草歌诀，非《中国药典》原文）"
+      }
+    ],
+    "gateFails": [],
+    "humanReviewRequired": false,
+    "verdict": "candidate"
+  },
+  {
+    "id": "pa33-acu-hegu",
+    "title": "合谷",
+    "intent": "四总穴歌出处闭合：误标《针灸大成》→ 纠为《针灸大全》",
+    "rawClassics": [
+      {
+        "label": "四总穴歌",
+        "canon": "",
+        "chapter": "",
+        "sourceTitle": "《针灸大成》",
+        "sourceType": "classic_original",
+        "status": "verified"
+      }
+    ],
+    "fixedClassics": [
+      {
+        "label": "四总穴歌",
+        "canon": "",
+        "chapter": "",
+        "sourceTitle": "明·徐凤《针灸大全》",
+        "sourceType": "traditional_commentary",
+        "status": "teaching_inference"
+      }
+    ],
+    "corrections": [
+      {
+        "layer": "来源解析",
+        "kind": "B",
+        "reason": "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「明·徐凤《针灸大全》」、status→teaching_inference（四总穴歌最早记载于明·徐凤《针灸大全》，非《针灸大成》原句）"
+      },
+      {
+        "layer": "安全红线",
+        "kind": "J",
+        "reason": "禁针穴「合谷」注入：孕妇禁针，有堕胎风险"
+      }
+    ],
+    "gateFails": [],
+    "humanReviewRequired": false,
+    "verdict": "candidate"
+  },
+  {
+    "id": "pa33-theory-yinyang",
+    "title": "阴阳原典",
+    "intent": "阴阳白名单缺口闭合：补入《素问·阴阳应象大论》verified",
+    "rawClassics": [
+      {
+        "label": "阴阳",
+        "canon": "",
+        "chapter": "",
+        "sourceTitle": "《素问·阴阳应象大论》",
+        "sourceType": "classic_original",
+        "status": "verified",
+        "originalText": "阴阳者，天地之道也，万物之纲纪"
+      }
+    ],
+    "fixedClassics": [
+      {
+        "label": "阴阳",
+        "canon": "",
+        "chapter": "阴阳应象大论篇第五",
+        "sourceTitle": "《素问·阴阳应象大论》",
+        "sourceType": "classic_original",
+        "status": "verified",
+        "originalText": "阴阳者，天地之道也，万物之纲纪"
+      }
+    ],
+    "corrections": [],
+    "gateFails": [],
+    "humanReviewRequired": false,
+    "verdict": "candidate"
+  },
+  {
+    "id": "pa33-e-01",
+    "title": "失眠（仅症状）",
+    "intent": "E 校准：只有症状、确实不足 → 应拦截",
+    "rawClassics": [],
+    "fixedClassics": [],
+    "corrections": [],
+    "gateFails": [
+      {
+        "gate": "E",
+        "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+      }
+    ],
+    "humanReviewRequired": false,
+    "verdict": "quarantine"
+  },
+  {
+    "id": "pa33-e-02",
+    "title": "失眠（症状+舌脉）",
+    "intent": "E 校准：症状 + 第二独立证据（舌脉）→ 应进入 C3",
+    "rawClassics": [],
+    "fixedClassics": [],
+    "corrections": [],
+    "gateFails": [],
+    "humanReviewRequired": false,
+    "verdict": "candidate"
+  },
+  {
+    "id": "pa33-fg-01",
+    "title": "眩晕医案（真实反证）",
+    "intent": "F/G 抽检：真实反证 + 有效修正 → 通过 F/G，加 human_review_required",
+    "rawClassics": [],
+    "fixedClassics": [],
+    "corrections": [],
+    "gateFails": [],
+    "humanReviewRequired": true,
+    "verdict": "conditional"
+  },
+  {
+    "id": "pa33-fg-02",
+    "title": "胸痹医案（反证无效）",
+    "intent": "F/G 抽检：反证与判断无关 + 修正未回应 → 应拦截",
+    "rawClassics": [],
+    "fixedClassics": [],
+    "corrections": [],
+    "gateFails": [
+      {
+        "gate": "F",
+        "note": "反证为空泛/补充性说明，未真正削弱原判断"
+      },
+      {
+        "gate": "G",
+        "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+      }
+    ],
+    "humanReviewRequired": false,
+    "verdict": "quarantine"
+  }
+]

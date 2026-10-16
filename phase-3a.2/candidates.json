@@ -1,0 +1,329 @@
+{
+  "seed": 20260919,
+  "genLabel": "phase-3a.2-fresh",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核；conditional = Gate 全绿但含「需人工复核」标记（白名单缺口 / 首出须核验）。二者均进入候选内容区，condition 须人工补 verified 后入库。",
+  "counts": {
+    "candidate": 17,
+    "conditional": 3
+  },
+  "samples": [
+    {
+      "id": "pa32-herb-01",
+      "title": "附子",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "知识分类",
+          "kind": "K",
+          "reason": "fact「herb.huiyang」无出处却标 classic_original+verified，降级为 teaching_design/teaching_inference"
+        },
+        {
+          "layer": "事实采集",
+          "kind": "A",
+          "reason": "fact「herb.huiyang」来源缺漏已按「无权威出处」降级，不得进入 verified"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-herb-02",
+      "title": "半夏",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "verdict": "conditional",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「十八反」来源纠偏：sourceType→traditional_commentary、出处→「后世本草歌诀（首出须核验）」、status→teaching_inference（后世本草歌诀，非《中国药典》原文）"
+        }
+      ],
+      "reviewRequired": [
+        "经典「十八反」来源纠偏：sourceType→traditional_commentary、出处→「后世本草歌诀（首出须核验）」、status→teaching_inference（后世本草歌诀，非《中国药典》原文）"
+      ]
+    },
+    {
+      "id": "pa32-herb-03",
+      "title": "细辛",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "剂量分层",
+          "kind": "C",
+          "reason": "原典「各等分/两」被折算为克数，剥离克数、仅保留原表述"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-herb-04",
+      "title": "柴胡",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "知识分类",
+          "kind": "D",
+          "reason": "fact「herb.shengti」teaching_design 被升级为 verified，按口径降级为 teaching_inference"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-herb-05",
+      "title": "麻黄",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "verdict": "candidate",
+      "corrections": [],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-formula-06",
+      "title": "麻黄汤",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "剂量分层",
+          "kind": "C",
+          "reason": "原典「各等分/两」被折算为克数，剥离克数、仅保留原表述"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-formula-07",
+      "title": "桂枝汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「调和营卫」来源纠偏：sourceType→teaching_design、出处→「（后世教学术语）」、status→teaching_inference（后世教学术语，非《伤寒论》原句）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-formula-08",
+      "title": "四逆汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "剂量分层",
+          "kind": "C",
+          "reason": "现代剂量数字缺少 verified 来源，从 modernDosage 剥离（不得进入背诵）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-formula-09",
+      "title": "六味地黄丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「三补三泻」来源纠偏：sourceType→teaching_design、出处→「（教材归纳）」、status→teaching_inference（教材归纳，非《小儿药证直诀》原句）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-formula-10",
+      "title": "小柴胡汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「但见一证便是」来源纠偏：出处→「《伤寒论》」（须带「有柴胡证」前提，不得断章取义）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-acu-11",
+      "title": "内关",
+      "category": "acupoint",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "verdict": "candidate",
+      "corrections": [],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-acu-12",
+      "title": "合谷",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "verdict": "conditional",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「四总穴歌（针灸歌赋，首出须核验）」、status→teaching_inference（「面口合谷收」出处非《针灸大成》原句）"
+        },
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "禁针穴「合谷」注入：孕妇禁针，有堕胎风险"
+        }
+      ],
+      "reviewRequired": [
+        "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「四总穴歌（针灸歌赋，首出须核验）」、status→teaching_inference（「面口合谷收」出处非《针灸大成》原句）"
+      ]
+    },
+    {
+      "id": "pa32-acu-13",
+      "title": "手三里",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "知识分类",
+          "kind": "D",
+          "reason": "fact「acupoint.jiepou」teaching_design 被升级为 verified，按口径降级为 teaching_inference"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-acu-14",
+      "title": "三阴交",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "安全红线",
+          "kind": "J",
+          "reason": "禁针穴「三阴交」注入：孕妇禁针，有堕胎风险"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-acu-15",
+      "title": "太冲",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「四关」来源纠偏：sourceType→teaching_design、出处→「（临床总结）」、status→teaching_inference（临床总结，非经典原句）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-theory-16",
+      "title": "气机升降",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「左升右降」来源纠偏：sourceType→teaching_design、出处→「《素问·刺禁论》「肝生于左，肺藏于右」为原文；「左升右降」为后世归纳」、status→teaching_inference（「左升右降」为后世归纳，不得绝对化为《内经》原句）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-theory-17",
+      "title": "气血关系",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「气为血之帅」来源纠偏：sourceType→teaching_design、出处→「（教学口诀）」、status→teaching_inference（教学口诀，非《内经》原句）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-theory-18",
+      "title": "五行生克",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "verdict": "candidate",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「见肝之病知肝传脾」来源纠偏：出处→「《金匮要略》」（非《内经》原句）"
+        }
+      ],
+      "reviewRequired": []
+    },
+    {
+      "id": "pa32-theory-19",
+      "title": "阴阳原典",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "verdict": "conditional",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「阴阳」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ],
+      "reviewRequired": [
+        "经典「阴阳」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ]
+    },
+    {
+      "id": "pa32-case-22",
+      "title": "眩晕医案",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "verdict": "candidate",
+      "corrections": [],
+      "reviewRequired": []
+    }
+  ]
+}

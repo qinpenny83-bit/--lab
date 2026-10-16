@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-7",
+  "genLabel": "Phase 5 · Batch-7 · 25 nodes（L 方剂学 65→90）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

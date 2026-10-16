@@ -1,0 +1,81 @@
+{
+  "seed": "phase-5/batch-31",
+  "genLabel": "Phase 5 · Batch-31 · AF 科研·证据 18 nodes",
+  "total": 18,
+  "counts": {
+    "candidate": 18,
+    "conditional": 0,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 90,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 0,
+    "covered": 0,
+    "rate": 100,
+    "riskTitles": []
+  },
+  "difficulty": {
+    "basic": {
+      "count": 12,
+      "pct": 67
+    },
+    "mid": {
+      "count": 3,
+      "pct": 17
+    },
+    "hard": {
+      "count": 2,
+      "pct": 11
+    },
+    "mixed": {
+      "count": 1,
+      "pct": 6
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {},
+  "correctionsByLayer": {},
+  "note": "AF 科研·证据 18 节点：循证三要素、证据分级、研究设计、医学统计",
+  "generatedAt": "2026-09-21T15:37:14.478Z"
+}

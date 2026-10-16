@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pa3-03",
+    "title": "柴胡",
+    "category": "中药",
+    "verdict": "有条件通过",
+    "trap": "「小剂量升提」「劫肝阴」来源分层（AI 合规处理）",
+    "manualReview": true
+  },
+  {
+    "id": "pa3-08",
+    "title": "六味地黄丸",
+    "category": "方剂",
+    "verdict": "有条件通过",
+    "trap": "出处与“三补三泻”分层（AI 合规处理）",
+    "manualReview": true
+  },
+  {
+    "id": "pa3-10",
+    "title": "补中益气汤",
+    "category": "方剂",
+    "verdict": "通过",
+    "trap": "",
+    "manualReview": false
+  },
+  {
+    "id": "pa3-12",
+    "title": "内关",
+    "category": "腧穴",
+    "verdict": "通过",
+    "trap": "",
+    "manualReview": false
+  },
+  {
+    "id": "pa3-14",
+    "title": "太冲",
+    "category": "腧穴",
+    "verdict": "有条件通过",
+    "trap": "「四关」标教学概念（AI 合规处理）",
+    "manualReview": true
+  },
+  {
+    "id": "pa3-15",
+    "title": "关元",
+    "category": "腧穴",
+    "verdict": "通过",
+    "trap": "",
+    "manualReview": false
+  },
+  {
+    "id": "pa3-18",
+    "title": "病机十九条",
+    "category": "理论",
+    "verdict": "有条件通过",
+    "trap": "原文逐字 + 释义分层（AI 合规处理）",
+    "manualReview": true
+  },
+  {
+    "id": "pa3-20",
+    "title": "六淫（风邪）",
+    "category": "理论",
+    "verdict": "有条件通过",
+    "trap": "原文篇名与教材概括分层（AI 合规处理）",
+    "manualReview": true
+  },
+  {
+    "id": "pa3-23",
+    "title": "气虚发热（甘温除大热）",
+    "category": "医案",
+    "verdict": "有条件通过",
+    "trap": "反证与修正到位（AI 合规处理）",
+    "manualReview": true
+  }
+]

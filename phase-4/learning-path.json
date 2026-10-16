@@ -1,0 +1,6175 @@
+{
+  "schema": "phase-4/learning-path/v1",
+  "generatedAt": "2026-09-20T09:22:19.968Z",
+  "totalDomains": 24,
+  "totalNodes": 305,
+  "knowledgeMap": [
+    {
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "stage": "stage1",
+      "stageName": "入门·基础认知",
+      "type": "theory",
+      "difficultyRange": [
+        1,
+        2
+      ],
+      "totalNodes": 9,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "01-01",
+              "topic": "中医学的基本特点",
+              "difficulty": 1,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [],
+              "unlocks": [
+                "01-02"
+              ]
+            },
+            {
+              "nodeId": "01-02",
+              "topic": "整体观念",
+              "difficulty": 1,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "01-01"
+              ],
+              "unlocks": [
+                "01-03"
+              ]
+            },
+            {
+              "nodeId": "01-03",
+              "topic": "辨证论治",
+              "difficulty": 1,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-02"
+              ],
+              "unlocks": [
+                "01-04"
+              ]
+            },
+            {
+              "nodeId": "01-04",
+              "topic": "证、症、病的区别",
+              "difficulty": 1,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-03"
+              ],
+              "unlocks": [
+                "01-05"
+              ]
+            },
+            {
+              "nodeId": "01-05",
+              "topic": "同病异治与异病同治",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-04"
+              ],
+              "unlocks": [
+                "01-06"
+              ]
+            },
+            {
+              "nodeId": "01-06",
+              "topic": "因时因地因人制宜",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-05"
+              ],
+              "unlocks": [
+                "01-07"
+              ]
+            },
+            {
+              "nodeId": "01-08",
+              "topic": "中医理论的发展脉络",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-07"
+              ],
+              "unlocks": [
+                "02-01",
+                "02-02",
+                "02-03",
+                "02-04",
+                "02-05",
+                "02-06",
+                "02-07",
+                "02-08",
+                "02-09",
+                "02-10",
+                "02-11",
+                "02-12",
+                "02-13",
+                "02-14",
+                "02-15",
+                "03-01",
+                "03-02",
+                "03-03",
+                "03-04",
+                "03-05",
+                "03-06",
+                "03-07",
+                "03-08",
+                "03-09",
+                "03-10",
+                "03-11",
+                "03-12",
+                "03-13",
+                "09-01",
+                "09-02",
+                "09-03",
+                "09-04",
+                "09-05",
+                "09-06",
+                "09-07",
+                "09-08",
+                "09-09",
+                "09-10",
+                "09-11",
+                "09-12",
+                "09-13",
+                "09-14",
+                "09-15",
+                "09-16",
+                "09-17",
+                "09-18",
+                "09-19",
+                "09-20",
+                "09-21",
+                "09-22",
+                "09-23",
+                "10-01",
+                "10-02",
+                "10-03",
+                "10-04",
+                "10-05",
+                "10-06",
+                "10-07",
+                "10-08",
+                "10-09",
+                "10-10",
+                "10-11",
+                "10-12",
+                "10-13",
+                "10-14",
+                "10-15",
+                "01-09"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": []
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "01-09",
+              "topic": "中医与其他医学体系的区别",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "01-08"
+              ],
+              "unlocks": [
+                "02-16"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "01-07",
+              "topic": "中医理论体系框架",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-06"
+              ],
+              "unlocks": [
+                "01-08"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": []
+        }
+      }
+    },
+    {
+      "domain": "02",
+      "domainName": "阴阳",
+      "stage": "stage1",
+      "stageName": "入门·基础认知",
+      "type": "theory",
+      "difficultyRange": [
+        2,
+        3
+      ],
+      "totalNodes": 17,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "02-01",
+              "topic": "阴阳基本概念",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08"
+              ],
+              "unlocks": [
+                "02-02"
+              ]
+            },
+            {
+              "nodeId": "02-02",
+              "topic": "阴阳属性",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-01"
+              ],
+              "unlocks": [
+                "02-03"
+              ]
+            },
+            {
+              "nodeId": "02-03",
+              "topic": "阴阳对立制约",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-02"
+              ],
+              "unlocks": [
+                "02-04"
+              ]
+            },
+            {
+              "nodeId": "02-04",
+              "topic": "阴阳互根互用",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-03"
+              ],
+              "unlocks": [
+                "02-05"
+              ]
+            },
+            {
+              "nodeId": "02-05",
+              "topic": "阴阳消长平衡",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-04"
+              ],
+              "unlocks": [
+                "02-06"
+              ]
+            },
+            {
+              "nodeId": "02-07",
+              "topic": "阴阳的相对性",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-06"
+              ],
+              "unlocks": [
+                "02-08"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "02-14",
+              "topic": "阴平阳秘",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-13"
+              ],
+              "unlocks": [
+                "02-15"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "02-16",
+              "topic": "阴阳与五行的关系",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "01-09",
+                "02-15"
+              ],
+              "unlocks": [
+                "02-17"
+              ]
+            },
+            {
+              "nodeId": "02-17",
+              "topic": "阴阳在养生中的应用",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "02-16",
+                "02-15"
+              ],
+              "unlocks": [
+                "03-14"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "02-06",
+              "topic": "阴阳相互转化",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-05"
+              ],
+              "unlocks": [
+                "02-07"
+              ]
+            },
+            {
+              "nodeId": "02-08",
+              "topic": "阴阳在人体中的体现",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-07"
+              ],
+              "unlocks": [
+                "02-09"
+              ]
+            },
+            {
+              "nodeId": "02-09",
+              "topic": "阴阳与生理",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-08"
+              ],
+              "unlocks": [
+                "02-10"
+              ]
+            },
+            {
+              "nodeId": "02-10",
+              "topic": "阴阳与病理",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-09"
+              ],
+              "unlocks": [
+                "02-11"
+              ]
+            },
+            {
+              "nodeId": "02-11",
+              "topic": "阴阳与诊断",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-10"
+              ],
+              "unlocks": [
+                "02-12"
+              ]
+            },
+            {
+              "nodeId": "02-12",
+              "topic": "阴阳与治疗原则",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-11"
+              ],
+              "unlocks": [
+                "02-13"
+              ]
+            },
+            {
+              "nodeId": "02-13",
+              "topic": "阴阳与八纲",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-12"
+              ],
+              "unlocks": [
+                "02-14"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "02-15",
+              "topic": "阴阳综合案例",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "01-08",
+                "02-14"
+              ],
+              "unlocks": [
+                "03-01",
+                "03-02",
+                "03-03",
+                "03-04",
+                "03-05",
+                "03-06",
+                "03-07",
+                "03-08",
+                "03-09",
+                "03-10",
+                "03-11",
+                "03-12",
+                "03-13",
+                "04-01",
+                "04-02",
+                "04-03",
+                "04-04",
+                "04-05",
+                "04-06",
+                "04-07",
+                "04-08",
+                "04-09",
+                "04-10",
+                "04-11",
+                "04-12",
+                "04-13",
+                "04-14",
+                "04-15",
+                "04-16",
+                "04-17",
+                "04-18",
+                "04-19",
+                "10-01",
+                "10-02",
+                "10-03",
+                "10-04",
+                "10-05",
+                "10-06",
+                "10-07",
+                "10-08",
+                "10-09",
+                "10-10",
+                "10-11",
+                "10-12",
+                "10-13",
+                "10-14",
+                "10-15",
+                "19-01",
+                "19-02",
+                "19-03",
+                "19-04",
+                "19-05",
+                "19-06",
+                "19-07",
+                "19-08",
+                "19-09",
+                "19-10",
+                "19-11",
+                "02-16",
+                "02-17"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "03",
+      "domainName": "五行",
+      "stage": "stage1",
+      "stageName": "入门·基础认知",
+      "type": "theory",
+      "difficultyRange": [
+        2,
+        3
+      ],
+      "totalNodes": 14,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "03-01",
+              "topic": "五行基本概念",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15"
+              ],
+              "unlocks": [
+                "03-02"
+              ]
+            },
+            {
+              "nodeId": "03-02",
+              "topic": "五行属性",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-01"
+              ],
+              "unlocks": [
+                "03-03"
+              ]
+            },
+            {
+              "nodeId": "03-03",
+              "topic": "五行归类",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-02"
+              ],
+              "unlocks": [
+                "03-04"
+              ]
+            },
+            {
+              "nodeId": "03-04",
+              "topic": "五行相生",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-03"
+              ],
+              "unlocks": [
+                "03-05"
+              ]
+            },
+            {
+              "nodeId": "03-05",
+              "topic": "五行相克",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-04"
+              ],
+              "unlocks": [
+                "03-06"
+              ]
+            },
+            {
+              "nodeId": "03-06",
+              "topic": "五行制化",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-05"
+              ],
+              "unlocks": [
+                "03-07"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "03-07",
+              "topic": "五行乘侮",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-06"
+              ],
+              "unlocks": [
+                "03-08"
+              ]
+            },
+            {
+              "nodeId": "03-08",
+              "topic": "五行与人体（生理）",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-07"
+              ],
+              "unlocks": [
+                "03-09"
+              ]
+            },
+            {
+              "nodeId": "03-09",
+              "topic": "五行与病理",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-08"
+              ],
+              "unlocks": [
+                "03-10"
+              ]
+            },
+            {
+              "nodeId": "03-10",
+              "topic": "五行与诊断",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-09"
+              ],
+              "unlocks": [
+                "03-11"
+              ]
+            },
+            {
+              "nodeId": "03-11",
+              "topic": "五行与治疗",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-10"
+              ],
+              "unlocks": [
+                "03-12"
+              ]
+            },
+            {
+              "nodeId": "03-12",
+              "topic": "五行的理论边界",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-11"
+              ],
+              "unlocks": [
+                "03-13"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "03-14",
+              "topic": "五行在情志配属中的应用",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "02-17",
+                "03-13"
+              ],
+              "unlocks": [
+                "04-20"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": []
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "03-13",
+              "topic": "五行综合案例",
+              "difficulty": 3,
+              "status": "quarantine",
+              "cLevel": "C4",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "03-12"
+              ],
+              "unlocks": [
+                "04-01",
+                "04-02",
+                "04-03",
+                "04-04",
+                "04-05",
+                "04-06",
+                "04-07",
+                "04-08",
+                "04-09",
+                "04-10",
+                "04-11",
+                "04-12",
+                "04-13",
+                "04-14",
+                "04-15",
+                "04-16",
+                "04-17",
+                "04-18",
+                "04-19",
+                "03-14"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "09",
+      "domainName": "诊法",
+      "stage": "stage2",
+      "stageName": "诊法·望闻问切",
+      "type": "diagnostic",
+      "difficultyRange": [
+        2,
+        4
+      ],
+      "totalNodes": 25,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "09-03",
+              "topic": "望色",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "09-02"
+              ],
+              "unlocks": [
+                "09-04"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "09-12",
+              "topic": "十问歌",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "09-11"
+              ],
+              "unlocks": [
+                "09-13"
+              ]
+            },
+            {
+              "nodeId": "09-15",
+              "topic": "问疼痛",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "09-14"
+              ],
+              "unlocks": [
+                "09-16"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "09-01",
+              "topic": "望诊理论基础",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08"
+              ],
+              "unlocks": [
+                "09-02"
+              ]
+            },
+            {
+              "nodeId": "09-02",
+              "topic": "望神",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-01"
+              ],
+              "unlocks": [
+                "09-03"
+              ]
+            },
+            {
+              "nodeId": "09-04",
+              "topic": "望形态",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-03"
+              ],
+              "unlocks": [
+                "09-05"
+              ]
+            },
+            {
+              "nodeId": "09-05",
+              "topic": "望头面五官",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-04"
+              ],
+              "unlocks": [
+                "09-06"
+              ]
+            },
+            {
+              "nodeId": "09-06",
+              "topic": "望舌（舌诊）",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-05"
+              ],
+              "unlocks": [
+                "09-07"
+              ]
+            },
+            {
+              "nodeId": "09-07",
+              "topic": "望排出物",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-06"
+              ],
+              "unlocks": [
+                "09-08"
+              ]
+            },
+            {
+              "nodeId": "09-08",
+              "topic": "闻诊理论基础",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-07"
+              ],
+              "unlocks": [
+                "09-09"
+              ]
+            },
+            {
+              "nodeId": "09-09",
+              "topic": "听声音",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-08"
+              ],
+              "unlocks": [
+                "09-10"
+              ]
+            },
+            {
+              "nodeId": "09-10",
+              "topic": "嗅气味",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-09"
+              ],
+              "unlocks": [
+                "09-11"
+              ]
+            },
+            {
+              "nodeId": "09-11",
+              "topic": "问诊理论基础",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-10"
+              ],
+              "unlocks": [
+                "09-12"
+              ]
+            },
+            {
+              "nodeId": "09-13",
+              "topic": "问寒热",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-12"
+              ],
+              "unlocks": [
+                "09-14"
+              ]
+            },
+            {
+              "nodeId": "09-14",
+              "topic": "问汗",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-13"
+              ],
+              "unlocks": [
+                "09-15"
+              ]
+            },
+            {
+              "nodeId": "09-16",
+              "topic": "问饮食口味",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-15"
+              ],
+              "unlocks": [
+                "09-17"
+              ]
+            },
+            {
+              "nodeId": "09-17",
+              "topic": "问二便",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-16"
+              ],
+              "unlocks": [
+                "09-18"
+              ]
+            },
+            {
+              "nodeId": "09-18",
+              "topic": "问睡眠",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-17"
+              ],
+              "unlocks": [
+                "09-19"
+              ]
+            },
+            {
+              "nodeId": "09-19",
+              "topic": "问情志",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-18"
+              ],
+              "unlocks": [
+                "09-20"
+              ]
+            },
+            {
+              "nodeId": "09-20",
+              "topic": "切诊理论基础",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-19"
+              ],
+              "unlocks": [
+                "09-21"
+              ]
+            },
+            {
+              "nodeId": "09-21",
+              "topic": "脉诊基本",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-20"
+              ],
+              "unlocks": [
+                "09-22"
+              ]
+            },
+            {
+              "nodeId": "09-22",
+              "topic": "常见脉象（浮沉迟数）",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-21"
+              ],
+              "unlocks": [
+                "09-23"
+              ]
+            },
+            {
+              "nodeId": "09-23",
+              "topic": "按诊",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "09-22"
+              ],
+              "unlocks": [
+                "10-01",
+                "10-02",
+                "10-03",
+                "10-04",
+                "10-05",
+                "10-06",
+                "10-07",
+                "10-08",
+                "10-09",
+                "10-10",
+                "10-11",
+                "10-12",
+                "10-13",
+                "10-14",
+                "10-15",
+                "09-24",
+                "09-25"
+              ]
+            },
+            {
+              "nodeId": "09-24",
+              "topic": "常见脉象扩展",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "08-12",
+                "09-23"
+              ],
+              "unlocks": [
+                "09-25"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "09-25",
+              "topic": "舌诊与病机对应",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "09-24",
+                "09-23"
+              ],
+              "unlocks": [
+                "11-15"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "stage": "stage3",
+      "stageName": "八纲·方向纲领",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 15,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "10-01",
+              "topic": "八纲辨证总论",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23"
+              ],
+              "unlocks": [
+                "10-02"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "10-06",
+              "topic": "寒热错杂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-05"
+              ],
+              "unlocks": [
+                "10-07"
+              ]
+            },
+            {
+              "nodeId": "10-11",
+              "topic": "虚实转化",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-10"
+              ],
+              "unlocks": [
+                "10-12"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "10-02",
+              "topic": "表证与里证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-01"
+              ],
+              "unlocks": [
+                "10-03"
+              ]
+            },
+            {
+              "nodeId": "10-03",
+              "topic": "表里同病",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-02"
+              ],
+              "unlocks": [
+                "10-04"
+              ]
+            },
+            {
+              "nodeId": "10-04",
+              "topic": "表里出入",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-03"
+              ],
+              "unlocks": [
+                "10-05"
+              ]
+            },
+            {
+              "nodeId": "10-05",
+              "topic": "寒证与热证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-04"
+              ],
+              "unlocks": [
+                "10-06"
+              ]
+            },
+            {
+              "nodeId": "10-07",
+              "topic": "寒热转化",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-06"
+              ],
+              "unlocks": [
+                "10-08"
+              ]
+            },
+            {
+              "nodeId": "10-09",
+              "topic": "虚证与实证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-08"
+              ],
+              "unlocks": [
+                "10-10"
+              ]
+            },
+            {
+              "nodeId": "10-10",
+              "topic": "虚实夹杂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-09"
+              ],
+              "unlocks": [
+                "10-11"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "10-08",
+              "topic": "寒热真假",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-07"
+              ],
+              "unlocks": [
+                "10-09"
+              ]
+            },
+            {
+              "nodeId": "10-12",
+              "topic": "阴阳为总纲",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-11"
+              ],
+              "unlocks": [
+                "10-13"
+              ]
+            },
+            {
+              "nodeId": "10-13",
+              "topic": "八纲之间组合",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-12"
+              ],
+              "unlocks": [
+                "10-14"
+              ]
+            },
+            {
+              "nodeId": "10-14",
+              "topic": "八纲辨证常见误区",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-13"
+              ],
+              "unlocks": [
+                "10-15"
+              ]
+            },
+            {
+              "nodeId": "10-15",
+              "topic": "八纲综合案例",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "01-08",
+                "02-15",
+                "09-23",
+                "10-14"
+              ],
+              "unlocks": [
+                "11-01",
+                "11-02",
+                "11-03",
+                "11-04",
+                "11-05",
+                "11-06",
+                "11-07",
+                "11-08",
+                "11-09",
+                "11-10",
+                "11-11",
+                "11-12",
+                "11-13",
+                "11-14",
+                "12-01",
+                "12-02",
+                "12-03",
+                "12-04",
+                "12-05",
+                "12-06",
+                "12-07",
+                "12-08",
+                "12-09",
+                "12-10",
+                "12-11",
+                "12-12",
+                "12-13",
+                "12-14",
+                "12-15",
+                "12-16",
+                "12-17",
+                "12-18",
+                "12-19",
+                "12-20",
+                "12-21",
+                "12-22",
+                "12-23",
+                "12-24",
+                "12-25",
+                "12-26",
+                "12-27",
+                "12-28",
+                "12-29",
+                "12-30",
+                "13-01",
+                "13-02",
+                "13-03",
+                "13-04",
+                "13-05",
+                "13-06",
+                "13-07",
+                "13-08",
+                "13-09",
+                "13-10",
+                "13-11",
+                "14-01",
+                "14-02",
+                "14-03",
+                "14-04",
+                "14-05",
+                "14-06",
+                "14-07",
+                "16-01",
+                "16-02",
+                "16-03",
+                "16-04",
+                "16-05",
+                "16-06",
+                "16-07",
+                "16-08"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "04",
+      "domainName": "藏象",
+      "stage": "stage4",
+      "stageName": "藏象·气血·经络",
+      "type": "theory",
+      "difficultyRange": [
+        2,
+        3
+      ],
+      "totalNodes": 21,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "04-01",
+              "topic": "藏象基本概念",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13"
+              ],
+              "unlocks": [
+                "04-02"
+              ]
+            },
+            {
+              "nodeId": "04-02",
+              "topic": "五脏总论",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-01"
+              ],
+              "unlocks": [
+                "04-03"
+              ]
+            },
+            {
+              "nodeId": "04-03",
+              "topic": "心（生理与病理）",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-02"
+              ],
+              "unlocks": [
+                "04-04"
+              ]
+            },
+            {
+              "nodeId": "04-08",
+              "topic": "六腑总论",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-07"
+              ],
+              "unlocks": [
+                "04-09"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "04-15",
+              "topic": "奇恒之腑",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-14"
+              ],
+              "unlocks": [
+                "04-16"
+              ]
+            },
+            {
+              "nodeId": "04-16",
+              "topic": "五脏之间的关系",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-15"
+              ],
+              "unlocks": [
+                "04-17"
+              ]
+            },
+            {
+              "nodeId": "04-17",
+              "topic": "六腑之间的关系",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-16"
+              ],
+              "unlocks": [
+                "04-18"
+              ]
+            },
+            {
+              "nodeId": "04-18",
+              "topic": "脏与腑的表里关系",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-17"
+              ],
+              "unlocks": [
+                "04-19"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "04-20",
+              "topic": "五脏与五液五志五窍",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "03-14",
+                "04-19"
+              ],
+              "unlocks": [
+                "04-21"
+              ]
+            },
+            {
+              "nodeId": "04-21",
+              "topic": "女子胞与冲任二脉",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "04-20",
+                "04-19"
+              ],
+              "unlocks": [
+                "05-18"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "04-04",
+              "topic": "肝",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-03"
+              ],
+              "unlocks": [
+                "04-05"
+              ]
+            },
+            {
+              "nodeId": "04-05",
+              "topic": "脾",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-04"
+              ],
+              "unlocks": [
+                "04-06"
+              ]
+            },
+            {
+              "nodeId": "04-06",
+              "topic": "肺",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-05"
+              ],
+              "unlocks": [
+                "04-07"
+              ]
+            },
+            {
+              "nodeId": "04-07",
+              "topic": "肾",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-06"
+              ],
+              "unlocks": [
+                "04-08"
+              ]
+            },
+            {
+              "nodeId": "04-09",
+              "topic": "胆",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-08"
+              ],
+              "unlocks": [
+                "04-10"
+              ]
+            },
+            {
+              "nodeId": "04-10",
+              "topic": "胃",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-09"
+              ],
+              "unlocks": [
+                "04-11"
+              ]
+            },
+            {
+              "nodeId": "04-11",
+              "topic": "小肠",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-10"
+              ],
+              "unlocks": [
+                "04-12"
+              ]
+            },
+            {
+              "nodeId": "04-12",
+              "topic": "大肠",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-11"
+              ],
+              "unlocks": [
+                "04-13"
+              ]
+            },
+            {
+              "nodeId": "04-13",
+              "topic": "膀胱",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-12"
+              ],
+              "unlocks": [
+                "04-14"
+              ]
+            },
+            {
+              "nodeId": "04-14",
+              "topic": "三焦",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-13"
+              ],
+              "unlocks": [
+                "04-15"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "04-19",
+              "topic": "藏象综合案例",
+              "difficulty": 3,
+              "status": "quarantine",
+              "cLevel": "C4",
+              "prerequisite": [
+                "02-15",
+                "03-13",
+                "04-18"
+              ],
+              "unlocks": [
+                "05-01",
+                "05-02",
+                "05-03",
+                "05-04",
+                "05-05",
+                "05-06",
+                "05-07",
+                "05-08",
+                "05-09",
+                "05-10",
+                "05-11",
+                "05-12",
+                "05-13",
+                "05-14",
+                "05-15",
+                "05-16",
+                "05-17",
+                "06-01",
+                "06-02",
+                "06-03",
+                "06-04",
+                "06-05",
+                "06-06",
+                "06-07",
+                "06-08",
+                "07-01",
+                "07-02",
+                "07-03",
+                "07-04",
+                "07-05",
+                "07-06",
+                "07-07",
+                "07-08",
+                "07-09",
+                "07-10",
+                "07-11",
+                "07-12",
+                "07-13",
+                "07-14",
+                "07-15",
+                "12-01",
+                "12-02",
+                "12-03",
+                "12-04",
+                "12-05",
+                "12-06",
+                "12-07",
+                "12-08",
+                "12-09",
+                "12-10",
+                "12-11",
+                "12-12",
+                "12-13",
+                "12-14",
+                "12-15",
+                "12-16",
+                "12-17",
+                "12-18",
+                "12-19",
+                "12-20",
+                "12-21",
+                "12-22",
+                "12-23",
+                "12-24",
+                "12-25",
+                "12-26",
+                "12-27",
+                "12-28",
+                "12-29",
+                "12-30",
+                "14-01",
+                "14-02",
+                "14-03",
+                "14-04",
+                "14-05",
+                "14-06",
+                "14-07",
+                "19-01",
+                "19-02",
+                "19-03",
+                "19-04",
+                "19-05",
+                "19-06",
+                "19-07",
+                "19-08",
+                "19-09",
+                "19-10",
+                "19-11",
+                "04-20",
+                "04-21"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "stage": "stage4",
+      "stageName": "藏象·气血·经络",
+      "type": "theory",
+      "difficultyRange": [
+        2,
+        4
+      ],
+      "totalNodes": 19,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "05-01",
+              "topic": "精的基本概念与功能",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19"
+              ],
+              "unlocks": [
+                "05-02"
+              ]
+            },
+            {
+              "nodeId": "05-02",
+              "topic": "气的基本概念",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "05-01"
+              ],
+              "unlocks": [
+                "05-03"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": []
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "05-14",
+              "topic": "精与气的关系",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "05-13"
+              ],
+              "unlocks": [
+                "05-15"
+              ]
+            },
+            {
+              "nodeId": "05-15",
+              "topic": "精与血的关系",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "05-14"
+              ],
+              "unlocks": [
+                "05-16"
+              ]
+            },
+            {
+              "nodeId": "05-16",
+              "topic": "精神互用",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "05-15"
+              ],
+              "unlocks": [
+                "05-17"
+              ]
+            },
+            {
+              "nodeId": "05-18",
+              "topic": "气街与四海",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "04-21",
+                "05-17"
+              ],
+              "unlocks": [
+                "05-19"
+              ]
+            },
+            {
+              "nodeId": "05-19",
+              "topic": "精室与生殖",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "05-18",
+                "05-17"
+              ],
+              "unlocks": [
+                "06-09"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "05-03",
+              "topic": "气的生成",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-02"
+              ],
+              "unlocks": [
+                "05-04"
+              ]
+            },
+            {
+              "nodeId": "05-04",
+              "topic": "气的功能",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-03"
+              ],
+              "unlocks": [
+                "05-05"
+              ]
+            },
+            {
+              "nodeId": "05-05",
+              "topic": "气的运动",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-04"
+              ],
+              "unlocks": [
+                "05-06"
+              ]
+            },
+            {
+              "nodeId": "05-06",
+              "topic": "气机",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-05"
+              ],
+              "unlocks": [
+                "05-07"
+              ]
+            },
+            {
+              "nodeId": "05-07",
+              "topic": "气的分类",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-06"
+              ],
+              "unlocks": [
+                "05-08"
+              ]
+            },
+            {
+              "nodeId": "05-08",
+              "topic": "血的基本概念",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-07"
+              ],
+              "unlocks": [
+                "05-09"
+              ]
+            },
+            {
+              "nodeId": "05-09",
+              "topic": "津液的基本概念",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-08"
+              ],
+              "unlocks": [
+                "05-10"
+              ]
+            },
+            {
+              "nodeId": "05-10",
+              "topic": "神的基本概念",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-09"
+              ],
+              "unlocks": [
+                "05-11"
+              ]
+            },
+            {
+              "nodeId": "05-11",
+              "topic": "气与血的关系",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-10"
+              ],
+              "unlocks": [
+                "05-12"
+              ]
+            },
+            {
+              "nodeId": "05-12",
+              "topic": "气与津液的关系",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-11"
+              ],
+              "unlocks": [
+                "05-13"
+              ]
+            },
+            {
+              "nodeId": "05-13",
+              "topic": "血与津液的关系",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "05-12"
+              ],
+              "unlocks": [
+                "05-14"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "05-17",
+              "topic": "综合关系案例",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "04-19",
+                "05-16"
+              ],
+              "unlocks": [
+                "11-01",
+                "11-02",
+                "11-03",
+                "11-04",
+                "11-05",
+                "11-06",
+                "11-07",
+                "11-08",
+                "11-09",
+                "11-10",
+                "11-11",
+                "11-12",
+                "11-13",
+                "11-14",
+                "19-01",
+                "19-02",
+                "19-03",
+                "19-04",
+                "19-05",
+                "19-06",
+                "19-07",
+                "19-08",
+                "19-09",
+                "19-10",
+                "19-11",
+                "05-18",
+                "05-19"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "06",
+      "domainName": "经络",
+      "stage": "stage4",
+      "stageName": "藏象·气血·经络",
+      "type": "meridian",
+      "difficultyRange": [
+        2,
+        3
+      ],
+      "totalNodes": 10,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "06-01",
+              "topic": "经络基本概念",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19"
+              ],
+              "unlocks": [
+                "06-02"
+              ]
+            },
+            {
+              "nodeId": "06-02",
+              "topic": "十二经脉",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-01"
+              ],
+              "unlocks": [
+                "06-03"
+              ]
+            },
+            {
+              "nodeId": "06-03",
+              "topic": "奇经八脉",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-02"
+              ],
+              "unlocks": [
+                "06-04"
+              ]
+            },
+            {
+              "nodeId": "06-04",
+              "topic": "络脉",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-03"
+              ],
+              "unlocks": [
+                "06-05"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "06-05",
+              "topic": "经筋与皮部",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-04"
+              ],
+              "unlocks": [
+                "06-06"
+              ]
+            },
+            {
+              "nodeId": "06-06",
+              "topic": "经络生理功能",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-05"
+              ],
+              "unlocks": [
+                "06-07"
+              ]
+            },
+            {
+              "nodeId": "06-07",
+              "topic": "经络病理",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-06"
+              ],
+              "unlocks": [
+                "06-08"
+              ]
+            },
+            {
+              "nodeId": "06-08",
+              "topic": "经络理论的位置",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "06-07"
+              ],
+              "unlocks": [
+                "06-09",
+                "06-10"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "06-09",
+              "topic": "十二经别",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "05-19",
+                "06-08"
+              ],
+              "unlocks": [
+                "06-10"
+              ]
+            },
+            {
+              "nodeId": "06-10",
+              "topic": "标本根结",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "06-09",
+                "06-08"
+              ],
+              "unlocks": [
+                "07-16"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": []
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": []
+        }
+      }
+    },
+    {
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "stage": "stage4",
+      "stageName": "藏象·气血·经络",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        4
+      ],
+      "totalNodes": 15,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "11-01",
+              "topic": "气血津液辨证总论",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "05-17",
+                "10-15"
+              ],
+              "unlocks": [
+                "11-02"
+              ]
+            },
+            {
+              "nodeId": "11-06",
+              "topic": "血虚证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-05"
+              ],
+              "unlocks": [
+                "11-07"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "11-09",
+              "topic": "出血证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-08"
+              ],
+              "unlocks": [
+                "11-10"
+              ]
+            },
+            {
+              "nodeId": "11-10",
+              "topic": "津液不足证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-09"
+              ],
+              "unlocks": [
+                "11-11"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "11-02",
+              "topic": "气虚证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-01"
+              ],
+              "unlocks": [
+                "11-03"
+              ]
+            },
+            {
+              "nodeId": "11-03",
+              "topic": "气陷证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-02"
+              ],
+              "unlocks": [
+                "11-04"
+              ]
+            },
+            {
+              "nodeId": "11-04",
+              "topic": "气滞证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-03"
+              ],
+              "unlocks": [
+                "11-05"
+              ]
+            },
+            {
+              "nodeId": "11-05",
+              "topic": "气逆证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-04"
+              ],
+              "unlocks": [
+                "11-06"
+              ]
+            },
+            {
+              "nodeId": "11-07",
+              "topic": "血瘀证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-06"
+              ],
+              "unlocks": [
+                "11-08"
+              ]
+            },
+            {
+              "nodeId": "11-14",
+              "topic": "证候区别与联系",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-13"
+              ],
+              "unlocks": [
+                "12-01",
+                "12-02",
+                "12-03",
+                "12-04",
+                "12-05",
+                "12-06",
+                "12-07",
+                "12-08",
+                "12-09",
+                "12-10",
+                "12-11",
+                "12-12",
+                "12-13",
+                "12-14",
+                "12-15",
+                "12-16",
+                "12-17",
+                "12-18",
+                "12-19",
+                "12-20",
+                "12-21",
+                "12-22",
+                "12-23",
+                "12-24",
+                "12-25",
+                "12-26",
+                "12-27",
+                "12-28",
+                "12-29",
+                "12-30",
+                "11-15"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "11-08",
+              "topic": "血热证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-07"
+              ],
+              "unlocks": [
+                "11-09"
+              ]
+            },
+            {
+              "nodeId": "11-11",
+              "topic": "痰证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-10"
+              ],
+              "unlocks": [
+                "11-12"
+              ]
+            },
+            {
+              "nodeId": "11-12",
+              "topic": "饮证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-11"
+              ],
+              "unlocks": [
+                "11-13"
+              ]
+            },
+            {
+              "nodeId": "11-13",
+              "topic": "水湿证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "05-17",
+                "10-15",
+                "11-12"
+              ],
+              "unlocks": [
+                "11-14"
+              ]
+            },
+            {
+              "nodeId": "11-15",
+              "topic": "气血津液辨证与脏腑辨证衔接",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "09-25",
+                "11-14"
+              ],
+              "unlocks": [
+                "12-31"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "07",
+      "domainName": "病因",
+      "stage": "stage5",
+      "stageName": "病因病机·脏腑辨证",
+      "type": "theory",
+      "difficultyRange": [
+        2,
+        4
+      ],
+      "totalNodes": 16,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "07-01",
+              "topic": "六淫概念",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19"
+              ],
+              "unlocks": [
+                "07-02"
+              ]
+            },
+            {
+              "nodeId": "07-02",
+              "topic": "风邪",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-01"
+              ],
+              "unlocks": [
+                "07-03"
+              ]
+            },
+            {
+              "nodeId": "07-03",
+              "topic": "寒邪",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-02"
+              ],
+              "unlocks": [
+                "07-04"
+              ]
+            },
+            {
+              "nodeId": "07-04",
+              "topic": "暑邪",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-03"
+              ],
+              "unlocks": [
+                "07-05"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "07-05",
+              "topic": "湿邪",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-04"
+              ],
+              "unlocks": [
+                "07-06"
+              ]
+            },
+            {
+              "nodeId": "07-06",
+              "topic": "燥邪",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-05"
+              ],
+              "unlocks": [
+                "07-07"
+              ]
+            },
+            {
+              "nodeId": "07-07",
+              "topic": "火（热）邪",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-06"
+              ],
+              "unlocks": [
+                "07-08"
+              ]
+            },
+            {
+              "nodeId": "07-08",
+              "topic": "疠气",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-07"
+              ],
+              "unlocks": [
+                "07-09"
+              ]
+            },
+            {
+              "nodeId": "07-10",
+              "topic": "饮食失宜",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-09"
+              ],
+              "unlocks": [
+                "07-11"
+              ]
+            },
+            {
+              "nodeId": "07-11",
+              "topic": "劳逸失度",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-10"
+              ],
+              "unlocks": [
+                "07-12"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "07-12",
+              "topic": "外伤与虫兽伤",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "07-11"
+              ],
+              "unlocks": [
+                "07-13"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "07-09",
+              "topic": "七情内伤",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "07-08"
+              ],
+              "unlocks": [
+                "07-10"
+              ]
+            },
+            {
+              "nodeId": "07-13",
+              "topic": "痰饮",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "07-12"
+              ],
+              "unlocks": [
+                "07-14"
+              ]
+            },
+            {
+              "nodeId": "07-14",
+              "topic": "瘀血",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "07-13"
+              ],
+              "unlocks": [
+                "07-15"
+              ]
+            },
+            {
+              "nodeId": "07-16",
+              "topic": "药邪与医过",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "06-10",
+                "07-15"
+              ],
+              "unlocks": [
+                "08-12"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "07-15",
+              "topic": "综合病因分析",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "04-19",
+                "07-14"
+              ],
+              "unlocks": [
+                "08-01",
+                "08-02",
+                "08-03",
+                "08-04",
+                "08-05",
+                "08-06",
+                "08-07",
+                "08-08",
+                "08-09",
+                "08-10",
+                "08-11",
+                "07-16"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "08",
+      "domainName": "病机",
+      "stage": "stage5",
+      "stageName": "病因病机·脏腑辨证",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        4
+      ],
+      "totalNodes": 12,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "08-02",
+              "topic": "邪正盛衰",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "07-15",
+                "08-01"
+              ],
+              "unlocks": [
+                "08-03"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "08-06",
+              "topic": "内生五邪",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "07-15",
+                "08-05"
+              ],
+              "unlocks": [
+                "08-07"
+              ]
+            },
+            {
+              "nodeId": "08-08",
+              "topic": "脏腑病机",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "07-15",
+                "08-07"
+              ],
+              "unlocks": [
+                "08-09"
+              ]
+            },
+            {
+              "nodeId": "08-09",
+              "topic": "病位、病性、病势",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "07-15",
+                "08-08"
+              ],
+              "unlocks": [
+                "08-10"
+              ]
+            },
+            {
+              "nodeId": "08-10",
+              "topic": "病机转化",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "07-15",
+                "08-09"
+              ],
+              "unlocks": [
+                "08-11"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "08-01",
+              "topic": "病机基本概念",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "07-15"
+              ],
+              "unlocks": [
+                "08-02"
+              ]
+            },
+            {
+              "nodeId": "08-05",
+              "topic": "津液代谢失常",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "07-15",
+                "08-04"
+              ],
+              "unlocks": [
+                "08-06"
+              ]
+            },
+            {
+              "nodeId": "08-07",
+              "topic": "气机升降出入失常",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "07-15",
+                "08-06"
+              ],
+              "unlocks": [
+                "08-08"
+              ]
+            },
+            {
+              "nodeId": "08-12",
+              "topic": "疾病传变规律",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "07-16",
+                "08-11"
+              ],
+              "unlocks": [
+                "09-24"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "08-03",
+              "topic": "阴阳失调",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "07-15",
+                "08-02"
+              ],
+              "unlocks": [
+                "08-04"
+              ]
+            },
+            {
+              "nodeId": "08-04",
+              "topic": "气血失常",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "07-15",
+                "08-03"
+              ],
+              "unlocks": [
+                "08-05"
+              ]
+            },
+            {
+              "nodeId": "08-11",
+              "topic": "病机综合推理",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "07-15",
+                "08-10"
+              ],
+              "unlocks": [
+                "13-01",
+                "13-02",
+                "13-03",
+                "13-04",
+                "13-05",
+                "13-06",
+                "13-07",
+                "13-08",
+                "13-09",
+                "13-10",
+                "13-11",
+                "16-01",
+                "16-02",
+                "16-03",
+                "16-04",
+                "16-05",
+                "16-06",
+                "16-07",
+                "16-08",
+                "08-12"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "stage": "stage5",
+      "stageName": "病因病机·脏腑辨证",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 31,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "12-02",
+              "topic": "心气虚/心阳虚",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-01"
+              ],
+              "unlocks": [
+                "12-03"
+              ]
+            },
+            {
+              "nodeId": "12-04",
+              "topic": "心火亢盛",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-03"
+              ],
+              "unlocks": [
+                "12-05"
+              ]
+            },
+            {
+              "nodeId": "12-06",
+              "topic": "肝气郁结",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-05"
+              ],
+              "unlocks": [
+                "12-07"
+              ]
+            },
+            {
+              "nodeId": "12-08",
+              "topic": "肝阴虚/肝血虚",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-07"
+              ],
+              "unlocks": [
+                "12-09"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "12-11",
+              "topic": "脾气虚/脾阳虚",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-10"
+              ],
+              "unlocks": [
+                "12-12"
+              ]
+            },
+            {
+              "nodeId": "12-16",
+              "topic": "肾阳虚/肾阴虚",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-15"
+              ],
+              "unlocks": [
+                "12-17"
+              ]
+            },
+            {
+              "nodeId": "12-31",
+              "topic": "脏腑辨证现代应用",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "11-15",
+                "12-30"
+              ],
+              "unlocks": [
+                "14-08"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "12-03",
+              "topic": "心血虚/心阴虚",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-02"
+              ],
+              "unlocks": [
+                "12-04"
+              ]
+            },
+            {
+              "nodeId": "12-05",
+              "topic": "心脉瘀阻",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-04"
+              ],
+              "unlocks": [
+                "12-06"
+              ]
+            },
+            {
+              "nodeId": "12-07",
+              "topic": "肝火上炎",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-06"
+              ],
+              "unlocks": [
+                "12-08"
+              ]
+            },
+            {
+              "nodeId": "12-12",
+              "topic": "寒湿困脾/湿热蕴脾",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-11"
+              ],
+              "unlocks": [
+                "12-13"
+              ]
+            },
+            {
+              "nodeId": "12-13",
+              "topic": "肺气虚",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-12"
+              ],
+              "unlocks": [
+                "12-14"
+              ]
+            },
+            {
+              "nodeId": "12-14",
+              "topic": "肺阴虚",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-13"
+              ],
+              "unlocks": [
+                "12-15"
+              ]
+            },
+            {
+              "nodeId": "12-15",
+              "topic": "风寒束肺/风热犯肺",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-14"
+              ],
+              "unlocks": [
+                "12-16"
+              ]
+            },
+            {
+              "nodeId": "12-17",
+              "topic": "肾气不固/肾不纳气",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-16"
+              ],
+              "unlocks": [
+                "12-18"
+              ]
+            },
+            {
+              "nodeId": "12-18",
+              "topic": "肾精不足",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-17"
+              ],
+              "unlocks": [
+                "12-19"
+              ]
+            },
+            {
+              "nodeId": "12-19",
+              "topic": "胃寒/胃热/胃阴虚",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-18"
+              ],
+              "unlocks": [
+                "12-20"
+              ]
+            },
+            {
+              "nodeId": "12-20",
+              "topic": "胆郁痰扰",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-19"
+              ],
+              "unlocks": [
+                "12-21"
+              ]
+            },
+            {
+              "nodeId": "12-21",
+              "topic": "小肠/大肠常见证候",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-20"
+              ],
+              "unlocks": [
+                "12-22"
+              ]
+            },
+            {
+              "nodeId": "12-22",
+              "topic": "心脾两虚",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-21"
+              ],
+              "unlocks": [
+                "12-23"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "12-01",
+              "topic": "脏腑辨证总论",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14"
+              ],
+              "unlocks": [
+                "12-02"
+              ]
+            },
+            {
+              "nodeId": "12-09",
+              "topic": "肝阳上亢",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-08"
+              ],
+              "unlocks": [
+                "12-10"
+              ]
+            },
+            {
+              "nodeId": "12-10",
+              "topic": "肝风内动",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-09"
+              ],
+              "unlocks": [
+                "12-11"
+              ]
+            },
+            {
+              "nodeId": "12-23",
+              "topic": "肝脾不调",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-22"
+              ],
+              "unlocks": [
+                "12-24"
+              ]
+            },
+            {
+              "nodeId": "12-24",
+              "topic": "肝胃不和",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-23"
+              ],
+              "unlocks": [
+                "12-25"
+              ]
+            },
+            {
+              "nodeId": "12-25",
+              "topic": "肝肾阴虚",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-24"
+              ],
+              "unlocks": [
+                "12-26"
+              ]
+            },
+            {
+              "nodeId": "12-26",
+              "topic": "脾肾阳虚",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-25"
+              ],
+              "unlocks": [
+                "12-27"
+              ]
+            },
+            {
+              "nodeId": "12-27",
+              "topic": "肺脾两虚",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-26"
+              ],
+              "unlocks": [
+                "12-28"
+              ]
+            },
+            {
+              "nodeId": "12-28",
+              "topic": "肺肾阴虚",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-27"
+              ],
+              "unlocks": [
+                "12-29"
+              ]
+            },
+            {
+              "nodeId": "12-29",
+              "topic": "心肾不交",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-28"
+              ],
+              "unlocks": [
+                "12-30"
+              ]
+            },
+            {
+              "nodeId": "12-30",
+              "topic": "脏腑辨证综合案例",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "11-14",
+                "12-29"
+              ],
+              "unlocks": [
+                "13-01",
+                "13-02",
+                "13-03",
+                "13-04",
+                "13-05",
+                "13-06",
+                "13-07",
+                "13-08",
+                "13-09",
+                "13-10",
+                "13-11",
+                "20-01",
+                "20-02",
+                "20-03",
+                "20-04",
+                "20-05",
+                "20-06",
+                "21-01",
+                "21-02",
+                "21-03",
+                "21-04",
+                "21-05",
+                "21-06",
+                "21-07",
+                "21-08",
+                "12-31"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "13",
+      "domainName": "六经辨证",
+      "stage": "stage6",
+      "stageName": "外感辨证体系",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 11,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "13-01",
+              "topic": "六经辨证总论",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30"
+              ],
+              "unlocks": [
+                "13-02"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "13-08",
+              "topic": "六经传变",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-07"
+              ],
+              "unlocks": [
+                "13-09"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "13-02",
+              "topic": "太阳病辨证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-01"
+              ],
+              "unlocks": [
+                "13-03"
+              ]
+            },
+            {
+              "nodeId": "13-03",
+              "topic": "阳明病辨证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-02"
+              ],
+              "unlocks": [
+                "13-04"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "13-04",
+              "topic": "少阳病辨证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-03"
+              ],
+              "unlocks": [
+                "13-05"
+              ]
+            },
+            {
+              "nodeId": "13-05",
+              "topic": "太阴病辨证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-04"
+              ],
+              "unlocks": [
+                "13-06"
+              ]
+            },
+            {
+              "nodeId": "13-06",
+              "topic": "少阴病辨证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-05"
+              ],
+              "unlocks": [
+                "13-07"
+              ]
+            },
+            {
+              "nodeId": "13-07",
+              "topic": "厥阴病辨证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-06"
+              ],
+              "unlocks": [
+                "13-08"
+              ]
+            },
+            {
+              "nodeId": "13-09",
+              "topic": "合病与并病",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-08"
+              ],
+              "unlocks": [
+                "13-10"
+              ]
+            },
+            {
+              "nodeId": "13-10",
+              "topic": "六经辨证思路",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-09"
+              ],
+              "unlocks": [
+                "13-11"
+              ]
+            },
+            {
+              "nodeId": "13-11",
+              "topic": "六经经典案例",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "12-30",
+                "13-10"
+              ],
+              "unlocks": [
+                "21-01",
+                "21-02",
+                "21-03",
+                "21-04",
+                "21-05",
+                "21-06",
+                "21-07",
+                "21-08",
+                "22-01",
+                "22-02",
+                "22-03",
+                "22-04",
+                "22-05",
+                "22-06"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "stage": "stage6",
+      "stageName": "外感辨证体系",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        4
+      ],
+      "totalNodes": 8,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "14-01",
+              "topic": "卫气营血总论",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15"
+              ],
+              "unlocks": [
+                "14-02"
+              ]
+            },
+            {
+              "nodeId": "14-02",
+              "topic": "卫分证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "14-01"
+              ],
+              "unlocks": [
+                "14-03"
+              ]
+            },
+            {
+              "nodeId": "14-03",
+              "topic": "气分证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "14-02"
+              ],
+              "unlocks": [
+                "14-04"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "14-04",
+              "topic": "营分证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "14-03"
+              ],
+              "unlocks": [
+                "14-05"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "14-05",
+              "topic": "血分证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "14-04"
+              ],
+              "unlocks": [
+                "14-06"
+              ]
+            },
+            {
+              "nodeId": "14-06",
+              "topic": "卫气营血的传变",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "14-05"
+              ],
+              "unlocks": [
+                "14-07"
+              ]
+            },
+            {
+              "nodeId": "14-07",
+              "topic": "卫气营血辨证特点",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "04-19",
+                "10-15",
+                "14-06"
+              ],
+              "unlocks": [
+                "15-01",
+                "15-02",
+                "15-03",
+                "15-04",
+                "15-05",
+                "15-06",
+                "21-01",
+                "21-02",
+                "21-03",
+                "21-04",
+                "21-05",
+                "21-06",
+                "21-07",
+                "21-08",
+                "22-01",
+                "22-02",
+                "22-03",
+                "22-04",
+                "22-05",
+                "22-06",
+                "14-08"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "14-08",
+              "topic": "卫气营血与现代感染性疾病",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "12-31",
+                "14-07"
+              ],
+              "unlocks": [
+                "16-09"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "stage": "stage6",
+      "stageName": "外感辨证体系",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        4
+      ],
+      "totalNodes": 6,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "15-02",
+              "topic": "上焦病证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "14-07",
+                "15-01"
+              ],
+              "unlocks": [
+                "15-03"
+              ]
+            },
+            {
+              "nodeId": "15-03",
+              "topic": "中焦病证",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "14-07",
+                "15-02"
+              ],
+              "unlocks": [
+                "15-04"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "15-04",
+              "topic": "下焦病证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "14-07",
+                "15-03"
+              ],
+              "unlocks": [
+                "15-05"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "15-01",
+              "topic": "三焦辨证总论",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "14-07"
+              ],
+              "unlocks": [
+                "15-02"
+              ]
+            },
+            {
+              "nodeId": "15-05",
+              "topic": "三焦传变",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "14-07",
+                "15-04"
+              ],
+              "unlocks": [
+                "15-06"
+              ]
+            },
+            {
+              "nodeId": "15-06",
+              "topic": "三种辨证体系比较",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "14-07",
+                "15-05"
+              ],
+              "unlocks": [
+                "22-01",
+                "22-02",
+                "22-03",
+                "22-04",
+                "22-05",
+                "22-06"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": []
+        }
+      }
+    },
+    {
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "stage": "stage6",
+      "stageName": "外感辨证体系",
+      "type": "theory",
+      "difficultyRange": [
+        4,
+        5
+      ],
+      "totalNodes": 6,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": []
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "22-01",
+              "topic": "八纲 vs 气血津液辨证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "13-11",
+                "14-07",
+                "15-06"
+              ],
+              "unlocks": [
+                "22-02"
+              ]
+            },
+            {
+              "nodeId": "22-02",
+              "topic": "八纲 vs 脏腑辨证",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "13-11",
+                "14-07",
+                "15-06",
+                "22-01"
+              ],
+              "unlocks": [
+                "22-03"
+              ]
+            },
+            {
+              "nodeId": "22-03",
+              "topic": "六经 vs 八纲",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "13-11",
+                "14-07",
+                "15-06",
+                "22-02"
+              ],
+              "unlocks": [
+                "22-04"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "22-04",
+              "topic": "卫气营血 vs 三焦",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "13-11",
+                "14-07",
+                "15-06",
+                "22-03"
+              ],
+              "unlocks": [
+                "22-05"
+              ]
+            },
+            {
+              "nodeId": "22-05",
+              "topic": "六经 vs 卫气营血 vs 三焦",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "13-11",
+                "14-07",
+                "15-06",
+                "22-04"
+              ],
+              "unlocks": [
+                "22-06"
+              ]
+            },
+            {
+              "nodeId": "22-06",
+              "topic": "不同体系如何协同",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "13-11",
+                "14-07",
+                "15-06",
+                "22-05"
+              ],
+              "unlocks": [
+                "01-09",
+                "02-16",
+                "02-17",
+                "03-14",
+                "04-20",
+                "04-21",
+                "05-18",
+                "05-19",
+                "06-09",
+                "06-10",
+                "07-16",
+                "08-12",
+                "09-24",
+                "09-25",
+                "11-15",
+                "12-31",
+                "14-08",
+                "16-09",
+                "18-16",
+                "19-12"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "16",
+      "domainName": "治则治法",
+      "stage": "stage7",
+      "stageName": "治则·方剂·经典",
+      "type": "theory",
+      "difficultyRange": [
+        3,
+        4
+      ],
+      "totalNodes": 9,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "16-01",
+              "topic": "治病求本",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15"
+              ],
+              "unlocks": [
+                "16-02"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "16-05",
+              "topic": "因势利导",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-04"
+              ],
+              "unlocks": [
+                "16-06"
+              ]
+            },
+            {
+              "nodeId": "16-06",
+              "topic": "调整阴阳",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-05"
+              ],
+              "unlocks": [
+                "16-07"
+              ]
+            },
+            {
+              "nodeId": "16-07",
+              "topic": "三因制宜",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-06"
+              ],
+              "unlocks": [
+                "16-08"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "16-02",
+              "topic": "扶正与祛邪",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-01"
+              ],
+              "unlocks": [
+                "16-03"
+              ]
+            },
+            {
+              "nodeId": "16-03",
+              "topic": "标本缓急",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-02"
+              ],
+              "unlocks": [
+                "16-04"
+              ]
+            },
+            {
+              "nodeId": "16-08",
+              "topic": "治则与辨证的关系",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-07"
+              ],
+              "unlocks": [
+                "17-01",
+                "17-02",
+                "17-03",
+                "17-04",
+                "17-05",
+                "17-06",
+                "17-07",
+                "17-08",
+                "17-09",
+                "16-09"
+              ]
+            },
+            {
+              "nodeId": "16-09",
+              "topic": "八法",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "14-08",
+                "16-08"
+              ],
+              "unlocks": [
+                "18-16"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "16-04",
+              "topic": "正治与反治",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "08-11",
+                "10-15",
+                "16-03"
+              ],
+              "unlocks": [
+                "16-05"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "stage": "stage7",
+      "stageName": "治则·方剂·经典",
+      "type": "formula",
+      "difficultyRange": [
+        2,
+        4
+      ],
+      "totalNodes": 9,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": [
+            {
+              "nodeId": "17-01",
+              "topic": "方剂是什么",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "16-08"
+              ],
+              "unlocks": [
+                "17-02"
+              ]
+            },
+            {
+              "nodeId": "17-02",
+              "topic": "治法与方剂的关系",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "16-08",
+                "17-01"
+              ],
+              "unlocks": [
+                "17-03"
+              ]
+            }
+          ]
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "17-04",
+              "topic": "配伍",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "16-08",
+                "17-03"
+              ],
+              "unlocks": [
+                "17-05"
+              ]
+            },
+            {
+              "nodeId": "17-05",
+              "topic": "方剂的加减变化",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "16-08",
+                "17-04"
+              ],
+              "unlocks": [
+                "17-06"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "17-06",
+              "topic": "方剂分类",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "16-08",
+                "17-05"
+              ],
+              "unlocks": [
+                "17-07"
+              ]
+            },
+            {
+              "nodeId": "17-07",
+              "topic": "方剂的剂型",
+              "difficulty": 4,
+              "status": "quarantine",
+              "cLevel": "C3",
+              "prerequisite": [
+                "16-08",
+                "17-06"
+              ],
+              "unlocks": [
+                "17-08"
+              ]
+            },
+            {
+              "nodeId": "17-09",
+              "topic": "方剂之间的比较",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "16-08",
+                "17-08"
+              ],
+              "unlocks": [
+                "18-01",
+                "18-02",
+                "18-03",
+                "18-04",
+                "18-05",
+                "18-06",
+                "18-07",
+                "18-08",
+                "18-09",
+                "18-10",
+                "18-11",
+                "18-12",
+                "18-13",
+                "18-14",
+                "18-15"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "17-03",
+              "topic": "组方原则",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "16-08",
+                "17-02"
+              ],
+              "unlocks": [
+                "17-04"
+              ]
+            },
+            {
+              "nodeId": "17-08",
+              "topic": "方证关系",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "16-08",
+                "17-07"
+              ],
+              "unlocks": [
+                "17-09"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "18",
+      "domainName": "经典方剂",
+      "stage": "stage7",
+      "stageName": "治则·方剂·经典",
+      "type": "formula",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 16,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "18-01",
+              "topic": "解表剂",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09"
+              ],
+              "unlocks": [
+                "18-02"
+              ]
+            },
+            {
+              "nodeId": "18-02",
+              "topic": "清热剂",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-01"
+              ],
+              "unlocks": [
+                "18-03"
+              ]
+            },
+            {
+              "nodeId": "18-03",
+              "topic": "泻下剂",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-02"
+              ],
+              "unlocks": [
+                "18-04"
+              ]
+            },
+            {
+              "nodeId": "18-04",
+              "topic": "和解剂",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-03"
+              ],
+              "unlocks": [
+                "18-05"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "18-05",
+              "topic": "温里剂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-04"
+              ],
+              "unlocks": [
+                "18-06"
+              ]
+            },
+            {
+              "nodeId": "18-06",
+              "topic": "补益剂",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-05"
+              ],
+              "unlocks": [
+                "18-07"
+              ]
+            },
+            {
+              "nodeId": "18-07",
+              "topic": "固涩剂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-06"
+              ],
+              "unlocks": [
+                "18-08"
+              ]
+            },
+            {
+              "nodeId": "18-08",
+              "topic": "理气剂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-07"
+              ],
+              "unlocks": [
+                "18-09"
+              ]
+            },
+            {
+              "nodeId": "18-09",
+              "topic": "理血剂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-08"
+              ],
+              "unlocks": [
+                "18-10"
+              ]
+            },
+            {
+              "nodeId": "18-10",
+              "topic": "祛湿剂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-09"
+              ],
+              "unlocks": [
+                "18-11"
+              ]
+            },
+            {
+              "nodeId": "18-11",
+              "topic": "祛痰剂",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-10"
+              ],
+              "unlocks": [
+                "18-12"
+              ]
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": []
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "18-12",
+              "topic": "安神剂",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-11"
+              ],
+              "unlocks": [
+                "18-13"
+              ]
+            },
+            {
+              "nodeId": "18-13",
+              "topic": "治风剂",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-12"
+              ],
+              "unlocks": [
+                "18-14"
+              ]
+            },
+            {
+              "nodeId": "18-14",
+              "topic": "治燥剂",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-13"
+              ],
+              "unlocks": [
+                "18-15"
+              ]
+            },
+            {
+              "nodeId": "18-15",
+              "topic": "祛暑剂",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "17-09",
+                "18-14"
+              ],
+              "unlocks": [
+                "20-01",
+                "20-02",
+                "20-03",
+                "20-04",
+                "20-05",
+                "20-06",
+                "18-16"
+              ]
+            },
+            {
+              "nodeId": "18-16",
+              "topic": "类方比较",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "16-09",
+                "18-15"
+              ],
+              "unlocks": [
+                "19-12"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "19",
+      "domainName": "经典研读",
+      "stage": "stage7",
+      "stageName": "治则·方剂·经典",
+      "type": "classic",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 12,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "19-01",
+              "topic": "《黄帝内经》概览",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17"
+              ],
+              "unlocks": [
+                "19-02"
+              ]
+            },
+            {
+              "nodeId": "19-02",
+              "topic": "内经·阴阳应象大论精读",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-01"
+              ],
+              "unlocks": [
+                "19-03"
+              ]
+            },
+            {
+              "nodeId": "19-03",
+              "topic": "内经·灵兰秘典论精读",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-02"
+              ],
+              "unlocks": [
+                "19-04"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": [
+            {
+              "nodeId": "19-04",
+              "topic": "内经·经脉别论精读",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-03"
+              ],
+              "unlocks": [
+                "19-05"
+              ]
+            },
+            {
+              "nodeId": "19-05",
+              "topic": "《伤寒论》概览",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-04"
+              ],
+              "unlocks": [
+                "19-06"
+              ]
+            },
+            {
+              "nodeId": "19-06",
+              "topic": "伤寒论·太阳病条辨精读",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-05"
+              ],
+              "unlocks": [
+                "19-07"
+              ]
+            },
+            {
+              "nodeId": "19-07",
+              "topic": "伤寒论·阳明病条辨精读",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-06"
+              ],
+              "unlocks": [
+                "19-08"
+              ]
+            },
+            {
+              "nodeId": "19-08",
+              "topic": "伤寒论·少阳病条辨精读",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-07"
+              ],
+              "unlocks": [
+                "19-09"
+              ]
+            },
+            {
+              "nodeId": "19-12",
+              "topic": "《神农本草经》概览",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "22-06",
+                "18-16",
+                "19-11"
+              ],
+              "unlocks": []
+            }
+          ]
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": []
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "19-09",
+              "topic": "《金匮要略》概览",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-08"
+              ],
+              "unlocks": [
+                "19-10"
+              ]
+            },
+            {
+              "nodeId": "19-10",
+              "topic": "金匮要略·代表病篇精读",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-09"
+              ],
+              "unlocks": [
+                "19-11"
+              ]
+            },
+            {
+              "nodeId": "19-11",
+              "topic": "经典研读方法论",
+              "difficulty": 5,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "02-15",
+                "04-19",
+                "05-17",
+                "19-10"
+              ],
+              "unlocks": [
+                "19-12"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "20",
+      "domainName": "医案阅读",
+      "stage": "stage8",
+      "stageName": "医案·综合·思维",
+      "type": "case",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 6,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": []
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "20-01",
+              "topic": "医案阅读方法",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "12-30",
+                "18-15"
+              ],
+              "unlocks": [
+                "20-02"
+              ]
+            },
+            {
+              "nodeId": "20-03",
+              "topic": "经方医案",
+              "difficulty": 4,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "12-30",
+                "18-15",
+                "20-02"
+              ],
+              "unlocks": [
+                "20-04"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "20-02",
+              "topic": "古代名医医案",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "18-15",
+                "20-01"
+              ],
+              "unlocks": [
+                "20-03"
+              ]
+            },
+            {
+              "nodeId": "20-04",
+              "topic": "复杂病机医案",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "18-15",
+                "20-03"
+              ],
+              "unlocks": [
+                "20-05"
+              ]
+            },
+            {
+              "nodeId": "20-05",
+              "topic": "误治医案",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "18-15",
+                "20-04"
+              ],
+              "unlocks": [
+                "20-06"
+              ]
+            },
+            {
+              "nodeId": "20-06",
+              "topic": "医案中的思维还原",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "18-15",
+                "20-05"
+              ],
+              "unlocks": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "stage": "stage8",
+      "stageName": "医案·综合·思维",
+      "type": "clinical",
+      "difficultyRange": [
+        3,
+        5
+      ],
+      "totalNodes": 8,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "21-01",
+              "topic": "四诊信息综合",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": null,
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07"
+              ],
+              "unlocks": [
+                "21-02"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "21-02",
+              "topic": "信息整理框架",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-01"
+              ],
+              "unlocks": [
+                "21-03"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "21-03",
+              "topic": "八纲→气血津液→脏腑递进",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-02"
+              ],
+              "unlocks": [
+                "21-04"
+              ]
+            },
+            {
+              "nodeId": "21-04",
+              "topic": "病因+病机→辨证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-03"
+              ],
+              "unlocks": [
+                "21-05"
+              ]
+            },
+            {
+              "nodeId": "21-05",
+              "topic": "多假设推理",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-04"
+              ],
+              "unlocks": [
+                "21-06"
+              ]
+            },
+            {
+              "nodeId": "21-06",
+              "topic": "排除法辨证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-05"
+              ],
+              "unlocks": [
+                "21-07"
+              ]
+            },
+            {
+              "nodeId": "21-07",
+              "topic": "证候演变预测",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-06"
+              ],
+              "unlocks": [
+                "21-08"
+              ]
+            },
+            {
+              "nodeId": "21-08",
+              "topic": "综合辨证练习",
+              "difficulty": 5,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "12-30",
+                "13-11",
+                "14-07",
+                "21-07"
+              ],
+              "unlocks": [
+                "23-01",
+                "23-02",
+                "23-03",
+                "23-04",
+                "23-05",
+                "23-06",
+                "23-07",
+                "23-08",
+                "23-09",
+                "23-10",
+                "01-09",
+                "02-16",
+                "02-17",
+                "03-14",
+                "04-20",
+                "04-21",
+                "05-18",
+                "05-19",
+                "06-09",
+                "06-10",
+                "07-16",
+                "08-12",
+                "09-24",
+                "09-25",
+                "11-15",
+                "12-31",
+                "14-08",
+                "16-09",
+                "18-16",
+                "19-12"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "stage": "stage8",
+      "stageName": "医案·综合·思维",
+      "type": "theory",
+      "difficultyRange": [
+        2,
+        4
+      ],
+      "totalNodes": 10,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": [
+            {
+              "nodeId": "23-04",
+              "topic": "类比思维",
+              "difficulty": 3,
+              "status": "conditional",
+              "cLevel": null,
+              "prerequisite": [
+                "21-08",
+                "23-03"
+              ],
+              "unlocks": [
+                "23-05"
+              ]
+            }
+          ]
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": [
+            {
+              "nodeId": "23-01",
+              "topic": "整体思维",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08"
+              ],
+              "unlocks": [
+                "23-02"
+              ]
+            },
+            {
+              "nodeId": "23-02",
+              "topic": "动态思维",
+              "difficulty": 2,
+              "status": "conditional",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "23-01"
+              ],
+              "unlocks": [
+                "23-03"
+              ]
+            },
+            {
+              "nodeId": "23-03",
+              "topic": "辨证思维",
+              "difficulty": 2,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "23-02"
+              ],
+              "unlocks": [
+                "23-04"
+              ]
+            },
+            {
+              "nodeId": "23-05",
+              "topic": "关系思维",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "23-04"
+              ],
+              "unlocks": [
+                "23-06"
+              ]
+            },
+            {
+              "nodeId": "23-06",
+              "topic": "证据意识",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "23-05"
+              ],
+              "unlocks": [
+                "23-07"
+              ]
+            },
+            {
+              "nodeId": "23-07",
+              "topic": "反证意识",
+              "difficulty": 3,
+              "status": "candidate",
+              "cLevel": "C3",
+              "prerequisite": [
+                "21-08",
+                "23-06"
+              ],
+              "unlocks": [
+                "23-08"
+              ]
+            }
+          ]
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": [
+            {
+              "nodeId": "23-08",
+              "topic": "综合判断",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "23-07"
+              ],
+              "unlocks": [
+                "23-09"
+              ]
+            },
+            {
+              "nodeId": "23-09",
+              "topic": "避免单因素推断",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "23-08"
+              ],
+              "unlocks": [
+                "23-10"
+              ]
+            },
+            {
+              "nodeId": "23-10",
+              "topic": "避免机械套证",
+              "difficulty": 4,
+              "status": "conditional",
+              "cLevel": "C4",
+              "prerequisite": [
+                "21-08",
+                "23-09"
+              ],
+              "unlocks": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "domain": "R1",
+      "domainName": "Reference 补足（01-09/02-16/02-17/03-14/04-20/04-21/05-18/05-19/06-09/06-10/07-16/08-12/09-24/09-25/11-15/12-31/14-08/16-09/18-16/19-12）",
+      "stage": "stage8",
+      "stageName": "医案·综合·思维",
+      "type": "reference",
+      "difficultyRange": [
+        4,
+        5
+      ],
+      "totalNodes": 0,
+      "gates": {
+        "1": {
+          "name": "认识",
+          "unlock": "完成第 0 关（—）后解锁",
+          "nodes": []
+        },
+        "2": {
+          "name": "理解",
+          "unlock": "完成第 1 关（认识）后解锁",
+          "nodes": []
+        },
+        "3": {
+          "name": "辨析",
+          "unlock": "完成第 2 关（理解）后解锁",
+          "nodes": []
+        },
+        "4": {
+          "name": "推理",
+          "unlock": "完成第 3 关（辨析）后解锁",
+          "nodes": []
+        },
+        "5": {
+          "name": "迁移",
+          "unlock": "完成第 4 关（推理）后解锁",
+          "nodes": []
+        }
+      }
+    }
+  ],
+  "learningPath": [
+    {
+      "stage": "stage1",
+      "stageName": "入门·基础认知",
+      "domains": [
+        "01",
+        "02",
+        "03"
+      ]
+    },
+    {
+      "stage": "stage2",
+      "stageName": "诊法·望闻问切",
+      "domains": [
+        "09"
+      ]
+    },
+    {
+      "stage": "stage3",
+      "stageName": "八纲·方向纲领",
+      "domains": [
+        "10"
+      ]
+    },
+    {
+      "stage": "stage4",
+      "stageName": "藏象·气血·经络",
+      "domains": [
+        "04",
+        "05",
+        "06",
+        "11"
+      ]
+    },
+    {
+      "stage": "stage5",
+      "stageName": "病因病机·脏腑辨证",
+      "domains": [
+        "07",
+        "08",
+        "12"
+      ]
+    },
+    {
+      "stage": "stage6",
+      "stageName": "外感辨证体系",
+      "domains": [
+        "13",
+        "14",
+        "15",
+        "22"
+      ]
+    },
+    {
+      "stage": "stage7",
+      "stageName": "治则·方剂·经典",
+      "domains": [
+        "16",
+        "17",
+        "18",
+        "19"
+      ]
+    },
+    {
+      "stage": "stage8",
+      "stageName": "医案·综合·思维",
+      "domains": [
+        "20",
+        "21",
+        "23",
+        "R1"
+      ]
+    }
+  ],
+  "exampleProgression": [
+    {
+      "step": "药性",
+      "nodeId": "11-02",
+      "topic": "气虚证"
+    },
+    {
+      "step": "配伍",
+      "nodeId": "17-04",
+      "topic": "配伍"
+    },
+    {
+      "step": "方剂",
+      "nodeId": "17-03",
+      "topic": "组方原则"
+    },
+    {
+      "step": "证候",
+      "nodeId": "10-01",
+      "topic": "八纲辨证总论"
+    },
+    {
+      "step": "临床案例",
+      "nodeId": "20-03",
+      "topic": "经方医案"
+    }
+  ],
+  "note": "关卡为领域内渐进：完成上一关才自然解锁下一关；允许复习旧关卡。prerequisite 为跨节点前置（来自 coverage-matrix），unlocks 为被依赖关系（反向推导）。"
+}

@@ -1,0 +1,59 @@
+{
+  "schema": "phase-4/quarantine/v1",
+  "total": 3,
+  "samples": [
+    {
+      "nodeId": "03-13",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行综合案例",
+      "status": "quarantine",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-12"
+      ],
+      "nextNode": null,
+      "category": "theory",
+      "producedBy": [
+        "pb3-th-03-13"
+      ]
+    },
+    {
+      "nodeId": "04-19",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "藏象综合案例",
+      "status": "quarantine",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-18"
+      ],
+      "nextNode": null,
+      "category": "theory",
+      "producedBy": [
+        "pb3-th-04-19"
+      ]
+    },
+    {
+      "nodeId": "17-07",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂的剂型",
+      "status": "quarantine",
+      "difficulty": 4,
+      "prerequisite": [
+        "16-08",
+        "17-06"
+      ],
+      "nextNode": "17-08",
+      "category": "formula",
+      "producedBy": [
+        "pb3-fm-17-07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "seed": 20260920,
+  "genLabel": "phase-3b-batch1",
+  "total": 50,
+  "counts": {
+    "candidate": 43,
+    "conditional": 5,
+    "quarantine": 2
+  },
+  "verdictBreakdown": {
+    "candidate": 43,
+    "conditional": 5,
+    "quarantine": 2
+  },
+  "engineering": {
+    "gateFailByLetter": {
+      "E": {
+        "count": 2,
+        "samples": [
+          {
+            "id": "pb1-case-04",
+            "title": "湿困中焦证据不足案",
+            "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+          },
+          {
+            "id": "pb1-case-10",
+            "title": "需暂缓判断案",
+            "note": "核心证据仅为症状事实，缺乏第二独立证据（舌脉/体征、病史、检验、经典、方药等），不足以支撑具体证候结论"
+          }
+        ]
+      }
+    },
+    "correctionByKind": {
+      "B": {
+        "count": 5,
+        "samples": [
+          {
+            "id": "pb1-herb-03",
+            "title": "细辛",
+            "layer": "来源解析",
+            "reason": "经典「细辛不过钱」来源纠偏：sourceType→traditional_commentary、出处→「宋《本草别说》（陈承）古训」、status→teaching_inference（古训，非现行药典强制条文，亦不得折算为克数）"
+          },
+          {
+            "id": "pb1-formula-03",
+            "title": "小柴胡汤",
+            "layer": "来源解析",
+            "reason": "经典「但见一证便是」来源纠偏：出处→「《伤寒论》」（须带「有柴胡证」前提，不得断章取义）"
+          },
+          {
+            "id": "pb1-acu-01",
+            "title": "合谷",
+            "layer": "来源解析",
+            "reason": "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「明·徐凤《针灸大全》」、status→teaching_inference（四总穴歌最早记载于明·徐凤《针灸大全》，非《针灸大成》原句）"
+          },
+          {
+            "id": "pb1-theory-02",
+            "title": "五行生克",
+            "layer": "来源解析",
+            "reason": "经典「见肝之病知肝传脾」来源纠偏：出处→「《金匮要略》」（非《内经》原句）"
+          },
+          {
+            "id": "pb1-theory-09",
+            "title": "治未病",
+            "layer": "来源解析",
+            "reason": "经典「上工治未病」来源纠偏：出处→「《难经·七十七难》」（「上工治未病」首见《难经》，非《素问》原句）"
+          }
+        ]
+      },
+      "C": {
+        "count": 1,
+        "samples": [
+          {
+            "id": "pb1-herb-03",
+            "title": "细辛",
+            "layer": "剂量分层",
+            "reason": "原典「各等分/两」被折算为克数，剥离克数、仅保留原表述"
+          }
+        ]
+      },
+      "J": {
+        "count": 6,
+        "samples": [
+          {
+            "id": "pb1-herb-03",
+            "title": "细辛",
+            "layer": "安全红线",
+            "reason": "高风险药材「细辛」注入红线：【高风险】细辛煎剂 1–3g、散剂 0.5–1g；「细辛不过钱」为古训（指单用末），不得折算为常规用量依据；过量可致中毒"
+          },
+          {
+            "id": "pb1-herb-04",
+            "title": "附子",
+            "layer": "安全红线",
+            "reason": "高风险药材「附子」注入红线：【高风险】附子须炮制后使用，内服先煎久煎至口尝无麻辣感；孕妇禁用；反半夏、瓜蒌、贝母、白蔹、白及；剂量遵《中国药典》制附子 3–15g，不得自行加量"
+          },
+          {
+            "id": "pb1-herb-06",
+            "title": "甘草",
+            "layer": "安全红线",
+            "reason": "高风险药材「甘草」注入红线：【高风险】反海藻、大戟、甘遂、芫花；大剂量久服致水肿、血压升高，不得与禁忌药同用"
+          },
+          {
+            "id": "pb1-acu-01",
+            "title": "合谷",
+            "layer": "安全红线",
+            "reason": "禁针穴「合谷」注入：孕妇禁针，有堕胎风险"
+          },
+          {
+            "id": "pb1-acu-04",
+            "title": "三阴交",
+            "layer": "安全红线",
+            "reason": "禁针穴「三阴交」注入：孕妇禁针，有堕胎风险"
+          },
+          {
+            "id": "pb1-acu-05",
+            "title": "哑门",
+            "layer": "安全红线",
+            "reason": "禁针穴「哑门」注入：深部近延髓，禁深刺，禁向上方深刺"
+          }
+        ]
+      },
+      "K": {
+        "count": 8,
+        "samples": [
+          {
+            "id": "pb1-herb-05",
+            "title": "柴胡",
+            "layer": "来源解析",
+            "reason": "经典「柴胡劫肝阴」来源纠偏：sourceType→traditional_commentary、出处→「（后世医家说）」、status→teaching_inference（后世医家之说，非《本经》原句）"
+          },
+          {
+            "id": "pb1-formula-02",
+            "title": "桂枝汤",
+            "layer": "来源解析",
+            "reason": "经典「调和营卫」来源纠偏：sourceType→teaching_design、出处→「（后世教学术语）」、status→teaching_inference（后世教学术语，非《伤寒论》原句）"
+          },
+          {
+            "id": "pb1-formula-05",
+            "title": "六味地黄丸",
+            "layer": "来源解析",
+            "reason": "经典「三补三泻」来源纠偏：sourceType→teaching_design、出处→「（教材归纳）」、status→teaching_inference（教材归纳，非《小儿药证直诀》原句）"
+          },
+          {
+            "id": "pb1-formula-06",
+            "title": "补中益气汤",
+            "layer": "来源解析",
+            "reason": "经典「甘温除大热」来源纠偏：sourceType→traditional_commentary、出处→「李东垣（补中益气汤相关，首出须核验）」、status→teaching_inference（术语首出须核验）"
+          },
+          {
+            "id": "pb1-formula-10",
+            "title": "白虎汤",
+            "layer": "来源解析",
+            "reason": "经典「四大证」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+          },
+          {
+            "id": "pb1-acu-07",
+            "title": "太冲",
+            "layer": "来源解析",
+            "reason": "经典「四关」来源纠偏：sourceType→teaching_design、出处→「（临床总结）」、status→teaching_inference（临床总结，非经典原句）"
+          },
+          {
+            "id": "pb1-theory-04",
+            "title": "气一元论与气血",
+            "layer": "来源解析",
+            "reason": "经典「气为血之帅」来源纠偏：sourceType→teaching_design、出处→「（教学口诀）」、status→teaching_inference（教学口诀，非《内经》原句）"
+          },
+          {
+            "id": "pb1-theory-08",
+            "title": "八纲辨证",
+            "layer": "来源解析",
+            "reason": "经典「八纲辨证」来源纠偏：sourceType→traditional_commentary、出处→「清·程钟龄《医学心悟》」、status→teaching_inference（八纲作为系统辨证纲领正式确立于清·程钟龄《医学心悟》，非《黄帝内经》原词）"
+          }
+        ]
+      }
+    },
+    "correctionByLayer": {
+      "来源解析": {
+        "count": 13
+      },
+      "剂量分层": {
+        "count": 1
+      },
+      "安全红线": {
+        "count": 6
+      }
+    },
+    "leakThrough": {
+      "A": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "B": {
+        "sourceFixed": 5,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "C": {
+        "sourceFixed": 1,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "D": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "H": {
+        "sourceFixed": 0,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "J": {
+        "sourceFixed": 6,
+        "gateBlocked": 0,
+        "leak": 0
+      },
+      "K": {
+        "sourceFixed": 8,
+        "gateBlocked": 0,
+        "leak": 0
+      }
+    },
+    "unknownSourceRatio": {
+      "unknown": 0,
+      "total": 134,
+      "pct": 0
+    },
+    "highRiskIsolationRate": {
+      "covered": 8,
+      "nodes": 8,
+      "pct": 100
+    }
+  },
+  "content": {
+    "difficultyDistribution": {
+      "basic": {
+        "count": 18,
+        "pct": 36
+      },
+      "mid": {
+        "count": 17,
+        "pct": 34
+      },
+      "hard": {
+        "count": 10,
+        "pct": 20
+      },
+      "mixed": {
+        "count": 5,
+        "pct": 10
+      }
+    },
+    "perCategory": {
+      "herb": [
+        1,
+        2,
+        3,
+        5,
+        3,
+        2,
+        4,
+        2,
+        3,
+        4
+      ],
+      "formula": [
+        3,
+        4,
+        3,
+        5,
+        2,
+        3,
+        1,
+        4,
+        2,
+        3
+      ],
+      "acupoint": [
+        3,
+        1,
+        3,
+        4,
+        4,
+        3,
+        2,
+        2,
+        1,
+        5
+      ],
+      "theory": [
+        1,
+        3,
+        2,
+        2,
+        3,
+        4,
+        2,
+        4,
+        3,
+        5
+      ],
+      "clinical": [
+        1,
+        2,
+        3,
+        3,
+        4,
+        3,
+        4,
+        3,
+        5,
+        2
+      ]
+    },
+    "perCategoryDistinct": {
+      "herb": 5,
+      "formula": 5,
+      "acupoint": 5,
+      "theory": 5,
+      "clinical": 5
+    },
+    "machineLikeRepetition": [],
+    "contentPreliminary": {
+      "contentCandidate": 50,
+      "contentReview": 0
+    },
+    "c3c4": {
+      "cLevels": {
+        "C1": 1,
+        "C2": 2,
+        "C3": 4,
+        "C4": 3
+      },
+      "humanReviewRequired": [
+        "pb1-case-05",
+        "pb1-case-06",
+        "pb1-case-09"
+      ],
+      "evidenceInsufficient": [
+        "pb1-case-04",
+        "pb1-case-10"
+      ]
+    }
+  }
+}

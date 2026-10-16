@@ -1,0 +1,454 @@
+{
+  "seed": 20260919,
+  "genLabel": "phase-3a.2-fresh",
+  "total": 25,
+  "counts": {
+    "candidate": 17,
+    "conditional": 3,
+    "quarantine": 5
+  },
+  "verdictBreakdown": {
+    "candidate": 17,
+    "conditional": 3,
+    "quarantine": 5
+  },
+  "gateFailByLetter": {
+    "E": {
+      "count": 4,
+      "samples": [
+        {
+          "id": "pa32-theory-20",
+          "title": "病因病机",
+          "note": "核心证据缺乏具体临床征象，证据不足以支撑结论"
+        },
+        {
+          "id": "pa32-case-21",
+          "title": "脾胃湿热医案",
+          "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+        },
+        {
+          "id": "pa32-case-24",
+          "title": "失眠医案",
+          "note": "核心证据缺乏具体临床征象，证据不足以支撑结论"
+        },
+        {
+          "id": "pa32-case-25",
+          "title": "胸痹医案",
+          "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+        }
+      ]
+    },
+    "G": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "pa32-case-23",
+          "title": "咳嗽医案",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        },
+        {
+          "id": "pa32-case-25",
+          "title": "胸痹医案",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        }
+      ]
+    },
+    "H": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "pa32-case-23",
+          "title": "咳嗽医案",
+          "note": "freeReasoning/standardJudgment 模板化"
+        },
+        {
+          "id": "pa32-case-24",
+          "title": "失眠医案",
+          "note": "freeReasoning/standardJudgment 模板化"
+        }
+      ]
+    },
+    "A": {
+      "count": 1,
+      "samples": [
+        {
+          "id": "pa32-case-25",
+          "title": "胸痹医案",
+          "note": "fact「case.experience」sourceType 非法"
+        }
+      ]
+    },
+    "F": {
+      "count": 1,
+      "samples": [
+        {
+          "id": "pa32-case-25",
+          "title": "胸痹医案",
+          "note": "反证为空泛/补充性说明，未真正削弱原判断"
+        }
+      ]
+    }
+  },
+  "correctionByKind": {
+    "K": {
+      "count": 7,
+      "samples": [
+        {
+          "id": "pa32-herb-01",
+          "title": "附子",
+          "layer": "知识分类",
+          "reason": "fact「herb.huiyang」无出处却标 classic_original+verified，降级为 teaching_design/teaching_inference"
+        },
+        {
+          "id": "pa32-formula-07",
+          "title": "桂枝汤",
+          "layer": "来源解析",
+          "reason": "经典「调和营卫」来源纠偏：sourceType→teaching_design、出处→「（后世教学术语）」、status→teaching_inference（后世教学术语，非《伤寒论》原句）"
+        },
+        {
+          "id": "pa32-formula-09",
+          "title": "六味地黄丸",
+          "layer": "来源解析",
+          "reason": "经典「三补三泻」来源纠偏：sourceType→teaching_design、出处→「（教材归纳）」、status→teaching_inference（教材归纳，非《小儿药证直诀》原句）"
+        },
+        {
+          "id": "pa32-acu-15",
+          "title": "太冲",
+          "layer": "来源解析",
+          "reason": "经典「四关」来源纠偏：sourceType→teaching_design、出处→「（临床总结）」、status→teaching_inference（临床总结，非经典原句）"
+        },
+        {
+          "id": "pa32-theory-16",
+          "title": "气机升降",
+          "layer": "来源解析",
+          "reason": "经典「左升右降」来源纠偏：sourceType→teaching_design、出处→「《素问·刺禁论》「肝生于左，肺藏于右」为原文；「左升右降」为后世归纳」、status→teaching_inference（「左升右降」为后世归纳，不得绝对化为《内经》原句）"
+        },
+        {
+          "id": "pa32-theory-17",
+          "title": "气血关系",
+          "layer": "来源解析",
+          "reason": "经典「气为血之帅」来源纠偏：sourceType→teaching_design、出处→「（教学口诀）」、status→teaching_inference（教学口诀，非《内经》原句）"
+        },
+        {
+          "id": "pa32-theory-19",
+          "title": "阴阳原典",
+          "layer": "来源解析",
+          "reason": "经典「阴阳」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    },
+    "A": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "pa32-herb-01",
+          "title": "附子",
+          "layer": "事实采集",
+          "reason": "fact「herb.huiyang」来源缺漏已按「无权威出处」降级，不得进入 verified"
+        },
+        {
+          "id": "pa32-case-25",
+          "title": "胸痹医案",
+          "layer": "事实采集",
+          "reason": "fact「case.experience」sourceType 非法「民间偏方」"
+        }
+      ]
+    },
+    "B": {
+      "count": 4,
+      "samples": [
+        {
+          "id": "pa32-herb-02",
+          "title": "半夏",
+          "layer": "来源解析",
+          "reason": "经典「十八反」来源纠偏：sourceType→traditional_commentary、出处→「后世本草歌诀（首出须核验）」、status→teaching_inference（后世本草歌诀，非《中国药典》原文）"
+        },
+        {
+          "id": "pa32-formula-10",
+          "title": "小柴胡汤",
+          "layer": "来源解析",
+          "reason": "经典「但见一证便是」来源纠偏：出处→「《伤寒论》」（须带「有柴胡证」前提，不得断章取义）"
+        },
+        {
+          "id": "pa32-acu-12",
+          "title": "合谷",
+          "layer": "来源解析",
+          "reason": "经典「四总穴歌」来源纠偏：sourceType→traditional_commentary、出处→「四总穴歌（针灸歌赋，首出须核验）」、status→teaching_inference（「面口合谷收」出处非《针灸大成》原句）"
+        },
+        {
+          "id": "pa32-theory-18",
+          "title": "五行生克",
+          "layer": "来源解析",
+          "reason": "经典「见肝之病知肝传脾」来源纠偏：出处→「《金匮要略》」（非《内经》原句）"
+        }
+      ]
+    },
+    "C": {
+      "count": 3,
+      "samples": [
+        {
+          "id": "pa32-herb-03",
+          "title": "细辛",
+          "layer": "剂量分层",
+          "reason": "原典「各等分/两」被折算为克数，剥离克数、仅保留原表述"
+        },
+        {
+          "id": "pa32-formula-06",
+          "title": "麻黄汤",
+          "layer": "剂量分层",
+          "reason": "原典「各等分/两」被折算为克数，剥离克数、仅保留原表述"
+        },
+        {
+          "id": "pa32-formula-08",
+          "title": "四逆汤",
+          "layer": "剂量分层",
+          "reason": "现代剂量数字缺少 verified 来源，从 modernDosage 剥离（不得进入背诵）"
+        }
+      ]
+    },
+    "D": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "pa32-herb-04",
+          "title": "柴胡",
+          "layer": "知识分类",
+          "reason": "fact「herb.shengti」teaching_design 被升级为 verified，按口径降级为 teaching_inference"
+        },
+        {
+          "id": "pa32-acu-13",
+          "title": "手三里",
+          "layer": "知识分类",
+          "reason": "fact「acupoint.jiepou」teaching_design 被升级为 verified，按口径降级为 teaching_inference"
+        }
+      ]
+    },
+    "J": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "pa32-acu-12",
+          "title": "合谷",
+          "layer": "安全红线",
+          "reason": "禁针穴「合谷」注入：孕妇禁针，有堕胎风险"
+        },
+        {
+          "id": "pa32-acu-14",
+          "title": "三阴交",
+          "layer": "安全红线",
+          "reason": "禁针穴「三阴交」注入：孕妇禁针，有堕胎风险"
+        }
+      ]
+    },
+    "H": {
+      "count": 2,
+      "samples": [
+        {
+          "id": "pa32-case-23",
+          "title": "咳嗽医案",
+          "layer": "反模板",
+          "reason": "「咳嗽医案」standardJudgment 与其他节点重复/包含（模板化），须重写"
+        },
+        {
+          "id": "pa32-case-24",
+          "title": "失眠医案",
+          "layer": "反模板",
+          "reason": "「失眠医案」standardJudgment 与其他节点重复/包含（模板化），须重写"
+        }
+      ]
+    }
+  },
+  "defectMatrix": [
+    {
+      "defect": "B",
+      "rawOccurrences": 4,
+      "caughtAtSource": {
+        "count": 4,
+        "layers": [
+          "来源解析"
+        ],
+        "ids": [
+          "pa32-herb-02",
+          "pa32-formula-10",
+          "pa32-acu-12",
+          "pa32-theory-18"
+        ]
+      },
+      "blockedByGate": {
+        "count": 0,
+        "ids": []
+      }
+    },
+    {
+      "defect": "K",
+      "rawOccurrences": 7,
+      "caughtAtSource": {
+        "count": 7,
+        "layers": [
+          "知识分类",
+          "来源解析"
+        ],
+        "ids": [
+          "pa32-herb-01",
+          "pa32-formula-07",
+          "pa32-formula-09",
+          "pa32-acu-15",
+          "pa32-theory-16",
+          "pa32-theory-17",
+          "pa32-theory-19"
+        ]
+      },
+      "blockedByGate": {
+        "count": 0,
+        "ids": []
+      }
+    },
+    {
+      "defect": "A",
+      "rawOccurrences": 2,
+      "caughtAtSource": {
+        "count": 2,
+        "layers": [
+          "事实采集"
+        ],
+        "ids": [
+          "pa32-herb-01",
+          "pa32-case-25"
+        ]
+      },
+      "blockedByGate": {
+        "count": 1,
+        "ids": [
+          "pa32-case-25"
+        ]
+      }
+    },
+    {
+      "defect": "C",
+      "rawOccurrences": 3,
+      "caughtAtSource": {
+        "count": 3,
+        "layers": [
+          "剂量分层"
+        ],
+        "ids": [
+          "pa32-herb-03",
+          "pa32-formula-06",
+          "pa32-formula-08"
+        ]
+      },
+      "blockedByGate": {
+        "count": 0,
+        "ids": []
+      }
+    },
+    {
+      "defect": "D",
+      "rawOccurrences": 2,
+      "caughtAtSource": {
+        "count": 2,
+        "layers": [
+          "知识分类"
+        ],
+        "ids": [
+          "pa32-herb-04",
+          "pa32-acu-13"
+        ]
+      },
+      "blockedByGate": {
+        "count": 0,
+        "ids": []
+      }
+    },
+    {
+      "defect": "H",
+      "rawOccurrences": 2,
+      "caughtAtSource": {
+        "count": 2,
+        "layers": [
+          "反模板"
+        ],
+        "ids": [
+          "pa32-case-23",
+          "pa32-case-24"
+        ]
+      },
+      "blockedByGate": {
+        "count": 2,
+        "ids": [
+          "pa32-case-23",
+          "pa32-case-24"
+        ]
+      }
+    },
+    {
+      "defect": "J",
+      "rawOccurrences": 2,
+      "caughtAtSource": {
+        "count": 2,
+        "layers": [
+          "安全红线"
+        ],
+        "ids": [
+          "pa32-acu-12",
+          "pa32-acu-14"
+        ]
+      },
+      "blockedByGate": {
+        "count": 0,
+        "ids": []
+      }
+    }
+  ],
+  "difficulty": {
+    "ladderLabelsOverall": {
+      "distinct": 5,
+      "missing": [],
+      "samples": 25
+    },
+    "perCategoryDistinct": {
+      "herb": 5,
+      "formula": 5,
+      "acupoint": 5,
+      "theory": 5,
+      "clinical": 5
+    },
+    "perCategory": {
+      "herb": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "formula": [
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "acupoint": [
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "theory": [
+        4,
+        2,
+        3,
+        1,
+        5
+      ],
+      "clinical": [
+        4,
+        5,
+        2,
+        1,
+        3
+      ]
+    }
+  }
+}

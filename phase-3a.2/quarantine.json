@@ -1,0 +1,144 @@
+{
+  "seed": 20260919,
+  "genLabel": "phase-3a.2-fresh",
+  "counts": {
+    "quarantine": 5
+  },
+  "note": "隔离 = Gate 最终不变式拦截；源头层无法自动修复的异常（证据不足 / 反证无效 / 套话修正 / 模板化 / 非法来源枚举）。",
+  "samples": [
+    {
+      "id": "pa32-theory-20",
+      "title": "病因病机",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "C3 证据不足",
+        "表面证据实则不足"
+      ],
+      "intent": "E 证据不足拦截(表面有证据但缺具体征象)",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据缺乏具体临床征象，证据不足以支撑结论"
+        }
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pa32-case-21",
+      "title": "脾胃湿热医案",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "C3 证据不足",
+        "证据强弱"
+      ],
+      "intent": "E 证据不足拦截(表面有证据但不足以定湿热)",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+        }
+      ],
+      "corrections": []
+    },
+    {
+      "id": "pa32-case-23",
+      "title": "咳嗽医案",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "C4 套话修正",
+        "模板化"
+      ],
+      "intent": "G 套话修正拦截 + H 模板化",
+      "gateFails": [
+        {
+          "gate": "G",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        },
+        {
+          "gate": "H",
+          "note": "freeReasoning/standardJudgment 模板化"
+        }
+      ],
+      "corrections": [
+        {
+          "layer": "反模板",
+          "kind": "H",
+          "reason": "「咳嗽医案」standardJudgment 与其他节点重复/包含（模板化），须重写"
+        }
+      ]
+    },
+    {
+      "id": "pa32-case-24",
+      "title": "失眠医案",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "证据强弱",
+        "强证据对照",
+        "模板化"
+      ],
+      "intent": "强证据通过 E（对照 #21）+ H 模板化",
+      "gateFails": [
+        {
+          "gate": "E",
+          "note": "核心证据缺乏具体临床征象，证据不足以支撑结论"
+        },
+        {
+          "gate": "H",
+          "note": "freeReasoning/standardJudgment 模板化"
+        }
+      ],
+      "corrections": [
+        {
+          "layer": "反模板",
+          "kind": "H",
+          "reason": "「失眠医案」standardJudgment 与其他节点重复/包含（模板化），须重写"
+        }
+      ]
+    },
+    {
+      "id": "pa32-case-25",
+      "title": "胸痹医案",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "C4 反证无效",
+        "非法来源枚举"
+      ],
+      "intent": "F 反证无效拦截 + A 非法 sourceType 隔离(负对照)",
+      "gateFails": [
+        {
+          "gate": "A",
+          "note": "fact「case.experience」sourceType 非法"
+        },
+        {
+          "gate": "E",
+          "note": "核心证据存在空泛项，表面有证据但不足以支撑结论"
+        },
+        {
+          "gate": "F",
+          "note": "反证为空泛/补充性说明，未真正削弱原判断"
+        },
+        {
+          "gate": "G",
+          "note": "修正为空泛套话，未实质回应反证、未重新限定原判断"
+        }
+      ],
+      "corrections": [
+        {
+          "layer": "事实采集",
+          "kind": "A",
+          "reason": "fact「case.experience」sourceType 非法「民间偏方」"
+        }
+      ]
+    }
+  ]
+}

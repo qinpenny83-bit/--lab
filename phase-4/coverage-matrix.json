@@ -1,0 +1,7609 @@
+{
+  "schema": "phase-4/coverage-matrix/v1",
+  "basis": "docs/audit/v35-content-bible.md Part1+Part2（285 主题）+ Part3 Reference（20 主题）= 305",
+  "generatedAt": "2026-09-20T09:06:02.088Z",
+  "totals": {
+    "total": 305,
+    "produced": 305,
+    "legacy": 0,
+    "pending": 0,
+    "byStatus": {
+      "candidate": 206,
+      "conditional": 96,
+      "quarantine": 3
+    }
+  },
+  "summary": {
+    "producedThemes": [
+      "01-01",
+      "01-02",
+      "01-03",
+      "01-04",
+      "01-05",
+      "01-06",
+      "01-07",
+      "01-08",
+      "02-01",
+      "02-02",
+      "02-03",
+      "02-04",
+      "02-05",
+      "02-06",
+      "02-07",
+      "02-08",
+      "02-09",
+      "02-10",
+      "02-11",
+      "02-12",
+      "02-13",
+      "02-14",
+      "02-15",
+      "03-01",
+      "03-02",
+      "03-03",
+      "03-04",
+      "03-05",
+      "03-06",
+      "03-07",
+      "03-08",
+      "03-09",
+      "03-10",
+      "03-11",
+      "03-12",
+      "03-13",
+      "04-01",
+      "04-02",
+      "04-03",
+      "04-04",
+      "04-05",
+      "04-06",
+      "04-07",
+      "04-08",
+      "04-09",
+      "04-10",
+      "04-11",
+      "04-12",
+      "04-13",
+      "04-14",
+      "04-15",
+      "04-16",
+      "04-17",
+      "04-18",
+      "04-19",
+      "05-01",
+      "05-02",
+      "05-03",
+      "05-04",
+      "05-05",
+      "05-06",
+      "05-07",
+      "05-08",
+      "05-09",
+      "05-10",
+      "05-11",
+      "05-12",
+      "05-13",
+      "05-14",
+      "05-15",
+      "05-16",
+      "05-17",
+      "06-01",
+      "06-02",
+      "06-03",
+      "06-04",
+      "06-05",
+      "06-06",
+      "06-07",
+      "06-08",
+      "07-01",
+      "07-02",
+      "07-03",
+      "07-04",
+      "07-05",
+      "07-06",
+      "07-07",
+      "07-08",
+      "07-09",
+      "07-10",
+      "07-11",
+      "07-12",
+      "07-13",
+      "07-14",
+      "07-15",
+      "08-01",
+      "08-02",
+      "08-03",
+      "08-04",
+      "08-05",
+      "08-06",
+      "08-07",
+      "08-08",
+      "08-09",
+      "08-10",
+      "08-11",
+      "09-01",
+      "09-02",
+      "09-03",
+      "09-04",
+      "09-05",
+      "09-06",
+      "09-07",
+      "09-08",
+      "09-09",
+      "09-10",
+      "09-11",
+      "09-12",
+      "09-13",
+      "09-14",
+      "09-15",
+      "09-16",
+      "09-17",
+      "09-18",
+      "09-19",
+      "09-20",
+      "09-21",
+      "09-22",
+      "09-23",
+      "10-01",
+      "10-02",
+      "10-03",
+      "10-04",
+      "10-05",
+      "10-06",
+      "10-07",
+      "10-08",
+      "10-09",
+      "10-10",
+      "10-11",
+      "10-12",
+      "10-13",
+      "10-14",
+      "10-15",
+      "11-01",
+      "11-02",
+      "11-03",
+      "11-04",
+      "11-05",
+      "11-06",
+      "11-07",
+      "11-08",
+      "11-09",
+      "11-10",
+      "11-11",
+      "11-12",
+      "11-13",
+      "11-14",
+      "12-01",
+      "12-02",
+      "12-03",
+      "12-04",
+      "12-05",
+      "12-06",
+      "12-07",
+      "12-08",
+      "12-09",
+      "12-10",
+      "12-11",
+      "12-12",
+      "12-13",
+      "12-14",
+      "12-15",
+      "12-16",
+      "12-17",
+      "12-18",
+      "12-19",
+      "12-20",
+      "12-21",
+      "12-22",
+      "12-23",
+      "12-24",
+      "12-25",
+      "12-26",
+      "12-27",
+      "12-28",
+      "12-29",
+      "12-30",
+      "13-01",
+      "13-02",
+      "13-03",
+      "13-04",
+      "13-05",
+      "13-06",
+      "13-07",
+      "13-08",
+      "13-09",
+      "13-10",
+      "13-11",
+      "14-01",
+      "14-02",
+      "14-03",
+      "14-04",
+      "14-05",
+      "14-06",
+      "14-07",
+      "15-01",
+      "15-02",
+      "15-03",
+      "15-04",
+      "15-05",
+      "15-06",
+      "16-01",
+      "16-02",
+      "16-03",
+      "16-04",
+      "16-05",
+      "16-06",
+      "16-07",
+      "16-08",
+      "17-01",
+      "17-02",
+      "17-03",
+      "17-04",
+      "17-05",
+      "17-06",
+      "17-07",
+      "17-08",
+      "17-09",
+      "18-01",
+      "18-02",
+      "18-03",
+      "18-04",
+      "18-05",
+      "18-06",
+      "18-07",
+      "18-08",
+      "18-09",
+      "18-10",
+      "18-11",
+      "18-12",
+      "18-13",
+      "18-14",
+      "18-15",
+      "19-01",
+      "19-02",
+      "19-03",
+      "19-04",
+      "19-05",
+      "19-06",
+      "19-07",
+      "19-08",
+      "19-09",
+      "19-10",
+      "19-11",
+      "20-01",
+      "20-02",
+      "20-03",
+      "20-04",
+      "20-05",
+      "20-06",
+      "21-01",
+      "21-02",
+      "21-03",
+      "21-04",
+      "21-05",
+      "21-06",
+      "21-07",
+      "21-08",
+      "22-01",
+      "22-02",
+      "22-03",
+      "22-04",
+      "22-05",
+      "22-06",
+      "23-01",
+      "23-02",
+      "23-03",
+      "23-04",
+      "23-05",
+      "23-06",
+      "23-07",
+      "23-08",
+      "23-09",
+      "23-10",
+      "01-09",
+      "02-16",
+      "02-17",
+      "03-14",
+      "04-20",
+      "04-21",
+      "05-18",
+      "05-19",
+      "06-09",
+      "06-10",
+      "07-16",
+      "08-12",
+      "09-24",
+      "09-25",
+      "11-15",
+      "12-31",
+      "14-08",
+      "16-09",
+      "18-16",
+      "19-12"
+    ],
+    "legacyThemes": [],
+    "pendingThemes": [],
+    "assetCount": 32,
+    "assetsByNode": {
+      "18-01": 3,
+      "18-02": 1,
+      "18-03": 1,
+      "18-04": 1,
+      "18-05": 3,
+      "18-06": 1,
+      "06-02": 10,
+      "10-02": 2,
+      "12-11": 2,
+      "12-06": 1,
+      "12-07": 1,
+      "12-12": 2,
+      "10-09": 1,
+      "10-05": 1,
+      "10-08": 1,
+      "21-05": 1
+    },
+    "batchesApplied": [
+      "batch-2",
+      "batch-3",
+      "batch-4"
+    ]
+  },
+  "rows": [
+    {
+      "nodeId": "01-01",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医学的基本特点",
+      "description": "整体观念、辨证论治、恒动观念",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 1,
+      "prerequisite": [],
+      "nextNode": "01-02",
+      "producedBy": [
+        "pb4-th-01-01"
+      ],
+      "legacyCoveredBy": [
+        "ck-tcm-definition"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "01-02",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "整体观念",
+      "description": "人体整体性、天人相应、社会心理一体",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 1,
+      "prerequisite": [
+        "01-01"
+      ],
+      "nextNode": "01-03",
+      "producedBy": [
+        "pb4-th-01-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-holism"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "01-03",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "辨证论治",
+      "description": "证的概念、辨证与论治的关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 1,
+      "prerequisite": [
+        "01-02"
+      ],
+      "nextNode": "01-04",
+      "producedBy": [
+        "pb4-th-01-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-syndrome-differentiation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "01-04",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "证、症、病的区别",
+      "description": "三者的定义、关系、临床意义",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 1,
+      "prerequisite": [
+        "01-03"
+      ],
+      "nextNode": "01-05",
+      "producedBy": [
+        "pb4-th-01-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-symptom-sign-disease"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "01-05",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "同病异治与异病同治",
+      "description": "原理、案例、临床价值",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-04"
+      ],
+      "nextNode": "01-06",
+      "producedBy": [
+        "pb2-th-01-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "01-06",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "因时因地因人制宜",
+      "description": "三因制宜的原则与案例",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-05"
+      ],
+      "nextNode": "01-07",
+      "producedBy": [
+        "pb2-th-01-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "01-07",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医理论体系框架",
+      "description": "基础理论、诊法、辨证、防治",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-06"
+      ],
+      "nextNode": "01-08",
+      "producedBy": [
+        "pb4-th-01-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-tcm-definition"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "01-08",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医理论的发展脉络",
+      "description": "从《黄帝内经》到现代",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-07"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-01-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "02-01",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳基本概念",
+      "description": "定义、阴阳学说的起源",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08"
+      ],
+      "nextNode": "02-02",
+      "producedBy": [
+        "pb1-theory-01"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-intro"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-02",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳属性",
+      "description": "属性划分标准、典型归类",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-01"
+      ],
+      "nextNode": "02-03",
+      "producedBy": [
+        "pb4-th-02-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-intro"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-03",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳对立制约",
+      "description": "对立统一的关系",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-02"
+      ],
+      "nextNode": "02-04",
+      "producedBy": [
+        "pb4-th-02-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-relation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-04",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳互根互用",
+      "description": "相互依存、相互为用",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-03"
+      ],
+      "nextNode": "02-05",
+      "producedBy": [
+        "pb4-th-02-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-relation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-05",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳消长平衡",
+      "description": "动态平衡的概念",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-04"
+      ],
+      "nextNode": "02-06",
+      "producedBy": [
+        "pb4-th-02-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-relation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-06",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳相互转化",
+      "description": "物极必反、重阴必阳",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-05"
+      ],
+      "nextNode": "02-07",
+      "producedBy": [
+        "pb4-th-02-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-relation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-07",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳的相对性",
+      "description": "无限可分、相对属性",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-06"
+      ],
+      "nextNode": "02-08",
+      "producedBy": [
+        "pb2-th-02-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "02-08",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳在人体中的体现",
+      "description": "结构、生理功能上的阴阳",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-07"
+      ],
+      "nextNode": "02-09",
+      "producedBy": [
+        "pb4-th-02-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-application"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-09",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与生理",
+      "description": "生命活动的阴阳平衡",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-08"
+      ],
+      "nextNode": "02-10",
+      "producedBy": [
+        "pb4-th-02-09"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-application"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-10",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与病理",
+      "description": "阴阳失调的基本病理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-09"
+      ],
+      "nextNode": "02-11",
+      "producedBy": [
+        "pb4-th-02-10"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-application"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-11",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与诊断",
+      "description": "望闻问切中的阴阳辨别",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-10"
+      ],
+      "nextNode": "02-12",
+      "producedBy": [
+        "pb4-th-02-11"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-application"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-12",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与治疗原则",
+      "description": "调整阴阳为治疗总纲",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-11"
+      ],
+      "nextNode": "02-13",
+      "producedBy": [
+        "pb4-th-02-12"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-application"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-13",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与八纲",
+      "description": "阴阳为八纲之总纲",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-12"
+      ],
+      "nextNode": "02-14",
+      "producedBy": [
+        "pb4-th-02-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-overview"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "02-14",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴平阳秘",
+      "description": "健康状态的核心描述",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-13"
+      ],
+      "nextNode": "02-15",
+      "producedBy": [
+        "pb2-th-02-14"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "02-15",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳综合案例",
+      "description": "融合多维度阴阳分析的案例",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-14"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb2-th-02-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-01",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行基本概念",
+      "description": "定义、起源、哲学基础",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-15"
+      ],
+      "nextNode": "03-02",
+      "producedBy": [
+        "pb2-th-03-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-02",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行属性",
+      "description": "木火土金水的基本特性",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-01"
+      ],
+      "nextNode": "03-03",
+      "producedBy": [
+        "pb3-th-03-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-03",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行归类",
+      "description": "自然界和人体的事物归类",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-02"
+      ],
+      "nextNode": "03-04",
+      "producedBy": [
+        "pb3-th-03-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-04",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行相生",
+      "description": "相生顺序与生我/我生关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-03"
+      ],
+      "nextNode": "03-05",
+      "producedBy": [
+        "pb1-theory-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-relation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "03-05",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行相克",
+      "description": "相克顺序与克我/我克关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-04"
+      ],
+      "nextNode": "03-06",
+      "producedBy": [
+        "pb2-th-03-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-06",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行制化",
+      "description": "生克互用、动态平衡",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-05"
+      ],
+      "nextNode": "03-07",
+      "producedBy": [
+        "pb3-th-03-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-07",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行乘侮",
+      "description": "相乘（过克）、相侮（反克）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-06"
+      ],
+      "nextNode": "03-08",
+      "producedBy": [
+        "pb2-th-03-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-08",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与人体（生理）",
+      "description": "五脏配五行、生理功能对应",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-07"
+      ],
+      "nextNode": "03-09",
+      "producedBy": [
+        "pb3-th-03-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-09",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与病理",
+      "description": "疾病的传变规律",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-08"
+      ],
+      "nextNode": "03-10",
+      "producedBy": [
+        "pb3-th-03-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-10",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与诊断",
+      "description": "色脉结合的五脏诊断",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-09"
+      ],
+      "nextNode": "03-11",
+      "producedBy": [
+        "pb3-th-03-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-11",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行与治疗",
+      "description": "培土生金、滋水涵木等治则",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-10"
+      ],
+      "nextNode": "03-12",
+      "producedBy": [
+        "pb3-th-03-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-12",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行的理论边界",
+      "description": "模型限制、与阴阳关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-11"
+      ],
+      "nextNode": "03-13",
+      "producedBy": [
+        "pb3-th-03-12"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "03-13",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行综合案例",
+      "description": "融合五行推理的案例",
+      "status": "quarantine",
+      "nodeStatus": "quarantine",
+      "sourceStatus": "quarantine",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "03-12"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-03-13"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-01",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "藏象基本概念",
+      "description": "藏象学说定义、形成基础",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13"
+      ],
+      "nextNode": "04-02",
+      "producedBy": [
+        "pb2-th-04-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-02",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏总论",
+      "description": "五脏的共同特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-01"
+      ],
+      "nextNode": "04-03",
+      "producedBy": [
+        "pb3-th-04-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-03",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "心（生理与病理）",
+      "description": "主血脉、主神志、病理表现",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-02"
+      ],
+      "nextNode": "04-04",
+      "producedBy": [
+        "pb1-theory-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-heart-zang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-04",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肝",
+      "description": "主疏泄、藏血、病理表现",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-03"
+      ],
+      "nextNode": "04-05",
+      "producedBy": [
+        "pb4-th-04-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-liver-zang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-05",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "脾",
+      "description": "主运化、统血、病理表现",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-04"
+      ],
+      "nextNode": "04-06",
+      "producedBy": [
+        "pb4-th-04-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-spleen-zang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-06",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肺",
+      "description": "主气、司呼吸、通调水道、病理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-05"
+      ],
+      "nextNode": "04-07",
+      "producedBy": [
+        "pb4-th-04-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-lung-zang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-07",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "肾",
+      "description": "藏精、主水、纳气、病理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-06"
+      ],
+      "nextNode": "04-08",
+      "producedBy": [
+        "pb4-th-04-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-kidney-zang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-08",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "六腑总论",
+      "description": "六腑的共同特点（传化物而不藏）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-07"
+      ],
+      "nextNode": "04-09",
+      "producedBy": [
+        "pb2-th-04-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-09",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "胆",
+      "description": "贮藏胆汁、主决断",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-08"
+      ],
+      "nextNode": "04-10",
+      "producedBy": [
+        "pb4-th-04-09"
+      ],
+      "legacyCoveredBy": [
+        "ck-gallbladder-bladder-san-jiao"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-10",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "胃",
+      "description": "受纳腐熟、胃气下降",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-09"
+      ],
+      "nextNode": "04-11",
+      "producedBy": [
+        "pb4-th-04-10"
+      ],
+      "legacyCoveredBy": [
+        "ck-stomach-fu"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-11",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "小肠",
+      "description": "泌别清浊",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-10"
+      ],
+      "nextNode": "04-12",
+      "producedBy": [
+        "pb4-th-04-11"
+      ],
+      "legacyCoveredBy": [
+        "ck-small-large-intestine"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-12",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "大肠",
+      "description": "传导糟粕",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-11"
+      ],
+      "nextNode": "04-13",
+      "producedBy": [
+        "pb4-th-04-12"
+      ],
+      "legacyCoveredBy": [
+        "ck-small-large-intestine"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-13",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "膀胱",
+      "description": "贮藏和排泄尿液",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-12"
+      ],
+      "nextNode": "04-14",
+      "producedBy": [
+        "pb4-th-04-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-gallbladder-bladder-san-jiao"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-14",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "三焦",
+      "description": "通行元气、水液通道",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-13"
+      ],
+      "nextNode": "04-15",
+      "producedBy": [
+        "pb4-th-04-14"
+      ],
+      "legacyCoveredBy": [
+        "ck-gallbladder-bladder-san-jiao"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "04-15",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "奇恒之腑",
+      "description": "脑、髓、骨、脉、胆、女子胞",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-14"
+      ],
+      "nextNode": "04-16",
+      "producedBy": [
+        "pb3-th-04-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-16",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏之间的关系",
+      "description": "如心肾相交、肝脾相关等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-15"
+      ],
+      "nextNode": "04-17",
+      "producedBy": [
+        "pb2-th-04-16"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-17",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "六腑之间的关系",
+      "description": "六腑以通为用",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-16"
+      ],
+      "nextNode": "04-18",
+      "producedBy": [
+        "pb3-th-04-17"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-18",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "脏与腑的表里关系",
+      "description": "心合小肠等表里对应",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-17"
+      ],
+      "nextNode": "04-19",
+      "producedBy": [
+        "pb3-th-04-18"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "04-19",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "藏象综合案例",
+      "description": "多脏腑联合推理案例",
+      "status": "quarantine",
+      "nodeStatus": "quarantine",
+      "sourceStatus": "quarantine",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "03-13",
+        "04-18"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-04-19"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "05-01",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精的基本概念与功能",
+      "description": "先天精与后天精、生殖与成长",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19"
+      ],
+      "nextNode": "05-02",
+      "producedBy": [
+        "pb2-th-05-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "05-02",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的基本概念",
+      "description": "气的哲学基础、医学含义",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "05-01"
+      ],
+      "nextNode": "05-03",
+      "producedBy": [
+        "pb1-theory-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-basics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-03",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的生成",
+      "description": "先天之气+水谷之气+清气",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "05-02"
+      ],
+      "nextNode": "05-04",
+      "producedBy": [
+        "pb4-th-05-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-basics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-04",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的功能",
+      "description": "推动、温煦、防御、固摄、气化",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "05-03"
+      ],
+      "nextNode": "05-05",
+      "producedBy": [
+        "pb4-th-05-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-basics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-05",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的运动",
+      "description": "升降出入的普遍性",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-04"
+      ],
+      "nextNode": "05-06",
+      "producedBy": [
+        "pb4-th-05-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-movement"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-06",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气机",
+      "description": "气的运动形式与规律",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-05"
+      ],
+      "nextNode": "05-07",
+      "producedBy": [
+        "pb4-th-05-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-movement",
+        "ck-qi-mechanism"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-07",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气的分类",
+      "description": "元气、宗气、营气、卫气",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-06"
+      ],
+      "nextNode": "05-08",
+      "producedBy": [
+        "pb4-th-05-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-basics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-08",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "血的基本概念",
+      "description": "血的生成、功能",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-07"
+      ],
+      "nextNode": "05-09",
+      "producedBy": [
+        "pb4-th-05-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-blood-basics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-09",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "津液的基本概念",
+      "description": "津与液的区别、生成与输布",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-08"
+      ],
+      "nextNode": "05-10",
+      "producedBy": [
+        "pb4-th-05-09"
+      ],
+      "legacyCoveredBy": [
+        "ck-body-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-10",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "神的基本概念",
+      "description": "神的含义、与五脏的关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-09"
+      ],
+      "nextNode": "05-11",
+      "producedBy": [
+        "pb4-th-05-10"
+      ],
+      "legacyCoveredBy": [
+        "ck-spirit-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-11",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气与血的关系",
+      "description": "气为血帅、血为气母",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-10"
+      ],
+      "nextNode": "05-12",
+      "producedBy": [
+        "pb4-th-05-11"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-blood-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-12",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气与津液的关系",
+      "description": "气能生津、气能行津、气能摄津",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "05-11"
+      ],
+      "nextNode": "05-13",
+      "producedBy": [
+        "pb4-th-05-12"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-blood-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-13",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "血与津液的关系",
+      "description": "津血同源",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "05-12"
+      ],
+      "nextNode": "05-14",
+      "producedBy": [
+        "pb4-th-05-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-blood-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "05-14",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精与气的关系",
+      "description": "精气互化",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "05-13"
+      ],
+      "nextNode": "05-15",
+      "producedBy": [
+        "pb2-th-05-14"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "05-15",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精与血的关系",
+      "description": "精血同源",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "05-14"
+      ],
+      "nextNode": "05-16",
+      "producedBy": [
+        "pb2-th-05-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "05-16",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精神互用",
+      "description": "精能化神、神能御精",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "05-15"
+      ],
+      "nextNode": "05-17",
+      "producedBy": [
+        "pb2-th-05-16"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "05-17",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "综合关系案例",
+      "description": "气血津液神多维度推理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "05-16"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-05-17"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-01",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络基本概念",
+      "description": "经络的定义、系统组成",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19"
+      ],
+      "nextNode": "06-02",
+      "producedBy": [
+        "pb2-th-06-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-02",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "十二经脉",
+      "description": "名称、走向、交接规律",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "06-01"
+      ],
+      "nextNode": "06-03",
+      "producedBy": [
+        "pb2-th-06-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-acu-01",
+        "pb1-acu-02",
+        "pb1-acu-03",
+        "pb1-acu-04",
+        "pb1-acu-05",
+        "pb1-acu-06",
+        "pb1-acu-07",
+        "pb1-acu-08",
+        "pb1-acu-09",
+        "pb1-acu-10"
+      ]
+    },
+    {
+      "nodeId": "06-03",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "奇经八脉",
+      "description": "督任冲带等八脉功能",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "06-02"
+      ],
+      "nextNode": "06-04",
+      "producedBy": [
+        "pb3-th-06-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-04",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "络脉",
+      "description": "十五络脉、孙络",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "06-03"
+      ],
+      "nextNode": "06-05",
+      "producedBy": [
+        "pb3-th-06-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-05",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经筋与皮部",
+      "description": "十二经筋、十二皮部",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "06-04"
+      ],
+      "nextNode": "06-06",
+      "producedBy": [
+        "pb3-th-06-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-06",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络生理功能",
+      "description": "联络、运行、感应、调节",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "06-05"
+      ],
+      "nextNode": "06-07",
+      "producedBy": [
+        "pb2-th-06-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-07",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络病理",
+      "description": "传变途径、反映病候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "06-06"
+      ],
+      "nextNode": "06-08",
+      "producedBy": [
+        "pb3-th-06-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "06-08",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "经络理论的位置",
+      "description": "在中医学体系中的角色",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "06-07"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-06-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-01",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "六淫概念",
+      "description": "六气与六淫、共同致病特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19"
+      ],
+      "nextNode": "07-02",
+      "producedBy": [
+        "pb1-theory-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-etiology"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "07-02",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "风邪",
+      "description": "特性、致病特点、常见病证",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "07-01"
+      ],
+      "nextNode": "07-03",
+      "producedBy": [
+        "pb2-th-07-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-03",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "寒邪",
+      "description": "特性、致病特点、常见病证",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "07-02"
+      ],
+      "nextNode": "07-04",
+      "producedBy": [
+        "pb2-th-07-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-04",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "暑邪",
+      "description": "特性、致病特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "04-19",
+        "07-03"
+      ],
+      "nextNode": "07-05",
+      "producedBy": [
+        "pb3-th-07-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-05",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "湿邪",
+      "description": "特性、致病特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-04"
+      ],
+      "nextNode": "07-06",
+      "producedBy": [
+        "pb2-th-07-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-06",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "燥邪",
+      "description": "特性、致病特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-05"
+      ],
+      "nextNode": "07-07",
+      "producedBy": [
+        "pb3-th-07-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-07",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "火（热）邪",
+      "description": "特性、致病特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-06"
+      ],
+      "nextNode": "07-08",
+      "producedBy": [
+        "pb3-th-07-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-08",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "疠气",
+      "description": "疫病病因、特点",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-07"
+      ],
+      "nextNode": "07-09",
+      "producedBy": [
+        "pb3-th-07-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-09",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "七情内伤",
+      "description": "七情与五脏关系、致病特点",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-08"
+      ],
+      "nextNode": "07-10",
+      "producedBy": [
+        "pb4-th-07-09"
+      ],
+      "legacyCoveredBy": [
+        "ck-etiology",
+        "ck-spirit-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "07-10",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "饮食失宜",
+      "description": "饥饱失常、饮食不洁、偏嗜",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-09"
+      ],
+      "nextNode": "07-11",
+      "producedBy": [
+        "pb3-th-07-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-11",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "劳逸失度",
+      "description": "过劳、过逸的伤害",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "07-10"
+      ],
+      "nextNode": "07-12",
+      "producedBy": [
+        "pb3-th-07-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-12",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "外伤与虫兽伤",
+      "description": "外伤病因概述",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "07-11"
+      ],
+      "nextNode": "07-13",
+      "producedBy": [
+        "pb3-th-07-12"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "07-13",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "痰饮",
+      "description": "痰饮的概念、形成、致病",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "07-12"
+      ],
+      "nextNode": "07-14",
+      "producedBy": [
+        "pb4-th-07-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-phlegm-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "07-14",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "瘀血",
+      "description": "瘀血概念、形成、致病、特征",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "07-13"
+      ],
+      "nextNode": "07-15",
+      "producedBy": [
+        "pb4-th-07-14"
+      ],
+      "legacyCoveredBy": [
+        "ck-blood-stasis"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "07-15",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "综合病因分析",
+      "description": "多因素致病的推理训练",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "07-14"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-07-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "08-01",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机基本概念",
+      "description": "病机的定义、层次",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "07-15"
+      ],
+      "nextNode": "08-02",
+      "producedBy": [
+        "pb4-cl-08-01"
+      ],
+      "legacyCoveredBy": [
+        "ck-pathogenesis"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "08-02",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "邪正盛衰",
+      "description": "正邪相争决定虚实",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "07-15",
+        "08-01"
+      ],
+      "nextNode": "08-03",
+      "producedBy": [
+        "pb1-theory-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-vital-pathogen"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "08-03",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "阴阳失调",
+      "description": "阴阳偏盛/偏衰/互损/格拒/亡失",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "07-15",
+        "08-02"
+      ],
+      "nextNode": "08-04",
+      "producedBy": [
+        "pb4-cl-08-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-application"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "08-04",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "气血失常",
+      "description": "气虚/气滞/气逆/血虚/血瘀等",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "07-15",
+        "08-03"
+      ],
+      "nextNode": "08-05",
+      "producedBy": [
+        "pb4-cl-08-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-disorders",
+        "ck-qi-mechanism-disorder",
+        "ck-blood-cold-heat"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "08-05",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "津液代谢失常",
+      "description": "津液不足/输布障碍/排泄障碍",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "07-15",
+        "08-04"
+      ],
+      "nextNode": "08-06",
+      "producedBy": [
+        "pb4-cl-08-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-body-fluid",
+        "ck-phlegm-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "08-06",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "内生五邪",
+      "description": "内风、内寒、内湿、内燥、内火",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "07-15",
+        "08-05"
+      ],
+      "nextNode": "08-07",
+      "producedBy": [
+        "pb2-cl-08-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "08-07",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "气机升降出入失常",
+      "description": "升降失调、出入失常的病理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "07-15",
+        "08-06"
+      ],
+      "nextNode": "08-08",
+      "producedBy": [
+        "pb4-cl-08-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-ascent-descent",
+        "ck-qi-mechanism-disorder"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "08-08",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "脏腑病机",
+      "description": "五脏六腑的病理变化规律",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "07-15",
+        "08-07"
+      ],
+      "nextNode": "08-09",
+      "producedBy": [
+        "pb2-cl-08-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "08-09",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病位、病性、病势",
+      "description": "疾病定位、定性、定势",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "07-15",
+        "08-08"
+      ],
+      "nextNode": "08-10",
+      "producedBy": [
+        "pb2-cl-08-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "08-10",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机转化",
+      "description": "寒热转化、虚实转化、表里传变",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "07-15",
+        "08-09"
+      ],
+      "nextNode": "08-11",
+      "producedBy": [
+        "pb2-cl-08-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "08-11",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "病机综合推理",
+      "description": "现象→线索→病理解释→可能机制",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "07-15",
+        "08-10"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-cl-08-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-01",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望诊理论基础",
+      "description": "望诊的原理、主要内容",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08"
+      ],
+      "nextNode": "09-02",
+      "producedBy": [
+        "pb4-dg-09-01"
+      ],
+      "legacyCoveredBy": [
+        "ck-inspection"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-02",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望神",
+      "description": "得神、失神、假神",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "09-01"
+      ],
+      "nextNode": "09-03",
+      "producedBy": [
+        "pb4-dg-09-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-spirit-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-03",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望色",
+      "description": "五色主病",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "09-02"
+      ],
+      "nextNode": "09-04",
+      "producedBy": [
+        "pb2-dg-09-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-04",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望形态",
+      "description": "形体、动态",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "09-03"
+      ],
+      "nextNode": "09-05",
+      "producedBy": [
+        "pb3-dg-09-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-05",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望头面五官",
+      "description": "头面、目、鼻、唇、齿等",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "09-04"
+      ],
+      "nextNode": "09-06",
+      "producedBy": [
+        "pb3-dg-09-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-06",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望舌（舌诊）",
+      "description": "舌质、舌苔、舌下络脉",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "01-08",
+        "09-05"
+      ],
+      "nextNode": "09-07",
+      "producedBy": [
+        "pb4-dg-09-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-tongue-dx"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-07",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "望排出物",
+      "description": "痰涎、呕吐物、二便",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-06"
+      ],
+      "nextNode": "09-08",
+      "producedBy": [
+        "pb3-dg-09-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-08",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "闻诊理论基础",
+      "description": "听声音、嗅气味",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-07"
+      ],
+      "nextNode": "09-09",
+      "producedBy": [
+        "pb4-dg-09-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-auscultation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-09",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "听声音",
+      "description": "语声、呼吸、咳嗽等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-08"
+      ],
+      "nextNode": "09-10",
+      "producedBy": [
+        "pb3-dg-09-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-10",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "嗅气味",
+      "description": "病体气味、排出物气味",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-09"
+      ],
+      "nextNode": "09-11",
+      "producedBy": [
+        "pb3-dg-09-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-11",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问诊理论基础",
+      "description": "问诊的重要性与内容",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-10"
+      ],
+      "nextNode": "09-12",
+      "producedBy": [
+        "pb4-dg-09-11"
+      ],
+      "legacyCoveredBy": [
+        "ck-inquiry"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-12",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "十问歌",
+      "description": "一问寒热二问汗等系统问诊框架",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-11"
+      ],
+      "nextNode": "09-13",
+      "producedBy": [
+        "pb2-dg-09-12"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-13",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问寒热",
+      "description": "恶寒发热、但寒不热、但热不寒",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-12"
+      ],
+      "nextNode": "09-14",
+      "producedBy": [
+        "pb4-dg-09-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-cold-heat-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-14",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问汗",
+      "description": "表证汗、自汗、盗汗、绝汗",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-13"
+      ],
+      "nextNode": "09-15",
+      "producedBy": [
+        "pb4-dg-09-14"
+      ],
+      "legacyCoveredBy": [
+        "ck-sweat-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-15",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问疼痛",
+      "description": "疼痛的部位、性质、时间",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-14"
+      ],
+      "nextNode": "09-16",
+      "producedBy": [
+        "pb2-dg-09-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-16",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问饮食口味",
+      "description": "口渴、食欲、口味异常",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-15"
+      ],
+      "nextNode": "09-17",
+      "producedBy": [
+        "pb4-dg-09-16"
+      ],
+      "legacyCoveredBy": [
+        "ck-diet-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-17",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问二便",
+      "description": "大便、小便的异常",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "09-16"
+      ],
+      "nextNode": "09-18",
+      "producedBy": [
+        "pb3-dg-09-17"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-18",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问睡眠",
+      "description": "失眠、嗜睡",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "09-17"
+      ],
+      "nextNode": "09-19",
+      "producedBy": [
+        "pb4-dg-09-18"
+      ],
+      "legacyCoveredBy": [
+        "ck-sleep-obs"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-19",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "问情志",
+      "description": "七情变化的观察与询问",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "09-18"
+      ],
+      "nextNode": "09-20",
+      "producedBy": [
+        "pb3-dg-09-19"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "09-20",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "切诊理论基础",
+      "description": "切诊的分类与原理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "09-19"
+      ],
+      "nextNode": "09-21",
+      "producedBy": [
+        "pb4-dg-09-20"
+      ],
+      "legacyCoveredBy": [
+        "ck-palpation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-21",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "脉诊基本",
+      "description": "切脉方法、平脉特征",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "09-20"
+      ],
+      "nextNode": "09-22",
+      "producedBy": [
+        "pb4-dg-09-21"
+      ],
+      "legacyCoveredBy": [
+        "ck-pulse-dx"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-22",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "常见脉象（浮沉迟数）",
+      "description": "基础脉象的识别与主病",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "09-21"
+      ],
+      "nextNode": "09-23",
+      "producedBy": [
+        "pb4-dg-09-22"
+      ],
+      "legacyCoveredBy": [
+        "ck-pulse-dx"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "09-23",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "按诊",
+      "description": "肌肤、胸腹的触按",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "09-22"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-dg-09-23"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "10-01",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲辨证总论",
+      "description": "八纲的由来、地位与辨证思路",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23"
+      ],
+      "nextNode": "10-02",
+      "producedBy": [
+        "pb1-theory-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-ba-gang-integration"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-02",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表证与里证",
+      "description": "表里概念、证候特征、鉴别",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-01"
+      ],
+      "nextNode": "10-03",
+      "producedBy": [
+        "pb4-cl-10-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-exterior-syndrome"
+      ],
+      "assets": [
+        "pb1-case-01",
+        "pb1-case-08"
+      ]
+    },
+    {
+      "nodeId": "10-03",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表里同病",
+      "description": "表里同病的表现与辨证",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-02"
+      ],
+      "nextNode": "10-04",
+      "producedBy": [
+        "pb4-cl-10-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-exterior-interior-dynamics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-04",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "表里出入",
+      "description": "疾病由表入里、由里出表",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-03"
+      ],
+      "nextNode": "10-05",
+      "producedBy": [
+        "pb4-cl-10-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-exterior-interior-dynamics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-05",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒证与热证",
+      "description": "寒热概念、证候特征、鉴别",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-04"
+      ],
+      "nextNode": "10-06",
+      "producedBy": [
+        "pb4-cl-10-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-cold-heat-ba"
+      ],
+      "assets": [
+        "pb1-case-06"
+      ]
+    },
+    {
+      "nodeId": "10-06",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热错杂",
+      "description": "上热下寒等混合情况",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-05"
+      ],
+      "nextNode": "10-07",
+      "producedBy": [
+        "pb2-cl-10-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "10-07",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热转化",
+      "description": "寒化热、热化寒",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-06"
+      ],
+      "nextNode": "10-08",
+      "producedBy": [
+        "pb4-cl-10-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-cold-heat-transformation"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-08",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "寒热真假",
+      "description": "真热假寒、真寒假热",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-07"
+      ],
+      "nextNode": "10-09",
+      "producedBy": [
+        "pb4-cl-10-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-false-cold-heat",
+        "ck-true-false-identification"
+      ],
+      "assets": [
+        "pb1-case-09"
+      ]
+    },
+    {
+      "nodeId": "10-09",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚证与实证",
+      "description": "虚实概念、证候特征、鉴别",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-08"
+      ],
+      "nextNode": "10-10",
+      "producedBy": [
+        "pb4-cl-10-09"
+      ],
+      "legacyCoveredBy": [
+        "ck-deficiency-excess"
+      ],
+      "assets": [
+        "pb1-case-05"
+      ]
+    },
+    {
+      "nodeId": "10-10",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚实夹杂",
+      "description": "虚实并见的复杂情况",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-09"
+      ],
+      "nextNode": "10-11",
+      "producedBy": [
+        "pb4-cl-10-10"
+      ],
+      "legacyCoveredBy": [
+        "ck-deficiency-excess-mixed",
+        "ck-deficiency-excess-intertwine"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-11",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "虚实转化",
+      "description": "由虚转实、由实转虚",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-10"
+      ],
+      "nextNode": "10-12",
+      "producedBy": [
+        "pb2-cl-10-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "10-12",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "阴阳为总纲",
+      "description": "阴证阳证的划分",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-11"
+      ],
+      "nextNode": "10-13",
+      "producedBy": [
+        "pb4-cl-10-12"
+      ],
+      "legacyCoveredBy": [
+        "ck-yin-yang-overview"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-13",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲之间组合",
+      "description": "如表实寒、里虚热等组合",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-12"
+      ],
+      "nextNode": "10-14",
+      "producedBy": [
+        "pb4-cl-10-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-ba-gang-integration"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-14",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲辨证常见误区",
+      "description": "单一症状下结论等",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-13"
+      ],
+      "nextNode": "10-15",
+      "producedBy": [
+        "pb4-cl-10-14"
+      ],
+      "legacyCoveredBy": [
+        "ck-counter-evidence"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "10-15",
+      "domain": "10",
+      "domainName": "八纲辨证",
+      "topic": "八纲综合案例",
+      "description": "融合四对纲领的推理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "01-08",
+        "02-15",
+        "09-23",
+        "10-14"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb2-cl-10-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "11-01",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气血津液辨证总论",
+      "description": "辨证定位、与八纲的关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15"
+      ],
+      "nextNode": "11-02",
+      "producedBy": [
+        "pb2-cl-11-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "11-02",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气虚证",
+      "description": "气的不足证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-01"
+      ],
+      "nextNode": "11-03",
+      "producedBy": [
+        "pb4-cl-11-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-disorders"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-03",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气陷证",
+      "description": "中气下陷、脏器下垂",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-02"
+      ],
+      "nextNode": "11-04",
+      "producedBy": [
+        "pb4-cl-11-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-disorders"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-04",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气滞证",
+      "description": "气机阻滞、胀痛为主",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-03"
+      ],
+      "nextNode": "11-05",
+      "producedBy": [
+        "pb4-cl-11-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-disorders"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-05",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气逆证",
+      "description": "气机上逆（咳喘、呕恶）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-04"
+      ],
+      "nextNode": "11-06",
+      "producedBy": [
+        "pb4-cl-11-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-qi-disorders"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-06",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血虚证",
+      "description": "血的濡养不足",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-05"
+      ],
+      "nextNode": "11-07",
+      "producedBy": [
+        "pb2-cl-11-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "11-07",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血瘀证",
+      "description": "血液停滞的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-06"
+      ],
+      "nextNode": "11-08",
+      "producedBy": [
+        "pb4-cl-11-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-blood-stasis"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-08",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "血热证",
+      "description": "热入血分的证候",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-07"
+      ],
+      "nextNode": "11-09",
+      "producedBy": [
+        "pb4-cl-11-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-blood-cold-heat"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-09",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "出血证",
+      "description": "各种出血的辨证",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-08"
+      ],
+      "nextNode": "11-10",
+      "producedBy": [
+        "pb2-cl-11-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "11-10",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "津液不足证",
+      "description": "津亏、阴虚的不同",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-09"
+      ],
+      "nextNode": "11-11",
+      "producedBy": [
+        "pb2-cl-11-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "11-11",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "痰证",
+      "description": "痰的证候特点",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-10"
+      ],
+      "nextNode": "11-12",
+      "producedBy": [
+        "pb4-cl-11-11"
+      ],
+      "legacyCoveredBy": [
+        "ck-phlegm-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-12",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "饮证",
+      "description": "饮的四种分类（痰/悬/溢/支）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-11"
+      ],
+      "nextNode": "11-13",
+      "producedBy": [
+        "pb4-cl-11-12"
+      ],
+      "legacyCoveredBy": [
+        "ck-phlegm-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-13",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "水湿证",
+      "description": "水湿内停的证候",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-12"
+      ],
+      "nextNode": "11-14",
+      "producedBy": [
+        "pb4-cl-11-13"
+      ],
+      "legacyCoveredBy": [
+        "ck-phlegm-fluid"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "11-14",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "证候区别与联系",
+      "description": "如气虚与气陷、血虚与阴虚等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "05-17",
+        "10-15",
+        "11-13"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-cl-11-14"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-01",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证总论",
+      "description": "辨证思路、与八纲/气血津液关系",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14"
+      ],
+      "nextNode": "12-02",
+      "producedBy": [
+        "pb4-cl-12-01"
+      ],
+      "legacyCoveredBy": [
+        "ck-ba-gang-integration"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "12-02",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心气虚/心阳虚",
+      "description": "心功能不足的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-01"
+      ],
+      "nextNode": "12-03",
+      "producedBy": [
+        "pb2-cl-12-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-03",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心血虚/心阴虚",
+      "description": "心失濡养的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-02"
+      ],
+      "nextNode": "12-04",
+      "producedBy": [
+        "pb3-cl-12-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-04",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心火亢盛",
+      "description": "心火上炎的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-03"
+      ],
+      "nextNode": "12-05",
+      "producedBy": [
+        "pb2-cl-12-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-05",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心脉瘀阻",
+      "description": "心血瘀阻的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-04"
+      ],
+      "nextNode": "12-06",
+      "producedBy": [
+        "pb3-cl-12-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-06",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝气郁结",
+      "description": "肝失疏泄的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-05"
+      ],
+      "nextNode": "12-07",
+      "producedBy": [
+        "pb2-cl-12-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-case-03"
+      ]
+    },
+    {
+      "nodeId": "12-07",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝火上炎",
+      "description": "肝火冲逆的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-06"
+      ],
+      "nextNode": "12-08",
+      "producedBy": [
+        "pb3-cl-12-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-case-03"
+      ]
+    },
+    {
+      "nodeId": "12-08",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝阴虚/肝血虚",
+      "description": "肝之阴血不足",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-07"
+      ],
+      "nextNode": "12-09",
+      "producedBy": [
+        "pb2-cl-12-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-09",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝阳上亢",
+      "description": "上盛下虚的证候",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-08"
+      ],
+      "nextNode": "12-10",
+      "producedBy": [
+        "pb3-cl-12-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-10",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝风内动",
+      "description": "抽动震颤的证候",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-09"
+      ],
+      "nextNode": "12-11",
+      "producedBy": [
+        "pb3-cl-12-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-11",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脾气虚/脾阳虚",
+      "description": "脾功能的不足",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-10"
+      ],
+      "nextNode": "12-12",
+      "producedBy": [
+        "pb2-cl-12-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-case-02",
+        "pb1-case-07"
+      ]
+    },
+    {
+      "nodeId": "12-12",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "寒湿困脾/湿热蕴脾",
+      "description": "湿邪困脾的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-11"
+      ],
+      "nextNode": "12-13",
+      "producedBy": [
+        "pb3-cl-12-12"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-case-04",
+        "pb1-case-07"
+      ]
+    },
+    {
+      "nodeId": "12-13",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺气虚",
+      "description": "肺功能不足的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-12"
+      ],
+      "nextNode": "12-14",
+      "producedBy": [
+        "pb3-cl-12-13"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-14",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺阴虚",
+      "description": "肺燥津亏的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-13"
+      ],
+      "nextNode": "12-15",
+      "producedBy": [
+        "pb3-cl-12-14"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-15",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "风寒束肺/风热犯肺",
+      "description": "外邪犯肺的证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-14"
+      ],
+      "nextNode": "12-16",
+      "producedBy": [
+        "pb3-cl-12-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-16",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肾阳虚/肾阴虚",
+      "description": "肾之阴阳不足",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-15"
+      ],
+      "nextNode": "12-17",
+      "producedBy": [
+        "pb2-cl-12-16"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-17",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肾气不固/肾不纳气",
+      "description": "肾的固摄与纳气功能失调",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-16"
+      ],
+      "nextNode": "12-18",
+      "producedBy": [
+        "pb3-cl-12-17"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-18",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肾精不足",
+      "description": "生长发育和生殖减退",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-17"
+      ],
+      "nextNode": "12-19",
+      "producedBy": [
+        "pb3-cl-12-18"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-19",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "胃寒/胃热/胃阴虚",
+      "description": "胃的常见证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-18"
+      ],
+      "nextNode": "12-20",
+      "producedBy": [
+        "pb3-cl-12-19"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-20",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "胆郁痰扰",
+      "description": "胆的常见证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-19"
+      ],
+      "nextNode": "12-21",
+      "producedBy": [
+        "pb3-cl-12-20"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-21",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "小肠/大肠常见证候",
+      "description": "大小肠的常见证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-20"
+      ],
+      "nextNode": "12-22",
+      "producedBy": [
+        "pb3-cl-12-21"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-22",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心脾两虚",
+      "description": "心血不足+脾气虚弱",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-21"
+      ],
+      "nextNode": "12-23",
+      "producedBy": [
+        "pb3-cl-12-22"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-23",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝脾不调",
+      "description": "肝郁+脾虚",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-22"
+      ],
+      "nextNode": "12-24",
+      "producedBy": [
+        "pb3-cl-12-23"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-24",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝胃不和",
+      "description": "肝气犯胃",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-23"
+      ],
+      "nextNode": "12-25",
+      "producedBy": [
+        "pb3-cl-12-24"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-25",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肝肾阴虚",
+      "description": "肝肾阴液不足",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-24"
+      ],
+      "nextNode": "12-26",
+      "producedBy": [
+        "pb3-cl-12-25"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-26",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脾肾阳虚",
+      "description": "火不生土",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-25"
+      ],
+      "nextNode": "12-27",
+      "producedBy": [
+        "pb3-cl-12-26"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-27",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺脾两虚",
+      "description": "土不生金",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-26"
+      ],
+      "nextNode": "12-28",
+      "producedBy": [
+        "pb3-cl-12-27"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-28",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "肺肾阴虚",
+      "description": "金水相生的阴虚",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-27"
+      ],
+      "nextNode": "12-29",
+      "producedBy": [
+        "pb3-cl-12-28"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-29",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "心肾不交",
+      "description": "心火肾水不济",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-28"
+      ],
+      "nextNode": "12-30",
+      "producedBy": [
+        "pb3-cl-12-29"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "12-30",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证综合案例",
+      "description": "多脏腑兼证的推理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "11-14",
+        "12-29"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-cl-12-30"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "13-01",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经辨证总论",
+      "description": "六经的由来、《伤寒论》体系定位",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30"
+      ],
+      "nextNode": "13-02",
+      "producedBy": [
+        "pb2-cl-13-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "13-02",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "太阳病辨证",
+      "description": "经证与腑证",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-01"
+      ],
+      "nextNode": "13-03",
+      "producedBy": [
+        "pb4-cl-13-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-six-meridian-taiyang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "13-03",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "阳明病辨证",
+      "description": "经证与腑证",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-02"
+      ],
+      "nextNode": "13-04",
+      "producedBy": [
+        "pb4-cl-13-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-six-meridian-yangming"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "13-04",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "少阳病辨证",
+      "description": "半表半里的枢机",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-03"
+      ],
+      "nextNode": "13-05",
+      "producedBy": [
+        "pb4-cl-13-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-six-meridian-shaoyang"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "13-05",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "太阴病辨证",
+      "description": "脾虚寒湿证",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-04"
+      ],
+      "nextNode": "13-06",
+      "producedBy": [
+        "pb4-cl-13-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-six-meridian-taiyin"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "13-06",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "少阴病辨证",
+      "description": "寒化与热化",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-05"
+      ],
+      "nextNode": "13-07",
+      "producedBy": [
+        "pb4-cl-13-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-six-meridian-shaoyin"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "13-07",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "厥阴病辨证",
+      "description": "寒热错杂证",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-06"
+      ],
+      "nextNode": "13-08",
+      "producedBy": [
+        "pb4-cl-13-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-six-meridian-jueyin"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "13-08",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经传变",
+      "description": "循经传、越经传、合病、并病",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-07"
+      ],
+      "nextNode": "13-09",
+      "producedBy": [
+        "pb2-cl-13-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "13-09",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "合病与并病",
+      "description": "两经/三经同时发病、依次传变",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-08"
+      ],
+      "nextNode": "13-10",
+      "producedBy": [
+        "pb2-cl-13-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "13-10",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经辨证思路",
+      "description": "从症到经的推理方法",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-09"
+      ],
+      "nextNode": "13-11",
+      "producedBy": [
+        "pb3-cl-13-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "13-11",
+      "domain": "13",
+      "domainName": "六经辨证",
+      "topic": "六经经典案例",
+      "description": "《伤寒论》典型病案",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "12-30",
+        "13-10"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-cl-13-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "14-01",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血总论",
+      "description": "温病辨证体系定位",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15"
+      ],
+      "nextNode": "14-02",
+      "producedBy": [
+        "pb1-theory-10"
+      ],
+      "legacyCoveredBy": [
+        "ck-defensive-qi-blood"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "14-02",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫分证",
+      "description": "温病初起、邪在肺卫",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "14-01"
+      ],
+      "nextNode": "14-03",
+      "producedBy": [
+        "pb2-cl-14-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "14-03",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "气分证",
+      "description": "邪入气分、里热炽盛",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "14-02"
+      ],
+      "nextNode": "14-04",
+      "producedBy": [
+        "pb2-cl-14-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "14-04",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "营分证",
+      "description": "热入营分、营阴受损",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "14-03"
+      ],
+      "nextNode": "14-05",
+      "producedBy": [
+        "pb2-cl-14-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "14-05",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "血分证",
+      "description": "热入血分、耗血动血",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "14-04"
+      ],
+      "nextNode": "14-06",
+      "producedBy": [
+        "pb3-cl-14-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "14-06",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血的传变",
+      "description": "顺传、逆传、卫气同病等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "14-05"
+      ],
+      "nextNode": "14-07",
+      "producedBy": [
+        "pb3-cl-14-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "14-07",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血辨证特点",
+      "description": "与六经辨证的比较",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "04-19",
+        "10-15",
+        "14-06"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-cl-14-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "15-01",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "三焦辨证总论",
+      "description": "吴鞠通温病三焦体系定位",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "14-07"
+      ],
+      "nextNode": "15-02",
+      "producedBy": [
+        "pb4-cl-15-01"
+      ],
+      "legacyCoveredBy": [
+        "ck-triple-burner"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "15-02",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "上焦病证",
+      "description": "心肺的温病证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "14-07",
+        "15-01"
+      ],
+      "nextNode": "15-03",
+      "producedBy": [
+        "pb2-cl-15-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "15-03",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "中焦病证",
+      "description": "脾胃的温病证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "14-07",
+        "15-02"
+      ],
+      "nextNode": "15-04",
+      "producedBy": [
+        "pb2-cl-15-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "15-04",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "下焦病证",
+      "description": "肝肾的温病证候",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "14-07",
+        "15-03"
+      ],
+      "nextNode": "15-05",
+      "producedBy": [
+        "pb2-cl-15-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "15-05",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "三焦传变",
+      "description": "自上而下的传变规律",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "14-07",
+        "15-04"
+      ],
+      "nextNode": "15-06",
+      "producedBy": [
+        "pb3-cl-15-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "15-06",
+      "domain": "15",
+      "domainName": "三焦辨证",
+      "topic": "三种辨证体系比较",
+      "description": "六经/卫气营血/三焦的异同与互补",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "14-07",
+        "15-05"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-cl-15-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "16-01",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "治病求本",
+      "description": "针对根本病机的治疗原则",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15"
+      ],
+      "nextNode": "16-02",
+      "producedBy": [
+        "pb1-theory-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "16-02",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "扶正与祛邪",
+      "description": "正虚与邪实的治疗策略",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-01"
+      ],
+      "nextNode": "16-03",
+      "producedBy": [
+        "pb4-th-16-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-strengthen-dispel"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "16-03",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "标本缓急",
+      "description": "急则治标、缓则治本、标本兼治",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-02"
+      ],
+      "nextNode": "16-04",
+      "producedBy": [
+        "pb4-th-16-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-priority-treatment"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "16-04",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "正治与反治",
+      "description": "逆治与从治的区别与案例",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-03"
+      ],
+      "nextNode": "16-05",
+      "producedBy": [
+        "pb4-th-16-04"
+      ],
+      "legacyCoveredBy": [
+        "ck-orthodox-reverse"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "16-05",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "因势利导",
+      "description": "顺应病势的排出途径",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-04"
+      ],
+      "nextNode": "16-06",
+      "producedBy": [
+        "pb2-th-16-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "16-06",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "调整阴阳",
+      "description": "损其有余、补其不足",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-05"
+      ],
+      "nextNode": "16-07",
+      "producedBy": [
+        "pb2-th-16-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "16-07",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "三因制宜",
+      "description": "因人、因时、因地制宜",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-06"
+      ],
+      "nextNode": "16-08",
+      "producedBy": [
+        "pb2-th-16-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "16-08",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "治则与辨证的关系",
+      "description": "辨证是前提、治则是方针",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "08-11",
+        "10-15",
+        "16-07"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-th-16-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-01",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂是什么",
+      "description": "定义、方剂的起源与发展",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "16-08"
+      ],
+      "nextNode": "17-02",
+      "producedBy": [
+        "pb2-fm-17-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-02",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "治法与方剂的关系",
+      "description": "以法统方、方从法出",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "16-08",
+        "17-01"
+      ],
+      "nextNode": "17-03",
+      "producedBy": [
+        "pb2-fm-17-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-03",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "组方原则",
+      "description": "君臣佐使的详细规则",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "16-08",
+        "17-02"
+      ],
+      "nextNode": "17-04",
+      "producedBy": [
+        "pb4-fo-17-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-monarch-minister",
+        "ck-formula-structure"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "17-04",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "配伍",
+      "description": "相须、相使、相畏、相杀等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "16-08",
+        "17-03"
+      ],
+      "nextNode": "17-05",
+      "producedBy": [
+        "pb2-fm-17-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-05",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂的加减变化",
+      "description": "药味加减、药量增减、剂型变化",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "16-08",
+        "17-04"
+      ],
+      "nextNode": "17-06",
+      "producedBy": [
+        "pb2-fm-17-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-06",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂分类",
+      "description": "按病证、治法、科室等分类",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "16-08",
+        "17-05"
+      ],
+      "nextNode": "17-07",
+      "producedBy": [
+        "pb3-fm-17-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-07",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂的剂型",
+      "description": "汤、丸、散、膏、丹等",
+      "status": "quarantine",
+      "nodeStatus": "quarantine",
+      "sourceStatus": "quarantine",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "16-08",
+        "17-06"
+      ],
+      "nextNode": "17-08",
+      "producedBy": [
+        "pb3-fm-17-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "17-08",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方证关系",
+      "description": "方与证对应的核心思想",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "16-08",
+        "17-07"
+      ],
+      "nextNode": "17-09",
+      "producedBy": [
+        "pb4-fo-17-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-formula-syndrome"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "17-09",
+      "domain": "17",
+      "domainName": "方剂学基础",
+      "topic": "方剂之间的比较",
+      "description": "相似方剂的鉴别与选择",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "16-08",
+        "17-08"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb3-fm-17-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-01",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "解表剂",
+      "description": "麻黄汤、桂枝汤、银翘散等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "17-09"
+      ],
+      "nextNode": "18-02",
+      "producedBy": [
+        "pb1-formula-01",
+        "pb1-formula-02",
+        "pb1-formula-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-herb-01",
+        "pb1-herb-02",
+        "pb1-herb-09"
+      ]
+    },
+    {
+      "nodeId": "18-02",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "清热剂",
+      "description": "白虎汤、黄连解毒汤等",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "pending",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "17-09",
+        "18-01"
+      ],
+      "nextNode": "18-03",
+      "producedBy": [
+        "pb1-formula-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-herb-10"
+      ]
+    },
+    {
+      "nodeId": "18-03",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "泻下剂",
+      "description": "承气汤类",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "17-09",
+        "18-02"
+      ],
+      "nextNode": "18-04",
+      "producedBy": [
+        "pb1-formula-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-herb-06"
+      ]
+    },
+    {
+      "nodeId": "18-04",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "和解剂",
+      "description": "小柴胡汤、逍遥散等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "17-09",
+        "18-03"
+      ],
+      "nextNode": "18-05",
+      "producedBy": [
+        "pb1-formula-03",
+        "pb1-formula-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-herb-05"
+      ]
+    },
+    {
+      "nodeId": "18-05",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "温里剂",
+      "description": "理中丸、四逆汤等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-04"
+      ],
+      "nextNode": "18-06",
+      "producedBy": [
+        "pb1-formula-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-herb-04",
+        "pb1-herb-07",
+        "pb1-herb-03"
+      ]
+    },
+    {
+      "nodeId": "18-06",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "补益剂",
+      "description": "四君子汤、四物汤、六味地黄丸等",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "pending",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-05"
+      ],
+      "nextNode": "18-07",
+      "producedBy": [
+        "pb1-formula-05",
+        "pb1-formula-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [
+        "pb1-herb-08"
+      ]
+    },
+    {
+      "nodeId": "18-07",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "固涩剂",
+      "description": "玉屏风散等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-06"
+      ],
+      "nextNode": "18-08",
+      "producedBy": [
+        "pb2-fm-18-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-08",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "理气剂",
+      "description": "越鞠丸等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-07"
+      ],
+      "nextNode": "18-09",
+      "producedBy": [
+        "pb2-fm-18-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-09",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "理血剂",
+      "description": "血府逐瘀汤等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-08"
+      ],
+      "nextNode": "18-10",
+      "producedBy": [
+        "pb2-fm-18-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-10",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "祛湿剂",
+      "description": "五苓散、苓桂术甘汤等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-09"
+      ],
+      "nextNode": "18-11",
+      "producedBy": [
+        "pb2-fm-18-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-11",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "祛痰剂",
+      "description": "二陈汤等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "17-09",
+        "18-10"
+      ],
+      "nextNode": "18-12",
+      "producedBy": [
+        "pb2-fm-18-11"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-12",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "安神剂",
+      "description": "酸枣仁汤等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "17-09",
+        "18-11"
+      ],
+      "nextNode": "18-13",
+      "producedBy": [
+        "pb2-fm-18-12"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-13",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "治风剂",
+      "description": "天麻钩藤饮等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "17-09",
+        "18-12"
+      ],
+      "nextNode": "18-14",
+      "producedBy": [
+        "pb2-fm-18-13"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-14",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "治燥剂",
+      "description": "杏苏散等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "17-09",
+        "18-13"
+      ],
+      "nextNode": "18-15",
+      "producedBy": [
+        "pb2-fm-18-14"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "18-15",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "祛暑剂",
+      "description": "藿香正气散等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "17-09",
+        "18-14"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb2-fm-18-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-01",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《黄帝内经》概览",
+      "description": "成书、结构、核心思想",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17"
+      ],
+      "nextNode": "19-02",
+      "producedBy": [
+        "pb2-th-19-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-02",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "内经·阴阳应象大论精读",
+      "description": "阴阳理论的经典原文",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-01"
+      ],
+      "nextNode": "19-03",
+      "producedBy": [
+        "pb2-th-19-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-03",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "内经·灵兰秘典论精读",
+      "description": "脏腑功能的经典描述",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-02"
+      ],
+      "nextNode": "19-04",
+      "producedBy": [
+        "pb2-th-19-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-04",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "内经·经脉别论精读",
+      "description": "气血运行的经典论述",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-03"
+      ],
+      "nextNode": "19-05",
+      "producedBy": [
+        "pb2-th-19-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-05",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《伤寒论》概览",
+      "description": "成书背景、六经体系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-04"
+      ],
+      "nextNode": "19-06",
+      "producedBy": [
+        "pb2-th-19-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-06",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "伤寒论·太阳病条辨精读",
+      "description": "代表条文的原文学习",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-05"
+      ],
+      "nextNode": "19-07",
+      "producedBy": [
+        "pb2-th-19-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-07",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "伤寒论·阳明病条辨精读",
+      "description": "代表条文的原文学习",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-06"
+      ],
+      "nextNode": "19-08",
+      "producedBy": [
+        "pb2-th-19-07"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-08",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "伤寒论·少阳病条辨精读",
+      "description": "代表条文的原文学习",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-07"
+      ],
+      "nextNode": "19-09",
+      "producedBy": [
+        "pb2-th-19-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-09",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《金匮要略》概览",
+      "description": "杂病辨证的代表",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-08"
+      ],
+      "nextNode": "19-10",
+      "producedBy": [
+        "pb2-th-19-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-10",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "金匮要略·代表病篇精读",
+      "description": "如胸痹、水气病等",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-09"
+      ],
+      "nextNode": "19-11",
+      "producedBy": [
+        "pb3-th-19-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "19-11",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "经典研读方法论",
+      "description": "如何读经典、避免过度诠释",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "02-15",
+        "04-19",
+        "05-17",
+        "19-10"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb4-cl-19-11"
+      ],
+      "legacyCoveredBy": [
+        "ck-reading-classics"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "20-01",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "医案阅读方法",
+      "description": "如何分析医案、关注什么",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "12-30",
+        "18-15"
+      ],
+      "nextNode": "20-02",
+      "producedBy": [
+        "pb3-cs-20-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "20-02",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "古代名医医案",
+      "description": "如叶天士、薛生白等医案",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "12-30",
+        "18-15",
+        "20-01"
+      ],
+      "nextNode": "20-03",
+      "producedBy": [
+        "pb4-ca-20-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "20-03",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "经方医案",
+      "description": "《伤寒论》方的现代应用案例",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "12-30",
+        "18-15",
+        "20-02"
+      ],
+      "nextNode": "20-04",
+      "producedBy": [
+        "pb4-ca-20-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "20-04",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "复杂病机医案",
+      "description": "多证候交织的经典案例",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "12-30",
+        "18-15",
+        "20-03"
+      ],
+      "nextNode": "20-05",
+      "producedBy": [
+        "pb4-ca-20-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "20-05",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "误治医案",
+      "description": "从错误中学习的案例",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "12-30",
+        "18-15",
+        "20-04"
+      ],
+      "nextNode": "20-06",
+      "producedBy": [
+        "pb4-ca-20-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "20-06",
+      "domain": "20",
+      "domainName": "医案阅读",
+      "topic": "医案中的思维还原",
+      "description": "还原医者当时的推理过程",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "12-30",
+        "18-15",
+        "20-05"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb4-ca-20-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "21-01",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "四诊信息综合",
+      "description": "望闻问切信息的整合方法",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07"
+      ],
+      "nextNode": "21-02",
+      "producedBy": [
+        "pb1-theory-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-info-gathering",
+        "ck-observation-inquiry-advanced"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "21-02",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "信息整理框架",
+      "description": "从散乱线索到结构化信息",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-01"
+      ],
+      "nextNode": "21-03",
+      "producedBy": [
+        "pb4-cl-21-02"
+      ],
+      "legacyCoveredBy": [
+        "ck-inference-synthesis"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "21-03",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "八纲→气血津液→脏腑递进",
+      "description": "由浅入深的辨证路径",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-02"
+      ],
+      "nextNode": "21-04",
+      "producedBy": [
+        "pb4-cl-21-03"
+      ],
+      "legacyCoveredBy": [
+        "ck-ba-gang-integration"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "21-04",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "病因+病机→辨证",
+      "description": "从病因病机推导证候",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-03"
+      ],
+      "nextNode": "21-05",
+      "producedBy": [
+        "pb4-cl-21-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "21-05",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "多假设推理",
+      "description": "同时考虑多种可能性",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-04"
+      ],
+      "nextNode": "21-06",
+      "producedBy": [
+        "pb4-cl-21-05"
+      ],
+      "legacyCoveredBy": [
+        "ck-hypothesis-formation"
+      ],
+      "assets": [
+        "pb1-case-10"
+      ]
+    },
+    {
+      "nodeId": "21-06",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "排除法辨证",
+      "description": "通过排除缩小范围",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-05"
+      ],
+      "nextNode": "21-07",
+      "producedBy": [
+        "pb4-cl-21-06"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "21-07",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "证候演变预测",
+      "description": "疾病的传变与预后",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-06"
+      ],
+      "nextNode": "21-08",
+      "producedBy": [
+        "pb4-cl-21-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-syndrome-dynamic-treatment"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "21-08",
+      "domain": "21",
+      "domainName": "综合辨证思维",
+      "topic": "综合辨证练习",
+      "description": "多轮综合案例推理",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "12-30",
+        "13-11",
+        "14-07",
+        "21-07"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb4-cl-21-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "22-01",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "八纲 vs 气血津液辨证",
+      "description": "观察角度、适用语境",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "13-11",
+        "14-07",
+        "15-06"
+      ],
+      "nextNode": "22-02",
+      "producedBy": [
+        "pb4-th-22-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "22-02",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "八纲 vs 脏腑辨证",
+      "description": "纲领与具体脏腑的关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "13-11",
+        "14-07",
+        "15-06",
+        "22-01"
+      ],
+      "nextNode": "22-03",
+      "producedBy": [
+        "pb4-th-22-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "22-03",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "六经 vs 八纲",
+      "description": "伤寒辨证的不同维度",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "13-11",
+        "14-07",
+        "15-06",
+        "22-02"
+      ],
+      "nextNode": "22-04",
+      "producedBy": [
+        "pb4-th-22-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "22-04",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "卫气营血 vs 三焦",
+      "description": "温病辨证的两种体系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "13-11",
+        "14-07",
+        "15-06",
+        "22-03"
+      ],
+      "nextNode": "22-05",
+      "producedBy": [
+        "pb4-th-22-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "22-05",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "六经 vs 卫气营血 vs 三焦",
+      "description": "三种辨证体系的异同",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "13-11",
+        "14-07",
+        "15-06",
+        "22-04"
+      ],
+      "nextNode": "22-06",
+      "producedBy": [
+        "pb4-th-22-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "22-06",
+      "domain": "22",
+      "domainName": "辨证体系比较",
+      "topic": "不同体系如何协同",
+      "description": "同一疾病的多角度观察",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 5,
+      "prerequisite": [
+        "13-11",
+        "14-07",
+        "15-06",
+        "22-05"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb4-cl-22-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-differentiation-comparison"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "23-01",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "整体思维",
+      "description": "不孤立看问题",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "21-08"
+      ],
+      "nextNode": "23-02",
+      "producedBy": [
+        "pb4-th-23-01"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "23-02",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "动态思维",
+      "description": "疾病是变化的",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "21-08",
+        "23-01"
+      ],
+      "nextNode": "23-03",
+      "producedBy": [
+        "pb4-th-23-02"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "23-03",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "辨证思维",
+      "description": "具体情况具体分析",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 2,
+      "prerequisite": [
+        "21-08",
+        "23-02"
+      ],
+      "nextNode": "23-04",
+      "producedBy": [
+        "pb4-th-23-03"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "23-04",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "类比思维",
+      "description": "取象比类的价值与边界",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "21-08",
+        "23-03"
+      ],
+      "nextNode": "23-05",
+      "producedBy": [
+        "pb4-th-23-04"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "23-05",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "关系思维",
+      "description": "重视事物之间的关系",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "21-08",
+        "23-04"
+      ],
+      "nextNode": "23-06",
+      "producedBy": [
+        "pb4-th-23-05"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "23-06",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "证据意识",
+      "description": "观察要客观、结论要有依据",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "21-08",
+        "23-05"
+      ],
+      "nextNode": "23-07",
+      "producedBy": [
+        "pb4-th-23-06"
+      ],
+      "legacyCoveredBy": [
+        "ck-info-gathering"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "23-07",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "反证意识",
+      "description": "不仅要证明对，还要检验不对",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 3,
+      "prerequisite": [
+        "21-08",
+        "23-06"
+      ],
+      "nextNode": "23-08",
+      "producedBy": [
+        "pb4-th-23-07"
+      ],
+      "legacyCoveredBy": [
+        "ck-counter-evidence",
+        "ck-counter-evidence-advanced"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "23-08",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "综合判断",
+      "description": "多维度信息整合决策",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "23-07"
+      ],
+      "nextNode": "23-09",
+      "producedBy": [
+        "pb4-th-23-08"
+      ],
+      "legacyCoveredBy": [
+        "ck-inference-synthesis",
+        "ck-transfer-explanation-advanced"
+      ],
+      "assets": []
+    },
+    {
+      "nodeId": "23-09",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "避免单因素推断",
+      "description": "一个症状不等于一个结论",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "23-08"
+      ],
+      "nextNode": "23-10",
+      "producedBy": [
+        "pb4-th-23-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "23-10",
+      "domain": "23",
+      "domainName": "中医思维方法",
+      "topic": "避免机械套证",
+      "description": "证候公式化的危险",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "23-09"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb4-th-23-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": []
+    },
+    {
+      "nodeId": "01-09",
+      "domain": "01",
+      "domainName": "中医学基础认知",
+      "topic": "中医与其他医学体系的区别",
+      "description": "中西医思维差异（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "01-08"
+      ],
+      "nextNode": "02-16",
+      "producedBy": [
+        "pb4-th-01-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "02-16",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳与五行的关系",
+      "description": "两大学说的结合运用（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "01-09",
+        "02-15"
+      ],
+      "nextNode": "02-17",
+      "producedBy": [
+        "pb4-th-02-16"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "02-17",
+      "domain": "02",
+      "domainName": "阴阳",
+      "topic": "阴阳在养生中的应用",
+      "description": "起居作息与阴阳消长（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "02-16",
+        "02-15"
+      ],
+      "nextNode": "03-14",
+      "producedBy": [
+        "pb4-th-02-17"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "03-14",
+      "domain": "03",
+      "domainName": "五行",
+      "topic": "五行在情志配属中的应用",
+      "description": "五志与五脏对应（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "02-17",
+        "03-13"
+      ],
+      "nextNode": "04-20",
+      "producedBy": [
+        "pb4-th-03-14"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "04-20",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "五脏与五液五志五窍",
+      "description": "五脏功能的外在联系（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "03-14",
+        "04-19"
+      ],
+      "nextNode": "04-21",
+      "producedBy": [
+        "pb4-th-04-20"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "04-21",
+      "domain": "04",
+      "domainName": "藏象",
+      "topic": "女子胞与冲任二脉",
+      "description": "生殖轴的中医认识（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "04-20",
+        "04-19"
+      ],
+      "nextNode": "05-18",
+      "producedBy": [
+        "pb4-th-04-21"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "05-18",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "气街与四海",
+      "description": "经气汇聚的层次（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "04-21",
+        "05-17"
+      ],
+      "nextNode": "05-19",
+      "producedBy": [
+        "pb4-th-05-18"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "05-19",
+      "domain": "05",
+      "domainName": "精气血津液神",
+      "topic": "精室与生殖",
+      "description": "男科精室理论（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "05-18",
+        "05-17"
+      ],
+      "nextNode": "06-09",
+      "producedBy": [
+        "pb4-th-05-19"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "06-09",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "十二经别",
+      "description": "经别的循行与作用（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "05-19",
+        "06-08"
+      ],
+      "nextNode": "06-10",
+      "producedBy": [
+        "pb4-me-06-09"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "06-10",
+      "domain": "06",
+      "domainName": "经络",
+      "topic": "标本根结",
+      "description": "经气上下内外关系（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "06-09",
+        "06-08"
+      ],
+      "nextNode": "07-16",
+      "producedBy": [
+        "pb4-me-06-10"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "07-16",
+      "domain": "07",
+      "domainName": "病因",
+      "topic": "药邪与医过",
+      "description": "药物不当与医疗过失致病（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "06-10",
+        "07-15"
+      ],
+      "nextNode": "08-12",
+      "producedBy": [
+        "pb4-th-07-16"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "08-12",
+      "domain": "08",
+      "domainName": "病机",
+      "topic": "疾病传变规律",
+      "description": "表里、脏腑、六经传变的系统视角（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "07-16",
+        "08-11"
+      ],
+      "nextNode": "09-24",
+      "producedBy": [
+        "pb4-cl-08-12"
+      ],
+      "legacyCoveredBy": [
+        "ck-disease-transmission"
+      ],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "09-24",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "常见脉象扩展",
+      "description": "弦滑涩细等脉象识别（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "08-12",
+        "09-23"
+      ],
+      "nextNode": "09-25",
+      "producedBy": [
+        "pb4-dg-09-24"
+      ],
+      "legacyCoveredBy": [
+        "ck-pulse-dx"
+      ],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "09-25",
+      "domain": "09",
+      "domainName": "诊法",
+      "topic": "舌诊与病机对应",
+      "description": "舌象的临床综合判断（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "09-24",
+        "09-23"
+      ],
+      "nextNode": "11-15",
+      "producedBy": [
+        "pb4-dg-09-25"
+      ],
+      "legacyCoveredBy": [
+        "ck-tongue-dx"
+      ],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "11-15",
+      "domain": "11",
+      "domainName": "气血津液辨证",
+      "topic": "气血津液辨证与脏腑辨证衔接",
+      "description": "两套辨证的过渡（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "09-25",
+        "11-14"
+      ],
+      "nextNode": "12-31",
+      "producedBy": [
+        "pb4-cl-11-15"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "12-31",
+      "domain": "12",
+      "domainName": "脏腑辨证",
+      "topic": "脏腑辨证现代应用",
+      "description": "脏腑证候的现代临床认识（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "11-15",
+        "12-30"
+      ],
+      "nextNode": "14-08",
+      "producedBy": [
+        "pb4-cl-12-31"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "14-08",
+      "domain": "14",
+      "domainName": "卫气营血辨证",
+      "topic": "卫气营血与现代感染性疾病",
+      "description": "温病理论的现代对照（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "12-31",
+        "14-07"
+      ],
+      "nextNode": "16-09",
+      "producedBy": [
+        "pb4-cl-14-08"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "16-09",
+      "domain": "16",
+      "domainName": "治则治法",
+      "topic": "八法",
+      "description": "汗吐下和温清消补（reference）",
+      "status": "candidate",
+      "nodeStatus": "candidate",
+      "sourceStatus": "verified",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "14-08",
+        "16-08"
+      ],
+      "nextNode": "18-16",
+      "producedBy": [
+        "pb4-th-16-09"
+      ],
+      "legacyCoveredBy": [
+        "ck-monarch-minister"
+      ],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "18-16",
+      "domain": "18",
+      "domainName": "经典方剂",
+      "topic": "类方比较",
+      "description": "桂枝汤类方、承气汤类方体系（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "16-09",
+        "18-15"
+      ],
+      "nextNode": "19-12",
+      "producedBy": [
+        "pb4-fo-18-16"
+      ],
+      "legacyCoveredBy": [
+        "ck-formula-structure"
+      ],
+      "assets": [],
+      "reference": true
+    },
+    {
+      "nodeId": "19-12",
+      "domain": "19",
+      "domainName": "经典研读",
+      "topic": "《神农本草经》概览",
+      "description": "本草源头与药物知识（reference）",
+      "status": "conditional",
+      "nodeStatus": "conditional",
+      "sourceStatus": "conditional",
+      "learningStatus": "ready",
+      "difficulty": 4,
+      "prerequisite": [
+        "21-08",
+        "22-06",
+        "18-16",
+        "19-11"
+      ],
+      "nextNode": null,
+      "producedBy": [
+        "pb4-cl-19-12"
+      ],
+      "legacyCoveredBy": [],
+      "assets": [],
+      "reference": true
+    }
+  ]
+}

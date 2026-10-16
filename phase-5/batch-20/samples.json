@@ -1,0 +1,2080 @@
+{
+  "seed": "phase-5/batch-20",
+  "genLabel": "Phase 5 · Batch-20 · 25 nodes（U 中医儿科学 0→25 下限）",
+  "total": 25,
+  "note": "U 中医儿科学补足至下限 25；整书级经典补丁 3 条；小儿剂量与毒性警戒全覆盖",
+  "samples": [
+    {
+      "id": "pb20-u-001",
+      "title": "儿科·小儿生理病理特点要义",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "儿科",
+        "生理特点",
+        "病理特点",
+        "稚阴稚阳",
+        "易虚易实"
+      ],
+      "intent": "掌握小儿脏腑娇嫩、形气未充与生机蓬勃、发育迅速的生理特点，以及发病容易、传变迅速、脏气清灵、易趋康复的病理特点。",
+      "learning": {
+        "knowledge": "生理特点：脏腑娇嫩、形气未充，即稚阴稚阳，阴精阳气均未充盛；生机蓬勃、发育迅速，故称纯阳之体。病理特点：发病容易、传变迅速，脏气清灵、易趋康复。小儿肺脾肾三脏常不足、肝心二脏常有余；钱乙谓其易虚易实、易寒易热，故辨证宜快、用药宜轻，处处顾护脾肺。",
+        "misjudgment": "把纯阳误作阳热亢盛而滥用苦寒。错：纯阳之体指生机旺盛、发育迅速，并非阴虚阳亢；小儿脏气清灵，苦寒过用反伤脾阳，伐生生之气。",
+        "reasoning": "同为稚阴稚阳之体，为何小儿发热之变证远较成人急骤？",
+        "feedback": "小儿脏腑柔弱而神气怯弱，感邪后易从热化、从火化，热极可生风动痰，故传变迅速；认准这一特点，临证处方才敢早投截断之剂。",
+        "transfer": "对反复感冒的学龄前儿童，如何据脾常不足、肺常虚的特点拟定调护方案？"
+      },
+      "stdJudgment": "小儿生理特点可概括为脏腑娇嫩、形气未充与生机蓬勃、发育迅速两端，病理上则发病容易、传变迅速，脏气清灵、易趋康复。钱乙以易虚易实、易寒易热六字总括其病机变化，治疗上宜轻灵制胜、中病即止，不可过用攻伐。",
+      "coreDefinition": "小儿生理特点为脏腑娇嫩、形气未充，生机蓬勃、发育迅速；病理特点为发病容易、传变迅速，脏气清灵、易趋康复。",
+      "facts": [
+        {
+          "field": "clinical.生理特点-脏腑娇嫩形气未充",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.生理特点-生机蓬勃发育迅速",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病理特点-发病容易传变迅速",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病理特点-脏气清灵易趋康复",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.稚阴稚阳与纯阳学说",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.易虚易实易寒易热",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "逆顺肥瘦第三十八",
+          "originalText": "婴儿者，其肉脆血少气弱。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《小儿药证直诀》",
+          "canon": "《小儿药证直诀》",
+          "chapter": "阎孝忠序",
+          "originalText": "脏腑柔弱，易虚易实，易寒易热。",
+          "sourceTitle": "《小儿药证直诀》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本节点论述小儿生理病理特点，不涉具体方药；临床用药一律按年龄折算：新生儿约成人量1/6，1~6个月约1/5，6个月~1岁约1/4，1~3岁约1/3，3~7岁约1/3~1/2，7~14岁约1/2~2/3。",
+        "caution": "小儿脏腑娇嫩、形气未充，剂量宜小、药味宜精、中病即止；攻伐、苦寒、温燥之品尤须审慎，防虚虚实实之变。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；小儿用药须按年龄折算，忌攻伐太过",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-002",
+      "title": "儿科·小儿喂养保育要点",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "儿科",
+        "喂养",
+        "保育",
+        "乳食有节",
+        "辅食添加"
+      ],
+      "intent": "掌握小儿喂养与保育的基本原则，理解乳食不节、寒温失调与脾胃病、外感病的发生关系。",
+      "learning": {
+        "knowledge": "喂养要点：半岁以内以母乳或配方乳为主，按时哺乳、乳贵有时；4~6个月起逐步添加辅食，遵循由少到多、由稀到稠、由细到粗、由一种到多种的原则。保育要点：衣着宜背暖、肚暖、足暖，头凉、心胸凉；食勿过饱，即三分饥与寒；忌偏食、零食与生冷肥甘，乳食不节最易伤脾致病。",
+        "misjudgment": "怕小儿受凉而过度厚衣保暖。错：衣被过厚则汗出腠疏，反易感邪，且阳郁于内而生内热；头凉、心胸凉正是给郁热以出路。",
+        "reasoning": "同是三分饥与寒，为何饥偏于护脾、寒偏于固表？",
+        "feedback": "食带三分饥则脾胃不伤、运化有力；衣着三分寒则腠理致密、卫外坚固，一护内一固外，共御病邪。",
+        "transfer": "添加辅食后小儿大便不调、夜卧不宁者，试从喂养失节角度分析并调整。"
+      },
+      "stdJudgment": "小儿喂养以母乳为佳，按时哺乳、乳贵有时；添加辅食宜由少到多、由稀到稠、由细到粗、由一种到多种，循序渐进。调护讲究若要小儿安、常受三分饥与寒，背暖肚暖足暖、头凉心胸凉，乳食有节、寒温适度，脾胃自安而少病。",
+      "coreDefinition": "小儿喂养保育贵在乳食有节、寒温适调，强调三分饥与寒，脾胃得护则少病。",
+      "facts": [
+        {
+          "field": "clinical.喂养方式与母乳喂养",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.辅食添加原则",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.保育要点-三分饥与寒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.乳食不节致病",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.调护与疾病预防",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "五味第五十六",
+          "originalText": "故谷不入，半日则气衰，一日则气少矣。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本节点述喂养保育，不涉方药剂量；若因病用药，仍按年龄折算：1岁以下约成人量1/6~1/4，1~3岁约1/3，3~7岁约1/3~1/2，7~14岁约1/2~2/3，日1剂分2~3次服。",
+        "caution": "小儿喂养贵在有节，乳贵有时、食贵有节，忌恣食生冷肥甘；用药剂量宜小，药后注意观察乳食、大便与精神状态。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；喂养知识不构成个体化喂养方案，特殊体质小儿宜咨询专科",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-003",
+      "title": "儿科·感冒风寒证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "儿科",
+        "感冒",
+        "风寒",
+        "辛温解表",
+        "荆防败毒散",
+        "甘草"
+      ],
+      "intent": "掌握小儿风寒感冒的主症舌脉指纹、病机与辛温解表治法，熟悉荆防败毒散的组方与加减。",
+      "learning": {
+        "knowledge": "主症恶寒发热、无汗、头痛身痛、鼻塞流清涕、喷嚏、咳嗽咽痒、痰白清稀；舌苔薄白，脉浮紧，指纹浮红。病机风寒外束，卫阳被遏，肺气失宣。治以辛温解表、宣肺散寒，主方荆防败毒散（荆芥、防风、羌活、独活、柴胡、前胡、川芎、枳壳、桔梗、茯苓、甘草），头痛加白芷，咳嗽重加杏仁，鼻塞加苍耳子、辛夷，夹食加神曲、山楂；调护宜避风寒、进温水、饮食清淡。",
+        "misjudgment": "见咽红即断风热而投辛凉。错：风寒感冒咽多不红，舌苔薄白、脉浮紧、无汗，误用辛凉则寒邪郁闭难解，咳嗽迁延；辨咽红与否是小儿寒热感冒的关键分界。",
+        "reasoning": "小儿风寒感冒为何以荆防败毒散取微汗，而不轻易用麻黄汤峻汗？",
+        "feedback": "小儿脏腑娇嫩，峻汗易伤卫阳、耗津液，反致正虚邪恋；荆防败毒散药力平和，微汗即解，合小儿不耐攻伐之性。",
+        "transfer": "冬季小儿受凉后恶寒无汗、喷嚏流清涕，试按风寒感冒辨治并给出剂量折算。"
+      },
+      "stdJudgment": "小儿风寒感冒以恶寒发热、无汗、头身疼痛、鼻塞流清涕、咳嗽喷嚏、咽不红为特征，舌苔薄白、脉浮紧、指纹浮红；风寒外束、卫阳被遏、肺气失宣，法当辛温解表、宣肺散寒，荆防败毒散为常用之方，小儿剂量须按年龄折算，忌峻汗。",
+      "coreDefinition": "小儿风寒感冒以恶寒重、发热轻、无汗、鼻塞流清涕、苔薄白脉浮紧为特征，治以辛温解表，方用荆防败毒散。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳应象大论篇第五",
+          "originalText": "其在皮者，汗而发之。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "荆防败毒散（荆芥、防风、羌活、独活、柴胡、前胡、川芎、枳壳、桔梗、茯苓、甘草）水煎，日1剂分2~3次温服；按年龄折算：1岁以下约为成人量1/6~1/4，1~3岁约1/3，3~7岁约1/3~1/2，如荆芥、防风成人各9g，1~3岁各用约3g，3~7岁各用约4~5g。",
+        "caution": "小儿剂量宜小，药后以微微汗出为度，中病即止，忌大汗亡阳伤阴；辛温药武火急煎、不宜久煮；汗后避风，多饮温水。"
+      },
+      "safety": {
+        "note": "荆防败毒散辛温发散，小儿服后取微汗即可，中病即止；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-004",
+      "title": "儿科·咳嗽风热证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "儿科",
+        "咳嗽",
+        "风热犯肺",
+        "辛凉宣肺",
+        "桑菊饮",
+        "甘草"
+      ],
+      "intent": "掌握小儿风热咳嗽的主症舌脉指纹、病机与疏风清热宣肺止咳治法，熟悉桑菊饮的组方要点与加减。",
+      "learning": {
+        "knowledge": "主症咳嗽不爽、痰黄黏稠、不易咯出、咽红疼痛、鼻流浊涕、发热恶风、汗出、口渴；舌红苔薄黄，脉浮数，指纹浮紫。病机风热犯肺，肺失清肃。治以疏风清热、宣肺止咳，主方桑菊饮（桑叶、菊花、杏仁、连翘、薄荷、桔梗、甘草、芦根），咽红肿痛加牛蒡子、射干，痰多加浙贝母、瓜蒌，热甚加黄芩、栀子；调护宜清淡饮食、多饮温水、忌肥甘厚味。",
+        "misjudgment": "把咽红咳嗽一律当风热，见咳即清热。错：若苔白不渴、痰白清稀、咽不红，仍是风寒或痰湿，早用桑菊饮类凉药反遏肺气，咳更不愈；辨痰色与咽红为要。",
+        "reasoning": "同是风热咳嗽，为何桑菊饮轻于银翘散，儿科反多用桑菊饮？",
+        "feedback": "小儿咳嗽病位在肺而病势尚浅，桑菊饮药轻味薄、专走肺卫，宣透风热而不伤正；银翘散偏重清热，用于热象明显者，轻症用之反嫌其寒。",
+        "transfer": "夏秋之交小儿咽红咳嗽、身热不著者，试按风热咳嗽立法并说明剂量折算。"
+      },
+      "stdJudgment": "小儿风热咳嗽以咳嗽不爽、痰黄黏稠、咽红疼痛、鼻流浊涕、发热微恶风、汗出口渴为辨，舌红苔薄黄、脉浮数、指纹浮紫；风热犯肺、肺失清肃，治宜疏风清热、宣肺止咳，桑菊饮辛凉轻清、不寒不燥，深合小儿肺脏娇嫩之性。",
+      "coreDefinition": "小儿风热咳嗽以咳嗽不爽、痰黄黏稠、咽红、苔薄黄脉浮数为特征，治以疏风清热宣肺止咳，方用桑菊饮。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "太阴风温，但咳，身不甚热，微渴者，辛凉轻剂桑菊饮主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "桑菊饮（桑叶、菊花、杏仁、连翘、薄荷、桔梗、甘草、芦根）水煎，薄荷后下，日1剂分2~3次温服；按年龄折算：1岁以下约为成人量1/6~1/4，1~3岁约1/3，3~7岁约1/3~1/2，如桑叶、菊花成人各9g，1~3岁各用约3g。",
+        "caution": "小儿剂量宜小，辛凉之剂不宜久煎，中病即止；风寒咳嗽、脾虚便溏者慎用苦寒，忌早投敛肺止咳之品。"
+      },
+      "safety": {
+        "note": "桑菊饮轻清宣透，小儿服后以汗出热退为度；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-005",
+      "title": "儿科·肺炎喘嗽痰热闭肺证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "儿科",
+        "肺炎喘嗽",
+        "痰热闭肺",
+        "五虎汤",
+        "葶苈大枣泻肺汤",
+        "麻黄",
+        "甘草"
+      ],
+      "intent": "掌握小儿肺炎喘嗽痰热闭肺证的主症舌脉指纹、病机与清热涤痰开肺定喘治法，熟悉五虎汤合葶苈大枣泻肺汤的组成与加减。",
+      "learning": {
+        "knowledge": "主症发热烦躁、咳嗽剧烈、气促鼻扇、喉间痰鸣、痰稠色黄、面赤口渴、口唇紫绀；舌红苔黄腻，脉滑数，指纹紫滞。病机痰热交阻，闭郁肺气，宣降失司。治以清热涤痰、开肺定喘，主方五虎汤合葶苈大枣泻肺汤（麻黄、杏仁、石膏、甘草、细茶、葶苈子、大枣），痰壅便秘加生大黄通腑泄热，痰多加浙贝母、天竺黄，口唇紫绀加丹参、赤芍；调护宜保持气道通畅、勤拍背、多饮水。",
+        "misjudgment": "见气促即按哮喘论治。错：肺炎喘嗽以发热、咳嗽、气促鼻扇为要，肺部听诊有中细湿啰音；哮喘以反复发作的喘息痰鸣为特点，两者病机主方不同，混治则贻误病情。",
+        "reasoning": "痰热闭肺而大便秘结者，为何通腑能助平喘？",
+        "feedback": "肺与大肠相表里，腑气通则肺气降，加生大黄通下痰热，釜底抽薪，喘促自平；此为肺炎喘嗽重要的兼治法。",
+        "transfer": "小儿高热咳喘、痰鸣便干、唇绀者，试按痰热闭肺立法并权衡通腑时机。"
+      },
+      "stdJudgment": "肺炎喘嗽痰热闭肺证以发热烦躁、咳嗽剧烈、气促鼻扇、喉间痰鸣、痰稠色黄为辨，舌红苔黄腻、脉滑数、指纹紫滞；痰热交阻、闭郁肺气，治宜清热涤痰、开肺定喘，五虎汤合葶苈大枣泻肺汤清宣与涤痰并进，腑气不通者佐通下以泄肺热。",
+      "coreDefinition": "肺炎喘嗽痰热闭肺证以发热咳嗽、气促鼻扇、喉间痰鸣、苔黄腻为特征，治以清热涤痰开肺定喘。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨太阳病脉证并治",
+          "originalText": "发汗后，不可更行桂枝汤，汗出而喘，无大热者，可与麻黄杏仁甘草石膏汤。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "五虎汤（麻黄、杏仁、石膏、甘草、细茶）合葶苈大枣泻肺汤（葶苈子、大枣）水煎，麻黄先煎去沫，石膏打碎先煎，日1剂分3~4次温服；按年龄折算：如麻黄成人3~6g，1~3岁用1~1.5g，3~7岁用1.5~2g，石膏成人15~30g，1~3岁用6~10g。",
+        "caution": "小儿剂量宜小；麻黄发汗力强，体虚多汗者慎用；石膏重用须防伤胃；痰热闭肺传变迅速，若见神昏抽搐须即送医，中西医结合救治。"
+      },
+      "safety": {
+        "note": "五虎汤含麻黄，小儿须按年龄折算用量，中病即止；痰热闭肺为肺炎喘嗽重证，须密切观察呼吸神志，必要时中西医结合；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "麻黄发汗力强虚人慎用；高血压心脏病失眠者慎用；运动员禁用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-006",
+      "title": "儿科·哮喘发作期热哮证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "儿科",
+        "哮喘",
+        "发作期",
+        "热哮",
+        "麻杏石甘汤",
+        "苏葶丸",
+        "麻黄"
+      ],
+      "intent": "掌握小儿热哮发作期的主症舌脉指纹、病机与清肺涤痰止咳平喘治法，熟悉麻杏石甘汤合苏葶丸的组成与加减。",
+      "learning": {
+        "knowledge": "主症喘促气急、喉间痰鸣如吼、咳痰黄稠、发热面红、胸闷、口渴喜饮、小便黄赤、大便干结；舌红苔黄腻，脉滑数，指纹紫。病机素有伏痰，感受外邪化热，痰热壅肺，气道挛急。治以清肺涤痰、止咳平喘，主方麻杏石甘汤合苏葶丸（麻黄、杏仁、石膏、甘草、苏子、葶苈子），哮鸣重加射干、地龙，痰多加瓜蒌、浙贝母，便结加瓜蒌仁、大黄；调护宜清淡饮食、避免鱼腥发物与冷饮。",
+        "misjudgment": "热哮与寒哮不分，一见哮喘即投温散。错：热哮痰黄黏稠、面赤口渴、苔黄脉数，寒哮痰白清稀、形寒肢冷、苔白脉紧，寒热判错则方药南辕北辙，须察痰色舌脉以定寒热。",
+        "reasoning": "哮喘宿根在肺脾肾三脏，为何发作期专治其标而不固本？",
+        "feedback": "发作期痰气壅实，标实为急，先涤痰平喘以解其危；正虚之本待缓解期再议，急则治标、缓则治本，次序不可颠倒。",
+        "transfer": "小儿咳喘痰鸣、痰黄便干、发热面赤者，试按热哮辨治并说明麻黄的折算用量。"
+      },
+      "stdJudgment": "热哮发作期以喘促气急、喉间痰鸣如吼、咳痰黄稠、发热面红、胸闷口渴为辨，舌红苔黄腻、脉滑数、指纹紫；痰热壅肺、气道挛急，治宜清肺涤痰、止咳平喘，麻杏石甘汤清宣肺热，合苏葶丸降气涤痰，表解里清则哮鸣自平。",
+      "coreDefinition": "热哮发作期以喘促哮鸣、痰黄稠、面红口渴、苔黄腻脉滑数为特征，治以清肺涤痰止咳平喘。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《景岳全书》",
+          "canon": "《景岳全书》",
+          "chapter": "杂证谟·喘促",
+          "originalText": "喘有夙根，遇寒即发，或遇劳即发者，亦名哮喘。",
+          "sourceTitle": "《景岳全书》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "麻杏石甘汤（麻黄、杏仁、石膏、甘草）合苏葶丸（苏子、葶苈子）水煎，麻黄先煎去沫，石膏先煎，日1剂分3~4次温服；按年龄折算：如麻黄成人3~6g，1~3岁用1~1.5g，3~7岁用1.5~2g，葶苈子成人6~9g，小儿酌减至2~4g。",
+        "caution": "小儿剂量宜小；麻黄发汗力强，多汗体虚者慎用；葶苈子泻肺力峻，脾虚便溏者减量；哮喘发作期若见紫绀、神萎、三凹征，须急送医。"
+      },
+      "safety": {
+        "note": "麻杏石甘汤含麻黄，小儿按年龄折算；发作期控制后须转入缓解期调理固本；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "麻黄发汗力强虚人慎用；高血压心脏病失眠者慎用；运动员禁用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-007",
+      "title": "儿科·哮喘缓解期肺脾气虚证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "儿科",
+        "哮喘",
+        "缓解期",
+        "肺脾气虚",
+        "玉屏风散",
+        "人参五味子汤"
+      ],
+      "intent": "掌握小儿哮喘缓解期肺脾气虚证的主症舌脉、病机与健脾益气补肺固表治法，理解缓解期调本防发的意义。",
+      "learning": {
+        "knowledge": "主症反复感冒、气短自汗、咳嗽无力、痰白清稀、面白少华、神疲懒言、食少纳呆、大便溏薄；舌淡苔白，脉细弱，指纹淡。病机哮喘日久，肺脾气虚，卫外不固，运化失健，痰湿内蕴。治以健脾益气、补肺固表，主方玉屏风散合人参五味子汤（黄芪、白术、防风、人参、茯苓、五味子、麦冬、甘草、生姜、大枣），汗多加煅龙骨、煅牡蛎、浮小麦，纳差加焦山楂、炒谷芽，便溏加山药、薏苡仁；调护宜适当锻炼、避免过敏原。",
+        "misjudgment": "缓解期见轻微喘咳即用发作期方药。错：缓解期以正虚为主，偶有喘咳亦属正虚痰恋，重在补脾肺、固卫表；屡用麻黄葶苈攻伐，正气愈伤，发作愈频。",
+        "reasoning": "培土何以能生金？补脾为何能减少哮喘复发？",
+        "feedback": "脾为生痰之源、肺为贮痰之器，脾气健运则痰无由生，卫气充实则外邪难侵，故健脾益气实为杜绝哮喘复发之本。",
+        "transfer": "学龄儿童哮喘缓解、自汗纳少、易感者，试按肺脾气虚设计固本调理思路。"
+      },
+      "stdJudgment": "哮喘缓解期肺脾气虚证以反复感冒、气短自汗、面白少华、食少便溏为辨，舌淡苔白、脉细弱、指纹淡；肺虚卫外不固、脾虚运化失健、痰湿内蕴，治宜健脾益气、补肺固表，玉屏风散合人参五味子汤培土生金，脾气充则卫气固、宿痰自化，为缓解期治本之要。",
+      "coreDefinition": "哮喘缓解期肺脾气虚证以反复感冒、气短自汗、食少便溏、舌淡脉细弱为特征，治以健脾益气补肺固表。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经脉别论篇第二十一",
+          "originalText": "饮入于胃，游溢精气，上输于脾。脾气散精，上归于肺。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "玉屏风散（黄芪、白术、防风）合人参五味子汤（人参、茯苓、白术、五味子、麦冬、甘草、生姜、大枣）水煎服，日1剂分2~3次温服，或制膏久服缓图；按年龄折算：如黄芪成人15~30g，1~3岁用5~10g，3~7岁用8~12g，人参以党参代之者酌加量。",
+        "caution": "小儿剂量宜小；缓解期宜缓图固本，忌骤用温补峻品；外感急性发作期暂停补益方，先治其标；人参反藜芦，同用须忌。"
+      },
+      "safety": {
+        "note": "缓解期以固本为主，急性发作须先治标；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-008",
+      "title": "儿科·厌食脾胃不和证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "儿科",
+        "厌食",
+        "脾胃不和",
+        "运脾和胃",
+        "不换金正气散",
+        "半夏"
+      ],
+      "intent": "掌握小儿厌食脾胃不和证的主症舌脉、病机与运脾和胃治法，熟悉不换金正气散的组成与加减。",
+      "learning": {
+        "knowledge": "主症食欲不振、厌恶进食、食而乏味、脘腹胀满、嗳气恶心、大便或干或溏、精神尚可；舌淡红苔薄白或薄腻，脉尚和缓，指纹多正常或淡滞。病机脾胃不和，运化失健，纳化失司。治以运脾和胃，主方不换金正气散（藿香、苍术、厚朴、陈皮、半夏、甘草、生姜、大枣），腹胀加莱菔子、槟榔，嗳气加鸡内金、麦芽，便溏加山药、茯苓；调护宜定时定量进食、少食零食冷饮、营造愉快进食环境。",
+        "misjudgment": "把厌食与积滞等同，一律消导攻伐。错：厌食以不思进食为主而无脘腹痞胀、嗳腐酸臭之积滞征象，纯消导反伤脾运；脾胃不和之治贵在运脾开胃，非在攻积。",
+        "reasoning": "同为纳呆，为何积滞宜消、厌食宜运，二者病机有何不同？",
+        "feedback": "积滞乃乳食停聚中焦，属实，消导化滞为主；厌食乃脾运失健、纳化无力，属虚中夹滞，宜芳香醒脾、运化和中，误消则脾愈虚。",
+        "transfer": "挑食、偏食致面黄纳呆的小儿，试按脾胃不和思路结合喂养调护综合处理。"
+      },
+      "stdJudgment": "厌食脾胃不和证以食欲不振、厌恶进食、食而乏味、脘腹胀满、嗳气恶心为辨，舌淡红苔薄白或薄腻、脉尚和缓；脾运失健、胃纳不和，治宜运脾和胃，不换金正气散芳香醒脾、燥湿和胃，药性平和，切合小儿脾常不足、易为湿困之体。",
+      "coreDefinition": "厌食脾胃不和证以食欲不振、食而乏味、脘腹胀满为特征，治以运脾和胃，方用不换金正气散。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减与调护",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "灵兰秘典论篇第八",
+          "originalText": "脾胃者，仓廪之官，五味出焉。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "不换金正气散（藿香、苍术、厚朴、陈皮、半夏、甘草、生姜、大枣）水煎，日1剂分2~3次温服，饭前或饭后半小时服；按年龄折算：如苍术、厚朴成人各6~9g，1~3岁各用2~3g，3~7岁各用3~4g，半夏用姜半夏或法半夏3~6g折算。",
+        "caution": "小儿剂量宜小，方中半夏须用炮制品；苍术苦温香燥，阴虚内热者慎用；厌食忌用滋腻补品与苦寒败胃之品，重在运脾不在补脾。"
+      },
+      "safety": {
+        "note": "不换金正气散含半夏，须用炮制品；厌食久治不愈当查有无积滞、疳证及情志因素；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-009",
+      "title": "儿科·积滞乳食内积证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "儿科",
+        "积滞",
+        "乳食内积",
+        "消乳化积",
+        "消乳丸",
+        "保和丸",
+        "半夏"
+      ],
+      "intent": "掌握小儿积滞乳食内积证的主症舌脉指纹、病机与消乳化积导滞和中治法，熟悉消乳丸、保和丸的选用与加减。",
+      "learning": {
+        "knowledge": "主症乳食不思、脘腹胀满、嗳腐吞酸、呕吐酸馊乳食、大便酸臭或夹不消化食物、夜卧不宁、手足心热；舌红苔厚腻，脉滑，指纹紫滞。病机乳食不节，停聚中焦，壅滞气机，脾胃运化失常。治以消乳化积、导滞和中，主方乳积用消乳丸（香附、神曲、麦芽、陈皮、砂仁、炙甘草），食积用保和丸（山楂、神曲、半夏、茯苓、陈皮、连翘、莱菔子），腹胀甚加木香、厚朴，呕吐加生姜汁、竹茹；调护宜节乳食、进软食，积滞初愈勿骤进肥甘。",
+        "misjudgment": "积滞化热见苔黄便干即投苦寒通下。错：积滞之热源于食停，苦寒直折反冰伏中阳、脾运更呆；宜消导行气为主，佐以清热，便结甚者方用轻下。",
+        "reasoning": "同为食积，为何乳积选消乳丸而食积选保和丸？",
+        "feedback": "乳积之滞在乳，消乳丸以麦芽、神曲消乳化积；食积之滞在谷肉，保和丸山楂、莱菔子擅消肉食之积，药证相对，效乃彰显。",
+        "transfer": "逢年过节小儿贪食后脘胀嗳腐、夜卧不宁者，试按乳食内积辨治并调整饮食。"
+      },
+      "stdJudgment": "积滞乳食内积证以乳食不思、脘腹胀满、嗳腐吞酸、呕吐酸馊、大便酸臭夹不消化食物为辨，舌苔厚腻、脉滑、指纹紫滞；乳食停聚、中焦壅滞、脾胃运化失司，治宜消乳化积、导滞和中，乳积投消乳丸、食积投保和丸，腑气一通、宿滞一去，脾胃自复。",
+      "coreDefinition": "积滞乳食内积证以脘腹胀满、嗳腐吞酸、大便酸臭为特征，治以消乳化积导滞和中。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "太阴阳明论篇第二十九",
+          "originalText": "食饮不节，起居不时者，阴受之。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "乳积用消乳丸（香附、神曲、麦芽、陈皮、砂仁、炙甘草），食积用保和丸（山楂、神曲、半夏、茯苓、陈皮、连翘、莱菔子），水煎或研末为丸服，日1剂分2~3次；按年龄折算：如山楂、神曲成人各9~12g，1~3岁各用3~4g，3~7岁各用4~6g。",
+        "caution": "小儿剂量宜小，消导之品中病即止，不可久服；积滞化热或夹疳者须转方调脾；方中半夏须用炮制品。"
+      },
+      "safety": {
+        "note": "消导之剂中病即止，久用伤脾；积滞日久当防转为疳证；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-010",
+      "title": "儿科·疳证疳气证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "儿科",
+        "疳证",
+        "疳气",
+        "调脾健运",
+        "资生健脾丸"
+      ],
+      "intent": "掌握小儿疳证疳气证的主症舌脉、病机与调脾健运治法，理解疳证脾胃损伤为本的机理与转归。",
+      "learning": {
+        "knowledge": "主症形体略瘦、面色萎黄少华、毛发稀疏、食欲不振、精神欠佳、易发脾气、大便或溏或干、睡眠欠安；舌淡苔薄白或微腻，脉细。病机乳食不节或喂养不当，日久脾胃失健，气血生化不足，形体失养。治以调脾健运，主方资生健脾丸（人参、白术、茯苓、山药、莲子肉、薏苡仁、芡实、白扁豆、藿香、砂仁、陈皮、麦芽、山楂、神曲、桔梗、炙甘草），腹胀加莱菔子、木香，便溏加煨肉豆蔻，夜寐不安加酸枣仁；调护宜保证营养均衡、少食多餐、忌偏食零食。",
+        "misjudgment": "疳气证形体略瘦即投大剂滋补厚味。错：疳之本在脾胃失运，滋腻厚味反壅脾碍运，愈补愈呆；宜甘淡平补与健运并行，运脾则愈。",
+        "reasoning": "钱乙谓疳皆脾胃病，为何疳证尚见目赤、牙疳等肝心肾诸变？",
+        "feedback": "脾虚则气血乏源，五脏失养，肝开窍于目、齿为骨之余，故日久可生眼疳、牙疳诸变；治疳不忘护脾，防变于未然。",
+        "transfer": "疳气证小儿形体渐瘦、纳差便溏者，试按调脾健运思路拟定调理方案并说明缓治之理。"
+      },
+      "stdJudgment": "疳气证为疳证之初，以形体略瘦、面色萎黄少华、毛发稀疏、食欲不振、精神欠佳、大便不调为辨，舌淡苔薄白、脉细；脾失健运、气血生化乏源，治宜调脾健运，资生健脾丸平补平运、药性甘淡平和，为疳气证之要方，得脾胃复健则疳气自消。",
+      "coreDefinition": "疳证疳气证以形体略瘦、面色萎黄、食欲不振、大便不调为特征，治以调脾健运，方用资生健脾丸。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《小儿药证直诀》",
+          "canon": "《小儿药证直诀》",
+          "chapter": "诸疳",
+          "originalText": "疳皆脾胃病，亡津液之所作也。",
+          "sourceTitle": "《小儿药证直诀》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "资生健脾丸（人参、白术、茯苓、山药、莲子肉、薏苡仁、芡实、白扁豆、藿香、砂仁、陈皮、麦芽、山楂、神曲、桔梗、炙甘草）水煎服或制丸服，日1剂分2~3次；按年龄折算：如白术、茯苓成人各9~12g，1~3岁各用3~4g，3~7岁各用4~6g。",
+        "caution": "小儿剂量宜小；疳证须缓图调补，忌峻补与攻伐；兼见积滞或疳积者先消后补或消补兼施；若见形体极度消瘦、精神萎靡之干疳，须中西医结合治疗。"
+      },
+      "safety": {
+        "note": "疳证为慢性消耗性疾病，须耐心调理，兼查有无虫积；干疳重症须及时就医；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-011",
+      "title": "儿科·泄泻伤食泻证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "儿科",
+        "泄泻",
+        "伤食泻",
+        "消食化滞",
+        "保和丸",
+        "半夏"
+      ],
+      "intent": "掌握小儿伤食泻的主症舌脉指纹、病机与运脾和胃消食化滞治法，熟悉保和丸的组成与加减。",
+      "learning": {
+        "knowledge": "主症脘腹胀满、腹痛即泻、泻后痛减、大便酸臭或如败卵、夹有不消化食物、嗳腐吞酸、不思乳食、夜卧不安；舌苔垢腻或微黄，脉滑，指纹沉滞。病机乳食不节，积滞中焦，损伤脾胃，运化失职，水谷不分。治以运脾和胃、消食化滞，主方保和丸（山楂、神曲、半夏、茯苓、陈皮、连翘、莱菔子），腹胀腹痛加木香、厚朴、槟榔，呕吐加藿香、生姜，水泻明显加泽泻、车前子；调护宜暂禁食6~8小时或进稀粥，忌生冷肥甘。",
+        "misjudgment": "伤食泻误投涩肠止泻之品。错：积滞未去而用诃子、石榴皮等收涩，则闭门留寇，腹胀愈甚、泻下缠绵；当因势利导，消积导滞使邪有出路。",
+        "reasoning": "同为小儿泄泻，伤食泻与湿热泻皆泻下臭秽，如何据大便与舌苔判别？",
+        "feedback": "伤食泻粪酸臭如败卵、苔垢腻、兼嗳腐，湿热泻粪色黄褐而臭、肛周灼热、苔黄腻、口渴尿黄；一因食积一因湿热，治分消导与清利。",
+        "transfer": "小儿进食过量油腻后腹痛泄泻、泻后痛减者，试按伤食泻辨治并说明节食调护。"
+      },
+      "stdJudgment": "伤食泻以脘腹胀满、腹痛即泻、泻后痛减、大便酸臭如败卵、夹不消化食物、嗳腐吞酸为辨，舌苔垢腻、脉滑、指纹沉滞；乳食积滞、损伤脾胃、运化失职，治宜运脾和胃、消食化滞，保和丸消食导滞、和中止泻，积滞去则泻自止，为伤食泻之常用方。",
+      "coreDefinition": "伤食泻以泻下酸臭、夹不消化食物、腹痛胀满、泻后痛减为特征，治以消食化滞和中。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "痹论篇第四十三",
+          "originalText": "饮食自倍，肠胃乃伤。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "保和丸（山楂、神曲、半夏、茯苓、陈皮、连翘、莱菔子）水煎或研末为丸服，日1剂分3次；按年龄折算：如山楂、神曲成人各9~12g，1~3岁各用3~4g，3~7岁各用4~6g，半夏用姜半夏或法半夏。",
+        "caution": "小儿剂量宜小，中病即止，泻止后节乳食、进糜粥调养；半夏须用炮制品；脱水明显者须防伤阴，必要时配合补液。"
+      },
+      "safety": {
+        "note": "保和丸含半夏，须用炮制品；伤食泻须与湿热泻、脾虚泻相鉴别，泻甚防脱水；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "半夏生半夏有毒须炮制；反乌头类（含附子）；孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-012",
+      "title": "儿科·泄泻脾虚泻证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "儿科",
+        "泄泻",
+        "脾虚泻",
+        "健脾助运",
+        "参苓白术散",
+        "易混淆"
+      ],
+      "intent": "掌握小儿脾虚泻的主症舌脉、病机与健脾益气助运止泻治法，辨析脾虚泻与伤食泻、湿热泻之异。",
+      "learning": {
+        "knowledge": "主症大便稀溏、色淡不臭、常食后作泻、时轻时重、面色萎黄、形体消瘦、神疲倦怠、纳呆腹胀；舌淡苔白，脉缓弱，指纹淡。病机脾胃虚弱，运化无权，水谷不化，清浊不分。治以健脾益气、助运止泻，主方参苓白术散（人参、白术、茯苓、甘草、山药、莲子肉、薏苡仁、砂仁、桔梗、白扁豆、大枣），腹胀加木香、厚朴，久泻不止加煨诃子、石榴皮，夹不消化物加神曲、山楂；调护宜少食多餐、进易消化饮食、注意腹部保暖。",
+        "misjudgment": "脾虚泻与伤食泻同见便稀而混为一治。错：脾虚泻粪色淡、不臭、食后即泻、病程长、面黄神疲；伤食泻粪酸臭、夹残渣、泻后痛减、起病急，一补一消，误补则积滞愈壅，误消则脾气愈伤。",
+        "reasoning": "脾虚泻为何食后即泻，其机理与脾失升清有何关联？",
+        "feedback": "食后谷气骤充，脾弱不能运化升清，清浊俱走大肠而泻；治脾虚泻重在复脾升运之能，而非见泻止泻。",
+        "transfer": "久泻面黄、食后即泻的幼儿，试从脾虚与伤食两端对照鉴别并处方。"
+      },
+      "stdJudgment": "脾虚泻以大便稀溏、色淡不臭、食后作泻、时轻时重、面色萎黄、形体消瘦、神疲倦怠为辨，舌淡苔白、脉缓弱、指纹淡；脾胃虚弱、运化无权、清浊不分，治宜健脾益气、助运止泻，参苓白术散甘平补脾、渗湿止泻，与伤食泻之消导、湿热泻之清利迥然有别，辨治首重粪色与病程。",
+      "coreDefinition": "脾虚泻以大便稀溏、食后作泻、面色萎黄、神疲倦怠、舌淡脉缓弱为特征，治以健脾益气助运止泻。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《幼幼集成》",
+          "canon": "《幼幼集成》",
+          "chapter": "泄泻证治",
+          "originalText": "夫泄泻之本，无不由于脾胃。",
+          "sourceTitle": "《幼幼集成》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "参苓白术散（人参、白术、茯苓、甘草、山药、莲子肉、薏苡仁、砂仁、桔梗、白扁豆、大枣）水煎服或研末冲服，日1剂分3次；按年龄折算：如白术、茯苓成人各9~12g，1~3岁各用3~4g，3~7岁各用4~6g。",
+        "caution": "小儿剂量宜小；脾虚泻迁延难愈，须守方缓图，忌骤用收涩峻补；兼积滞、湿热者先祛邪；久泻伤阴伤阳者另当固护气阴。"
+      },
+      "safety": {
+        "note": "参苓白术散含甘草，中病即止；脾虚泻须与伤食泻、湿热泻鉴别，泻久防脱液伤阴；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-013",
+      "title": "儿科·夜啼心经积热证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "儿科",
+        "夜啼",
+        "心经积热",
+        "清心导赤",
+        "导赤散",
+        "木通",
+        "综合推理"
+      ],
+      "intent": "掌握小儿夜啼心经积热证的主症舌脉指纹、病机与清心导赤泻火安神治法，综合鉴别脾寒、惊恐、食积所致夜啼。",
+      "learning": {
+        "knowledge": "主症入夜啼哭不安、哭声洪亮、见灯光啼甚、面赤唇红、烦躁不宁、身腹俱热、小便短赤、大便秘结；舌尖红，苔薄黄，脉数，指纹紫。病机乳母或小儿心经积热，热扰神明，神不守舍。治以清心导赤、泻火安神，主方导赤散（生地黄、木通、甘草梢、竹叶），心烦甚加栀子、灯心草，大便不通加生大黄，惊惕不宁加钩藤、蝉蜕；调护宜保持卧室安静、避强光，乳母忌辛辣炙煿之品。",
+        "misjudgment": "夜啼一证概投安神镇惊之品。错：夜啼须分心热、脾寒、惊恐、食积四型，心热者面赤溺赤、哭声洪亮，脾寒者面白肢冷、得温则缓，惊恐者惊惕不安、睡中易醒，不辨病因，泛用镇惊则药不对证。",
+        "reasoning": "心经积热之夜啼，为何用利水之木通、生地而少用重镇安神之品？",
+        "feedback": "导赤散寓清于利，生地凉血养阴、木通竹叶引心火从小便而出，邪热有出路则神自安；重镇之品沉降伤脾，非心热夜啼之正治。",
+        "transfer": "乳母食辛辣后婴儿入夜啼哭、面赤溺黄者，试从心经积热立法并追溯诱因。"
+      },
+      "stdJudgment": "夜啼心经积热证以入夜啼哭、哭声洪亮、见灯尤甚、面赤唇红、烦躁不宁、小便短赤为辨，舌尖红苔黄、脉数、指纹紫；心经积热、热扰神明，治宜清心导赤、泻火安神，导赤散引热从小便而出，使心火下行，与脾寒夜啼之哭声低微、得温则缓迥异，辨明寒热虚实为夜啼立法之首务。",
+      "coreDefinition": "夜啼心经积热证以入夜啼哭、哭声洪亮、面赤烦躁、小便短赤、舌尖红为特征，治以清心导赤泻火安神。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉指纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《小儿药证直诀》",
+          "canon": "《小儿药证直诀》",
+          "chapter": "诸方",
+          "originalText": "视其睡，口中气温，或合面睡，及上窜咬牙，皆心热也。",
+          "sourceTitle": "《小儿药证直诀》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "导赤散（生地黄、木通、甘草梢、竹叶）水煎，竹叶后下，日1剂分3次温服，或少量频服；按年龄折算：如生地黄成人9~15g，1~3岁用3~5g，3~7岁用5~8g，木通用木通或川木通2~4g折算。",
+        "caution": "小儿剂量宜小；木通须辨品种，禁用含马兜铃酸的关木通；导赤散苦寒清利，脾虚便溏者慎用，中病即止，不可久服。"
+      },
+      "safety": {
+        "note": "木通须用正品木通或川木通，禁用关木通（含马兜铃酸，有肾毒性）；导赤散苦寒，小儿中病即止；夜啼须排除饥饿、尿布、惊吓等生理因素及器质性疾病；辨证论治知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "【高风险】马兜铃含马兜铃酸有肾毒性3-9g不可过量久服；肾功能不全禁用",
+          "甘草反海藻大戟甘遂芫花；大剂量久服致水肿血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-014",
+      "title": "儿科·汗证肺卫不固证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "汗证",
+        "自汗",
+        "肺卫不固",
+        "益气固表",
+        "玉屏风散",
+        "牡蛎散"
+      ],
+      "intent": "掌握小儿汗证肺卫不固证的主症舌脉、病机与益气固表治法，熟悉玉屏风散合牡蛎散的组成与加减。",
+      "learning": {
+        "knowledge": "主症以自汗为主，或伴盗汗，汗出以头颈胸背为多，动则尤甚，神疲乏力，面色少华，平素易患感冒；舌淡苔薄白，脉细弱。病机肺卫气虚，卫外不固，腠理开泄。治以益气固表、调和营卫，主方玉屏风散合牡蛎散（黄芪、白术、防风、麻黄根、浮小麦、煅牡蛎），汗多不敛加五味子、糯稻根，营卫不和汗出恶风加桂枝、白芍，纳差便溏加山药、茯苓。调护以汗后及时揩干更衣、避风保暖、适当锻炼增强卫气为要。",
+        "misjudgment": "把动辄汗出皆作气虚，凡汗即投黄芪。错：汗证尚有湿热蒸迫、阴虚火旺者，湿热汗出身热口苦苔黄腻，阴虚盗汗潮热舌红少苔，非益气固表所能治，须辨虚实寒热。",
+        "reasoning": "同为自汗，肺卫不固与营卫不和治法有何差异，为何常以玉屏风散与牡蛎散合方同用？",
+        "feedback": "肺卫不固重在固表止汗，玉屏风散补中寓散；营卫不和则宜桂枝汤调和营卫；牡蛎散收敛止汗，两方标本兼施，汗止而不留邪。",
+        "transfer": "学龄前儿童白昼活动后头汗如洗、反复呼吸道感染，试按肺卫不固辨治并拟定调护。"
+      },
+      "stdJudgment": "汗证之肺卫不固者，白昼时时汗出，动辄益甚，头颈胸背尤多，神疲面㿠，屡屡感冒。病由卫表不固、腠理开泄，津液外泄所致。法当益气固表、调和营卫，玉屏风散合牡蛎散主之，黄芪白术固护卫表，防风走表祛风，牡蛎麻黄根浮小麦敛汗止泄，标本并图。",
+      "coreDefinition": "肺卫不固证以自汗为主、动则尤甚、神疲易感为特征，治以益气固表、调和营卫。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳别论篇第七",
+          "originalText": "阳加于阴谓之汗。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "玉屏风散合牡蛎散水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；黄芪6~12g、白术6~9g、防风3~6g、浮小麦9~15g、煅牡蛎先煎10~15g，日1剂分2~3次温服。",
+        "caution": "小儿脏腑娇嫩，剂量宜小，中病即止；麻黄根收涩止汗力强，表邪未解者忌早投；汗出当避风，汗后及时更衣。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；汗出当避风，汗后及时更衣，勿过用收涩",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-015",
+      "title": "儿科·急惊风证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "急惊风",
+        "热极生风",
+        "清热豁痰",
+        "羚角钩藤汤",
+        "安宫牛黄丸",
+        "朱砂",
+        "雄黄",
+        "全蝎",
+        "蜈蚣"
+      ],
+      "intent": "掌握急惊风热痰惊风四证并见的病机特点与清热豁痰熄风镇惊治法，熟悉羚角钩藤汤合安宫牛黄丸的运用。",
+      "learning": {
+        "knowledge": "主症起病急骤，高热不退，烦躁不安，突然四肢抽搐、两目上视、牙关紧闭、颈项强直，甚则角弓反张、神志昏迷、痰涎壅盛、喉间痰鸣；舌红苔黄厚腻，脉弦数或滑数。病机外感时邪化热化火，热极生风，炼液成痰，痰热蒙蔽心窍，引动肝风。治以清热、豁痰、熄风、镇惊，主方羚角钩藤汤合安宫牛黄丸（羚羊角、钩藤、桑叶、菊花、生地黄、白芍、川贝母、竹茹、茯神、甘草），高热加石膏、知母，痰多加竹沥、天竺黄，抽搐不止加全蝎、蜈蚣、僵蚕，惊恐不宁者加朱砂入丸散、茯神。调护：抽搐时侧卧解衣、保持呼吸道通畅、防咬伤舌，急症处理同时转诊就医。",
+        "misjudgment": "一见抽搐即投全蝎蜈蚣等虫类镇痉。错：急惊风之抽搐以热为本，虫类熄风药治标而性走窜，剂量稍大即损小儿正气，须以清热豁痰为主，虫药少量佐之。",
+        "reasoning": "急惊风先开窍还是先熄风，为何医家常以安宫牛黄丸与羚角钩藤汤并进？",
+        "feedback": "神昏者窍闭为先，安宫牛黄丸清心开窍醒神；抽搐者肝风为急，羚角钩藤汤凉肝熄风。窍开风熄，热清痰化，惊自平复。",
+        "transfer": "夏秋高热患儿突发四肢强直抽搐、口吐白沫，试按急惊风辨治并说明急救次序。"
+      },
+      "stdJudgment": "急惊风以起病急骤、高热抽搐、神昏痰鸣为三大特征，热痰惊风四证并见，病位在心肝，属实热证。外感时邪化热化火，热极生风，炼液成痰，痰热蒙窍。法当清热豁痰、熄风镇惊，羚角钩藤汤凉肝熄风，合安宫牛黄丸清心开窍，急则治标，危重者须中西医急救并施。",
+      "coreDefinition": "急惊风以高热、抽搐、神昏、痰鸣为特征，热痰惊风并见，治以清热豁痰熄风镇惊。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "至真要大论篇第七十四",
+          "originalText": "诸风掉眩，皆属于肝。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "羚角钩藤汤水煎，羚羊角宜锉末另煎兑入或研粉冲服0.3~0.6g，钩藤后下3~6g；安宫牛黄丸按年龄减量：3岁内每次1/4丸、3~6岁1/3丸、6岁以上1/2丸，温开水化服或鼻饲，日1~2次。",
+        "caution": "小儿剂量宜小，中病即止；安宫牛黄丸含朱砂、雄黄，不可久服，孕妇禁用；全蝎、蜈蚣有毒，用量宜小，研末吞服0.3~0.6g；急惊风属儿科急危重症，抽搐发作须立即就医。"
+      },
+      "safety": {
+        "note": "急惊风为儿科急危重症，抽搐发作须立即就医，本节点仅作知识学习；安宫牛黄丸含朱砂雄黄，只可暂用不可久服",
+        "prohibitions": [
+          "【高风险】朱砂含硫化汞忌火煅；0.1-0.5g只入丸散；不可久服；孕妇禁用",
+          "【高风险】雄黄有毒0.05-0.1g只入丸散；忌火煅；孕妇禁用",
+          "全蝎有毒，煎服3~6g、研末0.6~1g，用量宜小，过量可致中毒；孕妇禁用",
+          "蜈蚣有毒，煎服3~5g、研末0.6~1g，用量宜小，过量可致中毒；孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-016",
+      "title": "儿科·慢惊风脾肾阳虚证治",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "慢惊风",
+        "脾肾阳虚",
+        "回阳救逆",
+        "固真汤",
+        "逐寒荡惊汤",
+        "附子"
+      ],
+      "intent": "掌握慢惊风脾肾阳虚证的主症舌脉、病机与温补脾肾回阳救逆治法，理解急慢惊风虚实之辨。",
+      "learning": {
+        "knowledge": "主症精神萎靡，嗜睡露睛，面色㿠白或萎黄，四肢不温，抽搐无力、时作时止，囟门低陷，大便清稀、完谷不化，小便清长；舌淡苔白，脉沉细弱。病机大病久病之后脾肾阳虚，精血亏耗，虚风内动。治以温补脾肾、回阳救逆，主方固真汤合逐寒荡惊汤（人参、白术、茯苓、炙甘草、黄芪、山药、肉桂、附子、胡椒、炮姜、丁香、灶心土），汗多肢冷加龙骨、煅牡蛎，抽搐不止加天麻、钩藤，纳少便溏加砂仁、陈皮。调护：居室温暖，注意保暖，缓慢喂食防呛入气道。",
+        "misjudgment": "把慢惊风抽搐误作急惊风而投清热镇惊之品。错：急惊风属实热，高热抽搐有力；慢惊风脾肾阳虚，抽搐无力、神疲肢冷，误用苦寒清热更伤阳气，风动反剧。",
+        "reasoning": "同为惊风，为何急惊风用羚角钩藤汤而慢惊风用固真汤逐寒荡惊汤，温凉悬殊如此？",
+        "feedback": "急惊风热痰实风，清热熄风；慢惊风脾肾阳虚虚风，温阳固本。虚实之辨一差，用药南辕北辙。",
+        "transfer": "久泻不止的患儿渐见嗜睡、手足蠕动、目光无神，试辨慢惊风先兆并立法。"
+      },
+      "stdJudgment": "慢惊风脾肾阳虚者，病程迁延，精神萎靡，嗜睡露睛，面色㿠白，四肢不温，抽搐无力而时作时止，大便清稀完谷不化。大病久病伤及脾肾，阳气衰微，虚风内生，属阴证虚证。法当温补脾肾、回阳救逆，固真汤合逐寒荡惊汤主之，附子肉桂回阳，人参黄芪益气，阳回风定，切忌苦寒攻伐。",
+      "coreDefinition": "脾肾阳虚证以嗜睡露睛、四肢不温、抽搐无力、便清为特征，治以温补脾肾回阳救逆。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "至真要大论篇第七十四",
+          "originalText": "诸病水液，澄澈清冷，皆属于寒。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "固真汤合逐寒荡惊汤水煎，附子须炮制先煎久煎至无麻辣感再入余药，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2；附子1.5~3g、人参另煎兑入1.5~3g，日1剂少量频服。",
+        "caution": "附子须炮制先煎久煎至无麻辣感，反半夏瓜蒌贝母白蔹白及，孕妇禁用；小儿剂量宜小，中病即止，阳回后转以温补调理，不宜久服回阳峻剂。"
+      },
+      "safety": {
+        "note": "慢惊风为儿科重症，须密切观察神志呼吸，必要时中西医结合救治；本节点仅作知识学习，临床用药须遵医嘱",
+        "prohibitions": [
+          "附子须炮制先煎久煎至无麻辣感；反半夏瓜蒌贝母白蔹白及；孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-017",
+      "title": "儿科·水肿风水相搏证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "水肿",
+        "风水相搏",
+        "疏风利水",
+        "麻黄连翘赤小豆汤",
+        "五苓散",
+        "麻黄"
+      ],
+      "intent": "掌握小儿水肿风水相搏证的主症舌脉、病机与疏风宣肺利水消肿治法，熟悉麻黄连翘赤小豆汤合五苓散。",
+      "learning": {
+        "knowledge": "主症水肿自眼睑颜面始，迅即波及全身，以头面为甚，皮肤光亮，按之凹陷随手即起，小便短少，伴发热恶风、咳嗽、咽红疼痛；舌质红，苔薄白或薄黄，脉浮数。病机风邪外袭，肺失宣降，通调失职，水湿泛滥肌肤。治以疏风宣肺、利水消肿，主方麻黄连翘赤小豆汤合五苓散（麻黄、连翘、赤小豆、杏仁、桑白皮、生姜、大枣、甘草、茯苓、猪苓、泽泻、桂枝、白术），咽红肿痛加牛蒡子、射干、板蓝根，血尿加白茅根、小蓟、仙鹤草，湿热重加车前子、滑石。调护：急性期卧床休息，低盐饮食，记录尿量，肿退后渐复常食。",
+        "misjudgment": "水肿见苔腻便溏即投健脾温阳之剂。错：风水相搏为阳水初起，邪在肺卫，当疏风利水；过早温补反致水湿留恋，水肿难消，须先解表利水。",
+        "reasoning": "同为水肿，风水相搏用麻黄宣肺利水，而脾虚湿困用健脾利水，机理有何不同？",
+        "feedback": "风水在肺，肺为水之上源，麻黄开肺气以行水；脾虚在运化，健脾以杜生湿之源。上源通、中焦运，则水湿各有出路。",
+        "transfer": "上呼吸道感染后突发眼睑浮肿、尿少尿血者，试按风水相搏分析病机与选方。"
+      },
+      "stdJudgment": "风水相搏之肿，起于眼睑颜面，迅即遍及全身，头面为甚，皮色光亮，按之凹陷随手即起，小便短少，兼发热恶风、咳嗽咽红。风邪犯肺，宣降失司，水溢肌肤，属阳水实证。法当疏风宣肺、利水消肿，麻黄连翘赤小豆汤合五苓散主之，麻黄宣肺开腠，连翘赤小豆清热利湿，五苓散化气行水。",
+      "coreDefinition": "风水相搏证以眼睑颜面浮肿、迅即遍及全身、按之即起、兼表证为特征，治以疏风宣肺利水。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "水气病脉证并治第十四",
+          "originalText": "风水，其脉自浮，外证骨节疼痛，恶风。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "麻黄连翘赤小豆汤合五苓散水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；麻黄3~6g先煎去沫，连翘6~9g，赤小豆15~30g，日1剂分2~3次温服。",
+        "caution": "麻黄发汗力强，虚人慎用，高血压心脏病失眠者慎用，运动员禁用；小儿剂量宜小，汗出以微汗为度，忌大汗伤津；水肿消退后即减停利水药。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；急性肾炎水肿期须卧床限盐，监测尿量与血压",
+        "prohibitions": [
+          "麻黄发汗力强虚人慎用；高血压心脏病失眠者慎用；运动员禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-018",
+      "title": "儿科·尿频脾肾气虚证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "尿频",
+        "脾肾气虚",
+        "温补脾肾",
+        "升提固摄",
+        "缩泉丸",
+        "参苓白术散"
+      ],
+      "intent": "掌握小儿尿频脾肾气虚证的主症舌脉、病机与温补脾肾升提固摄治法，熟悉缩泉丸合参苓白术散。",
+      "learning": {
+        "knowledge": "主症病程日久，小便频数、淋沥不尽，尿液清，精神倦怠，面色萎黄，食欲不振，形寒怕冷，手足不温，大便稀薄；舌淡苔薄白，脉细弱。病机脾肾气虚，膀胱气化不利，约束无力。治以温补脾肾、升提固摄，主方缩泉丸合参苓白术散（益智仁、乌药、山药、党参、白术、茯苓、薏苡仁、莲子肉、白扁豆、砂仁、桔梗、甘草），畏寒肢冷加肉桂、菟丝子，尿频明显加桑螵蛸、芡实，纳差加焦山楂、神曲。调护：睡前少饮水，及时排尿，注意会阴部清洁防尿路感染。",
+        "misjudgment": "尿频伴尿黄即作湿热下注投八正散。错：湿热尿频尿急尿痛、苔黄腻属实，脾肾气虚尿频清长、神倦肢冷属虚，误用苦寒通利更耗脾肾之气，尿频反甚。",
+        "reasoning": "同见小便频数，为何湿热下注用八正散清利，脾肾气虚用缩泉丸温补？",
+        "feedback": "湿热者邪实，清利膀胱以通淋；气虚者正虚，温补脾肾以固摄。虚实异治，方不致误。",
+        "transfer": "肾病缓解期患儿仍日间尿频、夜尿清长、纳差神疲，试按脾肾气虚调治。"
+      },
+      "stdJudgment": "尿频之脾肾气虚者，病势迁延，小便频数、淋沥不尽，尿液清，精神倦怠，面色萎黄，形寒肢冷，纳少便溏。脾虚则中气下陷，肾虚则气化失司，膀胱约束无权。法当温补脾肾、升提固摄，缩泉丸合参苓白术散主之，益智仁乌药温肾缩尿，参术苓健脾升提，标本同治。",
+      "coreDefinition": "脾肾气虚证以小便频数清长、神倦纳差、形寒肢冷为特征，治以温补脾肾升提固摄。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.随证加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "灵兰秘典论篇第八",
+          "originalText": "膀胱者，州都之官，津液藏焉，气化则能出矣。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "缩泉丸合参苓白术散水煎或研末为丸，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；益智仁3~9g、乌药3~9g、山药6~15g，日1剂分2~3次温服。",
+        "caution": "小儿剂量宜小；湿热下注、尿急尿痛者忌用温补固涩；乌药辛温耗气，气虚甚者减量。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；尿频久治不效须查尿常规排除感染",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-019",
+      "title": "儿科·遗尿肾气不固证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "遗尿",
+        "肾气不固",
+        "温肾固涩",
+        "菟丝子散",
+        "附子"
+      ],
+      "intent": "掌握小儿遗尿肾气不固证的主症舌脉、病机与温补肾阳固涩止遗治法，熟悉菟丝子散的组成与附子用法。",
+      "learning": {
+        "knowledge": "主症睡中经常遗尿，醒后方觉，一夜可遗数次，小便清长，面色㿠白，神疲乏力，畏寒肢冷，腰膝酸软，智力发育稍迟于同龄儿；舌淡苔白滑，脉沉细无力。病机肾气不足，命门火衰，下元虚寒，膀胱失约。治以温补肾阳、固涩止遗，主方菟丝子散加减（菟丝子、肉苁蓉、附子、五味子、鸡内金、煅牡蛎、益智仁），肢冷明显加肉桂、巴戟天，纳呆便溏加白术、茯苓、山药，尿频加桑螵蛸、覆盆子。调护：睡前控制饮水量，夜间定时唤醒排尿，家长勿斥责，培养自主排尿习惯。",
+        "misjudgment": "遗尿兼尿黄烦躁即投清肝泻火之剂。错：肝经湿热遗尿多见于白天尿急、尿黄味臊、性情急躁，与本证睡中清长遗尿迥异，误用苦寒更伤肾阳。",
+        "reasoning": "遗尿一证，何以肾气不固者治以温补固涩，而肝经湿热者治以清泻？",
+        "feedback": "肾司封藏，虚则失约故温补；肝经湿热下迫膀胱，实则失司故清泻。辨证之要在小便清长与尿黄烦躁之分。",
+        "transfer": "8岁患儿仍每夜遗尿、畏寒肢冷、夜尿清长，试拟温肾固涩之治并说明调护。"
+      },
+      "stdJudgment": "遗尿属肾气不固者，睡中不自主排尿，醒后方觉，一夜可数遗，尿清而长，面色㿠白，神疲畏寒，腰膝酸软。肾主封藏，司二便，下元虚寒则膀胱失约。法当温补肾阳、固涩止遗，菟丝子散加减主之，菟丝子肉苁蓉附子温肾助阳，五味子牡蛎鸡内金固涩缩尿，肾气充则膀胱约束有权。",
+      "coreDefinition": "肾气不固证以睡中遗尿、尿清而长、畏寒肢冷为特征，治以温补肾阳固涩止遗。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "宣明五气篇第二十三",
+          "originalText": "膀胱不利为癃，不约为遗溺。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "菟丝子散加减水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；菟丝子6~12g、肉苁蓉3~9g、附子1.5~3g先煎久煎，五味子3~6g，日1剂分2次温服，或研末为散分服。",
+        "caution": "附子须炮制先煎久煎至无麻辣感，反半夏瓜蒌贝母白蔹白及，孕妇禁用；小儿剂量宜小，中病即止；肝经湿热及膀胱湿热者忌用温补固涩。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；遗尿久治不效须除外隐性脊柱裂等器质病变",
+        "prohibitions": [
+          "附子须炮制先煎久煎至无麻辣感；反半夏瓜蒌贝母白蔹白及；孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-020",
+      "title": "儿科·麻疹顺证证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "麻疹",
+        "顺证",
+        "透疹",
+        "宣毒发表汤",
+        "清解透表汤",
+        "沙参麦冬汤"
+      ],
+      "intent": "掌握麻疹顺证三期传变的主症与治法，熟悉宣毒发表汤、清解透表汤、沙参麦冬汤，并能与风疹、幼儿急疹、猩红热鉴别。",
+      "learning": {
+        "knowledge": "主症按三期传变：初热期发热、咳嗽、流涕喷嚏、目赤畏光流泪，口腔两颊近臼齿处见麻疹黏膜斑，苔薄白或微黄，脉浮数，治以辛凉透表、清宣肺卫，主方宣毒发表汤（升麻、葛根、前胡、杏仁、桔梗、枳壳、荆芥、防风、薄荷、木通、连翘、牛蒡子、竹叶、甘草）；出疹期发热起伏如潮，疹点先耳后发际、头面，渐及躯干四肢，手足心见疹为透齐，疹色红润、分布均匀、触之碍手，舌红苔黄、脉数，治以清凉解毒、透疹达邪，主方清解透表汤（西河柳、蝉蜕、葛根、升麻、紫草、桑叶、菊花、牛蒡子、金银花、连翘、甘草）；收没期疹点依次隐退，热退咳减，糠状脱屑，留棕褐色沉着，舌红少津、脉细数，治以养阴益气、清解余邪，主方沙参麦冬汤（沙参、麦冬、玉竹、天花粉、扁豆、桑叶、甘草）。调护：隔离至出疹后5天，合并肺炎者延长至10天，透疹期忌过早投大寒与收敛之剂，居室通风避光保暖。",
+        "misjudgment": "出疹期一见高热即用苦寒退热。错：疹随潮热外透，妄投苦寒冰伏邪气，疹出不透反生变证；透疹期贵在因势利导，使邪有出路。",
+        "reasoning": "麻疹出疹期为何不急于退热，反而以清热透疹为法，其理何在？",
+        "feedback": "热为透疹动力，潮热随疹透而解；清解透表使热有外达之路，若强遏其热，疹闭毒陷，肺炎喉痹诸变由生。",
+        "transfer": "发热咳嗽患儿口腔颊黏膜见灰白小点，试据此早期识别并拟定透疹治法。"
+      },
+      "stdJudgment": "麻疹顺证重审期察色。初热期邪犯肺卫，发热咳嗽、目赤流泪、口腔麻疹黏膜斑，治以辛凉透表；出疹期邪入肺胃，疹随潮热循序透发，耳后头面、躯干四肢，终及手足心，疹色红润、颗粒分明，治以清凉解毒透疹；收没期阴津耗伤，疹点依序隐退、糠状脱屑，治以养阴益气。疹出有序、疹色红润、热退疹隐，为顺证之要。",
+      "coreDefinition": "麻疹顺证按初热、出疹、收没三期依次演变，疹出有序色润，治以透表、解毒、养阴。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "宣毒发表汤、清解透表汤、沙参麦冬汤均水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；升麻、葛根各3~9g，薄荷后下，日1剂分2~3次温服。",
+        "caution": "小儿剂量宜小，透疹药中病即止；麻疹忌用糖皮质激素与强效退热药，高热可物理降温；出疹期忌食油腻辛辣，忌过早收敛。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；麻疹为法定传染病，确诊须报告隔离，重症转诊",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-021",
+      "title": "儿科·风疹邪郁肺卫证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "风疹",
+        "邪郁肺卫",
+        "疏风清热",
+        "银翘散"
+      ],
+      "intent": "掌握风疹邪郁肺卫证的主症舌脉、病机与疏风清热解表透疹治法，熟悉银翘散的组成与加减。",
+      "learning": {
+        "knowledge": "主症发热恶风，喷嚏流涕，咳嗽咽痛，发热1~2天内全身出现淡红色细小斑丘疹，自头面躯干渐及四肢，疹色浅红、分布均匀，耳后及枕部臖核肿大压痛；舌红苔薄白或薄黄，脉浮数。病机风热时邪侵袭肺卫，正气驱邪外达，疹透肌肤。治以疏风清热、解表透疹，主方银翘散加减（金银花、连翘、桔梗、薄荷、竹叶、生甘草、荆芥穗、淡豆豉、牛蒡子、芦根），疹色红赤加牡丹皮、赤芍、紫草，咽痛加板蓝根、玄参，咳嗽加杏仁、前胡、桑叶。调护：隔离至出疹后5天，孕妇妊娠早期避免接触患儿，多饮水，清淡饮食。",
+        "misjudgment": "把风疹疹色红赤误作热毒炽盛而重用苦寒。错：风疹邪郁肺卫，病在卫分，辛凉轻透即可；过用苦寒引邪内陷，反碍疹透。",
+        "reasoning": "风疹与麻疹均见皮疹发热，为何风疹一二日遍布、热势不盛，其病机差异在何处？",
+        "feedback": "风疹邪轻浅，郁于肺卫而外透；麻疹邪深重，随潮热循序透发。审热势之高低与疹出之次序，可别二病。",
+        "transfer": "发热咽痛次日即见全身淡红细疹、耳后淋巴结肿大者，试按风疹辨治。"
+      },
+      "stdJudgment": "风疹邪郁肺卫，发热恶风，喷嚏流涕，咳嗽咽痛，一二日内遍身淡红细小斑丘疹，先头面而后躯干四肢，疹色浅红、分布均匀，耳后枕部臖核肿大压痛。风热时邪郁于肺卫，透达肌肤。法当疏风清热、解表透疹，银翘散加减主之，邪透疹出则热自解。",
+      "coreDefinition": "邪郁肺卫证以发热恶风、淡红细疹、枕后臖核肿大为特征，治以疏风清热解表透疹。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "太阴风温、温热、温疫、冬温，初起恶风寒者，桂枝汤主之；但热不恶寒而渴者，辛凉平剂银翘散主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "银翘散加减水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；金银花、连翘各6~12g，薄荷、荆芥穗后下，武火急煎香气大出即服，日1剂分2~3次。",
+        "caution": "小儿剂量宜小，中病即止；辛凉解表方不宜久煎；风寒感冒及脾胃虚寒便溏者慎用。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；妊娠早期妇女须避免接触风疹患儿",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-022",
+      "title": "儿科·水痘邪伤肺卫证治",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "水痘",
+        "邪伤肺卫",
+        "利湿解毒",
+        "银翘散",
+        "六一散"
+      ],
+      "intent": "掌握水痘邪伤肺卫证的主症舌脉、病机与疏风清热利湿解毒治法，熟悉银翘散合六一散的组成与调护禁忌。",
+      "learning": {
+        "knowledge": "主症发热轻微或无热，鼻塞流涕，喷嚏咳嗽，1~2天内皮疹分批出现，以躯干为多、头面四肢较少，斑疹、丘疹、疱疹、结痂同时并见，疱疹大小不一、疱浆清亮、疱壁薄、根盘红晕、瘙痒；舌红苔薄白或薄黄，脉浮数。病机时行邪毒经口鼻侵入，蕴于肺卫，外透肌表，与内湿相搏。治以疏风清热、利湿解毒，主方银翘散合六一散加减（金银花、连翘、竹叶、牛蒡子、桔梗、薄荷、荆芥穗、滑石、甘草），瘙痒甚加蝉蜕、白鲜皮、地肤子，咽痛加板蓝根、玄参，疱疹稠密浆浊加薏苡仁、土茯苓、紫草。调护：隔离至疱疹全部结痂干燥，剪短指甲防抓破感染，水痘忌用糖皮质激素，发热期卧床休息。",
+        "misjudgment": "水痘瘙痒即用激素类软膏止痒。错：糖皮质激素抑制免疫，可致水痘播散加重，甚则危及生命；止痒宜疏风利湿之品外洗。",
+        "reasoning": "水痘与脓疱疮均有疱疹，何以水痘忌用激素而脓疱疮局部处理不同，鉴别要点何在？",
+        "feedback": "水痘疱疹呈向心性分布、分批出现、疱壁薄易破，为病毒所致；脓疱疮多见于暴露部位、疱液浑浊脓性。辨清病性，用药方向自明。",
+        "transfer": "托幼机构出现发热出疹患儿，躯干散见清亮疱疹，试拟定隔离与辨治要点。"
+      },
+      "stdJudgment": "水痘邪伤肺卫，发热轻微，鼻塞流涕，喷嚏咳嗽，一二日内皮肤分批出现斑疹、丘疹、疱疹、结痂，四代同堂，躯干为多，疱浆清亮，根盘红晕，瘙痒。时行邪毒蕴于肺卫，外透肌表，兼夹湿邪。法当疏风清热、利湿解毒，银翘散合六一散加减主之，邪透湿化则痘渐结痂。",
+      "coreDefinition": "邪伤肺卫证以发热轻、斑疹丘疹疱疹结痂并见、疱浆清亮为特征，治以疏风清热利湿解毒。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "银翘散合六一散加减水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；金银花、连翘各6~12g，滑石包煎6~12g，薄荷后下，日1剂分2~3次温服。",
+        "caution": "小儿剂量宜小，中病即止；水痘患儿禁用糖皮质激素；疱疹破溃处注意清洁防继发感染，忌搔抓。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；水痘为传染病须隔离，重症或免疫缺陷患儿立即就医",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-023",
+      "title": "儿科·痄腮热毒蕴结证治",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "痄腮",
+        "热毒蕴结",
+        "清热解毒",
+        "软坚散结",
+        "普济消毒饮",
+        "青黛散"
+      ],
+      "intent": "掌握痄腮热毒蕴结证的主症舌脉、病机与清热解毒软坚散结治法，熟悉普济消毒饮内服合外敷同治，并能与发颐鉴别。",
+      "learning": {
+        "knowledge": "主症腮部漫肿，坚硬拒按，灼热疼痛，张口咀嚼困难，高热不退，烦躁口渴，头痛，咽红肿痛，便秘尿赤；舌红苔黄，脉滑数。病机温毒炽盛，蕴结少阳经脉，气血壅滞，结于腮颊。治以清热解毒、软坚散结，主方普济消毒饮加减（黄芩、黄连、连翘、板蓝根、玄参、马勃、牛蒡子、僵蚕、升麻、柴胡、陈皮、桔梗、甘草、薄荷），热甚加生石膏、知母、栀子，便秘加大黄、芒硝，肿硬不散加夏枯草、海藻、昆布、牡蛎，并发睾丸肿痛加龙胆草、荔枝核、延胡索。外治以青黛散或如意金黄散醋调外敷腮部。调护：隔离至腮肿消退，流质饮食，避免酸辣刺激，保持口腔清洁。",
+        "misjudgment": "把颌下淋巴结炎误作痄腮。错：淋巴结炎肿在颌下、可触及孤立肿块、边界清，腮腺管口无红肿；痄腮肿在耳垂周围、以耳垂为中心漫肿、边界不清，腮腺管口红肿。",
+        "reasoning": "痄腮热毒蕴结与发颐均见腮颊肿痛，为何一属温毒时邪、一属热毒化脓，治法如何区别？",
+        "feedback": "痄腮为时行温毒、病在少阳，多双侧漫肿、不化脓，宜清热解毒软坚；发颐为热毒蕴结化脓，多单侧、挤压溢脓，须消肿排脓。",
+        "transfer": "学龄儿童高热、双侧腮部以耳垂为中心漫肿疼痛者，试拟内服外敷同治方案。"
+      },
+      "stdJudgment": "痄腮热毒蕴结，腮部漫肿，坚硬拒按，灼热疼痛，张口咀嚼困难，高热烦躁，口渴便秘。温毒炽盛，蕴结少阳经脉，气血壅滞结于腮颊。法当清热解毒、软坚散结，普济消毒饮加减主之，并以外敷青黛散、如意金黄散为助，内外合治，肿消热退。",
+      "coreDefinition": "热毒蕴结证以腮部漫肿坚硬灼痛、高热烦躁为特征，治以清热解毒软坚散结。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《方剂学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.外治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "普济消毒饮加减水煎，按年龄折算：3岁以下取成人量1/3，3~6岁取1/2，6~12岁取2/3；黄芩、连翘各6~12g，板蓝根9~15g，薄荷后下，日1剂分2~3次温服；青黛散或如意金黄散醋调敷患处，日1~2次。",
+        "caution": "小儿剂量宜小，中病即止；马勃入煎剂宜包煎，便溏者慎用苦寒；外敷药勿入眼口，皮肤破溃者停敷。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；并发脑膜炎、睾丸炎者须及时就医",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb20-u-024",
+      "title": "儿科·蛔虫病证治",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "蛔虫病",
+        "驱蛔杀虫",
+        "使君子散",
+        "乌梅丸",
+        "苦楝皮",
+        "细辛",
+        "附子"
+      ],
+      "intent": "掌握小儿蛔虫病肠蛔虫证与蛔厥证的辨治，熟悉使君子散与乌梅丸的运用及驱虫药毒性警戒。",
+      "learning": {
+        "knowledge": "主症反复脐周腹痛，时作时止，痛止如常，食欲不振或嗜食异物，睡中磨牙流涎，面部白斑、巩膜蓝斑，大便下虫或粪便检出虫卵；舌淡红苔白或腻，脉弦。蛔厥证见突发胃脘及右胁下绞痛，痛引肩背，弯腰翻滚，四肢厥冷，恶心呕吐，甚则吐蛔。病机饮食不洁感染虫卵，蛔虫寄居肠中，扰动胃肠气机；蛔上扰胆道则成蛔厥。治以驱蛔杀虫、调理脾胃，肠蛔虫证主方使君子散加减（使君子、苦楝子、白芜荑、甘草），蛔厥证主方乌梅丸（乌梅、细辛、干姜、黄连、当归、附子、蜀椒、桂枝、人参、黄柏），腹痛加木香、延胡索，虫积日久脾虚加党参、白术。调护：晨起空腹服驱虫药，观察排虫情况；讲究饮食卫生，饭前便后洗手，瓜果洗净再食。",
+        "misjudgment": "蛔厥腹痛即投驱虫峻剂。错：蛔厥时蛔虫扰动胆道，驱虫药刺激蛔虫更乱窜，痛反加剧；须先安蛔定痛、酸以制蛔，待痛止脉和再议驱虫。",
+        "reasoning": "乌梅丸治蛔厥为何重用乌梅之酸，方中辛热与苦寒并用之理何在？",
+        "feedback": "蛔得酸则静，乌梅酸收安蛔；细辛附子蜀椒干姜辛热温脏散寒，黄连黄柏苦寒清热，辛开苦降使蛔静痛止，此厥阴病寒热错杂之治。",
+        "transfer": "小儿阵发脐周痛、夜间磨牙、面见虫斑，试拟驱虫方并说明服法与调护。"
+      },
+      "stdJudgment": "蛔虫病以脐周腹痛、时作时止、痛止如常为纲，或嗜食异物、睡中磨牙、面有白斑，粪便查得虫卵可确诊；蛔厥证突发脘腹绞痛、痛引肩背、四肢厥冷、呕恶吐蛔。虫居肠中扰动气机，蛔性喜钻孔乱窜。肠蛔虫证驱蛔杀虫、调理脾胃，使君子散主之；蛔厥先安蛔定痛、乌梅丸主之，痛止再驱虫，此为治疗大要。",
+      "coreDefinition": "蛔虫病以脐周腹痛时作时止、大便下虫为特征，治以驱蛔杀虫；蛔厥则先安蛔定痛。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《伤寒论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "趺蹶手指臂肿转筋阴狐疝蛔虫病脉证治第十九",
+          "originalText": "蛔虫之为病，令人吐涎，心痛发作有时，毒药不止，甘草粉蜜汤主之。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "使君子散加减：使君子仁炒香嚼服或入煎，按年龄折算，3岁以下每日6~9g、3~6岁9~12g、6~12岁12~15g，分2~3次服，连服2~3日；苦楝子或苦楝皮3~6g煎服。乌梅丸按年龄减量：3岁内每次3~6g、3~6岁6~9g、6岁以上9~12g，温开水送服。",
+        "caution": "【高风险】苦楝皮有毒不可过量久服，小儿脾胃虚寒慎用；使君子过量致呃逆眩晕，服后忌饮热茶；乌梅丸含细辛、附子，细辛煎剂1~3g、散剂0.5~1g，附子须炮制先煎久煎至无麻辣感，小儿剂量宜小；蛔厥或肠梗阻须立即就医。"
+      },
+      "safety": {
+        "note": "驱虫药宜晨起空腹服，服后观察排虫情况；蛔厥、虫瘕为急腹症须立即就医；本节点仅作知识学习",
+        "prohibitions": [
+          "【高风险】苦楝皮有毒不可过量久服；小儿脾胃虚寒慎用",
+          "【高风险】细辛煎剂1-3g散剂0.5-1g，过量可致中毒；反藜芦",
+          "附子须炮制先煎久煎至无麻辣感；反半夏瓜蒌贝母白蔹白及；孕妇禁用",
+          "使君子有毒，过量致呃逆眩晕，忌与热茶同服"
+        ]
+      }
+    },
+    {
+      "id": "pb20-u-025",
+      "title": "儿科·胎黄湿热郁蒸证治",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "胎黄",
+        "湿热郁蒸",
+        "清热利湿",
+        "茵陈蒿汤"
+      ],
+      "intent": "掌握新生儿胎黄湿热郁蒸证的主症、病机与清热利湿退黄治法，熟悉茵陈蒿汤的组成与新生儿剂量警戒。",
+      "learning": {
+        "knowledge": "主症面目皮肤发黄，色泽鲜明如橘皮，烦躁啼哭，不欲吮乳，口渴唇干，小便深黄，大便秘结；舌红苔黄腻，指纹紫滞。病机孕母湿热内蕴传于胎儿，或生后感受湿热邪毒，湿热郁蒸肝胆，胆汁外溢肌肤。治以清热利湿退黄，主方茵陈蒿汤加减（茵陈、栀子、大黄），热重加虎杖、黄芩、板蓝根，湿重加茯苓、猪苓、泽泻、车前子，腹胀加厚朴、枳实，呕吐加竹茹、制半夏。调护：多喂糖水促进排尿退黄，密切观察精神、黄疸程度与大便颜色，黄疸进展快或精神萎靡者中西医结合救治。",
+        "misjudgment": "胎黄不分虚实，一律投茵陈蒿汤。错：胎黄尚有脾虚湿困之阴黄，黄色晦暗、神疲便溏、四肢欠温，当健脾温中；湿热郁蒸者色黄鲜明属实，方可用清利。",
+        "reasoning": "同为胎黄，湿热郁蒸用茵陈蒿汤清利，脾虚湿困用茵陈理中汤温运，辨色之明晦为何是分证眼目？",
+        "feedback": "黄色鲜明如橘者为阳黄属湿热，黄色晦暗如烟熏者为阴黄属寒湿，色泽明晦一辨，寒热虚实立分。",
+        "transfer": "新生儿生后三日皮肤黄染鲜明、烦啼、便干尿黄者，试拟清热利湿退黄方案并说明监护要点。"
+      },
+      "stdJudgment": "胎黄湿热郁蒸，面目皮肤发黄，色泽鲜明如橘皮，烦躁啼哭，不欲吮乳，小便深黄，大便干结。孕母湿热传胎或生后感邪，湿热郁蒸肝胆，胆汁外溢。法当清热利湿退黄，茵陈蒿汤加减主之，茵陈栀子清利湿热，大黄通腑泄热，湿热去则黄疸自退，并须结合光照等现代疗法。",
+      "coreDefinition": "湿热郁蒸证以面目皮肤发黄鲜明如橘皮、烦躁尿黄为特征，治以清热利湿退黄。",
+      "facts": [
+        {
+          "field": "clinical.主症",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.舌脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.治法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医儿科学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.主方",
+          "sourceType": "textbook",
+          "sourceTitle": "《伤寒论》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "clinical.药物剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中国药典》",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "平人气象论篇第十八",
+          "originalText": "溺黄赤，安卧者，黄疸。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "茵陈蒿汤加减水煎，新生儿剂量宜小：茵陈3~6g、栀子2~3g、大黄1~3g后下，日1剂少量频服或鼻饲；随年龄增长酌增，婴幼儿取成人量1/6~1/3。",
+        "caution": "小儿剂量宜小，大黄通腑中病即止，便溏即减；茵陈过量可致恶心；黄疸进展快、精神差、大便灰白者须立即就医排查胆道闭锁等重症。"
+      },
+      "safety": {
+        "note": "儿科辨证知识学习，临床用药须遵医嘱；新生儿黄疸重症须结合光照等现代治疗",
+        "prohibitions": []
+      }
+    }
+  ]
+}

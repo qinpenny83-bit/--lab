@@ -1,0 +1,4947 @@
+{
+  "seed": "phase-5/batch-39",
+  "genLabel": "Phase 5 · Batch-39 · 65 nodes（N 中医经典 120→145 / H 中药鉴定 50→70 / J 中药炮制 40→60 上限补足）",
+  "total": 65,
+  "note": "N 素问9+灵枢5+难经3+伤寒3+金匮2+温病2+温热1 共25篇精读；H 鉴定 20 味药材鉴别；J 炮制煅/煨/制霜/复制/发酵/发芽/蒸 20 法",
+  "samples": [
+    {
+      "id": "pb39-n-001",
+      "title": "素问·阴阳应象大论精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "素问",
+        "阴阳",
+        "五行",
+        "治病必求于本"
+      ],
+      "intent": "把握阴阳为万物纲纪的总纲地位、气味升降阴阳属性与重阴必阳的转化规律。",
+      "learning": {
+        "knowledge": "以阴阳统生理病理与诊治，「阴阳者，天地之道也」「治病必求于本」立辨证论治之本；「清阳出上窍，浊阴出下窍」「气味辛甘发散为阳，酸苦涌泄为阴」论升降与气味阴阳；「重阴必阳，重阳必阴」示转化之机，为辨寒热虚实立法。",
+        "misjudgment": "把「重阴必阳，重阳必阴」理解为阴证必然转阳、阳证必然转阴的机械规律。错：此句讲阴阳在极盛条件下的转化趋势，「重」指邪气深重、病势向极，转化与否取决于正邪消长，绝非每病必转的必然过程。",
+        "reasoning": "同为阴寒之证，何以有的宜「益火之源以消阴翳」，有的却须「壮水之主以制阳光」？",
+        "feedback": "前者命门火衰、阴寒内盛，须补火以消阴；后者肾水不足、虚阳上亢，须滋水以涵阳。辨明阴阳之虚在火在水，治法自然有别。",
+        "transfer": "久病体虚者进补后反见口干咽燥、虚火浮动，从「气味厚薄阴阳」如何理解并调整调补思路？"
+      },
+      "stdJudgment": "阴阳应象大论把阴阳说成天地之道、万物之纲纪，「治病必求于本」一句将阴阳立为辨证论治总纲；清浊升降、气味厚薄、水火寒热各以阴阳统之，又以木火土金水应象五脏。重阴必阳、重阳必阴明转化之律，善诊者先别阴阳为诊法之要，全篇实为阴阳学说之大成。",
+      "coreDefinition": "阴阳应象大论以阴阳统摄天地万物与人体藏象，治病必求于本；气味升降、重阴必阳皆阴阳转化之例。",
+      "facts": [
+        {
+          "field": "theory.阴阳对立互根",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.阴阳升降转化",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气味阴阳",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五行应象五脏",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.治病必求于本",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳应象大论篇第五",
+          "originalText": "阴阳者，天地之道也，万物之纲纪，变化之父母，生杀之本始，神明之府也，治病必求于本。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳应象大论篇第五",
+          "originalText": "故重阴必阳，重阳必阴。故曰：冬伤于寒，春必温病；春伤于风，夏生飧泄；夏伤于暑，秋必痎疟；秋伤于湿，冬生咳嗽。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "阴阳应象大论篇第五",
+          "originalText": "善诊者，察色按脉，先别阴阳；审清浊而知部分；视喘息、听音声而知所苦；观权衡规矩，而知病所主。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为阴阳总纲之论，不载方药剂量；「气味辛甘发散为阳，酸苦涌泄为阴」为遣药阴阳属性之纲",
+        "caution": "重阴必阳、重阳必阴示转化之机，用药过偏则阴阳易位，寒热进退当审其极"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-002",
+      "title": "素问·五藏别论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "素问",
+        "藏象",
+        "奇恒之腑",
+        "气口"
+      ],
+      "intent": "掌握五脏藏精气、六腑传化物与奇恒之腑的功能三分法及气口主五脏之论。",
+      "learning": {
+        "knowledge": "以「藏」「泻」分论脏腑，「五藏者，藏精气而不泻也」「六府者，传化物而不藏也」为藏象功能分类纲领；「脑、髓、骨、脉、胆、女子胞……名曰奇恒之府」首创奇恒之腑概念；「五味入口，藏于胃」「气口亦太阴也」把胃气与寸口脉贯通，为独取寸口诊法立论。",
+        "misjudgment": "把「满而不能实」「实而不能满」理解为五脏内无物、六腑经常充盈。错：满指精气盈满、实指水谷充实，皆言功能之态而非有无形质；胆既属六腑又归奇恒之腑，正因功能兼乎藏泻，足证此为功能分类。",
+        "reasoning": "胆既列六腑又归奇恒之腑，一身兼二属，其功能定位对临床治胆有何启示？",
+        "feedback": "胆藏精汁而不直接传化水谷，故入奇恒之腑；其气主升发决断，又具腑之通降之性，治胆病既要疏利通降，又要涵养清汁，不可一味苦寒攻伐。",
+        "transfer": "便秘患者久用泻下药反致腑气更滞，用「六腑以通为用」之理如何重新解释？"
+      },
+      "stdJudgment": "五藏别论以藏泻之别把脏腑一分为三：五脏藏精气而不泻故满而不能实，六腑传化物而不藏故实而不能满，脑髓骨脉胆女子胞六者藏而不泻而象地，名为奇恒之腑。藏泻之分揭示了脏腑功能本质，气口亦太阴、五脏六腑之气味皆出于胃，又为「独取寸口」诊脉与脾胃为后天之本立论。",
+      "coreDefinition": "五藏别论以藏泻分脏腑：五脏藏精气满而不实，六腑传化物实而不满，奇恒之腑藏而不泻。",
+      "facts": [
+        {
+          "field": "theory.奇恒之腑",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.传化之腑",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五脏藏精气而不泻",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.六腑传化物而不藏",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气口独为五脏主",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "五藏别论篇第十一",
+          "originalText": "所谓五藏者，藏精气而不泻也，故满而不能实。六府者，传化物而不藏，故实而不能满也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "五藏别论篇第十一",
+          "originalText": "脑、髓、骨、脉、胆、女子胞，此六者，地气之所生也，皆藏于阴而象于地，故藏而不泻，名曰奇恒之府。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "五藏别论篇第十一",
+          "originalText": "夫胃、大肠、小肠、三焦、膀胱，此五者，天气之所生也，其气象天，故泻而不藏，此受五藏浊气，名曰传化之府，此不能久留，输泻者也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论脏腑功能分工，不载方药剂量；「此不能久留，输泻者也」示六腑以通为用",
+        "caution": "腑病忌壅滞，「实而不能满」非言腑中无物，通降为顺，久留则病"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-003",
+      "title": "素问·灵兰秘典论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "素问",
+        "藏象",
+        "十二脏相使",
+        "心主神明"
+      ],
+      "intent": "掌握十二脏官职分工与「主明则下安」的心神主导观及膀胱气化理论。",
+      "learning": {
+        "knowledge": "以君臣官职喻十二脏分工，「心者，君主之官也，神明出焉」确立心主神明之纲；「凡此十二官者，不得相失也」示脏腑整体联系，「主明则下安」把心神统摄作用置于首位；「膀胱者，州都之官，津液藏焉，气化则能出矣」为膀胱气化理论之源。",
+        "misjudgment": "把「心为君主之官」理解为治心病只需调神而不及他脏。错：十二官相使、不得相失，心神虽为主宰，肺肝脾肾各有治节、将军、仓廪之职，心病常波及他脏，他脏之病亦扰神明，整体协调方为本篇真义。",
+        "reasoning": "「主不明则十二官危」在临床如何体现，如心衰患者何以周身诸脏皆受累？",
+        "feedback": "心主血脉神明，心衰则血行不畅、神明失养，肺失治节而喘、脾失运化而肿、肾失气化而少尿，一脏失司百脏皆病，正应十二官不得相失之旨。",
+        "transfer": "面对以失眠心悸为主诉的患者，从君主之官与相傅、将军诸官的关系如何全面问诊？"
+      },
+      "stdJudgment": "灵兰秘典论以朝廷官职比拟十二脏：心为君主之官神明出焉，肺为相傅之官治节出焉，肝为将军之官谋虑出焉，胆为中正之官决断出焉，诸官相使如君臣辅弼。「主明则下安」强调心神主导，「主不明则十二官危」示神明失常则诸脏俱病；膀胱州都之官津液藏焉气化则能出，为后世气化理论所宗。",
+      "coreDefinition": "灵兰秘典论以官职喻十二脏功能，心为君主之官主神明；主明则下安，主不明则十二官危。",
+      "facts": [
+        {
+          "field": "theory.十二脏相使",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心为君主之官",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.主明则下安",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.六腑官职分工",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.膀胱气化",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "灵兰秘典论篇第八",
+          "originalText": "心者，君主之官也，神明出焉。肺者，相傅之官，治节出焉。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "灵兰秘典论篇第八",
+          "originalText": "膀胱者，州都之官，津液藏焉，气化则能出矣。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "灵兰秘典论篇第八",
+          "originalText": "凡此十二官者，不得相失也。故主明则下安，以此养生则寿，殁世不殆，以为天下则大昌。主不明则十二官危，使道闭塞而不通，形乃大伤。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇以官职喻脏腑分工，不载方药剂量；「主明则下安」重神明之治",
+        "caution": "十二官相使不得相失，治脏病勿执一脏而忘整体"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-004",
+      "title": "素问·经脉别论精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "素问",
+        "经脉",
+        "肺朝百脉",
+        "水液代谢"
+      ],
+      "intent": "掌握脉之常变与食饮入胃后的精微输布途径及肺朝百脉、通调水道之论。",
+      "learning": {
+        "knowledge": "论经脉气血随劳逸情志而变与饮食精微输布，「食气入胃」「肺朝百脉，输精于皮毛」建立气血循行输布模型；「饮入于胃，游溢精气，上输于脾」「通调水道，下输膀胱」确立水液代谢之框架；「凡人之惊恐恚劳动静，皆为变也」示情志劳逸影响脉象。",
+        "misjudgment": "把「肺朝百脉」理解为肺直接统帅全身血脉运行。错：朝指百脉之气血朝会于肺、经肺宣发输布全身，肺为相傅之官、主治节而非血脉之主宰，心主血脉与肺朝百脉功能各异，一主运行一主输布。",
+        "reasoning": "「肺朝百脉」与「心主血脉」同论血行，二者在生理上如何分工协作？",
+        "feedback": "心主血脉主血之搏动运行，肺朝百脉主血之宣发输布，血赖心之动而运行，又借肺之宣降而朝会全身，心肺同居上焦、气血相依，故心肺病常相兼为患。",
+        "transfer": "慢性肺心病患者水肿紫绀，从「饮入于胃……下输膀胱」的水液输布诸环节如何解释病机？"
+      },
+      "stdJudgment": "经脉别论先辨脉之常变：惊恐恚劳动静皆使脉变，故诊病须察其异；次论水谷精微输布，食气入胃散精于肝、浊气归心淫精于脉，经气归于肺而肺朝百脉，饮入于胃则脾气散精、上归于肺、通调水道、下输膀胱。食饮两条输布路径，确立脾胃为枢、肺朝百脉与水液代谢诸理论。",
+      "coreDefinition": "经脉别论论脉之常变与水谷精微输布：肺朝百脉，饮入于胃则脾气散精而通调水道。",
+      "facts": [
+        {
+          "field": "theory.脉之常变",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.食气入胃输布",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.饮入于胃输布",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肺朝百脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.诊法合参",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经脉别论篇第二十一",
+          "originalText": "食气入胃，浊气归心，淫精于脉。脉气流经，经气归于肺，肺朝百脉，输精于皮毛。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经脉别论篇第二十一",
+          "originalText": "饮入于胃，游溢精气，上输于脾。脾气散精，上归于肺，通调水道，下输膀胱。水精四布，五经并行。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经脉别论篇第二十一",
+          "originalText": "凡人之惊恐恚劳动静，皆为变也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论经脉生理与脉变之由，不载方药剂量；「食气入胃」「饮入于胃」示水谷为脉气之源",
+        "caution": "惊恐恚劳动静皆令脉变，诊脉须审其常变，勿以一时之脉概其常"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-005",
+      "title": "素问·皮部论精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "素问",
+        "皮部",
+        "经络",
+        "邪气传变"
+      ],
+      "intent": "掌握十二皮部的划分与邪气由皮毛渐传脏腑的层次传变理论。",
+      "learning": {
+        "knowledge": "论十二皮部分区及其门户作用，「凡十二经络脉者，皮之部也」确立皮部为经脉布散体表之区域；「百病之始生也，必先于皮毛」揭示由皮毛、络脉、经脉、六腑之传变次序；「皮者，脉之部也」强调皮部诊察可测邪之所在，为皮肤病辨证之基础。",
+        "misjudgment": "把皮部等同于经脉循行线本身。错：皮部是经脉在体表的分区投影，范围宽于经脉循行线，按经络循行分片划分；皮肤病按皮部分经辨治，与循经定位取穴名同实异，不可混谈。",
+        "reasoning": "面瘫、带状疱疹等病何以能按皮部分经论治，皮部与络脉在体表如何对应？",
+        "feedback": "皮部按十二经分布，邪客皮部则其络脉色变，面瘫多见于阳明少阳皮部，蛇串疮沿胁肋属肝胆皮部，察皮部之色可定位病经，治以相应经络循经取穴。",
+        "transfer": "带状疱疹沿胁肋分布而灼痛，如何用「邪客于皮则腠理开」的传变次序解释其由表及里？"
+      },
+      "stdJudgment": "皮部论把体表按十二经脉划分十二皮部，皮者脉之部、凡十二经络脉者皮之部也，皮部遂为经脉功能在体表的投影；外邪中人必先皮毛，腠理开则入络、入经、入府、廪于肠胃，传变层次井然。视其部色、察其络脉，可以知病之浅深所在，为皮肤病与体表诊法提供依据。",
+      "coreDefinition": "皮部论立十二皮部概念：皮者脉之部，邪由皮毛渐传络脉经脉腑脏，层次有序。",
+      "facts": [
+        {
+          "field": "theory.皮部概念",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.十二皮部分区",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.邪由皮毛内传",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.皮部诊察",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.皮部与络脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "皮部论篇第五十六",
+          "originalText": "凡十二经络脉者，皮之部也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "皮部论篇第五十六",
+          "originalText": "是故百病之始生也，必先于皮毛。邪中之则腠理开，开则入客于络脉，留而不去，传入于经，留而不去，传入于府，廪于肠胃。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "皮部论篇第五十六",
+          "originalText": "皮者，脉之部也。邪客于皮则腠理开，开则邪入客于络脉，络脉满则注于经脉，经脉满则入舍于府藏也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论皮部理论与邪气传变层次，不载方药；「皮者，脉之部也」示皮部为经脉之门户",
+        "caution": "邪由皮毛内传有浅深层次，皮部诊察可辨病之浅深，但传变亦有直中，勿拘一格"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-006",
+      "title": "素问·经络论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "素问",
+        "经络",
+        "络脉色诊",
+        "寒热"
+      ],
+      "intent": "掌握经有常色、络无常变之理与寒凝青黑、热盛黄赤的络脉色诊法。",
+      "learning": {
+        "knowledge": "论经脉与络脉色泽之常变，「经有常色而络无常变也」确立络脉色诊前提；五脏各应其色，心赤肺白肝青脾黄肾黑，阴络之色应其经，阳络之色随四时而行；「寒多则凝泣……青黑；热多则淖泽……黄赤」把络色归于寒热，为望络辨证之法。",
+        "misjudgment": "把「五色具见者，谓之寒热」理解为同一络脉同时呈现五种颜色。错：具见指多种病色杂见、络色杂乱，提示寒热错杂或邪气兼至，并非五种颜色同现于一络之谓。",
+        "reasoning": "同为络色发红，何以有热盛之红与虚阳浮越之红的分别？",
+        "feedback": "热盛之红鲜明而兼黄赤、局部灼热；虚阳浮越之红淡而浮露、不任久视，兼见面色晄白或颧红如妆，须四诊合参以辨真假。",
+        "transfer": "冬季室外久待者手背络色青紫，用「寒多则凝泣」如何解释并指导保暖调护？"
+      },
+      "stdJudgment": "经络论专论络脉之色：经有常色而络无常变，心赤肺白肝青脾黄肾黑皆应其经，阴络之色应经，阳络之色变无常而随四时；寒多则凝泣而青黑，热多则淖泽而黄赤，此皆常色谓之无病，五色具见者谓之寒热。望络之色以辨寒热虚实，为络脉望诊立一法。",
+      "coreDefinition": "经络论：经有常色而络无常变，阴络应经、阳络随四时；寒凝则青黑，热盛则黄赤。",
+      "facts": [
+        {
+          "field": "theory.经脉常色",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.络脉色变",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五色应五脏",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.寒凝热淖",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.阴络阳络之色",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经络论篇第五十七",
+          "originalText": "岐伯对曰：经有常色而络无常变也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经络论篇第五十七",
+          "originalText": "寒多则凝泣，凝泣则青黑；热多则淖泽，淖泽则黄赤。此皆常色，谓之无病。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "经络论篇第五十七",
+          "originalText": "阴络之色应其经，阳络之色变无常，随四时而行也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论经脉络脉色泽之常变，不载方药；「五色具见者，谓之寒热」示络色为寒热之镜",
+        "caution": "络色青黑属寒凝血涩、黄赤属热盛，辨色须合四时之变，不可执一"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-007",
+      "title": "素问·气穴论精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "素问",
+        "腧穴",
+        "气穴",
+        "溪谷"
+      ],
+      "intent": "掌握气穴三百六十五以应一岁之说与孙络、溪谷行荣卫会大气之论。",
+      "learning": {
+        "knowledge": "总论全身气穴之数与溪谷孙络之会，「气穴三百六十五，以应一岁」确立腧穴与天时相应的整体观；「孙络三百六十五穴会……以溢奇邪，以通荣卫」说明孙络祛邪通经之用；「肉之大会为谷，肉之小会为溪」阐明溪谷为气血汇聚之所，为取穴按摩之据。",
+        "misjudgment": "把气穴三百六十五当作实指全身恰好三百六十五个穴位。错：这是以应一岁的约数，历代腧穴计数互有出入，其义在示腧穴体系之完整与天人相应，而非精确计数。",
+        "reasoning": "溪谷之说与后世「分肉之间」取穴有何联系，刺法深浅如何受溪谷之会影响？",
+        "feedback": "溪谷为肉分之间的气血聚会处，取穴多在分肉之间、筋骨空隙，刺法深浅随溪谷大小与经气之深浅而定，肉厚谷大宜深刺，皮薄溪浅宜浅刺。",
+        "transfer": "膝骨关节炎患者关节周围肿胀，从「溪谷之会，以行荣卫」如何理解其气血壅滞之机？"
+      },
+      "stdJudgment": "气穴论以气穴三百六十五应一岁之数，把腧穴数目与周天岁数相应，虽为约数而示人腧穴体系的完备；又论孙络三百六十五穴会以溢奇邪、通荣卫，肉之大会为谷、小会为溪，溪谷之会行荣卫而会大气。穴、络、谷三层并论，是《内经》腧穴数目体系与针刺泻邪理论的重要篇章。",
+      "coreDefinition": "气穴论：气穴三百六十五以应一岁；孙络穴会溢奇邪通荣卫，肉分溪谷行荣卫会大气。",
+      "facts": [
+        {
+          "field": "theory.气穴三百六十五",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.孙络穴会",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.穴会应一岁",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.溪谷行荣卫",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气穴针刺之要",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气穴论篇第五十八",
+          "originalText": "黄帝问曰：余闻气穴三百六十五，以应一岁，未知其所，愿卒闻之。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气穴论篇第五十八",
+          "originalText": "孙络三百六十五穴会，亦以应一岁，以溢奇邪，以通荣卫。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气穴论篇第五十八",
+          "originalText": "肉之大会为谷，肉之小会为溪。肉分之间，溪谷之会，以行荣卫，以会大气。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论腧穴数目与溪谷孙络之会，不载方药剂量；「气穴三百六十五，以应一岁」为穴数纲领",
+        "caution": "溪谷孙络为邪气溢注之处，针刺泻邪须中病即止，勿过刺伤正"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-008",
+      "title": "素问·气府论精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "素问",
+        "腧穴",
+        "气府",
+        "分经取穴"
+      ],
+      "intent": "掌握脉气所发之穴按经计数的方法及气府论对经穴分经体系的奠基作用。",
+      "learning": {
+        "knowledge": "以经脉为纲分述脉气所发之穴，「足太阳脉气所发者，七十八穴」「督脉气所发者，二十八穴」等把腧穴按十四经归经计数，确立经穴分经体系；「脉气所发」示腧穴为经气输注体表之点，为经穴归经、取穴配穴提供框架。",
+        "misjudgment": "把气府论的气府与气穴论的气穴混为一谈。错：气穴论总论全身穴数与溪谷，气府论按经脉分述脉气所发之穴，前者重在论穴，后者重在经气所发之府，计数口径与论说角度均不相同。",
+        "reasoning": "同是腧穴计数，气穴论以三百六十五应岁，气府论分经计数总数不一，二者关系如何理解？",
+        "feedback": "三百六十五为约数以应一岁、示穴之全备；气府分经计数重在取穴实用，各经有定数而总和不必恰合三百六十五，一主理论体系，一主临床取穴。",
+        "transfer": "头针疗法按头部穴区治疗脑病，从「脉气所发」如何理解其取穴原理？"
+      },
+      "stdJudgment": "气府论按经脉逐一计数「脉气所发」之穴，足太阳七十八穴、督脉二十八穴、任脉二十八穴，足少阳六十二穴等，专论经气结聚之处，与气穴论论穴之总数相为表里。气府以经统穴、重脉气所发，为后世十四经腧穴分经归经之祖，针灸取穴之数目体系于此奠定。",
+      "coreDefinition": "气府论按经计数脉气所发之穴：足太阳七十八穴，督脉二十八穴，任脉二十八穴，以经统穴。",
+      "facts": [
+        {
+          "field": "theory.脉气所发",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.足太阳七十八穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.督任脉穴数",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.分经计数",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气府与气穴之别",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气府论篇第五十九",
+          "originalText": "足太阳脉气所发者，七十八穴。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气府论篇第五十九",
+          "originalText": "督脉气所发者，二十八穴。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "气府论篇第五十九",
+          "originalText": "任脉之气所发者，二十八穴。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇分经计数脉气所发之穴，不载方药剂量；「脉气所发」即经气结聚输注之处",
+        "caution": "气府计数为针灸取穴之依据，个别穴数历代有出入，以临床取效为准"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-009",
+      "title": "素问·水热穴论精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "素问",
+        "水肿",
+        "肾为胃之关",
+        "水俞",
+        "热俞"
+      ],
+      "intent": "综合掌握肾为胃之关的水肿病机、肺肾标本之论与水俞五十七穴、热病五十九俞。",
+      "learning": {
+        "knowledge": "论水病之机与治水治热之俞，「肾者，胃之关也，关门不利，故聚水而从其类也」阐明肾主水液与脾胃受纳输布的枢纽关系；「下为胕肿大腹，上为喘呼」立肺肾标本之论；「水俞五十七穴」「治热病五十九俞」为水肿与热病针刺取穴之纲领。",
+        "misjudgment": "把「肾者，胃之关」理解为肾与胃在解剖位置上互为门户。错：关指水液出入之关口，胃为水谷之海、肾主水液气化，肾之气化失司则关门不利、水聚不行，是功能层面的枢机关系，并非解剖之门户。",
+        "reasoning": "同是水肿，何以有从肺治、从脾治、从肾治之别，水热穴论给出怎样的病位依据？",
+        "feedback": "水肿之治在肺脾肾三脏：喘呼在肺则宣肺利水，胕肿在肾则温肾化气，标本俱病者上下同治；「肾为胃之关」提示水湿既关乎受纳又关乎气化，治法当审标本主次。",
+        "transfer": "肾病综合征患者颜面下肢水肿伴气喘，如何用「下为胕肿大腹，上为喘呼」解释并定治法层次？"
+      },
+      "stdJudgment": "水热穴论以肾为水脏立论，肾者胃之关，关门不利则聚水而胕肿，下为胕肿大腹、上为喘呼不得卧，肺肾标本俱病；又论水俞五十七穴与治热五十九俞，头上五行行五以越诸阳之热逆。一篇之中，水病之机与针治之穴并举，为水肿辨证与热病取穴之重要文献。",
+      "coreDefinition": "水热穴论：肾为胃之关，关门不利聚水为胕肿；水俞五十七穴、热病五十九俞为针治之纲。",
+      "facts": [
+        {
+          "field": "theory.肾为胃之关",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.水肿病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.水俞五十七穴",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.热病五十九俞",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.标本俱病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "水热穴论篇第六十一",
+          "originalText": "肾者，胃之关也，关门不利，故聚水而从其类也。上下溢于皮肤，故为胕肿。胕肿者，聚水而生病也。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "水热穴论篇第六十一",
+          "originalText": "故水病，下为胕肿大腹，上为喘呼，不得卧者，标本俱病。故肺为喘呼，肾为水肿，肺为逆不得卧。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《素问》",
+          "canon": "《素问》",
+          "chapter": "水热穴论篇第六十一",
+          "originalText": "水俞五十七穴者，尻上五行行五者，伏菟上两行行五，左右各一行行五，踝上各一行行六穴。",
+          "sourceTitle": "《素问》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论水肿病机与水俞热俞，不载方药剂量；「肾者，胃之关」示水液代谢枢机",
+        "caution": "胕肿喘呼为标本俱病之危候，水肿之治须分虚实，峻下逐水与温阳化气各有所宜"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-010",
+      "title": "灵枢·经脉篇精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "灵枢",
+        "经络",
+        "经脉循行",
+        "是动病",
+        "所生病"
+      ],
+      "intent": "辨析十二经脉循行、属络、是动病所生病之别与针灸补泻总则。",
+      "learning": {
+        "knowledge": "系统论述十二经脉循行、属络、病候与治则，「经脉者，所以能决死生，处百病，调虚实，不可不通」总括经脉地位；「肺手太阴之脉，起于中焦」展示循行表述范式；「盛则泻之，虚则补之，热则疾之，寒则留之」为针灸补泻选经总则，是经络学说最完整的原始文献。",
+        "misjudgment": "把「是动则病」与「所生病」混为一谈。错：是动病为经气变动所致、多属气分病证，所生病为经所主脏腑之病、多属血分及脏腑病证，一脉二病各有侧重，混同则辨经辨证失据。",
+        "reasoning": "同为手太阴经病，是动病见肺胀膨膨而喘咳，所生病见咳上气喘渴，二者在辨证与治法上如何区分？",
+        "feedback": "是动病重在经气变动之实象，多从经气逆乱论治而调其经脉虚实；所生病重在肺脏本脏之病，当结合脏腑补泻，气病调经、血病调脏，先病气后病血，层次有别。",
+        "transfer": "足阳明胃经循行过齿龈，牙痛患者如何依据经脉循行辨经选穴？"
+      },
+      "stdJudgment": "经脉篇详述十二经脉起止循行、属络脏腑、是动病所生病与虚实证治，经脉者所以能决死生、处百病、调虚实，不可不通；每经皆列「是动则病」与「是主X所生病」，示经气变动与脏腑病候之别；盛则泻之、虚则补之、陷下则灸之等九项刺法总则，为经络辨证与针灸治疗的纲领性篇章。",
+      "coreDefinition": "经脉篇详载十二经脉循行与病候，决死生、处百病、调虚实；是动病属气、所生病属血。",
+      "facts": [
+        {
+          "field": "theory.十二经脉循行",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.是动病所生病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.经脉决死生",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.经脉是动病证候",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.针灸补泻总则",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经脉第十",
+          "originalText": "经脉者，所以能决死生，处百病，调虚实，不可不通。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经脉第十",
+          "originalText": "肺手太阴之脉，起于中焦，下络大肠，还循胃口，上膈属肺，从肺系横出腋下，下循臑内，行少阴心主之前，下肘中，循臂内上骨下廉，入寸口，上鱼，循鱼际，出大指之端。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经脉第十",
+          "originalText": "盛则泻之，虚则补之，热则疾之，寒则留之，陷下则灸之，不盛不虚，以经取之。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为经络学核心之论，不载方药剂量；「盛则泻之……以经取之」为针治补泻总则",
+        "caution": "是动病与所生病有气病血病先后之别，辨治经络病须察虚实，刺灸深浅随经而宜"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-011",
+      "title": "灵枢·经水篇精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "灵枢",
+        "十二经水",
+        "天人相应",
+        "解剖",
+        "刺灸参数"
+      ],
+      "intent": "掌握十二经水喻经脉的天人相应观与人体可度量可解剖之论及刺灸深浅参数。",
+      "learning": {
+        "knowledge": "以十二经水类比十二经脉，「经脉十二者，外合于十二经水，而内属于五藏六府」确立经脉与自然水系同构思维；「其死可解剖而视之」首倡人体脏腑脉血之实证度量；「刺足阳明，深六分，留十呼」类句式把针刺深度与留针时间定量化，开刺法参数化之先河。",
+        "misjudgment": "把「十二经水」理解为人体确有十二条水液管道。错：这是以江河类比经脉气血之流行，取其大小、深浅、广狭、远近之象以喻经脉功能差异，非指实际解剖管道。",
+        "reasoning": "经水有大小深浅广狭远近之异，针刺深浅灸壮随之而变，今日临床刺法量化如何借鉴其思想？",
+        "feedback": "经水之喻示刺灸参数当与经脉气血盛衰、部位深浅相应，今之刺法依解剖层次定深度、按体质强弱定刺激量，正是这一思想的现代延续。",
+        "transfer": "消瘦与肥胖患者取同一穴位，从「皮肉在此，外可度量」如何调整进针深度？"
+      },
+      "stdJudgment": "经水篇以十二条河流比拟十二经脉，外合于十二经水而内属于五脏六腑，天人相应之义昭然；篇中明言八尺之士外可度量切循而得之、其死可解剖而视之，脏腑坚脆、脉之长短、血之清浊皆有大数，为中医文献难得的实证解剖表述；针刺深浅、灸之壮数随经水大小与人体肥瘦而变，针灸参数于此有据。",
+      "coreDefinition": "经水篇以十二经水喻经脉，论人体可度量可解剖；针刺深浅、灸之壮数随经与体质而异。",
+      "facts": [
+        {
+          "field": "theory.十二经水",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.天人相应",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.人体度量解剖",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.针刺深浅参数",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.灸之壮数",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经水第十二",
+          "originalText": "经脉十二者，外合于十二经水，而内属于五藏六府。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经水第十二",
+          "originalText": "若夫八尺之士，皮肉在此，外可度量切循而得之，其死可解剖而视之。其藏之坚脆，府之大小，谷之多少，脉之长短，血之清浊，气之多少，十二经之多血少气，与其少血多气，与其皆多血气，与其皆少血气，皆有大数。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "经水第十二",
+          "originalText": "十二经水者，外有源泉，而内有所禀，此皆内外相贯，如环无端，人经亦然。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论针刺深浅与灸之壮数随经水之异，不载方药；「刺足阳明，深六分，留十呼」类为针治参数",
+        "caution": "针深灸壮当因人因经而宜，肥瘦强弱不同则深浅异数，勿执一法"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-012",
+      "title": "灵枢·五色篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "灵枢",
+        "望诊",
+        "五色",
+        "明堂"
+      ],
+      "intent": "掌握以明堂为中枢的面部五色分部望诊法与察浮沉泽夭散抟辨病之法。",
+      "learning": {
+        "knowledge": "本篇面部望诊分部察色，「察其浮沉，以知浅深；察其泽夭，以观成败；察其散抟，以知远近」立色诊纲领；「青为肝，赤为心，白为肺，黄为脾，黑为肾」定五色应脏，「青黑为痛，黄赤为热，白为寒」为望色辨证总纲。",
+        "misjudgment": "把面青一概断为肝病。错：五色命脏是常度，临证须察浮沉泽夭与病位上下，青黑并见主痛、青而晦滞主寒凝血瘀、青而明润或属新病，同色异机须四诊合参，不得以一色定一脏。",
+        "reasoning": "面色淡白与面色苍白同为白，何以一属气虚、一属亡阳？",
+        "feedback": "淡白而神疲属气虚血少，苍白而冷汗肢厥属阳气暴脱，一缓一急、一虚一脱，辨之于泽夭神情，治法悬殊。",
+        "transfer": "肝硬化患者面色晦暗黧黑，从「黑为肾」「察其泽夭以观成败」如何判断预后？"
+      },
+      "stdJudgment": "五色篇以明堂（鼻）为五脏色诊之中枢，面部五色各有分部，察浮沉知浅深、察泽夭观成败、察散抟知远近、视上下知病处，色诊之法细密有度；以五色命脏，青为肝、赤为心、白为肺、黄为脾、黑为肾，青黑为痛、黄赤为热、白为寒，色与脏、色与病机相为表里，是《内经》面部望诊最系统的篇章。",
+      "coreDefinition": "五色篇：以明堂为中枢望面部分部五色，察浮沉泽夭散抟知病之浅深成败。",
+      "facts": [
+        {
+          "field": "theory.明堂五色望诊",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五色分部",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五色主病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.浮沉泽夭",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.色脉合参",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "五色第四十九",
+          "originalText": "五色各见其部，察其浮沉，以知浅深；察其泽夭，以观成败；察其散抟，以知远近；视色上下，以知病处。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "五色第四十九",
+          "originalText": "以五色命脏：青为肝，赤为心，白为肺，黄为脾，黑为肾。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "五色第四十九",
+          "originalText": "青黑为痛，黄赤为热，白为寒，是谓五官。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论色诊法度，不载方药剂量；「察其浮沉，以知浅深」为望色辨证之纲",
+        "caution": "色之浮沉泽夭散抟须合参四诊，单凭色诊易误，尤须辨色之善恶"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-013",
+      "title": "灵枢·阴阳二十五人篇精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "灵枢",
+        "体质",
+        "五形人",
+        "五音",
+        "因人制宜"
+      ],
+      "intent": "综合掌握五行五音分形分类的体质学说及刺五形人气血多少之法。",
+      "learning": {
+        "knowledge": "以五行五音为纲作体质分类，「天地之间，六合之内，不离于五，人亦应之」确立五行为体质分类之基；「木形之人，比于上角」等五段详述五形人面色体态性情，各形分太少角等亚型而成二十五变；篇末论刺五形人法，强调察气血多少而调之，为体质学说之源。",
+        "misjudgment": "把二十五人分类理解为五种固定的病态人格。错：这是正常人群的体质禀赋分类，五形人各有偏盛偏衰与好发疾患倾向，并非病态划分，临床用以指导养生防病与针刺补泻，不可对号入座贴标签。",
+        "reasoning": "火形之人「疾心」而木形之人「多忧劳于事」，性情差异对情志病防治有何指导？",
+        "feedback": "火形人性急易亢，须防心火与阳热诸病，调以静养；木形人多忧劳心，易患肝郁，宜疏达情志，养生防病各从其形质之偏而纠之。",
+        "transfer": "同患失眠，急躁易怒与思虑多忧者调治思路如何随其形质而别？"
+      },
+      "stdJudgment": "阴阳二十五人篇以五行配五音，分木火土金水五形人，各形按五音太少分五亚型，五五成二十五人；木形之人比于上角似于苍帝，苍色小头长面大肩背，火形之人比于上征似于赤帝，赤色广䏟锐面小头。各形气血多少、形态性情各异，刺法深浅随之而别，为《内经》体质学说之系统文献。",
+      "coreDefinition": "阴阳二十五人篇：五形人各配五音五亚型，共二十五人；形色性情气血各异，针刺因人制宜。",
+      "facts": [
+        {
+          "field": "theory.五形之人",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.阴阳二十五人分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五音五形配属",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.形色相参",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气血多少与针刺",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "阴阳二十五人第六十四",
+          "originalText": "天地之间，六合之内，不离于五，人亦应之。故五五二十五人之政，而阴阳之人不与焉。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "阴阳二十五人第六十四",
+          "originalText": "木形之人，比于上角，似于苍帝。其为人苍色，小头，长面，大肩背，直身，小手足，好有才，劳心，少力，多忧劳于事。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "阴阳二十五人第六十四",
+          "originalText": "火形之人，比于上征，似于赤帝。其为人赤色，广䏟，锐面小头，好肩背髀腹，小手足，行安地，疾心，行摇，肩背肉满。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论五形人禀赋与刺法，不载方药；「刺形人者，先察其形」为针刺因人制宜之则",
+        "caution": "五形分类重在禀赋气血多少，针刺深浅当随形质肥瘦而变，勿以形貌定病名"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-014",
+      "title": "灵枢·忧恚无言篇精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "灵枢",
+        "失音",
+        "会厌",
+        "咽喉"
+      ],
+      "intent": "掌握发声器官的功能分工与寒客会厌致卒然无音的病机及针刺治法。",
+      "learning": {
+        "knowledge": "论情志刺激与寒邪所致卒然失音及其针刺治法，「会厌者，音声之户也」「舌者，音声之机也」对发声器官作功能定位；「人卒然无音者，寒气客于厌」把卒喑病机归于寒客会厌；「会厌之脉，上络任脉，取之天突」给出选穴方案，为咽喉音声病专科之滥觞。",
+        "misjudgment": "把本篇失音等同于声带麻痹等喉部器质病变。错：本篇所言卒然无音以忧恚情志与寒客会厌为主，属功能性暴喑范畴，器质性病变及久喑脏腑虚损不在其例，辨病当分功能性抑或器质性。",
+        "reasoning": "同为失音，卒然无音与久病音瘖在病机治法上有何不同？",
+        "feedback": "卒然无音多因情志气郁或寒客会厌，属实证，治以理气散寒通窍；久病音瘖多属肺肾阴虚或气虚，属虚证，治以滋养肺肾，一实一虚，针药各异。",
+        "transfer": "教师用嗓过度后声音嘶哑，从「喉咙者，气之所以上下」如何理解其耗气伤津之机？"
+      },
+      "stdJudgment": "忧恚无言篇专论卒然失音之病：咽喉为水谷之道，喉咙为气上下之径，会厌为音声之户，口唇为音声之扇，舌为音声之机，发声器官之分工井然；卒然无音因寒气客于会厌，厌不能发、开阖不致；针刺之法取足少阴，会厌之脉上络任脉，取之天突其厌乃发，为失音病针治之专论。",
+      "coreDefinition": "忧恚无言篇：会厌为音声之户，寒气客厌则卒然无音；刺足少阴与天突可复其声。",
+      "facts": [
+        {
+          "field": "theory.失音病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.咽喉会厌结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.寒气客于会厌",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.针刺治失音",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.音声之门户",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "忧恚无言第六十九",
+          "originalText": "咽喉者，水谷之道也。喉咙者，气之所以上下者也。会厌者，音声之户也。口唇者，音声之扇也。舌者，音声之机也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "忧恚无言第六十九",
+          "originalText": "人卒然无音者，寒气客于厌，则厌不能发，发不能下，至其开阖不致，故无音。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《灵枢》",
+          "canon": "《灵枢》",
+          "chapter": "忧恚无言第六十九",
+          "originalText": "会厌之脉，上络任脉，取之天突，其厌乃发也。",
+          "sourceTitle": "《灵枢》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论失音之由与针刺之法，不载方药；「取之天突」为针刺治音哑要穴",
+        "caution": "暴喑卒然无音有寒客会厌与脏气内夺之别，针药当分虚实，器质性病变另当别论"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-015",
+      "title": "难经·八难论气口独为五脏主精读",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "难经",
+        "寸口脉",
+        "生气之原",
+        "肾间动气",
+        "命门"
+      ],
+      "intent": "综合理解独取寸口之据与生气之原（肾间动气）对脉诊死生的统摄关系。",
+      "learning": {
+        "knowledge": "以「寸口脉平而死者」设问，阐发生气之原即肾间动气为生命之根本，「诸十二经脉者，皆系于生气之原……谓肾间动气也」把肾间动气定位为五脏六腑之本、十二经脉之根；「气者，人之根本也，根绝则茎叶枯矣」喻元气绝则生机息，为命门与肾气理论奠基。",
+        "misjudgment": "把「寸口脉平而死者」理解为脉象无异常即预后良好。错：此句恰恰警示脉平亦可死，关键在于生气（肾间动气）是否独绝于内，临证须神形脉合参，不可单凭脉象判生死。",
+        "reasoning": "一难言独取寸口可决死生，八难又言寸口脉平而死，二者如何统一于肾间动气？",
+        "feedback": "寸口为手太阴脉动、五脏六腑之气皆变见于气口，故可决死生；然脉气根于肾间动气，若生气先绝，脉虽暂平而根本已亏，故察脉之外尤须审神气之存亡，两难互补方为全法。",
+        "transfer": "危重患者脉象尚可而神情淡漠、目光无神，如何用「生气独绝于内」判断预后？"
+      },
+      "stdJudgment": "八难提出寸口脉平而死者何谓的设问，答以诸经皆系于生气之原，即肾间动气，为五脏六腑之本、十二经脉之根、呼吸之门、三焦之原；一难已明独取寸口之理，八难进一步指出脉虽平而生气独绝于内者死。气为人之根本，根绝则茎叶枯，把肾间动气与寸口脉诊、生命存亡贯通为一，命门学说之端绪于此。",
+      "coreDefinition": "八难：诸经脉皆系于生气之原（肾间动气）；气者人之根本，根绝则寸口虽平而死。",
+      "facts": [
+        {
+          "field": "theory.独取寸口",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.生气之原",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾间动气",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.寸口脉决生死",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气根于肾",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《难经》",
+          "canon": "《难经》",
+          "chapter": "一难",
+          "originalText": "一难曰：十二经皆有动脉，独取寸口，以决五脏六腑死生吉凶之法，何谓也？然：寸口者，脉之大会，手太阴之脉动也。",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《难经》",
+          "canon": "《难经》",
+          "chapter": "八难",
+          "originalText": "八难曰：寸口脉平而死者，何谓也？然：诸十二经脉者，皆系于生气之原。所谓生气之原者，谓十二经之根本也，谓肾间动气也。此五脏六腑之本，十二经脉之根，呼吸之门，三焦之原，一名守邪之神。",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《难经》",
+          "canon": "《难经》",
+          "chapter": "八难",
+          "originalText": "故气者，人之根本也，根绝则茎叶枯矣。寸口脉平而死者，生气独绝于内也。",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论脉诊原理与生气之原，不载方药；「肾间动气」为生命本原之气",
+        "caution": "寸口脉平而死者生气独绝，非脉诊所能尽，当察神气之存亡"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-016",
+      "title": "难经·二十二难论是动所生病精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "难经",
+        "是动病",
+        "所生病",
+        "气病血病"
+      ],
+      "intent": "掌握是动病属气、所生病属血及气先病而后血病的经脉病候层次。",
+      "learning": {
+        "knowledge": "解释经脉「是动病」与「所生病」之关系，「经言是动者，气也；所生病者，血也」以气血分判二病；「气主呴之，血主濡之」概括气血温煦濡养之职，「气留而不行者，为气先病也；血壅而不濡者，为血后病也」确立气先血后之传变次序，为从气血辨证经络病立法。",
+        "misjudgment": "把「是动病属气」理解为凡经脉病证初起皆属气虚。错：是动病指经气运行失常所致之病，气病可实可虚，经气壅逆、气滞不畅皆属气病范畴，与气虚补益是两回事，辨治当察虚实。",
+        "reasoning": "《灵枢》经脉篇只列病候而二十二难以气血释之，后世又有营卫阴阳之解，哪种解释更合临床？",
+        "feedback": "气血之解简明实用，营卫之解重在分布浅深，临床辨经络病重在察其痛麻冷热之气血属性，气滞者行气、血瘀者活血，二说互补而非互斥。",
+        "transfer": "带状疱疹后遗神经痛刺痛固定，从「血壅而不濡」如何理解其迁延之机与治法侧重？"
+      },
+      "stdJudgment": "二十二难就《灵枢》「是动」「所生病」一脉二病发问，答以是动者气也、所生病者血也，邪在气则气为是动，邪在血则血为所生病；气主呴之、血主濡之，气留而不行为气先病，血壅而不濡为血后病。以气先血后释二病之序，把经脉病候纳入气血病机层次，为后世辨经络病之在气在血、立法调治提供依据。",
+      "coreDefinition": "二十二难：是动病属气、所生病属血；气主呴之血主濡之，气先病而后血病。",
+      "facts": [
+        {
+          "field": "theory.是动所生病之别",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气病血病",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.气主呴之血主濡之",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.先气后血",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.经脉病候层次",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《难经》",
+          "canon": "《难经》",
+          "chapter": "二十二难",
+          "originalText": "经言是动者，气也；所生病者，血也。邪在气，气为是动；邪在血，血为所生病。",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《难经》",
+          "canon": "《难经》",
+          "chapter": "二十二难",
+          "originalText": "气主呴之，血主濡之。气留而不行者，为气先病也；血壅而不濡者，为血后病也。故先为是动，后所生病也。",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论经脉病候的气血先后层次，不载方药；「气主呴之，血主濡之」为气血功能分工之纲",
+        "caution": "先气后血示传变次序，调经须审病在气在血，气药血药不可颠倒"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-017",
+      "title": "难经·三十六难论肾与命门精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "难经",
+        "命门",
+        "肾",
+        "原气"
+      ],
+      "intent": "掌握左肾右命门之说与命门藏精系胞、原气所系的功能定位。",
+      "learning": {
+        "knowledge": "辨肾之左右与命门功能，「肾两者，非皆肾也。其左者为肾，右者为命门」首创命门名位；「命门者，谓神精之所舍，原气之所系也；男子以藏精，女子以系胞」把命门与精、气、生殖、胞宫联系，为命门学说之源，后世温补学派据此发挥命门水火之论。",
+        "misjudgment": "把「左肾右命门」当作解剖事实，认为左右两肾功能不同。错：这是功能划分的模型，意在强调肾中寓有原气命门之用，解剖上两肾同质，后世多从两肾之间命门之火立说，不必拘执左右。",
+        "reasoning": "同为命门之论，八难主肾间动气、三十六难主左肾右命门，二者如何汇通？",
+        "feedback": "八难从元气之根立论，三十六难从部位与精系立说，一重气、一重精，合观则命门为水火之宅、精气之根，温补学派治虚损每从命门真阴真阳入手。",
+        "transfer": "男性不育症补肾填精而效不显，从「命门者原气之所系」如何扩展调治思路？"
+      },
+      "stdJudgment": "三十六难提出肾独有两之问，答以肾两者非皆肾也，其左者为肾、右者为命门，命门为神精之所舍、原气之所系，男子以藏精、女子以系胞，故知肾有一也。以命门统原气、精血与生殖，把《灵枢》「肾间动气」之说落实为命门概念，后世温补学派论命门水火即源于此。",
+      "coreDefinition": "三十六难：左肾右命门，命门藏神精、系原气，男子藏精女子系胞，实肾有一也。",
+      "facts": [
+        {
+          "field": "theory.左肾右命门",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.命门藏精系胞",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.原气所系",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肾有二说",
+          "sourceType": "textbook",
+          "sourceTitle": "《内经选读》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.命门学说源流",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《难经》",
+          "canon": "《难经》",
+          "chapter": "三十六难",
+          "originalText": "肾两者，非皆肾也。其左者为肾，右者为命门。命门者，谓神精之所舍，原气之所系也；男子以藏精，女子以系胞。故知肾有一也。",
+          "sourceTitle": "《难经》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇论肾与命门之别，不载方药剂量；「命门者，原气之所系」为命门理论之肇端",
+        "caution": "左右肾命门之说为功能划分，解剖上两肾皆实质脏器，临证勿拘泥方位"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-018",
+      "title": "伤寒论·太阳病条辨精读",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "伤寒论",
+        "太阳病",
+        "表虚表实",
+        "桂枝汤",
+        "麻黄汤"
+      ],
+      "intent": "掌握太阳病提纲与中风表虚、伤寒表实之辨及温病鉴别。",
+      "learning": {
+        "knowledge": "太阳病篇以提纲证统表证诸变，「太阳之为病，脉浮，头项强痛而恶寒」定太阳病之纲；「太阳中风……汗自出……桂枝汤主之」立表虚证治，「无汗而喘者，麻黄汤主之」立表实证治；「发热而渴，不恶寒者，为温病」提示与风寒之别，表证虚实寒温之辨在此奠定。",
+        "misjudgment": "把太阳病一律按表寒论治。错：太阳病提纲之外尚有太阳温病「发热而渴，不恶寒」，且中风表虚与伤寒表实治法迥异，桂枝汤不可用于无汗表实，麻黄汤不可用于有汗表虚，误用则坏病。",
+        "reasoning": "桂枝汤证「阳浮而阴弱」与麻黄汤证「无汗而喘」，同属太阳病为何一用和营一用发汗？",
+        "feedback": "阳浮而阴弱示卫强营弱、汗出而营阴已伤，故桂枝汤益营和卫、助汗而解；无汗而喘示腠理闭塞、肺气不宣，故麻黄汤开腠发汗、宣肺平喘，有汗无汗为辨治关键。",
+        "transfer": "普通感冒恶风发热、汗出而脉缓者，如何对应桂枝汤证而治？"
+      },
+      "stdJudgment": "太阳病条辨以「太阳之为病，脉浮，头项强痛而恶寒」提纲挈领，太阳主表统营卫；同属表证而分表虚表实：表虚者阳浮阴弱、汗出恶风，桂枝汤调和营卫；表实者无汗而喘、骨节疼痛，麻黄汤开腠发汗；又辨太阳温病「发热而渴，不恶寒」，与风寒表证划界，表虚表实、寒温之别于此厘清，为全书辨证之首纲。",
+      "coreDefinition": "太阳病提纲：脉浮、头项强痛而恶寒；桂枝汤治表虚汗出，麻黄汤治表实无汗。",
+      "facts": [
+        {
+          "field": "theory.太阳病提纲",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.桂枝汤证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.麻黄汤证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.表虚表实之辨",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.温病鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨太阳病脉证并治",
+          "originalText": "太阳之为病，脉浮，头项强痛而恶寒。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨太阳病脉证并治",
+          "originalText": "太阳中风，阳浮而阴弱。阳浮者，热自发；阴弱者，汗自出。啬啬恶寒，淅淅恶风，翕翕发热，鼻鸣干呕者，桂枝汤主之。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨太阳病脉证并治",
+          "originalText": "太阳病，头痛发热，身疼腰痛，骨节疼痛，恶风，无汗而喘者，麻黄汤主之。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为太阳病辨证纲领，方药剂量依经方通行煎服法：桂枝汤啜热稀粥、温覆取微汗，麻黄汤温服覆取微似汗，中病即止、不可过汗",
+        "caution": "汗法以微微汗出为度，过汗伤阳伤津；麻黄发汗力峻，虚人及已有汗出者忌用"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证；汗法须遵医嘱",
+        "prohibitions": [
+          "麻黄发汗力强，虚人慎用；高血压、心脏病、失眠者慎用；运动员禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-n-019",
+      "title": "伤寒论·阳明病条辨精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "伤寒论",
+        "阳明病",
+        "胃家实",
+        "白虎汤",
+        "承气汤"
+      ],
+      "intent": "掌握阳明病提纲与经证腑证分治及三阳合病之化裁。",
+      "learning": {
+        "knowledge": "阳明病以胃家实为提纲、主里热实证，「阳明之为病，胃家实是也」定其病机之纲；「身热，汗自出，不恶寒，反恶热也」辨阳明外证；白虎汤证四大属经证，承气汤证潮热谵语、腹满硬痛属腑证，经腑两纲分治，三阳合病独清阳明示化裁之例。",
+        "misjudgment": "把「胃家实」局限于胃肠燥屎内结。错：胃家实泛指阳明胃肠燥热实证，包括经证之热盛伤津与腑证之燥结成实，白虎汤证亦有胃家实之热，只是无形之热与有形之结的区别。",
+        "reasoning": "阳明经证热盛与腑证燥结，一清一下，临床上如何据脉证鉴别？",
+        "feedback": "经证身大热、汗大出、脉洪大而腹无所苦，腑证日晡潮热、腹满硬痛、不大便、脉沉实，辨之于腹诊与脉象，无形之热可清、有形之结须下。",
+        "transfer": "高热患者大汗大渴、脉洪大而腹软，从阳明经证如何指导选方？"
+      },
+      "stdJudgment": "阳明病条辨以「胃家实」为纲，阳明主里、主燥热，提纲之外又以身热、汗自出、不恶寒反恶热示阳明外证；经证热炽津伤者用白虎汤辛寒清热，腑证燥屎内结者用三承气荡涤实热，经腑分治、汗下各禁。三阳合病以白虎汤治独盛之阳明热，示从标本缓急立法之例。",
+      "coreDefinition": "阳明病提纲：胃家实是也；经证白虎清热，腑证承气攻下，汗下各有其禁。",
+      "facts": [
+        {
+          "field": "theory.阳明病提纲",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.胃家实",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.阳明经证白虎汤",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.阳明腑实证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.三阳合病",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨阳明病脉证并治",
+          "originalText": "阳明之为病，胃家实是也。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨阳明病脉证并治",
+          "originalText": "阳明病，身热，汗自出，不恶寒，反恶热也。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨阳明病脉证并治",
+          "originalText": "三阳合病，腹满身重，难以转侧，口不仁，面垢，谵语，遗尿。发汗则谵语，下之则额上生汗，手足逆冷。若自汗出者，白虎汤主之。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为阳明病辨证纲领，白虎汤辛寒清热、大承气汤苦寒峻下，剂量依经方通行法度，中病即止",
+        "caution": "白虎汤证禁下、承气证禁汗，热盛伤津时下法须防津竭，老年体弱者慎峻下"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-020",
+      "title": "伤寒论·少阳病条辨精读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "伤寒论",
+        "少阳病",
+        "小柴胡汤",
+        "枢机",
+        "半表半里"
+      ],
+      "intent": "掌握少阳病提纲、小柴胡汤证主症与少阳禁汗下的和解治法。",
+      "learning": {
+        "knowledge": "少阳病为半表半里之枢机病，「少阳之为病，口苦，咽干，目眩也」以三症定提纲；小柴胡汤证以「往来寒热，胸胁苦满，嘿嘿不欲饮食，心烦喜呕」为主症，「但见一证便是，不必悉具」示抓主症之要；「少阳不可发汗，发汗则谵语」明禁汗，治惟和解枢机。",
+        "misjudgment": "把往来寒热理解为寒热交替出现即成少阳病。错：往来寒热是邪正分争于半表半里之象，须与太阳发热恶寒并见、阳明但热不寒相鉴别，且少阳辨证以提纲三症与枢机病机为据，不可凭单一症状定病。",
+        "reasoning": "小柴胡汤证何以「但见一证便是，不必悉具」，抓主症原则在临床如何把握？",
+        "feedback": "少阳病提纲与主症反映枢机不利之共同病机，邪正分争故往来寒热，枢机不利故胸胁苦满，凡见此类枢机之症即可投和解，不必诸症齐全，但须排除他经兼病。",
+        "transfer": "感冒后咽干口苦、胁肋不适而寒热往来者，如何辨为少阳而治？"
+      },
+      "stdJudgment": "少阳病条辨以「口苦，咽干，目眩」为提纲，少阳居半表半里、主枢机；小柴胡汤证见往来寒热、胸胁苦满、嘿嘿不欲饮食、心烦喜呕，或有或无之或然证随证加减；脉弦细者属少阳，不可发汗，发汗则谵语，汗下吐三法俱禁，唯以和解为主，枢机一转则表里之邪各得其解。",
+      "coreDefinition": "少阳病提纲：口苦咽干目眩；小柴胡汤和解枢机，往来寒热胸胁苦满为其主证。",
+      "facts": [
+        {
+          "field": "theory.少阳病提纲",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.小柴胡汤证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.往来寒热",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.枢机不利",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.少阳禁汗下",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨少阳病脉证并治",
+          "originalText": "少阳之为病，口苦，咽干，目眩也。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨少阳病脉证并治",
+          "originalText": "伤寒五六日中风，往来寒热，胸胁苦满，嘿嘿不欲饮食，心烦喜呕，或胸中烦而不呕，或渴，或腹中痛，或胁下痞硬，或心下悸、小便不利，或不渴、身有微热，或咳者，小柴胡汤主之。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《伤寒论》",
+          "canon": "《伤寒论》",
+          "chapter": "辨少阳病脉证并治",
+          "originalText": "伤寒，脉弦细，头痛发热者，属少阳。少阳不可发汗，发汗则谵语。",
+          "sourceTitle": "《伤寒论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为少阳病辨证纲领，小柴胡汤依经方通行剂量，和解为主，中病即止",
+        "caution": "少阳禁汗禁下禁吐，惟和解一法；枢机不利者慎用辛散峻剂"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-021",
+      "title": "金匮要略·五脏风寒积聚病篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "金匮要略",
+        "五脏中风",
+        "积聚",
+        "脾约",
+        "麻子仁丸"
+      ],
+      "intent": "掌握五脏中风中寒之证候、积聚分脏腑及脾约麻子仁丸润下法。",
+      "learning": {
+        "knowledge": "论五脏中风、中寒证候与积聚、三焦病及脾约，「肺中风者，口燥而喘」「肝中风者，头目瞤，两胁痛」分述五脏中风主症；积聚以积属脏、聚属腑分论；「趺阳脉浮而涩……其脾为约，麻子仁丸主之」立胃强脾弱、津液偏渗之燥结治法，为润下法代表。",
+        "misjudgment": "把「五脏中风」等同于外风直中五脏。错：此篇中风泛指邪犯五脏的杂病病候，如肺中风之口燥而喘重在肺气失宣，与太阳中风之表证名同实异，勿以外感表证论治。",
+        "reasoning": "脾约病胃强脾弱、津液偏渗膀胱，为何用麻子仁丸润下而不用峻下？",
+        "feedback": "脾约之燥因津亏不布而非热结成实，峻下则劫津、愈下愈燥，故以麻子仁丸润肠滋燥、缓通大便，蜜丸缓图，正合存津液之旨。",
+        "transfer": "老人习惯性便秘大便干结如栗，从脾约病机如何解释并指导通便用药？"
+      },
+      "stdJudgment": "五脏风寒积聚病篇以五脏中风、中寒、死脉分述五脏病候，肺中风口燥而喘、肝中风头目瞤而两胁痛、心中风翕翕发热不能起，各脏受邪之候并然；又论积聚在脏在腑之分与三焦各部病证；脾约一证以趺阳脉浮涩相搏、大便则坚，麻子仁丸润肠通便，为津亏燥结之治例，篇虽名寒而兼及热燥，示五脏病辨治之全。",
+      "coreDefinition": "五脏风寒积聚篇：五脏中风中寒各系病候，积聚分脏腑；脾约大便坚用麻子仁丸。",
+      "facts": [
+        {
+          "field": "theory.五脏中风",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五脏中寒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.五脏死脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.三焦病候",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.脾约麻子仁丸",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "五脏风寒积聚病脉证并治",
+          "originalText": "肺中风者，口燥而喘，身运而重，冒而肿胀。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "五脏风寒积聚病脉证并治",
+          "originalText": "肝中风者，头目瞤，两胁痛，行常伛，令人嗜甘。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "五脏风寒积聚病脉证并治",
+          "originalText": "趺阳脉浮而涩，浮则胃气强，涩则小便数，浮涩相搏，大便则坚，其脾为约，麻子仁丸主之。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为五脏病候之论，麻子仁丸润肠通便，依通行剂量蜜丸为服、中病即止",
+        "caution": "脾约虽属燥结，峻下则津愈伤，宜润下缓图；脏腑积聚之病当标本兼顾"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-022",
+      "title": "金匮要略·疮痈肠痈浸淫病篇精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "金匮要略",
+        "肠痈",
+        "疮痈",
+        "大黄牡丹汤",
+        "薏苡附子败酱散"
+      ],
+      "intent": "掌握痈肿辨脉、肠痈辨脓与两方异治及浸淫疮预后。",
+      "learning": {
+        "knowledge": "论痈肿、肠痈、金疮、浸淫疮之辨证与治法，「诸浮数脉……若有痛处，当发其痈」立痈肿将成之脉证诊断；「脉迟紧者，脓未成，可下之……脉洪数者，脓已成，不可下也」为辨脓与治禁之纲；大黄牡丹汤泻热破瘀、薏苡附子败酱散温阳排脓，示异治之例。",
+        "misjudgment": "把「脓已成，不可下也」理解为脓已成即不可用任何泻下类药物。错：其义在脓已成则病机转为正虚邪恋、不宜峻下攻逐，当以排脓托毒为主，非一切下法禁用，临证当审脓之虚实。",
+        "reasoning": "同为肠痈，一用大黄牡丹汤泻下、一用薏苡附子败酱散温托，其辨证要点何在？",
+        "feedback": "前者脓未成、属实热瘀结，故泻热破瘀；后者脓已成、属正虚寒凝（其身甲错、无热），故温阳排脓，辨之于脉之迟紧洪数与身热有无。",
+        "transfer": "急性阑尾炎早期右下腹肿痛拒按而发热，如何参照肠痈辨脓法把握手术与保守治疗指征？"
+      },
+      "stdJudgment": "疮痈肠痈浸淫病篇首论痈肿之脉证：浮数脉当发热而反洒淅恶寒、若有痛处，当发其痈，痈之将成之候可察；肠痈以少腹肿痞、按之即痛如淋辨之，脉迟紧脓未成可下，脉洪数脓已成不可下，大黄牡丹汤主脓未成者，薏苡附子败酱散主脓已成者；浸淫疮从口流向四肢者可治、反之为逆，外疡痈肿之辨证传变于此井然。",
+      "coreDefinition": "疮痈肠痈篇：痈肿辨诸浮数脉与痛处；肠痈脓未成可下、脓已成不可下，两方分治。",
+      "facts": [
+        {
+          "field": "theory.痈肿辨脉",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.肠痈辨证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.大黄牡丹汤",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.薏苡附子败酱散",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.浸淫疮预后",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "疮痈肠痈浸淫病脉证并治",
+          "originalText": "诸浮数脉，应当发热，而反洒淅恶寒，若有痛处，当发其痈。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "疮痈肠痈浸淫病脉证并治",
+          "originalText": "肠痈者，少腹肿痞，按之即痛如淋，小便自调，时时发热，自汗出，复恶寒。其脉迟紧者，脓未成，可下之，当有血。脉洪数者，脓已成，不可下也。大黄牡丹汤主之。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《金匮要略》",
+          "canon": "《金匮要略》",
+          "chapter": "疮痈肠痈浸淫病脉证并治",
+          "originalText": "肠痈之为病，其身甲错，腹皮急，按之濡如肿状，腹无积聚，身无热，脉数，此为肠内有痈脓，薏苡附子败酱散主之。",
+          "sourceTitle": "《金匮要略》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇载肠痈两方：大黄牡丹汤泻热破瘀，薏苡附子败酱散排脓消肿，剂量依经方通行法度",
+        "caution": "脓已成不可下，脓未成可下当有血；附子须炮制先煎久煎至无麻辣感；孕妇及脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证；肠痈急症须及时就医，化脓性腹膜炎勿单纯内服",
+        "prohibitions": [
+          "附子须炮制先煎久煎至无麻辣感；反半夏瓜蒌贝母白蔹白及；孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-n-023",
+      "title": "温病条辨·秋燥篇精读",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "温病条辨",
+        "秋燥",
+        "桑杏汤",
+        "沙参麦冬汤",
+        "燥伤肝阴"
+      ],
+      "intent": "掌握秋燥分温凉之辨与桑杏汤、翘荷汤、三甲复脉汤等分焦论治。",
+      "learning": {
+        "knowledge": "秋燥分三焦论治，「秋感燥气，右脉数大，伤手太阴气分者，桑杏汤主之」立上焦温燥之治；「燥气化火，清窍不利者，翘荷汤主之」治燥火犯窍；「燥久伤肝之阴」者三甲复脉汤治下焦阴竭风动；凉燥用杏苏散温润、温燥用桑杏汤凉润，燥证忌刚燥为纲。",
+        "misjudgment": "把秋燥一概作温燥论治。错：秋燥分温燥与凉燥，凉燥近于风寒、宜杏苏散温润宣散，温燥近于风热、宜桑杏汤凉润，误以凉燥作温燥清润则闭门留寇，辨之于恶寒与否及舌脉。",
+        "reasoning": "同为秋燥咳嗽，杏苏散与桑杏汤证治迥异，鉴别要点何在？",
+        "feedback": "凉燥咳嗽恶寒无汗、痰稀舌白，温燥干咳少痰、咽干舌红，一温一凉、一宣一润，辨之在寒热与津伤之象。",
+        "transfer": "秋季干咳少痰伴鼻干咽燥者，从温燥病机如何选方调护？"
+      },
+      "stdJudgment": "温病条辨秋燥诸条分上、下焦论治：秋感燥气伤手太阴气分者，右脉数大，桑杏汤轻宣肺卫、润燥止咳；燥气化火清窍不利者翘荷汤清宣上焦；病久燥伤肝阴，上盛下虚、昼凉夜热、甚则痉厥，三甲复脉汤、定风珠、专翕大生膏育阴潜阳。吴氏分燥之胜复、辨三焦传变，燥病之辨治体系于是完整。",
+      "coreDefinition": "秋燥篇：温燥桑杏汤轻宣润肺，燥火翘荷汤清窍，燥伤肝肾三甲复脉育阴潜阳。",
+      "facts": [
+        {
+          "field": "theory.秋燥病机",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.燥伤气分",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.桑杏汤证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.沙参麦冬汤证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.燥伤肝肾",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "秋感燥气，右脉数大，伤手太阴气分者，桑杏汤主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "燥气化火，清窍不利者，翘荷汤主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "下焦篇",
+          "originalText": "燥久伤肝之阴，上盛下虚，昼凉夜热，或干咳，或不咳，甚则痉厥者，三甲复脉汤主之，定风珠亦主之，专翕大生膏亦主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为秋燥辨证纲领，桑杏汤轻宣润燥、沙参麦冬汤甘寒养阴、三甲复脉汤育阴潜阳，剂量依温病学通行法度",
+        "caution": "燥证忌辛温燥烈之品，凉燥宜温润、温燥宜凉润；痉厥重症须防阴竭动风"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-024",
+      "title": "温病条辨·伏暑篇精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "温病条辨",
+        "伏暑",
+        "暑温",
+        "湿温",
+        "银翘散"
+      ],
+      "intent": "掌握伏暑暑温湿温同源之旨与以舌白舌赤分卫气营血辨治之法。",
+      "learning": {
+        "knowledge": "论伏暑证候分型，「伏暑、暑温、湿温，证本一源，前后互参，不可偏执」示同源互参之旨；「太阴伏暑，舌白口渴，无汗者，银翘散去牛蒡、元参，加杏仁、滑石主之」治湿邪未化，「舌赤口渴汗出者，加减清宫汤主之」治邪入营分，以舌之白赤辨卫气营血浅深。",
+        "misjudgment": "把伏暑理解为暑病潜伏至秋冬才发病。错：伏暑之名言其邪伏体内、过时而发，发病可在深秋初冬，但病机核心是暑湿之邪内伏、新感触发，与一般秋冬新感风寒有别，勿因发病季节误作伤寒。",
+        "reasoning": "同是舌赤口渴汗出，加减清宫汤证与气分热盛之白虎汤证如何鉴别？",
+        "feedback": "加减清宫汤证舌赤为营分受灼、兼有心烦神昏之变，白虎汤证舌红苔燥、大渴脉洪大而神志清晰，辨之在神志与舌色，营分证须清营透热、不可纯用气分辛凉。",
+        "transfer": "深秋发病、身热夜甚而舌绛者，从伏暑伏邪病机如何理解其过时发病之理？"
+      },
+      "stdJudgment": "伏暑诸条首言伏暑、暑温、湿温证本一源、前后互参、不可偏执，示三者病机相通；太阴伏暑以舌白口渴无汗者，银翘散去牛蒡元参加杏仁滑石，芳化宣透；舌赤口渴汗出者，加减清宫汤清营泄热。以舌之白赤、汗之有无分卫气与营血之浅深，伏暑之辨治层次分明，为伏气温病立法之范例。",
+      "coreDefinition": "伏暑篇：伏暑暑温湿温同源；舌白口渴无汗透卫化湿，舌赤口渴汗出清营泄热。",
+      "facts": [
+        {
+          "field": "theory.伏暑证候",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.伏暑与暑温湿温同源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.银翘散加减",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.舌白舌赤分治",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.卫气营血分证",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "伏暑、暑温、湿温，证本一源，前后互参，不可偏执。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "太阴伏暑，舌白口渴，无汗者，银翘散去牛蒡、元参，加杏仁、滑石主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《温病条辨》",
+          "canon": "《温病条辨》",
+          "chapter": "上焦篇",
+          "originalText": "太阴伏暑，舌赤口渴汗出者，加减清宫汤主之。",
+          "sourceTitle": "《温病条辨》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为伏暑辨证纲领，银翘散去牛蒡元参加杏仁滑石、加减清宫汤等方剂量依温病学通行法度",
+        "caution": "伏暑湿热交蒸，忌纯用辛温发汗与滋腻养阴，湿重于热者当化湿为先"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-n-025",
+      "title": "温热论·察舌辨苔精读",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "温热论",
+        "舌诊",
+        "卫气营血",
+        "绛舌",
+        "苔色"
+      ],
+      "intent": "掌握以舌质绛否、苔之燥润辨卫气营血浅深与寒热真假的温病舌诊法。",
+      "learning": {
+        "knowledge": "以舌诊辨温病卫气营血浅深与寒热虚实，「其热传营，舌色必绛」立绛舌主热入营之纲，「初传绛色中兼黄白色……泄卫透营，两和可也」示卫营同病治则；「舌苔白厚而干燥者……甘守津还」示甘润保津；「舌黑而滑者……当温之」辨黑苔属阴寒，苔质合参毕备。",
+        "misjudgment": "把黑苔一概断为热极津枯。错：黑苔有热极与阴寒两端，黑而燥裂者热灼津伤、宜苦寒泄热养阴，黑而滑润者水来克火之阴寒、当温阳，辨之于润燥，误以阴寒作热治则祸不旋踵。",
+        "reasoning": "同为绛舌，纯绛无苔与绛而兼黄白苔，为何治法一清营一泄卫透营？",
+        "feedback": "纯绛无苔为热已深入营分、宜清营凉血；绛兼黄白苔为气分之邪未尽而营分已受灼，若纯清营则留邪、纯清气则不达营，故泄卫透营两和。",
+        "transfer": "发热患者舌绛而苔黄腻，从卫气营血同病角度如何定透邪与清营之主次？"
+      },
+      "stdJudgment": "温热论察舌之法以卫气营血为纲：其热传营则舌色必绛，绛中兼黄白者气分之邪未尽，泄卫透营两和之；苔白厚而干燥者胃燥气伤，滋润药中加甘草取甘守津还之意；舌黑而滑者水来克火属阴寒当温，短缩者肾气竭为难治。以舌质绛否、苔之燥润定营卫之浅深、寒热之真假，舌诊之法条分缕析，为温病舌诊学奠基。",
+      "coreDefinition": "温热论察舌：热传营舌色必绛；白苔厚燥胃燥伤津，黑苔滑润属阴寒当温。",
+      "facts": [
+        {
+          "field": "theory.绛舌主热入营",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.白苔厚燥胃燥气伤",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.黑苔滑润阴寒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.苔之厚薄干润",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.察舌与卫气营血",
+          "sourceType": "textbook",
+          "sourceTitle": "《中医各家学说》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [
+        {
+          "label": "《温热论》",
+          "canon": "《温热论》",
+          "chapter": "温热论",
+          "originalText": "其热传营，舌色必绛。绛，深红色也。初传绛色中兼黄白色，此气分之邪未尽也，泄卫透营，两和可也。",
+          "sourceTitle": "《温热论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《温热论》",
+          "canon": "《温热论》",
+          "chapter": "温热论",
+          "originalText": "再舌苔白厚而干燥者，此胃燥气伤也，滋润药中加甘草，令甘守津还之意。",
+          "sourceTitle": "《温热论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        },
+        {
+          "label": "《温热论》",
+          "canon": "《温热论》",
+          "chapter": "温热论",
+          "originalText": "若舌黑而滑者，水来克火，为阴证，当温之。若见短缩，此肾气竭也，为难治。",
+          "sourceTitle": "《温热论》",
+          "sourceType": "classic_original",
+          "status": "verified"
+        }
+      ],
+      "cases": null,
+      "dosage": {
+        "guideline": "本篇为舌诊纲领，不专载方药；「泄卫透营」「甘守津还」为立法之则",
+        "caution": "黑苔滑润属阴寒者忌寒凉，绛舌兼黄白苔者忌纯清营，辨苔须合舌质与润燥"
+      },
+      "safety": {
+        "note": "经典条文学习，临床运用须辨证",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-h-001",
+      "title": "鉴定·葶苈子真伪鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "葶苈子",
+        "膨胀度",
+        "真伪鉴别"
+      ],
+      "intent": "掌握南葶苈子与北葶苈子的性状差异及膨胀度检查法，识别车前子、白芥子等常见混淆品。",
+      "learning": {
+        "knowledge": "葶苈子分南北：南品为播娘蒿种子，长圆形略扁，黄棕色，一端钝圆一端渐尖而微凹；北品为独行菜种子，近卵形扁平。法定膨胀度检查：南品不低于3，北品不低于12。车前子腹面微凹、白芥子类圆形有网纹，为常见混淆品。",
+        "misjudgment": "把北葶苈子颗粒状突起误当南葶苈子的特征。错：南葶苈子个体更小更窄、黄棕色，北葶苈子个体略大而扁平、棕色，两者表面颗粒突起形态有别，仅凭「有颗粒」一言难分，须合看大小、色泽与膨胀度。",
+        "reasoning": "南、北葶苈子外观相近，为什么膨胀度检查能成为法定区分指标？",
+        "feedback": "粘液质含量决定种子吸水膨胀程度，北葶苈子果皮黏液层厚，膨胀度（≥12）远高于南葶苈子（≥3），定量测定把感官性状转化为可复核的数值，故被药典收载为检查项。",
+        "transfer": "一袋种子水浸后几乎不膨胀且外形类圆、表面网纹明显，你如何判定并说明依据？"
+      },
+      "stdJudgment": "南葶苈子为播娘蒿的种子，长圆形略扁，表面红棕色，有细微颗粒状突起；北葶苈子为独行菜的种子，近卵形扁平。二者种脐皆位于凹入端，真伪判定常辅以膨胀度检查。",
+      "coreDefinition": "葶苈子分南北：南葶苈子长圆形略扁、味微辛带黏性，北葶苈子近卵形扁平，膨胀度指标各异，混淆品常见车前子、白芥子。",
+      "facts": [
+        {
+          "field": "herb.葶苈子来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.南葶苈子性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.北葶苈子性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.膨胀度检查",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.常见混淆品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "葶苈子入煎剂 3-9g，包煎；以膨胀度检查（南葶苈子不低于3、北葶苈子不低于12）佐证品种"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "性状存疑的葶苈子须经膨胀度检查与显微鉴定复核后再行入药"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-002",
+      "title": "鉴定·大青叶性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "叶类",
+        "大青叶",
+        "菘蓝",
+        "靛蓝结晶"
+      ],
+      "intent": "掌握大青叶的来源、叶形与显微特征（靛蓝结晶），识别常见叶类混淆品。",
+      "learning": {
+        "knowledge": "大青叶为十字花科菘蓝干燥叶，展平呈长椭圆形至长圆状倒披针形，全缘或微波状，基部狭窄下延至叶柄呈翼状，上表面暗灰绿色，可见色深突起的小点。粉末显微见蓝色色素块（靛蓝结晶），气孔不等式。马蓝叶基部不翼状、边缘粗锯齿，蓼蓝叶卵形，均与正品有别。",
+        "misjudgment": "把蓼蓝叶、马蓝叶当大青叶。错：马蓝（爵床科）叶基部不呈翼状、边缘具粗锯齿，蓼蓝（蓼科）叶卵形先端钝圆，三者来源科属不同，仅凭「色青」二字认药必致张冠李戴。",
+        "reasoning": "大青叶、马蓝叶、蓼蓝叶都曾被当作「青叶」入药，鉴定上靠什么一锤定音？",
+        "feedback": "基原科属是第一关：菘蓝（十字花科）叶基部下延成翼状柄，蓼蓝（蓼科）叶卵形具托叶鞘，马蓝（爵床科）叶具粗锯齿；再辅以显微的靛蓝结晶与薄层色谱，三源立判。",
+        "transfer": "若处方写明「大青叶」而药房仅有马蓝叶，应如何处理并核对哪类标准？"
+      },
+      "stdJudgment": "大青叶为十字花科菘蓝的干燥叶，完整叶片展平后呈长椭圆形至长圆状倒披针形，全缘或微波状，基部狭窄下延至叶柄呈翼状，上表面暗灰绿色，可见色较深的小点突起。",
+      "coreDefinition": "大青叶基部下延呈翼状叶柄、上表面暗灰绿色，粉末显微见靛蓝蓝色结晶，是菘蓝叶区别于马蓝、路边青等品种的关键。",
+      "facts": [
+        {
+          "field": "herb.大青叶来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.大青叶性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.大青叶显微",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.理化鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "大青叶入煎剂 9-15g；叶类药材入煎宜后下或包煎，鉴别时勿与马蓝、路边青等混淆"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "正品大青叶须为菘蓝叶，马蓝、路边青、蓼蓝等同名药材不可混用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-003",
+      "title": "鉴定·枇杷叶性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "叶类",
+        "枇杷叶",
+        "绒毛",
+        "去毛"
+      ],
+      "intent": "掌握枇杷叶叶形、下表面绒毛与主脉侧脉特征，理解净制去毛的鉴定与用药意义。",
+      "learning": {
+        "knowledge": "枇杷叶为蔷薇科枇杷的干燥叶，长圆形或倒卵形，先端尖，基部楔形，边缘有疏锯齿而近基部全缘；上表面较光滑，下表面密被黄色绒毛，主脉于下表面显著突起，侧脉羽状，革质而脆。显微见单细胞长绒毛与草酸钙簇晶。药典规定须刷去绒毛入药，绒毛不去易刺激咽喉。",
+        "misjudgment": "把带毛的枇杷叶直接入药或以此判定为正品。错：绒毛是枇杷叶的固有性状，但药用须去毛，去毛与否是净制要求而非真伪标准；带毛投料刺激咽喉、违背药典规定，验收时两者要分开把关。",
+        "reasoning": "枇杷叶背的绒毛既然是品种特征，为什么药典反而要求刷去它？",
+        "feedback": "绒毛属非药用部位，煎煮时刺激咽喉引起呛咳，药典将「去毛」列为枇杷叶净制要求；品种鉴定认绒毛，入药却须除绒毛，体现鉴定服务于用药安全。",
+        "transfer": "一批枇杷叶绒毛密布但颜色暗褐、叶缘无锯齿，鉴定上应如何复核？"
+      },
+      "stdJudgment": "枇杷叶为蔷薇科枇杷的干燥叶，长圆形或倒卵形，先端尖，基部楔形，边缘有疏锯齿而近基部全缘；上表面较光滑，下表面密被黄色绒毛，主脉于下表面显著突起，侧脉羽状，革质而脆。",
+      "coreDefinition": "枇杷叶革质、边缘疏锯齿、下表面密被黄色绒毛、主脉突起，正品去毛后入药，叶背绒毛是其最醒目的识别特征。",
+      "facts": [
+        {
+          "field": "herb.枇杷叶来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.枇杷叶性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.枇杷叶显微",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.去毛要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "枇杷叶煎服 6-10g，须刷去绒毛后入药，包煎更佳；绒毛不去可刺激咽喉致呛咳"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "枇杷叶须刷去绒毛后入药，绒毛不去易刺激咽喉"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-004",
+      "title": "鉴定·桑叶性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "叶类",
+        "桑叶",
+        "霜桑叶"
+      ],
+      "intent": "掌握桑叶叶形、叶脉与脉基簇毛特征，理解霜桑叶采收规格的意义。",
+      "learning": {
+        "knowledge": "桑叶为桑科桑的干燥叶，展平后卵形或宽卵形，先端渐尖，基部截形、圆形或心形，边缘有锯齿或钝锯齿；上表面黄绿色，有的有小疣状突起，下表面色浅，叶脉突出，小脉网状，脉基具簇毛。显微下表面气孔不定式。初霜后采收者为霜桑叶，为传统规格。",
+        "misjudgment": "见叶缘锯齿即断为桑叶。错：锯齿是桑叶特征之一而非充分条件，桑叶的叶基截形或心形、脉基簇毛、小疣状突起须合看；菊科、蔷薇科的许多叶片也有锯齿，单凭锯齿认药易错。",
+        "reasoning": "桑叶为什么强调「初霜后采收」，这与饮片质量有何关系？",
+        "feedback": "经霜后叶片老熟、有效成分（黄酮类等）积累且含水量下降，药典规定初霜后采收，习惯上霜桑叶清热润燥之力更优，采收期是质量控制的组成部分。",
+        "transfer": "早春嫩桑叶与霜后老桑叶若同样入药，质量差异可能体现在哪里？"
+      },
+      "stdJudgment": "桑叶为桑科桑的干燥叶，展平后呈卵形或宽卵形，先端渐尖，基部截形、圆形或心形，边缘有锯齿或钝锯齿，有的不规则分裂；上表面黄绿色或浅黄棕色，有的有小疣状突起，下表面色浅，脉基具簇毛。",
+      "coreDefinition": "桑叶卵形或宽卵形、边缘锯齿、下表面脉基簇毛、小脉网状，为桑科桑叶区别于其他叶类药材的要点。",
+      "facts": [
+        {
+          "field": "herb.桑叶来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.桑叶性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.桑叶显微",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.采收规格",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "桑叶煎服 5-10g；霜桑叶（初霜后采收）为传统规格，清热之力更受推崇"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-h-005",
+      "title": "鉴定·番泻叶性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "叶类",
+        "番泻叶",
+        "水试",
+        "蒽醌类"
+      ],
+      "intent": "掌握狭叶番泻与尖叶番泻的性状差异、水试特征及耳叶番泻叶等混淆品鉴别。",
+      "learning": {
+        "knowledge": "番泻叶为豆科狭叶番泻或尖叶番泻的干燥小叶。狭叶番泻长卵形或卵状披针形，全缘，叶端急尖具小尖刺，基部略不对称，两面有稀毛茸，革质；尖叶番泻披针形略卷曲，叶端短尖。热水浸后水液呈绿色。耳叶番泻先端钝圆、基部对称，为混淆品。",
+        "misjudgment": "把先端钝圆、基部对称的耳叶番泻叶混入正品。错：耳叶番泻叶卵圆形、先端钝圆、基部对称，与正品「叶端急尖带刺、基部偏斜」迥异；耳叶番泻含芦荟大黄素等成分不同，不能以番泻叶名目投药。",
+        "reasoning": "番泻叶入水能把水染成绿色，这一水试现象的化学基础是什么？",
+        "feedback": "番泻叶含蒽醌苷类（番泻苷A、B）及游离蒽醌，热水浸出后蒽醌成分使水液显黄绿色，同时伴随黏液质使水带黏滑感，水试可作为现场初筛指标。",
+        "transfer": "热水浸后水色浅绿而叶先端钝圆者，你如何报告并作出处理？"
+      },
+      "stdJudgment": "狭叶番泻叶长卵形或卵状披针形，叶端急尖有小尖刺，基部略不对称，上表面黄绿色而下表面浅黄绿色，沿主脉有压叠线纹；尖叶番泻叶披针形略卷曲，叶端短尖或微突，两面均有细短毛茸。",
+      "coreDefinition": "番泻叶全缘、叶端急尖带小尖刺、基部偏斜，热水浸后水呈绿色；耳叶番泻叶先端钝圆、基部对称，是常见混淆品。",
+      "facts": [
+        {
+          "field": "herb.番泻叶来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.狭叶番泻性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.尖叶番泻性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.水试特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.混淆品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "番泻叶煎服 2-6g，后下或开水泡服；蒽醌类成分泻下力峻，孕妇慎用，哺乳期与月经期亦须慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇及哺乳期慎用番泻叶"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-006",
+      "title": "鉴定·紫苏叶与佩兰叶鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "叶类",
+        "紫苏叶",
+        "佩兰",
+        "易混淆"
+      ],
+      "intent": "辨析紫苏叶与佩兰叶在科属、叶形、色泽、腺鳞与香气上的差异，避免芳香叶类混投。",
+      "learning": {
+        "knowledge": "紫苏叶为唇形科紫苏的干燥叶，卵圆形，两面紫色或上绿下紫，边缘具圆锯齿，下表面有多数凹点状腺鳞，气芳香特异味微辛。佩兰为菊科佩兰的干燥地上部分，茎节明显，叶卵状披针形，上表面绿褐色、下表面灰绿色，揉之清香。凭科属、色泽、腺鳞与香气可断。",
+        "misjudgment": "见绿叶带紫就断为紫苏叶。错：佩兰叶下表面灰绿色、无腺鳞、无紫苏特征香气，紫苏叶以凹点状腺鳞与紫苏香气为要；两者主治一散寒一化湿，混投直接改处方意图。",
+        "reasoning": "两者都气芳香，为什么紫苏叶靠「气味特异」即能认，而佩兰必须看茎与裂叶？",
+        "feedback": "紫苏叶香气浓烈特异且叶常带紫色、腺鳞明显，唇形科特征突出；佩兰为菊科全草，茎叶并用、叶形多变，须以茎节、灰绿叶色与清香合参，气味单项不足以定论。",
+        "transfer": "一包「芳香叶」叶背有凹点、揉之辛香窜鼻，你判定为何药并说出其科属依据？"
+      },
+      "stdJudgment": "紫苏叶与佩兰叶虽同为芳香叶类，科属截然不同：紫苏叶属唇形科，卵圆形，两面紫色或上绿下紫，下表面有多数凹点状腺鳞；佩兰叶属菊科，茎叶并用，叶卵状披针形，上表面绿褐色、下表面灰绿色，揉之有清香气。",
+      "coreDefinition": "紫苏叶唇形科、卵圆形、常带紫色、有凹点状腺鳞、气紫苏香；佩兰叶菊科、披针形、茎叶并用、揉之清香，凭色泽、腺鳞与香气可分。",
+      "facts": [
+        {
+          "field": "herb.紫苏叶来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.紫苏腺鳞特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.佩兰来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.两者区分要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "紫苏叶煎服 5-10g；佩兰煎服 3-10g，后下；两药性味主治不同，不可混投"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "紫苏叶与佩兰叶功效各异，调剂时不可互相代用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-007",
+      "title": "鉴定·荆芥穗性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "全草类",
+        "荆芥穗",
+        "花穗",
+        "腺鳞"
+      ],
+      "intent": "掌握荆芥穗（花穗）的形态构造与芳香特征，区分荆芥全草与荆芥穗的入药规格。",
+      "learning": {
+        "knowledge": "荆芥穗为唇形科荆芥的干燥花穗，轮伞花序密集成穗状，花冠多已脱落，宿萼钟形，淡棕色或黄绿色，先端5齿裂，被短柔毛，内藏棕色小坚果，穗轴纤细，气芳香，味微涩而辛凉。显微见腺鳞与腺毛。全草为茎叶穗并用，荆芥穗单取花穗，解表散风力更集中。",
+        "misjudgment": "把荆芥全草剪下的带叶小枝当荆芥穗。错：荆芥穗单指花穗，以宿萼与坚果为特征；全草含茎叶段，功效虽近但用量规格有别，处方写「荆芥穗」时须按穗投药。",
+        "reasoning": "荆芥的茎、叶、穗同株，为什么处方中「荆芥穗」要单列一味？",
+        "feedback": "花穗芳香辛散之力较茎叶更集中，传统认为荆芥穗升散透达之力更强，多用于头面风邪、目赤、咽痛，故药典单列荆芥穗规格，用量亦单独规定。",
+        "transfer": "处方开「荆芥穗炭」，若以全草段炒炭投药，规格与功效上会有什么出入？"
+      },
+      "stdJudgment": "荆芥穗为唇形科荆芥的干燥花穗，呈穗状花序，花冠多已脱落，宿萼钟形，淡棕色或黄绿色，先端5齿裂，被短柔毛，内藏棕色小坚果；穗轴细，气芳香，味微涩而辛凉。",
+      "coreDefinition": "荆芥穗即荆芥顶生花穗，宿萼钟形五齿裂、内藏小坚果，芳香辛凉，与荆芥全草（茎叶穗并用）规格不同、功用略殊。",
+      "facts": [
+        {
+          "field": "herb.荆芥穗来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.荆芥穗性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.荆芥穗显微",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.荆芥全草与穗区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "荆芥穗煎服 5-10g，不宜久煎；解表散风、透疹止痒，表虚自汗者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "表虚自汗、阴虚头痛者慎用荆芥穗"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-008",
+      "title": "鉴定·紫花地丁与苦地丁鉴别",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "中药鉴定",
+        "全草类",
+        "紫花地丁",
+        "苦地丁",
+        "综合推理"
+      ],
+      "intent": "从科属、叶形、花部构造与果实形态综合辨析紫花地丁与苦地丁，训练全草类药材的多维鉴别思维。",
+      "learning": {
+        "knowledge": "紫花地丁为堇菜科紫花地丁全草，叶基生莲座状、披针形，边缘钝锯齿，花茎顶生单花，花瓣5、紫堇色，花距细管状。苦地丁为罂粟科紫堇全草，茎有纵棱，叶2-3回羽状全裂，总状花序多花，花瓣4。堇菜科花5基数、罂粟科花4基数，凭花部与叶形可断。",
+        "misjudgment": "仅凭「紫花、地丁类」就混收两种药材。错：堇菜科紫花地丁花5瓣单生、叶基生莲座状，罂粟科苦地丁花4瓣总状序、叶羽状全裂，两者科属、花基数、叶形均异，功效一清热解毒一清热解毒兼活血消肿，混收则处方失真。",
+        "reasoning": "干燥全草花多脱落，紫花地丁与苦地丁还能靠什么特征完成鉴别？",
+        "feedback": "花落之后转向叶与果实：紫花地丁叶基生莲座、基部截形或心形、叶缘钝锯齿，苦地丁叶互生、2-3回羽状全裂成窄裂片；再辨根形与味，紫花地丁味微苦带黏、苦地丁味苦，多维合参即能定论。",
+        "transfer": "一捆皱缩全草无花无果、叶为细羽状全裂，你如何推断其归属并布置验证？"
+      },
+      "stdJudgment": "紫花地丁为堇菜科紫花地丁的全草，叶基生成莲座状，花瓣5、紫堇色，花距细管状；苦地丁为罂粟科紫堇的全草，茎生叶互生、2-3回羽状全裂，总状花序多花、花瓣4。一为单花顶生、一为总状花序，花部构造是最可靠的判别入口。",
+      "coreDefinition": "紫花地丁叶基生莲座状、花单生顶、花瓣5、味微苦带黏；苦地丁茎叶互生羽状全裂、总状花序、花瓣4，科属花形判然有别。",
+      "facts": [
+        {
+          "field": "herb.紫花地丁来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.紫花地丁性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.苦地丁来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.花部与果实鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "紫花地丁煎服 15-30g，外用适量；苦地丁煎服 9-15g，体虚者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "紫花地丁与苦地丁来源科属不同，功效偏重有别，不可互代"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-009",
+      "title": "鉴定·蒲公英性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "全草类",
+        "蒲公英",
+        "乳汁",
+        "瘦果"
+      ],
+      "intent": "掌握蒲公英根、叶、花、果的性状特征与全草含乳汁的鉴别意义。",
+      "learning": {
+        "knowledge": "蒲公英为菊科蒲公英、碱地蒲公英或同属数种全草。根圆锥形棕褐色，根头部有棕色或黄白色毛茸；叶基生，倒披针形，边缘浅裂或羽状分裂，裂片呈牙齿状；花茎顶生头状花序，舌状花黄色，瘦果具纵棱、刺状突起及长喙，冠毛白色。全草含白色乳汁，气微，味微苦。",
+        "misjudgment": "把根部无白毛、花不为舌状花的菊科杂草混作蒲公英。错：蒲公英根头部毛茸、舌状黄花、瘦果长喙三项须同具；同属多种外观近似，鉴定须回到「基原为蒲公英属数种」的范围再核对毛茸与果实。",
+        "reasoning": "折断面泌白色乳汁的性状，对蒲公英的科属鉴定意味着什么？",
+        "feedback": "菊科舌状花亚科许多植物具乳汁管，蒲公英全草含乳汁是菊科特征之一，配合头状花序与瘦果冠毛，可把范围锁定在蒲公英属。",
+        "transfer": "一株叶片深裂、头状花序开黄花但花托无毛茸的植物，能否按蒲公英投药？"
+      },
+      "stdJudgment": "蒲公英为菊科蒲公英、碱地蒲公英或同属数种植物的干燥全草，根圆锥形棕褐色，根头部有棕色或黄白色的毛茸；叶基生，倒披针形，边缘浅裂或羽状分裂，裂片呈牙齿状；花茎顶生头状花序，冠毛白色，瘦果具长喙。",
+      "coreDefinition": "蒲公英根头有白毛、叶基生羽状分裂、含白色乳汁、瘦果具长喙，为菊科蒲公英类全草的性状要点。",
+      "facts": [
+        {
+          "field": "herb.蒲公英来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.蒲公英根性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.蒲公英叶花性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.乳汁与瘦果",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "蒲公英煎服 10-15g，外用鲜品适量捣敷；量大可致缓泻，脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "用量过大可致缓泻，脾胃虚寒者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-010",
+      "title": "鉴定·龙胆与坚龙胆鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "龙胆",
+        "坚龙胆",
+        "横皱纹"
+      ],
+      "intent": "掌握龙胆与坚龙胆在根形、横皱纹、外皮膜质与断面木部上的鉴别要点。",
+      "learning": {
+        "knowledge": "龙胆为龙胆科龙胆、三花龙胆、条叶龙胆或坚龙胆的根及根茎。龙胆根圆柱形略扭曲，表面淡黄或黄棕色，上部多有显著横皱纹，断面皮部黄白、木部色浅呈点状环列，味极苦。坚龙胆表面无横皱纹，外皮膜质易脱落，木部黄白易与皮部分离。凭横纹与膜质外皮可分。",
+        "misjudgment": "把「横皱纹」当成所有龙胆的必备特征。错：横皱纹只见于龙胆等数种，坚龙胆恰恰无横皱纹、外皮膜质脱落；同科秦艽亦扭曲有沟纹，须以断面木部点状环列与极苦之味合参，单一特征不足凭断。",
+        "reasoning": "龙胆与坚龙胆都极苦，为什么药典仍分列两种并须分别鉴定？",
+        "feedback": "两者基原不同（龙胆类与坚龙胆各为不同种），表面横纹、外皮膜质、木部特征均有差异，功效虽同而品种须正，鉴定上分列可避免以坚龙胆充龙胆或反之的混用。",
+        "transfer": "一批根条表面光滑、外皮成膜状易脱落而断面木部黄白的药材，你判定为何药？"
+      },
+      "stdJudgment": "龙胆根上部有显著的横皱纹，断面皮部黄白色、木部色浅呈点状环列；坚龙胆表面无横皱纹，外皮膜质易脱落，木部黄白色，易与皮部分离。前者横纹毕现、后者光滑脱皮，是两者最直观的分野。",
+      "coreDefinition": "龙胆根有显著横皱纹、断面木部点状环列；坚龙胆无横纹、外皮膜质易脱、木部易与皮部分离，凭表面与断面可断。",
+      "facts": [
+        {
+          "field": "herb.龙胆来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.龙胆根茎根性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.龙胆断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.坚龙胆性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "龙胆煎服 3-6g；苦寒伤胃，脾胃虚寒者忌用，不宜过量久服"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "龙胆苦寒，脾胃虚寒者忌用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-011",
+      "title": "鉴定·秦艽性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "秦艽",
+        "麻花秦艽",
+        "小秦艽"
+      ],
+      "intent": "掌握秦艽、麻花秦艽与小秦艽的性状差异及「扭曲不直」的品种特征。",
+      "learning": {
+        "knowledge": "秦艽为龙胆科秦艽、麻花秦艽、粗茎秦艽或小秦艽的根。秦艽类圆柱形，上粗下细，扭曲不直，顶端有残存茎基及纤维状叶鞘，断面略显油性，皮部黄或棕黄、木部黄色，气特异，味苦微涩。麻花秦艽由数小根纠聚形如麻花，小秦艽根细小自中部以下分枝。",
+        "misjudgment": "把麻花秦艽当成加工变形的正品秦艽。错：麻花秦艽是独立基原（粗茎/麻花秦艽），形如麻花纠聚是其特征而非次品；小秦艽细小分枝又与秦艽单根不同，三种商品规格按形分别，不可互相顶替。",
+        "reasoning": "同为龙胆科，秦艽扭曲、龙胆直细，根形差异提示了什么采收加工信息？",
+        "feedback": "秦艽根扭曲源于高原砂砾土壤与干燥收缩，龙胆细直源于草甸湿润生境，根形与产地生境相关，鉴定上「扭曲不直」成为秦艽的标志性记忆点。",
+        "transfer": "一袋根条细小、中下部多分枝的龙胆科药材，你判定为秦艽的哪个规格？"
+      },
+      "stdJudgment": "秦艽根呈类圆柱形，上粗下细，扭曲不直，顶端有残存茎基及纤维状叶鞘，断面略显油性，皮部黄色或棕黄色、木部黄色，气特异而味苦微涩；麻花秦艽由数个小根纠聚膨大形如麻花，小秦艽根细小且多自中部以下分枝。",
+      "coreDefinition": "秦艽扭曲不直、断面略显油性、气特异；麻花秦艽纠聚如麻花、小秦艽细小分枝，三个商品规格以形态分型。",
+      "facts": [
+        {
+          "field": "herb.秦艽来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.秦艽性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.麻花秦艽性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.小秦艽性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "秦艽煎服 3-10g；苦寒之品，久痛虚羸者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "秦艽苦寒，久痛体虚者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-012",
+      "title": "鉴定·白芷性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "白芷",
+        "疙瘩丁",
+        "油点"
+      ],
+      "intent": "掌握白芷根形、疙瘩丁、断面粉性与油点等性状特征及杭白芷的棱角区别。",
+      "learning": {
+        "knowledge": "白芷为伞形科白芷或杭白芷的根，长圆锥形，头粗尾细，顶端有凹陷茎痕，周围有多数皮孔样横向突起（疙瘩丁），有的排成四纵行；断面白色或灰白色、粉性，形成层环棕色近方形，皮部散有多数棕色油点，气芳香，味辛微苦。杭白芷上部近方形。",
+        "misjudgment": "把无疙瘩丁、断面无油点的伞形科根混作白芷。错：疙瘩丁是白芷的标志性表面特征，油点对应分泌腔；同科柴胡、当归根形均异，凭「圆锥形白根」认药会把其他品种误收，须合看茎痕、疙瘩丁与粉性断面。",
+        "reasoning": "白芷断面「粉性」强、遇水黏滑，这一特征对贮藏与鉴别各有什么提示？",
+        "feedback": "粉性来自大量淀粉粒，遇水黏滑说明含淀粉多，既提示粉性足者质优，也警示受潮易虫蛀霉变；鉴定上粉性与油点兼备，才是正品白芷的断面全貌。",
+        "transfer": "断面灰白粉性、形成层环却呈圆形且无疙瘩丁的根，你怀疑是什么并如何复核？"
+      },
+      "stdJudgment": "白芷根呈长圆锥形，头粗尾细，顶端有凹陷的茎痕，周围有多数皮孔样横向突起（疙瘩丁），有的排列成四纵行；断面白色或灰白色、粉性，形成层环棕色近方形或近圆形，皮部散有多数棕色油点，气芳香，味辛、微苦。",
+      "coreDefinition": "白芷根头部疙瘩丁、断面粉性强、形成层环近方形、皮部棕色油点，是伞形科白芷类根的共同鉴别要点。",
+      "facts": [
+        {
+          "field": "herb.白芷来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.白芷性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.杭白芷性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面与香气",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "白芷煎服 3-10g，外用适量；阴虚血热者忌服，不宜与辛辣刺激同用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "阴虚血热者忌服白芷"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-013",
+      "title": "鉴定·细辛性状鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "细辛",
+        "毒性药",
+        "马兜铃酸",
+        "反藜芦"
+      ],
+      "intent": "掌握北细辛、汉城细辛与华细辛的性状差异，牢记细辛毒性、剂量红线与反藜芦禁忌。",
+      "learning": {
+        "knowledge": "细辛为马兜铃科北细辛、汉城细辛或华细辛的全草。北细辛根茎横生不规则圆柱形，具短分枝，根细长密生节上，叶心形至肾状心形，气辛香，味辛辣麻舌。汉城细辛叶柄有毛，华细辛叶较薄。含马兜铃酸类成分有肾毒性，煎剂1-3g、散剂0.5-1g，反藜芦。",
+        "misjudgment": "把辛味当作细辛安全性的通行证。错：细辛的麻舌辛香来自挥发油，而肾毒性风险来自马兜铃酸类成分，两者并存；过量久服即现中毒风险，散剂用量更须压至0.5-1g，辛味足不等于可以加量。",
+        "reasoning": "同为全草入药，为什么细辛的散剂限量远低于煎剂？",
+        "feedback": "散剂有效成分全部溶出入胃、吸收完全，毒性成分暴露量接近煎剂的数倍，故药典将散剂限量压至0.5-1g；煎煮加热亦可使部分成分变化，限量随之放宽至1-3g，两条红线各有依据。",
+        "transfer": "患者自行将细辛研粉冲服以治牙痛，药师应给出怎样的告诫？"
+      },
+      "stdJudgment": "细辛为马兜铃科北细辛、汉城细辛或华细辛的干燥全草。北细辛根茎横生呈不规则圆柱形，具短分枝，根细长密生节上，叶片心形至肾状心形，气辛香，味辛辣麻舌；汉城细辛叶柄有毛、华细辛叶片较薄而心形，三种以根茎节间与叶部特征互别。",
+      "coreDefinition": "细辛根茎横生多节、根细长密生、叶心形、气辛香而麻舌；含马兜铃酸有肾毒性，煎剂1-3g散剂0.5-1g，反藜芦，为高风险毒性药。",
+      "facts": [
+        {
+          "field": "herb.细辛来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.北细辛性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.汉城细辛华细辛性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性成分",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.剂量与禁忌",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量；细辛煎剂 1-3g，散剂 0.5-1g，过量可致中毒",
+        "caution": "细辛为毒性药，含马兜铃酸类成分有肾毒性，不可过量久服；反藜芦；肾功能不全者禁用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。细辛含马兜铃酸类成分，长期或过量使用可致肾损伤，鉴定与调剂须同步执行剂量警戒。",
+        "prohibitions": [
+          "【高风险】细辛煎剂1-3g散剂0.5-1g，过量可致中毒；反藜芦",
+          "含马兜铃酸类成分，不可过量久服，肾功能不全者禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-014",
+      "title": "鉴定·木香与川木香鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "木香",
+        "川木香",
+        "油头",
+        "丝瓜络状"
+      ],
+      "intent": "掌握木香与川木香在体重、断面、油室与筋脉上的差异，避免同科近似品种混投。",
+      "learning": {
+        "knowledge": "木香为菊科木香根，圆柱形或半圆柱形，质坚，断面灰褐色至暗褐色，形成层环棕色，有放射状纹理及散在褐色点状油室，气香特异味微苦。川木香根稍弯曲，外皮脱落处可见丝瓜络状细筋脉，根头偶有黑色胶状物（油头），体轻，断面木部宽广，味苦嚼之粘牙。",
+        "misjudgment": "把川木香的「油头」当作木香的霉变或劣质。错：油头是川木香根头部的胶状物特征，属正常性状而非变质；反过来，木香无油头而有油室点，两种菊科根的断面与筋脉各具标志，误判会左右真伪结论。",
+        "reasoning": "木香与川木香同科近似，为何「嚼之粘牙」能成为区分川木香的有效线索？",
+        "feedback": "川木香富含菊糖等，咀嚼时有粘牙感，木香则以油室芳香为要、无粘牙感；菊糖与挥发油含量构成两者质地与口感差异，感官线索背后是成分差异。",
+        "transfer": "一批根质硬重、断面灰褐散见油点、气香浓的药材，你判定为何药？"
+      },
+      "stdJudgment": "木香体坚质实，断面灰褐色至暗褐色，形成层环棕色，有放射状纹理及散在的褐色点状油室，气香特异；川木香体较轻，外皮脱落处可见丝瓜络状细筋脉，根头偶有黑色发黏的胶状物（油头），断面木部宽广有放射状纹理，味苦嚼之粘牙。",
+      "coreDefinition": "木香体重、断面有油室、气香特异；川木香体轻、外皮脱处露丝瓜络状筋脉、根头有油头、嚼之粘牙，凭体重断面与筋脉可分。",
+      "facts": [
+        {
+          "field": "herb.木香来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.木香性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.川木香性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.两者鉴别要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "木香煎服 3-6g，后下；川木香 3-9g；两者均不宜久煎，阴虚津亏者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "木香与川木香来源不同，功效侧重有异，不可互代"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-015",
+      "title": "鉴定·苍耳子性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "苍耳子",
+        "钩刺",
+        "有小毒"
+      ],
+      "intent": "掌握苍耳子带总苞果实的形态特征与内部两室结构，识别同属近似品。",
+      "learning": {
+        "knowledge": "苍耳子为菊科苍耳的带总苞果实，纺锤形或卵圆形，表面黄棕或黄绿色，全体有钩刺，顶端有2枚较粗的刺，分离或相连，基部有果柄痕；横切面中央有纵隔膜，2室，各有1枚瘦果。含苍耳苷及毒蛋白，有小毒，炒后入药，不可过量久服。",
+        "misjudgment": "把钩刺粗细当成区分苍耳子与蒙古苍耳的唯一标准。错：蒙古苍耳果实较大、刺较粗硬且密，两者同为苍耳属但基原不同，须结合大小、刺形与顶端粗刺长短合参，单看刺形易混收异种。",
+        "reasoning": "苍耳子的钩刺是自然特征，为什么入药前还要「炒后去刺」？",
+        "feedback": "炒制既降低毒蛋白与苍耳苷的毒性，又使钩刺干脆易去除、便于粉碎煎出，去刺可防刺破包装与煎袋，减毒与成型一举两得。",
+        "transfer": "一袋带钩刺果实顶端两刺相连、体积明显偏大，你如何处置并说明依据？"
+      },
+      "stdJudgment": "苍耳子为菊科苍耳的带总苞的果实，纺锤形或卵圆形，表面黄棕色或黄绿色，全体有钩刺，顶端有2枚较粗的刺，分离或相连，基部有果柄痕；横切面中央有纵隔膜将果分为2室，各有1枚瘦果。",
+      "coreDefinition": "苍耳子全体钩刺、顶端两枚粗刺、横切两室各含瘦果，炒后入药；有小毒，不可过量久服。",
+      "facts": [
+        {
+          "field": "herb.苍耳子来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.苍耳子性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.苍耳子内部构造",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性注意",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量；苍耳子煎服 3-9g",
+        "caution": "苍耳子有小毒，须炒后入药，不可过量久服；血虚头痛者不宜用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "苍耳子有小毒，须炒黄去刺后入药，不可过量久服",
+          "血虚头痛者不宜用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-016",
+      "title": "鉴定·辛夷性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "辛夷",
+        "花蕾",
+        "毛笔头"
+      ],
+      "intent": "掌握辛夷花蕾「毛笔头」形态与苞片绒毛特征，区分三种基原的花被片数。",
+      "learning": {
+        "knowledge": "辛夷为木兰科望春花、玉兰或武当玉兰的花蕾，形似毛笔头，基部常具短梗，梗上有类白色点状皮孔；苞片2-3层，外表面密被灰白色或淡黄绿色有光泽的长绒毛，内表面类棕色无毛；花被片9-12轮状排列，雄蕊雌蕊螺旋状排列，体轻质脆，气芳香，味辛凉稍苦。",
+        "misjudgment": "把已开放的花朵混作花蕾。错：辛夷入药取未开放花蕾，已开放者花被开展、绒毛脱落，药用价值不同；鉴定须认准「毛笔头」紧裹状态，开放花与花蕾在形状与绒毛上判然有别。",
+        "reasoning": "辛夷为什么必须在花蕾未开放时采收，开放后为何不合规格？",
+        "feedback": "花蕾期挥发油等有效成分集中、香气足，开放后香气散逸、有效成分稀释，且苞片绒毛脱落失去标志性状，故药典规定于早春花未开放时采摘。",
+        "transfer": "一袋「毛笔头」花蕾无光泽绒毛、梗上无皮孔，你如何复核其真伪？"
+      },
+      "stdJudgment": "辛夷为木兰科望春花、玉兰或武当玉兰的干燥花蕾，形似毛笔头，苞片2-3层、外表面密被灰白色或淡黄绿色有光泽的长绒毛，内表面类棕色无毛，花被片9-12枚轮状排列，体轻质脆，气芳香，味辛凉而稍苦。",
+      "coreDefinition": "辛夷花蕾似毛笔头、苞片密被长绒毛、花被片轮状排列而气芳香，三种基原以花被片数与外轮形态互别。",
+      "facts": [
+        {
+          "field": "herb.辛夷来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.望春玉兰性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.玉兰武当玉兰性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "辛夷煎服 3-10g，包煎；鼻渊多属热者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb39-h-017",
+      "title": "鉴定·丁香性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "丁香",
+        "花蕾",
+        "丁香油"
+      ],
+      "intent": "掌握丁香花蕾研棒状形态、萼片十字状分开与富油性质地，识别母丁香等混淆品。",
+      "learning": {
+        "knowledge": "丁香为桃金娘科丁香的干燥花蕾，略呈研棒状；花冠圆球形，花瓣4覆瓦状抱合，内含雄蕊和花柱；萼筒圆柱状略扁，红棕色，上部有4枚三角状萼片十字状分开；质坚实富油性，气芳香浓烈，味辛辣麻舌。含丁香油酚。母丁香为成熟果实，卵圆形，与花蕾迥异。",
+        "misjudgment": "把母丁香（成熟果实）当作丁香投药。错：丁香取未开放花蕾，母丁香为成熟果实，性状一为研棒状花蕾、一为卵圆果实，来源部位与含量（挥发油）都不同，处方「丁香」须按花蕾执行。",
+        "reasoning": "丁香花蕾与母丁香果实同出一株植物，为何临床只用花蕾？",
+        "feedback": "花蕾期挥发油（丁香油酚）含量高、香气浓烈，成熟果实挥发油散失且质地坚硬难煎，故药典以花蕾为正品来源，母丁香质量次于花蕾。",
+        "transfer": "一批研棒状花蕾入水浮而不沉、萼片不呈十字状分开，你如何处置？"
+      },
+      "stdJudgment": "丁香为桃金娘科丁香的干燥花蕾，略呈研棒状，花冠圆球形、花瓣4覆瓦状抱合，内含雄蕊和花柱；萼筒圆柱状略扁，红棕色或棕褐色，上部有4枚三角状的萼片十字状分开，质坚实富油性，气芳香浓烈，味辛辣有麻舌感。",
+      "coreDefinition": "丁香研棒状、花冠球形瓣4、萼筒上部萼片十字状分开、富油性香浓，水试垂直下沉，母丁香为成熟果实形态迥异。",
+      "facts": [
+        {
+          "field": "herb.丁香来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.丁香花冠性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.丁香萼筒性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.混淆品与理化",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "丁香煎服 1-3g；畏郁金，热病及阴虚内热者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "丁香畏郁金，不可同用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-018",
+      "title": "鉴定·女贞子性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "女贞子",
+        "肾形种子"
+      ],
+      "intent": "掌握女贞子果实外形、表面皱缩与种子构造特征，识别常见混淆品。",
+      "learning": {
+        "knowledge": "女贞子为木犀科女贞的干燥成熟果实，卵形、椭圆形或肾形，表面黑紫色或灰黑色，皱缩不平，基部有果梗痕或具宿萼及短梗；外果皮薄，中果皮较松软易剥离，内果皮木质黄棕色具纵棱，破开后种子1粒，肾形，紫黑色，油性。气微，味甘微苦涩。",
+        "misjudgment": "把未成熟采收的黄绿色果实当作正常商品。错：女贞子须成熟后采收，成熟者黑紫皱缩，未熟者色绿不皱、内果皮未木质化，含量与功效不及正品，验收时色与皱缩度即为成熟度指标。",
+        "reasoning": "女贞子果皮三层构造分明，破开果实观察内果皮能说明什么？",
+        "feedback": "内果皮木质具纵棱是木犀科果实的结构特征，配合肾形油润种子，可与冬青子（冬青科）等混淆品区分，破果观察是果类鉴定的常规动作。",
+        "transfer": "一批果实色灰绿、不皱缩且种子不油润，你如何判定并处理？"
+      },
+      "stdJudgment": "女贞子为木犀科女贞的干燥成熟果实，卵形、椭圆形或肾形，表面黑紫色或灰黑色，皱缩不平，基部有果梗痕或具宿萼及短梗；外果皮薄，中果皮较松软易剥离，内果皮木质黄棕色具纵棱，破开后种子通常1粒，肾形，紫黑色，油性。",
+      "coreDefinition": "女贞子卵形或肾形、表面黑紫皱缩、内果皮木质具纵棱、种子肾形油润，为木犀科果实的性状要点。",
+      "facts": [
+        {
+          "field": "herb.女贞子来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.女贞子性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.果实分层构造",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.混淆品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "女贞子煎服 6-12g；脾胃虚寒泄泻者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "脾胃虚寒泄泻者慎用女贞子"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-019",
+      "title": "鉴定·菟丝子性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "菟丝子",
+        "水煮吐丝",
+        "旋花科"
+      ],
+      "intent": "掌握菟丝子类球形、种脐与「水煮吐丝」的鉴别要点，识别南方菟丝子等混淆品。",
+      "learning": {
+        "knowledge": "菟丝子为旋花科菟丝子的干燥成熟种子，类球形，直径1-1.5mm，表面灰棕或黄棕色，具细密突起的小点，一端有微凹的线形种脐；质坚实，不易以指甲压碎。水煮后种皮破裂，露出白色卷旋状的胚，形如吐丝，为法定鉴别项。南方菟丝子种子较大、有褐色斑点。",
+        "misjudgment": "把水煮后胚不卷旋的种子误认正品。错：正品菟丝子水煮吐丝、胚白色卷旋，南方菟丝子等混淆品吐丝不明显或胚形不同，吐丝试验是法定鉴别依据，煮沸时间与水量须照规定执行，否则易误判。",
+        "reasoning": "菟丝子水煮后胚会卷旋露出，这一现象在生理上说明了什么？",
+        "feedback": "菟丝子胚呈螺旋状卷曲，吸水膨胀后种皮胀破、卷旋的胚伸出如丝，是该种胚结构的固有特征，种不同则胚形与吐丝表现不同，故药典以吐丝现象作鉴别项。",
+        "transfer": "一袋种子水煮后种皮不开裂、胚不露出，你如何报告并复核基原？"
+      },
+      "stdJudgment": "菟丝子为旋花科菟丝子的干燥成熟种子，类球形，直径1-1.5mm，表面灰棕色或黄棕色，具细密突起的小点，一端有微凹的线形种脐；质坚实，不易以指甲压碎，水煮后种皮破裂露出白色卷旋状的胚，形如吐丝。",
+      "coreDefinition": "菟丝子类球形、表面细密小点、一端线形种脐，水煮吐丝为法定鉴别特征；南方菟丝子种子较大、有褐色斑点须辨。",
+      "facts": [
+        {
+          "field": "herb.菟丝子来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.菟丝子性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.水煮吐丝试验",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.混淆品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "菟丝子煎服 6-12g，包煎；阴虚火旺、大便燥结者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "阴虚火旺、大便燥结者慎用菟丝子"
+        ]
+      }
+    },
+    {
+      "id": "pb39-h-020",
+      "title": "鉴定·瓜蒌与天花粉鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "瓜蒌",
+        "天花粉",
+        "栝楼"
+      ],
+      "intent": "掌握同株栝楼不同药用部位（果实与块根）的性状鉴别，理解「同株异药」的鉴定逻辑。",
+      "learning": {
+        "knowledge": "瓜蒌为葫芦科栝楼或双边栝楼的成熟果实，类球形，表面橙黄或橙红色，内表面有红黄色丝络，果瓤橙黄色黏稠，与种子粘结成团，具焦糖气。天花粉为同源块根，断面白色富粉性，横切面黄色木质部放射状排列。同株异药，果实润燥、根清热生津，天花粉孕妇禁用。",
+        "misjudgment": "把天花粉误作瓜蒌的「根皮」或把瓜蒌子当瓜蒌。错：瓜蒌（全果实）与天花粉（块根）是不同药用部位、不同药名，瓜蒌子、瓜蒌皮又另立规格；处方与鉴定都须按部位对号，误投即改变主治方向。",
+        "reasoning": "同株栝楼，为什么果实与块根一润燥一清热，药性竟如此不同？",
+        "feedback": "果实聚糖类与油脂，瓜蒌甘寒清肺胃、宽胸散结润肠；块根含天花粉蛋白与淀粉，天花粉清热泻火、生津止渴，并因天花粉蛋白具引产作用而孕妇禁用，部位成分决定药性分野。",
+        "transfer": "处方开「瓜蒌皮」而药房只有全瓜蒌，应如何拆分投药并核对其规格？"
+      },
+      "stdJudgment": "瓜蒌与天花粉同出于葫芦科栝楼或双边栝楼：瓜蒌是干燥成熟果实，类球形或宽椭圆形，表面橙黄色或橙红色，内表面有红黄色丝络，果瓤橙黄色黏稠；天花粉是干燥块根，不规则圆柱形，断面白色或淡黄色、富粉性，横切面可见黄色木质部呈放射状排列。果实与块根，部位不同而药效迥异。",
+      "coreDefinition": "瓜蒌为栝楼成熟果实（瓤橙黄黏稠、内见丝络），天花粉为栝楼块根（粉性断面、放射状木部），同株异药，孕妇禁用天花粉。",
+      "facts": [
+        {
+          "field": "herb.瓜蒌来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.瓜蒌性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.天花粉来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.天花粉断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.部位与功效对应",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "瓜蒌煎服 9-15g；天花粉煎服 10-15g，孕妇禁用（天花粉蛋白可致流产）；脾虚便溏者慎用瓜蒌"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "天花粉孕妇禁用",
+          "瓜蒌脾虚便溏者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-001",
+      "title": "炮制·牡蛎煅制固涩",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "煅法",
+        "明煅",
+        "牡蛎",
+        "生熟异治",
+        "收敛固涩"
+      ],
+      "intent": "掌握牡蛎明煅的工艺、成品标准与生熟异治，理解煅制改变药效方向的机理。",
+      "learning": {
+        "knowledge": "牡蛎为牡蛎科三种牡蛎的贝壳，主含碳酸钙。取净牡蛎武火煅至酥脆，放凉碾碎，得灰白色酥松粉末即煅牡蛎。生牡蛎重镇安神、潜阳补阴、软坚散结；煅牡蛎收敛固涩、制酸止痛，主治自汗盗汗、遗精滑精、胃痛泛酸。煅后质酥易煎出、药性转收敛。",
+        "misjudgment": "以为牡蛎煅制只是「弄碎好煎」。错：煅制改变的是药性方向——生品重镇潜阳、软坚散结，煅后收敛固涩、制酸止痛，生熟主治不同，处方未注「煅」者不可擅以煅品顶替。",
+        "reasoning": "同一味牡蛎，为什么煅后由「散」转「收」、由「镇」转「涩」？",
+        "feedback": "贝壳经高温煅烧失去结合水与有机质，质地酥松易溶出，碳酸钙等成分溶出加速、收敛制酸作用凸显；生品则保留介类药物重镇潜阳之性，火力改变质地从而改变药效侧重点。",
+        "transfer": "患者胃酸泛酸求用牡蛎，药师应选择生品还是煅品并说明理由？"
+      },
+      "stdJudgment": "牡蛎取净后置无烟炉火上武火煅至酥脆，放凉碾碎，得灰白色酥松粉末，即煅牡蛎；生牡蛎重镇安神、潜阳补阴、软坚散结，煅后转收敛固涩、制酸止痛，生熟异治分明。",
+      "coreDefinition": "煅牡蛎为牡蛎壳明煅至酥脆的炮制品，主含碳酸钙经煅后质酥色白，收敛固涩、制酸止痛；生品则重镇潜阳、软坚散结。",
+      "facts": [
+        {
+          "field": "herb.牡蛎来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅牡蛎工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅牡蛎成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟牡蛎功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.牡蛎剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；煅牡蛎 9-30g，先煎",
+        "caution": "煅牡蛎收敛固涩，表邪未解、湿热泻痢者不宜单用固涩"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅制须防烫伤，煅后放凉再行粉碎。",
+        "prohibitions": [
+          "煅牡蛎收敛固涩，湿热泻痢者不宜单用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-002",
+      "title": "炮制·石膏煅制收湿敛疮",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "煅法",
+        "明煅",
+        "石膏",
+        "煅石膏",
+        "生熟异治"
+      ],
+      "intent": "掌握石膏明煅工艺与生熟异治：生石膏清热泻火，煅石膏收湿敛疮、多外用。",
+      "learning": {
+        "knowledge": "石膏为硫酸盐类矿物，主含含水硫酸钙。取净石膏块武火煅至酥松，放凉碾粉，得白色粉性煅石膏。生石膏甘辛大寒，清热泻火、除烦止渴，主治气分实热、肺热喘咳；煅石膏失结晶水、寒凉之性缓和，收湿敛疮、生肌止血，主治溃疡不敛、湿疹烫伤，多外用。",
+        "misjudgment": "把煅石膏当生石膏内服或把生石膏当煅石膏外用。错：生石膏清热内服、煅石膏收湿外用，一内一外方向相反；煅石膏已失结晶水、无大寒清气之功，混用则清热无功而收涩碍邪。",
+        "reasoning": "石膏只是失去结晶水，为什么生品的「清热」就变成了煅品的「收湿」？",
+        "feedback": "含水硫酸钙煅后失水成无水硫酸钙，质地酥松、粉性吸附力强，外用可收湿敛疮；大寒清气之性依赖生品全形而具，煅后药性随之改变，故药典明确煅石膏外用为主。",
+        "transfer": "疮面渗液不收的烫伤患者，外用石膏应选生品还是煅品？"
+      },
+      "stdJudgment": "石膏取净块置无烟炉火上武火煅至酥松，放凉碾粉，得白色粉性煅石膏；生石膏甘辛大寒、清热泻火除烦止渴，煅石膏苦寒之性大减、转收湿敛疮生肌止血，专供外用，生熟用途迥异。",
+      "coreDefinition": "煅石膏为石膏明煅失水之品，色白粉性，收湿敛疮、生肌止血，外用为要；生石膏清热泻火、除烦止渴，内服为要。",
+      "facts": [
+        {
+          "field": "herb.石膏来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅石膏工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅石膏成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟石膏功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.石膏剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；生石膏 15-60g 先煎，煅石膏外用适量",
+        "caution": "煅石膏多外用收湿敛疮，不宜作内服清热剂；脾胃虚寒者慎用生石膏"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅制时武火至酥松即止，防过煅。",
+        "prohibitions": [
+          "煅石膏以收湿敛疮为主，不宜代生石膏作清热内服"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-003",
+      "title": "炮制·龙骨煅制收敛固涩",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "煅法",
+        "明煅",
+        "龙骨",
+        "化石",
+        "收敛固涩"
+      ],
+      "intent": "掌握龙骨明煅工艺、成品标准与生熟异治，理解煅后收敛固涩力增强的机理。",
+      "learning": {
+        "knowledge": "龙骨为古代哺乳动物骨骼化石，主含碳酸钙。取净龙骨武火煅至红透酥脆，放凉碾碎，得灰白色酥松粉末即煅龙骨。生龙骨镇惊安神、平肝潜阳，主治心悸失眠、头晕目眩；煅龙骨收敛固涩力增强，主治遗精滑精、崩漏带下、自汗盗汗、溃疡久不收口。",
+        "misjudgment": "以为煅龙骨只是把化石「烧熟」。错：煅制的意义在改变药效重心——生品重镇潜阳用于神志与肝阳诸证，煅品收敛固涩用于滑脱诸证，处方注「煅」者方为固涩之品，未注者不得改煅。",
+        "reasoning": "龙骨煅后为什么收敛之力大增而重镇之功减退？",
+        "feedback": "煅烧使化石有机质烧失、质地酥松，碳酸钙等溶出加快而收敛吸附作用增强，同时介类潜镇之性随结构改变而减弱，火力把药效重心推向固涩。",
+        "transfer": "心悸失眠与自汗遗精分用生、煅龙骨，处方辨证时如何对应选择？"
+      },
+      "stdJudgment": "龙骨取净后置无烟炉火上武火煅至红透酥脆，取出放凉碾碎，得灰白色酥脆粉末；生龙骨镇惊安神、平肝潜阳，煅龙骨收敛固涩之力增强，主治遗精滑精、崩漏带下、自汗盗汗及溃疡久不收口。",
+      "coreDefinition": "煅龙骨为古代哺乳动物骨骼化石明煅至红透酥脆的炮制品，收敛固涩力增强；生品则镇惊安神、平肝潜阳，生熟主治有别。",
+      "facts": [
+        {
+          "field": "herb.龙骨来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅龙骨工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅龙骨成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟龙骨功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.龙骨剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；生龙骨、煅龙骨 15-30g，先煎",
+        "caution": "煅龙骨收敛固涩，湿热积滞、实邪未清者慎用固涩"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅制须煅至红透无烟后放凉，防复燃。",
+        "prohibitions": [
+          "煅龙骨收敛固涩，湿热积滞者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-004",
+      "title": "炮制·白矾煅制枯矾",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "煅法",
+        "明煅",
+        "白矾",
+        "枯矾",
+        "失水"
+      ],
+      "intent": "掌握白矾煅制枯矾的工艺（一次性煅透）、成品标准与收敛力增强的机理。",
+      "learning": {
+        "knowledge": "白矾为硫酸盐类矿物明矾石提炼之结晶，主含含水硫酸铝钾。取净白矾置煅锅内，武火加热至熔化，继续煅至膨胀松脆、完全干涸，放凉碾粉即枯矾；须一次煅透，中途停火则结僵块。枯矾失水后收敛燥湿、止痒止血力增强，主治湿疹湿疮、聤耳流脓，多外用。",
+        "misjudgment": "把未煅透的白矾结晶碎片当枯矾。错：枯矾须完全干涸、质轻松脆无结晶性，未煅透者仍含结晶水、质地坚实，收敛力不足，验收时以「松脆无晶性」为标准，僵块须返工。",
+        "reasoning": "白矾煅制为什么强调「中途不得停火」这一操作纪律？",
+        "feedback": "白矾熔融后若中途停火，表层先干涸结壳、内部水分被困，复火时水汽胀裂形成外干内湿的僵块；一气呵成使水分均匀蒸尽，才能得到质地松脆的合格枯矾。",
+        "transfer": "一批枯矾质地坚实、断面仍有晶性光泽，你如何判定并给出返工建议？"
+      },
+      "stdJudgment": "白矾置煅锅内武火加热至熔化，继续煅至膨胀松脆、完全干涸，停火放凉碾成细粉，即枯矾；煅制须一气呵成，中途停火则外煅内不煅结成僵块，成品失水后收敛燥湿之力大增，多作外用。",
+      "coreDefinition": "枯矾为白矾明煅失水之品，色白质轻松脆，收敛燥湿、止痒止血力增强，外用为主；生白矾解毒杀虫、清热消痰，内服外用皆宜。",
+      "facts": [
+        {
+          "field": "herb.白矾来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.枯矾工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.火候与僵块",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.枯矾成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟白矾功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；白矾 0.6-1.5g 入丸散，枯矾多外用适量",
+        "caution": "白矾含铝，内服不可过量久服；枯矾以收湿敛疮外用为主，创面大者须遵医嘱"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅制时容器须耐高温，防熔液溢出烫伤。",
+        "prohibitions": [
+          "白矾含铝，内服过量久服有害"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-005",
+      "title": "炮制·自然铜煅淬止痛",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "煅淬",
+        "自然铜",
+        "醋淬",
+        "接骨疗伤",
+        "黄铁矿"
+      ],
+      "intent": "掌握自然铜煅淬工艺与醋用比例，理解煅淬增酥、引药入肝的机理。",
+      "learning": {
+        "knowledge": "自然铜为硫化物类矿物黄铁矿，主含二硫化铁。取自然铜武火煅至红透，入醋淬之，反复煅淬至醋尽、表面黑褐显光泽，研碎；每100kg自然铜用醋25kg。煅淬后质酥易粉碎煎出，醋引药入肝，散瘀止痛、接骨疗伤力著，主治跌打损伤、筋断骨折。",
+        "misjudgment": "把未煅淬的生自然铜研粉内服。错：生黄铁矿质地坚硬、难粉碎难溶出，且药性未转；煅淬（醋淬尽）是法定工艺，成品黑褐酥脆，生品投料既伤粉碎设备又失药效。",
+        "reasoning": "自然铜煅淬反复「红透—入醋」，这个循环的操作终点如何把握？",
+        "feedback": "以「醋淬尽、表面黑褐色显光泽、酥脆易碎」为终点，煅淬不足则色褐而不酥、铁芯未尽，过度则成灰烬失性；火候与淬次由成品性状反推，是矿物煅淬的通则。",
+        "transfer": "接骨方中自然铜若以生品研粉入丸，你认为存在哪些工艺与药效问题？"
+      },
+      "stdJudgment": "自然铜砸碎后武火煅至红透，立即投入醋中淬之，反复煅淬数次至醋淬尽、表面呈黑褐色并显光泽，取出干燥碾碎；每100kg自然铜用醋25kg，煅淬后质地酥脆易碎，散瘀止痛、接骨疗伤之力增强。",
+      "coreDefinition": "醋自然铜为黄铁矿煅红后醋淬反复处理之品，每100kg用醋25kg，成品酥脆黑亮，散瘀止痛、接骨疗伤，引药入肝。",
+      "facts": [
+        {
+          "field": "herb.自然铜来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅淬工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.醋淬比例",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅淬成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅淬目的",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；醋淬自然铜 3-9g，多入丸散",
+        "caution": "自然铜主含硫化铁，不宜过量久服；孕妇慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅淬操作须防高温铁块与醋液飞溅烫伤。",
+        "prohibitions": [
+          "自然铜不宜过量久服，孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-006",
+      "title": "炮制·炉甘石煅淬明目",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "煅淬",
+        "炉甘石",
+        "黄连水淬",
+        "水飞",
+        "明目"
+      ],
+      "intent": "掌握炉甘石煅淬水飞的工艺与黄连汁淬的辅料意义，理解眼用极细粉的质量要求。",
+      "learning": {
+        "knowledge": "炉甘石为碳酸盐类矿物菱锌矿，主含碳酸锌。取净炉甘石武火煅至红透，投入黄连煎液中淬之，反复煅淬至酥脆，再水飞极细粉；每100kg炉甘石用黄连12.5kg煎汁。煅淬水飞后质酥细，收湿止痒、解毒明目，主治目赤翳障、湿疹疮疡，专供外用点眼，禁内服。",
+        "misjudgment": "把未水飞的粗粉直接点眼或把煅炉甘石作内服。错：点眼剂要求极细粉，粗粒磨伤角膜；炉甘石为外用矿物药，不经水飞与灭菌不得入眼，内服更在禁例。",
+        "reasoning": "炉甘石煅淬后还要「水飞」，这道工序对眼用制剂意味着什么？",
+        "feedback": "水飞借重力分级去除粗粒与杂质，得极细腻粉末，才能点眼不伤目；再配合灭菌处理满足眼用要求，炮制深度与给药途径的安全性直接挂钩。",
+        "transfer": "制备眼用炉甘石散时省略水飞工序，会带来怎样的安全后果？"
+      },
+      "stdJudgment": "炉甘石武火煅至红透，取出立即投入黄连煎液中淬之，反复煅淬至酥脆，再水飞成极细粉；每100kg炉甘石用黄连12.5kg煎汁，成品细腻洁白，收湿止痒、解毒明目，专供外用点眼。",
+      "coreDefinition": "煅炉甘石为菱锌矿煅红后黄连汁淬并水飞之品，质地细腻、性凉，收湿止痒、解毒明目，眼用必须极细。",
+      "facts": [
+        {
+          "field": "herb.炉甘石来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅淬水飞工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.黄连汁淬比例",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅炉甘石成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.功效与用法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；煅炉甘石外用适量，点眼用极细粉",
+        "caution": "炉甘石供点眼者必须水飞至极细并灭菌，粗粒入眼可致损伤；不可内服"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。炉甘石为外用矿物药，禁内服；点眼制剂须按无菌要求制备。",
+        "prohibitions": [
+          "炉甘石禁内服",
+          "点眼用须水飞至极细粉，粗粒禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-007",
+      "title": "炮制·磁石煅淬重镇安神",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "煅淬",
+        "磁石",
+        "醋淬",
+        "重镇安神",
+        "磁铁矿"
+      ],
+      "intent": "掌握磁石煅淬工艺与醋用比例，理解煅淬利于煎出、增强潜阳安神作用。",
+      "learning": {
+        "knowledge": "磁石为氧化物类矿物磁铁矿，主含四氧化三铁。取净磁石砸碎，武火煅至红透，投入醋中淬之，反复煅淬至酥，研碎；每100kg磁石用醋30kg。生品坚顽难煎，煅淬后质酥易粉碎溶出，潜阳安神、聪耳明目、纳气平喘得显，主治心悸失眠、头晕目眩、耳鸣耳聋。",
+        "misjudgment": "以为磁石失去磁性就是炮制失败。错：煅淬使磁石磁性减弱属正常物理变化，判断成败的标准是「酥脆」与煎出情况，而非磁性存留；生磁石坚硬难溶，反不如煅品宜用。",
+        "reasoning": "磁石生品质地坚硬、入煎难溶，煅淬如何解决「难出效」的问题？",
+        "feedback": "煅红后骤冷（醋淬）使矿物内应力剧变、结构酥松，颗粒细化比表面积增大，煎煮时溶出率大幅提高；醋淬同时引药入肝，助其重镇潜阳之用。",
+        "transfer": "一剂含磁石的方剂若直接用生磁石先煎，与煅磁石相比存在什么差距？"
+      },
+      "stdJudgment": "磁石砸碎置无烟炉火上武火煅至红透，立即投入醋中淬之，反复煅淬至酥脆为度，取出干燥碾碎；每100kg磁石用醋30kg，成品乌黑酥脆，质重下沉，潜阳安神、聪耳明目之功得显。",
+      "coreDefinition": "煅磁石为磁铁矿煅红醋淬之品，每100kg用醋30kg，质酥易煎出，镇惊安神、平肝潜阳、聪耳明目、纳气平喘。",
+      "facts": [
+        {
+          "field": "herb.磁石来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅淬工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.醋淬比例",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅磁石成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.功效与用量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；煅磁石 9-30g，先煎",
+        "caution": "磁石主含四氧化三铁，过量久服可致铁质蓄积，脾胃虚弱者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅淬时防高温与醋液飞溅，醋淬须趁红透立即进行。",
+        "prohibitions": [
+          "磁石不可过量久服，脾胃虚弱者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-008",
+      "title": "炮制·代赭石煅淬降逆",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "煅淬",
+        "代赭石",
+        "醋淬",
+        "降逆止血",
+        "赤铁矿"
+      ],
+      "intent": "掌握代赭石煅淬工艺与醋用比例，理解煅后质酥、增强降逆止血的机理。",
+      "learning": {
+        "knowledge": "代赭石为氧化物类矿物赤铁矿，主含三氧化二铁。取赭石砸碎，武火煅至红透，投入醋中淬之，反复煅淬至酥，研碎；每100kg赭石用醋30kg。煅后质酥易煎出、收敛止血力增强，平肝潜阳、重镇降逆、凉血止血，主治呕吐噫气、呃逆、吐血衄血、崩漏下血。",
+        "misjudgment": "把煅赭石当普通「烧过的红石头」随意增减。错：煅淬是法定工艺，醋淬比例、火候与成品酥脆度皆有标准，炮制不足则煎出不良，且本品含铁宜中病即止，用量与禁忌须并守。",
+        "reasoning": "代赭石煅后「止血之力增强」，火力与收敛作用之间是什么关系？",
+        "feedback": "煅烧使矿物酥松、铁质溶出加快，收敛止血成分利用率提高，同时重镇降逆之性仍存；生品寒凉质重善降，煅品酥脆善收，生熟各有所长。",
+        "transfer": "呕逆不止与崩漏下血分用生、煅赭石，选品的依据分别是什么？"
+      },
+      "stdJudgment": "代赭石砸碎置无烟炉火上武火煅至红透，立即投入醋中淬之，反复煅淬至酥脆，取出干燥碾碎；每100kg赭石用醋30kg，成品红褐酥脆，质重降逆，平肝潜阳、重镇降逆、凉血止血之力得以发挥。",
+      "coreDefinition": "煅赭石为赤铁矿煅红醋淬之品，每100kg用醋30kg，质酥易煎，平肝潜阳、重镇降逆、凉血止血，孕妇慎用。",
+      "facts": [
+        {
+          "field": "herb.代赭石来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅淬工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.醋淬比例",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煅赭石成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.功效与禁忌",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；煅赭石 9-30g，先煎",
+        "caution": "代赭石孕妇慎用；寒证及脾胃虚弱者不宜久服"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煅淬须防烫伤，醋淬趁红透立即进行。",
+        "prohibitions": [
+          "代赭石孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-009",
+      "title": "炮制·肉豆蔻煨制涩肠止泻",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "煨法",
+        "面裹煨",
+        "肉豆蔻",
+        "挥发油",
+        "肉豆蔻醚"
+      ],
+      "intent": "掌握肉豆蔻面裹煨的工艺与面粉比例，理解煨制减油缓滑、实肠止泻的机理。",
+      "learning": {
+        "knowledge": "肉豆蔻为肉豆蔻科肉豆蔻的干燥种仁，含大量脂肪油与挥发油（含毒物肉豆蔻醚）。取肉豆蔻以面粉加水拌裹，置滑石粉中煨至面皮焦黄，剥去面皮；每100kg用面粉50kg。煨后挥发油减少、滑肠之弊得缓，温中行气、涩肠止泻，主治脾胃虚寒、久泻不止。",
+        "misjudgment": "以为肉豆蔻煨制只是「加热去生味」。错：煨制的要害在减挥发油——油多则滑肠，与涩肠止泻方向相反；面裹起缓冲受热、均匀减油的作用，剥面皮是工艺一环，缺一步则成品不符。",
+        "reasoning": "肉豆蔻本是止泻药，为什么生品反而「滑肠」？",
+        "feedback": "生肉豆蔻脂肪油与挥发油含量高，油脂润肠致便滑，正与涩肠相悖；煨制借面裹缓热使油分挥发、毒成分降低，才成就温中止泻之性，故止泻须用煨品。",
+        "transfer": "脾虚久泻患者若误服生肉豆蔻，可能出现什么反效并如何纠正？"
+      },
+      "stdJudgment": "肉豆蔻以面粉加水拌裹，置滑石粉或热灰中煨至面皮焦黄，取出剥去面皮；每100kg肉豆蔻用面粉50kg，煨后挥发油含量降低、滑肠之弊得缓，温中行气、涩肠止泻之力转实。",
+      "coreDefinition": "煨肉豆蔻为面裹煨制之品，每100kg用面粉50kg，煨至面皮焦黄，减油缓滑、实肠止泻，兼降肉豆蔻醚毒性。",
+      "facts": [
+        {
+          "field": "herb.肉豆蔻来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.面裹煨工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.面粉比例",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煨肉豆蔻成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煨制目的与毒性",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；煨肉豆蔻 3-9g",
+        "caution": "肉豆蔻含肉豆蔻醚等毒性成分，煨制后仍不可过量久服；湿热泻痢者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煨制以面皮焦黄为度，防过度焦化。",
+        "prohibitions": [
+          "肉豆蔻含肉豆蔻醚有毒性，不可过量久服",
+          "湿热泻痢者忌用煨肉豆蔻"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-010",
+      "title": "炮制·木香煨制实肠止泻",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "煨法",
+        "面煨",
+        "木香",
+        "实肠止泻",
+        "挥发油"
+      ],
+      "intent": "掌握木香面煨工艺与成品特征，理解煨后辛散力减、实肠止泻力增的生熟异治。",
+      "learning": {
+        "knowledge": "木香为菊科木香根，含挥发油。取木香片以面粉糊包裹，煨至面皮焦黄，剥去面粉；亦可用纸煨、麸煨。煨后挥发油减少、辛散之性缓和，实肠止泻力增，主治脾虚泄泻、肠鸣腹痛；生木香辛香走窜，行气止痛力强，主治脘腹胀痛、泻痢后重。用量3-6g，不宜久煎。",
+        "misjudgment": "把生木香当煨木香用于脾虚泄泻。错：生木香辛香走窜、行气破滞，对虚泻反致气散泄甚；煨后辛散力缓、实肠力增，才是脾虚泄泻所宜，生熟功用方向不同。",
+        "reasoning": "木香行气与止泻看似矛盾，煨制如何化解这对矛盾？",
+        "feedback": "挥发油是辛香走窜的物质基础，煨制减油则行气力缓、涩肠力显；留其温中理气之余，去其辛散滑泄之弊，同一味药经火候改造兼顾两功。",
+        "transfer": "泻痢初起、里急后重者宜用生木香还是煨木香，为什么？"
+      },
+      "stdJudgment": "木香以面粉糊包裹置炉火上煨至面皮焦黄，剥去面粉取用；煨后挥发油减少、辛香走窜之性缓和，行气止痛之力转缓而实肠止泻之力转增，主治脾虚泄泻、肠鸣腹痛。",
+      "coreDefinition": "煨木香为面煨减油之品，辛散力缓而实肠止泻力增，宜脾虚泄泻；生木香辛香走窜，行气止痛力强，宜脘腹胀痛。",
+      "facts": [
+        {
+          "field": "herb.木香来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.面煨工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.煨木香成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟木香功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；木香 3-6g，煨木香同量",
+        "caution": "木香辛香走窜，阴虚津亏、气不虚者不宜过用；煨木香实肠止泻，湿热泻痢初起者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。煨制至面皮焦黄即止。",
+        "prohibitions": [
+          "湿热泻痢初起者慎用煨木香"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-011",
+      "title": "炮制·肉豆蔻霜制霜减毒",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "制霜",
+        "去油制霜",
+        "肉豆蔻霜",
+        "肉豆蔻醚",
+        "减毒"
+      ],
+      "intent": "掌握肉豆蔻去油制霜的工艺与减毒机理，理解制霜对含油有毒药的降毒意义。",
+      "learning": {
+        "knowledge": "肉豆蔻含脂肪油约40%及挥发油（含肉豆蔻醚），油多则滑肠，肉豆蔻醚过量可中毒。制霜：取净肉豆蔻碾泥压榨去油，或草纸包裹加热吸油至油尽，研细即肉豆蔻霜。脂肪油与毒性成分大减，滑肠之弊消除，温中行气、涩肠止泻之功转专；减毒后仍不可过量久服。",
+        "misjudgment": "以为肉豆蔻霜与煨肉豆蔻是同一制品。错：煨法借面裹减挥发油、缓滑肠，制霜靠压榨去油脂、重在减毒除油，工艺、辅料与成品含油量均不同；两者虽皆可止泻，制霜减毒更彻底，不可混称。",
+        "reasoning": "肉豆蔻既能煨制又能制霜，为什么含油多时选择制霜更合理？",
+        "feedback": "煨制减油幅度有限，对脂肪油高、毒性成分溶于油的品种，压榨去油可从根源上移走毒素载体；油脂又是滑肠之源，油尽则滑肠与中毒两条风险同时解除，故制霜适合「减毒」定位。",
+        "transfer": "小儿脾虚久泻欲用肉豆蔻，制霜与煨制两选，你推荐哪种并说明理由？"
+      },
+      "stdJudgment": "肉豆蔻碾成泥状后压榨去油，或以草纸包裹反复加热吸油，至油尽为度，研细得肉豆蔻霜；脂肪油大减、肉豆蔻醚等毒性成分随之降低，滑肠之弊消除，温中行气、涩肠止泻之功转专。",
+      "coreDefinition": "肉豆蔻霜为去油制霜之品，油脂与毒性成分（肉豆蔻醚）显著降低，涩肠止泻而不滑肠，用量须严控。",
+      "facts": [
+        {
+          "field": "herb.肉豆蔻成分",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.去油制霜工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.肉豆蔻霜成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.制霜目的",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；肉豆蔻霜用量宜小于生品",
+        "caution": "肉豆蔻醚过量可致幻觉、惊厥等中毒，制霜后仍不可过量久服；孕妇慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。制霜须去油至油尽，残油过多则减毒不彻底。",
+        "prohibitions": [
+          "肉豆蔻含肉豆蔻醚有毒成分，制霜后仍不可过量久服",
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-012",
+      "title": "炮制·西瓜霜制霜清热消肿",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "制霜",
+        "升华制霜",
+        "西瓜霜",
+        "芒硝",
+        "清热消肿"
+      ],
+      "intent": "掌握西瓜霜升华制霜工艺与芒硝比例，理解结晶析出的物化原理与清热消肿的药理意义。",
+      "learning": {
+        "knowledge": "西瓜霜为结晶制霜之品：取西瓜切下瓜蒂作盖、挖瓤装入芒硝，盖严挂于阴凉处，数日瓜皮外析出白色结晶，扫下即得；每100kg西瓜用芒硝15kg。芒硝借瓜汁渗出结晶。成品白色结晶性粉末，清热泻火、消肿止痛，主治咽喉肿痛、口舌生疮，多外用吹喉。",
+        "misjudgment": "以为西瓜霜只是「芒硝换个包装」。错：芒硝单用咸寒软坚泻下，西瓜霜借西瓜甘寒之汁浸渗共结晶，清热之力更纯，且结晶于瓜皮外自然析出、质地细腻，兼得瓜之清热与硝之消肿，非简单混合可比。",
+        "reasoning": "芒硝直接研粉也可外用，为什么传统工艺偏要借西瓜制霜？",
+        "feedback": "西瓜汁甘寒清热生津，芒硝借汁渗透再随蒸发析晶，两药之性合于一体，清热消肿之力倍增；同时结晶过程自然纯化、粉质细腻，适宜咽喉口腔局部用药，是「辅料赋性」的典型范例。",
+        "transfer": "口疮咽痛患者若误服大剂量西瓜霜，可能出现什么药性偏弊？"
+      },
+      "stdJudgment": "取新鲜西瓜挖瓤装芒硝，以瓜蒂封口钉牢，悬挂阴凉通风处，数日后瓜皮外析出白色结晶，扫下即得西瓜霜；每100kg西瓜用芒硝15kg，结晶借西瓜汁浸渗与水分蒸发在瓜皮表面析出，清热泻火、消肿止痛，主治咽喉肿痛、口舌生疮。",
+      "coreDefinition": "西瓜霜为升华（结晶）制霜之品，每100kg西瓜用芒硝15kg，借瓜汁浸渗于瓜皮外析出白霜，清热泻火、消肿止痛，多外用。",
+      "facts": [
+        {
+          "field": "herb.西瓜霜工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.芒硝比例",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.结晶原理",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.西瓜霜成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.功效与用法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；西瓜霜多外用（吹喉），内服遵医嘱",
+        "caution": "西瓜霜性寒，孕妇及脾胃虚寒者慎用；点眼吹喉须防呛入气道"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。芒硝含硫酸钠，西瓜霜性寒，孕妇慎用。",
+        "prohibitions": [
+          "西瓜霜孕妇及脾胃虚寒者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-013",
+      "title": "炮制·胆南星复制清热化痰",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "复制法",
+        "胆南星",
+        "天南星",
+        "牛胆汁",
+        "清热化痰"
+      ],
+      "intent": "掌握胆南星胆汁复制工艺与「性转寒凉」的关键变化，辨析与天南星复制品的差异。",
+      "learning": {
+        "knowledge": "胆南星为制天南星细粉与牛（或猪羊）胆汁加工而成。取制天南星细粉加胆汁拌匀，蒸透成小块；或生南星粉加胆汁发酵后反复蒸制至黑色浸膏状、口尝无麻辣感。胆汁苦寒使天南星性转苦凉、毒性大减，清热化痰、息风定惊，主治痰热咳嗽、痰热惊风、癫痫、中风痰壅。",
+        "misjudgment": "把胆南星与天南星互为代用。错：天南星辛温、燥湿化痰，宜寒痰湿痰；胆南星苦凉、清热化痰，宜痰热惊风，药性一温一凉、主治一寒一热，互代即反其道而行。",
+        "reasoning": "同以天南星为原料，胆汁炮制为什么能把药性从温转向凉？",
+        "feedback": "胆汁苦寒，其清热之性借复制过程渗透入药，且发酵蒸制改变成分构成、毒性消除；辅料赋性使「温燥」转化为「苦凉」，是复制法改变药性的代表案例。",
+        "transfer": "小儿痰热惊风与寒痰咳嗽各宜选用天南星还是胆南星？"
+      },
+      "stdJudgment": "制天南星细粉加入牛（或猪、羊）胆汁拌匀，蒸透制成小块，或发酵后反复蒸制至黑色浸膏状、口尝无麻辣感，得胆南星；胆汁苦寒炮制，天南星由辛温燥烈转苦凉，清热化痰、息风定惊，与温化寒痰的天南星用途迥异。",
+      "coreDefinition": "胆南星为天南星细粉与胆汁复制之品，性转苦凉，清热化痰、息风定惊，主治痰热惊风、癫痫、中风痰壅，与天南星辛温燥湿截然相反。",
+      "facts": [
+        {
+          "field": "herb.天南星毒性",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.胆南星工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.胆南星成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.胆南星功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.与天南星区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；胆南星 3-6g",
+        "caution": "胆南星苦凉，寒痰、湿痰证不宜；孕妇慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。天南星生品有毒，胆南星复制须至口尝无麻辣感为度。",
+        "prohibitions": [
+          "生天南星有毒须炮制",
+          "胆南星孕妇慎用",
+          "寒痰湿痰证不宜"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-014",
+      "title": "炮制·半夏曲发酵消食化痰",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "发酵法",
+        "半夏曲",
+        "生姜汁",
+        "消食化痰"
+      ],
+      "intent": "掌握半夏曲的发酵工艺与作用，理解发酵对半夏毒性缓和与消食增效的意义。",
+      "learning": {
+        "knowledge": "半夏辛温有毒，生品刺激咽喉。半夏曲为清半夏（或制半夏）细粉与面粉、生姜汁拌匀成曲块，置温暖处发酵至生黄白色霉衣。发酵使淀粉转化、半夏燥烈之性缓和，化痰止咳、消食化积，主治咳嗽痰多、食积腹胀、泄泻。半夏反乌头类（含附子），半夏曲同守此忌。",
+        "misjudgment": "把半夏曲当「炒过的半夏」。错：半夏曲是发酵制品，靠发酵菌作用缓和药性并增消食之力，与姜半夏（白矾生姜共煮）工艺不同；未经发酵的半夏粉加面粉压块不算曲，药理与成品标准均不符。",
+        "reasoning": "半夏本为化痰止呕药，发酵后为何多了「消食化积」的功用？",
+        "feedback": "面粉经发酵菌分解产生活性酶与有机酸，助脾胃运化；半夏化痰之功与曲之消食之力相合，一药兼化痰消食两用，发酵赋予新功效。",
+        "transfer": "咳嗽痰多伴食积腹胀者，选用半夏曲较清半夏的组方优势何在？"
+      },
+      "stdJudgment": "半夏研粉与面粉、生姜汁拌匀制成曲块，置温暖处发酵至表面生黄白色霉衣，晒干即得半夏曲；借发酵菌作用化解半夏燥烈之性，化痰止咳兼消食化积、健脾和胃，主治咳嗽痰多、食积腹胀。",
+      "coreDefinition": "半夏曲为半夏粉与面粉、姜汁发酵之品，化痰止咳、消食化积、健脾和胃，燥性缓和；仍反乌头类，孕妇慎用。",
+      "facts": [
+        {
+          "field": "herb.半夏曲组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.发酵工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.成品要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.半夏曲功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.半夏毒性注意",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；半夏曲 3-9g",
+        "caution": "半夏反乌头类（含附子），半夏曲同守此忌；孕妇慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。半夏生品有毒，制曲须以制半夏为原料并发酵完全。",
+        "prohibitions": [
+          "半夏（曲）反乌头类（含附子）",
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-015",
+      "title": "炮制·建神曲发酵消食",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "发酵法",
+        "建神曲",
+        "建曲",
+        "消食化积",
+        "解表"
+      ],
+      "intent": "掌握建神曲的药料组成与发酵工艺，理解其较六神曲药味更多、兼能解表的配伍特点。",
+      "learning": {
+        "knowledge": "建神曲以苦杏仁、赤小豆、鲜青蒿、鲜苍耳草、鲜辣蓼等药料煎汁，与面粉、麦麸混匀制成曲块，置温暖处发酵至生黄白色霉衣，干燥而成；亦有加藿香、苍术者。消食化积、健脾和胃，兼解表祛暑化湿，主治食积不化、脘腹胀满、暑湿感冒。较六神曲药味更多。",
+        "misjudgment": "把建神曲与六神曲当作同一制品。错：六神曲以六味药料合面麸发酵，建神曲药味更多且常含藿香、苍术等解表化湿之品，功用侧重不同；两者名称相近但组成与适应证有别，不可混投。",
+        "reasoning": "同为发酵曲剂，为什么建神曲比六神曲多了「解表化湿」的功用？",
+        "feedback": "曲剂功效由药料配伍决定：青蒿、苍耳草、辣蓼解表祛暑，藿香、苍术、厚朴化湿和中，加入这些药味后曲剂兼得解表化湿之力，组成决定功能边界。",
+        "transfer": "食积兼暑湿困表者，选用六神曲还是建神曲更合拍？"
+      },
+      "stdJudgment": "建神曲以苦杏仁、赤小豆、鲜青蒿、鲜苍耳草、鲜辣蓼等药料煎汁，与面粉、麦麸混匀制成曲块，置温暖处发酵至生黄霉衣，干燥即得；较六神曲药味更多，消食化积、健脾和胃，兼解表化湿，主治食积不化、脘腹胀满、暑湿感冒。",
+      "coreDefinition": "建神曲为多味药料合面粉麦麸发酵之曲，消食化积、健脾和胃兼解表化湿，较六神曲药味更多、用途更广。",
+      "facts": [
+        {
+          "field": "herb.建神曲组成",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.发酵工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.成品要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.建神曲功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.与六神曲区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；建神曲 6-15g",
+        "caution": "建神曲含解表之品，表虚多汗者不宜重用；孕妇慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。发酵曲剂须防霉变虫蛀，成品干燥贮存。",
+        "prohibitions": [
+          "表虚多汗者不宜重用建神曲"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-016",
+      "title": "炮制·谷芽发芽消食",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "发芽法",
+        "谷芽",
+        "稻谷",
+        "消食和中"
+      ],
+      "intent": "掌握谷芽的发芽工艺与成品规格，理解生、炒、焦谷芽的消食侧重差异。",
+      "learning": {
+        "knowledge": "谷芽为禾本科稻谷经发芽而成。取净稻谷浸泡至六成透，置排水容器内盖严保湿，每日淋水1-2次，待芽长约1cm取出干燥，出芽率不得少于85%。发芽激活淀粉酶等，消食和中、健脾开胃，主治食积不消、腹胀口臭。生品消食和中，炒品健脾开胃，焦品消食化积。",
+        "misjudgment": "把未发芽的稻谷混作谷芽。错：谷芽以发芽为工艺要旨，出芽率是法定指标，未发芽者淀粉酶未活化、无消食之功；同时芽长亦不可过短，发芽不足与过长均不合格。",
+        "reasoning": "稻谷发芽前后功效差别明显，发芽为什么能「醒脾开胃」？",
+        "feedback": "发芽过程激活淀粉酶、蛋白酶等水解酶，谷芽遇食积可助淀粉分解；胚芽萌动又生新的活性成分，故发芽品方有消食和中之功，未发芽者徒具谷形。",
+        "transfer": "小儿乳食积滞伴口中酸腐，谷芽宜选生、炒还是焦品？"
+      },
+      "stdJudgment": "净稻谷浸泡至六成透，置排水容器内盖严保湿，每日淋水1-2次，待芽长至约1cm取出干燥，即谷芽；发芽后淀粉酶活化，消食和中、健脾开胃，生谷芽消食和中、炒谷芽健脾开胃、焦谷芽消食化积，火候不同侧重各异。",
+      "coreDefinition": "谷芽为稻谷发芽之品，芽长约1cm、出芽率合格，消食和中、健脾开胃；生炒焦三规格随火候而分工。",
+      "facts": [
+        {
+          "field": "herb.谷芽来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.发芽工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.出芽标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.谷芽成品与规格",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.谷芽功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；谷芽 9-15g",
+        "caution": "谷芽炒焦者消食力峻，脾胃虚而无食积者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。发芽须保持湿润通风，防霉烂。",
+        "prohibitions": [
+          "焦谷芽消食力峻，脾虚无食积者不宜"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-017",
+      "title": "炮制·大豆黄卷发芽解表祛暑",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "发芽法",
+        "大豆黄卷",
+        "大豆",
+        "解表祛暑"
+      ],
+      "intent": "掌握大豆黄卷的发芽工艺与成品特征，理解发芽赋予解表祛暑功效的机理。",
+      "learning": {
+        "knowledge": "大豆黄卷为豆科大豆的成熟种子经发芽而成。取净大豆泡至膨胀，置排水器内盖湿布保湿，每日淋水1-2次，待芽长0.5-1cm取出干燥。发芽后具升发疏达之性，解表祛暑、清热利湿，主治暑湿感冒、湿温初起、发热汗少、胸闷脘痞。芽长干燥为规格要点。",
+        "misjudgment": "把黄豆芽菜混作大豆黄卷入药。错：大豆黄卷为发芽至规定芽长（0.5-1cm）后干燥的药用饮片，芽菜为鲜食蔬菜、含水多、未经干燥，规格与药效均异；入药须按干燥发芽品。",
+        "reasoning": "大豆本无解表之功，发芽之后为何能「解表祛暑」？",
+        "feedback": "发芽萌动使大豆升发疏达之性得以彰显，传统以「芽者生发之机」解释其宣散之力，配伍薄荷、连翘等用于暑湿表证，发芽赋予原药新功用。",
+        "transfer": "暑湿困表、汗出不畅者，以大豆黄卷配伍哪些药可增强透达之力？"
+      },
+      "stdJudgment": "净大豆浸泡至膨胀，置排水容器内覆盖湿布保持湿润，每日淋水1-2次，待芽长0.5-1cm取出干燥，即大豆黄卷；借发芽疏达之性，解表祛暑、清热利湿，主治暑湿感冒、湿温初起、发热汗少、胸闷脘痞。",
+      "coreDefinition": "大豆黄卷为大豆发芽之品，芽长0.5-1cm，解表祛暑、清热利湿，宜暑湿外感与湿温初起。",
+      "facts": [
+        {
+          "field": "herb.大豆黄卷来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.发芽工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.成品要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.大豆黄卷功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.剂量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；大豆黄卷 9-15g",
+        "caution": "大豆黄卷用于暑湿外感，无表证而里热盛者不宜单用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。发芽须防霉烂，成品干燥贮存。",
+        "prohibitions": [
+          "无表证而里热盛者不宜单用大豆黄卷"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-018",
+      "title": "炮制·天冬蒸制滋阴润燥",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "蒸法",
+        "天冬",
+        "蒸制去皮",
+        "滋阴润燥"
+      ],
+      "intent": "掌握天冬蒸透去皮的工艺与目的，理解蒸制对净制、干燥与保存的联动作用。",
+      "learning": {
+        "knowledge": "天冬为百合科天冬的干燥块根，含大量黏液质。取净天冬蒸至透心，趁热除去外皮，洗净干燥。蒸制使块根软化易去皮，并灭活酶类防止黏液质与糖类氧化变质，利于干燥贮存。天冬甘苦寒，养阴润燥、清肺生津，主治肺燥干咳、咽干口渴、肠燥便秘。",
+        "misjudgment": "把不蒸、连皮干燥的天冬当正品。错：药典规定天冬须蒸透去外皮，连皮干燥者非药用部位未除、淀粉糖分易变质；蒸与不蒸是净制与质量的法定分界，验收时须查去皮与否。",
+        "reasoning": "天冬只是去皮干燥，为什么必须先蒸透而不能趁鲜刮皮？",
+        "feedback": "块根富含黏液，鲜刮易断损且费工；蒸透后组织软化、皮肉分离，趁热轻剥即净，同时高温灭酶护色，蒸制把净制与保质两个目的合成一道工序。",
+        "transfer": "天冬饮片若带皮且色暗发黏，鉴定上提示什么工艺缺陷？"
+      },
+      "stdJudgment": "净天冬置蒸制容器内蒸至透心（内心透明），趁热除去外皮，洗净干燥，或蒸透后切厚片；蒸制使块根软化、便于去皮，兼灭酶防变质，天冬养阴润燥、清肺生津，主治肺燥干咳、咽干口渴、肠燥便秘。",
+      "coreDefinition": "天冬蒸透趁热去皮为法定工艺，蒸制兼得软化去皮与干燥防变之功；本品养阴润燥、清肺生津，脾虚便溏者慎用。",
+      "facts": [
+        {
+          "field": "herb.天冬来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.蒸制工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.蒸制目的",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.天冬功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.剂量与禁忌",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；天冬 6-12g",
+        "caution": "天冬甘寒滋腻，脾虚便溏、外感风寒咳嗽者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。蒸制须至透心，未透则去皮困难。",
+        "prohibitions": [
+          "天冬甘寒滋腻，脾虚便溏及外感风寒咳嗽者慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-019",
+      "title": "炮制·五味子醋蒸敛肺涩肠",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "醋蒸",
+        "五味子",
+        "醋五味子",
+        "收敛固涩"
+      ],
+      "intent": "掌握五味子醋蒸工艺与醋用比例，理解醋蒸增强酸涩收敛之性的机理。",
+      "learning": {
+        "knowledge": "五味子为木兰科五味子的干燥成熟果实，酸甘温。取净五味子加醋拌匀闷润至醋被吸尽，蒸透至色紫黑，取出干燥；每100kg五味子用醋15kg。醋蒸后酸涩收敛之性增强，涩精、敛肺、止泻力著，主治久泻不止、遗精滑精、虚喘久嗽；生品偏敛肺滋肾、益气生津。",
+        "misjudgment": "以为醋蒸五味子只是「染色调味」。错：醋性酸收，与五味子酸味相合，收敛固涩之力倍增；醋用量、闷润与蒸透程度影响成品酸度，工艺不严则「醋入皮不入肉」，敛涩之效打折。",
+        "reasoning": "五味子本已味酸，为什么还要用醋来蒸？",
+        "feedback": "酸味药经醋制可增强收敛之性（酸收敛涩），且醋助成分溶出、软化果肉便于制剂；久泻遗精等滑脱证取其敛涩，醋蒸是「以酸助酸、以收助收」的增效炮制。",
+        "transfer": "久泻虚脱与肺虚咳喘选用五味子时，生品与醋品的适应证如何区分？"
+      },
+      "stdJudgment": "净五味子加醋拌匀闷润至醋被吸尽，置蒸制容器内蒸透，取出干燥；每100kg五味子用醋15kg，蒸后表面紫黑、酸涩之性更著，敛肺涩肠、涩精止汗之力增强，主治久嗽虚喘、遗精滑精、久泻不止。",
+      "coreDefinition": "醋五味子为醋闷润蒸透之品，每100kg用醋15kg，色转紫黑，酸涩收敛力增强；生品则偏敛肺滋肾、益气生津。",
+      "facts": [
+        {
+          "field": "herb.五味子来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.醋蒸工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.醋用量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.醋五味子成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟五味子功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；醋五味子 2-6g",
+        "caution": "五味子酸涩收敛，外有表邪、内有实热、咳嗽初起者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。醋蒸须闷润至醋吸尽再蒸，防醋挥发不均。",
+        "prohibitions": [
+          "外有表邪、内有实热、咳嗽初起者忌用五味子"
+        ]
+      }
+    },
+    {
+      "id": "pb39-j-020",
+      "title": "炮制·山茱萸酒蒸补益肝肾",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "酒蒸",
+        "山茱萸",
+        "黄酒",
+        "补益肝肾",
+        "涩精固脱"
+      ],
+      "intent": "掌握山茱萸酒蒸工艺与酒用比例，理解酒蒸增强补益之力、缓和酸涩刺激的机理。",
+      "learning": {
+        "knowledge": "山茱萸为山茱萸科山茱萸的干燥成熟果肉，酸涩微温。取山茱萸加黄酒闷润至酒吸尽，隔水炖至酒尽色紫黑，取出干燥；每100kg山茱萸用黄酒20kg。酒蒸后补益肝肾之力增强、酸涩刺激得缓，主治肝肾亏虚之眩晕耳鸣、腰膝酸软、阳痿遗精；生品酸涩力较强。",
+        "misjudgment": "把生山茱萸直接用于肝肾亏虚长期调补。错：生品酸涩偏收，长期服用刺激胃肠、收敛有余而温补不足；酒蒸后补力增、酸涩缓，才宜作六味地黄丸类方中的滋补臣药，生熟适用场景不同。",
+        "reasoning": "山茱萸生品已能固脱，酒蒸后为何更宜补虚而非固脱？",
+        "feedback": "黄酒甘温通血脉、助药力，蒸炖使补益成分溶出转化、酸涩成分相对缓和，药效重心由「涩」移向「补」；固脱急用生品、缓补久服选酒蒸品，炮制因证而异。",
+        "transfer": "自汗欲脱急用与肝肾亏虚久补，山茱萸的生品与酒蒸品如何择用？"
+      },
+      "stdJudgment": "净山茱萸加黄酒拌匀，闷润至酒被吸尽，置容器内密闭隔水炖（或蒸）至酒尽色紫黑，取出干燥；每100kg山茱萸用黄酒20kg，酒蒸后补益肝肾之力增强、酸涩之性得缓，主治肝肾亏虚之眩晕耳鸣、腰膝酸软、阳痿遗精。",
+      "coreDefinition": "酒山茱萸为黄酒闷润炖蒸之品，每100kg用黄酒20kg，色转紫黑，补益肝肾力增而酸涩刺激得缓；生品则酸涩收敛力较强。",
+      "facts": [
+        {
+          "field": "herb.山茱萸来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.酒蒸工艺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.黄酒用量",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.酒山茱萸成品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生熟山茱萸功效",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药炮制学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "炮制属制药工艺环节，成品饮片按《中国药典》各药规定剂量使用；酒山茱萸 6-12g",
+        "caution": "山茱萸酸涩收敛，命门火炽、素有湿热及小便不利者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱。酒蒸须密闭防酒气散失，炖至酒尽为度。",
+        "prohibitions": [
+          "命门火炽、素有湿热、小便不利者忌用山茱萸"
+        ]
+      }
+    }
+  ]
+}

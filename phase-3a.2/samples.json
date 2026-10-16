@@ -1,0 +1,307 @@
+{
+  "seed": 20260919,
+  "genLabel": "phase-3a.2-fresh",
+  "total": 25,
+  "note": "25 个全新随机压力样本，均未出现在 Phase 3A 与 Phase 3A.1 regression 中；难度即 difficultyLabel 均与 difficulty 数值一致。",
+  "samples": [
+    {
+      "id": "pa32-herb-01",
+      "title": "附子",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "高风险药材",
+        "毒性警示缺口",
+        "区分事实与教学推断"
+      ],
+      "intent": "K 边界(回阳救逆第一品无权威出处) + A 来源缺漏，源头降级"
+    },
+    {
+      "id": "pa32-herb-02",
+      "title": "半夏",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "经典出处争议",
+        "生半夏有毒"
+      ],
+      "intent": "B 经典出处错配(十八反误标药典)"
+    },
+    {
+      "id": "pa32-herb-03",
+      "title": "细辛",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "剂量混标",
+        "古训与药典混淆"
+      ],
+      "intent": "C 剂量混标(古训不过钱被折克数)"
+    },
+    {
+      "id": "pa32-herb-04",
+      "title": "柴胡",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "区分事实与教学推断",
+        "三值越级"
+      ],
+      "intent": "D 三值越级(小剂量升提教学推断被标 verified)"
+    },
+    {
+      "id": "pa32-herb-05",
+      "title": "麻黄",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "干净基线",
+        "教学推断已正确标注"
+      ],
+      "intent": "candidate 干净基线（无缺陷）"
+    },
+    {
+      "id": "pa32-formula-06",
+      "title": "麻黄汤",
+      "category": "formula",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "古今剂量混淆",
+        "原典剂量"
+      ],
+      "intent": "C 古今剂量混淆(原方三两折克数)"
+    },
+    {
+      "id": "pa32-formula-07",
+      "title": "桂枝汤",
+      "category": "formula",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "教材归纳冒充原典"
+      ],
+      "intent": "K 知识边界(调和营卫冒充原文)"
+    },
+    {
+      "id": "pa32-formula-08",
+      "title": "四逆汤",
+      "category": "formula",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "古今剂量",
+        "回阳救逆高风险"
+      ],
+      "intent": "C 古今剂量混淆(生附子一枚 vs 现代炙附片无来源)"
+    },
+    {
+      "id": "pa32-formula-09",
+      "title": "六味地黄丸",
+      "category": "formula",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "教材归纳冒充原方"
+      ],
+      "intent": "K 知识边界(三补三泻冒充原方)"
+    },
+    {
+      "id": "pa32-formula-10",
+      "title": "小柴胡汤",
+      "category": "formula",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "经典出处错配",
+        "断章取义"
+      ],
+      "intent": "B 经典出处错配(但见一证误归黄帝内经)"
+    },
+    {
+      "id": "pa32-acu-11",
+      "title": "内关",
+      "category": "acupoint",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "定位",
+        "干净基线"
+      ],
+      "intent": "candidate 干净基线（定位来源齐全）"
+    },
+    {
+      "id": "pa32-acu-12",
+      "title": "合谷",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "经典出处错配",
+        "孕妇禁针"
+      ],
+      "intent": "B 经典出处错配(四总穴歌坑) + J 孕妇禁针"
+    },
+    {
+      "id": "pa32-acu-13",
+      "title": "手三里",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经络归属",
+        "易混淆",
+        "教学推断边界"
+      ],
+      "intent": "D 三值越级(经络/解剖教学推断被标 verified)"
+    },
+    {
+      "id": "pa32-acu-14",
+      "title": "三阴交",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "孕妇禁针",
+        "空间定位教学推断"
+      ],
+      "intent": "J 禁针穴红线缺失"
+    },
+    {
+      "id": "pa32-acu-15",
+      "title": "太冲",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "知识边界",
+        "教学术语冒充经典"
+      ],
+      "intent": "K 知识边界(四关冒充经典)"
+    },
+    {
+      "id": "pa32-theory-16",
+      "title": "气机升降",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "后世归纳冒充原典"
+      ],
+      "intent": "K 知识边界(左升右降冒充内经原句)"
+    },
+    {
+      "id": "pa32-theory-17",
+      "title": "气血关系",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "教学口诀冒充原典"
+      ],
+      "intent": "K 知识边界(气为血之帅冒充内经)"
+    },
+    {
+      "id": "pa32-theory-18",
+      "title": "五行生克",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "经典出处错配",
+        "易误归内经"
+      ],
+      "intent": "B 经典出处错配(见肝之病误归内经)"
+    },
+    {
+      "id": "pa32-theory-19",
+      "title": "阴阳原典",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "白名单覆盖缺口",
+        "原典理论(正确出处被保守降级)"
+      ],
+      "intent": "白名单未覆盖的真实经典被保守降级（需人工核验出处）"
+    },
+    {
+      "id": "pa32-theory-20",
+      "title": "病因病机",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "C3 证据不足",
+        "表面证据实则不足"
+      ],
+      "intent": "E 证据不足拦截(表面有证据但缺具体征象)"
+    },
+    {
+      "id": "pa32-case-21",
+      "title": "脾胃湿热医案",
+      "category": "clinical",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "C3 证据不足",
+        "证据强弱"
+      ],
+      "intent": "E 证据不足拦截(表面有证据但不足以定湿热)"
+    },
+    {
+      "id": "pa32-case-22",
+      "title": "眩晕医案",
+      "category": "clinical",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "C4 真实反证",
+        "有效修正"
+      ],
+      "intent": "真实反证 + 有效修正（应通过 F/G）"
+    },
+    {
+      "id": "pa32-case-23",
+      "title": "咳嗽医案",
+      "category": "clinical",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "C4 套话修正",
+        "模板化"
+      ],
+      "intent": "G 套话修正拦截 + H 模板化"
+    },
+    {
+      "id": "pa32-case-24",
+      "title": "失眠医案",
+      "category": "clinical",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "证据强弱",
+        "强证据对照",
+        "模板化"
+      ],
+      "intent": "强证据通过 E（对照 #21）+ H 模板化"
+    },
+    {
+      "id": "pa32-case-25",
+      "title": "胸痹医案",
+      "category": "clinical",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "C4 反证无效",
+        "非法来源枚举"
+      ],
+      "intent": "F 反证无效拦截 + A 非法 sourceType 隔离(负对照)"
+    }
+  ]
+}

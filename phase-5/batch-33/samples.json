@@ -1,0 +1,3008 @@
+{
+  "seed": "phase-5/batch-33",
+  "genLabel": "Phase 5 · Batch-33 · H 中药鉴定学 50 nodes",
+  "total": 50,
+  "note": "H 中药鉴定学 50 节点：四法鉴定、常用药材性状显微鉴别、贵细药真伪",
+  "samples": [
+    {
+      "id": "pb33-h-001",
+      "title": "鉴定·中药来源鉴定要点",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "来源鉴定",
+        "基原鉴定"
+      ],
+      "intent": "掌握来源（基原）鉴定的任务与操作步骤，理解它在四类鉴定方法中的前提地位。",
+      "learning": {
+        "knowledge": "来源鉴定围绕三个问题展开：原植（动）物是什么、用哪一部位入药、应定为什么学名。步骤为观察原植物形态、核对文献记载、核对腊叶标本或实物，最后以双名法写出学名。药材科属是鉴定的第一把钥匙，例如同为伞形科的当归与川芎根茎形态各异，但科属线索先锁定方向。",
+        "misjudgment": "只记药材外观不记基原。错：不同基原可产出外观相近的药材（如柴胡与银柴胡分属伞形科与石竹科），来源鉴定先于性状判断，基原错了后面全盘皆错。",
+        "reasoning": "两味药材外观几乎一致，为何必须先做来源鉴定才能谈后续鉴别？",
+        "feedback": "外观相近的药材可能来自不同科属，其成分与功效并不相同，先定基原才能选对显微和理化鉴别指标，否则按外观先入为主极易张冠李戴。",
+        "transfer": "遇到一味外形酷似人参的根类药材，第一步应核对其哪类信息？"
+      },
+      "stdJudgment": "来源鉴定又称基原鉴定，是用植物分类学等方法确定中药原动植物或矿物的学名与药用部位，是中药鉴定的第一步，性状、显微、理化鉴定都须在其基础上展开。",
+      "coreDefinition": "来源鉴定是运用分类学知识核对中药基原，确定其科属种名与入药部位，为其余三种鉴定方法提供前提。",
+      "facts": [
+        {
+          "field": "herb.来源鉴定定义",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.鉴定步骤",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.学名命名",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.药用部位",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "来源鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "同名异物、同物异名的品种认定须以法定标准为准，存疑时先核标本"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "同名异物与同物异名品种须以法定标准为准"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-002",
+      "title": "鉴定·中药性状鉴定要点",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "性状鉴定",
+        "水试火试"
+      ],
+      "intent": "掌握性状鉴定常用感官方法及观察内容，会用水试、火试辅助判断。",
+      "learning": {
+        "knowledge": "性状鉴定观察八项：形状（如黄连形如鸡爪）、大小、色泽（朱砂鲜红色）、表面特征（黄芪有纵皱纹）、质地、断面（大黄有星点）、气（薄荷清凉气）、味（甘草味甜）。水试如红花水浸染成金黄色、西红花入水呈喇叭状；火试如血竭火烧冒烟呛鼻、麝香火烧有爆鸣声。",
+        "misjudgment": "把水试染色的颜色深浅当唯一标准。错：水试要观察水色变化与药材本身是否褪色、是否下沉、是否变形，单凭水变黄就断定为西红花，会把染色红花误判为正品。",
+        "reasoning": "红花与西红花同以水试鉴别，为什么必须看药材入水后的形态而不只看水色？",
+        "feedback": "染色伪品同样能使水变黄，正品西红花柱头入水后呈喇叭状张开、橙黄色直线下沉，红花则是管状花整体漂浮、水被染成金黄色，形态特征比水色更可靠。",
+        "transfer": "给一味粉末状药材做性状鉴定，肉眼难辨时该借助哪些水试或火试手段？"
+      },
+      "stdJudgment": "性状鉴定用眼看、手摸、鼻闻、口尝、水试、火试等方法观察药材的形状、大小、色泽、表面、质地、断面、气、味，是饮片验收最常用的一步。",
+      "coreDefinition": "性状鉴定以感官为主观察药材八项特征，辅以水试火试，是快而经济的现场鉴别手段。",
+      "facts": [
+        {
+          "field": "herb.性状鉴定内容",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.水试鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.火试鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状术语",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "性状鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "口尝与火试须在安全条件下进行，毒性药材不得入口尝试"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "毒性药材禁止口尝、嗅吸其粉末",
+          "火试须远离易燃物与口鼻"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-003",
+      "title": "鉴定·中药显微鉴定要点",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "显微鉴定",
+        "粉末制片"
+      ],
+      "intent": "掌握显微鉴定常用的制片方法与主要观察对象，能说出药材粉末中的特征组织。",
+      "learning": {
+        "knowledge": "显微鉴定常用制片：横切片看组织排列与维管束类型，粉末制片看淀粉粒脐点层纹、草酸钙簇晶或针晶、石细胞形状、纤维有无分隔，水合氯醛透化可观察草酸钙结晶与细胞形态。如黄连粉末的鲜黄色石细胞与鳞叶表皮细胞，大黄的草酸钙簇晶大而众多。",
+        "misjudgment": "把淀粉粒有无当成普适指标。错：许多药材经蒸煮加工后淀粉已糊化（如白芍、天南星制品），看不到典型淀粉粒并不代表品种有误，须结合其他组织特征综合判断。",
+        "reasoning": "同为含草酸钙结晶的药材，为什么簇晶、针晶、砂晶指向的科属完全不同？",
+        "feedback": "草酸钙结晶形态与药材科属相关：大黄、白芍多簇晶，半夏、麦冬多针晶，牛膝、黄柏含砂晶或方晶，结晶类型是粉末鉴定的高效线索。",
+        "transfer": "粉末中有大量石细胞和纤维的皮类药材，可优先想到哪些科属？"
+      },
+      "stdJudgment": "显微鉴定借助显微镜观察药材的组织构造、细胞形态及内含物，适用于破碎药材与粉末药材，是性状鉴定难以奏效时的可靠补充。",
+      "coreDefinition": "显微鉴定通过切片、粉末、解离组织等制片，观察淀粉粒、草酸钙结晶、石细胞、纤维等特征来认定品种。",
+      "facts": [
+        {
+          "field": "herb.显微制片方法",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.粉末特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.组织构造",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.理化辅助",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "显微鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "水合氯醛透化等操作涉及化学试剂，按规程使用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "毒性药材粉末制片后须按规定处理残渣"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-004",
+      "title": "鉴定·中药理化鉴定要点",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "理化鉴定",
+        "色谱法"
+      ],
+      "intent": "掌握理化鉴定的常用方法（定性反应、微量升华、荧光、色谱）及各自适用场景。",
+      "learning": {
+        "knowledge": "常用方法：①化学定性，如黄连断面加稀盐酸可见黄柏酮类黄色加深、加氨水后檗碱显橙黄色；②微量升华，如大黄升华得黄色针晶加碱变红；③荧光分析，如秦皮水浸液在紫外灯下显碧蓝色荧光；④薄层色谱与含量测定，如人参以人参皂苷Rg1、Re、Rb1为对照。",
+        "misjudgment": "以为显色反应呈阳性就能断定正品。错：显色反应是定性初筛，结构相近的掺伪成分也可能显同色，须结合色谱分离后的特征斑点与含量数据下结论。",
+        "reasoning": "微量升华对大黄鉴定有何特别价值？为什么比单纯看断面更可靠？",
+        "feedback": "大黄升华物为蒽醌类黄色针状结晶，加碱液变红色，这一反应特异性较强，可区分含土大黄苷的伪品，弥补性状上锦纹星点被修饰的缺陷。",
+        "transfer": "给一批声称人参的粉末做理化鉴定，你会选哪几个指标建立真伪判据？"
+      },
+      "stdJudgment": "理化鉴定利用药材所含化学成分的物理化学性质进行定性定量分析，如显色反应、微量升华、荧光观察及薄层色谱、高效液相色谱等，是判定真伪优劣的客观依据。",
+      "coreDefinition": "理化鉴定以化学反应、升华、荧光和色谱光谱手段检出或测定特征成分，使鉴定从经验走向数据。",
+      "facts": [
+        {
+          "field": "herb.化学定性",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.微量升华",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.荧光分析",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.色谱与光谱",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "理化鉴定属方法学内容，不涉及具体药物剂量",
+        "caution": "微量升华与显色反应涉及有机溶剂，按实验室规程操作"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "有机溶剂与腐蚀性试剂须在通风条件下按规程使用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-005",
+      "title": "鉴定·人参性状鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "人参",
+        "贵细药"
+      ],
+      "intent": "掌握人参（园参）的芦碗、铁线纹、珍珠点等性状特征，能据特征描述认出正品。",
+      "learning": {
+        "knowledge": "人参根部特征：根茎（芦）上有数个凹窝状茎痕称芦碗；主根肩部有细密环纹称铁线纹；支根为皮条须，须根上有细小疣状突起称珍珠点。断面皮部有黄棕色点状树脂道及放射状裂隙，形成层环棕黄色。生晒参气微香而特异，味微苦、回甜。",
+        "misjudgment": "把没有芦碗的根当人参。错：芦碗是人参根茎上的茎痕，是判断人参年限与真伪的关键特征，无芦碗、无铁线纹、无珍珠点的根须先怀疑品种来源。",
+        "reasoning": "人参为什么被称为「三花、五叶、六匹叶」的草本，而商品鉴定却只看根不看茎叶？",
+        "feedback": "商品人参以干燥根入药，茎叶特征在产地可辨，商品环节只能依据根的芦碗、铁线纹、珍珠点等特征鉴别，这些特征直接反映基原与生长年限。",
+        "transfer": "一根芦碗密集、铁线纹明显的鲜根，推断其生长年限大约如何？"
+      },
+      "stdJudgment": "人参为五加科植物人参的干燥根和根茎，主根纺锤形或圆柱形，具芦碗、铁线纹、皮条须与珍珠点，断面形成层环棕黄色，气微香而特异，味微苦回甜。",
+      "coreDefinition": "人参以芦碗多、肩部铁线纹、须根上有珍珠点、断面有树脂道棕色点为其性状要点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气与味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-9g，另煎兑服；研末吞服 1-2g",
+        "caution": "反藜芦、畏五灵脂；实证、热证而正气不虚者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-006",
+      "title": "鉴定·人参真伪区分",
+      "category": "herb",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "中药鉴定",
+        "人参",
+        "伪品",
+        "商陆",
+        "有毒"
+      ],
+      "intent": "综合运用性状、显微、理化手段区分人参及其常见伪品（商陆、华山参、桔梗），识别毒性伪品。",
+      "learning": {
+        "knowledge": "商陆根断面可见多个同心性环纹（罗盘纹），气微味淡，久嚼麻舌，含商陆皂苷等有毒成分；华山参（茄科）根头部有横环纹与点状须根痕，味微苦麻舌，含阿托品类生物碱有毒；桔梗质轻脆、断面有裂隙，味微甜后苦。人参断面无同心环，味微苦回甜，薄层色谱以人参皂苷Rg1、Re、Rb1为对照。",
+        "misjudgment": "见到纺锤形根就认作人参。错：商陆、华山参、桔梗均呈类似外形，商陆断面同心环、华山参与桔梗口尝反应与人参迥异，必须逐项核对断面、气味与理化结果，仅凭外形极易误收有毒伪品。",
+        "reasoning": "商陆与华山参的毒性成分不同，为何两者都不能仅靠外观判断而要借助断面与显微特征？",
+        "feedback": "商陆以同心环纹和麻舌感提示皂苷类毒性，华山参以茄科毛茸和生物碱反应提示阿托品类毒性，外观相近而毒性机制各异，断面与理化特征才是安全鉴别的依据。",
+        "transfer": "病人自称服用人参后口干心悸，若实为华山参，其毒性成分指向哪类反应？"
+      },
+      "stdJudgment": "人参伪品主要有商陆、华山参、桔梗等：商陆断面有同心环纹且味淡麻舌有毒，华山参味微苦麻舌有毒，桔梗质轻泡味先甜后苦，结合人参皂苷薄层鉴别可区分。",
+      "coreDefinition": "辨人参真伪先看有无芦碗铁线纹珍珠点，再看断面有无同心环（商陆）与毒性口尝反应，最后以皂苷TLC确认。",
+      "facts": [
+        {
+          "field": "herb.常见伪品",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.商陆鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.华山参鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.理化鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "人参煎服 3-9g 另煎兑服；伪品商陆、华山参一律不得作人参使用",
+        "caution": "商陆有毒、华山参有毒，误作人参服用可致中毒，发现可疑即送检"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "商陆有毒、华山参有毒，误服可致中毒，禁止将伪品充人参使用",
+          "毒性药材禁止口尝鉴定"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-007",
+      "title": "鉴定·西洋参与人参鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "西洋参",
+        "人参",
+        "易混鉴别"
+      ],
+      "intent": "掌握西洋参与人参在来源、性状、气味上的差异，能区分二者及其常见伪品。",
+      "learning": {
+        "knowledge": "西洋参主根圆柱形或纺锤形，表面浅黄褐色或黄白色，可见细密环纹及纵皱纹，质坚实不易折断，断面皮部黄白色、木部略深，形成层环棕黄色明显，气微而特异，味微苦、回甜；人参表面灰黄色，芦碗多、铁线纹明显，断面树脂道点棕黄色，味甘微苦。含量测定上西洋参以人参皂苷Rb1较高为特征。",
+        "misjudgment": "凭味道微苦就断定是西洋参。错：人参亦微苦，且以国产西洋参冒充进口西洋参、以生晒参冒充西洋参的掺伪常见，须结合环纹细密程度、断面与Rb1含量综合判断。",
+        "reasoning": "生晒参冒充西洋参时，为什么单看外形易上当，而测定人参皂苷Rb1含量能揭穿？",
+        "feedback": "西洋参含人参皂苷Rb1高于生晒参，而生晒参含Rg1相对较高，两者皂苷组成比例不同，含量测定能区分外观被精心仿制的掺伪品。",
+        "transfer": "若一批「西洋参」芦碗密集、味甘明显，你首先怀疑什么？"
+      },
+      "stdJudgment": "西洋参为五加科西洋参的干燥根，表面浅黄褐色有细密环纹，质坚实，断面形成层环明显，味苦微甘；人参味甘微苦，芦碗铁线纹明显，二者以来源、环纹、气味及皂苷组成相区别。",
+      "coreDefinition": "西洋参环纹细密而气微味苦回甜，人参芦长、铁线纹粗显、味甘微苦，二者以皂苷Rb1与Rg1比例不同可作理化区分。",
+      "facts": [
+        {
+          "field": "herb.来源区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面与味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.理化区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "西洋参煎服 3-6g，另煎兑服",
+        "caution": "中阳虚衰、寒湿中阻及气郁化火者不宜用西洋参"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-008",
+      "title": "鉴定·党参性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "党参"
+      ],
+      "intent": "掌握党参狮子盘头、菊花心等性状特征，能认出现行商品党参。",
+      "learning": {
+        "knowledge": "党参根长圆柱形稍弯曲，表面灰黄棕色或灰褐色，有纵皱纹及横长皮孔样突起；根头部有多数疣状突起的茎痕及芽，习称狮子盘头，根头下有环状横纹；支根断落处常有黑褐色胶状物。质稍硬而韧，断面皮部淡黄白色至淡棕色、木部淡黄色，有放射状纹理及裂隙称菊花心，气微香、味微甜。",
+        "misjudgment": "把党参当人参或把无狮子盘头的根当党参。错：党参味甜、无珍珠点与铁线纹，与人参味微苦回甜迥异；狮子盘头是党参根头部的特征茎痕，缺失时须怀疑品种。",
+        "reasoning": "党参与人参同为补气药，为何鉴定上不能凭功效相近就混用？",
+        "feedback": "二者科属不同，党参为桔梗科、人参为五加科，性状上党参狮子盘头、味甜，人参芦碗珍珠点、味苦回甜，基原不同则成分功效有别，处方互替须经辨证。",
+        "transfer": "一味药味甜、断面菊花心、无芦碗的根类药材，最可能是什么？"
+      },
+      "stdJudgment": "党参为桔梗科党参的干燥根，根头部有多数疣状突起的茎痕及芽称狮子盘头，断面皮部淡黄白色、木部淡黄色呈菊花心，气微香、味微甜，嚼之无渣。",
+      "coreDefinition": "党参以狮子盘头、断面菊花心、味甜为其性状三要点，与味苦的人参相区别。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气与味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 9-30g",
+        "caution": "实热证及气滞证不宜单用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-009",
+      "title": "鉴定·黄芪性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "黄芪"
+      ],
+      "intent": "掌握黄芪金井玉栏、菊花心与豆腥味等特征，能区分黄芪饮片真伪。",
+      "learning": {
+        "knowledge": "黄芪根圆柱形，表面淡棕黄色或淡棕褐色，有纵皱纹及横向皮孔；质坚韧，断面纤维性并显粉性，皮部黄白色、木部淡黄色，射线放射状与木部纹理交织成菊花心，老根中心偶呈枯朽状黑褐色。嚼之微有豆腥味，这一特征可与同形伪品区分。显微下黄芪含纤维、具缘纹孔导管及淀粉粒。",
+        "misjudgment": "以为黄芪断面越白越好。错：黄芪以皮黄肉白为常，若断面异常洁白且无菊花心、嚼之无豆腥味，应疑为苜蓿根、锦鸡儿根等伪品，须核对显微纤维特征。",
+        "reasoning": "黄芪饮片切成斜片后，为什么「金井玉栏」仍可作为鉴别线索？",
+        "feedback": "斜切片上黄白相间的皮部与木部仍清晰可见，配合菊花心纹理与豆腥味，是饮片阶段辨识黄芪与同科伪品的重要依据。",
+        "transfer": "黄芪与甘草同属豆科，断面都有菊花心，如何用气味快速区分？"
+      },
+      "stdJudgment": "黄芪为豆科蒙古黄芪或膜荚黄芪的干燥根，断面皮部黄白色、木部淡黄色，呈菊花心纹理，老根中心偶呈枯朽黑褐色，嚼之微有豆腥味。",
+      "coreDefinition": "黄芪以皮黄肉白（金井玉栏）、菊花心、豆腥味为鉴别要点，属豆科根类。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 9-30g",
+        "caution": "表实邪盛、内有积滞者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-010",
+      "title": "鉴定·甘草性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "甘草"
+      ],
+      "intent": "掌握甘草外皮红棕、断面菊花心、味甜而特殊的性状特征。",
+      "learning": {
+        "knowledge": "甘草根圆柱形，外皮红棕色或灰棕色，具明显纵皱纹、沟纹及稀疏细根痕；质坚实，断面略显纤维性，黄白色，有裂隙，形成层环明显，射线放射状（菊花心）。根茎表面有芽痕，断面中央有髓。气微、味甜而特殊，嚼之纤维性强。显微下可见晶鞘纤维与具缘纹孔导管。",
+        "misjudgment": "把甜味当作甘草的充分判据。错：某些伪品或掺糖饮片也甜，须同时核对红棕外皮、菊花心与晶鞘纤维，甜而纤维少者反而不像正品。",
+        "reasoning": "甘草与黄芪同科，断面均有菊花心，为何以味甜与豆腥味即可区分？",
+        "feedback": "甘草味甜而特殊，黄芪嚼之微有豆腥味，二者气味差异显著，是最便捷的现场区分法，再配合晶鞘纤维等显微特征可定论。",
+        "transfer": "处方用炙甘草与生甘草，两者在性状上应如何区分炮制前后？"
+      },
+      "stdJudgment": "甘草为豆科甘草、胀果甘草或光果甘草的干燥根和根茎，外皮红棕色有纵沟纹，断面纤维性有裂隙，形成层环明显，味甜而特殊。",
+      "coreDefinition": "甘草以红棕色外皮、纤维性断面、明显形成层环与特殊甜味为鉴别要点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 2-10g",
+        "caution": "反海藻、大戟、甘遂、芫花；大剂量久服可致水肿、血压升高"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "反海藻、大戟、甘遂、芫花，忌同用",
+          "大剂量久服致水肿、血压升高"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-011",
+      "title": "鉴定·当归性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "当归"
+      ],
+      "intent": "掌握当归全归形态、归头归尾划分与浓郁特异香气等特征。",
+      "learning": {
+        "knowledge": "当归略呈圆柱形，下部有支根3-5条或更多，全长15-25cm；表面黄棕色至棕褐色，有纵皱纹及横长皮孔样突起；根头（归头）直径1.5-4cm，具环纹，上端圆钝，有紫色或黄绿色的茎及叶鞘残基。质柔韧，断面黄白色或淡黄棕色，皮部厚、有棕色油点（油室）及裂隙，木部色较淡，形成层环黄棕色。气浓郁特异，味甘、辛、微苦。",
+        "misjudgment": "把独活当当归。错：独活根头部有横环纹、断面皮部灰白色、木部灰黄色，气浊而特异，与当归的甘辛香气及油点断面对不上，须看归头形态与断面油室。",
+        "reasoning": "当归的香气来自挥发油，为什么陈放过久的当归香气变淡会影响质量判断？",
+        "feedback": "挥发油是当归的主要有效部位，久存或曝晒致挥发油散失，香气变淡、油点干瘪，性状与质量同时下降，故当归宜密封避光保存。",
+        "transfer": "当归头、身、尾功效侧重不同，商品上如何凭性状辨认三部分？"
+      },
+      "stdJudgment": "当归为伞形科当归的干燥根，根头称归头、主根称归身、支根称归尾，全归呈圆柱形下部有支根，断面皮部黄白色有棕色油点，气浓郁特异、味甘辛微苦。",
+      "coreDefinition": "当归以归头膨大、断面油点、浓郁特异香气为鉴别要点，属伞形科根类。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气与味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 6-12g",
+        "caution": "湿盛中满、大便溏泄者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-012",
+      "title": "鉴定·川芎性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "川芎"
+      ],
+      "intent": "掌握川芎拳形团块、波状环纹与浓香等特征，能认出川芎饮片。",
+      "learning": {
+        "knowledge": "川芎为不规则结节状拳形团块，直径2-7cm；表面黄褐色，粗糙皱缩，有多数平行隆起的轮节，顶端有凹陷的类圆形茎痕，下侧及轮节上有多数小瘤状根痕。质坚实，断面黄白色或灰黄色，可见波状环纹（形成层）及错综纹理，散有黄棕色小油点（油室）。纵切片呈蝴蝶形，习称蝴蝶片，气浓香、味苦辛微甘、稍有麻舌感。",
+        "misjudgment": "把抚芎或茶芎当川芎。错：抚芎为川芎同属植物或栽培变种，块茎较大、香气较弱，断面油点少；正品川芎以拳形、轮节、油点、浓香为据，外形规整光滑者反要警惕。",
+        "reasoning": "川芎纵切片为什么习称蝴蝶片，这个特征对鉴定有什么价值？",
+        "feedback": "根茎多结节且轮节隆起，纵切后两侧不对称呈蝴蝶形，是川芎切制饮片的形态标志，也能提示药材确为川芎根茎而非其他伞形科根类。",
+        "transfer": "川芎与当归同科，如何凭断面与气味快速区分两者？"
+      },
+      "stdJudgment": "川芎为伞形科川芎的干燥根茎，呈不规则结节状拳形团块，表面黄褐色粗糙，断面黄白色散有黄棕色油室，纵切片边缘不整齐似蝴蝶，气浓香、味苦辛微甘。",
+      "coreDefinition": "川芎以拳形团块、波状环纹、黄棕色油室与浓烈香气为鉴别要点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-10g",
+        "caution": "阴虚火旺、月经过多者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-013",
+      "title": "鉴定·地黄生熟饮片鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "地黄",
+        "炮制饮片"
+      ],
+      "intent": "掌握鲜地黄、生地黄、熟地黄的性状差异，能按外观区分三种商品形态。",
+      "learning": {
+        "knowledge": "鲜地黄纺锤形或条状，表面浅红黄色，具弯曲纵皱纹与横长皮孔，断面皮部淡黄白色、可见橘红色油点，味微甜微苦。生地黄为干燥块根，不规则团块状或长圆形，中间膨大两端稍细，表面棕黑色或棕灰色，极皱缩，具不规则横曲纹，断面棕黑色或乌黑色、有光泽、具黏性。熟地黄为生地黄蒸制而成，表面乌黑发亮、质柔软而带韧性、不易折断，断面乌黑色、滋润，味甜。",
+        "misjudgment": "把生地黄的乌黑断面当成熟地黄。错：生地黄断面棕黑有光泽但质较硬、不黏腻，熟地黄经反复蒸晒乌黑油润、质软黏手，甜味更浓，单看颜色不够，要结合软硬与黏性。",
+        "reasoning": "鲜地黄、生地黄、熟地黄同出一源，为什么药性与外观同时改变？",
+        "feedback": "蒸制使环烯醚萜苷类成分转化、多糖溶出，颜色由黄白转乌黑、质地从脆硬转柔润，凉血与滋阴补血的侧重也随之改变，外观与功效变化同源。",
+        "transfer": "一张处方同时写生地黄与熟地黄，抓药时如何防止两者混淆？"
+      },
+      "stdJudgment": "地黄为玄参科地黄的新鲜或干燥块根。鲜地黄纺锤形黄白色有橘红油点；生地黄不规则团块棕黑色皱缩；熟地黄乌黑油润柔软黏腻，三者在性状上界限分明。",
+      "coreDefinition": "地黄按加工分鲜、生、熟三态：鲜者黄白，生者棕黑皱缩，熟者乌黑油润。",
+      "facts": [
+        {
+          "field": "herb.鲜地黄鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.生地黄鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.熟地黄鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "生地黄煎服 10-15g，鲜地黄 12-30g，熟地黄 9-15g",
+        "caution": "生地黄性寒，脾虚湿滞、腹满便溏者慎用；熟地黄滋腻碍胃"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-014",
+      "title": "鉴定·山药性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "山药"
+      ],
+      "intent": "掌握山药毛山药与光山药的性状特征及断面粉性、味淡微酸嚼之发黏等特点。",
+      "learning": {
+        "knowledge": "毛山药略呈圆柱形，弯曲而稍扁，表面黄白色或淡黄色，有纵沟、纵皱纹及须根痕，偶有浅棕色外皮残留；光山药为经加工刮去外皮、搓圆的圆柱状，表面洁白、光滑，两端平截。质坚实，断面白色、粉性，颗粒状。气微、味淡、微酸，嚼之发黏。显微下可见草酸钙针晶束及淀粉粒。",
+        "misjudgment": "把断面不粉、嚼之不发黏的块茎当山药。错：正品山药粉性足、嚼之发黏，若断面纤维性、味甜或麻舌，多为参薯、木薯或伪充品，须核对针晶束与淀粉粒。",
+        "reasoning": "山药久嚼发黏与其中黏液质有关，为什么这一感觉特征可作为真伪线索？",
+        "feedback": "山药含大量黏液质与多糖，嚼之黏滑是其特征，伪品如木薯、蕉芋等嚼之无此黏性，故口尝发黏与否是现场快速鉴别要点。",
+        "transfer": "粉末状山药饮片如何用显微方法确认其含草酸钙针晶束？"
+      },
+      "stdJudgment": "山药为薯蓣科薯蓣的干燥根茎。毛山药表面黄白色有纵沟纹，光山药洁白光滑圆柱状，断面白色粉性，味淡微酸，嚼之发黏，为其鉴别要点。",
+      "coreDefinition": "山药以白色粉性断面、味淡微酸、嚼之发黏为特征，伪品多无此黏性。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 15-30g",
+        "caution": "湿盛中满或有积滞者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-015",
+      "title": "鉴定·白术与苍术鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "白术",
+        "苍术"
+      ],
+      "intent": "掌握白术云头、油点与苍术朱砂点、白毛状结晶的差异，能区分两味燥湿药。",
+      "learning": {
+        "knowledge": "白术为不规则肥厚团块，表面灰黄色或灰棕色，有瘤状突起及断续纵皱沟纹，下部两侧膨大似如意头，习称云头；断面黄白色至淡棕色，散有棕黄色油点（油室），木质部呈放射状，气清香、味甘微辛、嚼之略带黏性。茅苍术呈不规则连珠状或结节状圆柱形，表面灰棕色，断面黄白色散有多数橙黄色或棕红色油点（朱砂点），暴露稍久可析出白毛状细针结晶，气香特异、味辛苦微甘。",
+        "misjudgment": "把两者统称「术」不加区分。错：白术健脾益气为主，断面油点少而气清香；苍术燥湿运脾为主，断面朱砂点密、有白毛状结晶、气香强烈，两者功效与鉴定特征均不同，须分别入药。",
+        "reasoning": "苍术断面暴露后析出的白毛状结晶是什么，为什么是茅苍术的鉴别标志？",
+        "feedback": "白毛状结晶是苍术挥发油中成分析出形成的针状物，茅苍术含量高、析出明显，北苍术及伪品少见，故作为茅苍术的性状鉴别特征。",
+        "transfer": "处方写「白术」而药房发来断面朱砂点明显的药材，应作何处理？"
+      },
+      "stdJudgment": "白术为菊科白术的干燥根茎，呈肥厚拳状团块有瘤状突起，断面散有棕黄色油点；苍术为菊科茅苍术或北苍术的干燥根茎，断面散有橙黄色油点（朱砂点），暴露稍久可析出白毛状结晶。",
+      "coreDefinition": "白术以云头、棕黄油点、气清香为特征；苍术以朱砂点、白毛状结晶、气香特异为特征。",
+      "facts": [
+        {
+          "field": "herb.白术性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.苍术性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "白术煎服 6-12g；苍术煎服 3-9g",
+        "caution": "苍术辛温苦燥，阴虚内热、气虚多汗者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-016",
+      "title": "鉴定·黄连性状与显微鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "黄连"
+      ],
+      "intent": "掌握味连鸡爪形与过桥特征，结合显微石细胞与味极苦鉴别黄连。",
+      "learning": {
+        "knowledge": "味连多分枝，集聚成簇形如鸡爪，表面灰黄色或黄褐色，粗糙有不规则结节状隆起及须根残基，有的节间表面平滑如茎秆，习称过桥；断面不整齐，皮部橙红色或暗棕色，木部鲜黄色或橙黄色，呈放射状排列，髓部有时中空。气微、味极苦，嚼之唾液可染成黄色。显微下味连皮层与髓部有石细胞，粉末鲜黄色，含草酸钙方晶。",
+        "misjudgment": "把有过桥的味连误当雅连。错：过桥恰是味连的特征（雅连无过桥、单枝），把过桥当作伪品标志正好判反；应先数分枝与看断面再定品种。",
+        "reasoning": "黄连的黄色来自小檗碱，为什么断面颜色深浅与含量高低常相关联？",
+        "feedback": "小檗碱等生物碱显黄色，含量高则断面鲜黄、味极苦、唾液染黄明显，故断面黄度与苦度可作为黄连质量的快速参考指标。",
+        "transfer": "黄连粉末显微下发现大量石细胞，这与哪一品种特征对应？"
+      },
+      "stdJudgment": "黄连为毛茛科黄连、三角叶黄连或云连的干燥根茎。味连多分枝集聚成簇形如鸡爪，部分节间平滑如茎秆称过桥，断面木部鲜黄色放射状，味极苦。",
+      "coreDefinition": "黄连以鸡爪形、过桥、断面鲜黄色放射状纹理与极苦味为鉴别要点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 2-5g",
+        "caution": "苦寒伤胃，脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-017",
+      "title": "鉴定·大黄锦纹与星点鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "大黄"
+      ],
+      "intent": "掌握大黄锦纹、星点的特征及其在真伪鉴别中的意义。",
+      "learning": {
+        "knowledge": "大黄根茎呈类圆柱形、圆锥形或不规则块状，表面黄棕色至红棕色，可见类白色网状纹理及星点（异型维管束）散在，习称锦纹；质坚实，断面淡红棕色或黄棕色，颗粒性；根茎髓部宽广，有星点环列或散在；根木质部发达，具放射状纹理，无星点。气清香，味苦微涩，嚼之黏牙，有砂粒感。伪品藏边大黄、河套大黄等断面多无星点，味涩苦而不黏牙。",
+        "misjudgment": "看见断面黄色就当大黄。错：同属土大黄、藏边大黄断面也黄，但无星点或星点排列异常，且不含双蒽酮苷类致泻成分，须以星点、锦纹、嚼之黏牙三项合参。",
+        "reasoning": "大黄根茎有星点而根无星点，这个差异为什么在鉴定上很关键？",
+        "feedback": "星点是根茎髓部的异型维管束，是正品大黄根茎的专属性特征，伪品根茎多无此构造，故星点有无是区分正品与同属伪品的核心指标。",
+        "transfer": "商品大黄饮片切成厚片后星点变小难辨，你还会采用哪些辅助鉴别？"
+      },
+      "stdJudgment": "大黄为蓼科掌叶大黄、唐古特大黄或药用大黄的干燥根和根茎。根茎断面有星点（异型维管束）排列成环，表面有类白色网状纹理称锦纹，嚼之黏牙有砂粒感。",
+      "coreDefinition": "大黄以表面锦纹、断面星点、味苦嚼之黏牙有砂粒感为鉴别要点，伪品多无星点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.星点与锦纹",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-15g，泻下通便宜后下或开水泡服",
+        "caution": "孕妇及月经期、哺乳期慎用；脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-018",
+      "title": "鉴定·附子炮制品种鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "附子",
+        "有毒",
+        "炮制品"
+      ],
+      "intent": "掌握盐附子、黑顺片、白附片的性状差异与毒性警戒，理解炮制减毒在鉴定中的意义。",
+      "learning": {
+        "knowledge": "盐附子呈圆锥形，长4-7cm，表面灰黑色，被盐霜，顶端有凹陷的芽痕，周围有瘤状突起的支根或支根痕，体重，横切面灰褐色，可见充满盐霜的小空隙及多角形形成层环纹，味咸而麻舌。黑顺片为纵切片，上宽下窄，外皮黑褐色，切面暗黄色，油润具光泽，半透明状，并有纵向导管束。白附片无外皮，黄白色，半透明，厚约3mm。生附子含剧毒的双酯型乌头碱，经盐渍、蒸煮等炮制水解为乌头原碱而减毒。",
+        "misjudgment": "以为黑顺片颜色越黑越好。错：黑顺片黑褐色来自胆巴浸渍与蒸煮，若内外皆黑且质地僵硬，可能为劣质或染色品；正品切面暗黄半透明、油润有光泽，须看切面而非单看外皮颜色。",
+        "reasoning": "生附子与炮制品外观迥异，为什么药典强制规定附子须炮制后方可内服？",
+        "feedback": "生附子双酯型乌头碱毒性剧烈，炮制使乌头碱水解为单酯型、原碱型而毒性大减，故未经炮制或炮制不合格的附子一律不得入煎剂，先煎久煎进一步减毒。",
+        "transfer": "煎煮附子时要求口尝无麻辣感，这一标准与乌头碱水解有何对应关系？"
+      },
+      "stdJudgment": "附子为毛茛科乌头的子根加工品。盐附子圆锥形表面灰黑色有盐霜；黑顺片为纵切片外皮黑褐色断面暗黄色半透明；白附片无外皮黄白色半透明。三者均须炮制去毒后使用。",
+      "coreDefinition": "附子分盐附子、黑顺片、白附片三种加工形态，均以乌头碱类毒性成分减毒为炮制目标。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.盐附子鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.黑顺片鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.白附片鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-15g，先煎久煎至口尝无麻辣感",
+        "caution": "附子有毒须炮制后入药；反半夏、瓜蒌、贝母、白蔹、白及；孕妇禁用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "附子须炮制后入药，先煎久煎至无麻辣感",
+          "反半夏、瓜蒌、贝母、白蔹、白及",
+          "孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-019",
+      "title": "鉴定·半夏与天南星鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "半夏",
+        "天南星",
+        "有毒"
+      ],
+      "intent": "区分半夏与天南星块茎的性状与显微差异，掌握两者毒性及炮制警戒。",
+      "learning": {
+        "knowledge": "半夏呈类球形，有的稍偏斜，直径1-1.5cm，表面白色或浅黄色，顶端有凹陷的茎痕，周围密布麻点状根痕，下面钝圆较光滑；质坚实，断面洁白富粉性。味辛辣、麻舌而刺喉。天南星呈扁球形，直径1.5-6.5cm，表面类白色或淡棕色，较光滑，顶端有凹陷的茎痕，周围有麻点状根痕，有的块茎周边具球状侧芽（虎掌南星）；断面白色粉性，味辣、有麻舌感。半夏粉末含众多淀粉粒及草酸钙针晶束，天南星针晶较长且多。",
+        "misjudgment": "把小个天南星当半夏。错：半夏块茎小而圆、无侧芽，天南星块茎明显较大且常有侧芽，粉末中半夏针晶短而天南星针晶长而多，需形状与显微合参。",
+        "reasoning": "半夏与天南星都有草酸钙针晶与辛辣麻舌感，为什么必须严格区分而不能混用？",
+        "feedback": "两者虽同科，但功效主治不同（半夏燥湿化痰降逆止呕，天南星祛风痰止痉），毒性成分相似而品种不同，混用会改变方义并增加毒性风险，鉴定上务必分清。",
+        "transfer": "处方用制半夏，药房发来制天南星，仅凭外观你认为应如何快速识别并处理？"
+      },
+      "stdJudgment": "半夏为天南星科半夏的干燥块茎，类球形，顶端有凹窝状茎痕，周围密布麻点状根痕，断面白色富粉性，味辛辣麻舌刺喉；天南星块茎扁球形较大，周边常有球状侧芽，二者以大小、侧芽与粉末显微相区别。",
+      "coreDefinition": "半夏与天南星同科有毒，半夏块茎小而圆、茎痕凹窝深，天南星块茎大而扁、多有侧芽，均须炮制减毒。",
+      "facts": [
+        {
+          "field": "herb.半夏性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.天南星性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "半夏制用煎服 3-9g；天南星制用煎服 3-9g；生品均只供外用适量",
+        "caution": "半夏反乌头类（含附子）、孕妇慎用；天南星有毒孕妇慎用；生品禁止内服"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "半夏生品有毒须炮制，反乌头类（含附子）",
+          "天南星有毒，生品禁止内服，孕妇慎用",
+          "生半夏、生天南星仅可外用适量"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-020",
+      "title": "鉴定·川贝母与浙贝母鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "川贝母",
+        "浙贝母"
+      ],
+      "intent": "掌握川贝母松贝、青贝、炉贝与浙贝母大贝、珠贝的性状特征，能区分两类贝母。",
+      "learning": {
+        "knowledge": "松贝呈圆锥形或心脏形，高0.3-0.8cm，外层鳞叶2瓣，大小悬殊，大瓣紧抱小瓣，未抱部分呈新月形，习称怀中抱月；顶部闭合，底部平、微凹入。青贝呈类球形，外层鳞叶2瓣，大小相近，相对抱合，顶部开裂，内有心芽和小鳞叶。炉贝呈长圆锥形，表面类白色或浅黄棕色，有棕色斑点，习称虎皮斑。浙贝母大贝为外层单瓣鳞叶，一面凹入一面凸出，呈元宝状；珠贝为完整鳞茎，扁圆形，外层鳞叶2瓣互相抱合，内有小鳞叶2-3枚。",
+        "misjudgment": "把浙贝母珠贝误作川贝。错：珠贝直径明显大于川贝，两瓣大小相近而肥厚，且味苦较川贝重；川贝以松贝怀中抱月为标志，块头小、瓣紧抱。",
+        "reasoning": "川贝母价高而浙贝母价低，为什么市场以川贝冒充多见，鉴定上应抓住哪几个硬指标？",
+        "feedback": "川贝母体积小、怀中抱月、味微苦，浙贝母体大、元宝状或珠贝状、味苦明显，以鳞茎大小、抱合形态、苦味程度三项即可划清界限。",
+        "transfer": "一袋「松贝」中混有部分顶部开裂、两瓣等大的鳞茎，应如何判定并分拣？"
+      },
+      "stdJudgment": "川贝母为百合科川贝母、暗紫贝母等干燥鳞茎，松贝呈怀中抱月、青贝两瓣大小相近、炉贝有虎皮斑；浙贝母鳞茎大贝呈元宝状，珠贝扁圆形两瓣抱合。",
+      "coreDefinition": "川贝母鳞茎小、瓣紧抱（怀中抱月），浙贝母鳞茎大、元宝状或扁圆抱合，以形状与大小相区别。",
+      "facts": [
+        {
+          "field": "herb.来源区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.松贝鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.青贝炉贝鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.浙贝鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "川贝母煎服 3-10g，研粉冲服 1-2g；浙贝母煎服 5-10g",
+        "caution": "均反乌头（川乌、草乌、附子）"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "反乌头类（川乌、草乌、附子），忌同用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-021",
+      "title": "鉴定·三七性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "三七"
+      ],
+      "intent": "掌握三七铜皮铁骨、断面放射状纹理与味苦回甜等特征。",
+      "learning": {
+        "knowledge": "三七主根呈类圆锥形或圆柱形，长1-6cm，直径1-4cm，表面灰褐色或灰黄色，有断续的纵皱纹及支根痕，顶端有茎痕，周围有瘤状突起；质坚实，击碎后断面灰绿色、黄绿色或灰白色，皮部与木部常分离，木部微呈放射状纹理。习称外皮灰黄似铜、质坚如铁为铜皮铁骨。气微、味苦回甜。伪品莪术、菊三七断面与气味均不同，莪术有姜黄气、菊三七味淡。",
+        "misjudgment": "把莪术切片当三七片。错：莪术断面黄绿色有蜡样光泽与姜黄气，三七断面灰绿、皮木分离、味苦回甜，须以质地、断面与气味区分。",
+        "reasoning": "三七「铜皮铁骨」的说法如何体现其性状与质量的关系？",
+        "feedback": "铜皮指外皮灰黄细腻，铁骨指质坚如铁、击之不易碎，两者反映药材成熟度与干燥度，质坚者有效成分含量相对稳定，是优质三七的性状标志。",
+        "transfer": "三七粉与面粉混合的伪品，可用什么简单方法现场鉴别？"
+      },
+      "stdJudgment": "三七为五加科三七的干燥根和根茎，类圆锥形，表面灰黄色有瘤状突起，习称铜皮铁骨，断面灰绿色、木部微呈放射状纹理，味苦回甜。",
+      "coreDefinition": "三七以铜皮铁骨、断面灰绿放射状、味苦回甜为鉴别要点，属五加科。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-9g；研粉吞服 1-3g",
+        "caution": "孕妇慎用；血虚无瘀者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-022",
+      "title": "鉴定·柴胡与银柴胡鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "柴胡",
+        "银柴胡"
+      ],
+      "intent": "区分柴胡与银柴胡的科属来源、性状特征及伪品（大叶柴胡）。",
+      "learning": {
+        "knowledge": "北柴胡根圆柱形或长圆锥形，下部分枝，表面浅棕色或黑褐色，有纵皱纹、支根痕及皮孔；质硬而韧，断面呈片状纤维性，皮部浅棕色、木部黄白色。南柴胡根较细，表面红棕色，断面不显纤维性，有败油气。银柴胡根呈类圆柱形，表面浅棕黄色至浅棕色，有扭曲的纵皱纹及支根痕，根头部有多数疣状突起的茎痕及芽，习称珍珠盘；断面黄白色，有放射状纹理，木部有黄白相间的菊花心样纹理，味微甜。大叶柴胡表面棕褐色，断面有髓，有毒，不可作柴胡用。",
+        "misjudgment": "把银柴胡当柴胡使用。错：两者科属不同，柴胡升举阳气、疏肝解郁，银柴胡清虚热、除疳热，功效各异；银柴胡根头珍珠盘、味微甜，柴胡断面纤维性、味微苦，性状即可区分。",
+        "reasoning": "大叶柴胡外形与柴胡接近，为什么药典明确禁止其作柴胡药用？",
+        "feedback": "大叶柴胡含毒性成分，误用可致中毒，且其断面中央有髓（正品柴胡无髓），鉴定时看有无髓部即可快速排除这一有毒伪品。",
+        "transfer": "一味根头有珍珠盘、断面菊花心样纹理的药材，你如何判定其归属？"
+      },
+      "stdJudgment": "柴胡为伞形科柴胡的干燥根，断面片状纤维性、皮部浅棕色木部黄白色；银柴胡为石竹科银柴胡的干燥根，根头部有珍珠盘，断面有黄白相间菊花心样纹理，味微甜。",
+      "coreDefinition": "柴胡伞形科、断面纤维性、味微苦；银柴胡石竹科、根头珍珠盘、味微甜，二者科属与性状迥异。",
+      "facts": [
+        {
+          "field": "herb.柴胡来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.银柴胡来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品大叶柴胡",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "柴胡煎服 3-10g；银柴胡煎服 3-10g",
+        "caution": "柴胡升散，阴虚阳亢、肝风内动者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-023",
+      "title": "鉴定·防风与羌活鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "防风",
+        "羌活"
+      ],
+      "intent": "掌握防风蚯蚓头、菊花心与羌活蚕羌竹节羌的性状特征，能区分两味解表祛风药。",
+      "learning": {
+        "knowledge": "防风呈长圆柱形，下部渐细，表面灰棕色，粗糙，有纵皱纹及横长皮孔样突起；根头部有明显密集的环纹，习称蚯蚓头，环纹上常有棕褐色毛状残存叶基；断面皮部浅棕色、有裂隙，木部浅黄色，形成层环明显，呈菊花心样，气特异、味微甘。羌活为根茎及根，蚕羌呈圆柱形、环节紧密形如蚕，竹节羌环节稀疏形如竹节，表面棕褐色，有紧密隆起的环纹及疣状突起的根痕；断面有裂隙及多数油点，气香浓郁，味苦辛微麻舌。",
+        "misjudgment": "把蚯蚓头当作所有伞形科根的共同特征。错：蚯蚓头是防风根头部密集环纹的专称，羌活是环节状根茎、前胡有不同形态，同科不同种特征各异，须逐一核对。",
+        "reasoning": "防风气微甘而羌活味苦辛，同属解表祛风药，为什么气味差异如此明显？",
+        "feedback": "羌活含大量挥发油故气香浓郁、味苦辛，防风挥发油含量较低故气特异而微甘，气味差异反映两者挥发油组成与含量不同，也是现场鉴别的快捷线索。",
+        "transfer": "解表剂中防风与羌活常同用，抓药时如何凭环节与蚯蚓头快速分开？"
+      },
+      "stdJudgment": "防风为伞形科防风干燥根，根头部有明显密集环纹称蚯蚓头，断面皮部浅棕色有裂隙、木部浅黄色呈菊花心，气特异味微甘；羌活根茎环节紧密形如蚕或竹节状，断面有油点，气香浓郁味苦辛。",
+      "coreDefinition": "防风以蚯蚓头、菊花心为标志；羌活以紧密环节（蚕羌）与浓郁香气为标志。",
+      "facts": [
+        {
+          "field": "herb.防风性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.羌活性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "防风煎服 5-10g；羌活煎服 3-10g",
+        "caution": "阴虚火旺、血虚发痉者慎用防风；羌活辛温燥烈，阴血亏虚者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-024",
+      "title": "鉴定·丹参与玄参鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "丹参",
+        "玄参"
+      ],
+      "intent": "掌握丹参红棕外皮与玄参乌黑断面的性状差异，能区分两味名字相近的根类药。",
+      "learning": {
+        "knowledge": "丹参根茎粗短，根长圆柱形，表面棕红色或暗棕红色，粗糙具纵皱纹，老根外皮疏松呈鳞片状剥落；断面疏松，皮部棕红色，木部灰黄色或紫褐色，导管束黄白色呈放射状排列。气微、味微苦涩。玄参根类圆柱形，中间略粗或上粗下细，有的弯曲似羊角，表面灰黄色或灰褐色，有不规则的纵沟、横向皮孔样突起及稀疏横裂纹；断面黑色、微有光泽，质坚实不易折断，气特异似焦糖，味甘、微苦、咸。",
+        "misjudgment": "因药名都带「参」而互相混淆。错：丹参色红为唇形科、活血祛瘀，玄参色黑为玄参科、清热凉血滋阴，科属、断面、气味均不同，凭外皮颜色即可一眼区分。",
+        "reasoning": "玄参断面乌黑与加工有关还是天然如此，这对鉴别有何提示？",
+        "feedback": "玄参干燥后内部组织氧化而显乌黑色，是其品种特征而非霉变，若断面不黑或夹杂黄白色，反而要怀疑加工不当或品种有误。",
+        "transfer": "两袋根类药材，一袋外皮红棕、一袋外皮灰黄断面乌黑，你分别判定为何药？"
+      },
+      "stdJudgment": "丹参为唇形科丹参的干燥根和根茎，外皮棕红色、老根鳞片状剥落，断面皮部棕红色木部灰黄色；玄参为玄参科玄参的干燥根，断面黑色微有光泽，气似焦糖，味甘微苦咸。",
+      "coreDefinition": "丹参色红、断面皮红木黄；玄参色黑、断面乌黑有焦糖气，一红一黑极易区分。",
+      "facts": [
+        {
+          "field": "herb.丹参来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.玄参来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "丹参煎服 10-15g；玄参煎服 9-15g",
+        "caution": "两者均反藜芦；丹参孕妇慎用，玄参脾虚便溏者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "丹参、玄参均反藜芦",
+          "丹参孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-025",
+      "title": "鉴定·白芍与赤芍鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "根及根茎类",
+        "白芍",
+        "赤芍"
+      ],
+      "intent": "掌握白芍去皮煮制、赤芍不去皮不煮的加工差异及两者的性状区别。",
+      "learning": {
+        "knowledge": "白芍呈圆柱形，表面类白色或淡红棕色，光洁或有纵皱纹及细根痕，偶有残存棕褐色外皮；质坚实，断面类白色或微带棕红色，形成层环明显，射线放射状。赤芍呈圆柱形，稍弯曲，表面棕褐色，粗糙，有纵沟及横皮孔，外皮易脱落；质硬而脆，断面粉白色或微红色，木部放射状纹理明显，有的具裂隙。加工差异：白芍经刮皮、沸水煮透后干燥，赤芍直接晒干。显微上白芍木纤维少而短，赤芍木纤维长而多。",
+        "misjudgment": "把赤芍刮皮后当作白芍出售。错：白芍必须经煮制，赤芍刮皮后虽色变浅但未煮制、断面与显微纤维特征仍不同，且两者功效有补泻之别，加工炮制差异是鉴定的关键。",
+        "reasoning": "白芍与赤芍出自同一植物芍药，为什么炮制加工方法不同会造成功效分化？",
+        "feedback": "去皮水煮使白芍偏于养血敛阴柔肝，不去皮生晒的赤芍保留清热凉血散瘀之性，加工方法影响成分与功效定位，故商品形态须与炮制规范一致。",
+        "transfer": "一张处方「白芍、赤芍各10g」，药房如只备一种药材，应如何向患者解释不可替代？"
+      },
+      "stdJudgment": "白芍为毛茛科芍药经去皮水煮的干燥根，表面类白色、断面形成层环明显，味微苦酸；赤芍为芍药或川赤芍不去皮不煮的干燥根，表面棕褐色粗糙，断面木部放射状纹理明显。",
+      "coreDefinition": "白芍去皮煮制故色白而光洁，赤芍不去皮不煮故色褐而糙，加工差异决定性状差异。",
+      "facts": [
+        {
+          "field": "herb.白芍来源加工",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.赤芍来源加工",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "白芍煎服 6-15g；赤芍煎服 6-12g",
+        "caution": "两者均反藜芦；白芍阳衰虚寒者不宜，赤芍血虚有寒者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "白芍、赤芍均反藜芦"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-026",
+      "title": "鉴定·杜仲性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "茎木皮类",
+        "杜仲"
+      ],
+      "intent": "掌握杜仲折断有银白色橡胶丝这一特征性鉴定要点。",
+      "learning": {
+        "knowledge": "杜仲呈板片状或两边稍向内卷，大小不一，厚0.3-0.7cm；外表面淡灰棕色或灰褐色，有不规则的纵槽纹及纵裂纹，有的可见明显的皮孔；内表面暗紫色或紫褐色，光滑。质脆，易折断，断面有细密、银白色、富弹性的橡胶丝相连，一般可拉至1cm以上才断。气微、味微苦，嚼之有胶状残余物。",
+        "misjudgment": "把无橡胶丝的树皮当杜仲。错：橡胶丝是杜仲含杜仲胶的表现，伪品（如丝棉木皮、红杜仲）或剥取不当的老皮胶丝极少或没有，折断无丝即可否定正品。",
+        "reasoning": "为什么杜仲的橡胶丝是鉴定上的「一票否决」特征？",
+        "feedback": "杜仲胶是杜仲科特有的成分，其他常见伪品皮不含或极少含此胶质，故折断拉丝试验特异性高，丝少、丝短、无丝都提示非正品。",
+        "transfer": "杜仲饮片被切成丝状后橡胶丝特征不明显，还应结合哪些特征复核？"
+      },
+      "stdJudgment": "杜仲为杜仲科杜仲的干燥树皮，板片状，内表面暗紫色光滑，折断有细密银白色富弹性的橡胶丝可拉长1cm以上，味微苦，为最可靠的鉴别特征。",
+      "coreDefinition": "杜仲以折断见银白色橡胶丝为专属性特征，丝长而韧者质优。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.橡胶丝特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.味与断面",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 6-10g",
+        "caution": "阴虚火旺者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-027",
+      "title": "鉴定·厚朴性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "茎木皮类",
+        "厚朴"
+      ],
+      "intent": "掌握厚朴筒状皮、内表面紫棕色划之显油痕、断面小亮星等特征。",
+      "learning": {
+        "knowledge": "干皮呈卷筒状或双卷筒状，习称筒朴；外表面灰棕色或灰褐色，粗糙，有的呈鳞片状，较易剥落，有明显椭圆形皮孔和纵皱纹；内表面紫棕色或深紫褐色，较平滑，具细密纵纹，划之显油痕。断面外侧灰棕色颗粒性，内侧紫褐色纤维性，油性较大，有时可见多数发亮的小结晶，习称小亮星。气香，味辛辣、微苦。根皮呈单筒状或不规则块片，油性大；枝皮多呈单筒状，质脆。",
+        "misjudgment": "把无油性、无亮星的树皮当厚朴。错：小亮星是厚朴酚等酚类成分的结晶，油性与亮星反映含量，伪品或劣质皮划之不显油痕、断面无亮星、气弱，须以油性与气味合参。",
+        "reasoning": "厚朴划之显油痕与断面小亮星，共同说明了什么质量信息？",
+        "feedback": "油痕与亮星都指向厚朴酚类及挥发油含量，含量足则油性大、香气浓，故这两个性状直接反映药材质量，也是区分劣质皮的关键。",
+        "transfer": "厚朴与杜仲同为卷筒状树皮，如何用折断特征快速区分？"
+      },
+      "stdJudgment": "厚朴为木兰科厚朴或凹叶厚朴的干燥干皮、根皮及枝皮，卷筒状或双卷筒状，内表面紫棕色划之显油痕，断面颗粒性与纤维性相间并可见多数小亮星，气香、味辛辣微苦。",
+      "coreDefinition": "厚朴以筒状卷皮、内面划痕显油、断面小亮星（厚朴酚结晶）为鉴别要点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面亮星",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-10g",
+        "caution": "孕妇慎用；气虚津亏者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-028",
+      "title": "鉴定·黄柏与关黄柏鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "茎木皮类",
+        "黄柏",
+        "关黄柏"
+      ],
+      "intent": "掌握川黄柏与关黄柏的来源区别及断面颜色、厚度、黏性等差异。",
+      "learning": {
+        "knowledge": "川黄柏呈板片状或浅槽状，长宽不一，厚0.2-0.4cm；外表面黄褐色或黄棕色，平坦或具纵沟纹，有的可见皮孔痕及残存的灰褐色粗皮；内表面暗黄色或淡棕色，具细密的纵棱纹；体轻，质硬，断面纤维性，呈裂片状分层，深黄色。气微、味极苦，嚼之有黏性，可使唾液染成黄色。关黄柏外表面黄绿色或淡棕黄色，较平坦，有不规则的纵裂纹，皮孔痕小而少见，偶有灰白色的粗皮残留；内表面黄色或黄棕色；断面鲜黄色或黄绿色，纤维性，有的呈裂片状分层。显微上两者均含晶纤维、石细胞，川黄柏黏液细胞较多。",
+        "misjudgment": "把两种黄柏统称黄柏不加区分。错：药典将黄柏与关黄柏分别收载，含量指标不同，处方与调剂须按标签区分，断面颜色（深黄vs鲜黄绿）与厚度是现场判断要点。",
+        "reasoning": "黄柏与关黄柏断面颜色不同，这一差异与有效成分小檗碱含量有什么关系？",
+        "feedback": "小檗碱显黄色，川黄柏含量通常较高故断面深黄、味极苦、染黄明显，关黄柏含量较低断面鲜黄偏绿，颜色深浅可作为含量高低的粗判线索。",
+        "transfer": "一批黄柏嚼之黏性差、断面黄绿色，按药典要求应判定为哪种规格？"
+      },
+      "stdJudgment": "黄柏为芸香科黄皮树的干燥树皮（川黄柏），关黄柏为芸香科黄檗的干燥树皮。川黄柏断面深黄色层片状、嚼之黏性大可染唾液；关黄柏断面鲜黄色或黄绿色、纤维性，二者来源与性状有别。",
+      "coreDefinition": "川黄柏皮厚色深黄、断面层片状，关黄柏皮较薄、断面鲜黄或黄绿，以厚度与断面颜色相区别。",
+      "facts": [
+        {
+          "field": "herb.黄柏来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.关黄柏来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "黄柏煎服 3-12g；关黄柏煎服 3-10g；外用适量",
+        "caution": "苦寒伤胃，脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-029",
+      "title": "鉴定·金银花性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "叶花类",
+        "金银花"
+      ],
+      "intent": "掌握金银花棒状花蕾、黄白相间、密被短柔毛等性状特征。",
+      "learning": {
+        "knowledge": "金银花呈棒状，上粗下细，略弯曲，长2-3cm，上部直径约3mm，下部直径约1.5mm；表面黄白色或绿白色（贮久色渐深），密被短柔毛；偶见叶状苞片。花萼绿色，先端5裂，裂片有毛；开放者花冠筒状，先端二唇形；雄蕊5个，附于筒壁，黄色；雌蕊1个，子房无毛。气清香，味淡、微苦。",
+        "misjudgment": "把山银花当金银花。错：药典已将山银花（灰毡毛忍冬等）与金银花分列，山银花花蕾较瘦长、毛被更密或不同，且绿原酸与皂苷指标有差异，须按基原与性状区分，不能混用。",
+        "reasoning": "金银花「金银」之名如何体现在性状上，开放程度与颜色有何关联？",
+        "feedback": "花蕾初采时黄白或绿白相间，开放后由白转黄，故称金银花；色过深或全开者采收偏晚，有效成分含量可能下降，颜色与开放度是质量参考。",
+        "transfer": "一袋「金银花」花蕾瘦长、毛密且色深，你应怀疑什么并如何复核？"
+      },
+      "stdJudgment": "金银花为忍冬科忍冬的干燥花蕾或带初开的花，呈棒状上粗下细略弯曲，表面黄白色或绿白色贮久色渐深，密被短柔毛，花冠筒状先端二唇形，气清香、味淡微苦。",
+      "coreDefinition": "金银花以棒状花蕾、黄白绿白相间、密被短柔毛、二唇形花冠为鉴别要点。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.花冠结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 6-15g",
+        "caution": "脾胃虚寒及气虚疮疡脓清者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-030",
+      "title": "鉴定·红花与西红花鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "叶花类",
+        "红花",
+        "西红花",
+        "水试"
+      ],
+      "intent": "掌握红花管状花与西红花柱头的性状差异及水试鉴别的要点。",
+      "learning": {
+        "knowledge": "红花为不带子房的管状花，长1-2cm，表面红黄色或红色；花冠筒细长，先端5裂，裂片呈狭条形；雄蕊5枚，花药聚合成筒状，共同包裹柱头；质柔软。气微香、味微苦。水试：取红花少许浸水中，水染成金黄色，花本身不褪色。西红花呈线形，三分枝，长约3cm，暗红色，上部较宽而略扁平，顶端边缘显不整齐的齿状，内侧有一短裂缝，下端有时残留一小段黄色花柱；气特异，微有刺激性，味微苦。水试：浸水中可见橙黄色成直线下降，并逐渐扩散，水被染成黄色，柱头呈喇叭状。",
+        "misjudgment": "把西红花的水色当判据。错：染色伪品同样使水变黄，须观察柱头是否呈喇叭状张开、是否直线下沉，红花则整体漂浮且是管状花形态，只看水色必误判。",
+        "reasoning": "西红花价远高于红花，为什么水试能快速拆穿「染色红花」冒充西红花？",
+        "feedback": "染色红花入水后无柱头喇叭状形态、不呈三分枝，且红花管状花在水中漂浮，与西红花柱头直线下沉、喇叭状张开迥异，水试从形态而非颜色入手即可判别。",
+        "transfer": "一份西红花水试后水面浮油样物且柱头不展开，你怀疑掺入了什么？"
+      },
+      "stdJudgment": "红花为菊科红花的干燥管状花，红色或红黄色，花冠筒状先端5裂，水浸后水染成金黄色而花不褪色；西红花为鸢尾科番红花的干燥柱头，线形三分枝暗红色，入水柱头呈喇叭状、橙黄色直线下沉。",
+      "coreDefinition": "红花是管状花、体轻漂浮；西红花是柱头、三分枝、入水喇叭状下沉，水试形态是硬指标。",
+      "facts": [
+        {
+          "field": "herb.红花来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.西红花来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.水试区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品提示",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "红花煎服 3-10g；西红花煎服 1-3g，或沸水泡服",
+        "caution": "孕妇慎用；西红花用量宜小"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-031",
+      "title": "鉴定·菊花性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "叶花类",
+        "菊花"
+      ],
+      "intent": "掌握菊花头状花序的组成及亳菊、杭菊等主要商品形态。",
+      "learning": {
+        "knowledge": "亳菊呈倒圆锥形或圆筒形，有时稍压扁呈扇形，直径1.5-3cm，离散；总苞碟状，总苞片3-4层，卵形或椭圆形；舌状花数层，位于外围，类白色，劲直，上举，纵向折缩，散生金黄色腺点；管状花多数，两性，位于中央，为舌状花所隐藏，黄色，顶端5齿裂。体轻，质柔润，干时松脆。气清香，味甘、微苦。杭菊呈碟形或扁球形，常数个相连成片，舌状花类白色或黄色，平展或微折叠，彼此粘连。",
+        "misjudgment": "把野菊花当菊花用。错：野菊花为同科野菊的头状花序，花小色黄棕、气芳香而味苦，与甘苦的菊花不同，两者功效侧重不同，药典分列，不得混用。",
+        "reasoning": "亳菊舌状花劲直上举而杭菊平展粘连，这种形态差异说明了什么？",
+        "feedback": "产地加工方式不同：亳菊阴干后花瓣紧抱上举，杭菊蒸后晒干花瓣平展粘连，形态差异是商品规格辨识的直观依据，也是追溯产地的线索。",
+        "transfer": "患者要求「杭白菊」，药房发来花瓣紧抱上举的亳菊，你如何判断？"
+      },
+      "stdJudgment": "菊花为菊科菊的干燥头状花序，外层为舌状花、中央为管状花，气清香、味甘微苦；亳菊呈扁球形、花瓣紧密，杭菊蝶形或扁球形、花瓣阔而疏。",
+      "coreDefinition": "菊花以头状花序、舌状花与管状花相间、气清香为鉴别要点，按产地分亳菊滁菊贡菊杭菊。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.花序结构",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.商品规格",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 5-10g",
+        "caution": "气虚胃寒、食少泄泻者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-032",
+      "title": "鉴定·枸杞子性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "枸杞子"
+      ],
+      "intent": "掌握枸杞子纺锤形、红色柔润、种子肾形等性状特征及常见伪品。",
+      "learning": {
+        "knowledge": "枸杞子呈类纺锤形或椭圆形，长6-20mm，直径3-10mm；表面红色或暗红色，顶端有小突起状的花柱痕，基部有白色的果梗痕；果皮柔韧、皱缩，果肉肉质、柔润而有黏性；种子20-50粒，类肾形，扁而翘，长1.5-1.9mm，表面浅黄色或棕黄色。气微，味甜。伪品如北方枸杞果实较小、种子较多而小，或无宁夏枸杞的甘甜味。",
+        "misjudgment": "以为颜色越红越好。错：经硫熏或染色的枸杞子色过艳而发亮，正品红色或暗红色、果肉柔润有黏性；硫熏品气味刺鼻，染色品水浸脱色明显，须看果肉质地与气味。",
+        "reasoning": "枸杞子味甜而柔润，为什么「柔润」这一手感是判断干燥度与质量的依据？",
+        "feedback": "枸杞含糖与黏液质，干燥适度则柔润有黏性，烘烤过度则干硬色暗、养分损耗，故手感柔润、果肉饱满是优质商品的直观标志。",
+        "transfer": "一批枸杞子颜色异常鲜红且气味刺鼻，应怀疑什么问题并如何处理？"
+      },
+      "stdJudgment": "枸杞子为茄科宁夏枸杞的干燥成熟果实，类纺锤形，表面红色或暗红色，果肉柔润，种子20-50粒肾形扁而翘，气微、味甜。",
+      "coreDefinition": "枸杞子以纺锤形、红色柔润、味甜、种子肾形为鉴别要点，须为宁夏枸杞基原。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.种子特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 6-12g",
+        "caution": "脾虚便溏者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-033",
+      "title": "鉴定·五味子性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "五味子"
+      ],
+      "intent": "掌握北五味子与南五味子的性状区别及果实、种子的鉴别要点。",
+      "learning": {
+        "knowledge": "五味子呈不规则球形或扁球形，直径5-8mm；表面红色、紫红色或暗红色，皱缩，显油润，有的表面呈黑红色或出现白霜；果肉柔软，种子1-2粒，肾形，表面棕黄色，有光泽，种皮薄而脆。果肉气微，味酸；种子破碎后，有香气，味辛、微苦。南五味子为华中五味子的果实，粒较小，表面棕红色至暗棕色，干瘪、皱缩，果肉常紧贴于种子上，种子表面呈颗粒状。",
+        "misjudgment": "把干瘪无油润的果实当正品北五味子。错：北五味子油润肉厚，南五味子干瘪肉薄、种子颗粒状，两者品质与价格相差悬殊，须以果肉厚度、油润度与种子表面区分。",
+        "reasoning": "五味子「五味俱全」的说法，在性状口尝上如何体现？",
+        "feedback": "五味子皮肉甘酸、核中辛苦、都有咸味，故称五味子；口尝以酸为主而带甘，是正品的感官特征，也是与其他浆果伪品区分的气味线索。",
+        "transfer": "一袋五味子粒小干瘪、种子表面颗粒状，你判定其品种并说明依据？"
+      },
+      "stdJudgment": "五味子为木兰科五味子的干燥成熟果实（北五味子），不规则球形，表面红色紫红色皱缩油润，果肉柔软，种子肾形棕黄色有光泽，果肉味酸、种子破碎后味辛微苦。",
+      "coreDefinition": "北五味子果大肉厚油润、味酸，南五味子果小干瘪、果肉紧贴种子，以大小与油润度相区别。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.果实性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.种子特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.南北区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 2-6g，研末服 1-3g",
+        "caution": "表邪未解、内有实热及咳嗽初起者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-034",
+      "title": "鉴定·陈皮与青皮鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "陈皮",
+        "青皮"
+      ],
+      "intent": "掌握陈皮与青皮在采收成熟度、形状与功效侧重上的差异。",
+      "learning": {
+        "knowledge": "陈皮常剥成数瓣，基部相连，有的呈不规则的片状，厚1-4mm；外表面橙红色或红棕色，有细皱纹及凹下的点状油室；内表面浅黄白色，粗糙，附黄白色或黄棕色筋络状维管束。质稍硬而脆。气香，味辛、苦。广陈皮常3瓣相连，形状整齐，厚度均匀，外表面橙黄色或棕红色，油室大而凹入，习称大眼。个青皮呈类球形，直径1-2cm，表面灰绿色或黑绿色，微粗糙，有细密凹下的油室；四花青皮为剖成4裂瓣至基部的果皮，裂瓣长椭圆形。",
+        "misjudgment": "把颜色偏青的陈皮当青皮。错：青皮须为未成熟果实或幼果，果皮灰绿且厚实；陈皮是成熟果皮，橙红或红棕。采收期不同决定功效（陈皮理气调中、青皮疏肝破气），仅凭颜色深浅判品种不准确。",
+        "reasoning": "同为橘皮，为什么成熟与未成熟采收在鉴定上必须严格分开？",
+        "feedback": "成熟果皮挥发油中柠檬烯等组分与未成熟果皮不同，青皮破气力强、偏入肝胆，陈皮理气和中、偏入脾肺，基原相同而采收期不同，商品形态必须与采收期对应。",
+        "transfer": "处方「青皮10g」，药房发来橙红色果皮，你应如何识别并处理？"
+      },
+      "stdJudgment": "陈皮为芸香科橘及其栽培变种的干燥成熟果皮，外表面橙红色或红棕色有凹下点状油室，内表面浅黄白色附筋络状维管束；青皮为未成熟果皮或幼果，表面灰绿色，个青皮圆球形、四花青皮剖成四瓣。",
+      "coreDefinition": "陈皮取成熟果皮、色橙红气香；青皮取未成熟果皮或幼果、色灰绿，成熟度决定性状与功效。",
+      "facts": [
+        {
+          "field": "herb.陈皮来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.青皮来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.油室特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "陈皮煎服 3-10g；青皮煎服 3-10g",
+        "caution": "青皮破气力猛，气虚者慎用；陈皮辛温苦燥，舌赤津少者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-035",
+      "title": "鉴定·苦杏仁与桃仁鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "苦杏仁",
+        "桃仁",
+        "有小毒"
+      ],
+      "intent": "掌握苦杏仁与桃仁的形状、种皮纹理与味的差异，牢记苦杏仁的毒性。",
+      "learning": {
+        "knowledge": "苦杏仁呈扁心形，长1-1.9cm，宽0.8-1.5cm，厚0.5-0.8cm；顶端尖，基部钝圆而肥厚，左右不对称；表面黄棕色至深棕色，有深而不规则的脉纹；尖端一侧有短线形种脐，圆端合点处向上具多数深棕色的脉纹。种皮薄，子叶2，乳白色，富油性。气微，味苦。桃仁呈扁长卵形，长1.2-1.8cm，宽0.8-1.2cm，厚0.2-0.4cm；顶端尖，中部膨大，基部钝圆而偏斜，边缘薄；表面黄棕色至红棕色，有纵皱纹理。味微苦。苦杏仁含苦杏仁苷，水解产生氢氰酸，过量可中毒。",
+        "misjudgment": "把苦杏仁与桃仁混用。错：苦杏仁味苦、含苦杏仁苷而有小毒，桃仁味微苦、以活血祛瘀为主，两者功效不同，形状上杏仁心形不对称、桃仁长卵形扁薄，须分清后再配方。",
+        "reasoning": "苦杏仁与桃仁同属蔷薇科种子，为什么苦杏仁须强调毒性而桃仁强调孕妇慎用？",
+        "feedback": "苦杏仁含苦杏仁苷可水解为氢氰酸故强调限量，桃仁含苦杏仁苷较少而活血力强故强调孕妇与便溏者慎用，毒性侧重点不同反映在各自警戒上。",
+        "transfer": "一批种子味苦、左右不对称，你判定为何药并给出煎煮注意？"
+      },
+      "stdJudgment": "苦杏仁为蔷薇科山杏等干燥成熟种子，扁心形左右不对称，表面黄棕色有深而不规则脉纹，味苦；桃仁为蔷薇科桃或山桃的干燥成熟种子，扁长卵形中部膨大，味微苦，二者以形状与苦味相区别。",
+      "coreDefinition": "苦杏仁心形而尖、味苦，桃仁长卵形而扁、味微苦，形状与味是区分要点。",
+      "facts": [
+        {
+          "field": "herb.苦杏仁来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.桃仁来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.形状区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "苦杏仁煎服 5-10g，生品入煎剂后下；桃仁煎服 5-10g",
+        "caution": "苦杏仁有小毒，内服不宜过量，婴儿慎用；桃仁孕妇慎用，便溏者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "【有毒】苦杏仁含苦杏仁苷，过量可致中毒，内服不宜过量，婴儿慎用",
+          "孕妇及便溏者忌用桃仁"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-036",
+      "title": "鉴定·酸枣仁与理枣仁鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "果实种子类",
+        "酸枣仁",
+        "伪品"
+      ],
+      "intent": "掌握酸枣仁紫红有光泽、种皮脆的特征及理枣仁伪品的鉴别要点。",
+      "learning": {
+        "knowledge": "酸枣仁呈扁圆形或扁椭圆形，长5-9mm，宽5-7mm，厚约3mm；表面紫红色或紫褐色，平滑有光泽，有的有裂纹；一面较平坦，中间有1条隆起的纵线纹，另一面凸起，边缘较薄；一端凹陷，可见线形种脐，另端有细小凸起的合点；种皮较脆，胚乳白色，子叶2，浅黄色，富油性。气微，味淡。理枣仁形似酸枣仁但表面黄棕色或红棕色，光泽差，种皮厚而不易破碎，子叶黄白色，富油性，味淡；可据种皮硬度、颜色与光泽度区分。",
+        "misjudgment": "把理枣仁当酸枣仁。错：理枣仁是鼠李科滇刺枣的种子，为常见伪品，其种皮厚硬、色黄棕、无光泽，与酸枣仁的紫红光亮、种皮脆脆明显不同，压之可感硬度差异。",
+        "reasoning": "酸枣仁与理枣仁外形近似，为什么种皮的厚薄与硬度能成为可靠的鉴别点？",
+        "feedback": "酸枣仁种皮薄而脆、稍用力即碎，理枣仁种皮厚而硬、压之不破，这一物理差异稳定且易测，配合紫红光泽与黄棕无光的颜色对比即可区分。",
+        "transfer": "一批「酸枣仁」表面黄棕、压之不碎，你如何向供货方说明判伪依据？"
+      },
+      "stdJudgment": "酸枣仁为鼠李科酸枣的干燥成熟种子，扁圆形，表面紫红色或紫褐色、平滑有光泽，种皮脆易碎，味淡；理枣仁为滇刺枣的种子，表面黄棕色光泽差，种皮厚而硬，是常见伪品。",
+      "coreDefinition": "酸枣仁紫红光泽、种皮脆易碎，理枣仁黄棕无光、种皮厚硬，以颜色、光泽与种皮硬度相区别。",
+      "facts": [
+        {
+          "field": "herb.酸枣仁来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.种皮特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.理枣仁鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品比较",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 10-15g，研末吞服 1.5-2g",
+        "caution": "有实邪郁火及滑泄者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-037",
+      "title": "鉴定·薄荷性状鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "全草类",
+        "薄荷"
+      ],
+      "intent": "掌握薄荷方茎对生叶、揉搓清凉香气的性状特征。",
+      "learning": {
+        "knowledge": "薄荷茎呈方柱形，有对生分枝，长15-40cm，直径0.2-0.4cm；表面紫棕色或淡绿色，棱角处具茸毛，节间长2-5cm；质脆，断面白色，髓部中空。叶对生，有短柄；叶片皱缩卷曲，完整者展平后呈宽披针形、长椭圆形或卵形，长2-7cm，宽1-3cm；上表面深绿色，下表面灰绿色，稀被茸毛，有凹点状腺鳞。轮伞花序腋生。揉搓后有特殊清凉香气，味辛、凉。",
+        "misjudgment": "把留兰香或薄荷属其他种当薄荷。错：留兰香揉搓香气甜而不凉，无薄荷脑的清凉感，药典规定薄荷为唇形科薄荷，香气清凉与否是现场区分的关键。",
+        "reasoning": "薄荷入汤剂须后下，这一煎法要求与它的哪一性状特征直接相关？",
+        "feedback": "薄荷的清凉香气来自挥发油，久煎则挥发油散失而药效大减，故须后下；性状上香气浓淡也是挥发油含量高低的直观反映。",
+        "transfer": "一批薄荷揉搓后无清凉感而带甜香，你如何判定并处理？"
+      },
+      "stdJudgment": "薄荷为唇形科薄荷的干燥地上部分，茎方柱形，叶对生，揉搓后有特殊清凉香气，味辛凉，为唇形科全草类药材的典型代表。",
+      "coreDefinition": "薄荷以方茎、对生叶、揉搓清凉香气为鉴别要点，含挥发油薄荷脑。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.茎叶性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.气味特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 3-6g，后下",
+        "caution": "体虚多汗者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-038",
+      "title": "鉴定·麻黄性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "全草类",
+        "麻黄",
+        "含麻黄碱"
+      ],
+      "intent": "掌握麻黄细圆柱茎、节明显、断面髓部红棕色等性状特征及基原差异。",
+      "learning": {
+        "knowledge": "草麻黄呈细长圆柱形，少分枝，直径1-2mm，有的带少量棕色木质茎；表面淡绿色至黄绿色，有细纵脊线，触之微有粗糙感；节明显，节间长2-6cm；节上有膜质鳞叶，长3-4mm，裂片2（稀3），锐三角形，先端灰白色，反曲。断面略呈纤维性，周边绿黄色，髓部红棕色，近圆形。气微香，味涩、微苦。中麻黄鳞叶裂片3（稀2），先端锐尖；木贼麻黄鳞叶裂片2，上部短三角形，不反曲。",
+        "misjudgment": "把带木质茎多的麻黄当上品。错：麻黄用草质茎入药，木质茎过多会拉低麻黄碱含量，商品须以草质茎为主，断面周边绿黄、髓红棕才是合格品的特征。",
+        "reasoning": "麻黄含麻黄碱具有兴奋作用，这一成分特点为什么决定其有特殊禁忌人群？",
+        "feedback": "麻黄碱兴奋中枢与心血管，故高血压、心脏病、失眠者慎用，运动员禁用，这也是麻黄类制剂管理从严的原因，鉴定与使用都须守住这一安全线。",
+        "transfer": "一名运动员处方中出现麻黄，按安全红线你应如何提示？"
+      },
+      "stdJudgment": "麻黄为麻黄科草麻黄、中麻黄或木贼麻黄的干燥草质茎，细长圆柱形，节明显，断面略呈纤维性、髓部红棕色，气微香、味涩微苦，含麻黄碱为法定指标成分。",
+      "coreDefinition": "麻黄以细圆柱茎、膜质鳞叶、节明显、髓部红棕色为鉴别要点，三种基原以鳞叶裂数区别。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.茎性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.节与鳞叶",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.断面与味",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 2-10g",
+        "caution": "发汗力强，虚人慎用；高血压、心脏病、失眠者慎用；运动员禁用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "发汗力强，体虚多汗者慎用",
+          "高血压、心脏病、失眠者慎用",
+          "运动员禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-039",
+      "title": "鉴定·金钱草与广金钱草鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "全草类",
+        "金钱草",
+        "广金钱草"
+      ],
+      "intent": "掌握金钱草与广金钱草的科属、叶形、毛被差异及伪品提示。",
+      "learning": {
+        "knowledge": "金钱草茎纤细、稍扭曲，表面棕色或暗棕红色，有纵纹，节上有的具须根；叶对生，多皱缩，完整者展平后呈宽卵形或心形，长1-4cm，宽1-5cm，基部微凹，全缘，上表面灰绿色或棕褐色，下表面色较浅，主脉明显突起，用水浸后对光透视可见黑色或棕色条纹；叶柄长1-4cm。气微，味淡。广金钱草茎圆柱形，密被黄色伸展的短柔毛；叶互生，小叶1-3片，圆形或矩圆形，先端微凹，基部心形或钝圆，全缘，上表面黄绿色或灰绿色，无毛，下表面具灰白色紧贴的绒毛。伪品如聚花过路黄全株被毛，连钱草为唇形科、茎方形。",
+        "misjudgment": "把广金钱草直接当金钱草用。错：两者科属不同（报春花科vs豆科），金钱草为利湿退黄排石要药，广金钱草为豆科另一品种，药典分列，须以叶对生/互生与毛被有无区分。",
+        "reasoning": "金钱草水浸对光透视可见黑色条纹，这一特征对鉴定有何特别价值？",
+        "feedback": "黑色条纹是过路黄叶脉处的腺点或色素沉积的透光表现，是报春花科过路黄较稳定的鉴别特征，伪品多无此条纹，操作简单且可靠。",
+        "transfer": "一批「金钱草」茎方形、有轮伞花序痕迹，你怀疑是什么并如何复核？"
+      },
+      "stdJudgment": "金钱草为报春花科过路黄的干燥全草，叶对生宽卵形或心形，水浸后对光透视可见黑色或棕色条纹；广金钱草为豆科广金钱草的干燥地上部分，叶互生密被绒毛，两者科属、叶序与毛被均不同。",
+      "coreDefinition": "金钱草对生叶、无毛、水浸透光见黑色条纹；广金钱草互生叶、下表面密被灰白色绒毛，一眼可分。",
+      "facts": [
+        {
+          "field": "herb.金钱草来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.金钱草性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.广金钱草性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品提示",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "金钱草煎服 15-60g；广金钱草煎服 15-30g",
+        "caution": "金钱草性凉，脾胃虚寒者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-040",
+      "title": "鉴定·茯苓与猪苓鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "菌藻类",
+        "茯苓",
+        "猪苓"
+      ],
+      "intent": "掌握茯苓块白色颗粒性与猪苓黑色质轻瘤状的性状区别。",
+      "learning": {
+        "knowledge": "茯苓个呈类球形、椭圆形或不规则块状，大小不一；外皮薄而粗糙，棕褐色至黑褐色，有明显皱缩纹理；体重，质坚实，断面颗粒性，有的具裂隙，外层淡棕色，内部白色，少数淡红色，有的中间抱有松根。气微，味淡，嚼之粘牙。茯苓块为去皮后切制的块，白色或类白色。猪苓呈不规则条形、类圆形或扁块状，有的有分枝，长5-25cm；表面黑色、灰黑色或棕黑色，皱缩或有瘤状突起；体轻，质硬，断面类白色或黄白色，略呈颗粒状。气微，味淡。显微下两者均含菌丝与草酸钙结晶，茯苓含大量多糖类。",
+        "misjudgment": "把发红的茯苓当劣品。错：茯苓内部白色为常，带淡红色者称赤茯苓，是正常商品规格而非变质；若断面灰暗发霉、有异味才属变质，须区分颜色规格与霉变。",
+        "reasoning": "茯苓嚼之粘牙而猪苓不粘，为什么这一手感差异在两者鉴别中很实用？",
+        "feedback": "茯苓含大量茯苓聚糖，嚼之粘牙；猪苓多糖含量较低，嚼之无粘感，两者同为菌核但手感不同，是现场快鉴的有效线索。",
+        "transfer": "处方茯苓与猪苓同用利水，抓药时如何凭颜色与质地快速分装？"
+      },
+      "stdJudgment": "茯苓为多孔菌科真菌茯苓的干燥菌核，白色块状质坚实、断面颗粒性、嚼之粘牙；猪苓为多孔菌科真菌猪苓的干燥菌核，呈不规则条形或类圆形、表面黑色皱缩有瘤状突起、体轻质硬。",
+      "coreDefinition": "茯苓白、实、颗粒性、粘牙；猪苓黑、轻、瘤状、质硬，颜色与形态一望可分。",
+      "facts": [
+        {
+          "field": "herb.茯苓来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.茯苓性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.猪苓来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.显微鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "茯苓煎服 10-15g；猪苓煎服 6-12g",
+        "caution": "茯苓阴虚而无湿热、虚寒滑精者慎用；猪苓无水湿者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-041",
+      "title": "鉴定·血竭真伪鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "贵细药",
+        "血竭",
+        "火试"
+      ],
+      "intent": "掌握血竭研粉血红色、火烧冒烟呛鼻等特征及掺伪鉴别方法。",
+      "learning": {
+        "knowledge": "进口血竭呈类圆形四方形或不定形块状，大小不等，表面暗红色或黑红色，有光泽，底部平圆，顶端有包扎成型时留下的纵皱褶纹；质硬而脆，破碎面红色，研粉则为血红色。无臭，味淡。火烧之，冒烟呛鼻，有苯甲酸样香气。在水中不溶，在热水中软化。龙血竭表面黑紫色有光泽，断面黑紫色有孔隙，气微、味淡微涩。掺伪者常掺松香、淀粉或色素，火烧有松香气或灰烬多，水浸染色明显。",
+        "misjudgment": "把颜色红的树脂都当血竭。错：掺松香的伪品火烧呈松香气而非苯甲酸呛鼻气，掺淀粉者水浸浑浊，染色品研粉不呈纯正血红色，须以火试、水试与研粉颜色综合判定。",
+        "reasoning": "血竭火试冒烟呛鼻与苯甲酸有关，为什么这是进口血竭区别于掺伪品的特征反应？",
+        "feedback": "进口血竭含苯甲酸等成分，燃烧时冒烟呛鼻而带香气；松香伪品燃烧冒浓黑烟有松节油气，染色掺伪燃烧灰烬多，火试从烟色、气味即可区分。",
+        "transfer": "一块「血竭」水浸后水色变红、火烧有松香气，你如何下结论？"
+      },
+      "stdJudgment": "血竭为棕榈科麒麟竭果实渗出的树脂（进口血竭）或百合科剑叶龙血树的树脂（龙血竭），表面暗红色有光泽，研粉血红色，火烧冒烟呛鼻有苯甲酸样香气，在水中不溶。",
+      "coreDefinition": "血竭以色红如血、研粉血红色、火烧冒烟呛鼻为鉴别要点，兼用水中溶解性判伪。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.火试特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.掺伪鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "研末服 1-2g，或入丸散；外用适量",
+        "caution": "孕妇慎用；无瘀血者不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-042",
+      "title": "鉴定·鹿茸性状鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "动物类",
+        "鹿茸"
+      ],
+      "intent": "掌握花鹿茸二杠三岔、锯口蜂窝状小孔及鹿茸片分档特征。",
+      "learning": {
+        "knowledge": "花鹿茸（黄毛茸）有一个分枝者习称二杠，主枝称大挺，侧枝称门庄；具二个分枝者习称三岔。大挺长17-20cm，锯口直径4-5cm，离锯口约1cm处分出侧枝；表面红棕色或棕色，密生红黄色或棕黄色细茸毛，上端较密，下部较疏；锯口面黄白色，外围无骨质，中部密布蜂窝状小孔。体轻，气微腥，味微咸。马鹿茸较粗大，分枝较多，侧枝一个者习称单门，二个称莲花，三个称三岔。鹿茸片按部位分蜡片（角尖部，半透明黄白色）、粉片（中上部）、血片与骨片（下部骨质化），以蜡片最为名贵。",
+        "misjudgment": "把骨化的老角当鹿茸。错：鹿茸是未骨化的幼角，锯口外围无骨质；完全骨化的鹿角坚硬、无蜂窝状小孔，两者功效与价格悬殊，锯口与质地是硬指标。",
+        "reasoning": "鹿茸片蜡片价最高而骨片最低，为什么同一支鹿茸不同部位差价巨大？",
+        "feedback": "角尖部尚未骨化、胶质丰富称蜡片，下部骨质化渐重，有效成分与可溶性物质随骨化递减，故按切片部位分档，蜡片最优、骨片最次。",
+        "transfer": "一片鹿茸片半透明黄白、无骨质，你判断它取自鹿茸的哪一部位？"
+      },
+      "stdJudgment": "鹿茸为鹿科梅花鹿或马鹿的雄鹿未骨化密生茸毛的幼角。花鹿茸二杠具大挺与门庄，表面红棕色密生细茸毛，锯口面黄白色，外围无骨质，中部有蜂窝状小孔，气微腥、味微咸。",
+      "coreDefinition": "鹿茸以分枝形态（二杠三岔）、表面茸毛、锯口蜂窝状小孔为鉴别要点，蜡片血片骨片分档定价。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.花鹿茸性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.锯口特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.鹿茸片分档",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "研末冲服 1-2g，或入丸散",
+        "caution": "阴虚阳亢、血热出血及外感热病者忌用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-043",
+      "title": "鉴定·全蝎与蜈蚣鉴别",
+      "category": "herb",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药鉴定",
+        "动物类",
+        "全蝎",
+        "蜈蚣",
+        "有毒"
+      ],
+      "intent": "掌握全蝎前腹与毒刺、蜈蚣背板与钩状足的性状特征及毒性警戒。",
+      "learning": {
+        "knowledge": "全蝎头胸部与前腹部呈扁平长椭圆形，后腹部呈尾状，皱缩弯曲，完整者体长约6cm；头胸部呈前窄后宽的长三角形，背面有覆瓦状排列的甲壳，前面有1对较小的螯肢及1对较长大的钳状脚须，形似蟹螯；腹面有足4对，均为7节；后腹部狭长似尾，呈棕黄色，有环节，末节有锐钩状毒刺。气微腥，味咸。蜈蚣呈扁平长条形，长9-17cm，宽0.5-1cm，由头部和躯干部组成，全体共22个环节；头部暗红色或红褐色，略有光泽，有头板覆盖，头板近圆形，前端稍突出，两侧有触角及颚肢各1对；躯干部第一背板与头板同色，其余20节背板为棕绿色或墨绿色，具光泽，自第二节起每节有脚1对，黄色或红褐色，弯作钩形。气微腥，有特殊刺鼻的臭气，味辛、微咸。",
+        "misjudgment": "把干燥后的全蝎与蜈蚣混淆或忽视毒性。错：全蝎呈尾状后腹与螯肢，蜈蚣为多节长条与钩足，形态差异明显；两者皆有毒、走窜力强，孕妇禁用，鉴定与调剂都须标注毒性警戒。",
+        "reasoning": "全蝎与蜈蚣都有毒且都用于熄风止痉，为什么药典仍严格限定剂量？",
+        "feedback": "两者含蝎毒样多肽与组织胺类等毒性成分，用量过大可致中毒，药典规定全蝎3-6g、蜈蚣3-5g，且孕妇禁用，剂量与禁忌是安全使用的底线。",
+        "transfer": "一袋药材为多节长条状、有钩状足与刺鼻臭气，你判定为何药并给出用量警戒？"
+      },
+      "stdJudgment": "全蝎为钳蝎科东亚钳蝎的干燥体，头胸部与前腹部扁平长椭圆形，后腹部尾状，末节有锐钩状毒刺；蜈蚣为蜈蚣科少棘巨蜈蚣的干燥体，扁平长条形，躯干20节背板棕绿色有光泽，自第二节起每节有钩状足一对。",
+      "coreDefinition": "全蝎体分头胸腹三部、末节毒刺；蜈蚣体长扁平多节、每节一对钩足，二者形态迥异而皆有毒。",
+      "facts": [
+        {
+          "field": "herb.全蝎来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.全蝎毒刺",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.蜈蚣来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "全蝎煎服 3-6g；蜈蚣煎服 3-5g",
+        "caution": "两者均有毒，孕妇禁用；血虚生风者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "全蝎、蜈蚣均有毒，孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-044",
+      "title": "鉴定·牛黄真伪鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "动物类",
+        "牛黄",
+        "贵细药"
+      ],
+      "intent": "掌握天然牛黄蛋黄管黄性状及挂甲、分层等鉴别方法，区分人工牛黄与体外培育牛黄。",
+      "learning": {
+        "knowledge": "蛋黄（胆黄）多呈卵形、类球形、三角形或四方形，大小不一，直径0.6-3cm；表面金黄至棕黄色，深浅不一，较细腻而稍有光泽，有的外部挂有一层黑色光亮的薄膜，习称乌金衣；体轻，质酥脆，易分层剥落，断面金黄色，可见细密的同心层纹，有的夹有白心。气清香，味先苦而后甘，有清凉感，嚼之易碎，不粘牙。管黄呈管状，表面棕黄或灰褐色，有纵纹及横裂纹。鉴别：取本品少量，加水调和，涂于指甲上，能将指甲染成黄色，习称挂甲；用烧红的针针刺入，有分裂成层的现象，裂开呈层状。人工牛黄由牛胆粉、胆酸、猪去氧胆酸、胆红素等配制而成；体外培育牛黄以牛科动物牛的胆汁为原料，模拟胆结石生成环境培育而成，均须按批准文号使用并在标签注明。",
+        "misjudgment": "把人工牛黄当天然牛黄出售。错：人工牛黄为配制产品，外观性状与天然牛黄不同且价格悬殊，须查看标签与批准文号；天然牛黄以挂甲、分层、同心层纹为特征，凭外观混称会误导处方用药。",
+        "reasoning": "牛黄挂甲试验为什么能快速初筛，其原理是什么？",
+        "feedback": "牛黄含胆红素等成分，涂于指甲易着色且不易擦去，称为挂甲；掺伪品（如淀粉、黄连素染色）挂甲不明显或水洗即褪，故挂甲是现场初筛的简便试验，但仍需配合层纹与理化检查定论。",
+        "transfer": "处方要求天然牛黄，药房仅有体外培育牛黄，你应如何向患者说明并处理？"
+      },
+      "stdJudgment": "牛黄为牛科牛的胆结石（蛋黄）或胆管、肝管结石（管黄、肝黄）。蛋黄多呈卵形类球形，表面金黄或棕黄色细腻有光泽，体轻质酥脆易分层剥落，断面可见同心层纹，味先苦后甜有清凉感。",
+      "coreDefinition": "牛黄以金黄细腻、质酥易分层、断面同心层纹、挂甲为鉴别要点，人工与体外培育品须按规标注。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.蛋黄性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.挂甲试验",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.代用品区分",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "多入丸散，0.15-0.35g；外用适量",
+        "caution": "孕妇慎用；非实热证不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-045",
+      "title": "鉴定·麝香真伪鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "动物类",
+        "麝香",
+        "贵细药",
+        "孕妇禁用"
+      ],
+      "intent": "掌握毛壳麝香与麝香仁的性状及搓、烧试验，识别掺伪品。",
+      "learning": {
+        "knowledge": "毛壳麝香为扁圆形或类椭圆形的囊状体，开口面略平，密生灰白色或棕褐色而细短的毛，呈旋涡状排列，中央有1小囊孔；另一面为棕褐色略带紫色的皮膜，微皱缩。剖开后可见中层皮膜呈棕褐色或灰褐色，半透明，内层皮膜呈棕色，内含颗粒状、粉末状的麝香仁和少量细毛及脱落的内层皮膜。麝香仁呈棕褐色或黄褐色粉末，其中颗粒状者习称当门子，呈不规则圆球形或颗粒状，表面紫黑色，微有麻纹，断面深棕色或棕黄色，油润有光泽。取麝香仁少许置掌中，加水润湿，用手搓之能成团，再用手指轻揉即散，不粘手、不染手、不顶指、不结块。火烧初则迸裂跳动，有爆鸣声，随即熔化起油泡，后燃尽呈白色或灰白色残渣，香气浓烈四溢，无毛肉焦臭，无火焰或火星。",
+        "misjudgment": "凭香气浓就断定是麝香。错：掺伪者常加化学香精增香，但搓之粘手、染手或结块，火烧无爆鸣声而有焦臭，须以搓试、火试合参，单凭嗅闻最易上当。",
+        "reasoning": "麝香「搓之成团、轻揉即散、不粘手」这一物理特性说明了什么？",
+        "feedback": "真品麝香仁含油脂而润、颗粒松散，加水搓之暂聚成团，揉之即散且不粘不染；掺伪品或含动物组织者粘手结块、揉之不散，故搓试是现场鉴别的重要手段。",
+        "transfer": "一批麝香仁火烧后无爆鸣声、残渣焦黑有臭味，你如何判定？"
+      },
+      "stdJudgment": "麝香为鹿科林麝、马麝或原麝成熟雄体香囊中的干燥分泌物。毛壳麝香呈囊状球形或扁圆形，开口面密生短毛，中央有囊孔；麝香仁棕褐或黄褐色，当门子紫黑色油润有光泽，气香浓烈而特异。",
+      "coreDefinition": "麝香以香气浓烈特异、搓之成团轻揉即散不粘手、火烧有爆鸣声为鉴别要点，孕妇禁用。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毛壳麝香性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.麝香仁与当门子",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.搓试与火试",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "入丸散，0.03-0.1g；外用适量",
+        "caution": "孕妇禁用；虚脱证不宜"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-046",
+      "title": "鉴定·朱砂与雄黄鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "矿物类",
+        "朱砂",
+        "雄黄",
+        "有毒",
+        "忌火煅"
+      ],
+      "intent": "掌握朱砂鲜红条痕与雄黄橙红蒜臭的差异，牢记二者有毒忌火煅的红线。",
+      "learning": {
+        "knowledge": "朱砂呈大小不一的颗粒状或块片状，鲜红色或暗红色，条痕红色至褐红色，具金刚光泽或半金属光泽，体重，质脆，无臭、无味；断面呈针状结晶习性或颗粒状。雄黄呈块状或粒状，深红色或橙红色，条痕淡橘红色，晶面有金刚石样光泽，质脆易碎，断面橙红色，具树脂样光泽；微有特异臭气，味淡；燃之易熔融成红紫色液体，并产生黄白色烟，有强烈的蒜臭气。两者均忌火煅：朱砂火煅析出汞蒸气剧毒，雄黄火煅生成三氧化二砷（砒霜）剧毒。",
+        "misjudgment": "把朱砂雄黄当普通染色矿物。错：两者均为有毒矿物药，朱砂主含硫化汞、雄黄主含硫化砷，火煅后生成剧毒物质，鉴定上必须牢记忌火煅、限量入丸散、孕妇禁用三条红线。",
+        "reasoning": "朱砂与雄黄都「忌火煅」，其化学本质分别是什么？",
+        "feedback": "朱砂（HgS）火煅分解析出汞蒸气，雄黄（As2S2）火煅氧化生成砒霜（As2O3），两者受热都产生剧毒产物，故炮制与鉴定均严禁火煅。",
+        "transfer": "一袋红色矿物粉末，条痕淡橘红且火烧有蒜臭，你判定为何物并指出其炮制禁忌？"
+      },
+      "stdJudgment": "朱砂为硫化物类矿物辰砂，主含硫化汞，呈颗粒状或块状，鲜红色或暗红色，条痕红色至褐红色，具金刚光泽；雄黄主含二硫化二砷，深红色或橙红色，条痕淡橘红色，燃之熔融产生黄白色烟并有强烈蒜臭气。",
+      "coreDefinition": "朱砂色鲜红、条痕红、无臭；雄黄橙红、条痕淡橘红、火烧有蒜臭，两者均有毒且忌火煅。",
+      "facts": [
+        {
+          "field": "herb.朱砂来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.朱砂性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.雄黄来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.毒性警戒",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "朱砂 0.1-0.5g，多入丸散服；雄黄 0.05-0.1g，入丸散服；外用适量",
+        "caution": "朱砂含硫化汞忌火煅、不可久服、孕妇禁用；雄黄有毒忌火煅、孕妇禁用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "朱砂含硫化汞，忌火煅，0.1-0.5g只入丸散，不可久服，孕妇禁用",
+          "雄黄有毒，忌火煅，0.05-0.1g只入丸散，孕妇禁用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-047",
+      "title": "鉴定·石膏与芒硝鉴别",
+      "category": "herb",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "中药鉴定",
+        "矿物类",
+        "石膏",
+        "芒硝"
+      ],
+      "intent": "掌握石膏纤维状绢丝光泽与芒硝结晶状味咸凉的性状差异。",
+      "learning": {
+        "knowledge": "石膏为长块状、板块状或不规则块状，白色、灰白色或淡黄色，纵断面呈纤维状纹理，具绢丝样光泽；体重，质脆，易折断，断面平坦；无臭，味淡。芒硝为棱柱状、长方形或不规则块状及粒状，无色透明或类白色半透明，暴露于空气中易风化，表面渐变为白色粉末；质脆易碎，断面呈玻璃样光泽；无臭，味咸、凉、微苦。石膏加热失去结晶水成为煅石膏（白色粉末，无光泽）；芒硝经风化失去结晶水而成玄明粉（主含无水硫酸钠）。",
+        "misjudgment": "把生石膏当煅石膏或把芒硝风化粉末当劣品。错：生石膏纤维状有光泽，煅石膏为白色无光粉末；芒硝暴露易风化属自然现象，风化后即成玄明粉，是另一规格而非变质，须按标签区分。",
+        "reasoning": "石膏与芒硝都含结晶水，为什么加热后一个成煅石膏、一个成玄明粉？",
+        "feedback": "石膏含两个结晶水（CaSO4·2H2O）加热成无水煅石膏，芒硝含十个结晶水（Na2SO4·10H2O）风化失水成无水硫酸钠（玄明粉），结晶水数目不同决定了加工产品不同。",
+        "transfer": "一袋无色半透明结晶、味咸凉的矿物药，你判定为何药并说明其服用方式？"
+      },
+      "stdJudgment": "石膏为硫酸盐类矿物石膏，主含含水硫酸钙，呈纤维状集合体，白色或灰白色，纵断面纤维状纹理具绢丝样光泽；芒硝主含含水硫酸钠，为棱柱状或长方形结晶，无色或白色半透明，断面玻璃样光泽，味咸凉微苦。",
+      "coreDefinition": "石膏纤维状、绢丝样光泽、味淡；芒硝结晶状、玻璃样光泽、味咸凉，一纤维一结晶极易区分。",
+      "facts": [
+        {
+          "field": "herb.石膏来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.石膏断面特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.芒硝来源性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.理化区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "石膏煎服 15-60g，先煎；煅石膏外用适量；芒硝 6-12g，冲入药汁或开水溶化后服",
+        "caution": "芒硝孕妇慎用；石膏脾胃虚寒及阴虚内热者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "芒硝孕妇慎用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-048",
+      "title": "鉴定·阿胶真伪鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "动物类",
+        "阿胶",
+        "贵细药"
+      ],
+      "intent": "掌握阿胶黑褐光亮、断面棕红半透明及烊化水试特征，识别杂皮胶伪品。",
+      "learning": {
+        "knowledge": "阿胶呈长方形或方形块，黑褐色，有光泽，质硬而脆，断面光亮，碎片对光照视呈棕色半透明状；气微，味微甘。阿胶以山东东阿产者最为著名。鉴别：取阿胶适量，加水加热溶化后，溶液呈棕红色、澄清透明，有少量类白色物质析出，液面有油滴；伪品杂皮胶（牛皮、猪皮等制成）加水溶化后溶液浑浊或有沉淀，有腥臭气。",
+        "misjudgment": "把黄明胶或杂皮胶当阿胶。错：阿胶必须为驴皮熬制，牛皮胶称黄明胶、其他杂皮胶腥臭明显，烊化后阿胶澄清透明、杂皮胶混浊沉淀，颜色与气味是区分的抓手。",
+        "reasoning": "阿胶烊化后液面有油滴、有类白色析出物，这些现象说明了什么？",
+        "feedback": "油滴来自胶中脂质，类白色析出物为胶原降解产物，是驴皮胶的正常表现；杂皮胶成分不同，溶液混浊、腥臭，故烊化水试可作为真伪鉴别的手段。",
+        "transfer": "一块胶块色黑但断面暗淡、水溶后混浊有腥气，你如何判定其原料？"
+      },
+      "stdJudgment": "阿胶为马科驴的干燥皮或鲜皮经煎煮浓缩制成的固体胶，呈长方形或方形块，黑褐色有光泽，质硬而脆，断面光亮，碎片对光照视呈棕色半透明，气微、味微甘。",
+      "coreDefinition": "阿胶以黑褐光亮、质脆断面光亮、光照半透明、烊化后澄清为鉴别要点，杂皮胶腥臭混浊。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.水试鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品提示",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "烊化兑服 3-9g",
+        "caution": "脾胃虚弱、消化不良者慎用；感冒期间不宜服用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    },
+    {
+      "id": "pb33-h-049",
+      "title": "鉴定·冬虫夏草真伪鉴别",
+      "category": "herb",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "中药鉴定",
+        "菌藻类",
+        "冬虫夏草",
+        "贵细药",
+        "伪品"
+      ],
+      "intent": "掌握冬虫夏草虫体环纹、足数与子座特征，识别亚香棒虫草及伪制品。",
+      "learning": {
+        "knowledge": "冬虫夏草由虫体与从虫头部长出的真菌子座相连而成。虫体似蚕，长3-5cm，直径0.3-0.8cm，表面深黄色至黄棕色，有环纹20-30个，近头部的环纹较细密；头部红棕色，足8对，中部4对较明显；质脆，易折断，断面略平坦，淡黄白色。子座细长圆柱形，长4-7cm，直径约0.3cm，表面深棕色至棕褐色，有细纵皱纹，上部稍膨大，顶端有不育顶端，质柔韧，断面类白色。气微腥，味微苦。伪品亚香棒虫草表面灰褐色，环纹与足数不符；凉山虫草虫体粗大；面粉压模伪制者加热即变形、味甜。",
+        "misjudgment": "把亚香棒虫草当冬虫夏草。错：亚香棒虫草虫体灰褐色、环纹细密而足不明显，且含毒性成分；正品冬虫夏草虫体似蚕、环纹20-30个、中部四对足明显，须逐项核对环纹、足数与子座形态。",
+        "reasoning": "冬虫夏草价格昂贵，为什么环纹与足数是鉴别伪品的最可靠抓手？",
+        "feedback": "环纹数目与四对明显足是蝙蝠蛾幼虫的生物学特征，伪品虫体（亚香棒虫草、人工压模品）在环纹、足数与质地上的模仿难以完全一致，故逐项核对即可识破。",
+        "transfer": "一根「冬虫夏草」虫体粗大、表面灰褐、环纹不清，你如何判定并给出依据？"
+      },
+      "stdJudgment": "冬虫夏草为麦角菌科真菌冬虫夏草菌寄生在蝙蝠蛾科昆虫幼虫上的子座和幼虫尸体的干燥复合体。虫体似蚕，表面深黄色有环纹20-30个，足8对中部4对明显，子座细长圆柱形深棕色，气微腥、味微苦。",
+      "coreDefinition": "冬虫夏草以虫体似蚕、环纹密、中部四对足明显、子座自头部长出为鉴别要点，伪品多环纹足数不符。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.虫体性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.子座性状",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎汤或炖服 3-9g",
+        "caution": "有表邪者不宜用；儿童与阴虚火旺者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "亚香棒虫草等伪品有毒，禁止误作冬虫夏草使用"
+        ]
+      }
+    },
+    {
+      "id": "pb33-h-050",
+      "title": "鉴定·沉香真伪鉴别",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "中药鉴定",
+        "茎木皮类",
+        "沉香",
+        "贵细药",
+        "伪品"
+      ],
+      "intent": "掌握沉香油格、气芳香、入水半沉及燃烧特征，识别注油染色伪品。",
+      "learning": {
+        "knowledge": "沉香为不规则块状、片状或盔帽状，有的为小碎块；表面凹凸不平，有刀痕，偶有孔洞，可见黑褐色树脂与黄白色木部相间的斑纹，孔洞及凹窝表面多呈朽木样；质较坚实，断面刺状。气芳香，味苦。燃烧时有浓烟及强烈香气，并有黑色油状物渗出。入水多不沉或半沉。伪品常以其他木材浸香精或染色冒充，表面油格不自然，水浸后水面浮油状物或水染色，燃烧无纯正沉香香气。",
+        "misjudgment": "以「沉水」为绝对标准判断沉香。错：优质沉香含脂多可沉水，但多数商品半沉或不沉，入水是否下沉只反映含脂量而非真伪；注油伪品也能沉水，须结合油格、香气与燃烧试验综合判定。",
+        "reasoning": "沉香入水半沉但注油伪品能沉水，为什么不能单凭沉水判断真伪？",
+        "feedback": "沉水与树脂含量相关，伪品注油后比重增大同样沉水，但油格纹理不自然、香气不纯正、燃烧有焦臭或油脂浮于水面，须以多项特征合参而非单一沉水试验。",
+        "transfer": "一块「沉香」水浸后水面浮油、燃烧气味刺鼻，你如何下结论并指出依据？"
+      },
+      "stdJudgment": "沉香为瑞香科白木香含有树脂的木材，呈不规则块状或片状，表面凹凸不平有刀痕，可见黑褐色树脂与黄白色木部相间的斑纹（油格），质较坚实，气芳香，味苦，入水多半沉或不沉。",
+      "coreDefinition": "沉香以油格相间、气芳香、入水半沉、燃烧出油为鉴别要点，伪品多注油染色。",
+      "facts": [
+        {
+          "field": "herb.来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.性状鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.油格特征",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "herb.伪品鉴别",
+          "sourceType": "textbook",
+          "sourceTitle": "《中药鉴定学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": {
+        "guideline": "煎服 1-5g，后下；研末冲服 0.5-1g",
+        "caution": "阴虚火旺者慎用"
+      },
+      "safety": {
+        "note": "知识学习内容，不构成诊疗建议；临床操作须遵医嘱",
+        "prohibitions": []
+      }
+    }
+  ]
+}

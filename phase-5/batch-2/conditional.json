@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-2",
+  "genLabel": "Phase 5 · Batch-2 · 55 nodes（C 经络学 25 + D 腧穴学 30，33 学科蓝图针灸系列）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记（出处待核 / C4 语义门 humanReviewRequired / 暂缓判断类）。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

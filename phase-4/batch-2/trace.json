@@ -1,0 +1,5090 @@
+[
+  {
+    "nodeId": "pb2-th-01-05",
+    "title": "同病异治与异病同治",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-01-05",
+      "title": "同病异治与异病同治",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-01-06",
+    "title": "因时因地因人制宜",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [
+      {
+        "layer": "来源解析",
+        "kind": "K",
+        "reason": "经典「因时制宜」来源纠偏：sourceType→teaching_design、出处→「（教学术语，思想见《素问·六元正纪大论》）」、status→teaching_inference（「因时制宜」四字为后世教学概括，其思想经典依据为《素问·六元正纪大论》「用寒远寒」等）"
+      }
+    ],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-01-06",
+      "title": "因时因地因人制宜",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 3/3 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（1 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-02-07",
+    "title": "阴阳的相对性",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-02-07",
+      "title": "阴阳的相对性",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-02-14",
+    "title": "阴平阳秘",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《素问·生气通天论》",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-02-14",
+      "title": "阴平阳秘",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-02-15",
+    "title": "阴阳综合案例",
+    "category": "theory",
+    "difficulty": 5,
+    "difficultyLabel": "综合推理",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-02-15",
+      "title": "阴阳综合案例",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "conditional"
+  },
+  {
+    "nodeId": "pb2-th-03-01",
+    "title": "五行基本概念",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-03-01",
+      "title": "五行基本概念",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-03-05",
+    "title": "五行相克",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-03-05",
+      "title": "五行相克",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-03-07",
+    "title": "五行乘侮",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-03-07",
+      "title": "五行乘侮",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-04-01",
+    "title": "藏象基本概念",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-04-01",
+      "title": "藏象基本概念",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-04-08",
+    "title": "六腑总论",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-04-08",
+      "title": "六腑总论",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-04-16",
+    "title": "五脏之间的关系",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-04-16",
+      "title": "五脏之间的关系",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-05-01",
+    "title": "精的基本概念与功能",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-05-01",
+      "title": "精的基本概念与功能",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-05-14",
+    "title": "精与气的关系",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-05-14",
+      "title": "精与气的关系",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-05-15",
+    "title": "精与血的关系",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-05-15",
+      "title": "精与血的关系",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-05-16",
+    "title": "精神互用",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-05-16",
+      "title": "精神互用",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-06-01",
+    "title": "经络基本概念",
+    "category": "meridian",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-06-01",
+      "title": "经络基本概念",
+      "category": "meridian",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-06-02",
+    "title": "十二经脉",
+    "category": "meridian",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材",
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-06-02",
+      "title": "十二经脉",
+      "category": "meridian",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-06-06",
+    "title": "经络生理功能",
+    "category": "meridian",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《经络腧穴学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-06-06",
+      "title": "经络生理功能",
+      "category": "meridian",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-07-02",
+    "title": "风邪",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-07-02",
+      "title": "风邪",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-07-03",
+    "title": "寒邪",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-07-03",
+      "title": "寒邪",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-07-05",
+    "title": "湿邪",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-07-05",
+      "title": "湿邪",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-08-06",
+    "title": "内生五邪",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-08-06",
+      "title": "内生五邪",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-08-08",
+    "title": "脏腑病机",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医基础理论》规划教材",
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-08-08",
+      "title": "脏腑病机",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-08-09",
+    "title": "病位、病性、病势",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-08-09",
+      "title": "病位、病性、病势",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-08-10",
+    "title": "病机转化",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-08-10",
+      "title": "病机转化",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-dg-09-03",
+    "title": "望色",
+    "category": "diagnostic",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医诊断学》规划教材",
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-dg-09-03",
+      "title": "望色",
+      "category": "diagnostic",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-dg-09-12",
+    "title": "十问歌",
+    "category": "diagnostic",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-dg-09-12",
+      "title": "十问歌",
+      "category": "diagnostic",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（1 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-dg-09-15",
+    "title": "问疼痛",
+    "category": "diagnostic",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医诊断学》规划教材",
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-dg-09-15",
+      "title": "问疼痛",
+      "category": "diagnostic",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-10-06",
+    "title": "寒热错杂",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-10-06",
+      "title": "寒热错杂",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-10-11",
+    "title": "虚实转化",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-10-11",
+      "title": "虚实转化",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-10-15",
+    "title": "八纲综合案例",
+    "category": "clinical",
+    "difficulty": 5,
+    "difficultyLabel": "综合推理",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-10-15",
+      "title": "八纲综合案例",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=5 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "conditional"
+  },
+  {
+    "nodeId": "pb2-cl-11-01",
+    "title": "气血津液辨证总论",
+    "category": "clinical",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-11-01",
+      "title": "气血津液辨证总论",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-11-06",
+    "title": "血虚证",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医诊断学》规划教材",
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-11-06",
+      "title": "血虚证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-11-09",
+    "title": "出血证",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-11-09",
+      "title": "出血证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-11-10",
+    "title": "津液不足证",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-11-10",
+      "title": "津液不足证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-12-02",
+    "title": "心气虚/心阳虚",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材",
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-12-02",
+      "title": "心气虚/心阳虚",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-12-04",
+    "title": "心火亢盛",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-12-04",
+      "title": "心火亢盛",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-12-06",
+    "title": "肝气郁结",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-12-06",
+      "title": "肝气郁结",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-12-08",
+    "title": "肝阴虚/肝血虚",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材",
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-12-08",
+      "title": "肝阴虚/肝血虚",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-12-11",
+    "title": "脾气虚/脾阳虚",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-12-11",
+      "title": "脾气虚/脾阳虚",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-12-16",
+    "title": "肾阳虚/肾阴虚",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《中医诊断学》规划教材",
+      "《中医诊断学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-12-16",
+      "title": "肾阳虚/肾阴虚",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-13-01",
+    "title": "六经辨证总论",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《伤寒论选读》规划教材",
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-13-01",
+      "title": "六经辨证总论",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-13-08",
+    "title": "六经传变",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-13-08",
+      "title": "六经传变",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-13-09",
+    "title": "合病与并病",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《伤寒论选读》规划教材",
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-13-09",
+      "title": "合病与并病",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-14-02",
+    "title": "卫分证",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《温病学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-14-02",
+      "title": "卫分证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-14-03",
+    "title": "气分证",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《温病学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-14-03",
+      "title": "气分证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-14-04",
+    "title": "营分证",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《温病学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-14-04",
+      "title": "营分证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-15-02",
+    "title": "上焦病证",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《温病学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-15-02",
+      "title": "上焦病证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-15-03",
+    "title": "中焦病证",
+    "category": "clinical",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《温病学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-15-03",
+      "title": "中焦病证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-cl-15-04",
+    "title": "下焦病证",
+    "category": "clinical",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《温病学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-cl-15-04",
+      "title": "下焦病证",
+      "category": "clinical",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-16-05",
+    "title": "因势利导",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-16-05",
+      "title": "因势利导",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-16-06",
+    "title": "调整阴阳",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-16-06",
+      "title": "调整阴阳",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-16-07",
+    "title": "三因制宜",
+    "category": "theory",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《中医基础理论》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-16-07",
+      "title": "三因制宜",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-17-01",
+    "title": "方剂是什么",
+    "category": "formula",
+    "difficulty": 1,
+    "difficultyLabel": "简单",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-17-01",
+      "title": "方剂是什么",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=1 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-17-02",
+    "title": "治法与方剂的关系",
+    "category": "formula",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-17-02",
+      "title": "治法与方剂的关系",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-17-04",
+    "title": "配伍",
+    "category": "formula",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [
+      {
+        "layer": "来源解析",
+        "kind": "B",
+        "reason": "经典「十八反」来源纠偏：出处→「金·张子和《儒门事亲》所载十八反歌诀」（「十八反歌」最早见于金·张子和《儒门事亲》，为后世本草歌诀，非《中国药典》原文）"
+      }
+    ],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-17-04",
+      "title": "配伍",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "教学/后世条目已正确分层（1 条）",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-17-05",
+    "title": "方剂的加减变化",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-17-05",
+      "title": "方剂的加减变化",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 1/1 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-07",
+    "title": "固涩剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-07",
+      "title": "固涩剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-08",
+    "title": "理气剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-08",
+      "title": "理气剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-09",
+    "title": "理血剂",
+    "category": "formula",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-09",
+      "title": "理血剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-10",
+    "title": "祛湿剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-10",
+      "title": "祛湿剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-11",
+    "title": "祛痰剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-11",
+      "title": "祛痰剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-12",
+    "title": "安神剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-12",
+      "title": "安神剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-13",
+    "title": "治风剂",
+    "category": "formula",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-13",
+      "title": "治风剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-14",
+    "title": "治燥剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-14",
+      "title": "治燥剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-fm-18-15",
+    "title": "祛暑剂",
+    "category": "formula",
+    "difficulty": 3,
+    "difficultyLabel": "困难",
+    "source": [
+      "《方剂学》规划教材",
+      "《方剂学》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-fm-18-15",
+      "title": "祛暑剂",
+      "category": "formula",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=3 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-01",
+    "title": "《黄帝内经》概览",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《中医各家学说》规划教材",
+      "《内经选读》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-01",
+      "title": "《黄帝内经》概览",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-02",
+    "title": "内经·阴阳应象大论精读",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《素问·阴阳应象大论》",
+      "《内经选读》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-02",
+      "title": "内经·阴阳应象大论精读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-03",
+    "title": "内经·灵兰秘典论精读",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《素问·灵兰秘典论》",
+      "《内经选读》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-03",
+      "title": "内经·灵兰秘典论精读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-04",
+    "title": "内经·经脉别论精读",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《素问·经脉别论》",
+      "《内经选读》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-04",
+      "title": "内经·经脉别论精读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-05",
+    "title": "《伤寒论》概览",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《伤寒论选读》规划教材",
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-05",
+      "title": "《伤寒论》概览",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-06",
+    "title": "伤寒论·太阳病条辨精读",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《伤寒论》",
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-06",
+      "title": "伤寒论·太阳病条辨精读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-07",
+    "title": "伤寒论·阳明病条辨精读",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《伤寒论》",
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-07",
+      "title": "伤寒论·阳明病条辨精读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-08",
+    "title": "伤寒论·少阳病条辨精读",
+    "category": "theory",
+    "difficulty": 4,
+    "difficultyLabel": "易混淆",
+    "source": [
+      "《伤寒论》",
+      "《伤寒论选读》规划教材"
+    ],
+    "sourceType": [
+      "classic_original",
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-08",
+      "title": "伤寒论·少阳病条辨精读",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "review",
+        "note": "knowledge 偏概括，缺具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=4 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "pass",
+        "note": "经典条目带原文或已分层",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-review"
+    },
+    "finalStatus": "candidate"
+  },
+  {
+    "nodeId": "pb2-th-19-09",
+    "title": "《金匮要略》概览",
+    "category": "theory",
+    "difficulty": 2,
+    "difficultyLabel": "中等",
+    "source": [
+      "《金匮要略选读》规划教材",
+      "《金匮要略选读》规划教材"
+    ],
+    "sourceType": [
+      "textbook"
+    ],
+    "verificationStatus": [
+      "verified"
+    ],
+    "L1": [],
+    "L2": [],
+    "L3": [],
+    "L4": [],
+    "L5": [],
+    "L6": [],
+    "factCollection": [],
+    "gateResults": [],
+    "contentQualityReview": {
+      "nodeId": "pb2-th-19-09",
+      "title": "《金匮要略》概览",
+      "category": "theory",
+      "Q1": {
+        "score": "pass",
+        "note": "事实 2/2 条来源要素齐全"
+      },
+      "Q2": {
+        "score": "pass",
+        "note": "knowledge 含具体知识点"
+      },
+      "Q3": {
+        "score": "pass",
+        "note": "reasoning 为问句;misjudgment 含具体陷阱"
+      },
+      "Q4": {
+        "score": "pass",
+        "note": "difficulty=2 合法，难度匹配须人工核对"
+      },
+      "Q5": {
+        "score": "pass",
+        "note": "stdJudgment 批次内唯一"
+      },
+      "Q6": {
+        "score": "na",
+        "note": "不涉及经典",
+        "hits": []
+      },
+      "Q7": {
+        "score": "pass",
+        "hits": [],
+        "note": "未检出机器味句式"
+      },
+      "Q8": {
+        "score": "pass",
+        "note": "transfer 提供可迁移的新情境"
+      },
+      "machineLikeCount": 0,
+      "reviewer": "human (待人工审核)",
+      "preliminary": "content-candidate"
+    },
+    "finalStatus": "candidate"
+  }
+]

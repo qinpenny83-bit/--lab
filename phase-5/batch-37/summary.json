@@ -1,0 +1,100 @@
+{
+  "seed": "phase-5/batch-37",
+  "genLabel": "Phase 5 · Batch-37 · 40 nodes（G 中药学 250→290 上限补足）",
+  "total": 40,
+  "counts": {
+    "candidate": 39,
+    "conditional": 1,
+    "quarantine": 0
+  },
+  "leakThrough": {
+    "A": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "B": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "C": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "D": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "H": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "J": {
+      "sourceFixed": 0,
+      "gateBlocked": 0,
+      "leak": 0
+    },
+    "K": {
+      "sourceFixed": 1,
+      "gateBlocked": 0,
+      "leak": 0
+    }
+  },
+  "unknownSourceRatio": {
+    "unknown": 0,
+    "total": 168,
+    "pct": 0
+  },
+  "highRiskIsolation": {
+    "riskNodes": 1,
+    "covered": 1,
+    "rate": 100,
+    "riskTitles": [
+      "雄黄与硫黄"
+    ]
+  },
+  "difficulty": {
+    "basic": {
+      "count": 24,
+      "pct": 60
+    },
+    "mid": {
+      "count": 10,
+      "pct": 25
+    },
+    "hard": {
+      "count": 5,
+      "pct": 13
+    },
+    "mixed": {
+      "count": 1,
+      "pct": 3
+    }
+  },
+  "gateFails": {},
+  "correctionsByKind": {
+    "K": [
+      {
+        "id": "pb37-g-017",
+        "title": "艾叶与灶心土",
+        "layer": "来源解析",
+        "reason": "经典「《名医别录》」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      }
+    ]
+  },
+  "correctionsByLayer": {
+    "来源解析": [
+      {
+        "id": "pb37-g-017",
+        "kind": "K",
+        "reason": "经典「《名医别录》」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      }
+    ]
+  },
+  "note": "G 中药学补足至上限 290：清热燥湿/解毒/祛风湿/止血/活血/驱虫/收涩等未覆盖常用药与药对",
+  "generatedAt": "2026-09-24T08:44:07.119Z"
+}

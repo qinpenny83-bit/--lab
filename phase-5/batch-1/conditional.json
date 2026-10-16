@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-1",
+  "genLabel": "Phase 5 · Batch-1 · 150 nodes（A28 + B40 + G42 + L40，33 学科蓝图首批基础四科）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记（出处待核 / C4 语义门 humanReviewRequired / 暂缓判断类）。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 0
+  },
+  "samples": []
+}

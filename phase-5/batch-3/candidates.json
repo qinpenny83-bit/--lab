@@ -1,0 +1,358 @@
+{
+  "seed": "phase-5/batch-3",
+  "genLabel": "Phase 5 · Batch-3 · 30 nodes（D 腧穴学补足 30→60，达 33 学科蓝图目标下限）",
+  "note": "candidate = Gate 全绿且源头修复无需人工复核。candidate ≠ 正式知识，须经 contentQualityReview + human review 后方可进入 Canonical Knowledge。",
+  "counts": {
+    "candidate": 30
+  },
+  "samples": [
+    {
+      "id": "pb5-ac-31",
+      "title": "手阳明大肠经要穴：合谷",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「面口合谷收」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句，最早见明·徐凤《针灸大全》，合谷治面口病歌诀）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-32",
+      "title": "手阳明大肠经要穴：曲池手三里迎香",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-33",
+      "title": "足阳明胃经要穴：足三里",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「肚腹三里留」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句（肚腹三里留，腰背委中求，头项寻列缺，面口合谷收），最早见明·徐凤《针灸大全》）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-34",
+      "title": "足阳明胃经要穴：上巨虚下巨虚丰隆",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「合治内腑」来源纠偏：出处→「《灵枢·邪气脏腑病形》」（「荥输治外经，合治内腑」原文，下合穴理论依据）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-35",
+      "title": "足阳明胃经要穴：天枢梁门内庭",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-36",
+      "title": "足太阴脾经要穴：三阴交",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-37",
+      "title": "足太阴脾经要穴：阴陵泉血海公孙",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-38",
+      "title": "手少阴心经要穴：神门少海通里",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-39",
+      "title": "手太阳小肠经要穴：后溪听宫养老",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-40",
+      "title": "足太阳膀胱经要穴：委中承山昆仑",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「腰背委中求」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句，最早见明·徐凤《针灸大全》，委中治腰背痛歌诀）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-41",
+      "title": "足太阳膀胱经要穴：申脉至阴飞扬",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-42",
+      "title": "足少阴肾经要穴：太溪照海涌泉",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-43",
+      "title": "手厥阴心包经要穴：内关曲泽劳宫",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-44",
+      "title": "手少阳三焦经要穴：外关支沟翳风",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-45",
+      "title": "足少阳胆经要穴：阳陵泉悬钟丘墟",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「八会」来源纠偏：出处→「《难经》」（八会穴出处（脏会章门、腑会中脘、气会膻中、血会膈俞、筋会阳陵泉、骨会大杼、髓会绝骨、脉会太渊））"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-46",
+      "title": "足厥阴肝经要穴：太冲行间期门章门",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-47",
+      "title": "任脉要穴：中脘膻中天突中极",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-48",
+      "title": "督脉要穴：大椎百会命门腰阳关至阳",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-49",
+      "title": "经外奇穴补充：四神聪印堂太阳定喘夹脊",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-50",
+      "title": "经外奇穴补充：十宣八邪八风外劳宫膝眼",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-51",
+      "title": "特定穴：交会穴",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-52",
+      "title": "特定穴临床应用：俞募配穴法",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「五脏募皆在阴」来源纠偏：出处→「《难经》」（「五脏募皆在阴，而俞在阳」原文，俞募穴理论依据）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-53",
+      "title": "特定穴临床应用：原络配穴法",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「十二原」来源纠偏：出处→「《灵枢·九针十二原》」（「十二原者，五脏之所以禀三百六十五节气味也」原文，原穴理论依据）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-54",
+      "title": "特定穴临床应用：郄穴急救与八会穴应用",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「八会」来源纠偏：出处→「《难经》」（八会穴出处（脏会章门、腑会中脘、气会膻中、血会膈俞、筋会阳陵泉、骨会大杼、髓会绝骨、脉会太渊））"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-55",
+      "title": "五输穴临床应用：井荥输经合主病",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「所出为井」来源纠偏：出处→「《灵枢·九针十二原》」（「所出为井，所溜为荥，所注为输，所行为经，所入为合」原文，五输穴理论依据）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-56",
+      "title": "下合穴临床应用：合治内腑",
+      "category": "acupoint",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「合治内腑」来源纠偏：出处→「《灵枢·邪气脏腑病形》」（「荥输治外经，合治内腑」原文，下合穴理论依据）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-57",
+      "title": "针刺得气与腧穴感应",
+      "category": "acupoint",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「气至而有效」来源纠偏：出处→「《灵枢·九针十二原》」（「刺之要，气至而有效，效之信，若风之吹云」原文，针刺得气理论依据）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-58",
+      "title": "针刺补泻手法与刺激量",
+      "category": "acupoint",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "B",
+          "reason": "经典「盛则泻之」来源纠偏：出处→「《灵枢·经脉》」（「盛则泻之，虚则补之，热则疾之，寒则留之，陷下则灸之，不盛不虚，以经取之」原文，针刺补泻原则依据）"
+        }
+      ],
+      "qualityPreliminary": "content-review"
+    },
+    {
+      "id": "pb5-ac-59",
+      "title": "腧穴综合案例：头痛辨证选穴",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [],
+      "qualityPreliminary": "content-candidate"
+    },
+    {
+      "id": "pb5-ac-60",
+      "title": "腧穴综合案例：腰痛辨证选穴",
+      "category": "acupoint",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「腰背委中求」来源纠偏：出处→「明·徐凤《针灸大全》」（四总穴歌句，最早见明·徐凤《针灸大全》，委中治腰背痛歌诀）"
+        }
+      ],
+      "qualityPreliminary": "content-candidate"
+    }
+  ]
+}

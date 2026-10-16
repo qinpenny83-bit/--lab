@@ -1,0 +1,1528 @@
+{
+  "seed": "phase-5/batch-42",
+  "genLabel": "Phase 5 · Batch-42 · 23 nodes（收官：AD 医德法规 12→20 / AE 医患沟通心理 12→20 / AF 循证科研 18→25 全部达上限，全库 2185 节点）",
+  "total": 23,
+  "note": "AD 中医药医德传承/针灸推拿伦理/互联网诊疗/传染病防治法/药品管理法/纠纷处理/中药饮片调剂/药品流通 8；AE 倾听共情/儿童老年沟通/慢病心理调适/家属支持/职业倦怠/睡眠心理/疼痛心理 8；AF 指南制定/GRADE/系统评价解读/异质性发表偏倚/非劣效等效/真实世界研究/中医药循证 7",
+  "samples": [
+    {
+      "id": "pb42-ad-001",
+      "title": "伦理·中医药文化自信与医德传承",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "医德传承",
+        "大医精诚",
+        "仁心仁术",
+        "文化自信",
+        "职业道德"
+      ],
+      "intent": "掌握中医药文化自信对医德建设的意义与历代医家医德精神的传承脉络。",
+      "learning": {
+        "knowledge": "核心概念：文化自信——对中医药理论体系、辨证思维与疗效价值的自觉肯定；大医精诚——医术「精」与品格「诚」并重，源出《备急千金要方》。实践要点：把「仁心」落实为问诊耐心与处方审慎。注意：传承不等于固守，现代伦理规范同样约束实践。",
+        "misjudgment": "以为弘扬中医药文化自信就是全盘肯定传统做法、排斥现代规范。错：自信与科学审慎不矛盾，疗效要证据支撑，违反伦理的做法并不因「传统」获得豁免。",
+        "reasoning": "「大医精诚」的「精」与「诚」被并置强调，为什么缺一不可？",
+        "feedback": "「精」关乎技术底线，「诚」关乎品格底线，二者缺一，医德根基即动摇。",
+        "transfer": "面对网络上夸大疗效的「祖传秘方」宣传，如何用医德传承的眼光看待？"
+      },
+      "stdJudgment": "中医药文化自信是对中医药理论体系、诊疗方法与文化价值的自觉认同，是医德建设的精神根基。孙思邈「大医精诚」确立医术精湛与医德高尚并重的范式，历代医家以仁心仁术、悬壶济世相承。继承这份精神遗产，临床者方能自觉把人文关怀融入辨证施治，使传统医德在当代诊疗秩序中落地。",
+      "coreDefinition": "中医药文化自信指对中医药学价值与生命观、诊疗智慧的高度认同，其核心医德精神为「大医精诚」与「仁心仁术」的世代传承。",
+      "facts": [
+        {
+          "field": "theory.中医药文化自信内涵",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.大医精诚医德精神",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.仁心仁术理念",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.历代医家医德风范",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.医德传承与现代规范衔接",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "不得借传统文化之名宣传未经验证的疗法"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-002",
+      "title": "伦理·针灸推拿操作伦理规范",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "针灸伦理",
+        "推拿伦理",
+        "知情同意",
+        "隐私保护",
+        "身体接触"
+      ],
+      "intent": "掌握针灸推拿等直接接触性诊疗中的知情同意、隐私保护与身体接触边界等伦理要求。",
+      "learning": {
+        "knowledge": "核心概念：知情同意——操作前讲清部位、手法与风险；身体自主权——患者有权拒绝不接受的暴露与操作；隐私保护贯穿取穴、留针、推拿全程。实践要点：异性操作安排陪同，暴露最小化，针具一人一用一灭菌。注意：痛感操作提前告知，喊停即停。",
+        "misjudgment": "认为推拿针灸属传统技术，比手术宽松，不必较真知情同意。错：凡身体接触与针刺均涉及人身权利，同意程序缺失既违伦理也埋下纠纷隐患。",
+        "reasoning": "患者拒绝在隐私部位针刺而拒绝接受替代穴位方案，医师应当如何处理？",
+        "feedback": "尊重拒绝是底线，可协商替代穴位或转介，不可强制或诱导继续操作。",
+        "transfer": "为老年女性患者行肩部推拿时，如何既保证疗效又守好接触边界？"
+      },
+      "stdJudgment": "针灸推拿涉及身体接触与侵入性操作，须先行知情同意，说明选穴部位、手法与预期感受；乳房、会阴等隐私部位取穴或施术，须说明理由并征得同意，异性患者宜有第三人陪同。操作全程尊重患者身体自主权，遮盖非暴露部位，针具一人一用一消毒，防止交叉感染。",
+      "coreDefinition": "针灸推拿操作伦理指在身体接触性诊疗中恪守知情同意、隐私保护、尊重身体自主权与安全无菌要求的伦理准则。",
+      "facts": [
+        {
+          "field": "theory.针刺治疗知情同意",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.隐私部位操作规范",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.异性诊疗陪伴要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.身体接触边界",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.针具安全与无菌伦理",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学伦理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "未经知情同意不得在隐私部位施术；针刺操作须由具备资质者执行"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-003",
+      "title": "伦理·互联网诊疗伦理边界",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "互联网诊疗",
+        "首诊限制",
+        "电子处方",
+        "隐私数据",
+        "远程医疗"
+      ],
+      "intent": "辨析互联网诊疗与远程医疗、健康咨询的界限，掌握首诊限制与电子处方等伦理法律要求。",
+      "learning": {
+        "knowledge": "核心概念：首诊限制——初诊病情未经面诊核实不得线上确诊；远程医疗指机构间会诊协作，与面向患者的互联网诊疗不同。实践要点：结构化问诊单采集，资料不足建议面诊；病历处方留痕加密。注意：胸痛等危重指征须引导线下急诊。",
+        "misjudgment": "把互联网诊疗与「网上健康咨询」混为一谈，咨询平台给患者「确诊开方」。错：健康咨询不产生诊疗行为，一旦作出诊断或开具处方即属诊疗，须受首诊与处方规则约束。",
+        "reasoning": "慢性病复诊患者线上开方，如何判断本次咨询算复诊还是首诊？",
+        "feedback": "以是否建立过完整病历与明确诊断、病情是否稳定为界，资料缺失或病情变化都应转线下评估。",
+        "transfer": "平台接到「胸闷胸痛」的图文咨询，咨询医师应当如何处置？"
+      },
+      "stdJudgment": "互联网诊疗以复诊和慢性病管理为主，不得对首诊患者开展诊疗（国家另有规定的除外）；医师须实名注册且在其执业机构内提供服务。不得在线开具麻醉药品、精神药品等特殊管理药品处方，电子处方流转与审方须合规。平台须保障数据安全，发现危急重症迹象须引导患者线下就医，不得延误救治。",
+      "coreDefinition": "互联网诊疗伦理边界指线上诊疗须遵守首诊限制、处方限制与数据安全规则，并对危急重症承担识别与导诊义务。",
+      "facts": [
+        {
+          "field": "theory.互联网诊疗定义范围",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.首诊限制规则",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.电子处方开具限制",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.患者隐私与数据安全",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.危急重症识别义务",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "不得在线对首诊患者作出诊断或开具特殊管理药品处方"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-004",
+      "title": "法规·传染病防治法要点",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "传染病防治",
+        "疫情报告",
+        "甲类管理",
+        "隔离措施",
+        "预防接种"
+      ],
+      "intent": "掌握传染病分类、疫情报告时限与隔离控制等《传染病防治法》核心规定。",
+      "learning": {
+        "knowledge": "核心概念：甲类（鼠疫、霍乱）、乙类（艾滋病、病毒性肝炎、肺结核、新冠等）、丙类（流感等）三级分类；报告时限——甲类及甲管2小时内、其他24小时内。实践要点：首诊发现疑似病例立即填报报告卡并上报，做好隔离消毒。注意：不得因费用或身份拒绝收治。",
+        "misjudgment": "以为只有确诊才需要报告。错：疑似病例同样属于报告范围，迟报漏报可能延误疫情控制，酿成更大危害。",
+        "reasoning": "同为乙类传染病，为什么新冠曾按甲类管理而流感按丙类管理？",
+        "feedback": "管理类别取决于传染性与危害程度，甲类管理意味着更严格的报告、隔离与防控强度。",
+        "transfer": "门诊发现一例疑似登革热患者，首诊医师的法定动作是什么？"
+      },
+      "stdJudgment": "《传染病防治法》将传染病分甲、乙、丙三类管理：甲类含鼠疫、霍乱，乙类含艾滋病、病毒性肝炎、肺结核及曾按甲类管理的新冠等。发现疫情须依法限时报告：甲类及按甲类管理的于2小时内、其他乙丙类于24小时内。医疗机构承担早发现、早报告、早隔离的防控义务，必要时依法采取隔离与医学观察措施。",
+      "coreDefinition": "传染病防治法是规范传染病预防、疫情报告、控制与救治的法律，核心在分类管理、限时报告与依法隔离。",
+      "facts": [
+        {
+          "field": "theory.传染病分类标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.疫情报告时限",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.预防接种制度",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.隔离治疗与强制措施",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.医疗机构防控义务",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "发现传染病疫情须依法报告，不得隐瞒、谎报、缓报"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-005",
+      "title": "法规·药品管理法要点",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "药品管理",
+        "假药劣药",
+        "上市许可持有人",
+        "不良反应监测",
+        "处方药"
+      ],
+      "intent": "掌握假药劣药的界定、药品上市许可持有人制度与药品不良反应监测等核心规定。",
+      "learning": {
+        "knowledge": "核心概念：假药（成分不符、冒充）与劣药（含量不符、变质）的实质判定；上市许可持有人对药品全生命周期负总责；不良反应监测须落实。实践要点：调配使用前核对批准文号、有效期与外观。注意：处方药不得无处方网售，医疗机构制剂不得上市销售。",
+        "misjudgment": "以为「疗效不佳」的药品就是劣药。错：劣药以成分、含量、变质等客观质量指标判定，疗效不佳不等于法律上的劣药，二者认定标准不同。",
+        "reasoning": "一批中药饮片因储存不当霉变，应按假药还是劣药处理？",
+        "feedback": "霉变属于变质，质量指标不符，按劣药定性，医疗机构应立即停用并按规定处置。",
+        "transfer": "患者服用某药后出现说明书未列明的不良反应，医生应当完成哪些动作？"
+      },
+      "stdJudgment": "《药品管理法》以实质不符界定假药劣药：药品所含成分与国家药品标准不符、以非药品冒充药品或以此种药品冒充他种药品的为假药；成分含量不符、变质或污染等为劣药。药品上市许可持有人对药品全生命周期负责，医疗机构须落实不良反应监测报告义务，处方药凭处方调配，不得违规宣传与销售。",
+      "coreDefinition": "药品管理法规范药品研制、生产、经营与使用全程，核心是假劣药界定、全生命周期责任与不良反应监测。",
+      "facts": [
+        {
+          "field": "theory.假药界定标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.劣药界定标准",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.上市许可持有人制度",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.不良反应监测报告",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.处方药非处方药分类",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "发现药品不良反应须按规定报告，不得隐瞒"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-006",
+      "title": "法规·医疗纠纷预防与处理",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "医疗纠纷",
+        "医患沟通",
+        "病历封存",
+        "人民调解",
+        "尸检时限"
+      ],
+      "intent": "掌握《医疗纠纷预防和处理条例》的预防机制与法定处理途径。",
+      "learning": {
+        "knowledge": "核心概念：预防三件事——充分知情同意、规范病历记录、高风险操作专项告知；处理四途径——协商、人民调解、行政调解、诉讼。实践要点：疑似输液输血反应立即封存实物与病历；死亡争议48小时内组织尸检。注意：处理阶段不隐瞒不夸大，留痕提交病历复印件。",
+        "misjudgment": "把「调解」理解为「私了」，索赔10万元以上的纠纷也私下谈赔。错：条例规定大额赔偿不得自行协商，须经人民调解或诉讼，私了协议可能被认定无效。",
+        "reasoning": "患方拒绝尸检导致死因无法查明，后续责任认定受什么影响？",
+        "feedback": "死因不明使因果关系难以认定，依法拒绝尸检的一方可能承担不利后果。",
+        "transfer": "一位术后患者质疑切口感染与院方有关，科室应当如何启动预防与处理程序？"
+      },
+      "stdJudgment": "《医疗纠纷预防和处理条例》强调预防为主：落实知情同意、规范病历书写与高风险告知。争议处理循协商、人民调解、行政调解、诉讼路径，索赔数额较大（通常10万元以上）不得自行协商，应申请人民调解或诉讼。患者死亡争议的，医患双方须在法定时限内决定是否尸检，病历与疑似输液输血物品依法封存。",
+      "coreDefinition": "医疗纠纷预防与处理以预防为主、调解优先，明确病历封存、尸检时限与大额赔偿须循法定途径解决。",
+      "facts": [
+        {
+          "field": "theory.纠纷预防机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.病历封存与复印",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.尸检时限规定",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.纠纷处理途径",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.大额赔偿协商限制",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "发生医疗争议不得推诿，病历、实物须依法封存保全"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-007",
+      "title": "法规·中药饮片与处方调剂法规",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "中药饮片",
+        "处方调剂",
+        "毒性饮片",
+        "十八反",
+        "特殊煎煮"
+      ],
+      "intent": "掌握中药饮片处方审核、调剂复核与毒性饮片管理等法规要求。",
+      "learning": {
+        "knowledge": "核心概念：处方审核——查十八反（甘草反甘遂大戟芫花海藻等）、查超剂量、查妊娠禁忌；调配复核——称量准确、先调后核双人把关。实践要点：一人调配一人复核，发药时交代煎煮方法与禁忌。注意：生附子等毒性饮片专柜专账管理。",
+        "misjudgment": "以为十八反只是「参考建议」，调配时发现反药组合仍照方发药。错：反药同用可能产生毒性反应，属审核必查项，疑义处方必须退回医师确认。",
+        "reasoning": "处方中附子与半夏同见，药师核对的正确流程是什么？",
+        "feedback": "属十八反禁忌组合，先停止调配，退回处方医师确认或修改，不得擅自配发。",
+        "transfer": "处方标注「附子先煎」而发药时未作交代，可能造成什么后果？"
+      },
+      "stdJudgment": "中药饮片调剂须落实处方审核：核对处方书写、用药适宜性与配伍禁忌，十八反十九畏、超剂量、妊娠禁忌须重点把关，疑义处方经处方医师确认或修改后方可调配。需先煎、后下、包煎、烊化的饮片应在处方或包装上明确标注。毒性中药饮片专柜专锁、专人保管、凭处方限量调配，生品与炮制品严格区分。",
+      "coreDefinition": "中药饮片调剂法规以处方审核、调配复核、特殊煎煮标注与毒性饮片专柜管理为核心内容。",
+      "facts": [
+        {
+          "field": "theory.处方审核要点",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.调配复核程序",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.十八反十九畏核对",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.特殊煎煮法标注",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.毒性饮片管理",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "毒性中药饮片须凭处方限量调配，不得超量发药"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ad-008",
+      "title": "法规·执业药师与药品流通管理",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "执业药师",
+        "处方审核",
+        "GSP",
+        "特殊药品",
+        "在岗执业"
+      ],
+      "intent": "掌握执业药师注册执业制度、处方审核职责与药品流通质量管理规范。",
+      "learning": {
+        "knowledge": "核心概念：注册执业——未经注册不得以执业药师身份执业；GSP——采购验收、储存养护、销售全程质量管理，处方药凭处方销售；特殊药品专柜专账、双人双锁。实践要点：执业药师签章后方可发药，营业期间不得离岗。注意：网络售药须守专门规定。",
+        "misjudgment": "以为执业药师签章只是「走形式」，可先发药后补签。错：处方审核是法定责任环节，先发药后补签使审核形同虚设，违规者要承担行政与执业责任。",
+        "reasoning": "药店夜班营业时段执业药师不在岗，应当如何满足购药者的紧急需求又不违规？",
+        "feedback": "可引导购买非处方药或就近就医，处方药销售须待执业药师在岗审方，守规优先于成交。",
+        "transfer": "一家零售药店发现批号过期的退热药仍在货架，涉及哪些法规责任？"
+      },
+      "stdJudgment": "执业药师经考试取得资格并注册后方可执业，承担处方审核、调配指导与用药咨询职责，营业时间须在岗履职，处方审核不得由他人替代。药品经营执行GSP，采购验收、储存养护、销售各环节留痕；麻醉药品、精神药品、医疗用毒性药品按专门办法双人双锁、专账管理。违反规定可能被暂停执业甚至注销注册。",
+      "coreDefinition": "执业药师与药品流通管理指以资格注册、在岗审核与GSP规范保障药品流通安全有序的制度体系。",
+      "facts": [
+        {
+          "field": "theory.执业药师资格制度",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.处方审核与用药指导",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.药品经营质量管理规范",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.特殊管理药品流通",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.执业药师在岗要求",
+          "sourceType": "textbook",
+          "sourceTitle": "《卫生法规》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "法规与伦理知识学习，不构成法律意见或诊疗建议；临床操作须遵医嘱",
+        "prohibitions": [
+          "不构成法律意见与诊疗指导",
+          "麻醉药品与精神药品须凭专用处方并按专门规定管理"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-001",
+      "title": "沟通·倾听与共情技巧",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "倾听",
+        "共情",
+        "复述核实",
+        "非语言沟通",
+        "倾听障碍"
+      ],
+      "intent": "掌握积极倾听的要素与共情表达的方法，识别常见倾听障碍。",
+      "learning": {
+        "knowledge": "核心概念：积极倾听三要素——专注、回应、澄清；共情句式——「我理解您（情绪），因为（事实）」；同情是「为您难过」，共情是「站在您的角度感受」。实践要点：眼神接触、点头示意，讲完用「您是说……对吗」复述确认。注意：翻看手机破坏倾听。",
+        "misjudgment": "以为共情就是「顺着患者说话」，连错误的病情认知也点头附和。错：共情承接的是情绪而非认同事实，情绪安抚后再温和纠偏才是完整沟通。",
+        "reasoning": "患者反复诉说症状却始终绕不开焦虑，听与问的节奏应当如何把握？",
+        "feedback": "先完整听完他的担心，再切入结构化追问，情绪未落地时追问只会被挡回来。",
+        "transfer": "一位主诉「心慌」的患者讲话急促反复，如何用倾听技巧稳住局面？"
+      },
+      "stdJudgment": "积极倾听包括专注、不打断、以复述确认理解并回应情绪；共情是设身处地体会患者感受并以语言或非语言方式让对方感到被理解，与「同情」的居高临下不同。常见倾听障碍有急于下结论、选择性听、心不在焉。倾听质量决定病史可信度，也直接塑造患者的被尊重感。",
+      "coreDefinition": "倾听与共情是医患沟通的基本功：全神贯注接收信息、体会患者感受并准确反馈，使患者感到被理解与尊重。",
+      "facts": [
+        {
+          "field": "theory.积极倾听要素",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.共情与同情区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.共情表达方式",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.倾听障碍类型",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.复述与澄清技巧",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "医患沟通知识学习，不构成诊疗建议；临床操作与病情告知须遵循专业规范",
+        "prohibitions": [
+          "不得以敷衍应付患者的倾诉，须真实反馈理解",
+          "共情不等于迎合，不得为安抚而附和错误的病情认知"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-002",
+      "title": "沟通·儿童患者沟通技巧",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "儿童沟通",
+        "年龄分期",
+        "家长沟通",
+        "操作安抚",
+        "知情同意"
+      ],
+      "intent": "掌握按年龄分期的儿童沟通策略与家长同步沟通、操作安抚技巧。",
+      "learning": {
+        "knowledge": "核心概念：年龄分期——3岁以下主要沟通对象是家长；学龄前期用拟人话术；青春期把患者本人当沟通主角。实践要点：操作时家长在场安抚、讲故事转移注意，完成操作立即表扬并兑现承诺。注意：承诺的事必须做到，才留得住信任。",
+        "misjudgment": "以为哄骗「打针一点不疼」能让儿童配合。错：欺骗破坏信任，下次操作更难，儿童还会把「这个医生骗人」的印象传给别的孩子。",
+        "reasoning": "青春期的慢病患儿拒绝服药、抗拒复查，沟通时应当以谁为第一对象？",
+        "feedback": "青春期应直接与患儿本人沟通，家长在场但不当面否定孩子的表达，协商式解决比命令式有效。",
+        "transfer": "三岁患儿抗拒听诊器检查，如何用游戏化策略完成听诊？"
+      },
+      "stdJudgment": "与儿童沟通须按年龄分层：婴幼儿以安抚与家长沟通为主；学龄前儿童用拟人化语言、游戏与即时奖励；学龄期可解释检查流程、邀请参与；青春期须尊重其独立感与隐私。监护人行使知情同意，但儿童意见须同步听取。操作前用分散注意力、正向暗示降低恐惧，避免「打针不疼」式欺骗。",
+      "coreDefinition": "儿童患者沟通技巧指按年龄分期采用形象化、游戏化与尊重隐私的策略，并与监护人协同完成告知与安抚。",
+      "facts": [
+        {
+          "field": "theory.婴幼儿沟通策略",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.学龄前游戏化沟通",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.学龄期参与式沟通",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.青春期尊重与隐私",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.家长沟通与知情同意",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "医患沟通知识学习，不构成诊疗建议；临床操作与病情告知须遵循专业规范",
+        "prohibitions": [
+          "不得以「不疼」「没事」等哄骗方式换取儿童配合，信任一旦破裂更难修复",
+          "儿童诊疗的知情同意须由监护人行使，不得仅凭儿童口头同意实施有创操作"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-003",
+      "title": "沟通·老年患者沟通技巧",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "老年沟通",
+        "感官代偿",
+        "信息简化",
+        "重复确认",
+        "家属协作"
+      ],
+      "intent": "掌握老年患者的沟通特点与听觉视觉代偿、信息简化确认等技巧。",
+      "learning": {
+        "knowledge": "核心概念：感官代偿——弱听者看口型、弱视者放大字号；信息简化——一次只交代一件事；重复确认——让老人复述服药安排。实践要点：视线平齐、语速放慢、医嘱配书面卡片。注意：老人常以「都行」回避表达，须主动询问，防家属代答。",
+        "misjudgment": "以为老人「都听医生的」，直接向家属交代完就结束沟通。错：老人是当事人，跳过本人沟通既失尊重，也让治疗方案落不到执行。",
+        "reasoning": "老人拒绝家属代劳的用药管理，却频频漏服药物，沟通责任在谁？",
+        "feedback": "尊重自主与保障安全要并行：先问清漏服原因，再协商由谁以什么方式协助，而非直接指定家属接管。",
+        "transfer": "一位耳背的独居老人复诊时无家属陪同，如何确保医嘱被听懂？"
+      },
+      "stdJudgment": "老年患者常见听力视力减退、反应与理解偏慢、多重用药，沟通宜放慢语速、适度提高音量、面对面配合口型，信息分成小块逐项确认。用药交代要落到具体情景，如「早饭后服白色药片」。称呼得体、留出倾听时间，必要时请家属参与记录，但不得越过患者本人作决定。",
+      "coreDefinition": "老年患者沟通技巧指以感官代偿、放慢节奏、信息简化与重复确认适应老年人生理心理特点的沟通方法。",
+      "facts": [
+        {
+          "field": "theory.老年患者沟通特点",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.听觉视觉代偿技巧",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.信息简化与分步告知",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.尊重与称呼礼仪",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.家属协作沟通",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "医患沟通知识学习，不构成诊疗建议；临床操作与病情告知须遵循专业规范",
+        "prohibitions": [
+          "不得因老人听不清、记不住而敷衍告知，关键信息须书面或家属协助确认",
+          "家属在场时不得忽视患者本人的表达与决定权"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-004",
+      "title": "心理·慢性病心理调适",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "慢性病",
+        "心理调适",
+        "认知重建",
+        "行为激活",
+        "病耻感"
+      ],
+      "intent": "掌握慢性病患者的心理反应规律与促进心理调适的干预要点。",
+      "learning": {
+        "knowledge": "核心概念：心理反应五阶段——否认、愤怒、讨价还价、抑郁、接受；认知重建——把「我完了」改写为「带病也能活得有质量」；行为激活——用可完成的日常活动对抗退缩。实践要点：共设小目标并肯定执行。注意：持续抑郁降低依从，应纳入复诊问询。",
+        "misjudgment": "把慢性病患者反复诉苦简单归为「想不开」，劝说几句就完。错：慢性病的情绪问题有明确心理病理基础，持续两周以上的低落须按抑郁线索评估转介。",
+        "reasoning": "同样的糖尿病，为什么有人积极控糖十年，有人确诊后彻底放弃？",
+        "feedback": "差别多在疾病信念：认为「反正治不好」者放弃，相信「我能管住它」者坚持，认知是依从的心理开关。",
+        "transfer": "一位确诊慢阻肺的老人整日卧床叹气，如何用行为激活设计第一步？"
+      },
+      "stdJudgment": "慢性病确诊常引发否认、愤怒、讨价还价、抑郁到接受的阶段性反应，长期带病还带来病耻感、失控感与对未来的忧虑。调适核心在重建对疾病的合理认知：病不等于残，治疗是合作不是对抗；以行为激活维持日常活动与生活意义，借助家庭与病友支持降低孤独，必要时筛查抑郁并转介。",
+      "coreDefinition": "慢性病心理调适指帮助患者接纳带病状态、重建合理认知、维持社会功能与生活质量的心理干预过程。",
+      "facts": [
+        {
+          "field": "theory.慢性病心理反应阶段",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.病耻感与情绪问题",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.疾病认知重建",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.行为激活策略",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.社会支持作用",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "心理学知识学习，不构成诊疗建议；严重心理障碍须转介专科",
+        "prohibitions": [
+          "【心理危机警戒】慢性病患者出现持续抑郁或自伤念头时须转介精神专科评估",
+          "心理调适不能替代慢性病的规范药物治疗"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-005",
+      "title": "心理·患者家属心理支持",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "家属支持",
+        "照护者负担",
+        "预期性哀伤",
+        "信息支持",
+        "情绪支持"
+      ],
+      "intent": "掌握家属心理需求的识别与信息支持、情绪支持的实施要点。",
+      "learning": {
+        "knowledge": "核心概念：照护者负担——经济、时间、情绪多重消耗叠加；预期性哀伤——家属在患者去世前已开始哀伤；信息支持——病情进展与预后是家属焦虑的主要来源。实践要点：定期同步病情，用「您最近睡得怎么样」打开情绪出口。注意：家属分歧时帮其聚焦患者利益。",
+        "misjudgment": "以为「把精力都放患者身上」，家属情绪无暇顾及。错：家属情绪不稳会反向影响患者与治疗决策，支持家属就是支持患者。",
+        "reasoning": "一位家属每夜守在ICU外不肯离开，这种坚持背后可能是什么心理状态？",
+        "feedback": "可能是对失去的恐惧与愧疚的补偿，过度的自我牺牲提示需要引导休息与支持。",
+        "transfer": "肿瘤患者家属向医生打探「实话」，如何提供既不隐瞒又不压垮的信息？"
+      },
+      "stdJudgment": "家属是患者最重要的支持系统，却也承受焦虑、疲惫与决策压力，慢性或重病照护中可能出现明显的照护者负担。医务人员应向家属提供清晰可理解的信息、倾听其情绪、引导其参与决策，并识别持续的哀伤、失眠等异常反应；临终情境中的家属还经历预期性哀伤，需要专门的陪伴与疏导。",
+      "coreDefinition": "患者家属心理支持指医务工作者对家属提供信息、情绪与决策支持，并识别照护负担与哀伤反应的照护过程。",
+      "facts": [
+        {
+          "field": "theory.家属心理需求",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.照护者负担识别",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.信息支持方法",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.情绪支持技巧",
+          "sourceType": "textbook",
+          "sourceTitle": "《医患沟通学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.哀伤反应识别",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "心理学知识学习，不构成诊疗建议；严重心理障碍须转介专科",
+        "prohibitions": [
+          "【心理危机警戒】家属出现持续哀伤、失眠或轻生念头时须引导其接受专业心理帮助",
+          "不得向家属隐瞒关键病情信息以「保护」，信息支持是家属知情权的一部分"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-006",
+      "title": "心理·医护人员职业倦怠与自我调适",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "职业倦怠",
+        "情感耗竭",
+        "去人格化",
+        "成就感降低",
+        "自我调适"
+      ],
+      "intent": "掌握职业倦怠的三维表现、高发原因与自我调适的基本方法。",
+      "learning": {
+        "knowledge": "核心概念：倦怠三维度——情感耗竭、去人格化、成就感降低；高发诱因——倒班、暴露于创伤事件、医患冲突累积。实践要点：下班划清界限、规律运动睡眠，创伤事件及时疏解，参加同事支持小组。注意：用酒精麻痹疲惫是危险信号，界限模糊时请专业人员评估。",
+        "misjudgment": "把「最近不想上班、对患者不耐烦」当成偷懒或矫情。错：这正是去人格化与耗竭的典型信号，越早干预越容易恢复，硬扛只会滑向抑郁。",
+        "reasoning": "同样是高强度工作，为什么有人倦怠有人仍保持热情？",
+        "feedback": "差别常在支持系统与意义感：被认可、能倾诉、有成长感者消耗得慢，倦怠是环境与个体的合力结果。",
+        "transfer": "连续三例抢救失败后你感到「麻木」，这属于正常还是预警信号？"
+      },
+      "stdJudgment": "职业倦怠以情感耗竭、去人格化与成就感降低为三要素：身心透支、对患者冷漠疏离、觉得工作没有意义。医护人员因高强度、倒班、生死压力与医患摩擦属高发人群。调适须双管齐下：个人层面规律作息、运动、正念练习、划定工作边界；组织层面合理排班、建立支持系统。持续数月不缓解宜寻求专业心理咨询。",
+      "coreDefinition": "职业倦怠是长期工作压力下的情感耗竭、去人格化与成就感降低综合征，需个人与组织共同应对。",
+      "facts": [
+        {
+          "field": "theory.职业倦怠三维度",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.医护人员高发原因",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.自我调适方法",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.正念与放松训练",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.寻求专业帮助",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "心理学知识学习，不构成诊疗建议；严重心理障碍须转介专科",
+        "prohibitions": [
+          "倦怠明显的医护若伴抑郁或自伤念头须转介专业评估，不可硬扛",
+          "不得将职业倦怠简单归咎于个人「抗压差」，组织因素须同步调整"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-007",
+      "title": "心理·睡眠障碍心理干预",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "失眠",
+        "刺激控制",
+        "睡眠限制",
+        "睡眠卫生",
+        "认知重构"
+      ],
+      "intent": "掌握失眠认知行为治疗（CBT-I）的核心技术及其心理机制。",
+      "learning": {
+        "knowledge": "核心概念：刺激控制——睡不着就离开床，让床重新成为睡眠信号；睡眠限制——压缩卧床时间、提高睡眠效率；认知重构——用「偶尔睡不好无妨」替换灾难化想法。实践要点：记录睡眠日记，作息固定，午睡不超20分钟。注意：先排除躯体疾病与药物因素。",
+        "misjudgment": "把安眠药当作失眠的首选长期方案，忽视心理干预。错：药物适合短期过渡，长期依赖有耐受与戒断问题，CBT-I疗效持久且无药物依赖。",
+        "reasoning": "为什么「早点上床等着睡」反而让失眠更顽固？",
+        "feedback": "长时间躺床把床与「清醒焦虑」绑定，睡眠驱力被稀释，刺激控制正是要切断这层错误联结。",
+        "transfer": "一位患者每天22点上床却凌晨2点才入睡，睡眠日记显示卧床9小时、睡眠5小时，如何开始干预？"
+      },
+      "stdJudgment": "失眠由对睡眠的灾难化担忧与不良行为维持：越怕睡不着越睡不着，卧床过久反而稀释睡意。CBT-I以刺激控制（床只与睡觉建立联系、无睡意离床）与睡眠限制（压缩卧床时间、提高睡眠效率）为核心，辅以睡眠卫生教育与认知重构，打破「睡不够8小时就要出事」的信念。心理干预是原发性失眠的一线选择。",
+      "coreDefinition": "睡眠障碍心理干预以认知行为治疗为核心，通过刺激控制、睡眠限制、睡眠卫生教育与认知重构打破失眠的恶性循环。",
+      "facts": [
+        {
+          "field": "theory.失眠认知模型",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.刺激控制疗法",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.睡眠限制疗法",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.睡眠卫生教育",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.睡眠相关认知重构",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "心理学知识学习，不构成诊疗建议；严重心理障碍须转介专科",
+        "prohibitions": [
+          "【心理危机警戒】失眠伴明显抑郁或自杀意念者须先转介精神专科，不得只做睡眠指导",
+          "睡眠限制等干预须由专业人员实施，自行压缩卧床时间可能加重疲惫"
+        ]
+      }
+    },
+    {
+      "id": "pb42-ae-008",
+      "title": "心理·疼痛的心理因素与管理",
+      "category": "theory",
+      "difficulty": 5,
+      "difficultyLabel": "综合推理",
+      "riskTags": [
+        "疼痛心理",
+        "疼痛灾难化",
+        "认知行为干预",
+        "放松训练",
+        "多模式镇痛"
+      ],
+      "intent": "综合理解疼痛的主观性与心理社会影响因素，掌握慢性疼痛的心理管理思路。",
+      "learning": {
+        "knowledge": "核心概念：疼痛三成分——感觉辨别、情绪动机与认知评价；灾难化——对疼痛的放大与无助思虑，是慢性化强预测因子；放松与分心改变注意分配。实践要点：评估纳入情绪问卷；解释「心理技术减轻痛苦，不否定痛的真实」。注意：术前高焦虑者术后镇痛需求更大。",
+        "misjudgment": "疼痛找不到器质性依据就断言「是心理作用，不用管」。错：功能性与心因成分不等于「假痛」，患者体验真实，轻视标签会让患者求医无门、痛苦加剧。",
+        "reasoning": "相同手术、相同切口，为什么两位患者的术后疼痛评分相差悬殊？",
+        "feedback": "术前焦虑、疼痛预期与应对方式调制术后痛感，心理准备充分的患者评分更低、恢复更快。",
+        "transfer": "一位慢性腰痛患者CT只有轻度退变却痛到无法工作，如何从心理与躯体两面制定管理计划？"
+      },
+      "stdJudgment": "疼痛是主观感受，疼痛报告以患者自述为金标准，强度受注意力、情绪、预期与认知调制：焦虑抑郁放大疼痛，灾难化思维（「这痛会毁掉我」）预测更差的疼痛结局。慢性疼痛取多模式管理：药物与病因治疗之外，认知行为干预、放松训练、正念与分心技术改善疼痛体验，心理干预不否定疼痛的真实性。",
+      "coreDefinition": "疼痛的心理因素指情绪、注意力与认知对疼痛感受的调制作用；心理管理以认知行为技术与放松训练减轻疼痛相关痛苦。",
+      "facts": [
+        {
+          "field": "theory.疼痛主观性",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.情绪与认知影响",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.疼痛灾难化概念",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.认知行为干预",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.心理与药物镇痛协同",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学心理学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "心理学知识学习，不构成诊疗建议；严重心理障碍须转介专科",
+        "prohibitions": [
+          "疼痛心理管理不得替代病因诊治，不明原因疼痛须先排除器质性疾病",
+          "不得以「心理作用」为由轻视患者的疼痛主诉，疼痛报告须以患者自述为准"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-001",
+      "title": "循证·临床实践指南制定与评价",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "临床实践指南",
+        "指南制定",
+        "AGREE II",
+        "推荐强度",
+        "指南更新"
+      ],
+      "intent": "掌握临床实践指南的制定流程与AGREE II评价要点，理解指南的适用性限定与更新要求。",
+      "learning": {
+        "knowledge": "主题要点：指南是把证据转化为推荐意见的桥梁。核心概念：PICO界定、多学科专家组、证据确定性、AGREE II六大领域评价。实践要点：应用前评价方法学质量与更新状态。注意事项：指南面向群体，个体决策须结合患者意愿。",
+        "misjudgment": "把指南当作「照抄执行的标准答案」。错：指南质量参差、面向群体平均，未做AGREE II评价与适用性核对就机械照搬，可能把过时或质量差的推荐误用于个体。",
+        "reasoning": "同一临床问题，为何不同国家指南可能给出相反的推荐？",
+        "feedback": "证据解读、价值取向与卫生资源差异都会改写推荐，应用前须核对证据等级与人群适用性。",
+        "transfer": "拿到一份针灸诊疗指南，试按AGREE II的六大领域逐一评估其质量。"
+      },
+      "stdJudgment": "临床实践指南是针对特定临床问题系统评价证据后形成的推荐意见集，制定须经历范围界定、多学科组队、证据合成、推荐形成与外部评审环节。AGREE II以范围与目的、参与人员、严谨性、清晰性、应用性、编辑独立性六大领域评价指南质量。指南须定期更新，应用前应核对其年限与适用人群。",
+      "coreDefinition": "临床实践指南是针对特定临床问题、在系统评价证据基础上形成推荐意见、供医患共同决策的参考文书。",
+      "facts": [
+        {
+          "field": "theory.指南定义与功能",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.指南制定流程",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.AGREE II评价领域",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.证据分级与推荐形成",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.指南更新与适用",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "指南推荐不得脱离适用人群与更新时效直接套用"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-002",
+      "title": "循证·GRADE证据分级与推荐强度",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "GRADE",
+        "证据确定性",
+        "降级因素",
+        "升级因素",
+        "推荐强度"
+      ],
+      "intent": "掌握GRADE证据确定性的升降级规则与推荐强度的判定依据，理清证据与推荐的分工关系。",
+      "learning": {
+        "knowledge": "主题要点：衡量证据可信度与推荐力度。核心概念：确定性高/中/低/极低四档，五项降级（偏倚风险、不一致性、间接性、不精确性、发表偏倚）与三项升级（大效应量、剂量反应、负偏倚），推荐分强弱两级。注意事项：弱推荐也须结合患者意愿执行。",
+        "misjudgment": "把弱推荐读成「证据太差、不该用」。错：弱推荐多因证据确定性不足或利弊接近，仍是有条件推荐，须结合患者意愿与临床情境决定取舍。",
+        "reasoning": "为何源于观察性研究的证据在GRADE下也可能被升级为高确定性？",
+        "feedback": "效应量很大、存在剂量反应且负偏倚可能压低真实效应时，观察性证据可以升级。",
+        "transfer": "一条中药RCT证据降级至中确定性，试列出最可能的降级因素并说明理由。"
+      },
+      "stdJudgment": "GRADE将证据确定性分为高、中、低、极低四档，按偏倚风险、不一致性、间接性、不精确性与发表偏倚五项因素降级，按效应量很大、剂量反应关系、负偏倚压低真实效应三项因素升级。推荐强度分强与弱两级，判定不只看证据确定性，还要权衡利弊平衡、患者价值观偏好与资源消耗，弱推荐尤须医患协商。",
+      "coreDefinition": "GRADE是国际通用的证据分级与推荐体系，以证据确定性四档定级，以利弊与价值观等定推荐强弱的动态框架。",
+      "facts": [
+        {
+          "field": "theory.证据确定性四档",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.GRADE五项降级因素",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.GRADE升级因素",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.推荐强度分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.推荐决策影响因素",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "GRADE定级须逐项说明升降级理由，不得含糊带过"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-003",
+      "title": "循证·系统评价与Meta分析解读",
+      "category": "theory",
+      "difficulty": 2,
+      "difficultyLabel": "中等",
+      "riskTags": [
+        "系统评价解读",
+        "AMSTAR",
+        "森林图",
+        "置信区间",
+        "敏感性分析"
+      ],
+      "intent": "掌握对已发表系统评价与Meta分析进行批判性解读的步骤与要点，学会判断结论可信度。",
+      "learning": {
+        "knowledge": "主题要点：解读是循证阅读的基本功。核心概念：方案注册、检索完整性、AMSTAR方法学评价、森林图CI与无效线、亚组分析、敏感性分析。实践要点：按流程核查再信结论，不只看合并菱形。注意事项：纳入研究质量决定合并质量，稳健性差时结论须保留。",
+        "misjudgment": "看见合并菱形不跨无效线就断定「疗效确切」。错：还需核查纳入研究质量、异质性与发表偏倚，稳健性不足时该结论可能被敏感性分析推翻。",
+        "reasoning": "为什么两篇针对同一问题、结论却相反的Meta分析可能都方法学合格？",
+        "feedback": "检索时限、纳入标准与统计模型不同可产生分歧，解读须回溯原始研究与方案而非只看合并图。",
+        "transfer": "评估一篇复方中药Meta分析，试按注册、检索、质量、稳健性四步写解读清单。"
+      },
+      "stdJudgment": "解读系统评价先核方案是否预先注册、检索是否完整、偏倚风险评估是否到位，再判断异质性处理与合并模型是否恰当。森林图看各研究效应量与置信区间（CI）是否跨无效线，亚组分析与敏感性分析检验结论稳健性，最后用GRADE对合并证据定级。任一环节失守，合并结果都可能失真。",
+      "coreDefinition": "系统评价解读是按注册、检索、评价、合并、分级五个环节核查一篇Meta分析的方法学质量与结论可信度的过程。",
+      "facts": [
+        {
+          "field": "theory.解读总体框架",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.AMSTAR方法学评价",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.森林图与CI解读",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.亚组与敏感性分析",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.合并证据分级",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "不得只读合并结果而略过方案注册与质量评价环节"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-004",
+      "title": "循证·异质性与发表偏倚",
+      "category": "theory",
+      "difficulty": 4,
+      "difficultyLabel": "易混淆",
+      "riskTags": [
+        "异质性",
+        "I²指数",
+        "固定效应模型",
+        "随机效应模型",
+        "发表偏倚",
+        "漏斗图"
+      ],
+      "intent": "区分异质性类型与发表偏倚的表现，掌握I²解读、效应模型选择与漏斗图判断的易错点。",
+      "learning": {
+        "knowledge": "主题要点：异质性决定能否合并，发表偏倚威胁结论。核心概念：三型异质性、I²指数（>50%提示实质异质性）、固定/随机效应模型、漏斗图与Egger检验。实践要点：先查异质性再选模型。注意事项：I²高不等于必须放弃，可先探源。",
+        "misjudgment": "以为漏斗图不对称就等于「实锤」发表偏倚。错：小样本低质量研究与真实异质性同样可致不对称，须结合Egger检验与纳入研究核查综合判断，单凭图形会误判。",
+        "reasoning": "同一组研究，为什么换用随机效应模型后合并CI明显变宽？",
+        "feedback": "随机效应模型把研究间方差计入误差，异质性越大CI越宽，提示合并结果不确定。",
+        "transfer": "一篇推拿Meta分析I²达68%，试拟定亚组分析的分组变量并预测其作用。"
+      },
+      "stdJudgment": "异质性分临床、方法学与统计学三类，I²指数大于50%提示实质异质性。处理策略有亚组分析、Meta回归、敏感性分析与换用随机效应模型，异质性过大且无法解释时应放弃合并。发表偏倚使阳性研究更易发表，漏斗图不对称是提示信号，但低质量研究与真实异质性亦可致不对称，须结合Egger检验。",
+      "coreDefinition": "异质性指纳入研究效应差异超出抽样波动的部分，以I²量化；发表偏倚指结果影响发表与否导致的证据系统失真。",
+      "facts": [
+        {
+          "field": "theory.异质性类型",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.I²指数含义",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.效应模型选择",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.发表偏倚机制",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.漏斗图与检验",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "漏斗图不对称不得直接断言发表偏倚，须结合检验与质量核查"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-005",
+      "title": "科研·非劣效与等效设计",
+      "category": "theory",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "riskTags": [
+        "非劣效设计",
+        "等效设计",
+        "界值",
+        "置信区间",
+        "意向性分析"
+      ],
+      "intent": "掌握非劣效与等效设计的目的、界值设定与置信区间判定法，区分其与优效检验的差异。",
+      "learning": {
+        "knowledge": "主题要点：回答新干预「不比标准差多少」。核心概念：单侧界值δ、双侧等效区间、效应差95%CI与界值比较、ITT与PP分析。实践要点：界值试验前设定，CI下限高于-δ判非劣效。注意事项：P>0.05不等于非劣效，样本量常大于优效试验。",
+        "misjudgment": "把「两组差异无统计学意义」当作「证明非劣效成立」。错：P>0.05可能只是检验效能不足，非劣效须看效应差CI是否完全高于-δ，两条判据概念不同。",
+        "reasoning": "为什么非劣效试验常比优效试验需要更大的样本量？",
+        "feedback": "要在界值内「证实」不劣需要更窄的CI，精度要求高，样本量随之增大。",
+        "transfer": "某中药欲证明疗效不逊于标准西药但副作用更小，试确定设计类型与界值来源。"
+      },
+      "stdJudgment": "非劣效设计验证新干预疗效不低于标准治疗预设界值δ，等效设计则要求效应差落入对称的双侧区间。判定以效应差值的95%置信区间为准：区间下限高于-δ而非劣效成立，而非看P值是否小于0.05。界值须在试验前基于标准治疗效应设定，非劣效试验样本量通常更大，ITT与PP分歧时须谨慎解释。",
+      "coreDefinition": "非劣效与等效设计是预设界值、以置信区间法验证新干预疗效不劣于或等同于标准治疗的临床试验设计。",
+      "facts": [
+        {
+          "field": "theory.非劣效设计目的",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.非劣效界值设定",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.置信区间判定法",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.非劣效与优效区别",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.ITT与PP分析",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "非劣效界值须预设并申报，不得事后放宽以迁就结论"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-006",
+      "title": "科研·真实世界研究",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "真实世界研究",
+        "真实世界数据",
+        "电子病历",
+        "倾向性评分",
+        "工具变量"
+      ],
+      "intent": "掌握真实世界研究的数据来源、设计与混杂控制要点，理解其与RCT的证据地位差异。",
+      "learning": {
+        "knowledge": "主题要点：用真实诊疗数据补RCT之短。核心概念：真实世界数据（电子病历、医保库、登记系统）、实用试验、倾向性评分匹配（PSM）、工具变量。实践要点：明确数据来源与纳入标准，报告缺失与混杂校正。注意事项：大样本不消除系统误差，因果解释须谨慎。",
+        "misjudgment": "以为真实世界研究数据量大、证据等级就高。错：样本量解决不了系统误差，缺乏随机化带来的混杂与选择偏倚使其证据等级一般低于RCT。",
+        "reasoning": "真实世界数据库如此庞大，为何其因果结论仍须谨慎解读？",
+        "feedback": "相关不等于因果，混杂、信息缺失与选择性记录会扭曲关联，须校正后谨慎下结论。",
+        "transfer": "拟用医院信息系统评价某院内制剂的长期安全性，试拟定可行设计并指出数据要点。"
+      },
+      "stdJudgment": "真实世界研究依托电子病历、医保数据库、疾病登记系统等常规收集数据，在真实诊疗环境中评价干预效果与安全性，入选宽松、样本量大、外推性好，但缺乏随机化使混杂与选择偏倚突出，常以倾向性评分匹配、工具变量、多因素校正控制。它补充RCT证据、服务药物警戒，却不能替代随机化对因果的保障。",
+      "coreDefinition": "真实世界研究是运用常规诊疗数据、贴近真实临床环境评价干预效果与安全性的研究，以观察性设计为主。",
+      "facts": [
+        {
+          "field": "theory.真实世界研究定义",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.真实世界数据来源",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.与传统RCT差异",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.混杂控制方法",
+          "sourceType": "textbook",
+          "sourceTitle": "《医学统计学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.应用场景与局限",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "真实世界数据分析须遵守数据隐私与使用规范"
+        ]
+      }
+    },
+    {
+      "id": "pb42-af-007",
+      "title": "循证·中医药循证评价特殊性",
+      "category": "theory",
+      "difficulty": 1,
+      "difficultyLabel": "简单",
+      "riskTags": [
+        "辨证论治",
+        "个体化",
+        "复合干预",
+        "安慰剂对照",
+        "证候结局",
+        "实用试验"
+      ],
+      "intent": "理解辨证论治个体化、复合干预与证候结局对标准循证评价的挑战及适应性设计选择。",
+      "learning": {
+        "knowledge": "主题要点：为辨证论治寻找可检验路径。核心概念：辨证个体化、复合干预归因困难、安慰剂与盲法难题、证候结局标准化、实用性RCT、N-of-1设计。实践要点：按问题选择设计，明确证候判定标准。注意事项：个体化不等于不可检验，拒绝研究等于放弃证据。",
+        "misjudgment": "以为「辨证论治个体化」可以豁免随机对照检验。错：个体化方案可通过实用性试验、分层随机与N-of-1设计加以考察，拒绝检验等于放弃证据。",
+        "reasoning": "针灸试验中的「假针灸」对照，真能剥离安慰效应吗？",
+        "feedback": "期望、得气感等非特异效应难以完全分离，假针刺也非完全无效，解读效应量须留有余地。",
+        "transfer": "评价一套辨证论治的中药汤剂方案，试选择兼顾个体化的设计与证候结局指标。"
+      },
+      "stdJudgment": "中医药循证评价须直面辨证论治的个体化、方药随证加减与复合干预并存等特征，标准化试验与个体化实践存在张力。安慰剂在气味外观上难模拟、盲法难维持，证候类结局缺乏公认标准；宜以实用性随机对照试验、真实世界研究与N-of-1设计补充传统RCT，并在证据分级时给专家经验以合理权重。",
+      "coreDefinition": "中医药循证评价特殊性指辨证个体化、复合干预、证候结局等特征使标准证据评价方法须作适应性调整。",
+      "facts": [
+        {
+          "field": "theory.辨证个体化特点",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.复合干预评价难点",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.安慰剂与盲法困难",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.证候结局指标问题",
+          "sourceType": "textbook",
+          "sourceTitle": "《循证医学》规划教材",
+          "status": "verified"
+        },
+        {
+          "field": "theory.适应性设计选择",
+          "sourceType": "textbook",
+          "sourceTitle": "《临床流行病学》规划教材",
+          "status": "verified"
+        }
+      ],
+      "classics": [],
+      "cases": null,
+      "dosage": null,
+      "safety": {
+        "note": "循证与科研方法知识学习，不构成诊疗建议或研究伦理意见",
+        "prohibitions": [
+          "不构成诊疗建议",
+          "不得以「个体化」为由拒绝证据评价，也不得用未经评价的经验替代证据"
+        ]
+      }
+    }
+  ]
+}

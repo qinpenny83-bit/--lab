@@ -1,0 +1,890 @@
+{
+  "schema": "phase-5/production-dashboard/v33",
+  "generatedAt": "2026-10-08T08:22:27.586Z",
+  "coverage": {
+    "subjects": "33（已生产 33 科：A/AC/B/G/C/D/F/Q/E/H/I/J/Y/K/L/M/N/AA/AB/AD/AE/AF/AG/O/P/R/S/T/U/V/W/X/Z）",
+    "nodes": "2215（305 存量 + 1910 新增）",
+    "phase5New": 1910
+  },
+  "nodes": {
+    "total": 2215,
+    "candidate": 2159,
+    "conditional": 53,
+    "quarantine": 3
+  },
+  "subjectCoverage": {
+    "A": {
+      "name": "中医基础理论",
+      "total": 185,
+      "target": [
+        160,
+        185
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 116
+    },
+    "AC": {
+      "name": "现代医学基础",
+      "total": 55,
+      "target": [
+        40,
+        55
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 138
+    },
+    "B": {
+      "name": "中医诊断学",
+      "total": 165,
+      "target": [
+        140,
+        165
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 118
+    },
+    "G": {
+      "name": "中药学",
+      "total": 290,
+      "target": [
+        250,
+        290
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 116
+    },
+    "C": {
+      "name": "经络学",
+      "total": 45,
+      "target": [
+        35,
+        45
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 129
+    },
+    "D": {
+      "name": "腧穴学",
+      "total": 75,
+      "target": [
+        60,
+        75
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 125
+    },
+    "F": {
+      "name": "刺法灸法学",
+      "total": 35,
+      "target": [
+        25,
+        35
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 140
+    },
+    "Q": {
+      "name": "中医临床基础",
+      "total": 45,
+      "target": [
+        35,
+        45
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 129
+    },
+    "E": {
+      "name": "针灸治疗学",
+      "total": 40,
+      "target": [
+        30,
+        40
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 133
+    },
+    "H": {
+      "name": "中药鉴定学",
+      "total": 70,
+      "target": [
+        50,
+        70
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 140
+    },
+    "I": {
+      "name": "药用植物·本草学",
+      "total": 45,
+      "target": [
+        30,
+        45
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "J": {
+      "name": "中药炮制学",
+      "total": 60,
+      "target": [
+        40,
+        60
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "Y": {
+      "name": "推拿·养生康复",
+      "total": 35,
+      "target": [
+        25,
+        35
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 140
+    },
+    "K": {
+      "name": "中药药剂学",
+      "total": 35,
+      "target": [
+        25,
+        35
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 140
+    },
+    "L": {
+      "name": "方剂学",
+      "total": 270,
+      "target": [
+        230,
+        270
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 117
+    },
+    "M": {
+      "name": "方剂剂量（维度）",
+      "total": 30,
+      "target": [
+        20,
+        30
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "N": {
+      "name": "中医经典",
+      "total": 145,
+      "target": [
+        120,
+        145
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 121
+    },
+    "AA": {
+      "name": "传染病·预防",
+      "total": 30,
+      "target": [
+        20,
+        30
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "AB": {
+      "name": "全科医学",
+      "total": 25,
+      "target": [
+        15,
+        25
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 167
+    },
+    "AD": {
+      "name": "伦理·法律",
+      "total": 20,
+      "target": [
+        12,
+        20
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 167
+    },
+    "AE": {
+      "name": "沟通·心理",
+      "total": 20,
+      "target": [
+        12,
+        20
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 167
+    },
+    "AF": {
+      "name": "科研·证据",
+      "total": 25,
+      "target": [
+        18,
+        25
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 139
+    },
+    "AG": {
+      "name": "综合医案·试炼",
+      "total": 30,
+      "target": [
+        20,
+        30
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "O": {
+      "name": "医古文",
+      "total": 55,
+      "target": [
+        40,
+        55
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 138
+    },
+    "P": {
+      "name": "各家学说",
+      "total": 45,
+      "target": [
+        30,
+        45
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "R": {
+      "name": "中医内科学",
+      "total": 115,
+      "target": [
+        95,
+        115
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 121
+    },
+    "S": {
+      "name": "中医外科学",
+      "total": 40,
+      "target": [
+        30,
+        40
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 133
+    },
+    "T": {
+      "name": "中医妇科学",
+      "total": 40,
+      "target": [
+        30,
+        40
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 133
+    },
+    "U": {
+      "name": "中医儿科学",
+      "total": 35,
+      "target": [
+        25,
+        35
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 140
+    },
+    "V": {
+      "name": "中医骨伤科学",
+      "total": 30,
+      "target": [
+        20,
+        30
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    },
+    "W": {
+      "name": "中医眼科学",
+      "total": 25,
+      "target": [
+        15,
+        25
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 167
+    },
+    "X": {
+      "name": "中医耳鼻咽喉科",
+      "total": 25,
+      "target": [
+        15,
+        25
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 167
+    },
+    "Z": {
+      "name": "中医急诊",
+      "total": 30,
+      "target": [
+        20,
+        30
+      ],
+      "gap": [
+        0,
+        0
+      ],
+      "pctOfLow": 150
+    }
+  },
+  "sourceVerification": {
+    "verified": 2159,
+    "total": 2215,
+    "pct": 97
+  },
+  "leakThrough": {
+    "total": "见批次明细",
+    "batches": [
+      {
+        "batch": "phase-3b",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-4/batch-2",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-4/batch-3",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-4/batch-4",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-5/batch-1",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-5/batch-2",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-5/batch-3",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-5/batch-4",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      },
+      {
+        "batch": "phase-5/batch-5",
+        "leakThrough": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "H": 0,
+          "J": 0,
+          "K": 0
+        }
+      }
+    ]
+  },
+  "c3c4": {
+    "cLevels": {
+      "C1": 1,
+      "C2": 1,
+      "C3": 124,
+      "C4": 45
+    },
+    "humanReviewRequired": 43
+  },
+  "highRiskIsolation": {
+    "note": "各批次 highRiskIsolationRate 均为 100%（无未隔离高危）",
+    "batches": [
+      {
+        "batch": "phase-3b",
+        "pct": 100
+      },
+      {
+        "batch": "phase-4/batch-2",
+        "pct": 100
+      },
+      {
+        "batch": "phase-4/batch-3",
+        "pct": 100
+      },
+      {
+        "batch": "phase-4/batch-4",
+        "pct": 100
+      },
+      {
+        "batch": "phase-5/batch-1",
+        "pct": 100
+      },
+      {
+        "batch": "phase-5/batch-2",
+        "pct": 100
+      },
+      {
+        "batch": "phase-5/batch-3",
+        "pct": 100
+      },
+      {
+        "batch": "phase-5/batch-4",
+        "pct": 100
+      },
+      {
+        "batch": "phase-5/batch-5",
+        "pct": 100
+      }
+    ]
+  },
+  "newDefects": {
+    "count": 0,
+    "pipelineAlerts": []
+  },
+  "templateRepetition": {
+    "hGate": 0,
+    "machineLike": 0
+  },
+  "batches": [
+    {
+      "batch": "phase-3b",
+      "total": 50,
+      "verdict": {
+        "candidate": 43,
+        "conditional": 5,
+        "quarantine": 2
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 134,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 8,
+        "nodes": 8,
+        "pct": 100
+      },
+      "gateFailByLetter": {
+        "E": 2
+      }
+    },
+    {
+      "batch": "phase-4/batch-2",
+      "total": 75,
+      "verdict": {
+        "candidate": 73,
+        "conditional": 2,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 119,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-4/batch-3",
+      "total": 75,
+      "verdict": {
+        "candidate": 64,
+        "conditional": 8,
+        "quarantine": 3
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 76,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {
+        "E": 3,
+        "G": 1
+      }
+    },
+    {
+      "batch": "phase-4/batch-4",
+      "total": 139,
+      "verdict": {
+        "candidate": 55,
+        "conditional": 84,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 139,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-5/batch-1",
+      "total": 150,
+      "verdict": {
+        "candidate": 150,
+        "conditional": 0,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 244,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-5/batch-2",
+      "total": 55,
+      "verdict": {
+        "candidate": 55,
+        "conditional": 0,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 118,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-5/batch-3",
+      "total": 30,
+      "verdict": {
+        "candidate": 30,
+        "conditional": 0,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 90,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 0,
+        "nodes": 0,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-5/batch-4",
+      "total": 50,
+      "verdict": {
+        "candidate": 50,
+        "conditional": 0,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 114,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 2,
+        "nodes": 2,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    },
+    {
+      "batch": "phase-5/batch-5",
+      "total": 50,
+      "verdict": {
+        "candidate": 50,
+        "conditional": 0,
+        "quarantine": 0
+      },
+      "leakThrough": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0,
+        "H": 0,
+        "J": 0,
+        "K": 0
+      },
+      "unknownSourceRatio": {
+        "unknown": 0,
+        "total": 158,
+        "pct": 0
+      },
+      "highRiskIsolationRate": {
+        "covered": 5,
+        "nodes": 5,
+        "pct": 100
+      },
+      "gateFailByLetter": {}
+    }
+  ]
+}

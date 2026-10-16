@@ -1,0 +1,9 @@
+{
+  "seed": "phase-5/batch-25",
+  "genLabel": "Phase 5 · Batch-25 · 20 nodes（Z 中医急诊 0→20 下限）",
+  "counts": {
+    "quarantine": 0
+  },
+  "note": "隔离 = Gate 最终不变式拦截。隔离即安全：不得自动放行。",
+  "samples": []
+}

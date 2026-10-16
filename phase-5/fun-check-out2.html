@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="zh"><head>
+<meta charset="UTF-8">
+<title>Fun Check</title>
+<style>body { font-family: monospace; padding: 12px; background: #fff; } pre { white-space: pre-wrap; } iframe { width: 1200px; height: 1500px; border: 1px solid #ccc; }</style>
+</head>
+<body>
+<iframe src="/#/practice/02-01"></iframe>
+<script>
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+(async () => {
+  await sleep(8000);
+  const lines = [];
+  try {
+    const ifr = document.querySelector('iframe');
+    const d = ifr.contentDocument;
+    const pick = (sel) => {
+      const el = d.querySelector(sel);
+      return el ? el.textContent.trim().replace(/\s+/g, ' ').slice(0, 120) : '(absent)';
+    };
+    lines.push('PERSONA: ' + pick('.persona-card'));
+    lines.push('DRAMA: ' + pick('.drama-box'));
+    lines.push('FUNFACT: ' + pick('.funfact-box'));
+    lines.push('MEM: ' + pick('.mem-text'));
+    lines.push('TRAP: ' + pick('.trap-statement'));
+  } catch (e) {
+    lines.push('ERR ' + e.message);
+  }
+  const pre = document.createElement('pre');
+  pre.textContent = lines.join('\n');
+  document.body.appendChild(pre);
+})();
+</script>
+
+
+
+<pre>PERSONA: 🎭 阴阳 · 平衡师人设档案「白天阳，黑夜阴；动是阳，静是阴。」阴阳不是玄学，是「相反相成」的两面：寒热、上下、表里、动静，调和了就是健康态。
+DRAMA: 🎬 情景小剧场 深夜的宿舍「刚打完游戏的室友」认真地对你说——「「消长」与「转化」不同：消长是量变（如昼渐长夜渐短），转化是质变（寒极生热），两者不可混为一谈。」上面这句台词，是「正确理解」还是「常见误区」？请判断：
+FUNFACT: 💡涨知识：阴阳不是玄学：白天阳、夜晚阴，动是阳、静是阴——就是一对「相反相成」的搭档。
+MEM: 阴阳对立互根消长转化，天地之道万物纲纪之原典根基
+TRAP: 「「消长」与「转化」不同：消长是量变（如昼渐长夜渐短），转化是质变（寒极生热），两者不可混为一谈。」</pre></body></html>

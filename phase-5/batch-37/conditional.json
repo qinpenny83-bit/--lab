@@ -1,0 +1,28 @@
+{
+  "seed": "phase-5/batch-37",
+  "genLabel": "Phase 5 · Batch-37 · 40 nodes（G 中药学 250→290 上限补足）",
+  "note": "conditional = Gate 全绿但含「需人工复核」标记。须人工补核后转 candidate 或 quarantine。",
+  "counts": {
+    "conditional": 1
+  },
+  "samples": [
+    {
+      "id": "pb37-g-017",
+      "title": "艾叶与灶心土",
+      "category": "herb",
+      "difficulty": 3,
+      "difficultyLabel": "困难",
+      "reviewReasons": [
+        "经典「《名医别录》」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+      ],
+      "humanReviewRequired": false,
+      "corrections": [
+        {
+          "layer": "来源解析",
+          "kind": "K",
+          "reason": "经典「《名医别录》」无权威出处表记录却标 classic_original+verified，降级为 traditional_commentary/teaching_inference"
+        }
+      ]
+    }
+  ]
+}
