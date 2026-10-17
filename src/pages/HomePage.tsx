@@ -32,7 +32,7 @@ const ARC_LABEL: Record<string, string> = {
 };
 
 /** 「今天你会」标题：按日期轮换，避免每天一模一样 */
-const GREET = ['今天你会', '今日四步，陪你走', '今天这一程', '今日该做的四件小事', '今天，咱们这样练', '今日行程'];
+const GREET = ['今天你会', '今日四步，陪你走', '今天这一程', '今日该做的四件小事', '今天，咱们这样练'];
 
 /** 动作措辞变体：每个学习动作给几种说法，按日期轮换 */
 const ACTION_VARIANTS: Record<string, string[]> = {

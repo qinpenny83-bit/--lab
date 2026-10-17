@@ -155,11 +155,20 @@ export default function Stage5CoursePage() {
         </div>
       ) : current ? (
         current.interactionType === 'case_analysis' ? (
-          <ReasoningPlayer
-            key={current.id}
-            challenge={reasoningChallengeById(parseChallengeId(current.interactionData))!}
-            onDone={handleCaseDone}
-          />
+          (() => {
+            const ch = reasoningChallengeById(parseChallengeId(current.interactionData));
+            if (!ch) {
+              // 兜底：推理材料缺失时不白屏，允许跳过该单元继续学习
+              return (
+                <div className="card empty-card">
+                  <h3>这份推理案例暂时不可用</h3>
+                  <p>材料还在准备中。你可以先跳过这一步，继续后面的内容。</p>
+                  <button className="btn btn-primary" onClick={handleCaseDone}>先跳过这一步 →</button>
+                </div>
+              );
+            }
+            return <ReasoningPlayer key={current.id} challenge={ch} onDone={handleCaseDone} />;
+          })()
         ) : (
           <LearningUnitPlayer key={current.id} unit={current} onComplete={() => navigate(`/course/${chapterId}`)} />
         )
